@@ -42126,24 +42126,6 @@
         "ar" : {
           "variations" : {
             "plural" : {
-              "zero" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
-                }
-              },
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -42156,7 +42138,25 @@
                   "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
+                }
+              },
               "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
+                }
+              },
+              "zero" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "عدد الإدخالات المخزّنة مؤقتًا في دليل البرامج: %lld"
@@ -42186,16 +42186,16 @@
         "ca" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld entrada de programació desada a la memòria cau"
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld entrades de programació desades a la memòria cau"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld entrada de programació desada a la memòria cau"
                 }
               },
               "other" : {
@@ -42210,12 +42210,6 @@
         "cs" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld uložený záznam v programovém průvodci"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -42226,6 +42220,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld uloženého záznamu v programovém průvodci"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld uložený záznam v programovém průvodci"
                 }
               },
               "other" : {
@@ -42312,16 +42312,16 @@
         "es" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld entrada de programación en caché"
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld entradas de programación en caché"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld entrada de programación en caché"
                 }
               },
               "other" : {
@@ -42372,16 +42372,16 @@
         "fr" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld entrée de programme mise en cache"
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld entrées de programmes mises en cache"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld entrée de programme mise en cache"
                 }
               },
               "other" : {
@@ -42402,13 +42402,13 @@
                   "value" : "%lld רשומת תוכנית שנשמרה במטמון"
                 }
               },
-              "two" : {
+              "other" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld רשומות תוכניות שנשמרו במטמון"
                 }
               },
-              "other" : {
+              "two" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld רשומות תוכניות שנשמרו במטמון"
@@ -42438,16 +42438,16 @@
         "hr" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld spremljeni unos TV rasporeda"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld spremljena unosa TV rasporeda"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld spremljeni unos TV rasporeda"
                 }
               },
               "other" : {
@@ -42492,16 +42492,16 @@
         "it" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld voce della guida programmi memorizzata nella cache"
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld voci della guida programmi memorizzate nella cache"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld voce della guida programmi memorizzata nella cache"
                 }
               },
               "other" : {
@@ -42588,12 +42588,6 @@
         "pl" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld zapisana pozycja przewodnika"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -42604,6 +42598,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld zapisanych pozycji przewodnika"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld zapisana pozycja przewodnika"
                 }
               },
               "other" : {
@@ -42618,16 +42618,16 @@
         "pt-BR" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld entrada de programação em cache"
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld entradas de programação em cache"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld entrada de programação em cache"
                 }
               },
               "other" : {
@@ -42642,16 +42642,16 @@
         "ro" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld intrare din ghidul de programe salvată în cache"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld intrări din ghidul de programe salvate în cache"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld intrare din ghidul de programe salvată în cache"
                 }
               },
               "other" : {
@@ -42666,12 +42666,6 @@
         "ru" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld сохранённая запись телегида"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -42682,6 +42676,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld сохранённых записей телегида"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld сохранённая запись телегида"
                 }
               },
               "other" : {
@@ -42696,12 +42696,6 @@
         "sk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld záznam programového sprievodcu vo vyrovnávacej pamäti"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -42712,6 +42706,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld záznamu programového sprievodcu vo vyrovnávacej pamäti"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld záznam programového sprievodcu vo vyrovnávacej pamäti"
                 }
               },
               "other" : {
@@ -42726,28 +42726,28 @@
         "sl" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld predpomnjen vnos v sporedu"
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld predpomnjena vnosa v sporedu"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld predpomnjeni vnosi v sporedu"
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld predpomnjen vnos v sporedu"
+                }
+              },
               "other" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld predpomnjenih vnosov v sporedu"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld predpomnjena vnosa v sporedu"
                 }
               }
             }
@@ -42756,16 +42756,16 @@
         "sr-Latn" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld keširan unos u TV vodiču"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld keširana unosa u TV vodiču"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld keširan unos u TV vodiču"
                 }
               },
               "other" : {
@@ -42828,12 +42828,6 @@
         "uk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld кешований запис телегіда"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -42844,6 +42838,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld кешованих записів телегіда"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld кешований запис телегіда"
                 }
               },
               "other" : {
@@ -676058,7 +676058,7 @@
       }
     },
     "navigationRail.liveTV" : {
-      "comment" : "Development-only Live TV prototype navigation destination.",
+      "comment" : "Live TV navigation destination.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
