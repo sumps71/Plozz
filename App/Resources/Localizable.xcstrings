@@ -4651,6 +4651,9 @@
         }
       }
     },
+    "%@ out of 5" : {
+
+    },
     "%@ rating %@" : {
       "comment" : "Accessibility label for one rating badge in a ratings row. %@ is the rating source name, and the second %@ is the displayed score.",
       "localizations" : {
@@ -62896,45 +62899,9 @@
     },
     "%lld items skipped: missing duration or metadata." : {
       "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld item skipped: missing duration or metadata."
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld items skipped: missing duration or metadata."
-                }
-              }
-            }
-          }
-        },
         "ar" : {
           "variations" : {
             "plural" : {
-              "zero" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "لم يتم تخطي أي عنصر (%lld) لعدم توفر المدة أو البيانات الوصفية."
-                }
-              },
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "تم تخطي عنصر واحد (%lld) لعدم توفر مدته أو بياناته الوصفية."
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "تم تخطي عنصرين (%lld) لعدم توفر مدتهما أو بياناتهما الوصفية."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -62947,10 +62914,28 @@
                   "value" : "تم تخطي %lld عنصرًا لعدم توفر مددها أو بياناتها الوصفية."
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "تم تخطي عنصر واحد (%lld) لعدم توفر مدته أو بياناته الوصفية."
+                }
+              },
               "other" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "تم تخطي %lld عنصر لعدم توفر المدة أو البيانات الوصفية."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "تم تخطي عنصرين (%lld) لعدم توفر مدتهما أو بياناتهما الوصفية."
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "لم يتم تخطي أي عنصر (%lld) لعدم توفر المدة أو البيانات الوصفية."
                 }
               }
             }
@@ -62977,6 +62962,12 @@
         "ca" : {
           "variations" : {
             "plural" : {
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "S’han omès %lld elements: durada o metadades no disponibles."
+                }
+              },
               "one" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -62984,12 +62975,6 @@
                 }
               },
               "other" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "S’han omès %lld elements: durada o metadades no disponibles."
-                }
-              },
-              "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "S’han omès %lld elements: durada o metadades no disponibles."
@@ -63082,6 +63067,24 @@
             }
           }
         },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld item skipped: missing duration or metadata."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld items skipped: missing duration or metadata."
+                }
+              }
+            }
+          }
+        },
         "es" : {
           "variations" : {
             "plural" : {
@@ -63157,25 +63160,25 @@
         "he" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "פריטים שלא נכללו: %lld. חסרים נתוני משך או מטא־נתונים."
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "פריטים שלא נכללו: %lld. חסרים נתוני משך או מטא־נתונים."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "פריטים שלא נכללו: %lld. חסרים נתוני משך או מטא־נתונים."
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "פריטים שלא נכללו: %lld. חסרים נתוני משך או מטא־נתונים."
+                }
+              },
               "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "פריטים שלא נכללו: %lld. חסרים נתוני משך או מטא־נתונים."
+                }
+              },
+              "two" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "פריטים שלא נכללו: %lld. חסרים נתוני משך או מטא־נתונים."
@@ -63397,16 +63400,16 @@
         "ro" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld element omis din cauza lipsei duratei sau a metadatelor."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld elemente omise din cauza lipsei duratei sau a metadatelor."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld element omis din cauza lipsei duratei sau a metadatelor."
                 }
               },
               "other" : {
@@ -119700,6 +119703,9 @@
         }
       }
     },
+    "Average recommended age: %@+" : {
+
+    },
     "BEHIND LIVE" : {
       "localizations" : {
         "ar" : {
@@ -137425,6 +137431,9 @@
           }
         }
       }
+    },
+    "Category scores describe how much of that content is present, not an overall age recommendation." : {
+
     },
     "Center" : {
       "comment" : "Extra Line Position option: additional subtitle lines expand around the same vertical midpoint, rather than only above or below.",
@@ -171646,6 +171655,9 @@
         }
       }
     },
+    "Content guidance" : {
+
+    },
     "Content type controls scanning and matching. Personal Videos stay playable without movie or show matching. Re-adding the same location updates these settings without changing its library identity." : {
       "localizations" : {
         "ar" : {
@@ -196778,6 +196790,12 @@
           }
         }
       }
+    },
+    "Detailed guidance is not available for this title." : {
+
+    },
+    "Detailed guidance requires Plex Pass access for the account viewing this title." : {
+
     },
     "Details" : {
       "comment" : "Section title used for factual details about a title, and for the subtitle-style subsection that contains advanced controls on iOS.",
@@ -238645,6 +238663,9 @@
         }
       }
     },
+    "Family guidance" : {
+
+    },
     "Fantasy & Sci-Fi" : {
       "localizations" : {
         "ar" : {
@@ -276733,6 +276754,9 @@
         }
       }
     },
+    "Is it any good?" : {
+
+    },
     "It's now playing and available in your subtitle list." : {
       "localizations" : {
         "ar" : {
@@ -282020,6 +282044,9 @@
           }
         }
       }
+    },
+    "Kids’ rating" : {
+
     },
     "Kinda Warm" : {
       "comment" : "One Circadian warmth level in Appearance settings, representing a light warm tint.",
@@ -298767,6 +298794,9 @@
           }
         }
       }
+    },
+    "Loading family guidance…" : {
+
     },
     "Loading featured content" : {
       "localizations" : {
@@ -360887,6 +360917,9 @@
         }
       }
     },
+    "Only the basic rating is available. Detailed guidance depends on Plex Pass access and coverage for this title." : {
+
+    },
     "Only this profile is affected. Who you watch as sets whose watchlist it uses." : {
       "comment" : "Explains that the library and identity choices on this screen apply to the current profile alone.",
       "localizations" : {
@@ -371708,6 +371741,9 @@
           }
         }
       }
+    },
+    "Parents’ rating" : {
+
     },
     "Partial guide" : {
       "localizations" : {
@@ -411402,6 +411438,9 @@
         }
       }
     },
+    "Quality rating" : {
+
+    },
     "Queued" : {
       "comment" : "Download status label shown before a queued download starts.",
       "localizations" : {
@@ -413386,6 +413425,9 @@
           }
         }
       }
+    },
+    "Ratings and guidance provided by Common Sense Media through Plex." : {
+
     },
     "Ratings are hidden until you've watched this. Reveals them anyway." : {
       "comment" : "Accessibility hint on the control that lifts the spoiler blur over a title's ratings.",
@@ -416695,6 +416737,12 @@
           }
         }
       }
+    },
+    "Recommended age" : {
+      "comment" : "Common Sense Media's age recommendation, not the official content certificate."
+    },
+    "Recommended age: %@+" : {
+
     },
     "Reconnect the selected server and try again." : {
       "localizations" : {
@@ -542807,6 +542855,9 @@
         }
       }
     },
+    "Talk with your family" : {
+
+    },
     "Tan" : {
       "comment" : "Accessibility label for a selectable Tan profile avatar color swatch in the profile editor.",
       "localizations" : {
@@ -632274,6 +632325,9 @@
         }
       }
     },
+    "What parents need to know" : {
+
+    },
     "What the cards in this row show." : {
       "localizations" : {
         "ar" : {
@@ -677140,12 +677194,6 @@
       "comment" : "Instructions for arranging iPhone and iPad navigation tabs.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Drag to reorder. Hold to hide or show."
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -677186,6 +677234,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Σύρετε για αναδιάταξη. Πατήστε παρατεταμένα για απόκρυψη ή εμφάνιση."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Drag to reorder. Hold to hide or show."
           }
         },
         "es" : {
