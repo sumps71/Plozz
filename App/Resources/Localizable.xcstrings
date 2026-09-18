@@ -7786,9 +7786,6 @@
         }
       }
     },
-    "%@+" : {
-
-    },
     "%@, offline" : {
       "comment" : "Accessibility label for an unavailable source row in the playback source picker. %@ is the source name.",
       "localizations" : {
@@ -119704,7 +119701,224 @@
       }
     },
     "Average recommended age: %@+" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "متوسط العمر الموصى به: %@+"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Средна препоръчителна възраст: %@+"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Edat mitjana recomanada: %@+"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Průměrný doporučený věk: %@+"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gennemsnitlig anbefalet alder: %@+"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Durchschnittliche Altersempfehlung: %@+"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Μέση προτεινόμενη ηλικία: %@+"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Edad recomendada media: %@+"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "میانگین سن پیشنهادی: %@+"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keskimääräinen ikäsuositus: %@+"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Âge recommandé moyen : %@+"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גיל מומלץ ממוצע: %@+"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सुझाई गई औसत उम्र: %@+"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prosječna preporučena dob: %@+"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Átlagos ajánlott életkor: %@+"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rata-rata usia yang disarankan: %@+"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Età media consigliata: %@+"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "平均推奨年齢：%@+"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "평균 권장 연령: %@+"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Purata umur yang disyorkan: %@+"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gjennomsnittlig anbefalt alder: %@+"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gemiddelde aanbevolen leeftijd: %@+"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Średni zalecany wiek: %@+"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Idade média recomendada: %@+"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vârsta medie recomandată: %@+"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Средний рекомендуемый возраст: %@+"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Priemerný odporúčaný vek: %@+"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Povprečna priporočena starost: %@+"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prosečan preporučeni uzrast: %@+"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Genomsnittlig rekommenderad ålder: %@+"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อายุที่แนะนำโดยเฉลี่ย: %@+"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ortalama önerilen yaş: %@+"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Середній рекомендований вік: %@+"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Độ tuổi khuyến nghị trung bình: %@+"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "平均建议年龄：%@+"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "平均建議年齡：%@+"
+          }
+        }
+      }
     },
     "BEHIND LIVE" : {
       "localizations" : {
@@ -163937,7 +164151,224 @@
       }
     },
     "Common Sense Media, recommended age %@ and older" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media، موصى به لعمر %@ فما فوق"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, препоръчителна възраст: %@ години и нагоре"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, recomanat a partir de %@ anys"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, doporučeno od %@ let"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, anbefalet fra %@ år"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, empfohlen ab %@ Jahren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, προτεινόμενη ηλικία %@ ετών και άνω"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, edad recomendada de %@ años en adelante"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media، سن پیشنهادی %@ سال به بالا"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, suositellaan %@ vuotta täyttäneille"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, âge recommandé : %@ ans et plus"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, גיל מומלץ: %@ ומעלה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, सुझाई गई उम्र %@ साल या उससे अधिक"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, preporučena dob: %@ i više"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, %@ éves kortól ajánlott"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, disarankan untuk usia %@ tahun ke atas"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, età consigliata: %@ anni e oltre"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media、推奨年齢は%@歳以上"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media 권장 연령: %@세 이상"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, disyorkan untuk umur %@ tahun ke atas"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, anbefalt fra %@ år"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, aanbevolen vanaf %@ jaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, zalecany wiek: od %@ lat"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, recomendado a partir de %@ anos"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, recomandat de la %@ ani"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, рекомендуемый возраст — %@ и старше"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, odporúčaný vek %@ a viac"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, priporočena starost %@ in več"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, preporučeni uzrast %@ i više"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, rekommenderad ålder %@ år och uppåt"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media แนะนำสำหรับอายุ %@ ปีขึ้นไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media önerisi: %@ yaş ve üzeri"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, рекомендований вік: від %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media, khuyến nghị từ %@ tuổi trở lên"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media，建议年龄为 %@ 岁及以上"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense Media，建議年齡為 %@ 歲以上"
+          }
+        }
+      }
     },
     "Community" : {
       "localizations" : {
@@ -171656,7 +172087,224 @@
       }
     },
     "Content level: %@ out of 5" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "شدة المحتوى: %@ من 5"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Интензивност на съдържанието: %@ от 5"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensitat del contingut: %@ de 5"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intenzita obsahu: %@ z 5"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Indholdets intensitet: %@ ud af 5"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensität des Inhalts: %@ von 5"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ένταση περιεχομένου: %@ στα 5"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensidad del contenido: %@ de 5"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "شدت محتوا: %@ از ۵"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sisällön voimakkuus: %@ / 5"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensité du contenu : %@ sur 5"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עוצמת התוכן: %@ מתוך 5"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सामग्री की तीव्रता: 5 में से %@"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intenzitet sadržaja: %@ od 5"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tartalom erőssége: %@ az 5-ből"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensitas konten: %@ dari 5"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensità dei contenuti: %@ su 5"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "表現の強さ：%@／5"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "콘텐츠 수위: 5점 기준 %@점"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tahap kandungan: %@ daripada 5"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Innholdets intensitet: %@ av 5"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensiteit van de inhoud: %@ van 5"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensywność treści: %@ z 5"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensidade do conteúdo: %@ de 5"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intensitatea conținutului: %@ din 5"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выраженность темы: %@ из 5"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intenzita obsahu: %@ z 5"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intenzivnost vsebine: %@ od 5"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Intenzitet sadržaja: %@ od 5"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Innehållets intensitet: %@ av 5"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ระดับความเข้มข้นของเนื้อหา: %@ จาก 5"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "İçerik yoğunluğu: 5 üzerinden %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Інтенсивність контенту: %@ з 5"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mức độ nội dung: %@ trên 5"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "内容强度：%@/5"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "內容強度：%@/5"
+          }
+        }
+      }
     },
     "Content type controls scanning and matching. Personal Videos stay playable without movie or show matching. Re-adding the same location updates these settings without changing its library identity." : {
       "localizations" : {
@@ -196792,10 +197440,444 @@
       }
     },
     "Detailed guidance is not available for this title." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا تتوفر إرشادات مفصّلة لهذا الفيلم أو المسلسل."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "За това заглавие няма подробни насоки."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No hi ha orientacions detallades per a aquest títol."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podrobné informace nejsou pro tento titul k dispozici."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Der findes ingen detaljeret vejledning til denne film eller serie."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Für diesen Film oder diese Serie sind keine ausführlichen Hinweise verfügbar."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν υπάρχουν αναλυτικές οδηγίες για αυτή την ταινία ή σειρά."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La guía detallada no está disponible para esta película o serie."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "راهنمای مفصل برای این فیلم یا سریال در دسترس نیست."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tälle elokuvalle tai sarjalle ei ole saatavilla yksityiskohtaista opasta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le guide détaillé n’est pas disponible pour ce film ou cette série."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין מדריך מפורט לסרט זה או לסדרה זו."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस फ़िल्म या शो के लिए विस्तृत मार्गदर्शन उपलब्ध नहीं है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Detaljne smjernice nisu dostupne za ovaj film ili seriju."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ehhez a filmhez vagy sorozathoz nem érhető el részletes útmutató."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Panduan terperinci tidak tersedia untuk film atau serial ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La guida dettagliata non è disponibile per questo film o questa serie."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "この作品の詳しいガイドはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 작품에 대한 자세한 안내가 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Panduan terperinci tidak tersedia untuk filem atau rancangan ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Detaljert veiledning er ikke tilgjengelig for denne filmen eller serien."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uitgebreid kijkadvies is niet beschikbaar voor deze film of serie."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Szczegółowe wskazówki dla tego filmu lub serialu są niedostępne."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Não há orientações detalhadas para este filme ou esta série."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Îndrumările detaliate nu sunt disponibile pentru acest film sau serial."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Подробные рекомендации для этого фильма или сериала недоступны."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podrobné odporúčania pre tento film alebo seriál nie sú k dispozícii."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podrobna priporočila za ta film ali serijo niso na voljo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Detaljne smernice nisu dostupne za ovaj film ili seriju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Detaljerad vägledning är inte tillgänglig för den här filmen eller serien."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่มีคำแนะนำโดยละเอียดสำหรับภาพยนตร์หรือรายการนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu film veya dizi için ayrıntılı rehber bulunmuyor."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Докладні поради для цього фільму чи серіалу недоступні."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không có hướng dẫn chi tiết cho phim hoặc chương trình này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此影片或剧集暂无详细指南。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此電影或影集未提供詳細指南。"
+          }
+        }
+      }
     },
     "Detailed guidance requires Plex Pass access for the account viewing this title." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تتطلب الإرشادات المفصّلة توفر إمكانية الوصول إلى Plex Pass للحساب المستخدم لمشاهدة هذا الفيلم أو المسلسل."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "За подробни насоки е необходим достъп до Plex Pass за акаунта, с който гледате това заглавие."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Per accedir a les orientacions detallades, el compte amb què es mira aquest títol ha de tenir accés a Plex Pass."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podrobné informace vyžadují přístup k Plex Pass pro účet používaný ke sledování tohoto titulu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Detaljeret vejledning kræver, at den konto, der bruges til at se denne film eller serie, har adgang til Plex Pass."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Für ausführliche Hinweise benötigt das Konto, mit dem dieser Film oder diese Serie angesehen wird, Zugriff auf Plex Pass."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι αναλυτικές οδηγίες απαιτούν πρόσβαση στο Plex Pass για τον λογαριασμό που χρησιμοποιείται για την προβολή αυτής της ταινίας ή σειράς."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Para ver la guía detallada, la cuenta con la que se ve esta película o serie debe tener acceso a Plex Pass."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برای دریافت راهنمای مفصل، حسابی که با آن این فیلم یا سریال را تماشا می‌کنید باید به Plex Pass دسترسی داشته باشد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yksityiskohtainen opas edellyttää Plex Pass -käyttöoikeutta tililtä, jolla tätä elokuvaa tai sarjaa katsotaan."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le guide détaillé nécessite un accès Plex Pass pour le compte utilisé pour regarder ce film ou cette série."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "כדי להציג מדריך מפורט, לחשבון המשמש לצפייה בסרט זה או בסדרה זו דרושה גישה ל-Plex Pass."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "विस्तृत मार्गदर्शन के लिए इस फ़िल्म या शो को देखने वाले खाते को Plex Pass का ऐक्सेस चाहिए।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za detaljne smjernice račun s kojeg gledate ovaj film ili seriju mora imati pristup usluzi Plex Pass."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A részletes útmutatóhoz a filmet vagy sorozatot megtekintő fióknak Plex Pass-hozzáférésre van szüksége."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Panduan terperinci memerlukan akses Plex Pass pada akun yang digunakan untuk menonton film atau serial ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La guida dettagliata richiede che l’account usato per guardare questo film o questa serie abbia accesso a Plex Pass."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "詳しいガイドを表示するには、この作品を視聴するアカウントでPlex Passを利用できる必要があります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "자세한 안내를 보려면 이 작품을 시청하는 계정에 Plex Pass 이용 권한이 있어야 합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Untuk melihat panduan terperinci, akaun yang digunakan untuk menonton filem atau rancangan ini mesti mempunyai akses kepada Plex Pass."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Detaljert veiledning krever at kontoen du bruker til å se denne filmen eller serien, har tilgang til Plex Pass."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voor uitgebreid kijkadvies moet het account waarmee je deze film of serie bekijkt toegang hebben tot Plex Pass."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Szczegółowe wskazówki wymagają dostępu do Plex Pass na koncie, z którego oglądasz ten film lub serial."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "As orientações detalhadas exigem acesso ao Plex Pass na conta usada para assistir ao filme ou à série."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pentru îndrumări detaliate, contul de pe care vizionați acest film sau serial trebuie să aibă acces la Plex Pass."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Для подробных рекомендаций у аккаунта, с которого просматривают этот фильм или сериал, должен быть доступ к Plex Pass."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podrobné odporúčania vyžadujú prístup k Plex Pass pre účet, z ktorého sa tento film alebo seriál sleduje."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za podrobna priporočila mora imeti račun, s katerim gledate ta film ali serijo, dostop do Plex Pass."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za detaljne smernice nalog sa kog gledate ovaj film ili seriju mora imati pristup usluzi Plex Pass."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "För detaljerad vägledning måste kontot som används för att se den här filmen eller serien ha tillgång till Plex Pass."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "บัญชีที่ใช้รับชมเรื่องนี้ต้องมีสิทธิ์เข้าถึง Plex Pass จึงจะดูคำแนะนำโดยละเอียดได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ayrıntılı rehber için bu film veya diziyi izleyen hesabın Plex Pass erişimi olmalıdır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Докладні поради доступні, лише якщо обліковий запис, з якого ви дивитеся цей фільм чи серіал, має доступ до Plex Pass."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tài khoản đang xem phim hoặc chương trình này cần có quyền truy cập Plex Pass để xem hướng dẫn chi tiết."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "观看此影片或剧集的账号需有 Plex Pass 访问权限，才能查看详细指南。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "觀看此電影或影集的帳號需有 Plex Pass 使用權限，才能查看詳細指南。"
+          }
+        }
+      }
     },
     "Details" : {
       "comment" : "Section title used for factual details about a title, and for the subtitle-style subsection that contains advanced controls on iOS.",
@@ -238664,7 +239746,224 @@
       }
     },
     "Family guidance" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "إرشادات للأسرة"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Насоки за семейството"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Orientacions per a famílies"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Informace pro rodiny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vejledning til familien"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hinweise für Familien"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οδηγός για την οικογένεια"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Guía para familias"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "راهنمای خانواده"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opas perheille"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Guide pour les familles"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מדריך למשפחה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "परिवार के लिए मार्गदर्शन"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Smjernice za obitelj"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Családi útmutató"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Panduan keluarga"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Guida per le famiglie"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家族向けガイド"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "가족 시청 가이드"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Panduan keluarga"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Veiledning for familien"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kijkadvies voor gezinnen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wskazówki dla rodzin"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Orientações para a família"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Îndrumări pentru familie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Рекомендации для семьи"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odporúčania pre rodinu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Priporočila za družine"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Smernice za porodicu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vägledning för familjer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "คำแนะนำสำหรับครอบครัว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aile rehberi"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Поради для родини"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hướng dẫn dành cho gia đình"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家庭观影指南"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家庭觀影指南"
+          }
+        }
+      }
     },
     "Fantasy & Sci-Fi" : {
       "localizations" : {
@@ -282043,7 +283342,224 @@
       }
     },
     "Kids’ rating" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تقييم من الأطفال"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценка от деца"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valoració dels infants"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnocení od dětí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Børns vurdering"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bewertung von Kindern"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Βαθμολογία από παιδιά"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Puntuación dada por niños"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "امتیاز داده‌شده توسط کودکان"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lasten antama arvosana"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Note attribuée par les enfants"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דירוג שנתנו ילדים"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "बच्चों द्वारा दी गई रेटिंग"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocjena djece"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gyerekek értékelése"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penilaian dari anak-anak"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valutazione dei ragazzi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "子どもによる評価"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "어린이가 매긴 평점"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penilaian oleh kanak-kanak"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Barnas vurdering"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beoordeling door kinderen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena od dzieci"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Avaliação das crianças"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nota acordată de copii"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценка от детей"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnotenie od detí"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena po mnenju otrok"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena koju daju deca"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Betyg från barn"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "คะแนนจากเด็ก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Çocukların verdiği puan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оцінка від дітей"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Điểm đánh giá của trẻ em"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "儿童观众评分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "兒童觀眾評分"
+          }
+        }
+      }
     },
     "Kinda Warm" : {
       "comment" : "One Circadian warmth level in Appearance settings, representing a light warm tint.",
@@ -298793,7 +300309,224 @@
       }
     },
     "Loading family guidance…" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "جارٍ تحميل إرشادات الأسرة…"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Зареждане на насоките за семейството…"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "S’estan carregant les orientacions per a famílies…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Načítání informací pro rodiny…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Indlæser vejledning til familien…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hinweise für Familien werden geladen…"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Φόρτωση οδηγού για την οικογένεια…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cargando la guía para familias…"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "در حال بارگیری راهنمای خانواده…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ladataan opasta perheille…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chargement du guide pour les familles…"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המדריך למשפחה נטען…"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "परिवार के लिए मार्गदर्शन लोड हो रहा है…"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Učitavanje smjernica za obitelj…"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Családi útmutató betöltése…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Memuat panduan keluarga…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Caricamento della guida per le famiglie…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家族向けガイドを読み込み中…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "가족 시청 가이드 불러오는 중…"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Memuatkan panduan keluarga…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Laster veiledning for familien…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kijkadvies voor gezinnen laden…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wczytywanie wskazówek dla rodzin…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Carregando orientações para a família…"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se încarcă îndrumările pentru familie…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Загрузка рекомендаций для семьи…"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Načítavajú sa odporúčania pre rodinu…"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nalaganje priporočil za družine…"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Učitavanje smernica za porodicu…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Läser in vägledning för familjer…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "กำลังโหลดคำแนะนำสำหรับครอบครัว…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aile rehberi yükleniyor…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Завантаження порад для родини…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đang tải hướng dẫn dành cho gia đình…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在加载家庭观影指南…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在載入家庭觀影指南…"
+          }
+        }
+      }
     },
     "Loading featured content" : {
       "localizations" : {
@@ -333132,7 +334865,224 @@
       }
     },
     "No age recommendation" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا توجد توصية عمرية"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Няма препоръка за възраст"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sense recomanació d’edat"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bez věkového doporučení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ingen aldersanbefaling"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keine Altersempfehlung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν υπάρχει προτεινόμενη ηλικία"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sin recomendación de edad"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "سن پیشنهادی مشخص نشده"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ei ikäsuositusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aucune recommandation d’âge"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין המלצת גיל"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "उम्र का कोई सुझाव नहीं"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nema preporučene dobi"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nincs életkori ajánlás"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tidak ada rekomendasi usia"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nessuna età consigliata"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "推奨年齢なし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "권장 연령 정보 없음"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tiada cadangan umur"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ingen aldersanbefaling"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Geen leeftijdsadvies"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brak zalecanego wieku"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sem recomendação de idade"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fără recomandare de vârstă"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Нет рекомендации по возрасту"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bez odporúčaného veku"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brez starostnega priporočila"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nema preporuke za uzrast"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ingen åldersrekommendation"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่ระบุอายุที่แนะนำ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yaş önerisi yok"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Немає рекомендації щодо віку"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không có độ tuổi khuyến nghị"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "无建议年龄"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "無建議年齡"
+          }
+        }
+      }
     },
     "No alternate audio" : {
       "localizations" : {
@@ -336439,7 +338389,224 @@
       }
     },
     "No explanation was provided for this topic." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لم يُقدَّم شرح لهذا الموضوع."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Няма обяснение за тази тема."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No s’ha proporcionat cap explicació per a aquest tema."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "K tomuto tématu nebylo poskytnuto vysvětlení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Der er ikke angivet en forklaring til dette emne."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zu diesem Thema gibt es keine Erläuterung."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν δόθηκε εξήγηση για αυτό το θέμα."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No se ha proporcionado ninguna explicación sobre este tema."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برای این موضوع توضیحی ارائه نشده است."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tästä aiheesta ei ole annettu selitystä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aucune explication n’a été fournie pour ce sujet."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא סופק הסבר לנושא זה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस विषय के लिए कोई स्पष्टीकरण नहीं दिया गया है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za ovu temu nije navedeno objašnjenje."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ehhez a témához nem adtak meg magyarázatot."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tidak ada penjelasan untuk topik ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Non è stata fornita una spiegazione per questo argomento."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "この項目の説明はありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 항목에 대한 설명이 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tiada penjelasan diberikan untuk topik ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Det er ikke gitt noen forklaring for dette temaet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Er is geen toelichting beschikbaar voor dit onderwerp."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie podano wyjaśnienia dla tej kategorii."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Não há explicação para esta categoria."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nu a fost oferită nicio explicație pentru acest subiect."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Для этой темы пояснение не предоставлено."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "K tejto téme nebolo poskytnuté vysvetlenie."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za to temo ni pojasnila."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za ovu temu nije dato objašnjenje."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ingen förklaring finns för det här ämnet."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่มีคำอธิบายสำหรับหัวข้อนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu konu için açıklama sunulmamış."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Для цієї теми не надано пояснення."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không có phần giải thích cho chủ đề này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此主题未提供说明。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此主題未提供說明。"
+          }
+        }
+      }
     },
     "No favorite Multiviews" : {
       "localizations" : {
@@ -349877,7 +352044,224 @@
       }
     },
     "Not rated" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "غير مقيَّم"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Без оценка"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sense valorar"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nehodnoceno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ikke vurderet"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nicht bewertet"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Χωρίς βαθμολογία"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sin puntuación"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "بدون امتیاز"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ei arvioitu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Non noté"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ללא דירוג"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "रेटिंग उपलब्ध नहीं"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nije ocijenjeno"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nincs értékelés"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Belum dinilai"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Non valutato"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "評価なし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "평점 없음"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Belum dinilai"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ikke vurdert"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Niet beoordeeld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brak oceny"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sem avaliação"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fără evaluare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Нет оценки"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nehodnotené"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ni ocenjeno"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nije ocenjeno"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ej betygsatt"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่มีคะแนน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Puanlanmamış"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не оцінено"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chưa được đánh giá"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "暂无评分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "尚無評分"
+          }
+        }
+      }
     },
     "Not saved" : {
       "localizations" : {
@@ -363351,7 +365735,224 @@
       }
     },
     "Open family guidance" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فتح إرشادات الأسرة"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Отваряне на насоките за семейството"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obre les orientacions per a famílies"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otevřít informace pro rodiny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Åbn vejledning til familien"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hinweise für Familien öffnen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Άνοιγμα οδηγού για την οικογένεια"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abrir la guía para familias"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "باز کردن راهنمای خانواده"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Avaa opas perheille"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ouvrir le guide pour les familles"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פתיחת המדריך למשפחה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "परिवार के लिए मार्गदर्शन खोलें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otvori smjernice za obitelj"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Családi útmutató megnyitása"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Buka panduan keluarga"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Apri la guida per le famiglie"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家族向けガイドを開く"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "가족 시청 가이드 열기"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Buka panduan keluarga"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Åpne veiledning for familien"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kijkadvies voor gezinnen openen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otwórz wskazówki dla rodzin"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abrir orientações para a família"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deschideți îndrumările pentru familie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Открыть рекомендации для семьи"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otvoriť odporúčania pre rodinu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odpri priporočila za družine"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otvori smernice za porodicu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Öppna vägledning för familjer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เปิดคำแนะนำสำหรับครอบครัว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aile rehberini aç"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Відкрити поради для родини"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mở hướng dẫn dành cho gia đình"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "打开家庭观影指南"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "開啟家庭觀影指南"
+          }
+        }
+      }
     },
     "Open folder" : {
       "localizations" : {
@@ -371750,7 +374351,224 @@
       }
     },
     "Parents’ rating" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تقييم من الأهالي"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценка от родители"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valoració dels pares"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnocení od rodičů"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Forældres vurdering"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bewertung von Eltern"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Βαθμολογία από γονείς"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Puntuación dada por padres"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "امتیاز داده‌شده توسط والدین"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vanhempien antama arvosana"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Note attribuée par les parents"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דירוג שנתנו הורים"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "माता-पिता द्वारा दी गई रेटिंग"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocjena roditelja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Szülők értékelése"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penilaian dari orang tua"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valutazione dei genitori"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "保護者による評価"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "부모가 매긴 평점"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penilaian oleh ibu bapa"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Foreldrenes vurdering"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beoordeling door ouders"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena od rodziców"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Avaliação dos pais"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nota acordată de părinți"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценка от родителей"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnotenie od rodičov"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena po mnenju staršev"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena koju daju roditelji"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Betyg från föräldrar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "คะแนนจากผู้ปกครอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ebeveynlerin verdiği puan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оцінка від батьків"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Điểm đánh giá của phụ huynh"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家长评分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家長評分"
+          }
+        }
+      }
     },
     "Partial guide" : {
       "localizations" : {
@@ -411446,10 +414264,444 @@
       }
     },
     "Quality rating: %@ out of 5" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تقييم الجودة: %@ من 5"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценка за качество: %@ от 5"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valoració de la qualitat: %@ de 5"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnocení kvality: %@ z 5"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kvalitetsvurdering: %@ ud af 5"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Qualitätsbewertung: %@ von 5"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Βαθμολογία ποιότητας: %@ στα 5"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Puntuación de calidad: %@ de 5"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "امتیاز کیفیت: %@ از ۵"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Laatuarvio: %@ / 5"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Note de qualité : %@ sur 5"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דירוג איכות: %@ מתוך 5"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "गुणवत्ता की रेटिंग: 5 में से %@"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocjena kvalitete: %@ od 5"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Minőség értékelése: %@ az 5-ből"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nilai kualitas: %@ dari 5"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valutazione della qualità: %@ su 5"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "作品の質の評価：%@／5"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "작품 평점: 5점 만점에 %@점"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penilaian kualiti: %@ daripada 5"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kvalitetsvurdering: %@ av 5"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kwaliteitsbeoordeling: %@ van 5"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena jakości: %@ z 5"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nota de qualidade: %@ de 5"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nota pentru calitate: %@ din 5"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценка качества: %@ из 5"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnotenie kvality: %@ z 5"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena kakovosti: %@ od 5"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocena kvaliteta: %@ od 5"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kvalitetsbetyg: %@ av 5"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "คะแนนคุณภาพ: %@ จาก 5"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kalite puanı: 5 üzerinden %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оцінка якості: %@ з 5"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Điểm chất lượng: %@ trên 5"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "质量评分：%@/5"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "品質評分：%@/5"
+          }
+        }
+      }
     },
     "Quality ratings, not age recommendations" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تقييمات للجودة، وليست توصيات عمرية"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценки за качество, а не препоръки за възраст"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valoracions de la qualitat, no recomanacions d’edat"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnocení kvality, nikoli věková doporučení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kvalitetsvurderinger, ikke aldersanbefalinger"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Qualitätsbewertungen, keine Altersempfehlungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Βαθμολογίες ποιότητας, όχι προτεινόμενες ηλικίες"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Puntuaciones de calidad, no recomendaciones de edad"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "امتیازهای کیفیت، نه سن‌های پیشنهادی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Laatuarvioita, ei ikäsuosituksia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Notes de qualité, pas des recommandations d’âge"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "דירוגי איכות, לא המלצות גיל"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "गुणवत्ता की रेटिंग, उम्र के सुझाव नहीं"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocjene kvalitete, a ne dobne preporuke"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A minőséget értékelik, nem ajánlott életkort jelölnek"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nilai kualitas, bukan rekomendasi usia"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valutazioni della qualità, non età consigliate"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "作品の質に対する評価であり、推奨年齢ではありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "권장 연령이 아닌 작품 평점"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penilaian kualiti, bukan cadangan umur"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kvalitetsvurderinger, ikke aldersanbefalinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kwaliteitsbeoordelingen, geen leeftijdsadviezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Oceny jakości, nie zalecenia wiekowe"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Notas de qualidade, não recomendações de idade"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Note pentru calitate, nu recomandări de vârstă"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценки качества, а не рекомендации по возрасту"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnotenia kvality, nie vekové odporúčania"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocene kakovosti, ne starostna priporočila"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocene kvaliteta, ne preporuke za uzrast"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kvalitetsbetyg, inte åldersrekommendationer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "คะแนนด้านคุณภาพ ไม่ใช่อายุที่แนะนำ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kalite puanlarıdır, yaş önerisi değildir"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оцінки якості, а не рекомендації щодо віку"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Điểm đánh giá chất lượng, không phải độ tuổi khuyến nghị"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "质量评分，非建议年龄"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "品質評分，並非建議年齡"
+          }
+        }
+      }
     },
     "Queued" : {
       "comment" : "Download status label shown before a queued download starts.",
@@ -416746,10 +419998,445 @@
       }
     },
     "Recommended age" : {
-      "comment" : "Common Sense Media's age recommendation, not the official content certificate."
+      "comment" : "Common Sense Media's age recommendation, not the official content certificate.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "العمر الموصى به"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Препоръчителна възраст"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Edat recomanada"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Doporučený věk"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anbefalet alder"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Empfohlenes Alter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προτεινόμενη ηλικία"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Edad recomendada"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "سن پیشنهادی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ikäsuositus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Âge recommandé"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גיל מומלץ"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सुझाई गई उम्र"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preporučena dob"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ajánlott életkor"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usia yang disarankan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Età consigliata"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "推奨年齢"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "권장 연령"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Umur yang disyorkan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anbefalt alder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aanbevolen leeftijd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zalecany wiek"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Idade recomendada"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vârsta recomandată"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Рекомендуемый возраст"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odporúčaný vek"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Priporočena starost"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preporučeni uzrast"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rekommenderad ålder"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อายุที่แนะนำ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Önerilen yaş"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Рекомендований вік"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Độ tuổi khuyến nghị"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "建议年龄"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "建議年齡"
+          }
+        }
+      }
     },
     "Recommended age: %@+" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "العمر الموصى به: %@+"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Препоръчителна възраст: %@+"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Edat recomanada: %@+"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Doporučený věk: %@+"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anbefalet alder: %@+"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Empfohlenes Alter: %@+"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προτεινόμενη ηλικία: %@+"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Edad recomendada: %@+"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "سن پیشنهادی: %@+"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ikäsuositus: %@+"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Âge recommandé : %@+"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גיל מומלץ: %@+"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सुझाई गई उम्र: %@+"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preporučena dob: %@+"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ajánlott életkor: %@+"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usia yang disarankan: %@+"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Età consigliata: %@+"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "推奨年齢：%@+"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "권장 연령: %@+"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Umur yang disyorkan: %@+"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anbefalt alder: %@+"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aanbevolen leeftijd: %@+"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zalecany wiek: %@+"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Idade recomendada: %@+"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vârsta recomandată: %@+"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Рекомендуемый возраст: %@+"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odporúčaný vek: %@+"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Priporočena starost: %@+"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preporučeni uzrast: %@+"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rekommenderad ålder: %@+"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อายุที่แนะนำ: %@+"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Önerilen yaş: %@+"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Рекомендований вік: %@+"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Độ tuổi khuyến nghị: %@+"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "建议年龄：%@+"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "建議年齡：%@+"
+          }
+        }
+      }
     },
     "Reconnect the selected server and try again." : {
       "localizations" : {
@@ -453305,10 +456992,444 @@
       }
     },
     "Review scores" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "درجات التقييم"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценки от рецензии"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Puntuacions de les ressenyes"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnocení z recenzí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anmeldelseskarakterer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rezensionswertungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Βαθμολογίες κριτικών"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Puntuaciones de reseñas"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "امتیاز نقدها"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Arvostelujen arvosanat"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Notes des critiques"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ציוני ביקורות"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "समीक्षाओं के अंक"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocjene iz recenzija"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Értékelési pontszámok"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Skor ulasan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Punteggi delle recensioni"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "レビューの評価点"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "리뷰 평점"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Skor ulasan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anmeldelsesskårer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Recensiescores"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Oceny z recenzji"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Notas das avaliações"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Note din recenzii"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оценки в отзывах"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hodnotenia z recenzií"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocene iz recenzij"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ocene iz recenzija"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Recensionsbetyg"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "คะแนนรีวิว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "İnceleme puanları"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Оцінки з рецензій"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Điểm đánh giá"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "影评评分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "影評分數"
+          }
+        }
+      }
     },
     "Review scores shown" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "عدد درجات التقييم المعروضة"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Брой показвани оценки"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nombre de puntuacions mostrades"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Počet zobrazených hodnocení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Antal viste anmeldelseskarakterer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anzahl angezeigter Wertungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αριθμός εμφανιζόμενων βαθμολογιών"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Número de puntuaciones visibles"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعداد امتیازهای نمایش‌داده‌شده"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Näytettävien arvosanojen määrä"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nombre de notes affichées"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מספר ציוני הביקורות שיוצגו"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "दिखाए जाने वाले समीक्षा अंकों की संख्या"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Broj prikazanih ocjena iz recenzija"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Megjelenített értékelési pontszámok száma"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Jumlah skor ulasan yang ditampilkan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Numero di punteggi delle recensioni mostrati"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "表示するレビュー評価点の数"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "표시할 리뷰 평점 수"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilangan skor ulasan yang dipaparkan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Antall viste anmeldelsesskårer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aantal getoonde recensiescores"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Liczba wyświetlanych ocen z recenzji"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Quantidade de notas exibidas"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Număr de note din recenzii afișate"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Количество показываемых оценок из отзывов"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Počet zobrazených hodnotení z recenzií"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Število prikazanih ocen iz recenzij"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Broj prikazanih ocena iz recenzija"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Antal visade recensionsbetyg"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "จำนวนคะแนนรีวิวที่แสดง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gösterilen inceleme puanı sayısı"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Кількість видимих оцінок з рецензій"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Số lượng điểm đánh giá hiển thị"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "显示的影评评分数量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "影評分數顯示數量"
+          }
+        }
+      }
     },
     "Review sources" : {
       "localizations" : {
@@ -484315,7 +488436,224 @@
       }
     },
     "Select a content topic to read its explanation." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اختر موضوعًا متعلقًا بالمحتوى لقراءة شرحه."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изберете тема за съдържанието, за да прочетете обяснението ѝ."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecciona un tema de contingut per llegir-ne l’explicació."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte téma týkající se obsahu a přečtěte si jeho vysvětlení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vælg et indholdsemne for at læse forklaringen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wähle ein Inhaltsthema aus, um die Erläuterung zu lesen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επιλέξτε μια θεματική κατηγορία περιεχομένου για να διαβάσετε την εξήγησή της."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecciona un tema del contenido para leer su explicación."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برای خواندن توضیحات، یکی از موضوعات محتوا را انتخاب کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valitse sisältöaihe, niin näet sen selityksen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sélectionnez un aspect du contenu pour lire l’explication."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחרו נושא תוכן כדי לקרוא את ההסבר עליו."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "स्पष्टीकरण पढ़ने के लिए सामग्री का कोई विषय चुनें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odaberite temu sadržaja da biste pročitali objašnjenje."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Válasszon egy tartalmi témát a magyarázat elolvasásához."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih topik konten untuk membaca penjelasannya."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seleziona un argomento relativo ai contenuti per leggerne la spiegazione."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "内容の項目を選ぶと、説明を読めます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "콘텐츠 항목을 선택하면 설명을 볼 수 있습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih topik kandungan untuk membaca penjelasannya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Velg et innholdstema for å lese forklaringen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecteer een inhoudsthema om de toelichting te lezen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybierz kategorię treści, aby przeczytać jej wyjaśnienie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecione uma categoria de conteúdo para ler a explicação."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selectați o categorie de conținut pentru a-i citi explicația."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выберите категорию содержания, чтобы прочитать пояснение."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte kategóriu obsahu a prečítajte si jej vysvetlenie."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izberite vsebinsko kategorijo, da preberete pojasnilo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izaberite kategoriju sadržaja da biste pročitali objašnjenje."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Välj en innehållskategori för att läsa förklaringen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกหัวข้อเนื้อหาเพื่ออ่านคำอธิบาย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Açıklamasını okumak için bir içerik konusu seçin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Виберіть категорію контенту, щоб прочитати пояснення."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chọn một chủ đề nội dung để đọc phần giải thích."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "选择一个内容类别以查看说明。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "選擇一個內容類別以查看說明。"
+          }
+        }
+      }
     },
     "Selected" : {
       "comment" : "Accessibility value announced for the currently selected option in custom segmented or chip pickers.",
@@ -499107,7 +503445,224 @@
       }
     },
     "Show Common Sense age" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "إظهار العمر الموصى به من Common Sense"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показване на възрастта, препоръчана от Common Sense"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostra l’edat recomanada per Common Sense"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobrazit věkové doporučení Common Sense"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vis anbefalet alder fra Common Sense"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Altersempfehlung von Common Sense anzeigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εμφάνιση προτεινόμενης ηλικίας Common Sense"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostrar edad recomendada por Common Sense"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "نمایش سن پیشنهادی Common Sense"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Näytä Common Sense -ikäsuositus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afficher l’âge recommandé par Common Sense"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגת הגיל המומלץ של Common Sense"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense की सुझाई गई उम्र दिखाएँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži dob koju preporučuje Common Sense"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Common Sense életkori ajánlásának megjelenítése"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tampilkan usia yang disarankan Common Sense"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostra l’età consigliata da Common Sense"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Senseの推奨年齢を表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense 권장 연령 표시"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tunjukkan umur yang disyorkan oleh Common Sense"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vis anbefalt alder fra Common Sense"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Leeftijdsadvies van Common Sense tonen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pokaż wiek zalecany przez Common Sense"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostrar idade recomendada pela Common Sense"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afișați vârsta recomandată de Common Sense"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показывать возраст, рекомендуемый Common Sense"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobraziť vek odporúčaný organizáciou Common Sense"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži starost, ki jo priporoča Common Sense"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži uzrast koji preporučuje Common Sense"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Visa rekommenderad ålder från Common Sense"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "แสดงอายุที่ Common Sense แนะนำ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense yaş önerisini göster"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показувати рекомендований вік Common Sense"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hiện độ tuổi do Common Sense khuyến nghị"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "显示 Common Sense 建议年龄"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "顯示 Common Sense 建議年齡"
+          }
+        }
+      }
     },
     "Show Music" : {
       "extractionState" : "stale",
@@ -542875,7 +547430,224 @@
       }
     },
     "Talk with your family" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تحدّث مع أسرتك"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Обсъдете със семейството си"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Parla’n amb la família"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Promluvte si s rodinou"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tal med din familie"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sprich mit deiner Familie"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Συζητήστε με την οικογένειά σας"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Habla con tu familia"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "با خانواده‌تان گفت‌وگو کنید"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keskustele perheesi kanssa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Parlez-en en famille"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שוחחו עם המשפחה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "अपने परिवार से बात करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Razgovarajte s obitelji"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beszélgessen róla a családjával"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bicarakan dengan keluarga"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Parlane in famiglia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家族で話し合おう"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "가족과 이야기 나누기"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bincang dengan keluarga anda"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Snakk med familien din"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Praat erover met je gezin"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Porozmawiaj z rodziną"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Converse com sua família"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Discutați în familie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Обсудите с семьёй"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Porozprávajte sa s rodinou"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pogovorite se z družino"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Razgovarajte sa porodicom"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prata med din familj"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "พูดคุยกับครอบครัว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ailenizle konuşun"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Обговоріть із родиною"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trò chuyện cùng gia đình"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "与家人聊一聊"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "與家人聊聊"
+          }
+        }
+      }
     },
     "Tan" : {
       "comment" : "Accessibility label for a selectable Tan profile avatar color swatch in the profile editor.",
@@ -548167,10 +552939,444 @@
       }
     },
     "The Common Sense age appears separately from review scores. Full ratings remain in title information. Spoiler settings still apply." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يظهر العمر الموصى به من Common Sense بشكل منفصل عن درجات التقييم. تظل التقييمات الكاملة متاحة ضمن معلومات الفيلم أو المسلسل. تبقى إعدادات تجنّب حرق الأحداث سارية."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Препоръчаната от Common Sense възраст се показва отделно от оценките от рецензии. Всички оценки остават достъпни в информацията за заглавието. Настройките за спойлери продължават да важат."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’edat recomanada per Common Sense es mostra separada de les puntuacions de les ressenyes. Les valoracions completes continuen disponibles a la informació del títol. La configuració per evitar espòilers continua vigent."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Věk doporučený službou Common Sense se zobrazuje odděleně od hodnocení z recenzí. Úplná hodnocení zůstávají dostupná v informacích o titulu. Nastavení ochrany před spoilery nadále platí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den anbefalede alder fra Common Sense vises adskilt fra anmeldelseskaraktererne. De fulde vurderinger findes stadig i oplysningerne om filmen eller serien. Spoilerindstillingerne gælder stadig."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Altersempfehlung von Common Sense wird getrennt von den Rezensionswertungen angezeigt. Die vollständigen Bewertungen bleiben in den Informationen zum Film oder zur Serie verfügbar. Die Spoiler-Einstellungen gelten weiterhin."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η προτεινόμενη ηλικία Common Sense εμφανίζεται χωριστά από τις βαθμολογίες κριτικών. Όλες οι βαθμολογίες παραμένουν στις πληροφορίες της ταινίας ή σειράς. Οι ρυθμίσεις απόκρυψης σπόιλερ εξακολουθούν να ισχύουν."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La edad recomendada por Common Sense aparece separada de las puntuaciones de reseñas. Las valoraciones completas siguen disponibles en la información de la película o serie. Los ajustes para ocultar spoilers siguen vigentes."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "سن پیشنهادی Common Sense جدا از امتیاز نقدها نمایش داده می‌شود. همهٔ امتیازها همچنان در اطلاعات فیلم یا سریال در دسترس‌اند. تنظیمات پنهان‌کردن اسپویلرها همچنان اعمال می‌شوند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense -ikäsuositus näkyy erillään arvostelujen arvosanoista. Kaikki arviot ovat edelleen elokuvan tai sarjan tiedoissa. Spoilerien piilotusasetukset ovat yhä voimassa."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’âge recommandé par Common Sense apparaît séparément des notes des critiques. Toutes les évaluations restent disponibles dans les informations du film ou de la série. Les réglages de masquage des spoilers restent actifs."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הגיל המומלץ של Common Sense מופיע בנפרד מציוני הביקורות. הדירוגים המלאים נשארים בפרטי הסרט או הסדרה. ההגדרות להסתרת ספוילרים עדיין חלות."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense की सुझाई गई उम्र समीक्षाओं के अंकों से अलग दिखाई जाती है। सभी रेटिंग फ़िल्म या शो की जानकारी में उपलब्ध रहती हैं। स्पॉइलर संबंधी सेटिंग्स अब भी लागू रहती हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dob koju preporučuje Common Sense prikazuje se odvojeno od ocjena iz recenzija. Sve su ocjene i dalje dostupne u informacijama o filmu ili seriji. Postavke za skrivanje spojlera i dalje vrijede."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Common Sense életkori ajánlása az értékelési pontszámoktól külön jelenik meg. Az összes értékelés továbbra is elérhető a film vagy sorozat adatlapján. A spoilerbeállítások továbbra is érvényesek."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usia yang disarankan Common Sense ditampilkan terpisah dari skor ulasan. Semua penilaian tetap tersedia di informasi film atau serial. Pengaturan spoiler tetap berlaku."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’età consigliata da Common Sense appare separatamente dai punteggi delle recensioni. Tutte le valutazioni restano disponibili nelle informazioni del film o della serie. Le impostazioni sugli spoiler continuano ad applicarsi."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Senseの推奨年齢は、レビューの評価点とは別に表示されます。すべての評価は引き続き作品情報で確認できます。ネタバレ防止設定も引き続き適用されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense 권장 연령은 리뷰 평점과 별도로 표시됩니다. 전체 평점은 작품 정보에서 계속 확인할 수 있습니다. 스포일러 설정은 계속 적용됩니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Umur yang disyorkan oleh Common Sense dipaparkan berasingan daripada skor ulasan. Penilaian penuh masih tersedia dalam maklumat filem atau rancangan. Tetapan spoiler masih terpakai."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aldersanbefalingen fra Common Sense vises separat fra anmeldelsesskårene. Alle vurderinger er fortsatt tilgjengelige i informasjonen om filmen eller serien. Spoilerinnstillingene gjelder fortsatt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Het leeftijdsadvies van Common Sense wordt los van recensiescores getoond. Alle beoordelingen blijven beschikbaar bij de informatie over de film of serie. Je spoilerinstellingen blijven van toepassing."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wiek zalecany przez Common Sense jest wyświetlany osobno od ocen z recenzji. Pełne oceny są nadal dostępne w informacjach o filmie lub serialu. Ustawienia spoilerów nadal obowiązują."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A idade recomendada pela Common Sense é exibida separadamente das notas das avaliações. As avaliações completas continuam disponíveis nas informações do filme ou da série. As configurações de spoilers continuam valendo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vârsta recomandată de Common Sense apare separat de notele din recenzii. Toate evaluările rămân în informațiile despre film sau serial. Setările de ascundere a dezvăluirilor din intrigă se aplică în continuare."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Возраст, рекомендуемый Common Sense, отображается отдельно от оценок в отзывах. Все оценки доступны в информации о фильме или сериале. Настройки скрытия спойлеров по-прежнему действуют."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vek odporúčaný organizáciou Common Sense sa zobrazuje oddelene od hodnotení z recenzií. Všetky hodnotenia zostávajú v informáciách o filme alebo seriáli. Nastavenia ochrany pred prezradením deja naďalej platia."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Starost, ki jo priporoča Common Sense, je prikazana ločeno od ocen iz recenzij. Vse ocene ostanejo v informacijah o filmu ali seriji. Nastavitve za skrivanje razkritij zgodbe še vedno veljajo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uzrast koji preporučuje Common Sense prikazuje se odvojeno od ocena iz recenzija. Sve ocene ostaju u informacijama o filmu ili seriji. Podešavanja zaštite od otkrivanja radnje i dalje važe."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den rekommenderade åldern från Common Sense visas separat från recensionsbetygen. Alla betyg finns kvar i informationen om filmen eller serien. Dina spoilerinställningar gäller fortfarande."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อายุที่ Common Sense แนะนำจะแสดงแยกจากคะแนนรีวิว คะแนนทั้งหมดจะยังอยู่ในข้อมูลภาพยนตร์หรือรายการ การตั้งค่าป้องกันสปอยล์ยังคงมีผล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense yaş önerisi, inceleme puanlarından ayrı gösterilir. Tüm puanlar film veya dizi bilgilerinde bulunmaya devam eder. Spoiler ayarları geçerli olmaya devam eder."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Рекомендований вік Common Sense показується окремо від оцінок з рецензій. Усі оцінки залишаються в інформації про фільм чи серіал. Налаштування приховування спойлерів діють і надалі."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Độ tuổi do Common Sense khuyến nghị được hiển thị riêng với điểm đánh giá. Toàn bộ thông tin đánh giá vẫn có trong phần thông tin phim hoặc chương trình. Các cài đặt tránh tiết lộ tình tiết vẫn có hiệu lực."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense 建议年龄与影评评分分开显示。完整评分仍可在影片或剧集详情中查看。防剧透设置仍然适用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense 建議年齡會與影評分數分開顯示。完整評分仍可在電影或影集資訊中查看。防劇透設定仍然適用。"
+          }
+        }
+      }
     },
     "The Common Sense age appears separately from review scores. Missing scores are skipped in your source order, and extra badges can wrap. Full ratings remain in title information. Spoiler settings still apply." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يظهر العمر الموصى به من Common Sense بشكل منفصل عن درجات التقييم. تُتخطّى التقييمات غير المتوفرة وفق ترتيب المصادر الذي حددته، وقد تُعرض الشارات الإضافية في أسطر جديدة. تظل التقييمات الكاملة متاحة ضمن معلومات الفيلم أو المسلسل. تبقى إعدادات تجنّب حرق الأحداث سارية."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Препоръчаната от Common Sense възраст се показва отделно от оценките от рецензии. Липсващите оценки се пропускат според зададения от вас ред на източниците, а допълнителните значки могат да се пренасят на нови редове. Всички оценки остават достъпни в информацията за заглавието. Настройките за спойлери продължават да важат."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’edat recomanada per Common Sense es mostra separada de les puntuacions de les ressenyes. Les puntuacions que falten s’ometen seguint l’ordre de fonts que has establert, i els distintius addicionals poden passar a línies noves. Les valoracions completes continuen disponibles a la informació del títol. La configuració per evitar espòilers continua vigent."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Věk doporučený službou Common Sense se zobrazuje odděleně od hodnocení z recenzí. Chybějící hodnocení se přeskakují podle vámi nastaveného pořadí zdrojů a další štítky se mohou přesunout na další řádky. Úplná hodnocení zůstávají dostupná v informacích o titulu. Nastavení ochrany před spoilery nadále platí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den anbefalede alder fra Common Sense vises adskilt fra anmeldelseskaraktererne. Manglende karakterer springes over i den rækkefølge, du har valgt for kilderne, og ekstra mærker kan flyttes til nye linjer. De fulde vurderinger findes stadig i oplysningerne om filmen eller serien. Spoilerindstillingerne gælder stadig."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Altersempfehlung von Common Sense wird getrennt von den Rezensionswertungen angezeigt. Fehlende Wertungen werden in deiner Quellenreihenfolge übersprungen, und zusätzliche Bewertungsanzeigen können in weiteren Zeilen erscheinen. Die vollständigen Bewertungen bleiben in den Informationen zum Film oder zur Serie verfügbar. Die Spoiler-Einstellungen gelten weiterhin."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η προτεινόμενη ηλικία Common Sense εμφανίζεται χωριστά από τις βαθμολογίες κριτικών. Οι βαθμολογίες που λείπουν παραλείπονται με βάση τη σειρά των πηγών σας και τα επιπλέον σήματα μπορούν να εμφανιστούν σε περισσότερες γραμμές. Όλες οι βαθμολογίες παραμένουν στις πληροφορίες της ταινίας ή σειράς. Οι ρυθμίσεις απόκρυψης σπόιλερ εξακολουθούν να ισχύουν."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La edad recomendada por Common Sense aparece separada de las puntuaciones de reseñas. Se omiten las puntuaciones no disponibles siguiendo el orden de tus fuentes, y las insignias adicionales pueden ocupar más líneas. Las valoraciones completas siguen disponibles en la información de la película o serie. Los ajustes para ocultar spoilers siguen vigentes."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "سن پیشنهادی Common Sense جدا از امتیاز نقدها نمایش داده می‌شود. امتیازهای ناموجود با حفظ ترتیب منابع شما نادیده گرفته می‌شوند و نشان‌های اضافی می‌توانند در چند خط نمایش داده شوند. همهٔ امتیازها همچنان در اطلاعات فیلم یا سریال در دسترس‌اند. تنظیمات پنهان‌کردن اسپویلرها همچنان اعمال می‌شوند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense -ikäsuositus näkyy erillään arvostelujen arvosanoista. Puuttuvat arvosanat ohitetaan lähteidesi järjestystä noudattaen, ja ylimääräiset merkit voivat siirtyä seuraaville riveille. Kaikki arviot ovat edelleen elokuvan tai sarjan tiedoissa. Spoilerien piilotusasetukset ovat yhä voimassa."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’âge recommandé par Common Sense apparaît séparément des notes des critiques. Les notes manquantes sont ignorées en suivant l’ordre de vos sources, et les badges supplémentaires peuvent occuper plusieurs lignes. Toutes les évaluations restent disponibles dans les informations du film ou de la série. Les réglages de masquage des spoilers restent actifs."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הגיל המומלץ של Common Sense מופיע בנפרד מציוני הביקורות. הדילוג על ציונים חסרים נעשה לפי סדר המקורות שלכם, ותגים נוספים עשויים להופיע בשורות נוספות. הדירוגים המלאים נשארים בפרטי הסרט או הסדרה. ההגדרות להסתרת ספוילרים עדיין חלות."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense की सुझाई गई उम्र समीक्षाओं के अंकों से अलग दिखाई जाती है। आपके चुने हुए स्रोतों के क्रम में जो अंक उपलब्ध नहीं हैं, उन्हें छोड़ दिया जाता है। अतिरिक्त बैज अगली पंक्तियों में दिखाई दे सकते हैं। सभी रेटिंग फ़िल्म या शो की जानकारी में उपलब्ध रहती हैं। स्पॉइलर संबंधी सेटिंग्स अब भी लागू रहती हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dob koju preporučuje Common Sense prikazuje se odvojeno od ocjena iz recenzija. Ocjene koje nedostaju preskaču se prema vašem redoslijedu izvora, a dodatne oznake mogu prijeći u novi red. Sve su ocjene i dalje dostupne u informacijama o filmu ili seriji. Postavke za skrivanje spojlera i dalje vrijede."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Common Sense életkori ajánlása az értékelési pontszámoktól külön jelenik meg. A hiányzó pontszámokat a rendszer átugorja a források megadott sorrendjében, a további jelvények pedig új sorba kerülhetnek. Az összes értékelés továbbra is elérhető a film vagy sorozat adatlapján. A spoilerbeállítások továbbra is érvényesek."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usia yang disarankan Common Sense ditampilkan terpisah dari skor ulasan. Skor yang tidak tersedia dilewati sesuai urutan sumber Anda, dan lencana tambahan dapat ditampilkan di baris berikutnya. Semua penilaian tetap tersedia di informasi film atau serial. Pengaturan spoiler tetap berlaku."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’età consigliata da Common Sense appare separatamente dai punteggi delle recensioni. I punteggi mancanti vengono saltati seguendo l’ordine delle fonti che hai scelto e i badge aggiuntivi possono andare a capo. Tutte le valutazioni restano disponibili nelle informazioni del film o della serie. Le impostazioni sugli spoiler continuano ad applicarsi."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Senseの推奨年齢は、レビューの評価点とは別に表示されます。指定した情報源の順に表示し、評価点がないものはスキップします。バッジが多い場合は複数行に表示されることがあります。すべての評価は引き続き作品情報で確認できます。ネタバレ防止設定も引き続き適用されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense 권장 연령은 리뷰 평점과 별도로 표시됩니다. 설정한 출처 순서에 따라 평점이 없는 출처는 건너뛰며, 추가 배지는 여러 줄에 표시될 수 있습니다. 전체 평점은 작품 정보에서 계속 확인할 수 있습니다. 스포일러 설정은 계속 적용됩니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Umur yang disyorkan oleh Common Sense dipaparkan berasingan daripada skor ulasan. Sumber tanpa skor dilangkau mengikut turutan sumber anda, dan lencana tambahan boleh dipaparkan pada baris seterusnya. Penilaian penuh masih tersedia dalam maklumat filem atau rancangan. Tetapan spoiler masih terpakai."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aldersanbefalingen fra Common Sense vises separat fra anmeldelsesskårene. Kilder uten poengsum hoppes over i valgt kilderekkefølge, og ekstra merker kan vises på flere linjer. Alle vurderinger er fortsatt tilgjengelige i informasjonen om filmen eller serien. Spoilerinnstillingene gjelder fortsatt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Het leeftijdsadvies van Common Sense wordt los van recensiescores getoond. Bronnen zonder score worden overgeslagen in de door jou gekozen bronvolgorde en extra badges kunnen op meerdere regels verschijnen. Alle beoordelingen blijven beschikbaar bij de informatie over de film of serie. Je spoilerinstellingen blijven van toepassing."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wiek zalecany przez Common Sense jest wyświetlany osobno od ocen z recenzji. Źródła bez ocen są pomijane zgodnie z ustawioną kolejnością źródeł, a dodatkowe plakietki mogą pojawiać się w kolejnych wierszach. Pełne oceny są nadal dostępne w informacjach o filmie lub serialu. Ustawienia spoilerów nadal obowiązują."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A idade recomendada pela Common Sense é exibida separadamente das notas das avaliações. Fontes sem notas são ignoradas na ordem de fontes escolhida, e selos adicionais podem ocupar mais linhas. As avaliações completas continuam disponíveis nas informações do filme ou da série. As configurações de spoilers continuam valendo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vârsta recomandată de Common Sense apare separat de notele din recenzii. Se respectă ordinea surselor aleasă, sărind peste notele lipsă, iar insignele suplimentare pot trece pe rânduri noi. Toate evaluările rămân în informațiile despre film sau serial. Setările de ascundere a dezvăluirilor din intrigă se aplică în continuare."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Возраст, рекомендуемый Common Sense, отображается отдельно от оценок в отзывах. Отсутствующие оценки пропускаются с сохранением заданного вами порядка источников, а дополнительные значки могут переноситься на новые строки. Все оценки доступны в информации о фильме или сериале. Настройки скрытия спойлеров по-прежнему действуют."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vek odporúčaný organizáciou Common Sense sa zobrazuje oddelene od hodnotení z recenzií. Chýbajúce hodnotenia sa preskočia pri zachovaní vášho poradia zdrojov a ďalšie štítky sa môžu presunúť na nové riadky. Všetky hodnotenia zostávajú v informáciách o filme alebo seriáli. Nastavenia ochrany pred prezradením deja naďalej platia."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Starost, ki jo priporoča Common Sense, je prikazana ločeno od ocen iz recenzij. Manjkajoče ocene se preskočijo ob upoštevanju vašega vrstnega reda virov, dodatne oznake pa se lahko premaknejo v nove vrstice. Vse ocene ostanejo v informacijah o filmu ali seriji. Nastavitve za skrivanje razkritij zgodbe še vedno veljajo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uzrast koji preporučuje Common Sense prikazuje se odvojeno od ocena iz recenzija. Ocene koje nedostaju preskaču se uz očuvanje vašeg redosleda izvora, a dodatne oznake mogu preći u nove redove. Sve ocene ostaju u informacijama o filmu ili seriji. Podešavanja zaštite od otkrivanja radnje i dalje važe."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den rekommenderade åldern från Common Sense visas separat från recensionsbetygen. Saknade betyg hoppas över i den ordning du valt för källorna, och extra märken kan flyttas till nya rader. Alla betyg finns kvar i informationen om filmen eller serien. Dina spoilerinställningar gäller fortfarande."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อายุที่ Common Sense แนะนำจะแสดงแยกจากคะแนนรีวิว หากแหล่งใดไม่มีคะแนน ระบบจะข้ามไปยังแหล่งถัดไปตามลำดับที่คุณตั้งไว้ และป้ายคะแนนที่เพิ่มขึ้นอาจแสดงในบรรทัดใหม่ คะแนนทั้งหมดจะยังอยู่ในข้อมูลภาพยนตร์หรือรายการ การตั้งค่าป้องกันสปอยล์ยังคงมีผล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense yaş önerisi, inceleme puanlarından ayrı gösterilir. Seçtiğiniz kaynak sırası izlenir, eksik puanlar atlanır ve ek puan rozetleri yeni satırlara taşabilir. Tüm puanlar film veya dizi bilgilerinde bulunmaya devam eder. Spoiler ayarları geçerli olmaya devam eder."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Рекомендований вік Common Sense показується окремо від оцінок з рецензій. Джерела без оцінок пропускаються відповідно до заданого вами порядку, а додаткові позначки з оцінками можуть переноситися на нові рядки. Усі оцінки залишаються в інформації про фільм чи серіал. Налаштування приховування спойлерів діють і надалі."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Độ tuổi do Common Sense khuyến nghị được hiển thị riêng với điểm đánh giá. Các nguồn không có điểm sẽ được bỏ qua theo thứ tự nguồn bạn đã chọn, và các nhãn điểm bổ sung có thể xuống dòng. Toàn bộ thông tin đánh giá vẫn có trong phần thông tin phim hoặc chương trình. Các cài đặt tránh tiết lộ tình tiết vẫn có hiệu lực."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense 建议年龄与影评评分分开显示。评分会按你设定的来源顺序显示，并跳过缺失项；额外的评分标记可换行显示。完整评分仍可在影片或剧集详情中查看。防剧透设置仍然适用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Common Sense 建議年齡會與影評分數分開顯示。分數會依你設定的來源順序顯示，並略過缺漏項目；額外的評分標籤可換行顯示。完整評分仍可在電影或影集資訊中查看。防劇透設定仍然適用。"
+          }
+        }
+      }
     },
     "The FTP address is invalid." : {
       "extractionState" : "stale",
@@ -632352,7 +637558,224 @@
       }
     },
     "What parents need to know" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ما ينبغي للأهالي معرفته"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Какво трябва да знаят родителите"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Què han de saber els pares"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Co by rodiče měli vědět"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hvad forældre bør vide"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Was Eltern wissen sollten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Τι πρέπει να γνωρίζουν οι γονείς"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lo que los padres deben saber"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "آنچه والدین باید بدانند"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mitä vanhempien tulee tietää"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ce que les parents doivent savoir"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מה שהורים צריכים לדעת"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "माता-पिता को क्या जानना चाहिए"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Što roditelji trebaju znati"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Amit a szülőknek tudniuk kell"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yang perlu diketahui orang tua"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cosa devono sapere i genitori"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "保護者が知っておきたいこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "부모가 알아야 할 내용"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Perkara yang ibu bapa perlu tahu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dette bør foreldre vite"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wat ouders moeten weten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Co rodzice powinni wiedzieć"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O que os pais precisam saber"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ce trebuie să știe părinții"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Что нужно знать родителям"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Čo by rodičia mali vedieť"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kaj morajo vedeti starši"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Šta roditelji treba da znaju"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vad föräldrar behöver veta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "สิ่งที่ผู้ปกครองควรรู้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ebeveynlerin bilmesi gerekenler"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Що потрібно знати батькам"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Những điều phụ huynh cần biết"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家长须知"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "家長須知"
+          }
+        }
+      }
     },
     "What the cards in this row show." : {
       "localizations" : {
