@@ -4651,9 +4651,6 @@
         }
       }
     },
-    "%@ out of 5" : {
-
-    },
     "%@ rating %@" : {
       "comment" : "Accessibility label for one rating badge in a ratings row. %@ is the rating source name, and the second %@ is the displayed score.",
       "localizations" : {
@@ -7788,6 +7785,9 @@
           }
         }
       }
+    },
+    "%@+" : {
+
     },
     "%@, offline" : {
       "comment" : "Accessibility label for an unavailable source row in the playback source picker. %@ is the source name.",
@@ -137432,9 +137432,6 @@
         }
       }
     },
-    "Category scores describe how much of that content is present, not an overall age recommendation." : {
-
-    },
     "Center" : {
       "comment" : "Extra Line Position option: additional subtitle lines expand around the same vertical midpoint, rather than only above or below.",
       "localizations" : {
@@ -163939,6 +163936,9 @@
         }
       }
     },
+    "Common Sense Media, recommended age %@ and older" : {
+
+    },
     "Community" : {
       "localizations" : {
         "ar" : {
@@ -171655,7 +171655,7 @@
         }
       }
     },
-    "Content guidance" : {
+    "Content level: %@ out of 5" : {
 
     },
     "Content type controls scanning and matching. Personal Videos stay playable without movie or show matching. Re-adding the same location updates these settings without changing its library identity." : {
@@ -254632,6 +254632,9 @@
         }
       }
     },
+    "Guidance from Common Sense Media through Plex" : {
+
+    },
     "Guide coverage" : {
       "localizations" : {
         "ar" : {
@@ -276753,9 +276756,6 @@
           }
         }
       }
-    },
-    "Is it any good?" : {
-
     },
     "It's now playing and available in your subtitle list." : {
       "localizations" : {
@@ -311212,6 +311212,7 @@
       }
     },
     "Maximum ratings shown" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -333133,6 +333134,9 @@
         }
       }
     },
+    "No age recommendation" : {
+
+    },
     "No alternate audio" : {
       "localizations" : {
         "ar" : {
@@ -336436,6 +336440,9 @@
           }
         }
       }
+    },
+    "No explanation was provided for this topic." : {
+
     },
     "No favorite Multiviews" : {
       "localizations" : {
@@ -349872,6 +349879,9 @@
         }
       }
     },
+    "Not rated" : {
+
+    },
     "Not saved" : {
       "localizations" : {
         "ar" : {
@@ -360917,9 +360927,6 @@
         }
       }
     },
-    "Only the basic rating is available. Detailed guidance depends on Plex Pass access and coverage for this title." : {
-
-    },
     "Only this profile is affected. Who you watch as sets whose watchlist it uses." : {
       "comment" : "Explains that the library and identity choices on this screen apply to the current profile alone.",
       "localizations" : {
@@ -363345,6 +363352,9 @@
           }
         }
       }
+    },
+    "Open family guidance" : {
+
     },
     "Open folder" : {
       "localizations" : {
@@ -411438,7 +411448,10 @@
         }
       }
     },
-    "Quality rating" : {
+    "Quality rating: %@ out of 5" : {
+
+    },
+    "Quality ratings, not age recommendations" : {
 
     },
     "Queued" : {
@@ -413425,9 +413438,6 @@
           }
         }
       }
-    },
-    "Ratings and guidance provided by Common Sense Media through Plex." : {
-
     },
     "Ratings are hidden until you've watched this. Reveals them anyway." : {
       "comment" : "Accessibility hint on the control that lifts the spoiler blur over a title's ratings.",
@@ -453297,6 +453307,12 @@
         }
       }
     },
+    "Review scores" : {
+
+    },
+    "Review scores shown" : {
+
+    },
     "Review sources" : {
       "localizations" : {
         "ar" : {
@@ -484301,6 +484317,9 @@
         }
       }
     },
+    "Select a content topic to read its explanation." : {
+
+    },
     "Selected" : {
       "comment" : "Accessibility value announced for the currently selected option in custom segmented or chip pickers.",
       "localizations" : {
@@ -499089,6 +499108,9 @@
           }
         }
       }
+    },
+    "Show Common Sense age" : {
+
     },
     "Show Music" : {
       "extractionState" : "stale",
@@ -548147,6 +548169,12 @@
         }
       }
     },
+    "The Common Sense age appears separately from review scores. Full ratings remain in title information. Spoiler settings still apply." : {
+
+    },
+    "The Common Sense age appears separately from review scores. Missing scores are skipped in your source order, and extra badges can wrap. Full ratings remain in title information. Spoiler settings still apply." : {
+
+    },
     "The FTP address is invalid." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -581037,6 +581065,7 @@
       }
     },
     "This limits how many scores appear in the header, not how many sources you can enable. Missing scores are skipped in your source order. More than two scores can wrap onto extra lines. Spoiler settings still apply." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
