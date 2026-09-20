@@ -1773,6 +1773,227 @@
         }
       }
     },
+    "%@ Trending" : {
+      "comment" : "Discovery feed name. The variable is the Simkl brand name; keep it unchanged and translate Trending.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الرائج على %@"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Набиращи популярност в %@"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tendències de %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trendy na %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trends på %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trends bei %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Τάσεις στο %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tendencias en %@"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "پرطرفدارهای %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nousussa – %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tendances sur %@"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הטרנדים של %@"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ पर ट्रेंड में"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "U trendu na platformi %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Felkapott tartalmak a %@ szerint"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sedang tren di %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tendenze su %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ のトレンド"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 인기 콘텐츠"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sohor kini di %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Populært på %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nu populair op %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Teraz popularne na %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Em alta no %@"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "În tendințe pe %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "В тренде на %@"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trendy na %@"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "V trendu na %@"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "U trendu na %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trendande på %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "มาแรงบน %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ trendleri"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "У тренді на %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Thịnh hành trên %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 热门"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 熱門"
+          }
+        }
+      }
+    },
     "%@ as %@" : {
       "localizations" : {
         "ar" : {
@@ -156124,6 +156345,226 @@
         }
       }
     },
+    "Choose the catalogs used for Featured. Titles may not be in your libraries. Seerr is only needed to request titles." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اختر الكتالوجات المستخدمة في «المميّز». قد لا تتوفر العناوين في مكتباتك. لا تحتاج إلى Seerr إلا لطلب العناوين."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изберете каталозите за „Избрано“. Заглавията може да не са във вашите медиатеки. Seerr е нужен само за заявяване на заглавия."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tria els catàlegs que s'utilitzen a «Destacat». Pot ser que els títols no siguin a les teves biblioteques. Només cal Seerr per sol·licitar títols."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte katalogy pro sekci Doporučené. Tituly nemusí být ve vašich knihovnách. Seerr je potřeba pouze pro vyžádání titulů."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vælg kataloger til »I fokus«. Titlerne er muligvis ikke i dine biblioteker. Seerr er kun nødvendigt for at anmode om titler."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wähle die Kataloge für „Im Fokus“. Titel sind möglicherweise nicht in deinen Medienbibliotheken verfügbar. Seerr wird nur zum Anfragen von Titeln benötigt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επιλέξτε τους καταλόγους για τα Προτεινόμενα. Οι τίτλοι ενδέχεται να μην υπάρχουν στις βιβλιοθήκες σας. Το Seerr χρειάζεται μόνο για αιτήματα τίτλων."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Elige los catálogos que se usan en Destacados. Los títulos pueden no estar en tus bibliotecas multimedia. Seerr solo es necesario para solicitar títulos."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کاتالوگ‌های مورد استفاده در بخش پیشنهادی را انتخاب کنید. ممکن است عنوان‌ها در کتابخانه‌های شما موجود نباشند. Seerr فقط برای درخواست عنوان‌ها لازم است."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valitse Esittelyssä-osion käyttämät luettelot. Nimikkeet eivät välttämättä kuulu kirjastoihisi. Seerr-palvelua tarvitaan vain nimikkeiden pyytämiseen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Choisissez les catalogues utilisés pour la section À la une. Certains titres peuvent être absents de vos bibliothèques multimédias. Seerr n’est nécessaire que pour demander des titres."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחרו את הקטלוגים שישמשו באזור המומלצים. ייתכן שהכותרים אינם בספריות שלכם. Seerr נחוץ רק כדי לבקש כותרים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "फ़ीचर्ड के लिए कैटलॉग चुनें। ये टाइटल आपकी लाइब्रेरी में हों, यह ज़रूरी नहीं है। Seerr की ज़रूरत सिर्फ़ टाइटल का अनुरोध करने के लिए है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odaberite kataloge za odjeljak Istaknuto. Naslovi možda nisu u vašim knjižnicama. Seerr je potreban samo za slanje zahtjeva za naslove."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Válaszd ki a Kiemelt részhez használt katalógusokat. A címek nem feltétlenül találhatók meg a könyvtáraidban. A Seerr csak a címek igényléséhez szükséges."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih katalog untuk Unggulan. Judul-judul ini mungkin tidak ada di pustaka Anda. Seerr hanya diperlukan untuk mengajukan permintaan judul."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Scegli i cataloghi per la sezione In evidenza. I titoli potrebbero non essere presenti nelle tue librerie. Seerr serve solo per richiedere titoli."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "「おすすめ」に使うカタログを選択します。作品がライブラリにあるとは限りません。Seerr が必要なのは作品をリクエストするときだけです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "추천에 사용할 카탈로그를 선택하세요. 콘텐츠가 미디어 보관함에 없을 수도 있습니다. Seerr는 콘텐츠를 요청할 때만 필요합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih katalog yang digunakan untuk Pilihan. Judul mungkin tiada dalam pustaka anda. Seerr hanya diperlukan untuk membuat permintaan judul."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Velg katalogene som brukes for Fremhevet. Titlene finnes kanskje ikke i bibliotekene dine. Seerr trengs bare for å be om titler."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kies de catalogi voor Uitgelicht. Titels staan mogelijk niet in je bibliotheken. Seerr is alleen nodig om titels aan te vragen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybierz katalogi dla sekcji Polecane. Tytułów może nie być w Twoich bibliotekach. Seerr jest potrzebny tylko do zgłaszania próśb o dodanie tytułów."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Escolha os catálogos usados na opção Em destaque. Os títulos podem não estar nas suas bibliotecas. O Seerr só é necessário para solicitar títulos."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alege cataloagele folosite pentru Recomandate. Este posibil ca titlurile să nu fie în bibliotecile tale. Seerr este necesar doar pentru a solicita titluri."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выберите каталоги для раздела «Рекомендуемое». Некоторые фильмы и сериалы могут отсутствовать в ваших медиатеках. Seerr нужен только для запросов на добавление фильмов и сериалов."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte katalógy pre sekciu Odporúčané. Tituly nemusia byť vo vašich knižniciach. Seerr je potrebný len na odosielanie žiadostí o tituly."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izberite kataloge za razdelek Izpostavljeno. Naslovov morda ni v vaših knjižnicah. Seerr potrebujete le za oddajo zahtev za naslove."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izaberite kataloge za odeljak Izdvojeno. Naslovi možda nisu u vašim bibliotekama. Seerr je potreban samo za slanje zahteva za naslove."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Välj vilka kataloger som används för Utvalt. Titlarna kanske inte finns i dina bibliotek. Seerr behövs bara för att önska titlar."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกแค็ตตาล็อกสำหรับส่วน “แนะนำ” เนื้อหาบางรายการอาจไม่มีในไลบรารีของคุณ ต้องใช้ Seerr เฉพาะเมื่อต้องการขอเนื้อหา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Öne çıkanlar için kullanılacak katalogları seçin. İçerikler kitaplıklarınızda bulunmayabilir. Seerr yalnızca içerik talep etmek için gereklidir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Виберіть каталоги для розділу «Рекомендовані». Цих фільмів і серіалів може не бути у ваших медіатеках. Seerr потрібен лише для запитів на додавання."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chọn các danh mục dùng cho mục Được giới thiệu. Nội dung có thể không có trong thư viện của bạn. Chỉ cần Seerr khi muốn yêu cầu nội dung."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "选择“精选内容”使用的影视资料库。作品可能不在你的媒体库中。仅在请求添加作品时需要 Seerr。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "選擇「精選」使用的影視資料庫。作品可能不在你的媒體庫中。只有申請新增作品時才需要 Seerr。"
+          }
+        }
+      }
+    },
     "Choose theme" : {
       "comment" : "Title of the first-run theme picker when profiles are off, above the theme choices.",
       "extractionState" : "stale",
@@ -204502,6 +204943,227 @@
         }
       }
     },
+    "Discover movies and shows from your selected feeds. Seerr is optional for requests." : {
+      "comment" : "Explanation shown under the Featured hero source option in Settings.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اكتشف أفلامًا ومسلسلات من مصادر التوصيات التي اخترتها. يمكنك استخدام Seerr اختياريًا لتقديم الطلبات."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Откривайте филми и сериали от избраните източници на препоръки. По желание можете да използвате Seerr за заявки."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descobreix pel·lícules i sèries de les fonts de recomanacions que has seleccionat. Seerr és opcional per fer sol·licituds."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Objevujte filmy a seriály z vybraných zdrojů doporučení. Pro žádosti o tituly lze volitelně využít Seerr."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opdag film og serier fra dine valgte anbefalingskilder. Du kan vælge at bruge Seerr til anmodninger."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Entdecke Filme und Serien aus deinen ausgewählten Empfehlungsquellen. Für Anfragen kannst du optional Seerr nutzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ανακαλύψτε ταινίες και σειρές από τις επιλεγμένες πηγές σας. Το Seerr είναι προαιρετικό και χρησιμοποιείται για αιτήματα τίτλων."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descubre películas y series de las fuentes que hayas seleccionado. Seerr es opcional y se usa para solicitar títulos."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فیلم‌ها و سریال‌های تلویزیونی را از منابع انتخابی خود کشف کنید. استفاده از Seerr اختیاری و برای درخواست عنوان‌هاست."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Löydä elokuvia ja sarjoja valitsemistasi lähteistä. Seerr on valinnainen palvelu nimikkeiden pyytämistä varten."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Découvrez des films et des séries TV issus des sources sélectionnées. Seerr est facultatif et sert à demander des titres."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גלו סרטים ותוכניות טלוויזיה מהמקורות שבחרתם. השימוש ב-Seerr הוא אופציונלי ומיועד לבקשות כותרים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "अपने चुने हुए फ़ीड से मूवी और शो खोजें। अनुरोधों के लिए Seerr वैकल्पिक है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otkrijte filmove i serije iz odabranih izvora preporuka. Seerr nije obvezan i služi za slanje zahtjeva."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fedezz fel filmeket és sorozatokat a kiválasztott ajánlókból. A Seerr opcionálisan használható igénylésekhez."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Temukan film dan acara TV dari sumber rekomendasi pilihan Anda. Seerr opsional dan digunakan untuk mengajukan permintaan judul."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Scopri film e serie TV dai feed selezionati. Seerr è facoltativo per le richieste."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "選択したフィードから映画やテレビ番組を見つけられます。リクエスト用の Seerr は、必要に応じて利用できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "선택한 피드에서 영화와 TV 프로그램을 찾아보세요. Seerr는 콘텐츠 요청을 위한 선택 사항입니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Temui filem dan siri TV daripada suapan pilihan anda. Seerr ialah pilihan tambahan untuk membuat permintaan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Oppdag filmer og serier fra de valgte anbefalingskildene. Seerr er et valgfritt tillegg for forespørsler."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ontdek films en series uit je geselecteerde feeds. Seerr is optioneel en bedoeld voor aanvragen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odkrywaj filmy i seriale z wybranych kanałów rekomendacji. Seerr jest opcjonalny i służy do zgłaszania próśb o dodanie tytułów."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descubra filmes e séries dos feeds selecionados. O Seerr é opcional e serve para solicitar títulos."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descoperă filme și seriale din fluxurile selectate. Seerr este opțional și servește la solicitarea titlurilor."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Открывайте для себя фильмы и сериалы из выбранных лент. При желании можно подключить Seerr для запросов на добавление отсутствующих фильмов и сериалов."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Objavujte filmy a seriály z vybraných kanálov odporúčaní. Seerr je voliteľný a slúži na žiadosti o tituly."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odkrivajte filme in serije iz izbranih virov priporočil. Seerr je neobvezen in omogoča oddajo zahtev za naslove."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otkrijte filmove i serije iz izabranih izvora preporuka. Seerr je opcionalan i služi za slanje zahteva za naslove."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Upptäck filmer och serier från dina valda flöden. Seerr är valfritt och används för att önska titlar."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ค้นพบภาพยนตร์และรายการทีวีจากแหล่งเนื้อหาที่คุณเลือก ใช้ Seerr ได้หากต้องการขอเนื้อหา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seçtiğiniz kaynaklardan film ve diziler keşfedin. İçerik talepleri için isteğe bağlı olarak Seerr kullanabilirsiniz."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Відкривайте фільми й серіали з вибраних джерел. За бажанням використовуйте Seerr для запитів на додавання."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Khám phá phim và chương trình truyền hình từ các nguồn bạn chọn. Bạn có thể dùng Seerr để yêu cầu nội dung nếu muốn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "从所选来源发现电影和电视剧。可选用 Seerr 请求添加作品。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "從選取的來源探索電影和影集。也可選用 Seerr 申請新增作品。"
+          }
+        }
+      }
+    },
     "Discovering libraries…" : {
       "comment" : "Progress text in My Libraries settings while Plozz loads available libraries from the connected servers.",
       "localizations" : {
@@ -204719,6 +205381,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "正在尋找媒體庫…"
+          }
+        }
+      }
+    },
+    "Discovery rotation" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تبديل توصيات الاكتشاف"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Редуване на препоръките"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotació de recomanacions"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Střídání doporučených titulů"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotation af anbefalinger"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wechselnde Empfehlungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εναλλαγή προτάσεων"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotación de sugerencias"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "چرخش پیشنهادها"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Löytövinkkien vaihtelu"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotation des découvertes"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תחלופת הצעות לגילוי"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सुझाव बदलते रहें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotacija preporuka"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ajánlások váltogatása"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pergantian rekomendasi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotazione dei suggerimenti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "おすすめ作品の入れ替え"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "추천 콘텐츠 순환"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Putaran cadangan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotasjon av anbefalinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wisselende aanbevelingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rotacja polecanych tytułów"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alternância de recomendações"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alternarea recomandărilor"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Чередование рекомендаций"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Striedanie odporúčaní"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Menjavanje priporočil"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Smenjivanje preporuka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Växlande rekommendationer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "สลับเนื้อหาแนะนำ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keşif içeriklerini dönüşümlü göster"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Чергування рекомендацій"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Luân phiên gợi ý khám phá"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "轮换推荐作品"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "輪替推薦作品"
           }
         }
       }
@@ -241725,6 +242607,226 @@
         }
       }
     },
+    "Featured discovery" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الاكتشاف في «المميّز»"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Откриване на заглавия в „Избрано“"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descoberta a «Destacat»"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Objevování v sekci Doporučené"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opdagelser under »I fokus«"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Entdeckungen in „Im Fokus“"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ανακάλυψη στα Προτεινόμενα"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descubrimiento en Destacados"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کشف محتوا در بخش پیشنهادی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Löytövinkit Esittelyssä-osiossa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Découvertes à la une"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "גילוי תוכן באזור המומלצים"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "फ़ीचर्ड में खोज"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otkrivanje u odjeljku Istaknuto"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Felfedezés a Kiemelt részben"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penemuan konten di Unggulan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Scoperte in evidenza"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "「おすすめ」で作品を探す"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "추천 콘텐츠 탐색"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penemuan dalam Pilihan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anbefalinger i Fremhevet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uitgelichte ontdekkingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odkrywanie w sekcji Polecane"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descobertas em destaque"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Descoperire în Recomandate"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Открытия в разделе «Рекомендуемое»"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Objavovanie v sekcii Odporúčané"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odkrivanje v razdelku Izpostavljeno"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otkrivanje u odeljku Izdvojeno"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Upptäck via Utvalt"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ค้นพบเนื้อหาในส่วน “แนะนำ”"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Öne çıkanlar için keşif"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Знахідки для розділу «Рекомендовані»"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Khám phá trong mục Được giới thiệu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "探索精选内容"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "精選探索"
+          }
+        }
+      }
+    },
     "Featurette" : {
       "localizations" : {
         "ar" : {
@@ -251296,6 +252398,227 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "永久免費且開放原始碼。"
+          }
+        }
+      }
+    },
+    "From %@" : {
+      "comment" : "Hero discovery credit. The variable is a list of catalog brand names or feed names, such as Simkl Trending.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "من %@"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "От %@"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Font: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zdroj: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fra %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Quelle: %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Από %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De %@"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "از %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lähde: %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Source : %@"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מקור: %@"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ से"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izvor: %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Forrás: %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dari %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fonte: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "情報元：%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "출처: %@"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Daripada %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fra %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Van %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Źródło: %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De %@"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sursă: %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Источник: %@"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zdroj: %@"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vir: %@"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izvor: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Från %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "จาก %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kaynak: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Джерело: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nguồn: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "来自 %@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "來自 %@"
           }
         }
       }
@@ -320526,6 +321849,446 @@
         }
       }
     },
+    "Movies and shows from TheTVDB's catalog." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أفلام ومسلسلات من كتالوج TheTVDB."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Филми и сериали от каталога на TheTVDB."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pel·lícules i sèries del catàleg de TheTVDB."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy a seriály z katalogu TheTVDB."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film og serier fra TheTVDB's katalog."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filme und Serien aus dem Katalog von TheTVDB."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ταινίες και σειρές από τον κατάλογο του TheTVDB."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Películas y series del catálogo de TheTVDB."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فیلم‌ها و سریال‌های تلویزیونی از کاتالوگ TheTVDB."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Elokuvia ja sarjoja TheTVDB-palvelun luettelosta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Films et séries TV du catalogue de TheTVDB."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סרטים ותוכניות טלוויזיה מהקטלוג של TheTVDB."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TheTVDB के कैटलॉग से मूवी और शो।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmovi i serije iz kataloga TheTVDB."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmek és sorozatok a TheTVDB katalógusából."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film dan acara TV dari katalog TheTVDB."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film e serie TV dal catalogo di TheTVDB."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TheTVDB のカタログにある映画やテレビ番組。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TheTVDB 카탈로그의 영화와 TV 프로그램입니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filem dan siri TV daripada katalog TheTVDB."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmer og serier fra katalogen til TheTVDB."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Films en series uit de catalogus van TheTVDB."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy i seriale z katalogu TheTVDB."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmes e séries do catálogo do TheTVDB."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filme și seriale din catalogul TheTVDB."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Фильмы и сериалы из каталога TheTVDB."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy a seriály z katalógu TheTVDB."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmi in serije iz kataloga TheTVDB."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmovi i serije iz kataloga TheTVDB."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmer och serier från TheTVDB:s katalog."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพยนตร์และรายการทีวีจากแค็ตตาล็อกของ TheTVDB"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TheTVDB kataloğundan film ve diziler."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Фільми й серіали з каталогу TheTVDB."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Phim và chương trình truyền hình từ danh mục của TheTVDB."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "来自 TheTVDB 影视资料库的电影和电视剧。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "來自 TheTVDB 影視資料庫的電影和影集。"
+          }
+        }
+      }
+    },
+    "Movies and shows people are watching this week." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أفلام ومسلسلات يشاهدها الناس هذا الأسبوع."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Филми и сериали, които хората гледат тази седмица."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pel·lícules i sèries que la gent mira aquesta setmana."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy a seriály, které lidé sledují tento týden."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film og serier, som folk ser i denne uge."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filme und Serien, die diese Woche geschaut werden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ταινίες και σειρές που παρακολουθεί ο κόσμος αυτή την εβδομάδα."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Películas y series que la gente está viendo esta semana."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فیلم‌ها و سریال‌های تلویزیونی که مردم این هفته تماشا می‌کنند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Elokuvia ja sarjoja, joita ihmiset katsovat tällä viikolla."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Films et séries TV que les gens regardent cette semaine."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סרטים ותוכניות טלוויזיה שאנשים צופים בהם השבוע."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस हफ़्ते लोग जो मूवी और शो देख रहे हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmovi i serije koje ljudi gledaju ovog tjedna."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmek és sorozatok, amelyeket ezen a héten néznek az emberek."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film dan acara TV yang ditonton pemirsa minggu ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film e serie TV che le persone stanno guardando questa settimana."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "今週みんなが観ている映画やテレビ番組。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "사람들이 이번 주에 시청 중인 영화와 TV 프로그램입니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filem dan siri TV yang ditonton orang ramai minggu ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmer og serier folk ser på denne uken."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Films en series die mensen deze week kijken."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy i seriale oglądane w tym tygodniu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmes e séries que as pessoas estão assistindo nesta semana."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filme și seriale urmărite săptămâna aceasta."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Фильмы и сериалы, которые смотрят на этой неделе."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy a seriály, ktoré ľudia sledujú tento týždeň."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmi in serije, ki jih ljudje gledajo ta teden."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmovi i serije koje ljudi gledaju ove nedelje."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmer och serier som folk tittar på den här veckan."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพยนตร์และรายการทีวีที่ผู้คนกำลังดูในสัปดาห์นี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu hafta izlenen film ve diziler."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Фільми й серіали, які дивляться цього тижня."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Phim và chương trình truyền hình đang được mọi người xem trong tuần này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "本周大家正在观看的电影和电视剧。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "本週大家正在觀看的電影和影集。"
+          }
+        }
+      }
+    },
     "Movies, shows, and episodes" : {
       "localizations" : {
         "ar" : {
@@ -346973,6 +348736,226 @@
         }
       }
     },
+    "No sources selected. Featured won't add discovery titles." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لم تُحدَّد أي مصادر. لن تُضاف عناوين من مصادر الاكتشاف إلى «المميّز»."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Няма избрани източници. В „Избрано“ няма да се добавят препоръчани заглавия."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No s'ha seleccionat cap font. No s'afegiran títols per descobrir a «Destacat»."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nejsou vybrány žádné zdroje. Do sekce Doporučené se nebudou přidávat doporučené tituly."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ingen kilder valgt. Der tilføjes ikke titler fra anbefalingskilder til »I fokus«."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keine Quellen ausgewählt. „Im Fokus“ fügt keine Titel aus Empfehlungsquellen hinzu."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν έχουν επιλεγεί πηγές. Δεν θα προστεθούν τίτλοι για ανακάλυψη στα Προτεινόμενα."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No hay fuentes seleccionadas. No se añadirán títulos por descubrir a Destacados."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "هیچ منبعی انتخاب نشده است. عنوانی از منابع کشف محتوا به بخش پیشنهادی اضافه نمی‌شود."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lähteitä ei ole valittu. Esittelyssä-osioon ei lisätä löytövinkkejä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aucune source sélectionnée. Aucun titre à découvrir ne sera ajouté à la section À la une."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא נבחרו מקורות. לא יתווספו כותרים לגילוי לאזור המומלצים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "कोई स्रोत नहीं चुना गया है। फ़ीचर्ड में बाहरी कैटलॉग से टाइटल नहीं जोड़े जाएँगे।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nije odabran nijedan izvor. U odjeljak Istaknuto neće se dodavati naslovi iz izvora preporuka."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nincs kiválasztva forrás. A Kiemelt rész nem egészül ki külső katalógusokból származó címekkel."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tidak ada sumber yang dipilih. Unggulan tidak akan menambahkan judul dari sumber rekomendasi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nessuna fonte selezionata. La sezione In evidenza non aggiungerà titoli da scoprire."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ソースが選択されていません。「おすすめ」に外部カタログからの作品は追加されません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "선택한 출처가 없습니다. 추천에 외부 카탈로그의 콘텐츠가 추가되지 않습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tiada sumber dipilih. Pilihan tidak akan menambah judul daripada katalog penemuan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ingen kilder er valgt. Fremhevet legger ikke til titler fra eksterne kataloger."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Geen bronnen geselecteerd. Uitgelicht voegt geen titels uit externe catalogi toe."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie wybrano źródeł. Do sekcji Polecane nie będą dodawane tytuły z zewnętrznych katalogów."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nenhuma fonte selecionada. A opção Em destaque não adicionará títulos dos catálogos de descoberta."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nu este selectată nicio sursă. În Recomandate nu vor fi adăugate titluri din cataloage."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Источники не выбраны. В раздел «Рекомендуемое» не будут добавляться фильмы и сериалы из внешних каталогов."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie sú vybrané žiadne zdroje. Do sekcie Odporúčané sa nebudú pridávať tituly z katalógov."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izbran ni noben vir. V razdelek Izpostavljeno se ne bodo dodajali naslovi iz katalogov."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nijedan izvor nije izabran. U odeljak Izdvojeno neće se dodavati naslovi iz kataloga."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Inga källor har valts. Utvalt lägger inte till titlar från katalogerna."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ยังไม่ได้เลือกแหล่งเนื้อหา ส่วน “แนะนำ” จะไม่เพิ่มเนื้อหาจากแหล่งค้นพบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kaynak seçilmedi. Öne çıkanlar bölümüne keşif içerikleri eklenmeyecek."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Джерела не вибрано. До розділу «Рекомендовані» не додаватимуться нові знахідки."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chưa chọn nguồn nào. Mục Được giới thiệu sẽ không thêm các gợi ý khám phá."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "未选择来源。“精选内容”不会添加推荐作品。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "尚未選取來源。「精選」不會加入探索到的作品。"
+          }
+        }
+      }
+    },
     "No speed limit" : {
       "localizations" : {
         "ar" : {
@@ -366390,6 +368373,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "在 Seerr 中開啟並檢視本季"
+          }
+        }
+      }
+    },
+    "Open the original discovery source." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "افتح مصدر الاكتشاف الأصلي."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Отворете оригиналния източник на препоръката."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obre la font original de descoberta."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otevřít původní zdroj doporučení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Åbn den oprindelige anbefalingskilde."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Öffne die ursprüngliche Empfehlungsquelle."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ανοίξτε την αρχική πηγή της πρότασης."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abre la fuente original de la sugerencia."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "منبع اصلی این پیشنهاد را باز کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Avaa löytövinkin alkuperäinen lähde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ouvrez la source d’origine de cette suggestion."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פתחו את המקור שממנו הגיעה ההמלצה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "खोज का मूल स्रोत खोलें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otvori izvor na kojem je naslov pronađen."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az ajánlás eredeti forrásának megnyitása."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Buka sumber asli rekomendasi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Apri la fonte originale del suggerimento."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "作品を見つけた元の情報サイトを開きます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "콘텐츠를 추천한 원래 출처를 엽니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Buka sumber asal cadangan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Åpne den opprinnelige kilden til anbefalingen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open de oorspronkelijke bron van de aanbeveling."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otwórz oryginalne źródło rekomendacji."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abra a fonte original da recomendação."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deschide sursa originală a recomandării."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Перейти к первоисточнику рекомендации."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otvoriť pôvodný zdroj odporúčania."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odpri prvotni vir priporočila."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otvori originalni izvor preporuke."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Öppna rekommendationens ursprungliga källa."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เปิดแหล่งที่มาของเนื้อหาที่ค้นพบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keşif içeriğinin asıl kaynağını açın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Відкрити першоджерело рекомендації."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mở trang nguồn của gợi ý khám phá."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "打开推荐内容的原始来源。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "開啟探索內容的原始來源。"
           }
         }
       }
@@ -401244,6 +403447,226 @@
         }
       }
     },
+    "Prefer titles you haven't seen in the hero recently. Turn off to keep your watchlist order." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فضّل العناوين التي لم تظهر مؤخرًا في العرض الرئيسي. عطّل هذا الخيار للحفاظ على ترتيب قائمة المشاهدة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Давайте предимство на заглавия, които не са показвани наскоро във водещия банер. Изключете тази опция, за да запазите реда в списъка за гледане."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dona prioritat als títols que no han aparegut recentment a l'element destacat. Desactiva aquesta opció per mantenir l'ordre de la llista de seguiment."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Upřednostňovat tituly, které se v poslední době neobjevily v hlavním banneru. Vypněte pro zachování pořadí v seznamu ke zhlédnutí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prioriter titler, der ikke har været vist i banneret for nylig. Slå fra for at bevare rækkefølgen i »Min liste«."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bevorzuge Titel, die in letzter Zeit nicht auf der Titelbühne angezeigt wurden. Deaktiviere diese Option, um die Reihenfolge deiner Merkliste beizubehalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δώστε προτεραιότητα σε τίτλους που δεν έχουν εμφανιστεί πρόσφατα στην κεντρική προβολή. Απενεργοποιήστε για να διατηρήσετε τη σειρά της λίστας παρακολούθησής σας."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Da prioridad a los títulos que no se hayan mostrado recientemente en la portada. Desactiva esta opción para mantener el orden de tu Watchlist."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "به عنوان‌هایی اولویت دهید که اخیراً در بنر اصلی نمایش داده نشده‌اند. برای حفظ ترتیب فهرست تماشای خود، این گزینه را خاموش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Suosi nimikkeitä, joita ei ole viime aikoina näytetty nostossa. Poista käytöstä, jos haluat säilyttää Watchlist-listasi järjestyksen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Privilégiez les titres qui n’ont pas été affichés récemment dans la bannière. Désactivez cette option pour conserver l’ordre de votre Watchlist."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תנו עדיפות לכותרים שלא הוצגו לאחרונה בבאנר הראשי. כבו אפשרות זו כדי לשמור על הסדר ברשימת הצפייה שלכם."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "उन टाइटलों को प्राथमिकता दें जो हाल में होम के हीरो बैनर में नहीं दिखाए गए हैं। वॉचलिस्ट का क्रम बनाए रखने के लिए इसे बंद करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dajte prednost naslovima koji se u posljednje vrijeme nisu prikazivali u istaknutom banneru. Isključite ovu opciju da biste zadržali redoslijed na popisu za gledanje."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Részesítsd előnyben azokat a címeket, amelyek mostanában nem jelentek meg a kezdőlapi főképen. Kapcsold ki a figyelőlista sorrendjének megtartásához."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan judul yang tidak ditampilkan di banner utama akhir-akhir ini. Nonaktifkan untuk mempertahankan urutan Daftar Tontonan Anda."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dai priorità ai titoli che non sono apparsi di recente nella sezione In evidenza. Disattiva per mantenere l'ordine della Watchlist."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ホーム上部のヒーローエリアに最近表示されていない作品を優先します。ウォッチリストの並び順を保つにはオフにしてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "최근 홈의 히어로 영역에 표시되지 않은 콘텐츠를 우선 추천합니다. 시청 목록 순서를 유지하려면 이 옵션을 끄세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan judul yang tidak dipaparkan dalam Sorotan Utama baru-baru ini. Matikan untuk mengekalkan susunan Senarai Tontonan anda."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prioriter titler som ikke har blitt vist i banneret i det siste. Slå av for å beholde rekkefølgen i Min liste."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Geef voorrang aan titels die de laatste tijd niet in de uitgelichte banner zijn getoond. Schakel dit uit om de volgorde in je kijklijst te behouden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferuj tytuły, których ostatnio nie wyświetlano na banerze głównym. Wyłącz, aby zachować kolejność na liście do obejrzenia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dê preferência a títulos que não apareceram no Destaque recentemente. Desative para manter a ordem da sua lista para assistir."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Acordă prioritate titlurilor care nu au apărut recent în bannerul principal. Dezactivează opțiunea pentru a păstra ordinea din lista de vizionare."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Отдавать предпочтение фильмам и сериалам, которые в последнее время не отображались на баннере. Отключите, чтобы сохранить порядок списка просмотра."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uprednostniť tituly, ktoré sa v poslednom čase nezobrazili v hlavnom banneri. Vypnite túto možnosť, ak chcete zachovať poradie v zozname na pozretie."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost naj imajo naslovi, ki v zadnjem času niso bili prikazani v glavnem pasu. Izklopite to možnost, da ohranite vrstni red seznama za ogled."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dajte prednost naslovima koji se u skorije vreme nisu prikazivali u istaknutom baneru. Isključite ovu opciju da biste zadržali redosled liste za gledanje."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prioritera titlar som inte har visats i huvudbilden nyligen. Stäng av för att behålla ordningen i din bevakningslista."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ให้ความสำคัญกับเนื้อหาที่ไม่ได้แสดงในแบนเนอร์เด่นเมื่อเร็ว ๆ นี้ ปิดเพื่อคงลำดับรายการที่อยากดู"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vitrinde son zamanlarda gösterilmeyen içeriklere öncelik verin. İzleme Listesi sırasını korumak için kapatın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Надавайте перевагу фільмам і серіалам, які останнім часом не з’являлися на головному банері. Вимкніть, щоб зберегти порядок списку перегляду."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ưu tiên nội dung gần đây chưa xuất hiện trên biểu ngữ Nổi bật. Tắt để giữ nguyên thứ tự Danh sách xem sau."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "优先展示最近未在主横幅中出现的作品。关闭后保留片单顺序。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "優先顯示最近未在焦點輪播中出現的作品。關閉即可保留待看清單的順序。"
+          }
+        }
+      }
+    },
     "Preferred audio" : {
       "comment" : "Picker label in iOS playback settings for the preferred audio track language.",
       "localizations" : {
@@ -419111,6 +421534,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "近期媒體資料已過期。請稍後重新掃描。"
+          }
+        }
+      }
+    },
+    "Recent popular movies and shows, weekly trends, and currently airing TV." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أفلام ومسلسلات حديثة ورائجة، والمحتوى الرائج أسبوعيًا، ومسلسلات تُعرض حاليًا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Нови популярни филми и сериали, седмични тенденции и сериали, които се излъчват в момента."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pel·lícules i sèries recents i populars, tendències setmanals i sèries que s'emeten actualment."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Novější populární filmy a seriály, týdenní trendy a právě vysílané seriály."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nyere populære film og serier, ugentlige trends og serier, der sendes i øjeblikket."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktuelle beliebte Filme und Serien, wöchentliche Trends und derzeit ausgestrahlte Serien."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Πρόσφατες δημοφιλείς ταινίες και σειρές, τάσεις της εβδομάδας και σειρές που προβάλλονται τώρα."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Películas y series recientes y populares, tendencias de la semana y series en emisión."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فیلم‌ها و سریال‌های تازه و محبوب، ترندهای هفتگی و برنامه‌های تلویزیونی در حال پخش."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uusia suosittuja elokuvia ja sarjoja, viikon trendejä sekä parhaillaan esitettäviä TV-ohjelmia."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Films et séries TV récents et populaires, tendances de la semaine et programmes TV en cours de diffusion."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סרטים ותוכניות טלוויזיה חדשים ופופולריים, הטרנדים של השבוע ותוכניות שמשודרות כעת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "हालिया लोकप्रिय मूवी और शो, साप्ताहिक ट्रेंड और अभी प्रसारित हो रहे टीवी शो।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Noviji popularni filmovi i serije, tjedni trendovi i TV serije koje se trenutačno emitiraju."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Friss, népszerű filmek és sorozatok, heti trendek és jelenleg futó tévéműsorok."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film dan acara TV populer terbaru, tren mingguan, dan acara TV yang sedang tayang."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Film e serie TV recenti e popolari, tendenze settimanali e programmi TV attualmente in onda."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "最近の人気映画やテレビ番組、週間トレンド、現在放送中のテレビ番組。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "최근 인기 영화와 TV 프로그램, 주간 트렌드, 현재 방영 중인 TV 프로그램입니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filem dan siri TV popular terkini, trend mingguan dan siri TV yang sedang ditayangkan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nyere populære filmer og serier, ukens trender og serier som sendes nå."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Recente populaire films en series, wekelijkse trends en series die nu worden uitgezonden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nowe popularne filmy i seriale, trendy tygodnia i obecnie emitowane seriale."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmes e séries populares recentes, tendências da semana e séries em exibição."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filme și seriale recente și populare, tendințe săptămânale și seriale difuzate în prezent."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Новые популярные фильмы и сериалы, тренды недели и сериалы, выходящие сейчас."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nové populárne filmy a seriály, týždenné trendy a aktuálne vysielané seriály."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Novejši priljubljeni filmi in serije, tedenski trendi ter serije, ki se trenutno predvajajo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Noviji popularni filmovi i serije, nedeljni trendovi i serije koje se trenutno emituju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nyare populära filmer och serier, veckans trender och serier som sänds just nu."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพยนตร์และรายการทีวีที่ได้รับความนิยมช่วงนี้ รายการมาแรงประจำสัปดาห์ และรายการทีวีที่กำลังออกอากาศ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Son dönemin popüler film ve dizileri, haftalık trendler ve şu anda yayımlanan diziler."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Популярні останнім часом фільми й серіали, тренди тижня та серіали, що зараз виходять."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Phim và chương trình truyền hình phổ biến gần đây, xu hướng hằng tuần và chương trình truyền hình đang phát sóng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "近期热门电影和电视剧、每周热门趋势，以及正在播出的电视剧。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "近期熱門電影和影集、每週熱門趨勢，以及正在播出的影集。"
           }
         }
       }
@@ -447077,6 +449720,7 @@
     },
     "Requires Seerr" : {
       "comment" : "Disabled-note text in Home customization settings when the Featured source is unavailable because no Seerr server is configured.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -505207,6 +507851,226 @@
         }
       }
     },
+    "Show discovery sources" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "إظهار مصادر الاكتشاف"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показване на източниците на препоръки"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostra les fonts de descoberta"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobrazovat zdroje doporučení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vis anbefalingskilder"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Empfehlungsquellen anzeigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εμφάνιση πηγών ανακάλυψης"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostrar fuentes de descubrimiento"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "نمایش منابع کشف محتوا"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Näytä löytövinkkien lähteet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afficher les sources des découvertes"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הצגת מקורות גילוי"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "खोज के स्रोत दिखाएँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži izvore preporuka"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ajánlások forrásainak megjelenítése"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tampilkan sumber rekomendasi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostra le fonti dei suggerimenti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "作品の情報元を表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "추천 콘텐츠 출처 표시"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tunjukkan sumber penemuan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vis kilder til anbefalinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toon bronnen van aanbevelingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pokazuj źródła rekomendacji"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostrar fontes de descoberta"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afișează sursele recomandărilor"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показывать источники рекомендаций"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobraziť zdroje odporúčaní"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži vire priporočil"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži izvore preporuka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Visa rekommendationskällor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "แสดงแหล่งที่มาของเนื้อหาที่ค้นพบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keşif kaynaklarını göster"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показувати джерела рекомендацій"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hiện nguồn khám phá"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "显示推荐来源"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "顯示探索來源"
+          }
+        }
+      }
+    },
     "Show each library's own rows" : {
       "localizations" : {
         "ar" : {
@@ -508290,6 +511154,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "將聽障字幕排在清單下方。"
+          }
+        }
+      }
+    },
+    "Show the catalogs behind each title. Titles from Simkl always show its required credit, even when this is off." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اعرض الكتالوجات التي يأتي منها كل عنوان. تظهر الإشارة الإلزامية إلى Simkl بوصفه المصدر دائمًا مع عناوينه، حتى عند تعطيل هذا الخيار."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показвайте каталозите, от които идва всяко заглавие. При заглавия от Simkl винаги се показва задължителното посочване на източника, дори когато тази настройка е изключена."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostra els catàlegs d'on prové cada títol. Els títols de Simkl sempre mostren l'atribució obligatòria a la font, encara que aquesta opció estigui desactivada."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobrazovat katalogy, ze kterých jednotlivé tituly pocházejí. U titulů ze služby Simkl se povinné označení zdroje zobrazuje vždy, i když je tato volba vypnutá."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vis, hvilke kataloger hver titel kommer fra. Titler fra Simkl viser altid den påkrævede kildeangivelse, selv når dette er slået fra."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zeige die Kataloge, aus denen die einzelnen Titel stammen. Bei Titeln von Simkl bleibt die vorgeschriebene Quellenangabe immer sichtbar, auch wenn diese Option deaktiviert ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εμφανίστε τους καταλόγους προέλευσης κάθε τίτλου. Οι τίτλοι από το Simkl εμφανίζουν πάντα την υποχρεωτική αναφορά του ως πηγής, ακόμη κι όταν αυτή η επιλογή είναι απενεργοποιημένη."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Muestra los catálogos de los que procede cada título. Los títulos de Simkl siempre incluyen la mención obligatoria de Simkl como fuente, aunque esta opción esté desactivada."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کاتالوگ‌های منبع هر عنوان را نشان دهید. برای عنوان‌های Simkl، ذکر نام این سرویس به‌عنوان منبع الزامی است و حتی با خاموش بودن این گزینه نیز نمایش داده می‌شود."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Näytä luettelot, joista kukin nimike on peräisin. Simkl-palvelusta peräisin olevissa nimikkeissä näkyy aina sen vaatima lähdemaininta, vaikka tämä asetus olisi pois käytöstä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Affichez les catalogues dont provient chaque titre. Les titres issus de Simkl affichent toujours la mention obligatoire de Simkl comme source, même si cette option est désactivée."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הציגו את הקטלוגים שמהם הגיע כל כותר. בכותרים מ-Simkl תמיד מופיע הייחוס הנדרש ל-Simkl כמקור, גם כשאפשרות זו כבויה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "हर टाइटल के स्रोत कैटलॉग दिखाएँ। इसे बंद करने पर भी Simkl से आए टाइटलों पर उसका अनिवार्य स्रोत-उल्लेख हमेशा दिखेगा।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikažite kataloge iz kojih dolazi svaki naslov. Uz naslove iz kataloga Simkl uvijek se prikazuje obvezna naznaka izvora, čak i kada je ova opcija isključena."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Megjeleníti az egyes címek forrásául szolgáló katalógusokat. A Simkl által ajánlott címeknél a kötelező forrásmegjelölés akkor is látható, ha ez a beállítás ki van kapcsolva."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tampilkan katalog asal setiap judul. Judul dari Simkl selalu menampilkan atribusi wajibnya, meskipun opsi ini dinonaktifkan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostra i cataloghi da cui proviene ogni titolo. I titoli provenienti da Simkl mostrano sempre l'attribuzione obbligatoria, anche quando questa opzione è disattivata."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "各作品の情報元となるカタログを表示します。Simkl が情報元の作品には、オフにしても必須のクレジット表記が常に表示されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "각 콘텐츠의 출처인 카탈로그를 표시합니다. 이 옵션을 꺼도 Simkl 콘텐츠에는 필수 출처 표시가 항상 나타납니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tunjukkan katalog asal setiap judul. Judul daripada Simkl sentiasa memaparkan pengiktirafan sumber yang diwajibkan, walaupun pilihan ini dimatikan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vis katalogene bak hver tittel. Titler fra Simkl viser alltid den påkrevde kildehenvisningen, selv når dette er slått av."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toon de catalogi achter elke titel. Bij titels van Simkl wordt altijd de verplichte bronvermelding getoond, ook als dit uitstaat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pokazuj katalogi, z których pochodzą poszczególne tytuły. Przy tytułach z Simkl zawsze widnieje wymagane oznaczenie źródła, nawet gdy ta opcja jest wyłączona."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mostre os catálogos de origem de cada título. Os títulos do Simkl sempre exibem a atribuição obrigatória, mesmo com esta opção desativada."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afișează cataloagele din care provin titlurile. Pentru titlurile din Simkl, sursa este întotdeauna menționată conform cerințelor, chiar și când această opțiune este dezactivată."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показывать, из каких каталогов взяты фильмы и сериалы. Для фильмов и сериалов из Simkl всегда отображается обязательное указание источника, даже если эта настройка отключена."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobraziť katalógy, z ktorých pochádzajú jednotlivé tituly. Pri tituloch zo služby Simkl sa povinné označenie zdroja zobrazuje vždy, aj keď je táto možnosť vypnutá."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži kataloge, iz katerih prihajajo posamezni naslovi. Pri naslovih iz storitve Simkl je obvezna navedba vira vedno prikazana, tudi ko je ta možnost izklopljena."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prikaži kataloge iz kojih potiču pojedinačni naslovi. Kod naslova sa servisa Simkl uvek se prikazuje obavezna oznaka izvora, čak i kada je ova opcija isključena."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Visa vilka kataloger titlarna kommer från. För titlar från Simkl visas alltid den obligatoriska källangivelsen, även när detta är avstängt."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "แสดงแค็ตตาล็อกที่เป็นแหล่งข้อมูลของแต่ละรายการ เนื้อหาจาก Simkl จะระบุแหล่งที่มาตามข้อกำหนดเสมอ แม้จะปิดตัวเลือกนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Her içeriğin hangi kataloglardan geldiğini gösterin. Bu seçenek kapalı olsa bile Simkl içeriklerinde zorunlu kaynak atfı her zaman gösterilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Показувати каталоги, з яких походить кожен фільм чи серіал. Для вмісту із Simkl обов’язкове зазначення джерела відображається завжди, навіть коли цю опцію вимкнено."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hiện danh mục cung cấp thông tin cho từng nội dung. Nội dung từ Simkl luôn ghi rõ nguồn theo yêu cầu của Simkl, ngay cả khi tắt tùy chọn này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "显示每部作品的资料库来源。即使关闭此选项，来自 Simkl 的作品也会按要求始终标注 Simkl。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "顯示每部作品的資料庫來源。即使關閉此選項，來自 Simkl 的作品仍會一律依要求標示 Simkl 來源。"
           }
         }
       }
@@ -546764,6 +549848,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "影集"
+          }
+        }
+      }
+    },
+    "TV premieres and returning shows." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "العروض التلفزيونية الأولى والمواسم الجديدة للمسلسلات."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Телевизионни премиери и нови сезони на сериали."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Estrenes de televisió i noves temporades de sèries."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Televizní premiéry a nové řady stávajících seriálů."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tv-premierer og nye sæsoner af eksisterende serier."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TV-Premieren und neue Staffeln bestehender Serien."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Τηλεοπτικές πρεμιέρες και νέοι κύκλοι σειρών."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Estrenos de TV y nuevas temporadas de series."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "پخش نخست سریال‌ها و فصل‌های تازهٔ سریال‌های قبلی."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TV-ensi-illat ja sarjojen uudet kaudet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Premières diffusions TV et nouvelles saisons de séries."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בכורות בטלוויזיה ועונות חדשות של סדרות קיימות."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "नए टीवी शो और मौजूदा शो के नए सीज़न।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Premijere TV serija i nove sezone postojećih serija."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Új tévésorozatok premierjei és meglévő sorozatok új évadai."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penayangan perdana acara TV dan musim baru serial yang sudah ada."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Debutti di serie TV e nuove stagioni di serie già esistenti."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "新番組と既存シリーズの新シーズン。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "새로 시작하는 TV 프로그램과 기존 프로그램의 새 시즌입니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tayangan perdana TV dan siri yang kembali dengan musim baharu."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TV-premierer og nye sesonger av eksisterende serier."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TV-premières en nieuwe seizoenen van bestaande series."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Premiery telewizyjne i kolejne sezony seriali."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Estreias na TV e séries que retornam com novas temporadas."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Premiere de seriale și sezoane noi ale serialelor existente."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Премьеры сериалов и выход новых сезонов."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Premiéry seriálov a nové série existujúcich seriálov."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Premiere serij in nove sezone obstoječih serij."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Premijere serija i nove sezone postojećih serija."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seriepremiärer och nya säsonger av återkommande serier."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "รายการทีวีเปิดตัวใหม่และซีซันหรือตอนใหม่ของรายการเดิม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yeni başlayan diziler ve mevcut dizilerin yeni sezonları veya bölümleri."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Телепрем’єри та повернення серіалів із новими сезонами чи епізодами."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chương trình truyền hình mới ra mắt và mùa hoặc tập mới của các chương trình đã có."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "新剧首播及现有剧集的新一季或新一集。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "新影集首播，以及既有影集的新一季或新一集。"
           }
         }
       }
@@ -604226,8 +607530,229 @@
         }
       }
     },
+    "Trending and seasonal anime." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الأنمي الرائج وأنمي الموسم."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Аниме, набиращо популярност, и аниме от текущия сезон."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime de moda i de temporada."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime, které je právě v kurzu, a anime aktuální sezóny."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktuelt populær anime og sæsonens anime."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Angesagte Anime und Anime der aktuellen Saison."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δημοφιλή άνιμε και άνιμε της σεζόν."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime en tendencia y de temporada."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "انیمه‌های پرطرفدار و انیمه‌های فصل جاری."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Suosiossa olevat animet ja tämän kauden animet."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Animes tendance et de saison."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אנימה פופולרית ואנימה של העונה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ट्रेंड में चल रहे और मौजूदा सीज़न के एनीमे।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime u trendu i iz aktualne sezone."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Felkapott animék és az aktuális szezon animéi."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime yang sedang tren dan anime musim ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime di tendenza e della stagione in corso."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "話題のアニメと今シーズンのアニメ。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "인기 애니메이션과 이번 시즌 애니메이션입니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime sohor kini dan anime musim ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Populær anime og anime fra denne sesongen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime die nu populair is en anime van dit seizoen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime na czasie i z bieżącego sezonu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Animes em alta e da temporada."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime în tendințe și din sezonul curent."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Аниме в тренде и аниме текущего сезона."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Populárne anime a anime aktuálnej sezóny."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Animeji v trendu in animeji trenutne sezone."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime naslovi u trendu i iz aktuelne sezone."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trendande anime och säsongens anime."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อนิเมะมาแรงและอนิเมะประจำฤดูกาล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trend olan animeler ve bu sezonun animeleri."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Аніме в тренді та аніме поточного сезону."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Anime thịnh hành và anime mùa này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "热门及当季动漫。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "熱門及當季動畫。"
+          }
+        }
+      }
+    },
     "Trending titles available to stream (requires Seerr)." : {
       "comment" : "Explanation shown under the Featured hero source option in Settings.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -627480,6 +631005,226 @@
         }
       }
     },
+    "View on %@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "عرض على موقع %@"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Преглед на сайта на %@"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Veure al web de %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobrazit na webu %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Åbn på %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Auf der Website von %@ ansehen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προβολή στον ιστότοπο %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abrir en %@"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "باز کردن در %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Avaa sivustolla %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voir sur le site de %@"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פתיחה ב-%@"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ की वेबसाइट पर देखें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pogledaj na web-stranici %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Megtekintés ezen a webhelyen: %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lihat di situs %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Visualizza sul sito di %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ のウェブサイトで見る"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 웹사이트에서 보기"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lihat di laman %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vis på nettstedet til %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bekijk op de website van %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobacz na stronie %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ver no site do %@"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vezi pe site-ul %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Открыть на сайте %@"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zobraziť na webe %@"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odpri na spletišču %@"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otvori na sajtu %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Visa på webbplatsen %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เปิดดูบนเว็บไซต์ %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ sitesinde görüntüle"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Переглянути на сайті %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Xem trên trang %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "在 %@ 网站查看"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "在 %@ 網站檢視"
+          }
+        }
+      }
+    },
     "View season statuses or request missing seasons" : {
       "localizations" : {
         "ar" : {
@@ -634680,6 +638425,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "待看清單"
+          }
+        }
+      }
+    },
+    "Watchlist picks" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "مختارات قائمة المشاهدة"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Подбрано от списъка за гледане"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecció de la llista de seguiment"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Výběr ze seznamu ke zhlédnutí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Udvalgte titler fra »Min liste«"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Auswahl aus der Merkliste"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επιλογές από τη λίστα παρακολούθησης"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecciones de la Watchlist"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "گزیده‌هایی از فهرست تماشا"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Watchlist-poiminnat"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sélections de la Watchlist"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחירות מרשימת הצפייה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "वॉचलिस्ट के चुनिंदा टाइटल"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odabrano s popisa za gledanje"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Válogatás a figyelőlistáról"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilihan dari Daftar Tontonan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selezioni dalla Watchlist"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ウォッチリストからのおすすめ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "시청 목록 추천"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilihan daripada Senarai Tontonan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utvalg fra Min liste"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecties uit je kijklijst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Propozycje z listy do obejrzenia"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seleções da lista para assistir"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecții din lista de vizionare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Подборка из списка просмотра"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Výber zo zoznamu na pozretie"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izbor s seznama za ogled"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izbor sa liste za gledanje"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utvalda titlar från bevakningslistan"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "คัดจากรายการที่อยากดู"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "İzleme Listesi'nden seçmeler"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Добірка зі списку перегляду"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gợi ý từ Danh sách xem sau"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "片单精选"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "待看清單精選"
           }
         }
       }
