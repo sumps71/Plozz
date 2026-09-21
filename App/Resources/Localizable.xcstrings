@@ -112894,6 +112894,7 @@
     },
     "Audio track" : {
       "comment" : "VoiceOver label for the waveform button beneath the player's scrub bar; opens the audio-track menu.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -392276,6 +392277,7 @@
     },
     "Playback speed" : {
       "comment" : "VoiceOver label for the speedometer button beneath the player's scrub bar; opens the playback-speed picker.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -457511,6 +457513,9 @@
           }
         }
       }
+    },
+    "Resumes at the current position. Different cuts may have different timing." : {
+
     },
     "Retry" : {
       "comment" : "Generic retry button used after failed loads or connections, such as loading Seerr users, loading libraries, or reconnecting an integration.",
