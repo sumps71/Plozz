@@ -130982,9 +130982,6 @@
         }
       }
     },
-    "Buffering video…" : {
-
-    },
     "Buffering…" : {
       "localizations" : {
         "ar" : {
@@ -171465,6 +171462,9 @@
         }
       }
     },
+    "Connecting to %@…" : {
+
+    },
     "Connecting to Live Stream…" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -174553,9 +174553,6 @@
           }
         }
       }
-    },
-    "Converted as you watch. Playback starts when enough video is buffered; the whole movie doesn’t need to finish converting." : {
-
     },
     "Copied" : {
       "comment" : "Temporary success label on the iOS Diagnostics copy button after the filtered log text has been copied.",
@@ -369760,12 +369757,6 @@
         }
       }
     },
-    "Opening the converted stream from %@…" : {
-
-    },
-    "Opening the playback stream…" : {
-
-    },
     "Opening this channel was cancelled." : {
       "localizations" : {
         "ar" : {
@@ -369985,6 +369976,9 @@
           }
         }
       }
+    },
+    "Opening video…" : {
+
     },
     "Opens this profile’s settings" : {
       "comment" : "Accessibility hint for a profile tile while the picker is in edit mode.",
@@ -396908,6 +396902,9 @@
           }
         }
       }
+    },
+    "Plex refused the conversion. Check the server’s transcoding settings and log." : {
+
     },
     "Plex rejected offline download preparation with HTTP %lld." : {
       "localizations" : {
@@ -448697,9 +448694,6 @@
           }
         }
       }
-    },
-    "Requesting a playback stream from %@…" : {
-
     },
     "Requesting…" : {
       "comment" : "Progress label shown while a season request is being sent from a series request control.",
@@ -608552,6 +608546,9 @@
     "Transcoding codec" : {
 
     },
+    "Transcoding…" : {
+
+    },
     "Travel & Hobbies" : {
       "localizations" : {
         "ar" : {
@@ -612744,7 +612741,7 @@
         }
       }
     },
-    "Trying H.264 at the same quality limit…" : {
+    "Trying H.264…" : {
 
     },
     "Turn Off Developer Mode" : {
@@ -635635,9 +635632,6 @@
           }
         }
       }
-    },
-    "Waiting for video from %@…" : {
-
     },
     "Waiting to apply settings for %lld channels." : {
       "localizations" : {
