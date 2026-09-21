@@ -1775,6 +1775,7 @@
     },
     "%@ Trending" : {
       "comment" : "Discovery feed name. The variable is the Simkl brand name; keep it unchanged and translate Trending.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -252843,7 +252844,7 @@
       }
     },
     "From %@" : {
-      "comment" : "Hero discovery credit. The variable is a list of catalog brand names or feed names, such as Simkl Trending.",
+      "comment" : "Hero discovery credit. The variable is a list of catalog brand names, such as TMDB.",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -322510,6 +322511,7 @@
       }
     },
     "Movies and shows people are watching this week." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -511817,6 +511819,9 @@
           }
         }
       }
+    },
+    "Show the catalogs behind each title." : {
+
     },
     "Show the catalogs behind each title. Titles from Simkl always show its required credit, even when this is off." : {
       "localizations" : {
