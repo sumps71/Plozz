@@ -226030,6 +226030,9 @@
         }
       }
     },
+    "Emby returned incompatible HDR video. Enable HDR-to-SDR tone mapping in the server’s transcoding settings (requires Emby Premiere), or choose an SDR version." : {
+
+    },
     "Emby signs in per profile, each with its own credentials. Choose what shows on your Home under Profile › Your Libraries." : {
       "localizations" : {
         "ar" : {
@@ -574211,6 +574214,9 @@
           }
         }
       }
+    },
+    "The server returned incompatible HDR video. Enable HDR-to-SDR tone mapping in the server’s transcoding settings, or choose an SDR version." : {
+
     },
     "The server supplied a stream, but playback made no progress before the startup timeout. This doesn’t confirm a codec restriction. Check the server’s transcoding activity and network connection, or try another quality." : {
 
