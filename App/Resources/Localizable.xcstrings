@@ -335591,6 +335591,9 @@
         }
       }
     },
+    "No SDR version found on this server." : {
+
+    },
     "No Seasons to Request" : {
       "localizations" : {
         "ar" : {
@@ -388525,6 +388528,9 @@
         }
       }
     },
+    "Play an SDR version" : {
+
+    },
     "Play channel" : {
       "localizations" : {
         "ar" : {
@@ -388744,6 +388750,12 @@
           }
         }
       }
+    },
+    "Play original quality" : {
+
+    },
+    "Play original quality?" : {
+
     },
     "Play the next episode automatically." : {
       "localizations" : {
@@ -393821,6 +393833,9 @@
           }
         }
       }
+    },
+    "Playing in SDR" : {
+
     },
     "Playing on %@" : {
       "comment" : "Full-screen title shown on iOS when video is playing on an external route instead of in-app. %@ is the route or receiver name.",
@@ -467566,6 +467581,9 @@
           }
         }
       }
+    },
+    "SDR versions" : {
+
     },
     "SEEKING" : {
       "localizations" : {
@@ -578858,6 +578876,12 @@
         }
       }
     },
+    "This HDR conversion couldn’t be played. Check HDR-to-SDR tone mapping in the server’s transcoding settings or choose an SDR version." : {
+
+    },
+    "This HDR conversion couldn’t be played. HDR-to-SDR tone mapping may be needed; Emby requires Premiere for it. Check the server’s transcoding settings or choose an SDR version." : {
+
+    },
     "This Multiview favorite has an unsupported configuration." : {
       "localizations" : {
         "ar" : {
@@ -590151,6 +590175,9 @@
           }
         }
       }
+    },
+    "This keeps your selected version but removes the streaming quality limit. It may use substantially more data, especially on cellular." : {
+
     },
     "This library is empty" : {
       "extractionState" : "stale",
