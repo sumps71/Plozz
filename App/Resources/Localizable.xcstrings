@@ -84628,6 +84628,12 @@
         }
       }
     },
+    "1080p · 20 Mbps" : {
+
+    },
+    "1080p · 8 Mbps" : {
+
+    },
     "1080p • 20 Mbps" : {
       "localizations" : {
         "ar" : {
@@ -84848,6 +84854,9 @@
         }
       }
     },
+    "240p · 500 Kbps" : {
+
+    },
     "25 Mbps" : {
       "localizations" : {
         "ar" : {
@@ -85067,6 +85076,9 @@
           }
         }
       }
+    },
+    "480p · 1 Mbps" : {
+
     },
     "480p • 1.5 Mbps" : {
       "localizations" : {
@@ -85947,6 +85959,12 @@
           }
         }
       }
+    },
+    "720p · 2 Mbps" : {
+
+    },
+    "720p · 4 Mbps" : {
+
     },
     "720p • 4 Mbps" : {
       "localizations" : {
@@ -89473,6 +89491,9 @@
           }
         }
       }
+    },
+    "About %@ per hour" : {
+
     },
     "About Plozz. Version %@, build %@. Bring all of your media together into one unified experience. Free forever and open source. Scan the on-screen code to view the GitHub repository." : {
       "comment" : "Accessibility label for the Settings > About section on tvOS, describing the app and the QR code that opens the GitHub repository. The first %@ is the app version, and the second %@ is the build number.",
@@ -100736,6 +100757,9 @@
         }
       }
     },
+    "Advanced" : {
+
+    },
     "Adventure" : {
       "comment" : "Category header in the profile avatar emoji picker for the adventure-themed emoji group.",
       "localizations" : {
@@ -108229,6 +108253,12 @@
         }
       }
     },
+    "Applies to this video. Changing quality briefly reloads playback at the current position. Your server may use another codec within the selected limit. Data use is approximate." : {
+
+    },
+    "Apply" : {
+
+    },
     "Approve & Continue" : {
       "localizations" : {
         "ar" : {
@@ -113081,6 +113111,7 @@
       }
     },
     "Audio, subtitles, and speed" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -137867,6 +137898,9 @@
           }
         }
       }
+    },
+    "Cellular" : {
+
     },
     "Center" : {
       "comment" : "Extra Line Position option: additional subtitle lines expand around the same vertical midpoint, rather than only above or below.",
@@ -244150,6 +244184,9 @@
         }
       }
     },
+    "File shares play original files and can’t convert video. Quality controls become available when you connect a compatible media server." : {
+
+    },
     "Filter" : {
       "localizations" : {
         "ar" : {
@@ -250783,6 +250820,12 @@
           }
         }
       }
+    },
+    "For movies and episodes from Plex, Jellyfin, and Emby. The original plays when it fits the limit; otherwise your server converts it. Codec preferences may fall back without increasing the quality limit. Downloads, Live TV, and file shares are unchanged." : {
+
+    },
+    "Force transcoding" : {
+
     },
     "Forced" : {
       "comment" : "Subtitle track qualifier — the track only shows forced (foreign-language-passage) lines.",
@@ -307872,6 +307915,9 @@
         }
       }
     },
+    "Local network" : {
+
+    },
     "Location" : {
       "localizations" : {
         "ar" : {
@@ -314484,6 +314530,9 @@
           }
         }
       }
+    },
+    "Maximum" : {
+
     },
     "Maximum Resolution: %lldp" : {
       "localizations" : {
@@ -373008,6 +373057,9 @@
         }
       }
     },
+    "Original quality" : {
+
+    },
     "Original • %lld Episodes" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -391986,6 +392038,9 @@
         }
       }
     },
+    "Playback options" : {
+
+    },
     "Playback position" : {
       "comment" : "Accessibility label for the main seek slider in the iOS player controls.",
       "localizations" : {
@@ -403004,6 +403059,12 @@
           }
         }
       }
+    },
+    "Prefer H.264" : {
+
+    },
+    "Prefer HEVC (H.265)" : {
+
     },
     "Prefer Non-Forced" : {
       "comment" : "Subtitle search preference option for forced (foreign-passage-only) subtitles.",
@@ -432335,6 +432396,9 @@
           }
         }
       }
+    },
+    "Remote Wi-Fi / Ethernet" : {
+
     },
     "Remove" : {
       "comment" : "Generic destructive action label used when removing downloaded items or removing a credential-free server connection.",
@@ -542353,6 +542417,9 @@
         }
       }
     },
+    "Streaming quality" : {
+
+    },
     "Studio" : {
       "comment" : "Credit-line label on anime hero artwork for the studio names.",
       "localizations" : {
@@ -572326,6 +572393,9 @@
           }
         }
       }
+    },
+    "The server couldn’t provide this streaming quality. Choose another quality or check the server’s transcoding settings." : {
+
     },
     "The server denied access to its NFS exports." : {
       "extractionState" : "stale",
@@ -602594,6 +602664,9 @@
         }
       }
     },
+    "This source plays original files and doesn’t support quality conversion." : {
+
+    },
     "This source redirects outside its allowed origin. Add the destination address explicitly if you trust it." : {
       "localizations" : {
         "ar" : {
@@ -608412,6 +608485,9 @@
           }
         }
       }
+    },
+    "Transcoding codec" : {
+
     },
     "Travel & Hobbies" : {
       "localizations" : {
@@ -629446,6 +629522,9 @@
           }
         }
       }
+    },
+    "Uses your server to convert video even when the original can play. HDR and audio formats may change." : {
+
     },
     "Verify & Browse" : {
       "extractionState" : "stale",
