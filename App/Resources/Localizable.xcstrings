@@ -113335,6 +113335,9 @@
         }
       }
     },
+    "Audio: %@" : {
+
+    },
     "Authenticated server playback isn't available here." : {
       "localizations" : {
         "ar" : {
@@ -314993,6 +314996,7 @@
     },
     "Media" : {
       "comment" : "Section header in the iOS/iPadOS Now Playing sheet above technical media badges for the current item.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -357626,6 +357630,7 @@
     },
     "Now Playing" : {
       "comment" : "Title for the now-playing screen or card, used as the iOS/iPadOS player sheet navigation title and as the fallback headline when music playback has no custom headline.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -409727,6 +409732,7 @@
     },
     "Previous Episode" : {
       "comment" : "Button in the iOS player's episode menu that starts the previous episode.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -453355,6 +453361,7 @@
       }
     },
     "Restart from Beginning" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -532348,6 +532355,9 @@
           }
         }
       }
+    },
+    "Source audio: %@" : {
+
     },
     "Source changes couldn't be saved" : {
       "localizations" : {
