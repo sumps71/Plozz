@@ -328089,6 +328089,9 @@
         }
       }
     },
+    "Negotiated codec: %@" : {
+
+    },
     "Network" : {
       "localizations" : {
         "ar" : {
@@ -457541,6 +457544,12 @@
     "Resumes at the current position. Different cuts may have different timing." : {
 
     },
+    "Retried requesting H.264 at the same quality limit." : {
+
+    },
+    "Retried requesting HEVC at the same quality limit." : {
+
+    },
     "Retry" : {
       "comment" : "Generic retry button used after failed loads or connections, such as loading Seerr users, loading libraries, or reconnecting an integration.",
       "localizations" : {
@@ -558124,9 +558133,6 @@
         }
       }
     },
-    "The H.264 fallback was also tried at the same quality limit." : {
-
-    },
     "The Live TV guide is too large to import safely." : {
       "localizations" : {
         "ar" : {
@@ -572908,6 +572914,9 @@
       }
     },
     "The server didn’t offer a converted stream for these settings. It didn’t report a specific reason. Try another quality, or ask the server owner to check the transcoding log." : {
+
+    },
+    "The server didn’t provide %@ for these settings. Check its encoder support and transcoding settings, or choose another quality." : {
 
     },
     "The server had a problem. Please try again in a moment." : {
@@ -612792,6 +612801,9 @@
       }
     },
     "Trying H.264…" : {
+
+    },
+    "Trying HEVC…" : {
 
     },
     "Turn Off Developer Mode" : {
