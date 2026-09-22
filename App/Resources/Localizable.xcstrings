@@ -89272,6 +89272,9 @@
         }
       }
     },
+    "AUDIO" : {
+
+    },
     "About" : {
       "localizations" : {
         "ar" : {
@@ -132744,6 +132747,12 @@
           }
         }
       }
+    },
+    "CURRENT AUDIO" : {
+
+    },
+    "CURRENT VIDEO" : {
+
     },
     "Cache" : {
       "comment" : "Section or panel title for metadata cache settings and diagnostics.",
@@ -191083,6 +191092,9 @@
         }
       }
     },
+    "Current stream" : {
+
+    },
     "Currently at %@" : {
       "comment" : "Subtitle in the WebDAV folder picker showing the current path being browsed. %@ is the current folder path.",
       "localizations" : {
@@ -194616,6 +194628,9 @@
           }
         }
       }
+    },
+    "Declared stream bitrate" : {
+
     },
     "Decoded by Apple TV" : {
       "localizations" : {
@@ -262446,6 +262461,9 @@
           }
         }
       }
+    },
+    "HDR" : {
+
     },
     "HDR Brightness" : {
       "comment" : "Label for the subtitle appearance control that boosts subtitle brightness over HDR video, in both tvOS and iOS player settings.",
@@ -353877,6 +353895,9 @@
         }
       }
     },
+    "Not available" : {
+
+    },
     "Not connected" : {
       "comment" : "Status value for the Seerr row in Settings when no Seerr server is connected.",
       "localizations" : {
@@ -358728,6 +358749,9 @@
           }
         }
       }
+    },
+    "ORIGINAL FILE" : {
+
     },
     "OS" : {
       "comment" : "Row label for the operating system version in developer or device-info screens.",
@@ -376410,6 +376434,9 @@
           }
         }
       }
+    },
+    "PLAYBACK" : {
+
     },
     "PLAYBACK ENDED" : {
       "localizations" : {
@@ -417453,6 +417480,9 @@
         }
       }
     },
+    "Quality limit" : {
+
+    },
     "Quality rating: %@ out of 5" : {
       "localizations" : {
         "ar" : {
@@ -421202,6 +421232,9 @@
           }
         }
       }
+    },
+    "Reading stream details…" : {
+
     },
     "Ready" : {
       "localizations" : {
@@ -453137,6 +453170,9 @@
         }
       }
     },
+    "Resolution" : {
+
+    },
     "Restart" : {
       "localizations" : {
         "ar" : {
@@ -468268,6 +468304,9 @@
         }
       }
     },
+    "SOURCE" : {
+
+    },
     "SSH Host Key SHA-256" : {
       "localizations" : {
         "ar" : {
@@ -468929,6 +468968,12 @@
           }
         }
       }
+    },
+    "SUBTITLES" : {
+
+    },
+    "SYSTEM" : {
+
     },
     "Salmon" : {
       "comment" : "Accessibility name for one profile color choice in the profile editor color palette.",
@@ -541376,9 +541421,6 @@
         }
       }
     },
-    "Stream codec" : {
-
-    },
     "Stream playlist is out of date. Rescan later." : {
       "localizations" : {
         "ar" : {
@@ -608603,6 +608645,9 @@
         }
       }
     },
+    "Transcoding" : {
+
+    },
     "Transcoding codec" : {
 
     },
@@ -629658,6 +629703,9 @@
     "Using H.264 for this stream; HEVC remains your preference." : {
 
     },
+    "VIDEO" : {
+
+    },
     "Verify & Browse" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -632540,7 +632588,10 @@
         }
       }
     },
-    "Video and audio details describe the original file, not the converted stream." : {
+    "Video and audio details describe the current stream. Original-file details are shown separately." : {
+
+    },
+    "Video codec" : {
 
     },
     "View on %@" : {
