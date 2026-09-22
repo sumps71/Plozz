@@ -289130,6 +289130,9 @@
         }
       }
     },
+    "Lets the server choose HEVC or H.264 when converting video." : {
+
+    },
     "Libraries" : {
       "comment" : "Title of the Home libraries row and of settings sections that manage which libraries appear on Home.",
       "localizations" : {
@@ -448936,6 +448939,9 @@
         }
       }
     },
+    "Requests H.264 when converting video." : {
+
+    },
     "Requests are made as" : {
       "localizations" : {
         "ar" : {
@@ -541357,6 +541363,9 @@
         }
       }
     },
+    "Stream codec" : {
+
+    },
     "Stream playlist is out of date. Rescan later." : {
       "localizations" : {
         "ar" : {
@@ -609470,6 +609479,9 @@
         }
       }
     },
+    "Tries HEVC first when supported, with H.264 fallback at the same quality limit." : {
+
+    },
     "Troubleshoot" : {
       "comment" : "Label for the iCloud Sync troubleshooting row in tvOS Settings.",
       "extractionState" : "stale",
@@ -629625,6 +629637,9 @@
       }
     },
     "Uses your server to convert video even when the original can play. HDR and audio formats may change." : {
+
+    },
+    "Using H.264 for this stream; HEVC remains your preference." : {
 
     },
     "Verify & Browse" : {
