@@ -91057,6 +91057,12 @@
         }
       }
     },
+    "Account: %@" : {
+
+    },
+    "Accounts: %@" : {
+
+    },
     "Active" : {
       "localizations" : {
         "ar" : {
@@ -92173,6 +92179,7 @@
     },
     "Add %@" : {
       "comment" : "Button that signs in the listed newly-detected user account(s). %@ is one or more user names joined into a list.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -174118,9 +174125,6 @@
         }
       }
     },
-    "Connecting to %@…" : {
-
-    },
     "Connecting as %@…" : {
       "localizations" : {
         "ar" : {
@@ -174340,6 +174344,9 @@
           }
         }
       }
+    },
+    "Connecting to %@…" : {
+
     },
     "Connecting to Live Stream…" : {
       "extractionState" : "stale",
@@ -257785,6 +257792,7 @@
       }
     },
     "From %@ %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -258011,6 +258019,7 @@
       }
     },
     "From another device" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -280583,6 +280592,15 @@
         }
       }
     },
+    "Import account" : {
+
+    },
+    "Import accounts" : {
+
+    },
+    "Import later in Settings" : {
+
+    },
     "Import playlist" : {
       "localizations" : {
         "ar" : {
@@ -280802,6 +280820,45 @@
           }
         }
       }
+    },
+    "Import server" : {
+
+    },
+    "Import servers" : {
+
+    },
+    "Import setup" : {
+
+    },
+    "Import your account from %@?" : {
+
+    },
+    "Import your account from another device?" : {
+
+    },
+    "Import your accounts from %@?" : {
+
+    },
+    "Import your accounts from another device?" : {
+
+    },
+    "Import your server from %@?" : {
+
+    },
+    "Import your server from another device?" : {
+
+    },
+    "Import your servers from %@?" : {
+
+    },
+    "Import your servers from another device?" : {
+
+    },
+    "Import your setup from %@?" : {
+
+    },
+    "Import your setup from another device?" : {
+
     },
     "Imported file" : {
       "localizations" : {
@@ -294027,6 +294084,7 @@
       }
     },
     "Later in Settings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -295790,9 +295848,6 @@
         }
       }
     },
-    "Lets the server choose HEVC or H.264 when converting video." : {
-
-    },
     "Let's get you connected" : {
       "localizations" : {
         "ar" : {
@@ -296012,6 +296067,9 @@
           }
         }
       }
+    },
+    "Lets the server choose HEVC or H.264 when converting video." : {
+
     },
     "Libraries" : {
       "comment" : "Title of the Home libraries row and of settings sections that manage which libraries appear on Home.",
@@ -526136,6 +526194,7 @@
     },
     "Sign in as %@" : {
       "comment" : "Button that signs in as the listed newly-detected user account(s). %@ is one or more user names joined into a list.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -654394,6 +654453,7 @@
     },
     "We found another user" : {
       "comment" : "Title shown when exactly one additional user account was detected on this network.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -654615,6 +654675,7 @@
     },
     "We found more of your setup" : {
       "comment" : "Title shown when both additional servers and additional users were detected.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -654836,6 +654897,7 @@
     },
     "We found more users" : {
       "comment" : "Title shown when several additional user accounts were detected on this network.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -655056,6 +655118,7 @@
       }
     },
     "We found your server" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -655277,6 +655340,7 @@
     },
     "We found your servers" : {
       "comment" : "Title shown when media servers were detected on this network.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
