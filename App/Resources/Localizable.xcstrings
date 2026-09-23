@@ -111971,6 +111971,7 @@
       }
     },
     "Approve this device" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -168688,6 +168689,7 @@
       }
     },
     "Code expires in" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -210005,6 +210007,7 @@
       }
     },
     "Device approved" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -393054,6 +393057,7 @@
       }
     },
     "Or open this address and enter the sign-in code:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -547966,6 +547970,7 @@
       }
     },
     "Sign-in code" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -698355,6 +698360,7 @@
       }
     },
     "Your library access and watch history follow this profile." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
