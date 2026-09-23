@@ -200065,12 +200065,6 @@
     },
     "Custom · %@p · %@ Kbps" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Custom · %1$@p · %2$@ Kbps"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -200111,6 +200105,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Προσαρμοσμένη · %1$@p · %2$@ Kbps"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Custom · %1$@p · %2$@ Kbps"
           }
         },
         "es" : {
@@ -258906,6 +258906,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "精細控制"
+          }
+        }
+      }
+    },
+    "Finish signing in to the remaining servers in Settings > iCloud Sync." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أكمل تسجيل الدخول إلى الخوادم المتبقية عبر «الإعدادات» ثم «مزامنة iCloud»."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Завършете влизането в останалите сървъри от Настройки > Синхронизиране с iCloud."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Completa l’inici de sessió als servidors restants a Configuració > Sincronització d’iCloud."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dokončete přihlášení ke zbývajícím serverům v části Nastavení > Synchronizace s iCloudem."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fuldfør login på de resterende servere under Indstillinger > iCloud-synkronisering."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Schließe die Anmeldung bei den übrigen Servern unter Einstellungen > iCloud-Synchronisierung ab."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ολοκληρώστε τη σύνδεση στους υπόλοιπους διακομιστές από την ενότητα Ρυθμίσεις > Συγχρονισμός iCloud."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Completa el inicio de sesión en los servidores restantes desde Ajustes > Sincronización con iCloud."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "از مسیر «تنظیمات» و سپس «همگام‌سازی iCloud»، ورود به سرورهای باقی‌مانده را تکمیل کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Viimeistele kirjautuminen jäljellä oleville palvelimille kohdassa Asetukset > iCloud-synkronointi."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Terminez de vous connecter aux serveurs restants dans Réglages > Synchronisation iCloud."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "יש להשלים את הכניסה לשרתים הנותרים דרך ״הגדרות״ ואז ״סנכרון iCloud״."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सेटिंग्स > iCloud सिंक में बाकी सर्वरों पर साइन-इन पूरा करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dovršite prijavu na preostale poslužitelje u odjeljku Postavke > Sinkronizacija s iCloudom."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fejezze be a bejelentkezést a többi szerverre a Beállítások > iCloud szinkronizálás menüpontban."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selesaikan proses masuk ke server lainnya di Pengaturan > Sinkronisasi iCloud."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Completa l’accesso ai server rimanenti in Impostazioni > Sincronizzazione iCloud."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "設定 > iCloud同期で、残りのサーバへのサインインを完了してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "설정 > iCloud 동기화에서 나머지 서버 로그인을 완료하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lengkapkan log masuk ke pelayan selebihnya di Tetapan > Penyegerakan iCloud."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fullfør innloggingen på de resterende serverne under Innstillinger > iCloud-synkronisering."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voltooi het aanmelden bij de overige servers via Instellingen > iCloud-synchronisatie."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dokończ logowanie do pozostałych serwerów w sekcji Ustawienia > Synchronizacja z iCloud."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Conclua o login nos servidores restantes em Ajustes > Sincronização do iCloud."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Finalizează autentificarea pe serverele rămase în Setări > Sincronizare iCloud."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Завершите вход на оставшиеся серверы в разделе «Настройки > Синхронизация iCloud»."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dokončite prihlásenie k zostávajúcim serverom v časti Nastavenia > Synchronizácia s iCloudom."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dokončajte prijavo v preostale strežnike v razdelku Nastavitve > Sinhronizacija z iCloudom."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dovršite prijavu na preostale servere u odeljku Podešavanja > iCloud sinhronizacija."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slutför inloggningen på de återstående servrarna under Inställningar > iCloud-synkronisering."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ลงชื่อเข้าใช้เซิร์ฟเวอร์ที่เหลือให้เสร็จในเมนู การตั้งค่า > ซิงก์ iCloud"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kalan sunucularda oturum açma işlemini Ayarlar > iCloud eşzamanlama bölümünden tamamlayın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Завершіть вхід на решту серверів у розділі «Налаштування > Синхронізація iCloud»."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hoàn tất đăng nhập vào các máy chủ còn lại trong Cài đặt > iCloud Đồng bộ hóa."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "请在“设置 > iCloud 同步”中完成其余服务器的登录。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "請在「設定 > iCloud 同步」中完成其餘伺服器的登入。"
           }
         }
       }

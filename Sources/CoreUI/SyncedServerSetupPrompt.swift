@@ -1,6 +1,5 @@
 #if os(iOS)
 import CoreModels
-import CoreUI
 import SwiftUI
 
 /// A friendly bottom-sheet card shown once when a server added on another device
@@ -10,12 +9,26 @@ import SwiftUI
 /// Two ways to add it: sign in here (opens Add Server pre-filled), or pull the login
 /// from the other device with no typing (the pairing flow). "Not Now" just dismisses —
 /// the server still shows under Settings ▸ iCloud Sync.
-struct PlozziOSNewServerPromptView: View {
-    let descriptor: SyncedAccountDescriptor
-    let accent: Color
-    let onSignIn: () -> Void
-    let onUseOtherDevice: () -> Void
-    let onNotNow: () -> Void
+public struct SyncedServerSetupPrompt: View {
+    private let descriptor: SyncedAccountDescriptor
+    private let palette: ThemePalette
+    private let onSignIn: () -> Void
+    private let onUseOtherDevice: () -> Void
+    private let onNotNow: () -> Void
+
+    public init(
+        descriptor: SyncedAccountDescriptor,
+        palette: ThemePalette,
+        onSignIn: @escaping () -> Void,
+        onUseOtherDevice: @escaping () -> Void,
+        onNotNow: @escaping () -> Void
+    ) {
+        self.descriptor = descriptor
+        self.palette = palette
+        self.onSignIn = onSignIn
+        self.onUseOtherDevice = onUseOtherDevice
+        self.onNotNow = onNotNow
+    }
 
     /// The friendly origin device name ("Brando's TV"), when the publisher stamped one.
     private var originName: String? {
@@ -34,9 +47,12 @@ struct PlozziOSNewServerPromptView: View {
         }
     }
 
-    var body: some View {
+    public var body: some View {
         VStack(spacing: 0) {
-            ProviderBrandMark(provider: descriptor.provider, size: 76)
+            ProviderBrandMark(
+                provider: descriptor.provider, size: 76,
+                mediaShareTransport: descriptor.mediaShareTransportKind
+            )
                 .padding(.top, 32)
 
             Text("Add “\(descriptor.serverName)”?")
@@ -56,23 +72,26 @@ struct PlozziOSNewServerPromptView: View {
             VStack(spacing: 12) {
                 // Zero-typing path (preferred): pull the login from the other device.
                 // The device icon sits inline right before its name.
-                Button(action: onUseOtherDevice) {
-                    Group {
-                        if let originName {
-                            Text("Auto Sign In with \(Image(systemName: originIcon)) \(originName)")
-                        } else {
-                            Text("Auto Sign In from Other Device")
+                if descriptor.provider.permitsCredentialTransfer {
+                    Button(action: onUseOtherDevice) {
+                        Group {
+                            if let originName {
+                                Text("Auto Sign In with \(Image(systemName: originIcon)) \(originName)")
+                            } else {
+                                Text("Auto Sign In from Other Device")
+                            }
                         }
-                    }
-                    .fontWeight(.semibold)
-                    .frame(maxWidth: .infinity)
-                }
-                .buttonStyle(.borderedProminent)
-
-                // Manual fallback: type the sign-in here.
-                Button(action: onSignIn) {
-                    Text("Sign In Manually")
                         .fontWeight(.semibold)
+                        .foregroundStyle(palette.onAccent)
+                        .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.borderedProminent)
+                }
+
+                Button(action: onSignIn) {
+                    Text(descriptor.provider.permitsCredentialTransfer ? "Sign In Manually" : "Sign In")
+                        .fontWeight(.semibold)
+                        .foregroundStyle(palette.primaryText)
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.bordered)
@@ -83,7 +102,7 @@ struct PlozziOSNewServerPromptView: View {
                     .padding(.top, 4)
             }
             .controlSize(.large)
-            .tint(accent)
+            .tint(palette.accent)
             .padding(.top, 28)
             .padding(.horizontal, 24)
 
