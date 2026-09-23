@@ -160528,6 +160528,232 @@
         }
       }
     },
+    "Choose a total bitrate from %@ to %@ Kbps for this server." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Choose a total bitrate from %1$@ to %2$@ Kbps for this server."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اختر معدل بت إجماليًا من %1$@ إلى %2$@ Kbps لهذا الخادم."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изберете общ битрейт от %1$@ до %2$@ Kbps за този сървър."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tria una taxa de bits total d’entre %1$@ i %2$@ Kbps per a aquest servidor."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zvolte pro tento server celkový datový tok od %1$@ do %2$@ Kbps."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vælg en samlet bithastighed fra %1$@ til %2$@ Kbps for denne server."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wähle für diesen Server eine Gesamtbitrate von %1$@ bis %2$@ Kbps."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επιλέξτε συνολικό ρυθμό bit από %1$@ έως %2$@ Kbps για αυτόν τον διακομιστή."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Elige una tasa de bits total de entre %1$@ y %2$@ Kbps para este servidor."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برای این سرور، نرخ بیت کل را از %1$@ تا %2$@ Kbps انتخاب کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valitse tälle palvelimelle kokonaisbittinopeus väliltä %1$@–%2$@ Kbps."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Choisissez un débit binaire total compris entre %1$@ et %2$@ Kbps pour ce serveur."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "יש לבחור קצב סיביות כולל בין %1$@ ל־%2$@ Kbps עבור שרת זה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस सर्वर के लिए %1$@ से %2$@ Kbps के बीच कुल बिटरेट चुनें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odaberite ukupnu brzinu prijenosa bitova od %1$@ do %2$@ Kbps za ovaj poslužitelj."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Válasszon %1$@ és %2$@ Kbps közötti teljes bitsebességet ehhez a szerverhez."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih total bitrate antara %1$@ dan %2$@ Kbps untuk server ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Scegli un bitrate totale compreso tra %1$@ e %2$@ Kbps per questo server."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このサーバの合計ビットレートを%1$@～%2$@ Kbpsの範囲で選択してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 서버의 총 비트레이트를 %1$@~%2$@ Kbps 범위에서 선택하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih jumlah kadar bit daripada %1$@ hingga %2$@ Kbps untuk pelayan ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Velg en total bithastighet fra %1$@ til %2$@ Kbps for denne serveren."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kies voor deze server een totale bitrate van %1$@ tot %2$@ Kbps."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybierz łączną przepływność od %1$@ do %2$@ Kbps dla tego serwera."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Escolha uma taxa de bits total de %1$@ a %2$@ Kbps para este servidor."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alege o rată de biți totală între %1$@ și %2$@ Kbps pentru acest server."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выберите общий битрейт от %1$@ до %2$@ Kbps для этого сервера."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte celkový dátový tok od %1$@ do %2$@ Kbps pre tento server."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za ta strežnik izberite skupno bitno hitrost od %1$@ do %2$@ Kbps."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izaberite ukupnu brzinu protoka od %1$@ do %2$@ Kbps za ovaj server."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Välj en total bithastighet mellan %1$@ och %2$@ Kbps för den här servern."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกบิตเรตรวมตั้งแต่ %1$@ ถึง %2$@ Kbps สำหรับเซิร์ฟเวอร์นี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu sunucu için %1$@ ile %2$@ Kbps arasında bir toplam bit hızı seçin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Виберіть загальний бітрейт від %1$@ до %2$@ Kbps для цього сервера."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chọn tổng tốc độ bit từ %1$@ đến %2$@ Kbps cho máy chủ này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "请为此服务器选择 %1$@ 至 %2$@ Kbps 之间的总码率。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "請為此伺服器選擇 %1$@ 至 %2$@ Kbps 之間的總位元率。"
+          }
+        }
+      }
+    },
     "Choose a version" : {
       "comment" : "Placeholder shown in Settings when no playback version is selected yet.",
       "localizations" : {
@@ -262013,7 +262239,228 @@
         }
       }
     },
+    "For movies and episodes from Plex, Jellyfin, Emby, and Silo. The original plays when it fits the limit; otherwise your server converts it. Available resolutions and codecs depend on the server. Codec preferences may fall back without increasing the quality limit. Downloads, Live TV, and file shares are unchanged." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "للأفلام والحلقات من Plex وJellyfin وEmby وSilo. تُشغّل النسخة الأصلية إذا كانت ضمن الحد؛ وإلا فيحوّلها الخادم. تعتمد خيارات الدقة والترميز المتاحة على الخادم. قد يُستخدم ترميز بديل عن المفضّل دون زيادة حد الجودة. لا تتغير التنزيلات أو التلفزيون المباشر أو مشاركات الملفات."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "За филми и епизоди от Plex, Jellyfin, Emby и Silo. Оригиналът се възпроизвежда, ако се вписва в ограничението; иначе сървърът го преобразува. Наличните разделителни способности и кодеци зависят от сървъра. Предпочитаният кодек може да бъде заменен с резервен, без да се увеличава ограничението за качество. Изтеглянията, телевизията на живо и файловите споделяния остават непроменени."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Per a pel·lícules i episodis de Plex, Jellyfin, Emby i Silo. Es reprodueix l’original si compleix el límit; si no, el servidor el converteix. Les resolucions i els còdecs disponibles depenen del servidor. Es pot recórrer a un còdec alternatiu al preferit sense augmentar el límit de qualitat. Les descàrregues, la TV en directe i els recursos compartits de fitxers no canvien."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pro filmy a epizody ze serverů Plex, Jellyfin, Emby a Silo. Pokud původní verze splňuje limit, přehraje se; jinak ji server převede. Dostupná rozlišení a kodeky závisejí na serveru. Místo preferovaného kodeku se může použít náhradní, aniž by se zvýšil limit kvality. Stahování, živé vysílání a sdílené složky zůstávají beze změny."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Til film og episoder fra Plex, Jellyfin, Emby og Silo. Originalen afspilles, hvis den er inden for grænsen; ellers konverterer serveren den. Tilgængelige opløsninger og codecs afhænger af serveren. Et alternativt codec kan bruges i stedet for det foretrukne uden at hæve kvalitetsgrænsen. Downloads, live-tv og fildelinger er uændrede."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Für Filme und Folgen von Plex, Jellyfin, Emby und Silo. Das Original wird abgespielt, wenn es innerhalb des Limits liegt; andernfalls wandelt dein Server es um. Verfügbare Auflösungen und Codecs hängen vom Server ab. Statt des bevorzugten Codecs kann ein anderer verwendet werden, ohne das Qualitätslimit zu erhöhen. Downloads, Live-TV und Dateifreigaben bleiben unverändert."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Για ταινίες και επεισόδια από Plex, Jellyfin, Emby και Silo. Το αρχικό βίντεο αναπαράγεται όταν είναι εντός του ορίου· διαφορετικά, ο διακομιστής σας το μετατρέπει. Οι διαθέσιμες αναλύσεις και οι κωδικοποιητές εξαρτώνται από τον διακομιστή. Αν οι προτιμώμενοι κωδικοποιητές δεν μπορούν να χρησιμοποιηθούν, μπορεί να χρησιμοποιηθούν άλλοι χωρίς αύξηση του ορίου ποιότητας. Οι λήψεις, η ζωντανή τηλεόραση και οι κοινόχρηστοι φάκελοι δεν επηρεάζονται."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Para películas y episodios de Plex, Jellyfin, Emby y Silo. Se reproduce el original si está dentro del límite; de lo contrario, el servidor lo convierte. Las resoluciones y los códecs disponibles dependen del servidor. Se puede recurrir a otros códecs si los preferidos no están disponibles, sin aumentar el límite de calidad. Las descargas, la TV en directo y los recursos compartidos no cambian."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برای فیلم‌ها و قسمت‌های سریال از Plex، Jellyfin، Emby و Silo. اگر نسخهٔ اصلی در محدودهٔ تعیین‌شده باشد، همان پخش می‌شود؛ در غیر این صورت، سرور آن را تبدیل می‌کند. وضوح‌ها و کدک‌های در دسترس به سرور بستگی دارند. ممکن است به‌جای کدک‌های ترجیحی از کدک‌های جایگزین استفاده شود، بدون افزایش سقف کیفیت. دانلودها، تلویزیون زنده و پوشه‌های اشتراکی تغییری نمی‌کنند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koskee Plex-, Jellyfin-, Emby- ja Silo-palvelimien elokuvia ja jaksoja. Alkuperäinen toistetaan, jos se mahtuu rajaan. Muussa tapauksessa palvelin muuntaa sen. Saatavilla olevat tarkkuudet ja koodekit riippuvat palvelimesta. Ensisijaiset koodekit voidaan tarvittaessa korvata toisilla laaturajaa nostamatta. Lataukset, suorat TV-lähetykset ja tiedostojaot eivät muutu."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pour les films et les épisodes de Plex, Jellyfin, Emby et Silo. L’original est lu s’il respecte la limite ; sinon, votre serveur le convertit. Les résolutions et les codecs disponibles dépendent du serveur. D’autres codecs peuvent remplacer les codecs préférés sans augmenter la limite de qualité. Les téléchargements, la TV en direct et les partages de fichiers restent inchangés."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לסרטים ולפרקים מ־Plex, Jellyfin, Emby ו־Silo. המקור מנוגן כשהוא עומד במגבלה; אחרת השרת ממיר אותו. הרזולוציות והקודקים הזמינים תלויים בשרת. ניתן לעבור לקודקים חלופיים במקום הקודקים המועדפים, בלי להעלות את מגבלת האיכות. הורדות, טלוויזיה בשידור חי ושיתופי קבצים אינם משתנים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plex, Jellyfin, Emby और Silo की फ़िल्मों और एपिसोड के लिए। मूल वीडियो सीमा के भीतर होने पर चलता है; अन्यथा आपका सर्वर उसे कन्वर्ट करता है। उपलब्ध रिज़ॉल्यूशन और कोडेक सर्वर पर निर्भर करते हैं। पसंदीदा कोडेक उपलब्ध न होने पर क्वालिटी सीमा बढ़ाए बिना दूसरे कोडेक का उपयोग किया जा सकता है। डाउनलोड, लाइव टीवी और फ़ाइल शेयर अपरिवर्तित रहते हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za filmove i epizode s poslužitelja Plex, Jellyfin, Emby i Silo. Izvornik se reproducira ako je unutar ograničenja; u suprotnom ga poslužitelj pretvara. Dostupne razlučivosti i kodeci ovise o poslužitelju. Ako željeni kodek nije dostupan, može se upotrijebiti zamjenski bez povećanja ograničenja kvalitete. To ne utječe na preuzimanja, TV uživo ni dijeljenja datoteka."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plex-, Jellyfin-, Emby- és Silo-szervereken tárolt filmekhez és epizódokhoz. Ha az eredeti belefér a korlátba, az kerül lejátszásra; ellenkező esetben a szerver átalakítja. Az elérhető felbontások és kodekek a szervertől függenek. Szükség esetén másik kodek használható az előnyben részesített helyett, a minőségi korlát növelése nélkül. A letöltéseket, az élő TV-t és a fájlmegosztásokat ez nem érinti."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Untuk film dan episode dari Plex, Jellyfin, Emby, dan Silo. Versi asli diputar jika memenuhi batas; jika tidak, server Anda akan mengonversinya. Resolusi dan codec yang tersedia bergantung pada server. Codec cadangan dapat digunakan jika codec pilihan tidak tersedia, tanpa menaikkan batas kualitas. Unduhan, TV Langsung, dan folder bersama tidak berubah."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Per film ed episodi da Plex, Jellyfin, Emby e Silo. L’originale viene riprodotto se rientra nel limite; altrimenti il server lo converte. Le risoluzioni e i codec disponibili dipendono dal server. Se il codec preferito non è disponibile, può essere usato un codec alternativo senza aumentare il limite di qualità. Download, TV in diretta e condivisioni di file restano invariati."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plex、Jellyfin、Emby、Siloの映画とエピソードが対象です。上限内に収まる場合はオリジナルを再生し、超える場合はサーバが変換します。利用可能な解像度とコーデックはサーバによって異なります。優先するコーデックが使えない場合は、品質の上限を引き上げずに別のコーデックを使用することがあります。ダウンロード、ライブTV、ファイル共有には影響しません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plex, Jellyfin, Emby, Silo의 영화와 에피소드에 적용됩니다. 원본이 제한 범위 내에 있으면 원본을 재생하고, 그렇지 않으면 서버에서 변환합니다. 사용 가능한 해상도와 코덱은 서버에 따라 다릅니다. 선호 코덱을 사용할 수 없으면 화질 제한을 높이지 않고 다른 코덱을 사용할 수 있습니다. 다운로드, 라이브 TV, 파일 공유에는 영향을 주지 않습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Untuk filem dan episod daripada Plex, Jellyfin, Emby dan Silo. Versi asal dimainkan jika berada dalam had; jika tidak, pelayan anda akan menukarnya. Resolusi dan kodek yang tersedia bergantung pada pelayan. Kodek alternatif boleh digunakan jika kodek pilihan tidak tersedia, tanpa meningkatkan had kualiti. Muat turun, TV Langsung dan perkongsian fail tidak berubah."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "For filmer og episoder fra Plex, Jellyfin, Emby og Silo. Originalen spilles av når den er innenfor grensen; ellers konverterer serveren den. Tilgjengelige oppløsninger og kodeker avhenger av serveren. En annen kodek kan brukes hvis den foretrukne ikke er tilgjengelig, uten å øke kvalitetsgrensen. Nedlastinger, direktesendt TV og fildelinger påvirkes ikke."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voor films en afleveringen van Plex, Jellyfin, Emby en Silo. Het origineel wordt afgespeeld als het binnen de limiet past; anders converteert je server het. De beschikbare resoluties en codecs zijn afhankelijk van de server. Als de voorkeurscodec niet beschikbaar is, kan een andere codec worden gebruikt zonder de kwaliteitslimiet te verhogen. Downloads, live-tv en netwerkshares blijven ongewijzigd."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dotyczy filmów i odcinków z Plex, Jellyfin, Emby i Silo. Oryginał jest odtwarzany, gdy mieści się w limicie; w przeciwnym razie serwer go konwertuje. Dostępne rozdzielczości i kodeki zależą od serwera. Jeśli preferowany kodek nie jest dostępny, może zostać użyty inny bez zwiększania limitu jakości. Nie zmienia to pobranych materiałów, telewizji na żywo ani udziałów plikowych."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Para filmes e episódios do Plex, Jellyfin, Emby e Silo. O original é reproduzido quando está dentro do limite; caso contrário, o servidor o converte. As resoluções e os codecs disponíveis dependem do servidor. Outro codec pode ser usado se o preferido não estiver disponível, sem aumentar o limite de qualidade. Downloads, TV ao vivo e compartilhamentos de arquivos não são alterados."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pentru filme și episoade de pe Plex, Jellyfin, Emby și Silo. Originalul este redat dacă se încadrează în limită; altfel, serverul îl convertește. Rezoluțiile și codecurile disponibile depind de server. Dacă nu se poate folosi codecul preferat, se poate utiliza unul alternativ fără a crește limita de calitate. Descărcările, TV în direct și resursele de fișiere partajate rămân neschimbate."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Для фильмов и серий из Plex, Jellyfin, Emby и Silo. Если оригинал укладывается в ограничение, воспроизводится он; иначе сервер преобразует его. Доступные разрешения и кодеки зависят от сервера. Вместо предпочтительного кодека может использоваться другой без увеличения предела качества. Загрузки, прямой эфир и общие файловые ресурсы не затрагиваются."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pre filmy a epizódy zo serverov Plex, Jellyfin, Emby a Silo. Ak sa pôvodná verzia zmestí do limitu, prehrá sa priamo; inak ju server skonvertuje. Dostupné rozlíšenia a kodeky závisia od servera. Namiesto preferovaného kodeku sa môže použiť náhradný bez zvýšenia limitu kvality. Stiahnuté súbory, živé vysielanie a zdieľané súborové prostriedky zostávajú bez zmeny."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za filme in epizode iz strežnikov Plex, Jellyfin, Emby in Silo. Če izvirnik ustreza omejitvi, se predvaja neposredno; sicer ga strežnik pretvori. Razpoložljive ločljivosti in kodeki so odvisni od strežnika. Namesto prednostnega kodeka se lahko uporabi nadomestni, ne da bi se zvišala omejitev kakovosti. Prenosi, TV v živo in datotečne skupne rabe ostanejo nespremenjeni."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za filmove i epizode sa servera Plex, Jellyfin, Emby i Silo. Izvorna verzija se reprodukuje ako se uklapa u ograničenje; u suprotnom je server konvertuje. Dostupne rezolucije i kodeci zavise od servera. Umesto željenog kodeka može se koristiti zamenski, bez povećanja ograničenja kvaliteta. Preuzimanja, TV uživo i deljeni resursi za datoteke ostaju nepromenjeni."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "För filmer och avsnitt från Plex, Jellyfin, Emby och Silo. Originalet spelas upp om det ryms inom gränsen; annars konverterar servern det. Tillgängliga upplösningar och kodekar beror på servern. En annan kodek kan användas i stället för den föredragna utan att kvalitetsgränsen höjs. Nedladdningar, live-tv och filresurser påverkas inte."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "สำหรับภาพยนตร์และตอนต่าง ๆ จาก Plex, Jellyfin, Emby และ Silo หากต้นฉบับอยู่ภายในขีดจำกัด จะเล่นต้นฉบับ มิฉะนั้นเซิร์ฟเวอร์จะแปลงให้ ความละเอียดและตัวแปลงสัญญาณที่ใช้ได้ขึ้นอยู่กับเซิร์ฟเวอร์ หากใช้ตัวแปลงสัญญาณที่ต้องการไม่ได้ อาจใช้ตัวสำรองโดยไม่เพิ่มขีดจำกัดคุณภาพ การดาวน์โหลด ทีวีสด และแหล่งแชร์ไฟล์จะไม่เปลี่ยนแปลง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plex, Jellyfin, Emby ve Silo'daki filmler ve bölümler içindir. Orijinal dosya sınıra uyuyorsa oynatılır; aksi takdirde sunucunuz dosyayı dönüştürür. Kullanılabilir çözünürlükler ve kodekler sunucuya bağlıdır. Tercih edilen kodek kullanılamazsa kalite sınırı artırılmadan başka bir kodek kullanılabilir. İndirilenler, Canlı TV ve dosya paylaşımları etkilenmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Для фільмів та епізодів із Plex, Jellyfin, Emby і Silo. Якщо оригінал відповідає обмеженню, він відтворюється без змін; інакше сервер перетворює його. Доступні роздільності й кодеки залежать від сервера. Якщо бажаний кодек недоступний, може використовуватися резервний без підвищення обмеження якості. Завантаження, пряме телебачення та спільні файлові ресурси залишаються без змін."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dành cho phim và tập phim từ Plex, Jellyfin, Emby và Silo. Bản gốc sẽ được phát nếu nằm trong giới hạn; nếu không, máy chủ sẽ chuyển đổi. Độ phân giải và codec khả dụng tùy thuộc vào máy chủ. Nếu không dùng được codec ưu tiên, có thể chuyển sang codec dự phòng mà không tăng giới hạn chất lượng. Tải xuống, truyền hình trực tiếp và nguồn chia sẻ tệp không thay đổi."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "适用于来自 Plex、Jellyfin、Emby 和 Silo 的电影与剧集。原始文件符合限制时会直接播放，否则由服务器转换。可用的分辨率和编解码器取决于服务器。如果首选编解码器不可用，可能改用其他编解码器，但不会提高画质上限。下载、电视直播和文件共享不受影响。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "適用於來自 Plex、Jellyfin、Emby 和 Silo 的電影與影集單集。原始檔案符合限制時會直接播放，否則由伺服器轉換。可用的解析度與編解碼器取決於伺服器。如果偏好的編解碼器無法使用，可能改用其他編解碼器，但不會提高畫質上限。下載、電視直播和檔案共享不受影響。"
+          }
+        }
+      }
+    },
     "For movies and episodes from Plex, Jellyfin, and Emby. The original plays when it fits the limit; otherwise your server converts it. Codec preferences may fall back without increasing the quality limit. Downloads, Live TV, and file shares are unchanged." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -477912,7 +478359,228 @@
         }
       }
     },
+    "Resolution and bitrate are independent limits. Smaller videos aren’t enlarged. Kbps means kilobits per second: 2,000 Kbps is 2 Mbps. Audio is included in the total; the server allocates the audio and video budgets." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الدقة ومعدل البت حدّان مستقلان. لا يتم تكبير الفيديوهات الأصغر. تعني Kbps كيلوبت في الثانية: 2,000 Kbps تساوي 2 Mbps. يشمل معدل البت الإجمالي الصوت؛ ويحدّد الخادم الحصة المخصصة لكل من الصوت والفيديو."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Разделителната способност и битрейтът са независими ограничения. По-малките видеоклипове не се увеличават. Kbps означава килобита в секунда: 2 000 Kbps са 2 Mbps. Аудиото е включено в общия битрейт; сървърът разпределя битрейта между аудиото и видеото."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La resolució i la taxa de bits són límits independents. Els vídeos més petits no s’amplien. Kbps vol dir quilobits per segon: 2.000 Kbps són 2 Mbps. L’àudio s’inclou en el total; el servidor reparteix la taxa de bits entre l’àudio i el vídeo."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rozlišení a datový tok jsou nezávislé limity. Menší videa se nezvětšují. Kbps znamená kilobity za sekundu: 2 000 Kbps jsou 2 Mbps. Zvuk je zahrnut do celkového datového toku; server rozděluje datový tok mezi zvuk a video."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opløsning og bithastighed er uafhængige grænser. Mindre videoer opskaleres ikke. Kbps betyder kilobit pr. sekund: 2.000 Kbps er 2 Mbps. Lyd er inkluderet i den samlede bithastighed; serveren fordeler bithastigheden mellem lyd og video."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Auflösung und Bitrate sind unabhängige Limits. Kleinere Videos werden nicht hochskaliert. Kbps bedeutet Kilobit pro Sekunde: 2.000 Kbps sind 2 Mbps. Audio ist in der Gesamtbitrate enthalten; der Server teilt die Bitrate auf Audio und Video auf."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η ανάλυση και ο ρυθμός bit είναι ανεξάρτητα όρια. Τα μικρότερα βίντεο δεν μεγεθύνονται. Kbps σημαίνει kilobit ανά δευτερόλεπτο: 2.000 Kbps ισοδυναμούν με 2 Mbps. Ο ήχος περιλαμβάνεται στο σύνολο· ο διακομιστής κατανέμει τον διαθέσιμο ρυθμό bit μεταξύ ήχου και βίντεο."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La resolución y la tasa de bits son límites independientes. Los vídeos más pequeños no se amplían. Kbps significa kilobits por segundo: 2.000 Kbps son 2 Mbps. El audio está incluido en el total; el servidor reparte la tasa de bits disponible entre el audio y el vídeo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "وضوح و نرخ بیت محدودیت‌های مستقلی هستند. ویدیوهای کوچک‌تر بزرگ نمی‌شوند. Kbps یعنی کیلوبیت در ثانیه: 2,000 Kbps برابر با 2 Mbps است. صدا در مقدار کل حساب می‌شود؛ سرور نرخ بیت موجود را بین صدا و ویدیو تقسیم می‌کند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tarkkuus ja bittinopeus ovat erillisiä rajoja. Pienempiä videoita ei suurenneta. Kbps tarkoittaa kilobittiä sekunnissa: 2 000 Kbps on 2 Mbps. Ääni sisältyy kokonaisbittinopeuteen; palvelin jakaa sen äänen ja videon kesken."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La résolution et le débit binaire sont des limites indépendantes. Les vidéos plus petites ne sont pas agrandies. Kbps signifie kilobits par seconde : 2 000 Kbps équivalent à 2 Mbps. L’audio est inclus dans le total ; le serveur répartit le débit binaire total entre l’audio et la vidéo."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הרזולוציה וקצב הסיביות הם מגבלות נפרדות. סרטונים קטנים יותר אינם מוגדלים. Kbps פירושו קילוביט לשנייה: 2,000 Kbps הם 2 Mbps. השמע כלול בקצב הסיביות הכולל; השרת מחלק אותו בין השמע לווידאו."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "रिज़ॉल्यूशन और बिटरेट की सीमाएँ स्वतंत्र हैं। छोटे वीडियो को बड़ा नहीं किया जाता। Kbps का अर्थ किलोबिट प्रति सेकंड है: 2,000 Kbps की दर 2 Mbps के बराबर है। कुल बिटरेट में ऑडियो शामिल है; सर्वर ऑडियो और वीडियो के लिए बिटरेट का हिस्सा तय करता है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Razlučivost i brzina prijenosa bitova neovisna su ograničenja. Manji se videozapisi ne povećavaju. Kbps znači kilobit u sekundi: 2.000 Kbps jednako je 2 Mbps. Audio je uključen u ukupnu vrijednost; poslužitelj raspodjeljuje brzinu prijenosa bitova između audija i videa."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A felbontás és a bitsebesség egymástól független korlátok. A kisebb videókat nem nagyítja fel a rendszer. A Kbps jelentése kilobit másodpercenként: 2000 Kbps ugyanannyi, mint 2 Mbps. A teljes keret a hangot is tartalmazza; a hang és a videó közötti felosztást a szerver határozza meg."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resolusi dan bitrate memiliki batas masing-masing. Video beresolusi lebih rendah tidak diperbesar. Kbps berarti kilobit per detik: 2.000 Kbps sama dengan 2 Mbps. Audio termasuk dalam total bitrate; server menentukan alokasi bitrate untuk audio dan video."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Risoluzione e bitrate sono limiti indipendenti. I video più piccoli non vengono ingranditi. Kbps significa kilobit al secondo: 2.000 Kbps equivalgono a 2 Mbps. L’audio è incluso nel totale; il server ripartisce il bitrate tra audio e video."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "解像度とビットレートの上限はそれぞれ独立しています。小さい動画は拡大されません。Kbpsは1秒あたりのキロビット数を表し、2,000 Kbpsは2 Mbpsに相当します。合計には音声も含まれ、サーバが音声と映像にビットレートを割り当てます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "해상도와 비트레이트는 서로 독립적인 제한입니다. 해상도가 낮은 비디오는 확대하지 않습니다. Kbps는 초당 킬로비트를 뜻하며, 2,000 Kbps는 2 Mbps입니다. 오디오는 총 비트레이트에 포함되며, 서버가 오디오와 비디오에 비트레이트를 할당합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resolusi dan kadar bit ialah had yang berasingan. Video dengan resolusi lebih rendah tidak dibesarkan. Kbps bermaksud kilobit sesaat: 2,000 Kbps bersamaan 2 Mbps. Audio termasuk dalam jumlah tersebut; pelayan menentukan peruntukan kadar bit untuk audio dan video."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Oppløsning og bithastighet er uavhengige grenser. Videoer med lavere oppløsning skaleres ikke opp. Kbps betyr kilobit per sekund: 2 000 Kbps er 2 Mbps. Lyd er inkludert i totalen; serveren fordeler bithastigheten mellom lyd og video."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resolutie en bitrate zijn onafhankelijke limieten. Video's met een lagere resolutie worden niet vergroot. Kbps betekent kilobits per seconde: 2.000 Kbps is 2 Mbps. Audio is inbegrepen in het totaal; de server verdeelt de beschikbare bitrate over audio en video."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rozdzielczość i przepływność to niezależne limity. Materiały wideo o niższej rozdzielczości nie są powiększane. Kbps oznacza kilobity na sekundę: 2 000 Kbps to 2 Mbps. Dźwięk jest uwzględniony w łącznej wartości; serwer przydziela przepływność dla dźwięku i wideo."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resolução e taxa de bits são limites independentes. Vídeos com resolução menor não são ampliados. Kbps significa quilobits por segundo: 2.000 Kbps equivalem a 2 Mbps. O áudio está incluído no total; o servidor distribui a taxa de bits entre áudio e vídeo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rezoluția și rata de biți sunt limite independente. Materialele video cu rezoluție mai mică nu sunt mărite. Kbps înseamnă kilobiți pe secundă: 2.000 Kbps înseamnă 2 Mbps. Rata de biți totală include și componenta audio, iar serverul o distribuie între audio și video."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Разрешение и битрейт ограничиваются независимо. Видео меньшего разрешения не увеличивается. Kbps означает килобиты в секунду: 2 000 Kbps — это 2 Mbps. Аудио входит в общий битрейт; сервер распределяет его между аудио и видео."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rozlíšenie a dátový tok sú nezávislé limity. Videá s menším rozlíšením sa nezväčšujú. Kbps znamená kilobity za sekundu: 2 000 Kbps sú 2 Mbps. Zvuk je zahrnutý v celkovom dátovom toku; server ho rozdeľuje medzi zvuk a video."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ločljivost in bitna hitrost sta neodvisni omejitvi. Videoposnetki z manjšo ločljivostjo se ne povečajo. Kbps pomeni kilobite na sekundo: 2.000 Kbps je 2 Mbps. Zvok je vključen v skupno bitno hitrost; strežnik določi, koliko je nameni zvoku in koliko videu."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rezolucija i brzina protoka su nezavisna ograničenja. Video niže rezolucije se ne uvećava. Kbps označava kilobite u sekundi: 2.000 Kbps je 2 Mbps. Zvuk je uključen u ukupnu brzinu protoka; server određuje koliko protoka dodeljuje zvuku, a koliko videu."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Upplösning och bithastighet är oberoende gränser. Videor med lägre upplösning förstoras inte. Kbps betyder kilobit per sekund: 2 000 Kbps är 2 Mbps. Ljud ingår i den totala bithastigheten; servern fördelar den mellan ljud och video."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ความละเอียดและบิตเรตเป็นขีดจำกัดที่แยกจากกัน วิดีโอที่มีความละเอียดต่ำกว่าจะไม่ถูกขยาย Kbps หมายถึงกิโลบิตต่อวินาที: 2,000 Kbps เท่ากับ 2 Mbps บิตเรตรวมนี้รวมเสียงด้วย โดยเซิร์ฟเวอร์จะจัดสรรบิตเรตให้เสียงและวิดีโอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Çözünürlük ve bit hızı birbirinden bağımsız sınırlardır. Daha düşük çözünürlüklü videolar büyütülmez. Kbps, saniye başına kilobit anlamına gelir: 2.000 Kbps, 2 Mbps'dir. Ses de toplam bit hızına dahildir; ses ve videoya ayrılacak bit hızını sunucu belirler."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Роздільність і бітрейт — незалежні обмеження. Відео меншої роздільності не збільшуються. Kbps означає кілобіти за секунду: 2 000 Kbps — це 2 Mbps. Аудіо входить до загального бітрейту; сервер розподіляє бітрейт між аудіо та відео."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Độ phân giải và tốc độ bit là hai giới hạn độc lập. Video có độ phân giải thấp hơn sẽ không được phóng lớn. Kbps là kilobit mỗi giây: 2.000 Kbps bằng 2 Mbps. Tổng tốc độ bit bao gồm cả âm thanh; máy chủ phân bổ tốc độ bit cho âm thanh và video."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "分辨率与码率是相互独立的限制。较低分辨率的视频不会被放大。Kbps 表示每秒千比特：2,000 Kbps 等于 2 Mbps。总码率包含音频；服务器会为音频和视频分配码率。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "解析度和位元率是各自獨立的限制。解析度較低的影片不會被放大。Kbps 表示每秒千位元：2,000 Kbps 等於 2 Mbps。總位元率包含音訊；伺服器會分配音訊與影片各自使用的位元率。"
+          }
+        }
+      }
+    },
     "Resolution and bitrate are independent limits. Smaller videos aren’t enlarged. Kbps means kilobits per second: 2,000 Kbps is 2 Mbps. The total includes 128 Kbps for audio; the rest is available for video." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -552479,6 +553147,1546 @@
         }
       }
     },
+    "Silo can’t convert this HDR file with its current tone-mapping configuration." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا يستطيع Silo تحويل ملف HDR هذا باستخدام إعداداته الحالية لتعيين درجات الألوان."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може да преобразува този HDR файл с текущите си настройки за тонално преобразуване."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no pot convertir aquest fitxer HDR amb la seva configuració actual de mapatge de tons."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nemůže převést tento HDR soubor se svým aktuálním nastavením mapování tónů."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke konvertere denne HDR-fil med sine aktuelle indstillinger for tonetilpasning."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kann diese HDR-Datei mit seiner aktuellen Tone-Mapping-Konfiguration nicht umwandeln."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo δεν μπορεί να μετατρέψει αυτό το αρχείο HDR με τις τρέχουσες ρυθμίσεις αντιστοίχισης τόνων."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no puede convertir este archivo HDR con su configuración actual de mapeo de tonos."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo نمی‌تواند این فایل HDR را با تنظیمات فعلی نگاشت تون خود تبدیل کند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ei voi muuntaa tätä HDR-tiedostoa nykyisillä sävykartoitusasetuksillaan."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne peut pas convertir ce fichier HDR avec sa configuration actuelle de mappage tonal."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo לא יכול להמיר קובץ HDR זה עם הגדרות מיפוי הגוונים הנוכחיות שלו."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo अपनी मौजूदा टोन मैपिंग कॉन्फ़िगरेशन के साथ इस HDR फ़ाइल को कन्वर्ट नहीं कर सकता।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može pretvoriti ovu HDR datoteku s trenutačnom konfiguracijom mapiranja tonova."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo a jelenlegi tónusleképezési beállításaival nem tudja átalakítani ezt a HDR-fájlt."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat mengonversi file HDR ini dengan konfigurasi pemetaan nada saat ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo non può convertire questo file HDR con l’attuale configurazione della mappatura dei toni."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Siloは現在のトーンマッピング設定ではこのHDRファイルを変換できません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo는 현재 톤 매핑 설정으로 이 HDR 파일을 변환할 수 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat menukar fail HDR ini dengan konfigurasi pemetaan tona semasa."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke konvertere denne HDR-filen med gjeldende innstillinger for tonekartlegging."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan dit HDR-bestand niet converteren met de huidige tonemappinginstellingen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nie może przekonwertować tego pliku HDR przy obecnej konfiguracji mapowania tonów."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo não consegue converter este arquivo HDR com a configuração atual de mapeamento de tons."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nu poate converti acest fișier HDR cu configurația actuală de mapare a tonurilor."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не может преобразовать этот HDR-файл с текущими настройками тонального отображения."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nedokáže skonvertovať tento HDR súbor s aktuálnymi nastaveniami mapovania tónov."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo s trenutnimi nastavitvami tonske preslikave ne more pretvoriti te datoteke HDR."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može da konvertuje ovu HDR datoteku sa trenutnim podešavanjima mapiranja tonova."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan inte konvertera den här HDR-filen med de nuvarande inställningarna för tonmappning."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ไม่สามารถแปลงไฟล์ HDR นี้ด้วยการตั้งค่าการแมปโทนปัจจุบันได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo, mevcut ton eşleme yapılandırmasıyla bu HDR dosyasını dönüştüremiyor."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може перетворити цей файл HDR із поточними налаштуваннями тонального відображення."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo không thể chuyển đổi tệp HDR này với cấu hình ánh xạ tông màu hiện tại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 无法使用当前的色调映射配置转换此 HDR 文件。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 無法使用目前的色調對應設定轉換此 HDR 檔案。"
+          }
+        }
+      }
+    },
+    "Silo can’t convert this file at the selected resolution." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا يستطيع Silo تحويل هذا الملف بالدقة المحددة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може да преобразува този файл с избраната разделителна способност."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no pot convertir aquest fitxer a la resolució seleccionada."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nemůže převést tento soubor ve vybraném rozlišení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke konvertere denne fil til den valgte opløsning."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kann diese Datei nicht in die gewählte Auflösung umwandeln."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo δεν μπορεί να μετατρέψει αυτό το αρχείο στην επιλεγμένη ανάλυση."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no puede convertir este archivo a la resolución seleccionada."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo نمی‌تواند این فایل را با وضوح انتخاب‌شده تبدیل کند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ei voi muuntaa tätä tiedostoa valittuun tarkkuuteen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne peut pas convertir ce fichier à la résolution sélectionnée."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo לא יכול להמיר קובץ זה ברזולוציה שנבחרה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo चुने हुए रिज़ॉल्यूशन पर इस फ़ाइल को कन्वर्ट नहीं कर सकता।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može pretvoriti ovu datoteku u odabranu razlučivost."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo nem tudja átalakítani ezt a fájlt a kiválasztott felbontásra."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat mengonversi file ini pada resolusi yang dipilih."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo non può convertire questo file alla risoluzione selezionata."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Siloはこのファイルを選択した解像度に変換できません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo는 이 파일을 선택한 해상도로 변환할 수 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat menukar fail ini pada resolusi yang dipilih."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke konvertere denne filen med den valgte oppløsningen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan dit bestand niet converteren met de geselecteerde resolutie."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nie może przekonwertować tego pliku w wybranej rozdzielczości."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo não consegue converter este arquivo na resolução selecionada."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nu poate converti acest fișier la rezoluția selectată."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не может преобразовать этот файл с выбранным разрешением."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nedokáže skonvertovať tento súbor pri vybranom rozlíšení."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo te datoteke ne more pretvoriti pri izbrani ločljivosti."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može da konvertuje ovu datoteku u izabranoj rezoluciji."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan inte konvertera den här filen med den valda upplösningen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ไม่สามารถแปลงไฟล์นี้เป็นความละเอียดที่เลือกได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo, bu dosyayı seçilen çözünürlükte dönüştüremiyor."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може перетворити цей файл із вибраною роздільністю."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo không thể chuyển đổi tệp này ở độ phân giải đã chọn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 无法按所选分辨率转换此文件。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 無法以所選解析度轉換此檔案。"
+          }
+        }
+      }
+    },
+    "Silo can’t force conversion of this file at original quality. Choose a supported quality limit." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا يستطيع Silo فرض تحويل هذا الملف بالجودة الأصلية. اختر حد جودة مدعومًا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може да наложи преобразуване на този файл с оригинално качество. Изберете поддържано ограничение за качество."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no pot forçar la conversió d’aquest fitxer amb la qualitat original. Tria un límit de qualitat compatible."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nemůže vynutit převod tohoto souboru v původní kvalitě. Vyberte podporovaný limit kvality."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke gennemtvinge konvertering af denne fil i original kvalitet. Vælg en understøttet kvalitetsgrænse."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kann die Umwandlung dieser Datei in Originalqualität nicht erzwingen. Wähle ein unterstütztes Qualitätslimit."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo δεν μπορεί να επιβάλει τη μετατροπή αυτού του αρχείου στην αρχική ποιότητα. Επιλέξτε ένα υποστηριζόμενο όριο ποιότητας."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no puede forzar la conversión de este archivo con calidad original. Elige un límite de calidad compatible."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo نمی‌تواند این فایل را در حالت کیفیت اصلی به‌اجبار تبدیل کند. یک سقف کیفیت پشتیبانی‌شده انتخاب کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ei voi pakottaa tämän tiedoston muuntamista alkuperäisellä laadulla. Valitse tuettu laaturaja."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne peut pas forcer la conversion de ce fichier en qualité d’origine. Choisissez une limite de qualité prise en charge."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo לא יכול לכפות המרה של קובץ זה באיכות המקורית. יש לבחור מגבלת איכות נתמכת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo मूल क्वालिटी पर इस फ़ाइल का कन्वर्ज़न अनिवार्य नहीं कर सकता। कोई समर्थित क्वालिटी सीमा चुनें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može prisilno pretvoriti ovu datoteku uz izvornu kvalitetu. Odaberite podržano ograničenje kvalitete."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo nem tudja kikényszeríteni ennek a fájlnak az átalakítását eredeti minőségben. Válasszon támogatott minőségi korlátot."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat memaksakan konversi file ini pada kualitas asli. Pilih batas kualitas yang didukung."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo non può forzare la conversione di questo file in qualità originale. Scegli un limite di qualità supportato."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Siloはこのファイルをオリジナルの品質で強制的に変換できません。対応している品質の上限を選択してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo는 이 파일을 원본 화질로 강제로 변환할 수 없습니다. 지원되는 화질 제한을 선택하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat memaksa penukaran fail ini pada kualiti asal. Pilih had kualiti yang disokong."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke tvinge konvertering av denne filen i originalkvalitet. Velg en støttet kvalitetsgrense."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan de conversie van dit bestand in originele kwaliteit niet afdwingen. Kies een ondersteunde kwaliteitslimiet."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nie może wymusić konwersji tego pliku w oryginalnej jakości. Wybierz obsługiwany limit jakości."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo não consegue forçar a conversão deste arquivo na qualidade original. Escolha um limite de qualidade compatível."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nu poate forța conversia acestui fișier la calitatea originală. Alege o limită de calitate acceptată."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не может принудительно преобразовать этот файл в оригинальном качестве. Выберите поддерживаемый предел качества."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nedokáže vynútiť konverziu tohto súboru v pôvodnej kvalite. Vyberte podporovaný limit kvality."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne more vsiliti pretvorbe te datoteke v izvirni kakovosti. Izberite podprto omejitev kakovosti."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može prinudno da konvertuje ovu datoteku u izvornom kvalitetu. Izaberite podržano ograničenje kvaliteta."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan inte tvinga fram konvertering av den här filen i originalkvalitet. Välj en kvalitetsgräns som stöds."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ไม่สามารถบังคับแปลงไฟล์นี้ด้วยคุณภาพต้นฉบับได้ เลือกขีดจำกัดคุณภาพที่รองรับ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo, bu dosyanın orijinal kalitede dönüştürülmesini zorunlu kılamıyor. Desteklenen bir kalite sınırı seçin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може примусово перетворити цей файл в оригінальній якості. Виберіть підтримуване обмеження якості."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo không thể buộc chuyển đổi tệp này ở chất lượng gốc. Hãy chọn giới hạn chất lượng được hỗ trợ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 无法在原始画质下强制转换此文件。请选择受支持的画质上限。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 無法在原始畫質下強制轉換此檔案。請選擇支援的畫質上限。"
+          }
+        }
+      }
+    },
+    "Silo can’t honor the selected bitrate limit." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا يستطيع Silo الالتزام بحد معدل البت المحدد."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може да спази избраното ограничение за битрейт."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no pot respectar el límit de taxa de bits seleccionat."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nemůže dodržet vybraný limit datového toku."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke overholde den valgte grænse for bithastighed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kann das gewählte Bitratenlimit nicht einhalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo δεν μπορεί να τηρήσει το επιλεγμένο όριο ρυθμού bit."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no puede respetar el límite de tasa de bits seleccionado."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo نمی‌تواند سقف نرخ بیت انتخاب‌شده را رعایت کند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ei voi noudattaa valittua bittinopeusrajaa."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne peut pas respecter la limite de débit binaire sélectionnée."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo לא יכול לעמוד במגבלת קצב הסיביות שנבחרה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo चुनी हुई बिटरेट सीमा का पालन नहीं कर सकता।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može poštovati odabrano ograničenje brzine prijenosa bitova."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo nem tudja betartani a kiválasztott bitsebességkorlátot."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat memenuhi batas bitrate yang dipilih."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo non può rispettare il limite di bitrate selezionato."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Siloは選択したビットレートの上限に収めることができません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo는 선택한 비트레이트 제한을 준수할 수 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat mematuhi had kadar bit yang dipilih."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan ikke overholde den valgte grensen for bithastighet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan niet aan de geselecteerde bitratelimiet voldoen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nie może dotrzymać wybranego limitu przepływności."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo não consegue respeitar o limite de taxa de bits selecionado."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nu poate respecta limita selectată pentru rata de biți."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не может соблюсти выбранное ограничение битрейта."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nedokáže dodržať vybraný limit dátového toku."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne more upoštevati izbrane omejitve bitne hitrosti."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne može da ispoštuje izabrano ograničenje brzine protoka."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kan inte hålla sig inom den valda gränsen för bithastighet."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ไม่สามารถรักษาบิตเรตให้อยู่ภายในขีดจำกัดที่เลือกได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo, seçilen bit hızı sınırına uyamıyor."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не може дотриматися вибраного обмеження бітрейту."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo không thể đáp ứng giới hạn tốc độ bit đã chọn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 无法满足所选的码率限制。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 無法符合所選的位元率限制。"
+          }
+        }
+      }
+    },
+    "Silo couldn’t prepare the selected stream. Check its transcoding permissions and server settings." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذر على Silo تجهيز البث المحدد. تحقق من أذونات تحويل الترميز وإعدادات الخادم."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не успя да подготви избрания поток. Проверете разрешенията за транскодиране и настройките на сървъра."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no ha pogut preparar el flux seleccionat. Comprova els permisos de transcodificació i la configuració del servidor."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nedokázalo připravit vybraný stream. Zkontrolujte oprávnění k transkódování a nastavení serveru."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kunne ikke forberede den valgte stream. Kontrollér tilladelserne til transkodning og serverindstillingerne."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo konnte den gewählten Stream nicht vorbereiten. Prüfe die Transkodierungsberechtigungen und Servereinstellungen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo δεν μπόρεσε να προετοιμάσει την επιλεγμένη ροή. Ελέγξτε τα δικαιώματα μετακωδικοποίησης και τις ρυθμίσεις του διακομιστή."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no ha podido preparar el flujo seleccionado. Comprueba los permisos de transcodificación y los ajustes del servidor."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo نتوانست جریان انتخاب‌شده را آماده کند. مجوزهای کدگذاری مجدد و تنظیمات سرور را بررسی کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ei voinut valmistella valittua mediavirtaa. Tarkista sen transkoodausoikeudet ja palvelinasetukset."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo n’a pas pu préparer le flux sélectionné. Vérifiez les autorisations de transcodage et les réglages du serveur."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo לא הצליח להכין את הזרם שנבחר. יש לבדוק את הרשאות הקידוד מחדש ואת הגדרות השרת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo चुनी हुई स्ट्रीम तैयार नहीं कर सका। उसकी ट्रांसकोडिंग अनुमतियाँ और सर्वर सेटिंग्स जाँचें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nije mogao pripremiti odabrani tok. Provjerite dopuštenja za transkodiranje i postavke poslužitelja."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo nem tudta előkészíteni a kiválasztott adatfolyamot. Ellenőrizze az átkódolási jogosultságait és a szerver beállításait."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat menyiapkan stream yang dipilih. Periksa izin transkode dan pengaturan servernya."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo non è riuscito a preparare lo stream selezionato. Controlla le autorizzazioni di transcodifica e le impostazioni del server."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Siloは選択したストリームを準備できませんでした。トランスコードの権限とサーバの設定を確認してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo가 선택한 스트림을 준비하지 못했습니다. 트랜스코딩 권한과 서버 설정을 확인하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak dapat menyediakan strim yang dipilih. Semak kebenaran transkod dan tetapan pelayannya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kunne ikke klargjøre den valgte strømmen. Sjekk transkodingstillatelsene og serverinnstillingene."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kon de geselecteerde stream niet voorbereiden. Controleer de transcoderingsrechten en serverinstellingen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nie mógł przygotować wybranego strumienia. Sprawdź uprawnienia do transkodowania i ustawienia serwera."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo não conseguiu preparar o fluxo selecionado. Verifique as permissões de transcodificação e os ajustes do servidor."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nu a putut pregăti fluxul selectat. Verifică permisiunile de transcodare și setările serverului."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не удалось подготовить выбранный поток. Проверьте разрешения на транскодирование и настройки сервера."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nedokázalo pripraviť vybraný stream. Skontrolujte oprávnenia na prekódovanie a nastavenia servera."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ni mogel pripraviti izbranega toka. Preverite dovoljenja za prekodiranje in nastavitve strežnika."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nije uspeo da pripremi izabrani strim. Proverite dozvole za transkodiranje i podešavanja servera."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kunde inte förbereda den valda strömmen. Kontrollera behörigheterna för omkodning och serverns inställningar."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ไม่สามารถเตรียมสตรีมที่เลือกได้ ตรวจสอบสิทธิ์การแปลงรหัสและการตั้งค่าเซิร์ฟเวอร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo, seçilen akışı hazırlayamadı. Kod dönüştürme izinlerini ve sunucu ayarlarını kontrol edin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo не вдалося підготувати вибраний потік. Перевірте дозволи на перекодування та налаштування сервера."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo không thể chuẩn bị luồng đã chọn. Hãy kiểm tra quyền chuyển mã và cài đặt máy chủ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 无法准备所选的流。请检查转码权限和服务器设置。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 無法準備所選串流。請檢查轉碼權限與伺服器設定。"
+          }
+        }
+      }
+    },
+    "Silo currently converts to H.264 at 480p, 720p, 1080p, or 4K. Resolution limits use the video height. Unsupported choices are unavailable." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يحوّل Silo حاليًا إلى H.264 بدقة 480p أو 720p أو 1080p أو 4K. تعتمد حدود الدقة على ارتفاع إطار الفيديو. الخيارات غير المدعومة غير متاحة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "В момента Silo преобразува в H.264 с разделителна способност 480p, 720p, 1080p или 4K. Ограниченията за разделителна способност се определят по височината на видеото. Неподдържаните опции не са достъпни."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Actualment, Silo converteix a H.264 amb una resolució de 480p, 720p, 1080p o 4K. Els límits de resolució es basen en l’alçada del vídeo. Les opcions no compatibles no estan disponibles."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nyní převádí do H.264 v rozlišení 480p, 720p, 1080p nebo 4K. Limity rozlišení vycházejí z výšky videa. Nepodporované možnosti nejsou dostupné."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo konverterer i øjeblikket til H.264 ved 480p, 720p, 1080p eller 4K. Opløsningsgrænserne er baseret på videoens højde. Valgmuligheder, der ikke understøttes, er utilgængelige."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo wandelt derzeit in H.264 mit 480p, 720p, 1080p oder 4K um. Die Auflösungslimits beziehen sich auf die Videohöhe. Nicht unterstützte Optionen sind nicht verfügbar."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo προς το παρόν μετατρέπει σε H.264 στα 480p, 720p, 1080p ή 4K. Τα όρια ανάλυσης βασίζονται στο ύψος του βίντεο. Οι επιλογές που δεν υποστηρίζονται δεν είναι διαθέσιμες."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Actualmente, Silo convierte a H.264 en 480p, 720p, 1080p o 4K. Los límites de resolución se basan en la altura del vídeo. Las opciones no compatibles no están disponibles."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo در حال حاضر ویدیو را به H.264 با وضوح 480p، 720p، 1080p یا 4K تبدیل می‌کند. محدودیت‌های وضوح بر اساس ارتفاع ویدیو هستند. گزینه‌های پشتیبانی‌نشده در دسترس نیستند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo muuntaa tällä hetkellä H.264-muotoon tarkkuuksilla 480p, 720p, 1080p tai 4K. Tarkkuusrajat perustuvat videon korkeuteen. Valinnat, joita ei tueta, eivät ole käytettävissä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo convertit actuellement en H.264 à 480p, 720p, 1080p ou 4K. Les limites de résolution se basent sur la hauteur de la vidéo. Les choix non pris en charge ne sont pas disponibles."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ממיר כרגע ל־H.264 ברזולוציות 480p, 720p, 1080p או 4K. מגבלות הרזולוציה מבוססות על גובה הווידאו. אפשרויות שאינן נתמכות אינן זמינות."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo फ़िलहाल 480p, 720p, 1080p या 4K पर H.264 में कन्वर्ट करता है। रिज़ॉल्यूशन की सीमाएँ वीडियो की ऊँचाई पर आधारित हैं। असमर्थित विकल्प उपलब्ध नहीं हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo trenutačno pretvara u H.264 pri razlučivosti 480p, 720p, 1080p ili 4K. Ograničenja razlučivosti temelje se na visini videozapisa. Nepodržane mogućnosti nisu dostupne."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo jelenleg H.264-re alakít át 480p, 720p, 1080p vagy 4K felbontásban. A felbontási korlátok a videó magasságán alapulnak. A nem támogatott lehetőségek nem választhatók."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Saat ini Silo mengonversi ke H.264 pada resolusi 480p, 720p, 1080p, atau 4K. Batas resolusi menggunakan tinggi video. Pilihan yang tidak didukung tidak tersedia."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Attualmente Silo converte in H.264 a 480p, 720p, 1080p o 4K. I limiti di risoluzione si basano sull’altezza del video. Le opzioni non supportate non sono disponibili."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Siloは現在、480p、720p、1080p、4Kの解像度でH.264に変換します。解像度の上限は映像の高さに基づきます。対応していない選択肢は利用できません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo는 현재 480p, 720p, 1080p 또는 4K 해상도의 H.264로 변환합니다. 해상도 제한은 비디오의 세로 크기를 기준으로 합니다. 지원되지 않는 옵션은 선택할 수 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo kini menukar video kepada H.264 pada 480p, 720p, 1080p atau 4K. Had resolusi berdasarkan ketinggian video. Pilihan yang tidak disokong tidak tersedia."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo konverterer for øyeblikket til H.264 i 480p, 720p, 1080p eller 4K. Oppløsningsgrensene er basert på videoens høyde. Valg som ikke støttes, er utilgjengelige."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo converteert momenteel naar H.264 in 480p, 720p, 1080p of 4K. De resolutielimieten zijn gebaseerd op de hoogte van de video. Niet-ondersteunde opties zijn niet beschikbaar."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo obecnie konwertuje do H.264 w rozdzielczościach 480p, 720p, 1080p lub 4K. Limity rozdzielczości odnoszą się do wysokości obrazu. Nieobsługiwane opcje są niedostępne."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo atualmente converte para H.264 em 480p, 720p, 1080p ou 4K. Os limites de resolução usam a altura do vídeo. As opções não compatíveis ficam indisponíveis."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "În prezent, Silo convertește în H.264 la 480p, 720p, 1080p sau 4K. Limitele de rezoluție se bazează pe înălțimea imaginii video. Opțiunile neacceptate nu sunt disponibile."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Сейчас Silo преобразует видео в H.264 с разрешением 480p, 720p, 1080p или 4K. Ограничения разрешения задаются по высоте видео. Неподдерживаемые варианты недоступны."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo v súčasnosti konvertuje do H.264 pri rozlíšení 480p, 720p, 1080p alebo 4K. Limity rozlíšenia sa riadia výškou videa. Nepodporované možnosti nie sú dostupné."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo trenutno pretvarja v H.264 pri ločljivosti 480p, 720p, 1080p ali 4K. Omejitve ločljivosti temeljijo na višini videa. Nepodprte možnosti niso na voljo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo trenutno konvertuje u H.264 pri rezoluciji 480p, 720p, 1080p ili 4K. Ograničenja rezolucije zasnivaju se na visini videa. Nepodržane opcije nisu dostupne."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo konverterar för närvarande till H.264 i 480p, 720p, 1080p eller 4K. Upplösningsgränserna utgår från videons höjd. Alternativ som inte stöds är inte tillgängliga."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ปัจจุบัน Silo แปลงเป็น H.264 ที่ความละเอียด 480p, 720p, 1080p หรือ 4K ขีดจำกัดความละเอียดอ้างอิงจากความสูงของวิดีโอ ตัวเลือกที่ไม่รองรับจะไม่สามารถเลือกได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo şu anda 480p, 720p, 1080p veya 4K çözünürlükte H.264'e dönüştürüyor. Çözünürlük sınırları videonun yüksekliğine göre belirlenir. Desteklenmeyen seçenekler kullanılamaz."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Наразі Silo перетворює відео на H.264 із роздільністю 480p, 720p, 1080p або 4K. Обмеження роздільності визначаються за висотою відео. Непідтримувані варіанти недоступні для вибору."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hiện Silo chuyển đổi sang H.264 ở độ phân giải 480p, 720p, 1080p hoặc 4K. Giới hạn độ phân giải được tính theo chiều cao khung hình video. Các tùy chọn không được hỗ trợ sẽ không khả dụng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 目前可将视频转换为 480p、720p、1080p 或 4K 分辨率的 H.264 视频。分辨率限制以视频高度为准。不受支持的选项不可选。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 目前可將影片轉換為 480p、720p、1080p 或 4K 解析度的 H.264 影片。解析度限制以影片高度為準。不支援的選項無法選取。"
+          }
+        }
+      }
+    },
+    "Silo has no available video encoder for these settings." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا تتوفر لدى Silo أداة ترميز فيديو لهذه الإعدادات."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo няма наличен видеоенкодер за тези настройки."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no té cap codificador de vídeo disponible per a aquesta configuració."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nemá pro tato nastavení dostupný kodér videa."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo har ingen tilgængelig videoencoder til disse indstillinger."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo hat für diese Einstellungen keinen verfügbaren Video-Encoder."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo δεν διαθέτει κωδικοποιητή βίντεο για αυτές τις ρυθμίσεις."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo no tiene ningún codificador de vídeo disponible para estos ajustes."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "هیچ کدگذار ویدیویی برای این تنظیمات در Silo در دسترس نیست."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silolla ei ole käytettävissä videoenkooderia näille asetuksille."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ne dispose d’aucun encodeur vidéo pour ces réglages."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "אין ב־Silo מקודד וידאו זמין עבור הגדרות אלה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इन सेटिंग्स के लिए Silo में कोई वीडियो एन्कोडर उपलब्ध नहीं है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nema dostupan videokoder za ove postavke."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo nem rendelkezik elérhető videokódolóval ezekhez a beállításokhoz."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak memiliki encoder video yang tersedia untuk pengaturan ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo non dispone di un codificatore video per queste impostazioni."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "この設定でSiloが利用できる映像エンコーダはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo에는 이 설정에 사용할 수 있는 비디오 인코더가 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo tidak mempunyai pengekod video yang tersedia untuk tetapan ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo har ingen tilgjengelig videokoder for disse innstillingene."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo heeft geen beschikbare video-encoder voor deze instellingen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nie ma dostępnego enkodera wideo dla tych ustawień."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo não tem um codificador de vídeo disponível para esses ajustes."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nu are niciun codificator video disponibil pentru aceste setări."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "В Silo нет доступного видеокодировщика для этих настроек."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nemá pre tieto nastavenia dostupný žiadny enkodér videa."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo za te nastavitve nima na voljo nobenega videokodirnika."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo nema dostupan video enkoder za ova podešavanja."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo har ingen tillgänglig videokodare för de här inställningarna."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ไม่มีตัวเข้ารหัสวิดีโอที่ใช้ได้สำหรับการตั้งค่าเหล่านี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo'da bu ayarlar için kullanılabilir bir video kodlayıcısı yok."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "У Silo немає доступного кодувальника відео для цих налаштувань."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo không có bộ mã hóa video khả dụng cho các cài đặt này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 没有适用于这些设置的可用视频编码器。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 沒有可用於這些設定的影片編碼器。"
+          }
+        }
+      }
+    },
     "Silo reduced-quality downloads keep one audio track. Choose Original to keep every embedded track." : {
       "localizations" : {
         "ar" : {
@@ -552695,6 +554903,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "降低畫質後，從 Silo 下載的檔案只保留一條音軌。選擇下載畫質中的「原聲」（原始畫質），可保留所有內嵌軌道。"
+          }
+        }
+      }
+    },
+    "Silo returned a stream outside the selected quality limits. Playback was stopped rather than removing the limit." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أرسل Silo بثًا خارج حدود الجودة المحددة. أُوقف التشغيل بدلًا من إزالة الحد."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo върна поток извън избраните ограничения за качество. Възпроизвеждането беше спряно, вместо да се премахне ограничението."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ha retornat un flux fora dels límits de qualitat seleccionats. S’ha aturat la reproducció en lloc d’eliminar el límit."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo vrátilo stream mimo vybrané limity kvality. Přehrávání bylo zastaveno, místo aby se limit odstranil."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo returnerede en stream uden for de valgte kvalitetsgrænser. Afspilningen blev stoppet i stedet for at fjerne grænsen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo hat einen Stream außerhalb der gewählten Qualitätslimits geliefert. Die Wiedergabe wurde gestoppt, statt das Limit aufzuheben."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Silo επέστρεψε ροή εκτός των επιλεγμένων ορίων ποιότητας. Η αναπαραγωγή διακόπηκε αντί να καταργηθεί το όριο."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ha devuelto un flujo fuera de los límites de calidad seleccionados. Se ha detenido la reproducción en lugar de eliminar el límite."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo جریانی خارج از محدودهٔ کیفیت انتخاب‌شده برگرداند. به‌جای برداشتن محدودیت، پخش متوقف شد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo palautti mediavirran, joka ei ollut valittujen laaturajojen mukainen. Toisto pysäytettiin sen sijaan, että raja olisi poistettu."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo a renvoyé un flux en dehors des limites de qualité sélectionnées. La lecture a été arrêtée pour conserver la limite."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo החזיר זרם שאינו עומד במגבלות האיכות שנבחרו. הניגון הופסק במקום להסיר את המגבלה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ने चुनी हुई क्वालिटी सीमाओं के बाहर की स्ट्रीम भेजी। सीमा हटाने के बजाय प्लेबैक रोक दिया गया।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo je vratio tok izvan odabranih ograničenja kvalitete. Reprodukcija je zaustavljena umjesto uklanjanja ograničenja."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Silo a kiválasztott minőségi korlátokon kívül eső adatfolyamot küldött vissza. A korlát eltávolítása helyett a lejátszás leállt."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo mengirimkan stream di luar batas kualitas yang dipilih. Pemutaran dihentikan alih-alih menghapus batas tersebut."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ha restituito uno stream che non rientra nei limiti di qualità selezionati. La riproduzione è stata interrotta anziché rimuovere il limite."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Siloが選択した品質の上限に収まらないストリームを返しました。上限を解除せず、再生を停止しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo가 선택한 화질 제한을 벗어나는 스트림을 반환했습니다. 제한을 해제하는 대신 재생을 중단했습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo mengembalikan strim yang berada di luar had kualiti yang dipilih. Main balik dihentikan dan bukannya had tersebut dibuang."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo returnerte en strøm utenfor de valgte kvalitetsgrensene. Avspillingen ble stoppet i stedet for at grensen ble fjernet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo heeft een stream buiten de geselecteerde kwaliteitslimieten teruggestuurd. De limiet is niet verwijderd; in plaats daarvan is het afspelen gestopt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo zwrócił strumień wykraczający poza wybrane limity jakości. Zamiast usunąć limit, zatrzymano odtwarzanie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Silo retornou um fluxo fora dos limites de qualidade selecionados. A reprodução foi interrompida em vez de o limite ser removido."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo a returnat un flux care nu se încadrează în limitele de calitate selectate. Redarea a fost oprită în loc să fie eliminată limita."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo вернул поток, не соответствующий выбранным ограничениям качества. Вместо снятия ограничения воспроизведение было остановлено."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo vrátilo stream, ktorý sa nezmestil do vybraných limitov kvality. Namiesto odstránenia limitu sa prehrávanie zastavilo."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo je vrnil tok, ki ne ustreza izbranim omejitvam kakovosti. Namesto odstranitve omejitve je bilo predvajanje ustavljeno."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo je vratio strim koji se ne uklapa u izabrana ograničenja kvaliteta. Reprodukcija je zaustavljena umesto da se ograničenje ukloni."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo returnerade en ström utanför de valda kvalitetsgränserna. Uppspelningen stoppades i stället för att gränsen togs bort."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo ส่งสตรีมที่อยู่นอกขีดจำกัดคุณภาพที่เลือกกลับมา จึงหยุดการเล่นแทนการยกเลิกขีดจำกัด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo, seçilen kalite sınırlarının dışında bir akış döndürdü. Sınırı kaldırmak yerine oynatma durduruldu."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo повернув потік, що виходить за межі вибраних обмежень якості. Відтворення зупинено замість того, щоб зняти обмеження."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo đã trả về luồng nằm ngoài các giới hạn chất lượng đã chọn. Quá trình phát đã dừng thay vì bỏ giới hạn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 返回了不符合所选画质限制的流。播放已停止，而不是移除限制。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silo 傳回不符合所選畫質限制的串流。播放已停止，而非移除限制。"
           }
         }
       }
@@ -634306,6 +636734,226 @@
         }
       }
     },
+    "This server doesn’t support that resolution limit. Choose an available resolution." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا يدعم هذا الخادم حد الدقة هذا. اختر دقة متاحة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Този сървър не поддържа това ограничение за разделителна способност. Изберете налична разделителна способност."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aquest servidor no admet aquest límit de resolució. Tria una resolució disponible."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tento server nepodporuje tento limit rozlišení. Vyberte dostupné rozlišení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne server understøtter ikke den opløsningsgrænse. Vælg en tilgængelig opløsning."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dieser Server unterstützt dieses Auflösungslimit nicht. Wähle eine verfügbare Auflösung."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αυτός ο διακομιστής δεν υποστηρίζει αυτό το όριο ανάλυσης. Επιλέξτε μια διαθέσιμη ανάλυση."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Este servidor no admite ese límite de resolución. Elige una resolución disponible."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "این سرور از آن محدودیت وضوح پشتیبانی نمی‌کند. یک وضوح در دسترس انتخاب کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tämä palvelin ei tue kyseistä tarkkuusrajaa. Valitse käytettävissä oleva tarkkuus."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ce serveur ne prend pas en charge cette limite de résolution. Choisissez une résolution disponible."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שרת זה אינו תומך במגבלת רזולוציה זו. יש לבחור רזולוציה זמינה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "यह सर्वर उस रिज़ॉल्यूशन सीमा का समर्थन नहीं करता। कोई उपलब्ध रिज़ॉल्यूशन चुनें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovaj poslužitelj ne podržava to ograničenje razlučivosti. Odaberite dostupnu razlučivost."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ez a szerver nem támogatja ezt a felbontási korlátot. Válasszon elérhető felbontást."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Server ini tidak mendukung batas resolusi tersebut. Pilih resolusi yang tersedia."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Questo server non supporta quel limite di risoluzione. Scegli una risoluzione disponibile."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このサーバはその解像度の上限に対応していません。利用可能な解像度を選択してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 서버는 해당 해상도 제한을 지원하지 않습니다. 사용 가능한 해상도를 선택하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pelayan ini tidak menyokong had resolusi tersebut. Pilih resolusi yang tersedia."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne serveren støtter ikke den oppløsningsgrensen. Velg en tilgjengelig oppløsning."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deze server ondersteunt die resolutielimiet niet. Kies een beschikbare resolutie."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ten serwer nie obsługuje tego limitu rozdzielczości. Wybierz dostępną rozdzielczość."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Este servidor não oferece suporte a esse limite de resolução. Escolha uma resolução disponível."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Acest server nu acceptă acea limită de rezoluție. Alege o rezoluție disponibilă."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Этот сервер не поддерживает такое ограничение разрешения. Выберите доступное разрешение."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tento server nepodporuje daný limit rozlíšenia. Vyberte dostupné rozlíšenie."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ta strežnik ne podpira te omejitve ločljivosti. Izberite ločljivost, ki je na voljo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovaj server ne podržava to ograničenje rezolucije. Izaberite dostupnu rezoluciju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den här servern stöder inte den upplösningsgränsen. Välj en tillgänglig upplösning."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เซิร์ฟเวอร์นี้ไม่รองรับขีดจำกัดความละเอียดนั้น เลือกความละเอียดที่ใช้ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu sunucu bu çözünürlük sınırını desteklemiyor. Kullanılabilir bir çözünürlük seçin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Цей сервер не підтримує таке обмеження роздільності. Виберіть доступну роздільність."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Máy chủ này không hỗ trợ giới hạn độ phân giải đó. Hãy chọn độ phân giải khả dụng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此服务器不支持该分辨率限制。请选择可用的分辨率。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此伺服器不支援該解析度限制。請選擇可用的解析度。"
+          }
+        }
+      }
+    },
     "This server is no longer available." : {
       "localizations" : {
         "ar" : {
@@ -645623,6 +648271,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "轉碼編解碼器"
+          }
+        }
+      }
+    },
+    "Transcoding is disabled on this Silo server." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تحويل الترميز معطّل على خادم Silo هذا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Транскодирането е изключено на този сървър Silo."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La transcodificació està desactivada en aquest servidor Silo."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Na tomto serveru Silo je transkódování zakázáno."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transkodning er deaktiveret på denne Silo-server."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Transkodierung ist auf diesem Silo-Server deaktiviert."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η μετακωδικοποίηση είναι απενεργοποιημένη σε αυτόν τον διακομιστή Silo."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La transcodificación está desactivada en este servidor Silo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کدگذاری مجدد در این سرور Silo غیرفعال است."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transkoodaus on poistettu käytöstä tällä Silo-palvelimella."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le transcodage est désactivé sur ce serveur Silo."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הקידוד מחדש מושבת בשרת Silo זה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस Silo सर्वर पर ट्रांसकोडिंग बंद है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Na ovom poslužitelju Silo transkodiranje je onemogućeno."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ezen a Silo-szerveren az átkódolás le van tiltva."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transkode dinonaktifkan di server Silo ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La transcodifica è disabilitata su questo server Silo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このSiloサーバではトランスコードが無効になっています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 Silo 서버에서는 트랜스코딩이 비활성화되어 있습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transkod dinyahaktifkan pada pelayan Silo ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transkoding er deaktivert på denne Silo-serveren."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transcodering is uitgeschakeld op deze Silo-server."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transkodowanie jest wyłączone na tym serwerze Silo."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A transcodificação está desativada neste servidor Silo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transcodarea este dezactivată pe acest server Silo."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "На этом сервере Silo транскодирование отключено."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prekódovanie je na tomto serveri Silo vypnuté."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prekodiranje je na tem strežniku Silo onemogočeno."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Transkodiranje je onemogućeno na ovom Silo serveru."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Omkodning är avstängd på den här Silo-servern."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "การแปลงรหัสถูกปิดใช้งานบนเซิร์ฟเวอร์ Silo นี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu Silo sunucusunda kod dönüştürme devre dışı."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "На цьому сервері Silo перекодування вимкнено."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chuyển mã đã bị tắt trên máy chủ Silo này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此 Silo 服务器已禁用转码。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此 Silo 伺服器已停用轉碼。"
           }
         }
       }
