@@ -149528,6 +149528,7 @@
       }
     },
     "Channels appear as each source loads. Guide listings follow without delaying playback." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -743641,12 +743642,6 @@
       "comment" : "Tab beneath the live TV timeline showing the channel guide under the video.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Guide"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -743687,6 +743682,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Οδηγός προγράμματος"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Guide"
           }
         },
         "es" : {
@@ -743869,12 +743870,6 @@
       "comment" : "Tab beneath the live TV timeline showing what other channels are airing.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "On Now"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -743915,6 +743910,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Προβάλλονται τώρα"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "On Now"
           }
         },
         "es" : {
@@ -793679,12 +793680,6 @@
       "comment" : "System subtitle font weight with very heavy letter strokes; not the color black.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Black"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -793725,6 +793720,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Υπερέντονο"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Black"
           }
         },
         "es" : {
@@ -794134,12 +794135,6 @@
       "comment" : "System subtitle font weight with thicker letter strokes than Bold.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Heavy"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -794180,6 +794175,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Πολύ έντονο"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Heavy"
           }
         },
         "es" : {
@@ -794362,12 +794363,6 @@
       "comment" : "System subtitle font weight describing light, thin letter strokes; not brightness or a color.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Light"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -794408,6 +794403,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Ελαφρύ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Light"
           }
         },
         "es" : {
@@ -795271,12 +795272,6 @@
       "comment" : "System subtitle font weight describing thin letter strokes.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Thin"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -795317,6 +795312,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Λεπτό"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Thin"
           }
         },
         "es" : {
@@ -795499,12 +795500,6 @@
       "comment" : "System subtitle font weight with extremely thin letter strokes; not brightness.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Ultralight"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -795545,6 +795540,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Πολύ ελαφρύ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Ultralight"
           }
         },
         "es" : {
