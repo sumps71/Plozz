@@ -208683,6 +208683,7 @@
       }
     },
     "Deleting removes this profile's preferences (theme, captions, spoilers, Trakt) and which servers it includes. Signed-in server accounts stay in the household pool." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -209119,6 +209120,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "刪除會移除此個人檔案的偏好設定（主題、播放、字幕、劇透、追蹤器）及其包含的伺服器。已登入的伺服器帳號仍然共用。"
+          }
+        }
+      }
+    },
+    "Deleting removes this profile's preferences (theme, subtitles, spoilers, Trakt) and which servers it includes. Signed-in server accounts stay in the household pool." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يؤدي الحذف إلى إزالة تفضيلات هذا الملف الشخصي (السمة، الترجمات، حرق الأحداث، Trakt) واختيار الخوادم التي يتضمنها. تبقى حسابات الخوادم المسجّل الدخول إليها ضمن مجموعة حسابات العائلة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изтриването премахва настройките на този профил (тема, субтитри, спойлери, Trakt) и избора му на сървъри. Вписаните сървърни акаунти остават в общия списък на домакинството."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Suprimir-lo elimina les preferències d'aquest perfil (tema, subtítols, espòilers, Trakt) i la seva selecció de servidors. Els comptes de servidor amb sessió iniciada es mantenen al grup de comptes compartits de la llar."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Smazáním se odstraní předvolby tohoto profilu (motiv, titulky, spoilery, Trakt) i jeho výběr serverů. Přihlášené účty serverů zůstanou sdílené v domácnosti."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sletning fjerner denne profils indstillinger (tema, undertekster, spoilere og Trakt) samt dens valg af servere. Serverkonti, du er logget ind på, forbliver i husstandens fælles pulje."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beim Löschen gehen die Einstellungen dieses Profils (Design, Untertitel, Spoiler, Trakt) und seine Serverauswahl verloren. Angemeldete Serverkonten bleiben im Haushalt erhalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η διαγραφή αφαιρεί τις προτιμήσεις αυτού του προφίλ (θέμα, υπότιτλους, αποκαλύψεις πλοκής, Trakt) και την επιλογή διακομιστών του. Οι συνδεδεμένοι λογαριασμοί διακομιστών παραμένουν κοινόχρηστοι στο νοικοκυριό."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Al eliminarlo, se borran las preferencias de este perfil (tema, subtítulos, spoilers, Trakt) y su selección de servidores. Las cuentas de servidor con sesión iniciada se conservan en la lista de cuentas compartidas del hogar."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "با حذف این نمایه، تنظیمات آن (پوسته، زیرنویس، اسپویلرها، Trakt) و انتخاب سرورهایش پاک می‌شود. حساب‌های واردشده به سرورها در مجموعهٔ مشترک خانواده باقی می‌مانند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kun poistat tämän profiilin, sen asetukset (teema, tekstitykset, juonipaljastukset, Trakt) ja palvelinvalinnat poistuvat. Kirjautuneet palvelintilit säilyvät kotitalouden yhteisessä käytössä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La suppression efface les préférences de ce profil (thème, sous-titres, spoilers, Trakt) ainsi que sa sélection de serveurs. Les comptes serveur connectés restent dans la liste des comptes partagés du foyer."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המחיקה מסירה את ההעדפות של הפרופיל הזה (ערכת נושא, כתוביות, ספוילרים, Trakt) ואת בחירת השרתים שלו. חשבונות שרת מחוברים נשארים במאגר המשותף של משק הבית."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "हटाने से इस प्रोफ़ाइल की प्राथमिकताएँ (थीम, सबटाइटल, स्पॉइलर, Trakt) और सर्वर चयन की जानकारी मिट जाएँगी। साइन इन किए गए सर्वर खाते घर के साझा समूह में बने रहेंगे।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brisanjem se uklanjaju postavke ovog profila (tema, titlovi, spojleri i Trakt) te njegov odabir poslužitelja. Prijavljeni računi poslužitelja ostaju u zajedničkom skupu kućanstva."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A törlés eltávolítja ennek a profilnak a beállításait (téma, feliratok, spoilerek, Trakt) és a hozzá tartozó szerverválasztást. A bejelentkezett szerverfiókok a háztartás közös fióklistájában maradnak."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Menghapus profil ini juga menghapus preferensinya (tema, subtitle, spoiler, Trakt) serta pilihan servernya. Akun server yang sudah masuk tetap tersimpan di kumpulan akun rumah tangga."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Eliminando il profilo, rimuovi le sue preferenze (tema, sottotitoli, spoiler, Trakt) e la selezione dei server inclusi. Gli account dei server con accesso effettuato restano disponibili per il nucleo familiare."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "削除すると、このプロファイルの設定（テーマ、字幕、ネタバレ、Trakt）とサーバの選択情報が削除されます。サインイン済みのサーバアカウントは家庭内で共有するアカウント一覧に残ります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "삭제하면 이 프로필의 환경설정(테마, 자막, 스포일러, Trakt)과 서버 선택 정보가 제거됩니다. 로그인한 서버 계정은 가정 내 공유 계정 목록에 남습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pemadaman mengalih keluar keutamaan profil ini (tema, sari kata, spoiler, Trakt) dan pilihan pelayannya. Akaun pelayan yang dilog masuk kekal dalam kumpulan akaun bersama isi rumah."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Når denne profilen slettes, fjernes innstillingene (tema, undertekster, spoilere og Trakt) og servervalgene for profilen. Påloggede serverkontoer forblir i husholdningens felles kontosamling."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Verwijderen wist de voorkeuren van dit profiel (thema, ondertitels, spoilers, Trakt) en de bijbehorende serverselectie. Aangemelde serveraccounts blijven beschikbaar voor het hele huishouden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usunięcie spowoduje skasowanie ustawień tego profilu (motyw, napisy, spoilery, Trakt) oraz listy używanych przez niego serwerów. Zalogowane konta serwerów pozostaną we wspólnej puli domowej."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ao apagar, você remove as preferências deste perfil (tema, legendas, spoilers e Trakt) e sua seleção de servidores. As contas conectadas aos servidores permanecem disponíveis no grupo familiar."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ștergerea elimină preferințele acestui profil (temă, subtitrări, spoilere, Trakt) și selecția sa de servere. Conturile de server conectate rămân în setul comun al gospodăriei."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "При удалении профиля стираются его настройки (тема, субтитры, спойлеры, Trakt) и список выбранных серверов. Учётные записи серверов, в которые выполнен вход, останутся в общем пуле домохозяйства."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vymazaním sa odstránia nastavenia tohto profilu (téma, titulky, spoilery, Trakt) a jeho výber serverov. Prihlásené serverové účty zostanú zdieľané v domácnosti."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brisanje odstrani nastavitve tega profila (tema, podnapisi, spojlerji, Trakt) in njegov izbor strežnikov. Prijavljeni strežniški računi ostanejo v skupnem naboru gospodinjstva."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brisanjem se uklanjaju podešavanja ovog profila (tema, titlovi, spojleri, Trakt) i njegov izbor servera. Prijavljeni serverski nalozi ostaju u zajedničkom skupu domaćinstva."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "När den här profilen tas bort försvinner dess inställningar för tema, undertexter, avslöjanden och Trakt samt dess serverval. Inloggade serverkonton finns kvar i hushållets gemensamma kontosamling."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "การลบจะนำการตั้งค่าของโปรไฟล์นี้ออก (ธีม คำบรรยาย สปอยล์ Trakt) รวมถึงข้อมูลการเลือกเซิร์ฟเวอร์ของโปรไฟล์ บัญชีเซิร์ฟเวอร์ที่ลงชื่อเข้าใช้แล้วยังคงอยู่ในกลุ่มบัญชีที่ใช้ร่วมกันในครัวเรือน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Silme işlemi bu profilin tercihlerini (tema, altyazılar, sürprizbozan ayarları, Trakt) ve sunucu seçimlerini kaldırır. Oturum açılmış sunucu hesapları hanenin ortak hesap havuzunda kalır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Під час видалення стираються налаштування цього профілю (тема, субтитри, спойлери, Trakt) і його вибір серверів. Облікові записи серверів із виконаним входом залишаються доступними для домашньої групи."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Khi xóa hồ sơ này, các tùy chọn (chủ đề, phụ đề, tiết lộ nội dung, Trakt) và lựa chọn máy chủ của hồ sơ sẽ bị xóa. Các tài khoản máy chủ đã đăng nhập vẫn nằm trong nhóm tài khoản dùng chung của hộ gia đình."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "删除操作将移除此个人资料的偏好设置（主题、字幕、剧透、Trakt）及其服务器选择。已登录的服务器账户仍保留在家庭共用账户列表中。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "刪除會移除此個人檔案的偏好設定（主題、字幕、劇透、Trakt）及其伺服器選擇。已登入的伺服器帳號會保留在家庭共用帳號列表中。"
           }
         }
       }
@@ -339389,6 +339610,446 @@
         }
       }
     },
+    "Matches the subtitle style set on this Apple TV." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يطابق نمط الترجمة المحدد على جهاز Apple TV هذا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Съответства на стила на субтитрите, зададен на този Apple TV."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Coincideix amb l'estil dels subtítols configurat en aquest Apple TV."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odpovídá stylu titulků nastavenému na této Apple TV."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Matcher den undertekststil, der er indstillet på dette Apple TV."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Entspricht dem auf diesem Apple TV eingestellten Untertitelstil."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αντιστοιχεί στο στυλ υποτίτλων που έχει οριστεί σε αυτό το Apple TV."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Coincide con el estilo de subtítulos configurado en este Apple TV."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "با سبک زیرنویس تنظیم‌شده در این Apple TV مطابقت دارد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vastaa tässä Apple TV:ssä määritettyä tekstitystyyliä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Correspond au style des sous-titres défini sur cette Apple TV."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תואם לסגנון הכתוביות שהוגדר ב־Apple TV הזה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस Apple TV पर सेट किए गए सबटाइटल स्टाइल से मेल खाता है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odgovara stilu titlova postavljenom na ovom Apple TV-u."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Megegyezik az ezen az Apple TV-n beállított feliratstílussal."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sesuai dengan gaya subtitle yang diatur di Apple TV ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Corrisponde allo stile dei sottotitoli impostato su questa Apple TV."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このApple TVで設定した字幕スタイルに合わせます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 Apple TV에 설정된 자막 스타일과 일치합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sepadan dengan gaya sari kata yang ditetapkan pada Apple TV ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Samsvarer med undertekststilen som er angitt på denne Apple TV-en."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Komt overeen met de ondertitelstijl die op deze Apple TV is ingesteld."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odpowiada stylowi napisów ustawionemu na tym Apple TV."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Corresponde ao estilo de legendas definido nesta Apple TV."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Corespunde stilului de subtitrare configurat pe acest Apple TV."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Соответствует стилю субтитров, заданному на этом Apple TV."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zodpovedá štýlu titulkov nastavenému na tomto zariadení Apple TV."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ujema se s slogom podnapisov, nastavljenim na tej napravi Apple TV."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odgovara stilu titlova podešenom na ovom Apple TV uređaju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Matchar undertextstilen som är inställd på den här Apple TV-enheten."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ตรงกับรูปแบบคำบรรยายที่ตั้งไว้บน Apple TV เครื่องนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu Apple TV'de ayarlanan altyazı stiliyle eşleşir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Відповідає стилю субтитрів, установленому на цьому Apple TV."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Khớp với kiểu phụ đề được đặt trên Apple TV này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "与此 Apple TV 上设置的字幕样式一致。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "與此 Apple TV 上設定的字幕樣式一致。"
+          }
+        }
+      }
+    },
+    "Matches the subtitle style set on this device." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يطابق نمط الترجمة المحدد على هذا الجهاز."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Съответства на стила на субтитрите, зададен на това устройство."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Coincideix amb l'estil dels subtítols configurat en aquest dispositiu."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odpovídá stylu titulků nastavenému na tomto zařízení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Matcher den undertekststil, der er indstillet på denne enhed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Entspricht dem auf diesem Gerät eingestellten Untertitelstil."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αντιστοιχεί στο στυλ υποτίτλων που έχει οριστεί σε αυτή τη συσκευή."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Coincide con el estilo de subtítulos configurado en este dispositivo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "با سبک زیرنویس تنظیم‌شده در این دستگاه مطابقت دارد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vastaa tässä laitteessa määritettyä tekstitystyyliä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Correspond au style des sous-titres défini sur cet appareil."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תואם לסגנון הכתוביות שהוגדר במכשיר הזה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस डिवाइस पर सेट किए गए सबटाइटल स्टाइल से मेल खाता है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odgovara stilu titlova postavljenom na ovom uređaju."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Megegyezik az ezen az eszközön beállított feliratstílussal."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sesuai dengan gaya subtitle yang diatur di perangkat ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Corrisponde allo stile dei sottotitoli impostato su questo dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このデバイスで設定した字幕スタイルに合わせます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 기기에 설정된 자막 스타일과 일치합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sepadan dengan gaya sari kata yang ditetapkan pada peranti ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Samsvarer med undertekststilen som er angitt på denne enheten."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Komt overeen met de ondertitelstijl die op dit apparaat is ingesteld."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odpowiada stylowi napisów ustawionemu na tym urządzeniu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Corresponde ao estilo de legendas definido neste dispositivo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Corespunde stilului de subtitrare configurat pe acest dispozitiv."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Соответствует стилю субтитров, заданному на этом устройстве."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zodpovedá štýlu titulkov nastavenému na tomto zariadení."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ujema se s slogom podnapisov, nastavljenim na tej napravi."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odgovara stilu titlova podešenom na ovom uređaju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Matchar undertextstilen som är inställd på den här enheten."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ตรงกับรูปแบบคำบรรยายที่ตั้งไว้บนอุปกรณ์นี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu cihazda ayarlanan altyazı stiliyle eşleşir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Відповідає стилю субтитрів, установленому на цьому пристрої."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Khớp với kiểu phụ đề được đặt trên thiết bị này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "与此设备上设置的字幕样式一致。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "與此裝置上設定的字幕樣式一致。"
+          }
+        }
+      }
+    },
     "Matching channels appear as each guide source loads. Clear filters to browse all channels now." : {
       "localizations" : {
         "ar" : {
@@ -339610,6 +340271,7 @@
       }
     },
     "Matching shows the current values from Settings › Accessibility › Subtitles & Captioning. Editing a value keeps this appearance and turns matching off." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -339830,6 +340492,7 @@
       }
     },
     "Matching shows your device’s caption appearance. Editing a value keeps this look and turns system matching off." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -659299,6 +659962,7 @@
       }
     },
     "This will overwrite your custom subtitle appearance with your device's system caption settings." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -659514,6 +660178,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "這會以裝置的系統字幕設定覆寫你的自訂字幕外觀。"
+          }
+        }
+      }
+    },
+    "This will replace your custom subtitle style with your device's system subtitle style." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "سيستبدل هذا نمط الترجمة المخصص بنمط الترجمة الخاص بالنظام على جهازك."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Това ще замени персонализирания ви стил на субтитрите със системния стил на субтитрите на вашето устройство."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Això substituirà el teu estil de subtítols personalitzat per l'estil de subtítols del sistema del teu dispositiu."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tím se váš vlastní styl titulků nahradí systémovým stylem titulků vašeho zařízení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dette erstatter din brugerdefinerede undertekststil med systemets undertekststil på din enhed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dein benutzerdefinierter Untertitelstil wird durch den Systemstil für Untertitel auf deinem Gerät ersetzt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το προσαρμοσμένο στυλ υποτίτλων σας θα αντικατασταθεί από το στυλ υποτίτλων του συστήματος της συσκευής σας."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esto sustituirá tu estilo de subtítulos personalizado por el estilo de subtítulos del sistema de tu dispositivo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "با این کار، سبک زیرنویس سفارشی شما با سبک زیرنویس سیستم دستگاهتان جایگزین می‌شود."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tämä korvaa mukautetun tekstitystyylisi laitteesi järjestelmän tekstitystyylillä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Votre style de sous-titres personnalisé sera remplacé par le style de sous-titres du système de votre appareil."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סגנון הכתוביות המותאם אישית שלך יוחלף בסגנון הכתוביות של המערכת במכשיר שלך."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इससे आपके कस्टम सबटाइटल स्टाइल की जगह आपके डिवाइस के सिस्टम का सबटाइटल स्टाइल लागू होगा।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Time će se vaš prilagođeni stil titlova zamijeniti stilom titlova sustava na vašem uređaju."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ez az egyéni feliratstílusát az eszköze rendszerének feliratstílusára cseréli."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ini akan mengganti gaya subtitle kustom Anda dengan gaya subtitle sistem perangkat Anda."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Il tuo stile personalizzato dei sottotitoli verrà sostituito dallo stile di sistema del dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "カスタマイズした字幕スタイルが、このデバイスのシステムの字幕スタイルに置き換わります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "사용자 지정 자막 스타일을 기기의 시스템 자막 스타일로 바꿉니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ini akan menggantikan gaya sari kata tersuai anda dengan gaya sari kata sistem pada peranti anda."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dette erstatter den egendefinerte undertekststilen din med systemets undertekststil på enheten din."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dit vervangt je aangepaste ondertitelstijl door de ondertitelstijl van het systeem op je apparaat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Twój niestandardowy styl napisów zostanie zastąpiony systemowym stylem napisów z twojego urządzenia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Isso substituirá seu estilo personalizado de legendas pelo estilo de legendas do sistema do seu dispositivo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Stilul tău de subtitrare personalizat va fi înlocuit cu stilul de subtitrare al sistemului de pe dispozitivul tău."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Настроенный вами стиль субтитров будет заменён системным стилем субтитров вашего устройства."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Týmto sa váš vlastný štýl titulkov nahradí systémovým štýlom titulkov vášho zariadenia."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vaš slog podnapisov po meri bo zamenjan s sistemskim slogom podnapisov vaše naprave."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovo će zameniti vaš prilagođeni stil titlova sistemskim stilom titlova vašeg uređaja."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Detta ersätter din anpassade undertextstil med systemets undertextstil på din enhet."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "การดำเนินการนี้จะแทนที่รูปแบบคำบรรยายที่คุณปรับแต่งด้วยรูปแบบคำบรรยายของระบบในอุปกรณ์ของคุณ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu işlem, özel altyazı stilinizi cihazınızın sistem altyazı stiliyle değiştirecek."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Це замінить налаштований вами стиль субтитрів системним стилем субтитрів вашого пристрою."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Thao tác này sẽ thay thế kiểu phụ đề tùy chỉnh của bạn bằng kiểu phụ đề hệ thống trên thiết bị của bạn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "这会将你的自定义字幕样式替换为此设备的系统字幕样式。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "這會將你的自訂字幕樣式替換為此裝置的系統字幕樣式。"
           }
         }
       }
@@ -682756,6 +683640,7 @@
       }
     },
     "Use System Caption Style" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -682976,6 +683861,7 @@
       }
     },
     "Use System Caption Style?" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -683411,6 +684297,446 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "使用系統樣式"
+          }
+        }
+      }
+    },
+    "Use System Subtitle Style" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استخدام نمط الترجمة الخاص بالنظام"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Използване на системния стил за субтитри"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utilitza l'estil de subtítols del sistema"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Použít systémový styl titulků"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brug systemets undertekststil"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Systemstil für Untertitel verwenden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Χρήση στυλ υποτίτλων συστήματος"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar estilo de subtítulos del sistema"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استفاده از سبک زیرنویس سیستم"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Käytä järjestelmän tekstitystyyliä"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utiliser le style de sous-titres du système"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שימוש בסגנון הכתוביות של המערכת"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सिस्टम का सबटाइटल स्टाइल इस्तेमाल करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koristi stil titlova sustava"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A rendszer feliratstílusának használata"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan Gaya Subtitle Sistem"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usa lo stile dei sottotitoli di sistema"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "システムの字幕スタイルを使用"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "시스템 자막 스타일 사용"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan Gaya Sari Kata Sistem"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bruk systemets undertekststil"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ondertitelstijl van het systeem gebruiken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Użyj systemowego stylu napisów"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar estilo de legendas do sistema"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Folosește stilul de subtitrare al sistemului"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Использовать системный стиль субтитров"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Použiť systémový štýl titulkov"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uporabi sistemski slog podnapisov"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koristi sistemski stil titlova"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Använd systemets undertextstil"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ใช้รูปแบบคำบรรยายของระบบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sistem altyazı stilini kullan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Використовувати системний стиль субтитрів"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dùng kiểu phụ đề hệ thống"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用系统字幕样式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用系統字幕樣式"
+          }
+        }
+      }
+    },
+    "Use System Subtitle Style?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استخدام نمط الترجمة الخاص بالنظام؟"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Да се използва ли системният стил за субтитри?"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vols utilitzar l'estil de subtítols del sistema?"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Použít systémový styl titulků?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brug systemets undertekststil?"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Systemstil für Untertitel verwenden?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Να χρησιμοποιηθεί το στυλ υποτίτλων του συστήματος;"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "¿Usar el estilo de subtítulos del sistema?"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "از سبک زیرنویس سیستم استفاده شود؟"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Käytetäänkö järjestelmän tekstitystyyliä?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utiliser le style de sous-titres du système ?"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "להשתמש בסגנון הכתוביות של המערכת?"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सिस्टम का सबटाइटल स्टाइल इस्तेमाल करें?"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koristiti stil titlova sustava?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A rendszer feliratstílusának használata?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan Gaya Subtitle Sistem?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usare lo stile dei sottotitoli di sistema?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "システムの字幕スタイルを使用しますか？"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "시스템 자막 스타일을 사용하시겠습니까?"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan Gaya Sari Kata Sistem?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bruke systemets undertekststil?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ondertitelstijl van het systeem gebruiken?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Użyć systemowego stylu napisów?"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar estilo de legendas do sistema?"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vrei să folosești stilul de subtitrare al sistemului?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Использовать системный стиль субтитров?"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Použiť systémový štýl titulkov?"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uporabim sistemski slog podnapisov?"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koristiti sistemski stil titlova?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Använd systemets undertextstil?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ใช้รูปแบบคำบรรยายของระบบหรือไม่?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sistem altyazı stili kullanılsın mı?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Використовувати системний стиль субтитрів?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dùng kiểu phụ đề hệ thống?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用系统字幕样式？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用系統字幕樣式？"
           }
         }
       }
@@ -709598,6 +710924,7 @@
       }
     },
     "Window padding is set by Plozz. Apple does not expose caption padding or line spacing." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -709801,6 +711128,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Khoảng đệm của khung do Plozz quy định. Apple không cho phép truy cập khoảng đệm phụ đề hoặc khoảng cách dòng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "字幕框内边距由 Plozz 设定。Apple 不提供字幕内边距或行间距的访问接口。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "字幕框內距由 Plozz 設定。Apple 不提供字幕內距或行距的存取介面。"
+          }
+        }
+      }
+    },
+    "Window padding is set by Plozz. Apple does not expose subtitle padding or line spacing." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يحدد Plozz الحشو الداخلي لمربع الترجمة. لا تتيح Apple قيم الحشو الداخلي للترجمة أو التباعد بين السطور."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Вътрешните отстъпи на полето се задават от Plozz. Apple не предоставя отстъпите на субтитрите или разстоянието между редовете."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz defineix el marge interior del quadre. Apple no proporciona el marge interior dels subtítols ni l'interlineat."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vnitřní okraje rámečku určuje Plozz. Apple nezpřístupňuje vnitřní okraje titulků ani řádkování."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Feltets indvendige afstand angives af Plozz. Apple stiller ikke underteksternes indvendige afstand eller linjeafstand til rådighed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den Innenabstand der Box legt Plozz fest. Apple stellt weder den Innenabstand von Untertiteln noch ihren Zeilenabstand bereit."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το εσωτερικό περιθώριο του πλαισίου ορίζεται από το Plozz. Η Apple δεν παρέχει τις τιμές για τα εσωτερικά περιθώρια των υποτίτλων ή το διάστιχο."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz define el margen interior del cuadro. Apple no proporciona el margen interior de los subtítulos ni el interlineado."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "حاشیهٔ داخلی کادر را Plozz تعیین می‌کند. Apple حاشیهٔ داخلی زیرنویس یا فاصلهٔ سطرها را در اختیار نمی‌گذارد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Laatikon sisämarginaalin määrittää Plozz. Apple ei tarjoa tekstityksen sisämarginaalin tai rivivälin arvoja."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La marge intérieure du bloc est définie par Plozz. Apple ne fournit ni la marge intérieure des sous-titres ni leur interligne."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המרווח הפנימי של תיבת הרקע נקבע ב־Plozz. Apple אינה חושפת את המרווח הפנימי של הכתוביות או את המרווח בין השורות."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सबटाइटल बॉक्स की अंदरूनी खाली जगह Plozz तय करता है। Apple सबटाइटल की अंदरूनी खाली जगह या पंक्तियों के बीच की दूरी की जानकारी नहीं देता।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Unutarnji razmak okvira titlova određuje Plozz. Apple ne pruža podatke o unutarnjem razmaku titlova ni o razmaku između redaka."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A feliratablak belső térközét a Plozz határozza meg. Az Apple nem teszi elérhetővé a feliratok belső térközét vagy sorközét."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Jarak dalam kotak subtitle diatur oleh Plozz. Apple tidak menyediakan nilai jarak dalam subtitle atau jarak antarbaris."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La spaziatura interna del riquadro è impostata da Plozz. Apple non rende disponibili la spaziatura interna o l'interlinea dei sottotitoli."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "字幕ボックスの内側余白はPlozzが設定します。Appleは字幕の内側余白や行間の情報を公開していません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "자막 상자의 안쪽 여백은 Plozz에서 설정합니다. Apple은 자막의 안쪽 여백이나 줄 간격 정보를 제공하지 않습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ruang dalaman kotak sari kata ditetapkan oleh Plozz. Apple tidak menyediakan nilai ruang dalaman sari kata atau jarak antara baris."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Innvendig marg i tekstboksen bestemmes av Plozz. Apple gir ikke tilgang til innvendig marg eller linjeavstand for undertekster."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De binnenmarge van het ondertitelvenster wordt ingesteld door Plozz. Apple stelt geen binnenmarges of regelafstand voor ondertitels beschikbaar."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odstęp wewnątrz pola napisów ustala Plozz. Apple nie udostępnia odstępów wewnętrznych napisów ani odstępów między wierszami."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O espaçamento interno da caixa de legendas é definido pelo Plozz. A Apple não disponibiliza o espaçamento interno nem o espaçamento entre linhas das legendas."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Spațierea interioară a casetei este stabilită de Plozz. Apple nu oferă acces la spațierea interioară a subtitrărilor sau la spațierea dintre rânduri."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Внутренние отступы окна субтитров задаёт Plozz. Apple не предоставляет доступ к внутренним отступам субтитров и межстрочному интервалу."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vnútorné odsadenie okna titulkov určuje Plozz. Apple nesprístupňuje vnútorné odsadenie titulkov ani riadkovanie."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Notranji odmik okna podnapisov določa Plozz. Apple ne omogoča dostopa do notranjih odmikov podnapisov ali razmika med vrsticami."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Unutrašnji razmak okvira određuje Plozz. Apple ne omogućava pristup unutrašnjem razmaku titlova ni razmaku između redova."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rutans inre marginaler bestäms av Plozz. Apple ger inte tillgång till undertexternas inre marginaler eller radavstånd."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz เป็นผู้กำหนดระยะขอบด้านในของกล่องคำบรรยาย Apple ไม่เปิดให้เข้าถึงระยะขอบด้านในของคำบรรยายหรือระยะห่างระหว่างบรรทัด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Altyazı kutusunun iç boşluğunu Plozz belirler. Apple, altyazı iç boşluğuna veya satır aralığına erişim sağlamaz."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Внутрішні відступи вікна субтитрів визначає Plozz. Apple не надає доступу до внутрішніх відступів субтитрів або міжрядкового інтервалу."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz đặt khoảng đệm của khung phụ đề. Apple không cung cấp giá trị khoảng đệm phụ đề hoặc khoảng cách dòng."
           }
         },
         "zh-Hans" : {
