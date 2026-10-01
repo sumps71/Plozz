@@ -182448,6 +182448,7 @@
       }
     },
     "Content type controls scanning and matching. Personal Videos stay playable without movie or show matching. Re-adding the same location updates these settings without changing its library identity." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -442461,6 +442462,227 @@
         }
       }
     },
+    "Preparing recording - please wait" : {
+      "comment" : "Diagnostic recording status. Wait before performing the action being recorded.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تحضير تسجيل بيانات التشخيص - يُرجى الانتظار"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Подготовка за запис на диагностични данни - моля, изчакайте"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preparant el registre de dades de diagnòstic - espereu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Příprava záznamu diagnostických dat - vyčkejte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Forbereder registrering af diagnostikdata - vent venligst"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnoseaufzeichnung wird vorbereitet - bitte warten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προετοιμασία καταγραφής διαγνωστικών δεδομένων - περιμένετε"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preparando el registro de datos de diagnóstico - espere"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "آماده‌سازی ثبت داده‌های عیب‌یابی - لطفاً صبر کنید"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valmistellaan diagnostiikkatietojen tallennusta - odota"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Préparation de l’enregistrement des diagnostics - veuillez patienter"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הכנת רישום נתוני האבחון - נא להמתין"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "डायग्नोस्टिक डेटा की रिकॉर्डिंग की तैयारी - कृपया प्रतीक्षा करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Priprema bilježenja dijagnostičkih podataka - pričekajte"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnosztikai adatrögzítés előkészítése - kérjük, várjon"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Menyiapkan perekaman data diagnostik - harap tunggu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preparazione della registrazione dei dati diagnostici - attendi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "診断データの記録準備中 - お待ちください"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "진단 데이터 기록 준비 중 - 잠시 기다려 주세요"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Persediaan untuk merekod data diagnostik - sila tunggu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Forbereder registrering av diagnostikkdata - vennligst vent"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnostische registratie wordt voorbereid - even geduld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Przygotowywanie zapisu danych diagnostycznych - proszę czekać"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preparando o registro de dados de diagnóstico - aguarde"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se pregătește înregistrarea datelor de diagnostic - așteptați"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Подготовка записи диагностических данных - подождите"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Príprava záznamu diagnostických údajov - počkajte"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Priprava beleženja diagnostičnih podatkov - počakajte"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Priprema beleženja dijagnostičkih podataka - sačekajte"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Förbereder registrering av diagnostikdata - vänta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "กำลังเตรียมบันทึกข้อมูลการวินิจฉัย - โปรดรอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tanılama kaydı hazırlanıyor - lütfen bekleyin"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Підготовка запису діагностичних даних - зачекайте"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đang chuẩn bị ghi dữ liệu chẩn đoán - vui lòng chờ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在准备记录诊断数据 - 请稍候"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在準備記錄診斷資料 - 請稍候"
+          }
+        }
+      }
+    },
     "Preparing your guide" : {
       "localizations" : {
         "ar" : {
@@ -462311,6 +462533,669 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "正在重新連線…"
+          }
+        }
+      }
+    },
+    "Recording diagnostics - ready" : {
+      "comment" : "Diagnostic recording status. Recording is active and the requested action can now be performed.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تسجيل بيانات التشخيص جارٍ - يمكنك تنفيذ الإجراء"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Диагностичните данни се записват - можете да действате"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrant dades de diagnòstic - ja podeu fer l’acció"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Záznam diagnostických dat probíhá - můžete provést akci"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrerer diagnostikdata - du kan udføre handlingen"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnoseaufzeichnung läuft - Sie können die Aktion ausführen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Καταγράφονται διαγνωστικά δεδομένα - μπορείτε να εκτελέσετε την ενέργεια"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrando datos de diagnóstico - puede realizar la acción"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "داده‌های عیب‌یابی در حال ثبت هستند - می‌توانید اقدام کنید"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnostiikkatietoja tallennetaan - voit suorittaa toiminnon"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enregistrement des diagnostics en cours - vous pouvez effectuer l’action"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "נתוני האבחון נרשמים - אפשר לבצע את הפעולה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "डायग्नोस्टिक डेटा रिकॉर्ड हो रहा है - अब कार्रवाई कर सकते हैं"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dijagnostički se podaci bilježe - možete izvesti radnju"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnosztikai adatrögzítés folyamatban - elvégezheti a műveletet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Data diagnostik sedang direkam - Anda dapat melakukan tindakan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrazione dei dati diagnostici in corso - puoi eseguire l’azione"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "診断データを記録中 - 操作を開始できます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "진단 데이터 기록 중 - 이제 작업을 수행해도 됩니다"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Data diagnostik sedang direkod - anda boleh melakukan tindakan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrerer diagnostikkdata - du kan utføre handlingen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnostische gegevens worden vastgelegd - u kunt de handeling uitvoeren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trwa zapis danych diagnostycznych - można wykonać czynność"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrando dados de diagnóstico - você pode realizar a ação"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Datele de diagnostic se înregistrează - puteți efectua acțiunea"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Идёт запись диагностических данных - можно выполнить действие"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Záznam diagnostických údajov prebieha - môžete vykonať úkon"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beleženje diagnostičnih podatkov poteka - lahko izvedete dejanje"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dijagnostički podaci se beleže - možete izvršiti radnju"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrerar diagnostikdata - du kan utföra åtgärden"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "กำลังบันทึกข้อมูลการวินิจฉัย - ดำเนินการได้แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tanılama verileri kaydediliyor - işlemi yapabilirsiniz"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Діагностичні дані записуються - можете виконати дію"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đang ghi dữ liệu chẩn đoán - bạn có thể thực hiện thao tác"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在记录诊断数据 - 可以执行操作"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在記錄診斷資料 - 可以執行操作"
+          }
+        }
+      }
+    },
+    "Recording finished" : {
+      "comment" : "Diagnostic recording has completed.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اكتمل تسجيل بيانات التشخيص"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Записът на диагностични данни приключи"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registre de dades de diagnòstic finalitzat"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Záznam diagnostických dat dokončen"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrering af diagnostikdata afsluttet"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnoseaufzeichnung abgeschlossen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η καταγραφή διαγνωστικών δεδομένων ολοκληρώθηκε"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registro de datos de diagnóstico finalizado"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ثبت داده‌های عیب‌یابی پایان یافت"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnostiikkatietojen tallennus valmis"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enregistrement des diagnostics terminé"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רישום נתוני האבחון הסתיים"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "डायग्नोस्टिक डेटा की रिकॉर्डिंग पूरी हुई"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilježenje dijagnostičkih podataka dovršeno"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnosztikai adatrögzítés befejezve"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Perekaman data diagnostik selesai"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrazione dei dati diagnostici completata"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "診断データの記録が完了しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "진단 데이터 기록 완료"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Perekodan data diagnostik selesai"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrering av diagnostikkdata fullført"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diagnostische registratie voltooid"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zapis danych diagnostycznych zakończony"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registro de dados de diagnóstico concluído"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Înregistrarea datelor de diagnostic s-a încheiat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Запись диагностических данных завершена"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Záznam diagnostických údajov dokončený"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beleženje diagnostičnih podatkov končano"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beleženje dijagnostičkih podataka je završeno"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrering av diagnostikdata slutförd"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "บันทึกข้อมูลการวินิจฉัยเสร็จแล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tanılama kaydı tamamlandı"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Запис діагностичних даних завершено"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đã ghi xong dữ liệu chẩn đoán"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "诊断数据记录已完成"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "診斷資料記錄已完成"
+          }
+        }
+      }
+    },
+    "Recording stopped - do not repeat" : {
+      "comment" : "Diagnostic recording stopped unexpectedly. Do not repeat the requested action until another recording is ready.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "انقطع التسجيل - لا تُكرر الإجراء"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Записът прекъсна - не повтаряйте действието"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registre interromput - no repetiu l’acció"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Záznam přerušen - neopakujte akci"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registreringen blev afbrudt - gentag ikke handlingen"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aufzeichnung abgebrochen - Aktion nicht wiederholen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η καταγραφή διακόπηκε - μην επαναλάβετε την ενέργεια"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registro interrumpido - no repita la acción"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ثبت داده‌ها ناگهان متوقف شد - اقدام را تکرار نکنید"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tallennus keskeytyi - älä toista toimintoa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enregistrement interrompu - ne répétez pas l’action"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הרישום נקטע - אין לחזור על הפעולה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "रिकॉर्डिंग रुक गई - कार्रवाई दोबारा न करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilježenje prekinuto - nemojte ponavljati radnju"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az adatrögzítés megszakadt - ne ismételje meg a műveletet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Perekaman terhenti - jangan ulangi tindakan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registrazione interrotta - non ripetere l’azione"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "記録が中断されました - 操作を繰り返さないでください"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "기록 중단 - 작업을 반복하지 마세요"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Perekodan terhenti - jangan ulangi tindakan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registreringen ble avbrutt - ikke gjenta handlingen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registratie onderbroken - herhaal de handeling niet"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zapis przerwany - nie powtarzaj czynności"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registro interrompido - não repita a ação"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Înregistrarea s-a întrerupt - nu repetați acțiunea"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Запись прервалась - не повторяйте действие"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Záznam prerušený - neopakujte úkon"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beleženje prekinjeno - ne ponavljajte dejanja"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beleženje je prekinuto - ne ponavljajte radnju"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Registreringen avbröts - upprepa inte åtgärden"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "การบันทึกหยุดโดยไม่คาดคิด - อย่าดำเนินการซ้ำ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kayıt kesildi - işlemi tekrarlamayın"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Запис перервано - не повторюйте дію"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Việc ghi đã bị gián đoạn - không lặp lại thao tác"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "记录已中断 - 请勿重复操作"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "記錄已中斷 - 請勿重複操作"
           }
         }
       }
