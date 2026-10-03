@@ -200515,6 +200515,226 @@
         }
       }
     },
+    "Crop" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اقتصاص"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изрязване"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Retall"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ořez"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beskær"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beschneiden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Περικοπή"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Recorte"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برش"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rajaus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Recadrage"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חיתוך"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "क्रॉप"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obreži"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Körbevágás"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pangkas"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ritaglia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "クロップ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "화면 채우기"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penuhi skrin"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fyll skjermen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Scherm vullen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wypełnij ekran"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preencher tela"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Decupare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Кадрирование"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Orezanie"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrezovanje"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Isecanje"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beskärning"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ครอบตัด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kırp"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Кадрування"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cắt xén"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "裁剪"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "裁切"
+          }
+        }
+      }
+    },
     "Current" : {
       "comment" : "Badge shown on the active profile in the iOS profile picker.",
       "extractionState" : "stale",
@@ -384224,6 +384444,446 @@
         }
       }
     },
+    "Normal" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "عادي"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Нормален"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normální"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Κανονική"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "عادی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normaali"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רגיל"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सामान्य"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normalno"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normál"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normale"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "標準"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "일반"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normaal"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normalny"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Обычный"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normálny"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Običajni"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normalno"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ปกติ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Звичайний"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bình thường"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正常"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正常"
+          }
+        }
+      }
+    },
+    "Normal (Default)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "عادي (افتراضي)"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Нормален (по подразбиране)"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (per defecte)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normální (výchozí)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (standard)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (Standard)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Κανονική (προεπιλογή)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (predeterminado)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "عادی (پیش‌فرض)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normaali (oletus)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (par défaut)"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רגיל (ברירת מחדל)"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सामान्य (डिफ़ॉल्ट)"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normalno (zadano)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normál (alapértelmezett)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (bawaan)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normale (predefinita)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "標準（デフォルト）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "일반 (기본값)"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (lalai)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (standard)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normaal (standaard)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normalny (domyślny)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (padrão)"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (implicit)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Обычный (по умолчанию)"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normálny (predvolený)"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Običajni (privzeti)"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normalno (podrazumevano)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (standard)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ปกติ (ค่าเริ่มต้น)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normal (varsayılan)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Звичайний (за замовчуванням)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bình thường (mặc định)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正常（默认）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正常（預設）"
+          }
+        }
+      }
+    },
     "Not Allowed" : {
       "comment" : "Alert title shown when a Seerr request fails because the mapped user or account does not have permission to request that title.",
       "localizations" : {
@@ -492263,6 +492923,226 @@
         }
       }
     },
+    "Reset to Normal" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استعادة الوضع العادي"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Връщане към нормален режим"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Restableix el mode normal"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obnovit normální režim"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nulstil til normal"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Auf Normal zurücksetzen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επαναφορά στην κανονική προβολή"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Volver al modo normal"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "بازگشت به حالت عادی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Palauta normaaliksi"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Revenir au mode normal"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חזרה למצב רגיל"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सामान्य पर लौटें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vrati na normalno"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Visszaállítás normálra"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kembali ke normal"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ripristina modalità normale"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "標準に戻す"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "일반으로 되돌리기"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kembali ke Normal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tilbakestill til normalmodus"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Terug naar normaal"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Przywróć tryb normalny"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Restaurar modo normal"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Revino la normal"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Вернуть обычный режим"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obnoviť normálny režim"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponastavi na običajni način"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vrati na normalno"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Återställ till normalläge"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "กลับเป็นปกติ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Normale dön"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Відновити звичайний режим"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trở về bình thường"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "恢复正常"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "回復正常"
+          }
+        }
+      }
+    },
     "Reset to Recommended" : {
       "localizations" : {
         "ar" : {
@@ -591280,6 +592160,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "串流畫質"
+          }
+        }
+      }
+    },
+    "Stretch" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تمديد"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Разтягане"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Estirament"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Roztažení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Stræk"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Strecken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Τέντωμα"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Estirar"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کشیده"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Venytys"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Étirement"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מתיחה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "फैलाएँ"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rastegni"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nyújtás"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Regangkan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Allunga"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "引き伸ばし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "늘이기"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Regangkan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Strekk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uitrekken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rozciągnij"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esticar"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Întindere"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Растягивание"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Roztiahnutie"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Razteg"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Razvlačenje"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sträck ut"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ยืด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esnet"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Розтягування"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kéo giãn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "拉伸"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "延展"
           }
         }
       }
@@ -729449,6 +730549,446 @@
         }
       }
     },
+    "Zoom Amount" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "مستوى التكبير"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Мащаб"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nivell de zoom"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Míra zvětšení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomniveau"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomstufe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ποσοστό ζουμ"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nivel de zoom"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "میزان بزرگ‌نمایی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomaustaso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Niveau de zoom"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רמת זום"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ज़ूम स्तर"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Razina zumiranja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nagyítás mértéke"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tingkat zoom"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Livello di zoom"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ズーム倍率"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "확대/축소 배율"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tahap zum"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomnivå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomniveau"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Poziom powiększenia"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nível de zoom"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nivel de zoom"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Масштаб"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Miera priblíženia"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Stopnja povečave"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nivo uvećanja"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomnivå"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ระดับการซูม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yakınlaştırma düzeyi"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Масштаб"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mức thu phóng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "缩放比例"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "縮放比例"
+          }
+        }
+      }
+    },
+    "Zoom Mode" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "وضع التكبير"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Режим на мащабиране"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mode de zoom"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Režim zvětšení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomtilstand"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoommodus"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Λειτουργία ζουμ"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Modo de zoom"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "حالت بزرگ‌نمایی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomaustila"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mode de zoom"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מצב זום"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ज़ूम मोड"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Način zumiranja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nagyítási mód"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mode zoom"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Modalità zoom"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ズームモード"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "확대/축소 모드"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mod zum"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoommodus"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoommodus"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tryb powiększenia"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Modo de zoom"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mod de zoom"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Режим масштабирования"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Režim priblíženia"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Način povečave"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Režim uvećanja"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zoomläge"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "โหมดซูม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yakınlaştırma modu"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Режим масштабування"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chế độ thu phóng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "缩放模式"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "縮放模式"
+          }
+        }
+      }
+    },
     "allLibraries.empty.message" : {
       "comment" : "Guidance under the empty state of the combined All Libraries grid.",
       "extractionState" : "extracted_with_value",
@@ -770980,6 +772520,7 @@
     },
     "player.category.speed" : {
       "comment" : "Tab in the in-player options panel for playback speed.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
