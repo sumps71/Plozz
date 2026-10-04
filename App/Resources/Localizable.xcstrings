@@ -95668,6 +95668,7 @@
       }
     },
     "Add IPTV playlist" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -99195,6 +99196,226 @@
         }
       }
     },
+    "Add a source" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "إضافة مصدر"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Добавяне на източник"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afegeix una font"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Přidat zdroj"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tilføj kilde"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Quelle hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προσθήκη πηγής"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Añadir fuente"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "افزودن منبع"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lisää lähde"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ajouter une source"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוסף מקור"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "स्रोत जोड़ें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodaj izvor"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Forrás hozzáadása"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tambah sumber"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aggiungi sorgente"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ソースを追加"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "소스 추가"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tambah sumber"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Legg til kilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bron toevoegen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodaj źródło"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Adicionar fonte"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Adaugă o sursă"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Добавить источник"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pridať zdroj"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodaj vir"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodaj izvor"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lägg till källa"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เพิ่มแหล่งที่มา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kaynak ekle"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Додати джерело"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Thêm nguồn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "添加来源"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "加入來源"
+          }
+        }
+      }
+    },
     "Add another guide" : {
       "localizations" : {
         "ar" : {
@@ -100511,6 +100732,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "使用 M3U 或 M3U8 播放清單網址加入頻道。"
+          }
+        }
+      }
+    },
+    "Add channels with an M3U, M3U8 or live HLS URL." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أضف قنوات باستخدام رابط لقائمة تشغيل M3U أو M3U8، أو رابط لبث HLS مباشر."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Добавете канали чрез URL адрес за M3U, M3U8 или HLS поток на живо."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afegeix canals amb un URL M3U, M3U8 o d’HLS en directe."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Přidejte kanály pomocí URL pro M3U, M3U8 nebo živý stream HLS."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tilføj kanaler med en URL til M3U, M3U8 eller live HLS."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Füge Kanäle über eine M3U-, M3U8- oder Live-HLS-URL hinzu."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προσθέστε κανάλια με URL M3U, M3U8 ή ζωντανής ροής HLS."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Añade canales con una URL M3U, M3U8 o de HLS en directo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کانال‌ها را با نشانی M3U، M3U8 یا پخش زندهٔ HLS اضافه کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lisää kanavia M3U-, M3U8- tai suoran HLS-lähetyksen URL-osoitteella."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ajoutez des chaînes avec une URL M3U, M3U8 ou HLS en direct."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הוסף ערוצים באמצעות כתובת URL של פלייליסט M3U או M3U8, או של שידור חי ב-HLS."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "M3U, M3U8 या लाइव HLS URL से चैनल जोड़ें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodajte kanale putem URL-a za M3U, M3U8 ili HLS prijenos uživo."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Adjon hozzá csatornákat M3U-, M3U8- vagy élő HLS-adás URL-címével."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tambahkan saluran dengan URL M3U, M3U8, atau siaran langsung HLS."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aggiungi canali con un URL M3U, M3U8 o HLS in diretta."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "M3U、M3U8、またはライブHLSのURLでチャンネルを追加します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "M3U, M3U8 또는 실시간 HLS URL로 채널을 추가하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tambah saluran dengan URL M3U, M3U8 atau siaran langsung HLS."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Legg til kanaler med en URL til M3U, M3U8 eller direktesendt HLS."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voeg kanalen toe met een M3U-, M3U8- of live-HLS-URL."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodaj kanały za pomocą adresu URL M3U, M3U8 lub transmisji HLS na żywo."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Adicione canais com uma URL M3U, M3U8 ou HLS ao vivo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Adaugă canale folosind un URL M3U, M3U8 sau HLS în direct."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Добавьте каналы по URL-адресу M3U, M3U8 или прямой трансляции HLS."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pridajte kanály pomocou URL pre M3U, M3U8 alebo živý prenos HLS."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodajte kanale z URL-jem za M3U, M3U8 ali HLS v živo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dodajte kanale pomoću URL-a za M3U, M3U8 ili HLS prenos uživo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lägg till kanaler med en URL för M3U, M3U8 eller direktsänd HLS."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เพิ่มช่องด้วย URL แบบ M3U, M3U8 หรือ HLS สำหรับถ่ายทอดสด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "M3U, M3U8 veya canlı HLS URL’siyle kanal ekleyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Додайте канали за URL-адресою M3U, M3U8 або прямої трансляції HLS."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Thêm kênh bằng URL M3U, M3U8 hoặc luồng HLS phát trực tiếp."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用 M3U、M3U8 或 HLS 直播 URL 添加频道。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用 M3U、M3U8 或 HLS 直播 URL 加入頻道。"
           }
         }
       }
@@ -160972,6 +161413,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "請選擇個人檔案以繼續。"
+          }
+        }
+      }
+    },
+    "Choose a saved playlist from Files." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اختر قائمة تشغيل محفوظة من تطبيق «الملفات»."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изберете запазен плейлист от приложението „Файлове“."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tria una llista de reproducció desada a l’app Arxius."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte uložený playlist z aplikace Soubory."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vælg en gemt afspilningsliste fra appen Arkiver."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wähle eine gespeicherte Wiedergabeliste aus der App „Dateien“."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επιλέξτε μια αποθηκευμένη λίστα αναπαραγωγής από την εφαρμογή Αρχεία."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Elige una lista guardada en la app Archivos."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "یک فهرست پخش ذخیره‌شده را از برنامهٔ «فایل‌ها» انتخاب کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valitse tallennettu soittolista Tiedostot-apista."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Choisissez une liste de lecture enregistrée dans l’app Fichiers."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחר פלייליסט שמור מתוך היישום ״קבצים״."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "फ़ाइल ऐप से सहेजी गई प्लेलिस्ट चुनें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odaberite spremljeni popis za reprodukciju iz aplikacije Datoteke."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Válasszon egy mentett lejátszólistát a Fájlok appból."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih daftar putar yang tersimpan dari app File."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Scegli una playlist salvata nell’app File."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "「ファイル」アプリから保存済みのプレイリストを選択します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "파일 앱에서 저장된 재생목록을 선택하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih senarai main yang disimpan daripada app Fail."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Velg en lagret spilleliste fra Filer-appen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kies een opgeslagen afspeellijst uit de app Bestanden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybierz zapisaną listę odtwarzania z aplikacji Pliki."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Escolha uma lista de reprodução salva no app Arquivos."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alege o listă de redare salvată din aplicația Fișiere."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выберите сохранённый плейлист в приложении «Файлы»."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte uložený playlist z apky Súbory."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izberite shranjen seznam predvajanja iz aplikacije Datoteke."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izaberite sačuvanu plejlistu iz aplikacije Datoteke."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Välj en sparad spellista från appen Filer."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกเพลย์ลิสต์ที่บันทึกไว้จากแอปไฟล์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dosyalar uygulamasından kaydedilmiş bir çalma listesi seçin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Виберіть збережений плейлист у програмі «Файли»."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chọn danh sách phát đã lưu từ ứng dụng Tệp."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "从“文件”App 中选取已保存的播放列表。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "從「檔案」App 選擇已儲存的播放清單。"
           }
         }
       }
@@ -291943,6 +292604,226 @@
         }
       }
     },
+    "IPTV playlist (M3U or M3U8 URL)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "قائمة تشغيل IPTV (رابط M3U أو M3U8)"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV плейлист (URL адрес за M3U или M3U8)"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Llista IPTV (URL M3U o M3U8)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV playlist (URL pro M3U nebo M3U8)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-afspilningsliste (URL til M3U eller M3U8)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-Wiedergabeliste (M3U- oder M3U8-URL)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Λίστα αναπαραγωγής IPTV (URL M3U ή M3U8)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lista IPTV (URL M3U o M3U8)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فهرست پخش IPTV (نشانی M3U یا M3U8)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-soittolista (M3U- tai M3U8-URL)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Liste de lecture IPTV (URL M3U ou M3U8)"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פלייליסט IPTV (כתובת URL מסוג M3U או M3U8)"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV प्लेलिस्ट (M3U या M3U8 URL)"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV popis za reprodukciju (URL za M3U ili M3U8)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-lejátszólista (M3U- vagy M3U8-URL)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Daftar putar IPTV (URL M3U atau M3U8)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Playlist IPTV (URL M3U o M3U8)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTVプレイリスト（M3UまたはM3U8のURL）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV 재생목록(M3U 또는 M3U8 URL)"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Senarai main IPTV (URL M3U atau M3U8)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-spilleliste (URL til M3U eller M3U8)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-afspeellijst (M3U- of M3U8-URL)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lista odtwarzania IPTV (adres URL M3U lub M3U8)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lista IPTV (URL M3U ou M3U8)"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Listă de redare IPTV (URL M3U sau M3U8)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Плейлист IPTV (URL-адрес M3U или M3U8)"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Playlist IPTV (URL pre M3U alebo M3U8)"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seznam predvajanja IPTV (URL za M3U ali M3U8)"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV plejlista (URL za M3U ili M3U8)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-spellista (URL för M3U eller M3U8)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เพลย์ลิสต์ IPTV (URL แบบ M3U หรือ M3U8)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV çalma listesi (M3U veya M3U8 URL’si)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV-плейлист (URL-адреса M3U або M3U8)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Danh sách phát IPTV (URL M3U hoặc M3U8)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV 播放列表（M3U 或 M3U8 URL）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "IPTV 播放清單（M3U 或 M3U8 URL）"
+          }
+        }
+      }
+    },
     "IPTV source" : {
       "localizations" : {
         "ar" : {
@@ -293940,6 +294821,7 @@
       }
     },
     "Import M3U file" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -345344,6 +346226,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "媒體伺服器"
+          }
+        }
+      }
+    },
+    "Media server (Plex, Jellyfin, Emby)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "خادم الوسائط (Plex, Jellyfin, Emby)"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Медиен сървър (Plex, Jellyfin, Emby)"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Servidor multimèdia (Plex, Jellyfin, Emby)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mediální server (Plex, Jellyfin, Emby)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Medieserver (Plex, Jellyfin, Emby)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Medienserver (Plex, Jellyfin, Emby)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Διακομιστής πολυμέσων (Plex, Jellyfin, Emby)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Servidor multimedia (Plex, Jellyfin, Emby)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "سرور رسانه (Plex, Jellyfin, Emby)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mediapalvelin (Plex, Jellyfin, Emby)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Serveur multimédia (Plex, Jellyfin, Emby)"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שרת מדיה (Plex, Jellyfin, Emby)"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "मीडिया सर्वर (Plex, Jellyfin, Emby)"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Medijski poslužitelj (Plex, Jellyfin, Emby)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Médiaszerver (Plex, Jellyfin, Emby)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Server media (Plex, Jellyfin, Emby)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Server multimediale (Plex, Jellyfin, Emby)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "メディアサーバ (Plex, Jellyfin, Emby)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "미디어 서버 (Plex, Jellyfin, Emby)"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pelayan media (Plex, Jellyfin, Emby)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Medieserver (Plex, Jellyfin, Emby)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mediaserver (Plex, Jellyfin, Emby)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Serwer multimediów (Plex, Jellyfin, Emby)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Servidor de mídia (Plex, Jellyfin, Emby)"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Server media (Plex, Jellyfin, Emby)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Медиасервер (Plex, Jellyfin, Emby)"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mediálny server (Plex, Jellyfin, Emby)"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Predstavnostni strežnik (Plex, Jellyfin, Emby)"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Medijski server (Plex, Jellyfin, Emby)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Medieserver (Plex, Jellyfin, Emby)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เซิร์ฟเวอร์สื่อ (Plex, Jellyfin, Emby)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Medya sunucusu (Plex, Jellyfin, Emby)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Медіасервер (Plex, Jellyfin, Emby)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Máy chủ phương tiện (Plex, Jellyfin, Emby)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "媒体服务器 (Plex, Jellyfin, Emby)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "媒體伺服器 (Plex, Jellyfin, Emby)"
           }
         }
       }
@@ -430339,6 +431441,226 @@
         }
       }
     },
+    "Playlist file (M3U)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ملف قائمة تشغيل (M3U)"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Файл с плейлист (M3U)"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fitxer de llista de reproducció (M3U)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Soubor playlistu (M3U)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afspilningslistefil (M3U)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wiedergabelistendatei (M3U)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αρχείο λίστας αναπαραγωγής (M3U)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Archivo de lista (M3U)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فایل فهرست پخش (M3U)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Soittolistatiedosto (M3U)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fichier de liste de lecture (M3U)"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "קובץ פלייליסט (M3U)"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "प्लेलिस्ट फ़ाइल (M3U)"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Datoteka popisa za reprodukciju (M3U)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Lejátszólistafájl (M3U)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "File daftar putar (M3U)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "File playlist (M3U)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "プレイリストファイル（M3U）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "재생목록 파일(M3U)"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fail senarai main (M3U)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Spillelistefil (M3U)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afspeellijstbestand (M3U)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plik listy odtwarzania (M3U)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Arquivo de lista de reprodução (M3U)"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fișier cu listă de redare (M3U)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Файл плейлиста (M3U)"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Súbor playlistu (M3U)"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Datoteka seznama predvajanja (M3U)"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Datoteka plejliste (M3U)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Spellistefil (M3U)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไฟล์เพลย์ลิสต์ (M3U)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Çalma listesi dosyası (M3U)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Файл плейлиста (M3U)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tệp danh sách phát (M3U)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "播放列表文件（M3U）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "播放清單檔案（M3U）"
+          }
+        }
+      }
+    },
     "Playlist or live HLS URL" : {
       "localizations" : {
         "ar" : {
@@ -449960,6 +451282,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "個人檔案名稱"
+          }
+        }
+      }
+    },
+    "Profile server selections couldn't be read. Try again before transferring setup." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذّرت قراءة اختيارات الخوادم للملفات الشخصية. حاول مجددًا قبل نقل الإعدادات."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изборът на сървъри за профилите не може да бъде прочетен. Опитайте отново, преди да прехвърлите настройките."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No s’han pogut llegir les seleccions de servidors dels perfils. Torna-ho a provar abans de transferir la configuració."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Výběry serverů v profilech se nepodařilo načíst. Před přenosem nastavení to zkuste znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Profilernes servervalg kunne ikke læses. Prøv igen, før du overfører opsætningen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Serverauswahl der Profile konnte nicht gelesen werden. Versuche es erneut, bevor du die Konfiguration überträgst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν ήταν δυνατή η ανάγνωση των επιλογών διακομιστών των προφίλ. Δοκιμάστε ξανά πριν μεταφέρετε τη διαμόρφωση."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No se pudieron leer las selecciones de servidores de los perfiles. Inténtalo de nuevo antes de transferir la configuración."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "خواندن تنظیمات دسترسی نمایه‌ها به سرورها ممکن نشد. پیش از انتقال تنظیمات، دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Profiilien palvelinvalintoja ei voitu lukea. Yritä uudelleen ennen asetusten siirtämistä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Impossible de lire les sélections de serveurs des profils. Réessayez avant de transférer la configuration."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לקרוא את בחירות השרתים של הפרופילים. נסה שוב לפני העברת ההגדרות."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "प्रोफ़ाइलों के सर्वर चयन पढ़े नहीं जा सके। सेटअप ट्रांसफ़र करने से पहले दोबारा कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nije moguće pročitati odabire poslužitelja za profile. Pokušajte ponovno prije prijenosa postavki."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A profilok kiszolgálóválasztásait nem sikerült beolvasni. A beállítások átvitele előtt próbálja újra."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilihan server profil tidak dapat dibaca. Coba lagi sebelum mentransfer pengaturan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Impossibile leggere le selezioni dei server dei profili. Riprova prima di trasferire la configurazione."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "プロファイルのサーバー選択情報を読み込めませんでした。設定を転送する前に、もう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "프로필의 서버 선택 정보를 읽을 수 없습니다. 설정을 전송하기 전에 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilihan pelayan untuk profil tidak dapat dibaca. Cuba lagi sebelum memindahkan tetapan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Profilenes servervalg kunne ikke leses. Prøv igjen før du overfører oppsettet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De serverkeuzes van de profielen konden niet worden gelezen. Probeer het opnieuw voordat je de configuratie overdraagt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie udało się odczytać wyboru serwerów dla profili. Spróbuj ponownie przed przeniesieniem konfiguracji."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Não foi possível ler as seleções de servidores dos perfis. Tente novamente antes de transferir a configuração."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selecțiile de servere ale profilurilor nu au putut fi citite. Încearcă din nou înainte de a transfera configurarea."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не удалось прочитать выбор серверов для профилей. Повторите попытку перед переносом настроек."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nepodarilo sa načítať výbery serverov v profiloch. Pred prenosom nastavení to skúste znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izbir strežnikov za profile ni bilo mogoče prebrati. Pred prenosom nastavitev poskusite znova."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nije moguće pročitati izbore servera za profile. Pokušajte ponovo pre prenosa podešavanja."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Profilernas serverval kunde inte läsas. Försök igen innan du överför inställningarna."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่สามารถอ่านการเลือกเซิร์ฟเวอร์ของโปรไฟล์ได้ ลองอีกครั้งก่อนโอนการตั้งค่า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Profillerin sunucu seçimleri okunamadı. Kurulumu aktarmadan önce tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не вдалося прочитати вибір серверів для профілів. Спробуйте ще раз перед перенесенням налаштувань."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không thể đọc các lựa chọn máy chủ của hồ sơ. Hãy thử lại trước khi chuyển thiết lập."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "无法读取个人资料的服务器选择。请重试后再传输设置。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "無法讀取個人檔案的伺服器選擇。請重試後再移轉設定。"
           }
         }
       }
@@ -578075,6 +579617,226 @@
         }
       }
     },
+    "Some playlist-declared guides weren't added automatically. Use up to 32 preferred guide URLs for this source; its channels are still available." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لم تتم إضافة بعض أدلة البرامج المحددة في قائمة التشغيل تلقائيًا. استخدم ما يصل إلى 32 رابطًا لأدلة البرامج المفضلة لهذا المصدر؛ لا تزال قنواته متاحة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Някои електронни програмни справочници, посочени в плейлиста, не бяха добавени автоматично. Използвайте до 32 предпочитани URL адреса на програмни справочници за този източник; каналите му все още са достъпни."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Algunes guies de programació indicades a la llista no s’han afegit automàticament. Fes servir fins a 32 URL de guies preferides per a aquesta font; els seus canals continuen disponibles."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Některé přehledy televizního programu uvedené v playlistu nebyly přidány automaticky. Pro tento zdroj použijte až 32 preferovaných URL adres přehledů televizního programu; jeho kanály jsou stále dostupné."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nogle programguider angivet i afspilningslisten blev ikke tilføjet automatisk. Brug op til 32 foretrukne programguide-URL’er til denne kilde; dens kanaler er stadig tilgængelige."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Einige in der Wiedergabeliste angegebene Programmführer wurden nicht automatisch hinzugefügt. Verwende bis zu 32 bevorzugte Programmführer-URLs für diese Quelle; ihre Kanäle sind weiterhin verfügbar."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ορισμένοι οδηγοί προγράμματος που αναφέρονται στη λίστα αναπαραγωγής δεν προστέθηκαν αυτόματα. Χρησιμοποιήστε έως 32 προτιμώμενα URL οδηγών για αυτήν την πηγή· τα κανάλια της παραμένουν διαθέσιμα."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Algunas guías de programación indicadas en la lista no se añadieron automáticamente. Usa hasta 32 URL de guías preferidas para esta fuente; sus canales siguen disponibles."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "بعضی از راهنماهای برنامه‌های تلویزیونی مشخص‌شده در فهرست پخش به‌طور خودکار اضافه نشدند. برای این منبع از حداکثر 32 نشانی دلخواه برای راهنماهای برنامه‌های تلویزیونی استفاده کنید؛ کانال‌های آن همچنان در دسترس هستند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Joitakin soittolistassa määritettyjä ohjelmaoppaita ei lisätty automaattisesti. Käytä tälle lähteelle enintään 32 haluamasi ohjelmaoppaan URL-osoitetta; sen kanavat ovat yhä käytettävissä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Certains guides des programmes indiqués dans la liste de lecture n’ont pas été ajoutés automatiquement. Utilisez jusqu’à 32 URL de guides de votre choix pour cette source ; ses chaînes restent disponibles."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חלק ממדריכי התוכניות שצוינו בפלייליסט לא נוספו אוטומטית. השתמש בעד 32 כתובות URL של מדריכים מועדפים למקור זה; הערוצים שלו עדיין זמינים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "प्लेलिस्ट में दिए गए कुछ कार्यक्रम गाइड अपने आप नहीं जोड़े गए। इस स्रोत के लिए अपनी पसंद के अधिकतम 32 गाइड URL इस्तेमाल करें; इसके चैनल अब भी उपलब्ध हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Neki programski vodiči navedeni u popisu za reprodukciju nisu automatski dodani. Upotrijebite do 32 željena URL-a programskih vodiča za ovaj izvor; njegovi su kanali i dalje dostupni."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A lejátszólistában megadott egyes műsorújságok nem lettek automatikusan hozzáadva. Ehhez a forráshoz legfeljebb 32 előnyben részesített műsorújság-URL-t használjon; a csatornái továbbra is elérhetők."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beberapa panduan program TV yang tercantum dalam daftar putar tidak ditambahkan secara otomatis. Gunakan hingga 32 URL panduan program pilihan untuk sumber ini; salurannya tetap tersedia."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alcune guide TV indicate nella playlist non sono state aggiunte automaticamente. Usa fino a 32 URL delle guide preferite per questa sorgente; i suoi canali sono ancora disponibili."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "プレイリストで指定された一部の番組ガイドは自動追加されませんでした。このソースには、お好みの番組ガイドのURLを最大32件指定してください。チャンネルは引き続き利用できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "재생목록에 지정된 일부 프로그램 편성표가 자동으로 추가되지 않았습니다. 이 소스에는 원하는 편성표 URL을 최대 32개 사용하세요. 채널은 계속 이용할 수 있습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sesetengah panduan rancangan yang dinyatakan dalam senarai main tidak ditambah secara automatik. Gunakan sehingga 32 URL panduan pilihan untuk sumber ini; salurannya masih tersedia."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Noen programguider angitt i spillelisten ble ikke lagt til automatisk. Bruk opptil 32 foretrukne programguide-URL-er for denne kilden; kanalene er fortsatt tilgjengelige."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sommige programmagidsen die in de afspeellijst zijn opgegeven, zijn niet automatisch toegevoegd. Gebruik maximaal 32 gewenste gids-URL’s voor deze bron; de kanalen blijven beschikbaar."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Niektóre przewodniki telewizyjne wskazane na liście odtwarzania nie zostały dodane automatycznie. Użyj maksymalnie 32 wybranych adresów URL przewodników telewizyjnych dla tego źródła; jego kanały są nadal dostępne."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alguns guias de programação indicados na lista de reprodução não foram adicionados automaticamente. Use até 32 URLs de guias de sua preferência para esta fonte; os canais continuam disponíveis."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Unele ghiduri de programe indicate în lista de redare nu au fost adăugate automat. Folosește până la 32 de URL-uri de ghiduri preferate pentru această sursă; canalele sale sunt în continuare disponibile."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Некоторые программы передач, указанные в плейлисте, не были добавлены автоматически. Используйте до 32 предпочитаемых URL-адресов программ передач для этого источника; его каналы по-прежнему доступны."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Niektoré programové prehľady uvedené v playliste neboli pridané automaticky. Pre tento zdroj použite najviac 32 preferovaných URL programových prehľadov; jeho kanály sú naďalej dostupné."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nekateri programski sporedi, navedeni na seznamu predvajanja, niso bili dodani samodejno. Za ta vir uporabite do 32 želenih naslovov URL za programske sporede; njegovi kanali so še vedno na voljo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Neki programski vodiči navedeni u plejlisti nisu automatski dodati. Koristite do 32 željena URL-a programskih vodiča za ovaj izvor; njegovi kanali su i dalje dostupni."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vissa tv-guider som anges i spellistan lades inte till automatiskt. Använd upp till 32 önskade guide-URL:er för den här källan; dess kanaler är fortfarande tillgängliga."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ผังรายการบางรายการที่ระบุไว้ในเพลย์ลิสต์ไม่ได้ถูกเพิ่มโดยอัตโนมัติ ใช้ URL ผังรายการที่ต้องการได้สูงสุด 32 รายการสำหรับแหล่งที่มานี้ ช่องต่างๆ ยังคงใช้งานได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Çalma listesinde belirtilen bazı program rehberleri otomatik olarak eklenmedi. Bu kaynak için tercih ettiğiniz en fazla 32 rehber URL’sini kullanın; kanalları hâlâ kullanılabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Деякі електронні телегіди, указані в плейлисті, не було додано автоматично. Використовуйте до 32 бажаних URL-адрес телегідів для цього джерела; його канали й надалі доступні."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Một số lịch phát sóng được chỉ định trong danh sách phát chưa được thêm tự động. Dùng tối đa 32 URL lịch phát sóng ưu tiên cho nguồn này; các kênh vẫn khả dụng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "播放列表中指定的部分节目单未自动添加。此来源最多可使用 32 个首选节目单 URL，其频道仍然可用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "播放清單中指定的部分節目表未自動加入。此來源最多可使用 32 個偏好的節目表 URL，其頻道仍可使用。"
+          }
+        }
+      }
+    },
     "Some servers could not be reached. Their libraries can be configured later in Settings." : {
       "localizations" : {
         "ar" : {
@@ -690922,6 +692684,7 @@
       }
     },
     "Use a media server" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
