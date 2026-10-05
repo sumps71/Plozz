@@ -51578,6 +51578,28 @@
         }
       }
     },
+    "%lld customized" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld customized"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld customized"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "%lld days" : {
       "localizations" : {
         "ar" : {
@@ -94782,6 +94804,7 @@
         }
       }
     },
+    "Add" : {},
     "Add %@" : {
       "comment" : "Button that signs in the listed newly-detected user account(s). %@ is one or more user names joined into a list.",
       "extractionState" : "stale",
@@ -144478,6 +144501,7 @@
     },
     "Card style" : {
       "comment" : "Picker title in iOS Appearance settings for choosing how media cards are drawn.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -160536,6 +160560,7 @@
         }
       }
     },
+    "Choices apply across all libraries. Titles inside collections and playlists use Browse." : {},
     "Choose M3U file" : {
       "localizations" : {
         "ar" : {
@@ -206254,6 +206279,7 @@
         }
       }
     },
+    "Customize by view" : {},
     "Customize subtitle style" : {
       "localizations" : {
         "ar" : {
@@ -209782,6 +209808,9 @@
         }
       }
     },
+    "Default everywhere" : {},
+    "Default · Labels" : {},
+    "Default · No labels" : {},
     "Delete" : {
       "comment" : "Destructive delete action. Used as the accessibility label for the PIN entry keypad's backspace key and as the swipe-to-delete button for removing a saved profile.",
       "localizations" : {
@@ -262223,6 +262252,7 @@
         }
       }
     },
+    "Filmography" : {},
     "Filter" : {
       "localizations" : {
         "ar" : {
@@ -315409,6 +315439,8 @@
         }
       }
     },
+    "Labels" : {},
+    "Labels by view" : {},
     "Language" : {
       "comment" : "Label for the app-language setting in Appearance on tvOS and iOS.",
       "localizations" : {
@@ -321142,6 +321174,7 @@
     },
     "Library cards" : {
       "comment" : "Section header in iOS/iPadOS Settings, Appearance, above the card style, display size, and watch-indicator controls.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -379269,6 +379302,7 @@
         }
       }
     },
+    "No labels" : {},
     "No libraries found on this server." : {
       "localizations" : {
         "ar" : {
@@ -476077,6 +476111,7 @@
         }
       }
     },
+    "Related titles" : {},
     "Release & Availability" : {
       "localizations" : {
         "ar" : {
@@ -500516,6 +500551,7 @@
         }
       }
     },
+    "Reset all to default" : {},
     "Reset filters" : {
       "localizations" : {
         "ar" : {
@@ -716969,6 +717005,7 @@
     },
     "Watch indicator" : {
       "comment" : "Picker label in iOS Settings > Appearance > Library cards. Chooses whether media cards mark watched items or unwatched items.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -757569,7 +757606,7 @@
     },
     "homeLayout.showCardTitles" : {
       "comment" : "Switch in the Showcase Home layout: show each title's name beneath its artwork card.",
-      "extractionState" : "extracted_with_value",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -757797,7 +757834,7 @@
     },
     "homeLayout.showCardTitles.detail" : {
       "comment" : "Explains why card titles are off by default in the Showcase Home layout: the focused title is named at the top.",
-      "extractionState" : "extracted_with_value",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
