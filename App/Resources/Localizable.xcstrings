@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-
-    },
     " Reduced qualities are transcoded by your media server." : {
       "localizations" : {
         "ar" : {
@@ -103681,13 +103678,13 @@
         }
       }
     },
-    "Adding live channels: %lld" : {
+    "Adding live channels: %@" : {
 
     },
-    "Adding movies: %lld" : {
+    "Adding movies: %@" : {
 
     },
-    "Adding series: %lld" : {
+    "Adding series: %@" : {
 
     },
     "Adding subtitle…" : {
@@ -471432,7 +471429,7 @@
         }
       }
     },
-    "Reading playlist: %lld entries" : {
+    "Reading playlist: %@" : {
 
     },
     "Reading stream details…" : {
@@ -475621,8 +475618,12 @@
         }
       }
     },
+    "Recording" : {
+      "comment" : "Diagnostic recording status beside a red recording dot. Recording is active and the requested action can now be performed."
+    },
     "Recording diagnostics - ready" : {
       "comment" : "Diagnostic recording status. Recording is active and the requested action can now be performed.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
