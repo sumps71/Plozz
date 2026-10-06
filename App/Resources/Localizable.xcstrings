@@ -51580,24 +51580,6 @@
     },
     "%lld customized" : {
       "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld customized"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld customized"
-                }
-              }
-            }
-          }
-        },
         "ar" : {
           "variations" : {
             "plural" : {
@@ -51719,6 +51701,24 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld προσαρμοσμένες προβολές"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld customized"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld customized"
                 }
               }
             }
@@ -52033,16 +52033,16 @@
         "ro" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld vizualizare personalizată"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld vizualizări personalizate"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld vizualizare personalizată"
                 }
               },
               "other" : {
@@ -52057,12 +52057,6 @@
         "ru" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld настроенный раздел"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -52073,6 +52067,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld настроенных разделов"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld настроенный раздел"
                 }
               },
               "other" : {
@@ -52087,12 +52087,6 @@
         "sk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld prispôsobené zobrazenie"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -52103,6 +52097,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld prispôsobeného zobrazenia"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld prispôsobené zobrazenie"
                 }
               },
               "other" : {
@@ -52117,28 +52117,28 @@
         "sl" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld prilagojen pogled"
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld prilagojena pogleda"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld prilagojeni pogledi"
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld prilagojen pogled"
+                }
+              },
               "other" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld prilagojenih pogledov"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld prilagojena pogleda"
                 }
               }
             }
@@ -52147,16 +52147,16 @@
         "sr-Latn" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "%lld prilagođen prikaz"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "%lld prilagođena prikaza"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld prilagođen prikaz"
                 }
               },
               "other" : {
@@ -52225,12 +52225,6 @@
         "uk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Налаштовано %lld подання"
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -52241,6 +52235,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Налаштовано %lld подань"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Налаштовано %lld подання"
                 }
               },
               "other" : {
@@ -152022,6 +152022,7 @@
       }
     },
     "Channel settings and library schedules sync. Playlist addresses, imported files and parental approvals stay on this device." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -199255,6 +199256,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "無法重新整理。目前顯示上次已知的季狀態。"
+          }
+        }
+      }
+    },
+    "Couldn’t reload from iCloud. Try again." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذّرت إعادة التحميل من iCloud. حاول مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторното зареждане от iCloud е неуспешно. Опитайте отново."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No s’ha pogut tornar a carregar des de l’iCloud. Torna-ho a provar."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nepodařilo se znovu načíst data ze služby iCloud. Zkuste to znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kunne ikke genindlæse fra iCloud. Prøv igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Erneutes Laden aus iCloud fehlgeschlagen. Versuche es noch einmal."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν ήταν δυνατή η επαναφόρτωση από το iCloud. Δοκιμάστε ξανά."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No se pudieron volver a cargar los datos de iCloud. Inténtalo de nuevo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "بارگذاری مجدد از iCloud انجام نشد. دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uudelleenlataus iCloudista epäonnistui. Yritä uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Impossible de recharger les données depuis iCloud. Réessayez."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לטעון מחדש מ-iCloud. יש לנסות שוב."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud से दोबारा लोड नहीं किया जा सका। फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno učitavanje iz servisa iCloud nije uspjelo. Pokušajte ponovno."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nem sikerült az újratöltés az iCloud szolgáltatásból. Próbálja újra."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tidak dapat memuat ulang dari iCloud. Coba lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Impossibile ricaricare da iCloud. Riprova."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloudから再読み込みできませんでした。もう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud에서 다시 불러오지 못했습니다. 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tidak dapat memuat semula daripada iCloud. Cuba lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kunne ikke laste inn på nytt fra iCloud. Prøv igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opnieuw laden vanuit iCloud is mislukt. Probeer het opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie udało się ponownie wczytać danych z iCloud. Spróbuj ponownie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Não foi possível recarregar do iCloud. Tente novamente."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nu s-au putut reîncărca datele din iCloud. Încearcă din nou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не удалось повторно загрузить данные из iCloud. Повторите попытку."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opätovné načítanie zo služby iCloud zlyhalo. Skúste to znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno nalaganje iz storitve iCloud ni uspelo. Poskusite znova."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno učitavanje iz usluge iCloud nije uspelo. Pokušajte ponovo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Det gick inte att läsa in på nytt från iCloud. Försök igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่สามารถโหลดข้อมูลจาก iCloud ใหม่ได้ โปรดลองอีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud’dan yeniden yüklenemedi. Tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не вдалося повторно завантажити дані з iCloud. Спробуйте ще раз."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không thể tải lại từ iCloud. Hãy thử lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "无法从 iCloud 重新加载。请重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "無法從 iCloud 重新載入。請再試一次。"
           }
         }
       }
@@ -329801,6 +330022,226 @@
         }
       }
     },
+    "Live TV follows iCloud Sync for each profile. Playlist and guide addresses, imported playlists, channel settings and library schedules sync. Addresses and imported files use encrypted iCloud storage. Parental approvals stay on each device." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يتبع التلفزيون المباشر إعداد «مزامنة iCloud» لكل ملف شخصي. تتم مزامنة عناوين قوائم التشغيل وأدلة البرامج التلفزيونية، وقوائم التشغيل المستوردة، وإعدادات القنوات، وجداول البث المُعدّة من محتوى مكتبة الوسائط بين الأجهزة ضمن الملف الشخصي نفسه. تُحفظ العناوين والملفات المستوردة في مساحة تخزين مشفّرة على iCloud. تبقى موافقات الوالدين على الوصول خاصة بكل جهاز."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Телевизията на живо използва настройката „Синхронизиране с iCloud“ за всеки профил. Адресите на плейлистите и програмните справочници, импортираните плейлисти, настройките на каналите и графиците за излъчване, съставени от съдържание в медийната библиотека, се синхронизират между устройствата в рамките на един и същ профил. Адресите и импортираните файлове се съхраняват криптирано в iCloud. Родителските разрешения за достъп остават на съответното устройство."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La televisió en directe segueix l’opció «Sincronització amb l’iCloud» de cada perfil. Les adreces de les llistes de reproducció i de les guies de programació, les llistes importades, la configuració dels canals i les graelles de programació creades amb contingut de la biblioteca multimèdia se sincronitzen entre dispositius dins del mateix perfil. Les adreces i els fitxers importats s’emmagatzemen xifrats a l’iCloud. Les autoritzacions d’accés del control parental es mantenen a cada dispositiu."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Živé televizní vysílání se řídí nastavením „Synchronizace přes iCloud“ pro jednotlivé profily. Adresy playlistů a televizních programových průvodců, importované playlisty, nastavení kanálů a vysílací plány sestavené z obsahu knihovny médií se synchronizují mezi zařízeními v rámci stejného profilu. Adresy a importované soubory se ukládají do šifrovaného úložiště ve službě iCloud. Rodičovská schválení přístupu zůstávají na jednotlivých zařízeních."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Direkte tv følger indstillingen iCloud-synkronisering for hver profil. Adresser til afspilningslister og programguider, importerede afspilningslister, kanalindstillinger og sendeplaner baseret på mediebibliotekets indhold synkroniseres mellem enheder med samme profil. Adresser og importerede filer gemmes krypteret i iCloud. Forældregodkendelser af adgang forbliver på den enkelte enhed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Live-TV richtet sich für jedes Profil nach der Einstellung „iCloud-Synchronisierung“. Playlist- und Programmführer-Adressen, importierte Playlists, Kanaleinstellungen und aus Mediatheksinhalten erstellte Sendepläne werden zwischen Geräten innerhalb desselben Profils synchronisiert. Adressen und importierte Dateien werden verschlüsselt in iCloud gespeichert. Zugriffsfreigaben der Kindersicherung bleiben auf dem jeweiligen Gerät."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η ζωντανή τηλεόραση ακολουθεί τη ρύθμιση «Συγχρονισμός iCloud» για κάθε προφίλ. Οι διευθύνσεις των λιστών αναπαραγωγής και των οδηγών προγράμματος, οι εισαγμένες λίστες αναπαραγωγής, οι ρυθμίσεις καναλιών και τα προγράμματα προβολής που δημιουργούνται από περιεχόμενο της βιβλιοθήκης συγχρονίζονται μεταξύ συσκευών στο ίδιο προφίλ. Οι διευθύνσεις και τα εισαγμένα αρχεία αποθηκεύονται κρυπτογραφημένα στο iCloud. Οι γονικές εγκρίσεις πρόσβασης παραμένουν σε κάθε συσκευή."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La televisión en directo utiliza la configuración de «Sincronización con iCloud» de cada perfil. Las direcciones de las listas de reproducción y de las guías de programación, las listas importadas, los ajustes de los canales y las programaciones creadas con contenido de la biblioteca se sincronizan entre dispositivos dentro del mismo perfil. Las direcciones y los archivos importados se guardan cifrados en iCloud. Las autorizaciones de acceso del control parental se mantienen en cada dispositivo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تنظیم «همگام‌سازی iCloud» هر نمایه برای پخش زندهٔ تلویزیون نیز اعمال می‌شود. نشانی‌های فهرست‌های پخش و راهنماهای برنامه‌های تلویزیونی، فهرست‌های پخش واردشده، تنظیمات کانال‌ها و برنامه‌های پخش ساخته‌شده از محتوای کتابخانه، بین دستگاه‌های دارای همان نمایه همگام می‌شوند. نشانی‌ها و فایل‌های واردشده در فضای ذخیره‌سازی رمزگذاری‌شدهٔ iCloud نگهداری می‌شوند. تأییدهای والدین برای دسترسی روی هر دستگاه باقی می‌مانند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TV-lähetysten synkronoinnissa käytetään kunkin profiilin iCloud-synkronointiasetusta. Soittolistojen ja ohjelmaoppaiden osoitteet, tuodut soittolistat, kanava-asetukset ja mediakirjaston sisällöstä luodut lähetysaikataulut synkronoituvat laitteiden välillä saman profiilin sisällä. Osoitteet ja tuodut tiedostot tallennetaan iCloudiin salattuina. Vanhempien antamat käyttöluvat pysyvät laitekohtaisina."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La télévision en direct utilise le réglage « Synchronisation iCloud » de chaque profil. Les adresses des listes de lecture et des guides des programmes, les listes de lecture importées, les réglages des chaînes et les grilles de programmes créées à partir du contenu de la médiathèque sont synchronisés entre les appareils pour un même profil. Les adresses et les fichiers importés sont stockés sous forme chiffrée dans iCloud. Les autorisations d’accès du contrôle parental restent propres à chaque appareil."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סנכרון הטלוויזיה בשידור חי פועל לפי ההגדרה ״סנכרון iCloud״ של כל פרופיל. כתובות של רשימות השמעה ושל מדריכי תוכניות, רשימות השמעה שיובאו, הגדרות ערוצים ולוחות שידורים שנוצרו מתוכן ספריית המדיה מסתנכרנים בין מכשירים באותו פרופיל. הכתובות והקבצים שיובאו נשמרים באחסון מוצפן ב-iCloud. אישורי הגישה שנתנו ההורים נשארים במכשיר שבו ניתנו."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "हर प्रोफ़ाइल के लिए लाइव टीवी उस प्रोफ़ाइल की “iCloud सिंक” सेटिंग के अनुसार सिंक होता है। प्लेलिस्ट और कार्यक्रम गाइड के पते, आयात की गई प्लेलिस्ट, चैनल सेटिंग और मीडिया लाइब्रेरी की सामग्री से बनी कार्यक्रम समय-सारणियाँ उसी प्रोफ़ाइल में सिंक होती हैं। पते और आयात की गई फ़ाइलें iCloud के एन्क्रिप्टेड स्टोरेज में रखी जाती हैं। अभिभावकों की ओर से दी गई एक्सेस की मंज़ूरियाँ उसी डिवाइस पर रहती हैं जहाँ वे दी गई थीं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Televizija uživo sinkronizira se prema postavci „Sinkronizacija putem servisa iCloud” za svaki profil. Unutar istog profila sinkroniziraju se adrese popisa za reprodukciju i programskih vodiča, uvezeni popisi za reprodukciju, postavke kanala i rasporedi sastavljeni od sadržaja medijske biblioteke. Adrese i uvezene datoteke pohranjuju se u šifriranu pohranu servisa iCloud. Roditeljska odobrenja pristupa ostaju na uređaju na kojem su dana."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az élő tévéadás szinkronizálása az egyes profilok „iCloud-szinkronizálás” beállítását követi. A lejátszási listák és műsorújságok URL-címei, az importált lejátszási listák, a csatornabeállítások és a médiatár tartalmából összeállított műsorrendek ugyanazon profilban szinkronizálódnak. A címek és az importált fájlok az iCloud titkosított tárhelyén tárolódnak. A szülői hozzáférési jóváhagyások az adott eszközön maradnak."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TV Langsung mengikuti pengaturan “Sinkronisasi iCloud” untuk setiap profil. Alamat daftar putar dan panduan acara, daftar putar yang diimpor, pengaturan saluran, serta jadwal yang disusun dari konten pustaka media disinkronkan dalam profil yang sama. Alamat dan file yang diimpor disimpan di penyimpanan iCloud terenkripsi. Persetujuan akses dari orang tua tetap tersimpan di perangkat tempat persetujuan diberikan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La TV in diretta segue l’impostazione “Sincronizzazione iCloud” di ciascun profilo. Per lo stesso profilo vengono sincronizzati gli indirizzi delle playlist e delle guide ai programmi, le playlist importate, le impostazioni dei canali e i palinsesti creati con i contenuti della libreria multimediale. Gli indirizzi e i file importati vengono conservati in forma crittografata su iCloud. Le autorizzazioni di accesso concesse dai genitori rimangono sul dispositivo su cui sono state concesse."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ライブTVの同期は、プロファイルごとの「iCloud同期」設定に従います。同じプロファイルを使うデバイス間で、プレイリストと番組ガイドのアドレス、インポートしたプレイリスト、チャンネル設定、メディアライブラリのコンテンツから作成した番組スケジュールが同期されます。アドレスとインポートしたファイルは、iCloudの暗号化されたストレージに保存されます。保護者によるアクセス承認は、承認を行ったデバイスにのみ保存されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "실시간 TV는 각 프로필의 iCloud 동기화 설정을 따릅니다. 재생목록 및 프로그램 편성표 주소, 가져온 재생목록, 채널 설정, 미디어 보관함 콘텐츠로 만든 편성표가 같은 프로필을 사용하는 기기 간에 동기화됩니다. 주소와 가져온 파일은 암호화된 iCloud 저장 공간에 보관됩니다. 자녀 보호를 위한 접근 승인은 각 기기에만 유지됩니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TV Langsung mengikut tetapan Penyegerakan iCloud bagi setiap profil. Alamat senarai main dan panduan rancangan TV, senarai main yang diimport, tetapan saluran dan jadual yang dibina daripada kandungan pustaka media disegerakkan antara peranti yang menggunakan profil yang sama. Alamat dan fail yang diimport disimpan dalam storan iCloud yang disulitkan. Kelulusan akses di bawah kawalan ibu bapa kekal pada setiap peranti."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Direkte-TV følger innstillingen iCloud-synkronisering for hver profil. Adresser til spillelister og programguider, importerte spillelister, kanalinnstillinger og sendeplaner laget av innhold fra mediebiblioteket synkroniseres mellom enheter med samme profil. Adresser og importerte filer lagres kryptert i iCloud. Godkjenninger av tilgang i foreldrekontrollen blir værende på hver enkelt enhet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Live-tv volgt per profiel de instelling voor iCloud-synchronisatie. Adressen van afspeellijsten en programmagidsen, geïmporteerde afspeellijsten, kanaalinstellingen en uitzendschema’s op basis van inhoud uit de mediabibliotheek worden gesynchroniseerd tussen apparaten met hetzelfde profiel. Adressen en geïmporteerde bestanden worden versleuteld opgeslagen in iCloud. Goedkeuringen voor toegang via ouderlijk toezicht blijven op elk afzonderlijk apparaat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Telewizja na żywo korzysta z ustawienia „Synchronizacja iCloud” dla każdego profilu. Adresy list odtwarzania i przewodników po programach, zaimportowane listy odtwarzania, ustawienia kanałów oraz ramówki tworzone z zawartości biblioteki multimediów są synchronizowane między urządzeniami korzystającymi z tego samego profilu. Adresy i zaimportowane pliki są przechowywane w iCloud w postaci zaszyfrowanej. Zgody na dostęp udzielone w ramach kontroli rodzicielskiej pozostają na poszczególnych urządzeniach."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A TV ao vivo segue o ajuste de Sincronização do iCloud de cada perfil. Os endereços das listas de reprodução e dos guias de programação, as listas de reprodução importadas, os ajustes dos canais e as grades de programação criadas com conteúdo da biblioteca de mídia são sincronizados entre dispositivos que usam o mesmo perfil. Os endereços e os arquivos importados são armazenados de forma criptografada no iCloud. As aprovações de acesso do controle parental permanecem em cada dispositivo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sincronizarea televiziunii în direct depinde de setarea „Sincronizare iCloud” a fiecărui profil. Se sincronizează adresele URL ale listelor de redare și ale ghidurilor de programe, listele de redare importate, setările canalelor și grilele de programe create din conținutul bibliotecii media. Adresele și fișierele importate sunt stocate criptat în iCloud. Aprobările parentale pentru acces rămân pe fiecare dispozitiv."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронизация ТВ-трансляций зависит от настройки «Синхронизация iCloud» для каждого профиля. Синхронизируются URL-адреса плейлистов и телегидов, импортированные плейлисты, настройки каналов и расписания, составленные из содержимого медиатеки. Адреса и импортированные файлы хранятся в iCloud в зашифрованном виде. Родительские разрешения на доступ остаются на каждом устройстве."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nastavenie „Synchronizácia iCloud“ riadi aj synchronizáciu televízneho vysielania v každom profile. Synchronizujú sa URL adresy zoznamov na prehrávanie a programových sprievodcov, importované zoznamy na prehrávanie, nastavenia kanálov a programy vysielania zostavené z obsahu knižnice médií. Adresy a importované súbory sa ukladajú do úložiska iCloud v zašifrovanej podobe. Rodičovské povolenia prístupu zostávajú na jednotlivých zariadeniach."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Televizija v živo upošteva nastavitev »Sinhronizacija iCloud« za vsak profil. Sinhronizirajo se naslovi URL seznamov predvajanja in programskih vodnikov, uvoženi seznami predvajanja, nastavitve kanalov in sporedi, sestavljeni iz vsebine medijske knjižnice. Naslovi in uvožene datoteke se hranijo v šifrirani shrambi iCloud. Starševske odobritve dostopa ostanejo na posamezni napravi."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinhronizacija TV-a uživo zavisi od podešavanja „iCloud sinhronizacija“ za svaki profil. Sinhronizuju se URL adrese lista za reprodukciju i TV vodiča, uvezene liste za reprodukciju, podešavanja kanala i rasporedi emitovanja sastavljeni od sadržaja medijske biblioteke. Adrese i uvezene datoteke čuvaju se šifrovano u usluzi iCloud. Roditeljska odobrenja za pristup ostaju na pojedinačnim uređajima."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synkroniseringen för linjär tv styrs av inställningen iCloud-synkronisering för varje profil. URL-adresser till spellistor och programguider, importerade spellistor, kanalinställningar och tablåer som skapats från mediebibliotekets innehåll synkroniseras. Adresser och importerade filer lagras krypterat i iCloud. Godkännanden för åtkomst i föräldrakontrollen sparas bara lokalt på respektive enhet."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ทีวีสดจะใช้การตั้งค่า “การซิงค์ iCloud” ของแต่ละโปรไฟล์ โดยจะซิงค์ URL ของเพลย์ลิสต์และผังรายการ เพลย์ลิสต์ที่นำเข้า การตั้งค่าช่อง และตารางออกอากาศที่สร้างจากเนื้อหาในคลังสื่อระหว่างอุปกรณ์ที่ใช้โปรไฟล์เดียวกัน URL และไฟล์ที่นำเข้าจะใช้พื้นที่จัดเก็บข้อมูล iCloud แบบเข้ารหัส ส่วนการอนุมัติการเข้าถึงจากผู้ปกครองจะเก็บไว้แยกกันบนอุปกรณ์แต่ละเครื่อง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Canlı TV, her profilin iCloud Eşzamanlama ayarını kullanır. Oynatma listesi ve program rehberi adresleri, içe aktarılan oynatma listeleri, kanal ayarları ve medya arşivi içeriğinden oluşturulan yayın akışları, aynı profili kullanan cihazlar arasında eşzamanlanır. Adresler ve içe aktarılan dosyalar, şifreli iCloud saklama alanını kullanır. Ebeveyn erişim onayları her cihazda ayrı tutulur."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Телебачення наживо використовує налаштування «Синхронізація iCloud» для кожного профілю. URL-адреси списків відтворення й телегідів, імпортовані списки відтворення, налаштування каналів і розклади на основі вмісту медіатеки синхронізуються між пристроями в межах того самого профілю. Адреси й імпортовані файли зберігаються в зашифрованому сховищі iCloud. Батьківські дозволи на доступ залишаються на кожному пристрої окремо."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Truyền hình trực tiếp tuân theo cài đặt Đồng bộ hóa iCloud của từng hồ sơ. URL danh sách phát, URL lịch chương trình, danh sách phát đã nhập, cài đặt kênh và lịch phát được tạo từ nội dung thư viện đa phương tiện được đồng bộ hóa giữa các thiết bị dùng cùng một hồ sơ. Các URL và tệp đã nhập được lưu trong iCloud ở dạng mã hóa. Quyền truy cập do phụ huynh phê duyệt chỉ được lưu trên từng thiết bị."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "直播电视遵循各个个人档案的“iCloud 同步”设置。播放列表网址、节目指南网址、导入的播放列表、频道设置，以及根据媒体库内容编排的节目表，都会在使用同一个个人档案的设备间同步。网址和导入的文件使用加密的 iCloud 存储空间。家长批准的访问权限仅保留在各自的设备上。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "電視直播會依照各個個人檔案的「iCloud 同步」設定運作。播放清單網址、節目指南網址、匯入的播放清單、頻道設定，以及以媒體庫內容編排的節目表，都會在使用同一個個人檔案的裝置間同步。網址和匯入的檔案使用加密的 iCloud 儲存空間。家長核准的存取權限僅保留在各自的裝置上。"
+          }
+        }
+      }
+    },
     "Live TV is paused for Low Data Mode. Use an unrestricted connection to resume." : {
       "localizations" : {
         "ar" : {
@@ -439766,6 +440207,7 @@
       }
     },
     "Playlist addresses stay on each device. Enter the address here to use this source." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -482974,6 +483416,666 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "請重新載入來源後再試一次。你的頻道仍可使用。"
+          }
+        }
+      }
+    },
+    "Reload was interrupted. Try again." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "انقطعت عملية إعادة التحميل. حاول مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторното зареждане беше прекъснато. Опитайте отново."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "S’ha interromput la recàrrega. Torna-ho a provar."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opětovné načítání bylo přerušeno. Zkuste to znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Genindlæsningen blev afbrudt. Prøv igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Das erneute Laden wurde unterbrochen. Versuche es noch einmal."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η επαναφόρτωση διακόπηκε. Δοκιμάστε ξανά."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se interrumpió la recarga. Inténtalo de nuevo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "بارگذاری مجدد قطع شد. دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uudelleenlataus keskeytyi. Yritä uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le rechargement a été interrompu. Réessayez."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הטעינה מחדש הופסקה. יש לנסות שוב."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "दोबारा लोड करने की प्रक्रिया बाधित हो गई। फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno učitavanje prekinuto je. Pokušajte ponovno."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az újratöltés megszakadt. Próbálja újra."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pemuatan ulang terhenti. Coba lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Il ricaricamento è stato interrotto. Riprova."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "再読み込みが中断されました。もう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "다시 불러오기가 중단되었습니다. 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pemuatan semula terganggu. Cuba lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ny innlasting ble avbrutt. Prøv igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Het opnieuw laden is onderbroken. Probeer het opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponowne wczytywanie zostało przerwane. Spróbuj ponownie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O recarregamento foi interrompido. Tente novamente."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reîncărcarea a fost întreruptă. Încearcă din nou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторная загрузка была прервана. Повторите попытку."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opätovné načítanie bolo prerušené. Skúste to znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno nalaganje je bilo prekinjeno. Poskusite znova."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno učitavanje je prekinuto. Pokušajte ponovo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Omladdningen avbröts. Försök igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "การโหลดข้อมูลใหม่ถูกขัดจังหวะ โปรดลองอีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yeniden yükleme kesintiye uğradı. Tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторне завантаження перервано. Спробуйте ще раз."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Quá trình tải lại đã bị gián đoạn. Hãy thử lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "重新加载已中断。请重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "重新載入已中斷。請再試一次。"
+          }
+        }
+      }
+    },
+    "Reloaded the latest settings from iCloud." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تمت إعادة تحميل أحدث الإعدادات من iCloud."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Най-новите настройки от iCloud са заредени отново."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "S’ha tornat a carregar la configuració més recent de l’iCloud."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nejnovější nastavení bylo znovu načteno ze služby iCloud."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De seneste indstillinger er genindlæst fra iCloud."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die neuesten Einstellungen wurden erneut aus iCloud geladen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι πιο πρόσφατες ρυθμίσεις φορτώθηκαν ξανά από το iCloud."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se han vuelto a cargar los ajustes más recientes de iCloud."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "آخرین تنظیمات دوباره از iCloud بارگذاری شد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uusimmat asetukset ladattiin uudelleen iCloudista."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les derniers réglages ont été rechargés depuis iCloud."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ההגדרות העדכניות ביותר נטענו מחדש מ-iCloud."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud से नवीनतम सेटिंग्स दोबारा लोड कर ली गई हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najnovije postavke ponovno su učitane iz servisa iCloud."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Újratöltöttük a legfrissebb beállításokat az iCloud szolgáltatásból."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pengaturan terbaru telah dimuat ulang dari iCloud."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le impostazioni più recenti sono state ricaricate da iCloud."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloudから最新の設定を再読み込みしました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud에서 최신 설정을 다시 불러왔습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tetapan terkini telah dimuat semula daripada iCloud."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De nyeste innstillingene er lastet inn på nytt fra iCloud."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De nieuwste instellingen zijn opnieuw geladen vanuit iCloud."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponownie wczytano najnowsze ustawienia z iCloud."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Os ajustes mais recentes foram recarregados do iCloud."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cele mai recente setări au fost reîncărcate din iCloud."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Последние настройки повторно загружены из iCloud."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najnovšie nastavenia zo služby iCloud boli znova načítané."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najnovejše nastavitve iz storitve iCloud so bile znova naložene."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najnovija podešavanja su ponovo učitana iz usluge iCloud."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De senaste inställningarna har lästs in på nytt från iCloud."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "โหลดการตั้งค่าล่าสุดจาก iCloud แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "En güncel ayarlar iCloud’dan yeniden yüklendi."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Останні налаштування повторно завантажено з iCloud."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đã tải lại các cài đặt mới nhất từ iCloud."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已从 iCloud 重新加载最新设置。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已從 iCloud 重新載入最新設定。"
+          }
+        }
+      }
+    },
+    "Reloading from iCloud…" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "جارٍ إعادة التحميل من iCloud…"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторно зареждане от iCloud…"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "S’està tornant a carregar des de l’iCloud…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Znovu se načítají data ze služby iCloud…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Genindlæser fra iCloud…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Daten werden erneut aus iCloud geladen…"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επαναφόρτωση από το iCloud…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Volviendo a cargar desde iCloud…"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "در حال بارگذاری مجدد از iCloud…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ladataan uudelleen iCloudista…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rechargement depuis iCloud…"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "טעינה מחדש מ-iCloud…"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud से दोबारा लोड किया जा रहा है…"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno učitavanje iz servisa iCloud…"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Újratöltés az iCloud szolgáltatásból…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Memuat ulang dari iCloud…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ricaricamento da iCloud…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloudから再読み込み中…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud에서 다시 불러오는 중…"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Memuat semula daripada iCloud…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Laster inn på nytt fra iCloud…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opnieuw laden vanuit iCloud…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponowne wczytywanie z iCloud…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Recarregando do iCloud…"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se reîncarcă din iCloud…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторная загрузка из iCloud…"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opätovné načítavanie zo služby iCloud…"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno nalaganje iz storitve iCloud…"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno učitavanje iz usluge iCloud…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Läser in på nytt från iCloud…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "กำลังโหลดข้อมูลจาก iCloud ใหม่…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud’dan yeniden yükleniyor…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторне завантаження з iCloud…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đang tải lại từ iCloud…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在从 iCloud 重新加载…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在從 iCloud 重新載入…"
           }
         }
       }
@@ -554952,6 +556054,7 @@
       }
     },
     "Set a Parental PIN in Profiles before changing Live TV sync." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -589922,6 +591025,226 @@
         }
       }
     },
+    "Some Live TV sources could not be synced." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذّرت مزامنة بعض مصادر التلفزيون المباشر."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Някои източници на телевизия на живо не можаха да бъдат синхронизирани."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No s’han pogut sincronitzar algunes fonts de televisió en directe."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Některé zdroje živého televizního vysílání se nepodařilo synchronizovat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nogle kilder til direkte tv kunne ikke synkroniseres."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Einige Live-TV-Quellen konnten nicht synchronisiert werden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν ήταν δυνατός ο συγχρονισμός ορισμένων πηγών ζωντανής τηλεόρασης."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No se pudieron sincronizar algunas fuentes de televisión en directo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برخی از منابع پخش زندهٔ تلویزیون همگام نشدند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Joitakin TV-lähteitä ei voitu synkronoida."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Certaines sources de télévision en direct n’ont pas pu être synchronisées."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לסנכרן חלק ממקורות הטלוויזיה בשידור חי."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "कुछ लाइव टीवी स्रोत सिंक नहीं हो सके।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Neki izvori televizije uživo nisu se mogli sinkronizirati."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az élő tévéadás egyes forrásait nem sikerült szinkronizálni."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Beberapa sumber TV Langsung tidak dapat disinkronkan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Non è stato possibile sincronizzare alcune sorgenti TV in diretta."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "一部のライブTVソースを同期できませんでした。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "일부 실시간 TV 소스를 동기화하지 못했습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sesetengah sumber TV Langsung tidak dapat disegerakkan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Noen kilder for direkte-TV kunne ikke synkroniseres."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sommige bronnen voor live-tv konden niet worden gesynchroniseerd."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie udało się zsynchronizować niektórych źródeł telewizji na żywo."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Não foi possível sincronizar algumas fontes de TV ao vivo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Unele surse de televiziune în direct nu au putut fi sincronizate."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не удалось синхронизировать некоторые источники ТВ-трансляций."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Niektoré zdroje televízneho vysielania sa nepodarilo synchronizovať."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nekaterih virov televizije v živo ni bilo mogoče sinhronizirati."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nije bilo moguće sinhronizovati neke izvore TV-a uživo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vissa källor för linjär tv kunde inte synkroniseras."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่สามารถซิงค์แหล่งทีวีสดบางแหล่งได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bazı Canlı TV kaynakları eşzamanlanamadı."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не вдалося синхронізувати деякі джерела телебачення наживо."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không thể đồng bộ hóa một số nguồn truyền hình trực tiếp."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "部分直播电视来源无法同步。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "部分電視直播來源無法同步。"
+          }
+        }
+      }
+    },
     "Some channels in this Multiview are unavailable. Check its sources and try again." : {
       "localizations" : {
         "ar" : {
@@ -611510,6 +612833,7 @@
       }
     },
     "Sync Live TV" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -631120,7 +632444,228 @@
         }
       }
     },
+    "The imported copy is encrypted on this device and syncs to the same profile through encrypted iCloud storage when iCloud Sync is on." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تُشفّر النسخة المستوردة على هذا الجهاز وتتم مزامنتها مع الملف الشخصي نفسه عبر مساحة تخزين مشفّرة على iCloud عند تفعيل «مزامنة iCloud»."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Импортираното копие е криптирано на това устройство и се синхронизира със същия профил чрез криптирано хранилище в iCloud, когато настройката „Синхронизиране с iCloud“ е включена."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La còpia importada està xifrada en aquest dispositiu i se sincronitza amb el mateix perfil mitjançant l’emmagatzematge xifrat de l’iCloud quan l’opció «Sincronització amb l’iCloud» està activada."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Importovaná kopie je na tomto zařízení zašifrovaná a při zapnutém nastavení „Synchronizace přes iCloud“ se synchronizuje se stejným profilem prostřednictvím šifrovaného úložiště ve službě iCloud."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den importerede kopi er krypteret på denne enhed og synkroniseres til samme profil via krypteret lagring i iCloud, når iCloud-synkronisering er slået til."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die importierte Kopie ist auf diesem Gerät verschlüsselt und wird über verschlüsselten iCloud-Speicher mit demselben Profil synchronisiert, wenn die iCloud-Synchronisierung aktiviert ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το εισαγμένο αντίγραφο είναι κρυπτογραφημένο σε αυτή τη συσκευή και συγχρονίζεται στο ίδιο προφίλ μέσω κρυπτογραφημένου χώρου αποθήκευσης iCloud όταν είναι ενεργή η ρύθμιση «Συγχρονισμός iCloud»."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La copia importada está cifrada en este dispositivo y se sincroniza con el mismo perfil a través del almacenamiento cifrado de iCloud cuando «Sincronización con iCloud» está activada."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "نسخهٔ واردشده روی این دستگاه رمزگذاری شده است و وقتی «همگام‌سازی iCloud» روشن باشد، از طریق فضای ذخیره‌سازی رمزگذاری‌شدهٔ iCloud با همان نمایه همگام می‌شود."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tuotu kopio on salattu tällä laitteella, ja se synkronoituu samaan profiiliin iCloudin salatun tallennustilan kautta, kun iCloud-synkronointi on käytössä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La copie importée est chiffrée sur cet appareil et se synchronise avec le même profil via le stockage chiffré d’iCloud lorsque « Synchronisation iCloud » est activée."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העותק שיובא מוצפן במכשיר זה ומסתנכרן לאותו פרופיל דרך אחסון מוצפן ב-iCloud כאשר ״סנכרון iCloud״ מופעל."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "आयात की गई कॉपी इस डिवाइस पर एन्क्रिप्ट की जाती है और “iCloud सिंक” चालू होने पर iCloud के एन्क्रिप्टेड स्टोरेज के ज़रिए उसी प्रोफ़ाइल में सिंक होती है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uvezena kopija šifrirana je na ovom uređaju i sinkronizira se s istim profilom putem šifrirane pohrane servisa iCloud kada je uključena postavka „Sinkronizacija putem servisa iCloud”."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az importált példány titkosítva van ezen az eszközön, és az iCloud titkosított tárhelyén keresztül szinkronizálódik ugyanahhoz a profilhoz, ha az „iCloud-szinkronizálás” be van kapcsolva."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Salinan yang diimpor dienkripsi di perangkat ini dan disinkronkan ke profil yang sama melalui penyimpanan iCloud terenkripsi saat “Sinkronisasi iCloud” aktif."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La copia importata è crittografata su questo dispositivo e, quando “Sincronizzazione iCloud” è attiva, viene sincronizzata con lo stesso profilo tramite lo spazio di archiviazione crittografato di iCloud."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "インポートしたコピーはこのデバイス上で暗号化され、「iCloud同期」がオンの場合は、iCloudの暗号化されたストレージを通じて同じプロファイルに同期されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "가져온 사본은 이 기기에서 암호화되며, iCloud 동기화가 켜져 있으면 암호화된 iCloud 저장 공간을 통해 같은 프로필로 동기화됩니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Salinan yang diimport disulitkan pada peranti ini dan disegerakkan ke profil yang sama melalui storan iCloud yang disulitkan apabila Penyegerakan iCloud dihidupkan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den importerte kopien er kryptert på denne enheten og synkroniseres til samme profil via kryptert iCloud-lagring når iCloud-synkronisering er slått på."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De geïmporteerde kopie is op dit apparaat versleuteld en wordt via versleutelde iCloud-opslag naar hetzelfde profiel gesynchroniseerd als iCloud-synchronisatie is ingeschakeld."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zaimportowana kopia jest zaszyfrowana na tym urządzeniu i synchronizowana z tym samym profilem za pośrednictwem szyfrowanej przestrzeni dyskowej iCloud, gdy opcja „Synchronizacja iCloud” jest włączona."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A cópia importada é criptografada neste dispositivo e sincronizada com o mesmo perfil por meio do armazenamento criptografado do iCloud quando a Sincronização do iCloud está ativada."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Copia importată este criptată pe acest dispozitiv și se sincronizează cu același profil prin stocarea criptată în iCloud atunci când setarea „Sincronizare iCloud” este activată."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Импортированная копия зашифрована на этом устройстве и синхронизируется с тем же профилем через зашифрованное хранилище iCloud, когда включена настройка «Синхронизация iCloud»."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Importovaná kópia je na tomto zariadení zašifrovaná a synchronizuje sa s rovnakým profilom prostredníctvom šifrovaného úložiska iCloud, keď je zapnutá možnosť „Synchronizácia iCloud“."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uvožena kopija je v tej napravi šifrirana in se prek šifrirane shrambe iCloud sinhronizira z istim profilom, ko je vklopljena nastavitev »Sinhronizacija iCloud«."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uvezena kopija je šifrovana na ovom uređaju i sinhronizuje se sa istim profilom preko šifrovanog iCloud skladišta kada je uključeno podešavanje „iCloud sinhronizacija“."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den importerade kopian är krypterad på den här enheten och synkroniseras med samma profil via krypterad lagring i iCloud när iCloud-synkronisering är på."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "สำเนาที่นำเข้าถูกเข้ารหัสไว้บนอุปกรณ์นี้ และจะซิงค์ระหว่างอุปกรณ์ที่ใช้โปรไฟล์เดียวกันผ่านพื้นที่จัดเก็บข้อมูล iCloud แบบเข้ารหัสเมื่อเปิด “การซิงค์ iCloud”"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "İçe aktarılan kopya bu cihazda şifrelenir ve iCloud Eşzamanlama açıkken şifreli iCloud saklama alanı üzerinden aynı profili kullanan cihazlar arasında eşzamanlanır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Імпортована копія зберігається на цьому пристрої в зашифрованому вигляді й синхронізується між пристроями в межах того самого профілю через зашифроване сховище iCloud, коли ввімкнено «Синхронізація iCloud»."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bản sao đã nhập được mã hóa trên thiết bị này và được đồng bộ hóa giữa các thiết bị dùng cùng một hồ sơ qua không gian lưu trữ iCloud được mã hóa khi bật Đồng bộ hóa iCloud."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "导入的副本已在此设备上加密。开启“iCloud 同步”时，该副本会通过加密的 iCloud 存储空间同步到使用同一个个人档案的其他设备。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "匯入的副本已在此裝置上加密。開啟「iCloud 同步」時，該副本會透過加密的 iCloud 儲存空間同步到使用同一個個人檔案的其他裝置。"
+          }
+        }
+      }
+    },
     "The imported copy is encrypted on this device. It is not uploaded or kept in the guide cache." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -665318,6 +666863,7 @@
       }
     },
     "This profile changed. Reopen Sync settings and try again." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -676791,6 +678337,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "此來源拒絕存取。請在「來源」中檢查其位址或驗證資訊。"
+          }
+        }
+      }
+    },
+    "This source was shared without its address by an older version of Plozz. Update that device to sync the address, or enter it here." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تمت مشاركة هذا المصدر دون عنوانه باستخدام إصدار قديم من Plozz. حدّث Plozz على الجهاز الذي تمت المشاركة منه لمزامنة العنوان، أو أدخله هنا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Този източник е споделен без адреса си от по-стара версия на Plozz. Актуализирайте Plozz на устройството, от което е споделен, за да синхронизирате адреса, или го въведете тук."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aquesta font s’ha compartit sense l’adreça amb una versió anterior de Plozz. Actualitza Plozz al dispositiu des del qual s’ha compartit per sincronitzar l’adreça, o introdueix-la aquí."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tento zdroj byl sdílen bez adresy pomocí starší verze aplikace Plozz. Aktualizujte Plozz na zařízení, ze kterého byl zdroj sdílen, aby se adresa synchronizovala, nebo ji zadejte zde."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne kilde blev delt uden sin adresse med en ældre version af Plozz. Opdater Plozz på den enhed, som kilden blev delt fra, for at synkronisere adressen, eller indtast den her."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diese Quelle wurde von einer älteren Version von Plozz ohne ihre Adresse geteilt. Aktualisiere Plozz auf dem Gerät, von dem die Quelle geteilt wurde, um die Adresse zu synchronisieren, oder gib sie hier ein."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αυτή η πηγή κοινοποιήθηκε χωρίς τη διεύθυνσή της από μια παλαιότερη έκδοση του Plozz. Ενημερώστε το Plozz στη συσκευή που κοινοποίησε την πηγή για να συγχρονιστεί η διεύθυνση ή εισαγάγετέ την εδώ."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta fuente se compartió sin su dirección desde una versión anterior de Plozz. Actualiza Plozz en el dispositivo que compartió la fuente para sincronizar la dirección, o introdúcela aquí."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "این منبع با نسخه‌ای قدیمی‌تر از Plozz بدون نشانی آن به اشتراک گذاشته شده است. برای همگام‌سازی نشانی، Plozz را در دستگاهی که منبع را به اشتراک گذاشته به‌روزرسانی کنید یا نشانی را اینجا وارد کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tämä lähde jaettiin Plozz-sovelluksen vanhemmalla versiolla ilman osoitetta. Päivitä Plozz lähteen jakaneella laitteella osoitteen synkronoimiseksi tai syötä osoite tähän."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cette source a été partagée sans son adresse par une ancienne version de Plozz. Mettez Plozz à jour sur l’appareil qui l’a partagée pour synchroniser l’adresse, ou saisissez-la ici."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המקור הזה שותף ללא הכתובת שלו באמצעות גרסה ישנה יותר של Plozz. כדי לסנכרן את הכתובת, יש לעדכן את Plozz במכשיר שממנו שותף המקור, או להזין את הכתובת כאן."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "यह स्रोत Plozz के पुराने संस्करण से उसके पते के बिना साझा किया गया था। पता सिंक करने के लिए उस दूसरे डिवाइस पर Plozz अपडेट करें या पता यहाँ दर्ज करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovaj je izvor podijeljen bez adrese iz starije verzije aplikacije Plozz. Ažurirajte Plozz na tom drugom uređaju da biste sinkronizirali adresu ili je unesite ovdje."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ezt a forrást a Plozz egy régebbi verziója a címe nélkül osztotta meg. A cím szinkronizálásához frissítse a Plozz alkalmazást azon a másik eszközön, vagy adja meg itt a címet."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sumber ini dibagikan tanpa alamatnya oleh versi Plozz yang lebih lama. Perbarui Plozz di perangkat yang membagikan sumber ini untuk menyinkronkan alamatnya, atau masukkan alamatnya di sini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Questa sorgente è stata condivisa senza il suo indirizzo da una versione precedente di Plozz. Aggiorna Plozz sull’altro dispositivo per sincronizzare l’indirizzo, oppure inseriscilo qui."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このソースは、古いバージョンのPlozzからアドレスなしで共有されました。アドレスを同期するには、共有元のデバイスのPlozzをアップデートするか、ここでアドレスを入力してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 소스는 이전 버전의 Plozz에서 주소 없이 공유되었습니다. 주소를 동기화하려면 소스를 공유한 기기의 Plozz를 업데이트하거나 여기에서 주소를 입력하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sumber ini dikongsi tanpa alamatnya oleh versi lama Plozz. Kemas kini Plozz pada peranti yang berkongsi sumber ini untuk menyegerakkan alamatnya, atau masukkan alamatnya di sini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne kilden ble delt uten adressen av en eldre versjon av Plozz. Oppdater Plozz på den andre enheten for å synkronisere adressen, eller skriv den inn her."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deze bron is door een oudere versie van Plozz zonder adres gedeeld. Werk Plozz op dat andere apparaat bij om het adres te synchroniseren, of voer het hier in."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "To źródło zostało udostępnione bez adresu przez starszą wersję Plozz. Zaktualizuj Plozz na tamtym urządzeniu, aby zsynchronizować adres, lub wpisz go tutaj."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta fonte foi compartilhada sem o endereço por uma versão antiga do Plozz. Atualize o Plozz no outro dispositivo para sincronizar o endereço ou digite-o aqui."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Această sursă a fost partajată fără adresă de o versiune mai veche de Plozz. Actualizează Plozz pe dispozitivul de pe care a fost partajată sursa pentru a sincroniza adresa sau introdu-o aici."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Этот источник был передан без адреса более старой версией Plozz. Обновите Plozz на устройстве, с которого был передан источник, чтобы синхронизировать адрес, или введите его здесь."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tento zdroj bol zdieľaný bez adresy zo staršej verzie aplikácie Plozz. Aktualizujte Plozz na zariadení, z ktorého bol zdroj zdieľaný, aby sa adresa synchronizovala, alebo ju zadajte tu."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ta vir je bil deljen brez naslova s starejšo različico aplikacije Plozz. Posodobite Plozz na napravi, s katere je bil vir deljen, da se naslov sinhronizira, ali pa ga vnesite tukaj."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovaj izvor je podeljen bez adrese pomoću starije verzije aplikacije Plozz. Ažurirajte Plozz na uređaju sa kojeg je izvor podeljen da biste sinhronizovali adresu ili je unesite ovde."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den här källan delades utan adress med en äldre version av Plozz. Uppdatera Plozz på enheten som källan delades från för att synkronisera adressen, eller ange adressen här."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "แหล่งนี้ถูกแชร์โดย Plozz เวอร์ชันเก่าโดยไม่มีที่อยู่ โปรดอัปเดต Plozz บนอุปกรณ์ที่แชร์แหล่งนี้เพื่อซิงค์ที่อยู่ หรือป้อนที่อยู่ที่นี่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu kaynak, Plozz’un eski bir sürümü tarafından adresi olmadan paylaşıldı. Adresi eşzamanlamak için paylaşımı yapan cihazdaki Plozz’u güncelleyin veya adresi buraya girin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Це джерело було поширено без адреси старішою версією Plozz. Оновіть Plozz на пристрої, з якого поширили джерело, щоб синхронізувати адресу, або введіть її тут."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nguồn này được chia sẻ mà không kèm địa chỉ từ một phiên bản Plozz cũ. Hãy cập nhật Plozz trên thiết bị đã chia sẻ nguồn để đồng bộ hóa địa chỉ, hoặc nhập địa chỉ tại đây."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此来源由旧版 Plozz 分享，未包含地址。请更新分享此来源的那台设备上的 Plozz，以同步地址，或在此输入地址。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此來源由舊版 Plozz 分享，未包含網址。請更新分享此來源的那台裝置上的 Plozz，以同步網址，或在此輸入網址。"
           }
         }
       }
@@ -715778,6 +717544,778 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "請等候上一個頻道關閉。"
+          }
+        }
+      }
+    },
+    "Waiting for %lld imported playlists to finish syncing." : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Waiting for %lld imported playlist to finish syncing."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Waiting for %lld imported playlists to finish syncing."
+                }
+              }
+            }
+          }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld قوائم تشغيل مستوردة."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld قائمة تشغيل مستوردة."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              }
+            }
+          }
+        },
+        "bg" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Изчаква се синхронизирането на %lld импортиран плейлист да завърши."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Изчаква се синхронизирането на %lld импортирани плейлиста да завърши."
+                }
+              }
+            }
+          }
+        },
+        "ca" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "S’espera que s’acabi de sincronitzar %lld llista de reproducció importada."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "S’espera que s’acabin de sincronitzar %lld llistes de reproducció importades."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "S’espera que s’acabin de sincronitzar %lld llistes de reproducció importades."
+                }
+              }
+            }
+          }
+        },
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeká se na dokončení synchronizace %lld importovaných playlistů."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeká se na dokončení synchronizace %lld importovaných playlistů."
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Venter på, at synkroniseringen af %lld importeret afspilningsliste er færdig."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Venter på, at synkroniseringen af %lld importerede afspilningslister er færdig."
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Warten, bis %lld importierte Playlist vollständig synchronisiert ist."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Warten, bis %lld importierte Playlists vollständig synchronisiert sind."
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Αναμονή για να ολοκληρωθεί ο συγχρονισμός %lld εισαγμένης λίστας αναπαραγωγής."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Αναμονή για να ολοκληρωθεί ο συγχρονισμός %lld εισαγμένων λιστών αναπαραγωγής."
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Esperando a que termine de sincronizarse %lld lista de reproducción importada."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Esperando a que terminen de sincronizarse %lld listas de reproducción importadas."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Esperando a que terminen de sincronizarse %lld listas de reproducción importadas."
+                }
+              }
+            }
+          }
+        },
+        "fa" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "در انتظار پایان همگام‌سازی %lld فهرست پخش واردشده."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "در انتظار پایان همگام‌سازی %lld فهرست پخش واردشده."
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Odotetaan %lld tuodun soittolistan synkronoinnin valmistumista."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Odotetaan %lld tuodun soittolistan synkronoinnin valmistumista."
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "En attente de la fin de la synchronisation de %lld liste de lecture importée."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "En attente de la fin de la synchronisation de %lld listes de lecture importées."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "En attente de la fin de la synchronisation de %lld listes de lecture importées."
+                }
+              }
+            }
+          }
+        },
+        "he" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "בהמתנה לסיום הסנכרון של רשימת ההשמעה שיובאה (%lld)."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "בהמתנה לסיום הסנכרון של %lld רשימות השמעה שיובאו."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "בהמתנה לסיום הסנכרון של %lld רשימות השמעה שיובאו."
+                }
+              }
+            }
+          }
+        },
+        "hi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "आयात की गई %lld प्लेलिस्ट का सिंक पूरा होने का इंतज़ार है।"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "आयात की गई %lld प्लेलिस्टों का सिंक पूरा होने का इंतज़ार है।"
+                }
+              }
+            }
+          }
+        },
+        "hr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se dovršetak sinkronizacije %lld uvezenog popisa za reprodukciju."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se dovršetak sinkronizacije %lld uvezena popisa za reprodukciju."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se dovršetak sinkronizacije %lld uvezenih popisa za reprodukciju."
+                }
+              }
+            }
+          }
+        },
+        "hu" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Várakozás %lld importált lejátszási lista szinkronizálásának befejezésére."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Várakozás %lld importált lejátszási lista szinkronizálásának befejezésére."
+                }
+              }
+            }
+          }
+        },
+        "id" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Menunggu %lld daftar putar yang diimpor selesai disinkronkan."
+                }
+              }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "In attesa del completamento della sincronizzazione di %lld playlist importata."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "In attesa del completamento della sincronizzazione di %lld playlist importate."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "In attesa del completamento della sincronizzazione di %lld playlist importate."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "インポートした%lld件のプレイリストの同期完了を待っています。"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "가져온 재생목록 %lld개의 동기화가 완료되기를 기다리는 중입니다."
+                }
+              }
+            }
+          }
+        },
+        "ms" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Menunggu %lld senarai main yang diimport selesai disegerakkan."
+                }
+              }
+            }
+          }
+        },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Venter på at %lld importert spilleliste skal bli ferdig synkronisert."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Venter på at %lld importerte spillelister skal bli ferdig synkronisert."
+                }
+              }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Wachten tot %lld geïmporteerde afspeellijst volledig is gesynchroniseerd."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Wachten tot %lld geïmporteerde afspeellijsten volledig zijn gesynchroniseerd."
+                }
+              }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanej listy odtwarzania."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanych list odtwarzania."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanych list odtwarzania."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanej listy odtwarzania."
+                }
+              }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Aguardando a conclusão da sincronização de %lld lista de reprodução importada."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Aguardando a conclusão da sincronização de %lld listas de reprodução importadas."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Aguardando a conclusão da sincronização de %lld listas de reprodução importadas."
+                }
+              }
+            }
+          }
+        },
+        "ro" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Se așteaptă finalizarea sincronizării pentru %lld listă de redare importată."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Se așteaptă finalizarea sincronizării pentru %lld liste de redare importate."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Se așteaptă finalizarea sincronizării pentru %lld de liste de redare importate."
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Ожидание завершения синхронизации %lld импортированного плейлиста."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Ожидание завершения синхронизации %lld импортированных плейлистов."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Ожидание завершения синхронизации %lld импортированных плейлистов."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Ожидание завершения синхронизации %lld импортированного плейлиста."
+                }
+              }
+            }
+          }
+        },
+        "sk" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaných zoznamov na prehrávanie."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaných zoznamov na prehrávanie."
+                }
+              }
+            }
+          }
+        },
+        "sl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženega seznama predvajanja."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
+                }
+              }
+            }
+          }
+        },
+        "sr-Latn" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se da se %lld uvezena lista za reprodukciju sinhronizuje do kraja."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se da se %lld uvezene liste za reprodukciju sinhronizuju do kraja."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se da se %lld uvezenih lista za reprodukciju sinhronizuje do kraja."
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Väntar på att synkroniseringen av %lld importerad spellista ska slutföras."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Väntar på att synkroniseringen av %lld importerade spellistor ska slutföras."
+                }
+              }
+            }
+          }
+        },
+        "th" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "กำลังรอให้เพลย์ลิสต์ที่นำเข้า %lld รายการซิงค์เสร็จ"
+                }
+              }
+            }
+          }
+        },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "İçe aktarılan %lld oynatma listesinin eşzamanlanmasının tamamlanması bekleniyor."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "İçe aktarılan %lld oynatma listesinin eşzamanlanmasının tamamlanması bekleniyor."
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Очікуємо завершення синхронізації %lld імпортованого списку відтворення."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Очікуємо завершення синхронізації %lld імпортованих списків відтворення."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Очікуємо завершення синхронізації %lld імпортованих списків відтворення."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Очікуємо завершення синхронізації %lld імпортованого списку відтворення."
+                }
+              }
+            }
+          }
+        },
+        "vi" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Đang chờ hoàn tất đồng bộ hóa %lld danh sách phát đã nhập."
+                }
+              }
+            }
+          }
+        },
+        "zh-Hans" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "正在等待 %lld 个导入的播放列表完成同步。"
+                }
+              }
+            }
+          }
+        },
+        "zh-Hant" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "正在等待 %lld 個匯入的播放清單完成同步。"
+                }
+              }
+            }
           }
         }
       }
@@ -765017,6 +767555,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "iCloud 同步"
+          }
+        }
+      }
+    },
+    "iCloud Sync is unavailable. Check that it is on and you are signed in to iCloud." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "مزامنة iCloud غير متاحة. تأكد من تفعيلها ومن تسجيل دخولك إلى iCloud."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронизирането с iCloud не е налично. Проверете дали е включено и дали сте влезли в акаунта си в iCloud."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La sincronització amb l’iCloud no està disponible. Comprova que estigui activada i que hagis iniciat la sessió a l’iCloud."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizace přes iCloud není dostupná. Zkontrolujte, zda je zapnutá a zda jste přihlášeni ke službě iCloud."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronisering er ikke tilgængelig. Kontrollér, at den er slået til, og at du er logget ind på iCloud."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die iCloud-Synchronisierung ist nicht verfügbar. Prüfe, ob sie aktiviert ist und du bei iCloud angemeldet bist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ο συγχρονισμός iCloud δεν είναι διαθέσιμος. Ελέγξτε ότι είναι ενεργοποιημένος και ότι έχετε συνδεθεί στο iCloud."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La sincronización con iCloud no está disponible. Comprueba que esté activada y que hayas iniciado sesión en iCloud."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "«همگام‌سازی iCloud» در دسترس نیست. بررسی کنید که روشن باشد و به حساب iCloud وارد شده باشید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronointi ei ole käytettävissä. Tarkista, että se on käytössä ja olet kirjautunut iCloudiin."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La synchronisation iCloud n’est pas disponible. Vérifiez qu’elle est activée et que vous êtes connecté à iCloud."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סנכרון iCloud אינו זמין. יש לוודא שהוא מופעל ושבוצעה כניסה ל-iCloud."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“iCloud सिंक” उपलब्ध नहीं है। जाँचें कि यह चालू है और आपने iCloud में साइन इन किया हुआ है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronizacija putem servisa iCloud nije dostupna. Provjerite je li uključena i jeste li prijavljeni na iCloud."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az iCloud-szinkronizálás nem érhető el. Ellenőrizze, hogy be van-e kapcsolva, és be van-e jelentkezve az iCloud szolgáltatásba."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronisasi iCloud tidak tersedia. Pastikan pengaturan ini aktif dan Anda telah masuk ke iCloud."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La sincronizzazione iCloud non è disponibile. Verifica che sia attiva e di aver effettuato l’accesso a iCloud."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud同期を利用できません。iCloud同期がオンになっていることと、iCloudにサインインしていることを確認してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 동기화를 사용할 수 없습니다. iCloud 동기화가 켜져 있고 iCloud에 로그인되어 있는지 확인하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyegerakan iCloud tidak tersedia. Pastikan tetapan ini dihidupkan dan anda telah mendaftar masuk ke iCloud."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronisering er utilgjengelig. Kontroller at den er slått på, og at du er logget på iCloud."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synchronisatie is niet beschikbaar. Controleer of de instelling is ingeschakeld en of je bent ingelogd bij iCloud."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizacja iCloud jest niedostępna. Sprawdź, czy synchronizacja jest włączona i czy zalogowano się do iCloud."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Sincronização do iCloud não está disponível. Verifique se ela está ativada e se você iniciou sessão no iCloud."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sincronizarea iCloud nu este disponibilă. Verifică dacă este activată și dacă te-ai autentificat în iCloud."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронизация iCloud недоступна. Убедитесь, что она включена и вы вошли в iCloud."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizácia iCloud nie je dostupná. Skontrolujte, či je zapnutá a či ste prihlásení do služby iCloud."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinhronizacija iCloud ni na voljo. Preverite, ali je vklopljena in ali ste prijavljeni v iCloud."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud sinhronizacija nije dostupna. Proverite da li je uključena i da li ste prijavljeni na iCloud."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronisering är inte tillgänglig. Kontrollera att den är på och att du är inloggad på iCloud."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่สามารถใช้การซิงค์ iCloud ได้ โปรดตรวจสอบว่าเปิดการตั้งค่านี้อยู่และคุณได้ลงชื่อเข้าใช้ iCloud แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud Eşzamanlama kullanılamıyor. Bu ayarın açık olduğundan ve iCloud’a giriş yaptığınızdan emin olun."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронізація iCloud недоступна. Перевірте, чи її ввімкнено та чи ви ввійшли в iCloud."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đồng bộ hóa iCloud hiện không khả dụng. Hãy kiểm tra xem cài đặt này đã bật và bạn đã đăng nhập vào iCloud chưa."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 同步不可用。请检查是否已开启此设置并登录 iCloud。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 同步無法使用。請檢查是否已開啟此設定並登入 iCloud。"
           }
         }
       }
