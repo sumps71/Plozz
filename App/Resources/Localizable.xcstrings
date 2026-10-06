@@ -192873,6 +192873,226 @@
         }
       }
     },
+    "Couldn't reset iCloud Sync. Try again." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذرت إعادة تعيين مزامنة iCloud. حاول مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Неуспешно нулиране на синхронизирането с iCloud. Опитайте отново."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No s’ha pogut restablir la sincronització d’iCloud. Torna-ho a provar."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nepodařilo se resetovat synchronizaci se službou iCloud. Zkuste to znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kunne ikke nulstille iCloud-synkronisering. Prøv igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die iCloud-Synchronisierung konnte nicht zurückgesetzt werden. Versuche es noch einmal."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν ήταν δυνατή η επαναφορά του συγχρονισμού iCloud. Δοκιμάστε ξανά."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No se pudo restablecer la sincronización con iCloud. Inténtalo de nuevo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "همگام‌سازی iCloud بازنشانی نشد. دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronointia ei voitu nollata. Yritä uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Impossible de réinitialiser la synchronisation iCloud. Réessayez."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לאפס את סנכרון iCloud. נסה שוב."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud सिंक रीसेट नहीं हो सका। फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronizaciju s iCloudom nije bilo moguće resetirati. Pokušajte ponovno."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az iCloud-szinkronizálás visszaállítása nem sikerült. Próbálja újra."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronisasi iCloud tidak dapat diatur ulang. Coba lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Impossibile reimpostare la sincronizzazione iCloud. Riprova."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud同期をリセットできませんでした。もう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 동기화를 초기화하지 못했습니다. 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyegerakan iCloud tidak dapat ditetapkan semula. Cuba lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kunne ikke tilbakestille iCloud-synkronisering. Prøv igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De iCloud-synchronisatie kon niet opnieuw worden ingesteld. Probeer het opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie udało się zresetować synchronizacji z iCloud. Spróbuj ponownie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Não foi possível redefinir a Sincronização do iCloud. Tente novamente."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nu s-a putut reseta sincronizarea iCloud. Încearcă din nou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не удалось сбросить синхронизацию iCloud. Повторите попытку."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nepodarilo sa resetovať synchronizáciu so službou iCloud. Skúste to znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinhronizacije s storitvijo iCloud ni bilo mogoče ponastaviti. Poskusite znova."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetovanje iCloud sinhronizacije nije uspelo. Pokušajte ponovo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Det gick inte att återställa iCloud-synkroniseringen. Försök igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่สามารถรีเซ็ตการซิงก์ iCloud ได้ โปรดลองอีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud eşzamanlaması sıfırlanamadı. Tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не вдалося скинути синхронізацію iCloud. Спробуйте ще раз."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không thể đặt lại đồng bộ hóa iCloud. Hãy thử lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "无法重置 iCloud 同步。请重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "無法重設 iCloud 同步。請再試一次。"
+          }
+        }
+      }
+    },
     "Couldn't save the source. Try again." : {
       "localizations" : {
         "ar" : {
@@ -408443,6 +408663,226 @@
         }
       }
     },
+    "Only for troubleshooting" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لاستكشاف الأخطاء وإصلاحها فقط"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Само за отстраняване на проблеми"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Només per resoldre problemes"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pouze pro řešení potíží"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kun til fejlfinding"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nur zur Fehlerbehebung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Μόνο για αντιμετώπιση προβλημάτων"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Solo para solucionar problemas"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فقط برای عیب‌یابی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vain vianmääritykseen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uniquement pour le dépannage"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לפתרון בעיות בלבד"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सिर्फ़ समस्या निवारण के लिए"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Samo za rješavanje problema"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Csak hibaelhárításhoz"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hanya untuk pemecahan masalah"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Solo per la risoluzione dei problemi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "トラブルシューティング専用"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "문제 해결 전용"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Untuk penyelesaian masalah sahaja"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kun for feilsøking"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alleen voor probleemoplossing"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tylko do rozwiązywania problemów"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Apenas para solucionar problemas"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Doar pentru depanare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Только для устранения неполадок"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Iba na riešenie problémov"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Samo za odpravljanje težav"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Samo za rešavanje problema"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Endast för felsökning"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "สำหรับแก้ไขปัญหาเท่านั้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yalnızca sorun giderme için"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Лише для усунення несправностей"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chỉ dùng để khắc phục sự cố"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "仅用于故障排查"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "僅供疑難排解"
+          }
+        }
+      }
+    },
     "Only in theaters" : {
       "localizations" : {
         "ar" : {
@@ -474604,6 +475044,446 @@
         }
       }
     },
+    "Reconnect Trakt" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "إعادة الاتصال بـ Trakt"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторно свързване с Trakt"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Torna a connectar Trakt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Znovu připojit Trakt"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Genopret forbindelse til Trakt"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt erneut verbinden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επανασύνδεση Trakt"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Volver a conectar Trakt"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اتصال مجدد به Trakt"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yhdistä Trakt uudelleen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reconnecter Trakt"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חיבור מחדש ל-Trakt"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt से फिर कनेक्ट करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno poveži Trakt"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt újracsatlakoztatása"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sambungkan ulang Trakt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Riconnetti Trakt"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Traktに再接続"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt 다시 연결"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sambung Semula ke Trakt"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koble til Trakt på nytt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opnieuw verbinden met Trakt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Połącz ponownie z Trakt"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reconectar ao Trakt"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reconectează Trakt"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторно подключить Trakt"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Znova pripojiť Trakt"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Znova poveži Trakt"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovo poveži Trakt"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Återanslut Trakt"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เชื่อมต่อ Trakt ใหม่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt’a yeniden bağlan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторно підключити Trakt"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kết nối lại Trakt"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "重新连接 Trakt"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "重新連線至 Trakt"
+          }
+        }
+      }
+    },
+    "Reconnect Trakt for this profile?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "هل تريد إعادة الاتصال بـ Trakt لهذا الملف الشخصي؟"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Да се свърже ли този профил отново с Trakt?"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vols tornar a connectar Trakt per a aquest perfil?"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Znovu připojit Trakt pro tento profil?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vil du genoprette forbindelsen til Trakt for denne profil?"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt für dieses Profil erneut verbinden?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επανασύνδεση του Trakt για αυτό το προφίλ;"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "¿Volver a conectar Trakt para este perfil?"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اتصال مجدد به Trakt برای این نمایه؟"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Yhdistetäänkö Trakt uudelleen tälle profiilille?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reconnecter Trakt pour ce profil ?"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לחבר מחדש את Trakt לפרופיל זה?"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "क्या आप इस प्रोफ़ाइल के लिए Trakt से फिर कनेक्ट करना चाहते हैं?"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponovno povezati Trakt za ovaj profil?"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Újracsatlakoztatja a Trakt szolgáltatást ehhez a profilhoz?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sambungkan ulang Trakt untuk profil ini?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Riconnettere Trakt per questo profilo?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このプロフィールでTraktに再接続しますか？"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 프로필을 Trakt에 다시 연결할까요?"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sambung semula ke Trakt untuk profil ini?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koble til Trakt på nytt for denne profilen?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opnieuw verbinden met Trakt voor dit profiel?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponownie połączyć ten profil z Trakt?"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reconectar este perfil ao Trakt?"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reconectezi Trakt pentru acest profil?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторно подключить Trakt для этого профиля?"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Znova pripojiť Trakt pre tento profil?"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Želite znova povezati Trakt za ta profil?"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Želite li ponovo da povežete Trakt za ovaj profil?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vill du återansluta Trakt för den här profilen?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เชื่อมต่อ Trakt ใหม่สำหรับโปรไฟล์นี้หรือไม่?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu profil için Trakt’a yeniden bağlanılsın mı?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Повторно підключити Trakt для цього профілю?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kết nối lại Trakt cho hồ sơ này?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "为此个人资料重新连接 Trakt？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "要為此個人檔案重新連線至 Trakt 嗎？"
+          }
+        }
+      }
+    },
     "Reconnect the selected server and try again." : {
       "localizations" : {
         "ar" : {
@@ -505210,6 +506090,226 @@
         }
       }
     },
+    "Reset iCloud Sync using this device's settings." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تمت إعادة تعيين مزامنة iCloud باستخدام إعدادات هذا الجهاز."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронизирането с iCloud е нулирано с настройките на това устройство."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "S’ha restablert la sincronització d’iCloud amb la configuració d’aquest dispositiu."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizace se službou iCloud byla resetována podle nastavení tohoto zařízení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronisering er nulstillet med indstillingerne fra denne enhed."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die iCloud-Synchronisierung wurde mit den Einstellungen dieses Geräts zurückgesetzt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ο συγχρονισμός iCloud επαναφέρθηκε με τις ρυθμίσεις αυτής της συσκευής."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se ha restablecido la sincronización con iCloud usando los ajustes de este dispositivo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "همگام‌سازی iCloud با تنظیمات این دستگاه بازنشانی شد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronointi nollattiin tämän laitteen asetuksilla."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La synchronisation iCloud a été réinitialisée avec les réglages de cet appareil."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "סנכרון iCloud אופס באמצעות ההגדרות של מכשיר זה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस डिवाइस की सेटिंग्स का इस्तेमाल करके iCloud सिंक रीसेट कर दिया गया है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronizacija s iCloudom resetirana je pomoću postavki ovog uređaja."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az iCloud-szinkronizálást visszaállítottuk ennek az eszköznek a beállításaival."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronisasi iCloud telah diatur ulang menggunakan pengaturan perangkat ini."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La sincronizzazione iCloud è stata reimpostata usando le impostazioni di questo dispositivo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このデバイスの設定を使ってiCloud同期をリセットしました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 기기의 설정으로 iCloud 동기화를 초기화했습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyegerakan iCloud telah ditetapkan semula menggunakan tetapan peranti ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkronisering er tilbakestilt med innstillingene fra denne enheten."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De iCloud-synchronisatie is opnieuw ingesteld met de instellingen van dit apparaat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zresetowano synchronizację z iCloud przy użyciu ustawień tego urządzenia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Sincronização do iCloud foi redefinida usando os ajustes deste dispositivo."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sincronizarea iCloud a fost resetată folosind setările acestui dispozitiv."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронизация iCloud сброшена с использованием настроек этого устройства."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizácia so službou iCloud bola resetovaná podľa nastavení tohto zariadenia."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinhronizacija s storitvijo iCloud je bila ponastavljena z nastavitvami te naprave."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud sinhronizacija je resetovana pomoću podešavanja ovog uređaja."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synkroniseringen har återställts med den här enhetens inställningar."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "รีเซ็ตการซิงก์ iCloud โดยใช้การตั้งค่าของอุปกรณ์นี้แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud eşzamanlaması bu aygıtın ayarları kullanılarak sıfırlandı."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронізацію iCloud скинуто з використанням налаштувань цього пристрою."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đã đặt lại đồng bộ hóa iCloud bằng cài đặt của thiết bị này."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已使用此设备的设置重置 iCloud 同步。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已使用此裝置的設定重設 iCloud 同步。"
+          }
+        }
+      }
+    },
     "Reset synced data?" : {
       "localizations" : {
         "ar" : {
@@ -506527,6 +507627,446 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "重設為建議設定"
+          }
+        }
+      }
+    },
+    "Reset was interrupted. Try again." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "انقطعت عملية إعادة التعيين. حاول مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Нулирането беше прекъснато. Опитайте отново."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "S’ha interromput el restabliment. Torna-ho a provar."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetování bylo přerušeno. Zkuste to znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nulstillingen blev afbrudt. Prøv igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Das Zurücksetzen wurde unterbrochen. Versuche es noch einmal."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η επαναφορά διακόπηκε. Δοκιμάστε ξανά."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se interrumpió el restablecimiento. Inténtalo de nuevo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "بازنشانی قطع شد. دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nollaus keskeytyi. Yritä uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La réinitialisation a été interrompue. Réessayez."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "האיפוס הופסק. נסה שוב."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "रीसेट करने की प्रक्रिया बाधित हो गई। फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetiranje je prekinuto. Pokušajte ponovno."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A visszaállítás megszakadt. Próbálja újra."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pengaturan ulang terhenti. Coba lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La reimpostazione è stata interrotta. Riprova."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "リセットが中断されました。もう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "초기화가 중단되었습니다. 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penetapan semula terganggu. Cuba lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tilbakestillingen ble avbrutt. Prøv igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Het opnieuw instellen is onderbroken. Probeer het opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetowanie zostało przerwane. Spróbuj ponownie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A redefinição foi interrompida. Tente novamente."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetarea a fost întreruptă. Încearcă din nou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Сброс был прерван. Повторите попытку."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetovanie bolo prerušené. Skúste to znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponastavitev je bila prekinjena. Poskusite znova."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetovanje je prekinuto. Pokušajte ponovo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Återställningen avbröts. Försök igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "การรีเซ็ตถูกขัดจังหวะ โปรดลองอีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sıfırlama kesintiye uğradı. Tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Скидання перервано. Спробуйте ще раз."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Quá trình đặt lại đã bị gián đoạn. Hãy thử lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "重置已中断。请重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "重設已中斷。請再試一次。"
+          }
+        }
+      }
+    },
+    "Resetting iCloud Sync…" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "جارٍ إعادة تعيين مزامنة iCloud…"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Нулиране на синхронизирането с iCloud…"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "S’està restablint la sincronització d’iCloud…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetování synchronizace se službou iCloud…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nulstiller iCloud-synkronisering…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-Synchronisierung wird zurückgesetzt…"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επαναφορά συγχρονισμού iCloud…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Restableciendo la sincronización con iCloud…"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "در حال بازنشانی همگام‌سازی iCloud…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nollataan iCloud-synkronointia…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Réinitialisation de la synchronisation iCloud…"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "איפוס סנכרון iCloud…"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud सिंक रीसेट किया जा रहा है…"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetiranje sinkronizacije s iCloudom…"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az iCloud-szinkronizálás visszaállítása…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mengatur ulang sinkronisasi iCloud…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Reimpostazione della sincronizzazione iCloud…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud同期をリセット中…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 동기화 초기화 중…"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Menetapkan semula Penyegerakan iCloud…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tilbakestiller iCloud-synkronisering…"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-synchronisatie opnieuw instellen…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetowanie synchronizacji z iCloud…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Redefinindo a Sincronização do iCloud…"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Se resetează sincronizarea iCloud…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Сброс синхронизации iCloud…"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetuje sa synchronizácia so službou iCloud…"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponastavljanje sinhronizacije s storitvijo iCloud…"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Resetovanje iCloud sinhronizacije…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Återställer iCloud-synkroniseringen…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "กำลังรีเซ็ตการซิงก์ iCloud…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud eşzamanlaması sıfırlanıyor…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Скидання синхронізації iCloud…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đang đặt lại đồng bộ hóa iCloud…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在重置 iCloud 同步…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在重設 iCloud 同步…"
           }
         }
       }
@@ -613714,6 +615254,226 @@
         }
       }
     },
+    "Sync is automatic. You should not normally need either option. If changes are missing, try Reload first. Use Reset only if Reload does not help." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تتم المزامنة تلقائيًا، ولا تحتاج عادةً إلى أيٍّ من الخيارين. إذا كانت بعض التغييرات مفقودة، فجرّب «إعادة التحميل» أولًا. استخدم «إعادة تعيين» فقط إذا لم تُجدِ إعادة التحميل نفعًا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронизирането е автоматично. Обикновено не е нужна нито една от тези опции. Ако липсват промени, първо опитайте „Презареждане“. Използвайте „Нулиране“ само ако презареждането не помогне."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La sincronització és automàtica. Normalment no hauries de necessitar cap de les dues opcions. Si falten canvis, prova primer «Recarrega». Fes servir «Restableix» només si la recàrrega no ajuda."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizace probíhá automaticky. Obvykle nepotřebujete ani jednu z těchto možností. Pokud chybí změny, zkuste nejprve „Znovu načíst“. Možnost „Resetovat“ použijte jen tehdy, pokud opětovné načtení nepomůže."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synkronisering sker automatisk. Normalt har du ikke brug for nogen af de to muligheder. Hvis der mangler ændringer, så prøv først »Genindlæs«. Brug kun »Nulstil«, hvis genindlæsning ikke hjælper."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Synchronisierung erfolgt automatisch. Normalerweise brauchst du keine der beiden Optionen. Falls Änderungen fehlen, versuche zuerst „Erneut aus iCloud laden“. Verwende „Zurücksetzen“ nur, wenn erneutes Laden nicht hilft."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ο συγχρονισμός γίνεται αυτόματα. Κανονικά δεν χρειάζεστε καμία από τις δύο επιλογές. Αν λείπουν αλλαγές, δοκιμάστε πρώτα την «Επαναφόρτωση». Χρησιμοποιήστε την «Επαναφορά» μόνο αν η επαναφόρτωση δεν βοηθήσει."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La sincronización es automática. Normalmente no necesitas ninguna de estas opciones. Si faltan cambios, prueba primero «Recargar». Usa «Restablecer» solo si la recarga no ayuda."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "همگام‌سازی خودکار است. معمولاً نیازی به هیچ‌یک از این دو گزینه ندارید. اگر تغییراتی نمایش داده نمی‌شوند، ابتدا «بازخوانی» را امتحان کنید. فقط اگر بازخوانی کمکی نکرد، از «بازنشانی» استفاده کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synkronointi on automaattista. Kumpaakaan vaihtoehtoa ei yleensä tarvita. Jos muutoksia puuttuu, kokeile ensin ”Lataa uudelleen” -toimintoa. Käytä ”Nollaa”-toimintoa vain, jos uudelleenlataus ei auta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La synchronisation est automatique. Vous ne devriez normalement avoir besoin d’aucune de ces options. S’il manque des modifications, essayez d’abord « Recharger ». Utilisez « Réinitialiser » uniquement si le rechargement ne résout pas le problème."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הסנכרון אוטומטי. בדרך כלל אין צורך באף אחת מהאפשרויות. אם שינויים אינם מופיעים, נסה תחילה את האפשרות ״טען מחדש״. השתמש ב״איפוס״ רק אם הטעינה מחדש אינה עוזרת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सिंक अपने-आप होता है। आम तौर पर इन दोनों विकल्पों की ज़रूरत नहीं होती। अगर बदलाव नहीं दिख रहे हैं, तो पहले “iCloud से फिर लोड करें” आज़माएँ। इससे मदद न मिले, तभी “रीसेट करें” का इस्तेमाल करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronizacija je automatska. Obično vam nije potrebna nijedna od ovih opcija. Ako se promjene ne prikazuju, najprije odaberite „Ponovno učitaj iz iClouda”. Opciju „Resetiraj” upotrijebite samo ako ponovno učitavanje ne pomogne."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A szinkronizálás automatikus. Általában egyik lehetőségre sincs szükség. Ha nem jelennek meg a módosítások, először válassza az „Újratöltés az iCloudból” lehetőséget. A „Visszaállítás” lehetőséget csak akkor használja, ha az újratöltés nem segít."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinkronisasi berjalan otomatis. Biasanya, kedua opsi ini tidak diperlukan. Jika perubahan belum muncul, coba “Muat ulang dari iCloud” terlebih dahulu. Gunakan “Atur Ulang” hanya jika memuat ulang tidak membantu."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La sincronizzazione è automatica. Di norma non serve nessuna delle due opzioni. Se alcune modifiche non compaiono, prova prima «Ricarica da iCloud». Usa «Reimposta» solo se «Ricarica da iCloud» non risolve il problema."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "同期は自動で行われるため、通常はどちらの操作も必要ありません。変更が反映されない場合は、まず「iCloudから再読み込み」をお試しください。改善しない場合にのみ「リセット」を使ってください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "동기화는 자동으로 이루어지므로 일반적으로 두 옵션 모두 사용할 필요가 없습니다. 변경 사항이 보이지 않으면 먼저 ‘다시 불러오기’를 시도하세요. 그래도 해결되지 않을 때만 ‘초기화’를 사용하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyegerakan berlaku secara automatik. Biasanya, anda tidak perlu menggunakan mana-mana pilihan ini. Jika perubahan tidak muncul, cuba ‘Muat Semula’ dahulu. Gunakan ‘Tetapkan Semula’ hanya jika ‘Muat Semula’ tidak membantu."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synkronisering skjer automatisk. Vanligvis trenger du ikke noen av disse alternativene. Hvis endringer mangler, prøv «Last inn på nytt» først. Bruk «Tilbakestill» bare hvis «Last inn på nytt» ikke hjelper."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronisatie gebeurt automatisch. Normaal gesproken heb je geen van beide opties nodig. Als wijzigingen ontbreken, probeer dan eerst ‘Opnieuw laden’. Gebruik ‘Opnieuw instellen’ alleen als ‘Opnieuw laden’ niet helpt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizacja odbywa się automatycznie. Zwykle nie trzeba korzystać z żadnej z tych opcji. Jeśli nie widzisz zmian, najpierw wybierz „Pobierz ponownie”. Użyj opcji „Resetuj” tylko wtedy, gdy ponowne pobranie nie pomoże."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A sincronização é automática. Normalmente, você não precisa usar nenhuma destas opções. Se alguma alteração não aparecer, tente “Recarregar” primeiro. Use “Redefinir” apenas se “Recarregar” não resolver."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sincronizarea este automată. În mod normal, nu ai nevoie de niciuna dintre aceste opțiuni. Dacă lipsesc modificări, încearcă mai întâi „Reîncarcă din iCloud”. Folosește „Resetează” doar dacă reîncărcarea nu ajută."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронизация выполняется автоматически. Обычно ни одна из этих функций не требуется. Если изменения не появились, сначала выберите «Повторно загрузить из iCloud». Используйте «Сбросить» только в том случае, если повторная загрузка не помогла."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synchronizácia je automatická. Za bežných okolností nepotrebujete ani jednu z týchto možností. Ak chýbajú zmeny, najprv skúste „Znova načítať z iCloudu“. Možnosť „Resetovať“ použite iba vtedy, ak opätovné načítanie nepomôže."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinhronizacija je samodejna. Običajno ne potrebujete nobene od teh možnosti. Če spremembe manjkajo, najprej izberite »Znova prenesi iz iClouda«. Možnost »Ponastavi« uporabite le, če ponovno nalaganje ne pomaga."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sinhronizacija je automatska. Obično vam nije potrebna nijedna od ovih opcija. Ako promene nedostaju, prvo izaberite „Ponovo učitaj iz iCloud-a“. Koristite „Resetuj“ samo ako ponovno učitavanje ne pomogne."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Synkroniseringen sker automatiskt. Du behöver normalt inte något av alternativen. Om ändringar saknas, prova först ”Ladda ner igen från iCloud”. Använd ”Återställ” bara om omladdningen inte hjälper."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ระบบซิงก์โดยอัตโนมัติ โดยปกติไม่จำเป็นต้องใช้ตัวเลือกใดเลย หากการเปลี่ยนแปลงไม่ปรากฏ ให้ลอง “โหลดใหม่จาก iCloud” ก่อน ใช้ “รีเซ็ต” เฉพาะเมื่อโหลดใหม่แล้วไม่ได้ผล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Eşzamanlama otomatiktir. Normalde bu iki seçeneğe de ihtiyacınız olmaz. Değişiklikler görünmüyorsa önce “iCloud’dan yenile”yi deneyin. Yalnızca bu işe yaramazsa “Sıfırla”yı kullanın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Синхронізація відбувається автоматично. Зазвичай жодна з цих опцій не потрібна. Якщо зміни не відображаються, спершу виберіть «Повторно завантажити з iCloud». Використовуйте «Скинути», лише якщо повторне завантаження не допомогло."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dữ liệu được đồng bộ tự động. Thông thường, cả hai tùy chọn này đều không cần thiết. Nếu chưa thấy các thay đổi, hãy thử “Tải lại từ iCloud” trước. Chỉ dùng “Đặt lại” nếu tải lại không hiệu quả."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "同步会自动进行，通常无需使用这两个选项。如果更改未显示，请先尝试“从 iCloud 重新加载”。仅在重新加载无效时使用“重置”。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "同步會自動進行，通常不需要使用這兩個選項。如果變更未顯示，請先嘗試「從 iCloud 重新載入」。只有在重新載入無效時，才使用「重設」。"
+          }
+        }
+      }
+    },
     "Sync watch state across servers" : {
       "localizations" : {
         "ar" : {
@@ -689234,6 +690994,7 @@
       }
     },
     "Try Reload first. Reset only if changes are still missing." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -689449,6 +691210,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "請先試「重新載入」。變更仍未出現時才用「重設」。"
+          }
+        }
+      }
+    },
+    "Try Retry first. Reconnecting replaces this profile's Trakt connection on all your Plozz devices. Other profiles are not affected." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "جرّب «إعادة المحاولة» أولًا. تؤدي إعادة الاتصال إلى استبدال اتصال Trakt لهذا الملف الشخصي فقط على جميع أجهزتك التي تستخدم Plozz. ولا تتأثر الملفات الشخصية الأخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Първо опитайте „Повтори“. Повторното свързване заменя връзката с Trakt само за този профил на всичките ви устройства с Plozz. Другите профили не се засягат."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prova primer «Torna-ho a provar». En tornar a connectar, se substitueix la connexió amb Trakt d’aquest perfil a tots els teus dispositius amb Plozz. No afecta els altres perfils."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nejprve zkuste „Zkusit znovu“. Opětovné připojení nahradí připojení tohoto profilu ke službě Trakt na všech vašich zařízeních s aplikací Plozz. Ostatní profily zůstanou beze změny."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prøv først »Prøv igen«. Når du genopretter forbindelsen, erstattes denne profils Trakt-forbindelse på alle dine enheder med Plozz. Andre profiler påvirkes ikke."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Versuche zuerst „Erneut versuchen“. Durch erneutes Verbinden wird die Trakt-Verbindung dieses Profils auf all deinen Geräten mit Plozz ersetzt. Andere Profile sind nicht betroffen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επιλέξτε πρώτα «Δοκιμάστε ξανά». Η επανασύνδεση αντικαθιστά τη σύνδεση Trakt αυτού του προφίλ σε όλες τις συσκευές σας με Plozz. Τα άλλα προφίλ δεν επηρεάζονται."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prueba primero «Reintentar». Volver a conectar sustituye la conexión de Trakt de este perfil en todos tus dispositivos con Plozz. Los demás perfiles no se ven afectados."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ابتدا «تلاش مجدد» را امتحان کنید. اتصال مجدد اتصال Trakt این نمایه را در همهٔ دستگاه‌های شما که Plozz روی آن‌ها نصب است جایگزین می‌کند. سایر نمایه‌ها تحت تأثیر قرار نمی‌گیرند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kokeile ensin ”Yritä uudelleen” -toimintoa. Uudelleen yhdistäminen korvaa tämän profiilin Trakt-yhteyden kaikilla laitteillasi, joilla käytät Plozzia. Muihin profiileihin se ei vaikuta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Choisissez d’abord « Réessayer ». La reconnexion remplace la connexion Trakt de ce profil sur tous les appareils où vous utilisez Plozz. Les autres profils ne sont pas affectés."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחר תחילה ב״נסה שוב״. חיבור מחדש יחליף את חיבור Trakt של פרופיל זה בכל המכשירים שלך שבהם מותקן Plozz. פרופילים אחרים לא יושפעו."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "पहले “फिर से कोशिश करें” चुनें। फिर से कनेक्ट करने पर, आपके सभी Plozz डिवाइस पर सिर्फ़ इस प्रोफ़ाइल का Trakt कनेक्शन बदल दिया जाता है। अन्य प्रोफ़ाइलों पर कोई असर नहीं पड़ता।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najprije odaberite „Pokušaj ponovno”. Ponovno povezivanje zamjenjuje vezu s uslugom Trakt za ovaj profil na svim vašim uređajima s aplikacijom Plozz. Ostali profili ostaju nepromijenjeni."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Először válassza az „Újrapróbálkozás” lehetőséget. Az újracsatlakoztatás lecseréli ennek a profilnak a Trakt-kapcsolatát minden olyan eszközén, amelyen a Plozz alkalmazást használja. A többi profilt ez nem érinti."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih “Coba Lagi” terlebih dahulu. Menyambungkan ulang akan mengganti koneksi Trakt profil ini di semua perangkat Anda yang menggunakan Plozz. Profil lain tidak terpengaruh."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seleziona prima «Riprova». La riconnessione sostituisce la connessione Trakt di questo profilo su tutti i tuoi dispositivi Plozz. Gli altri profili non sono interessati."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "まず「再試行」をお試しください。再接続すると、このプロフィールのTrakt接続がPlozzを使うすべてのデバイスで置き換わります。他のプロフィールには影響しません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "먼저 ‘다시 시도’를 눌러 보세요. 다시 연결하면 Plozz를 사용하는 모든 기기에서 이 프로필의 Trakt 연결만 교체됩니다. 다른 프로필에는 영향을 주지 않습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih ‘Cuba Lagi’ dahulu. Penyambungan semula hanya menggantikan sambungan Trakt profil ini pada semua peranti anda yang menggunakan Plozz. Profil lain tidak terjejas."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Velg «Prøv igjen» først. Hvis du kobler til på nytt, erstattes bare denne profilens Trakt-tilkobling på alle Plozz-enhetene dine. Andre profiler påvirkes ikke."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kies eerst ‘Opnieuw proberen’. Opnieuw verbinden vervangt alleen de Trakt-verbinding van dit profiel op al je Plozz-apparaten. Andere profielen blijven ongewijzigd."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najpierw wybierz „Spróbuj ponownie”. Ponowne połączenie zastąpi połączenie z Trakt tylko dla tego profilu na wszystkich twoich urządzeniach z Plozz. Nie wpłynie to na inne profile."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Primeiro, selecione “Tentar novamente”. A reconexão substitui apenas a conexão deste perfil com o Trakt em todos os seus dispositivos com Plozz. Os outros perfis não são afetados."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selectează mai întâi „Reîncearcă”. Reconectarea înlocuiește conexiunea Trakt a acestui profil pe toate dispozitivele tale cu Plozz. Celelalte profiluri nu sunt afectate."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Сначала выберите «Повторить». Повторное подключение заменит подключение Trakt для этого профиля на всех ваших устройствах с Plozz. Другие профили не будут затронуты."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najprv vyberte možnosť „Skúsiť znova“. Opätovné pripojenie nahradí pripojenie tohto profilu k službe Trakt na všetkých vašich zariadeniach s Plozz. Ostatné profily nebudú ovplyvnené."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najprej izberite »Poskusi znova«. Ponovna povezava zamenja povezavo tega profila s storitvijo Trakt na vseh vaših napravah s Plozz. Drugi profili ostanejo nespremenjeni."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prvo izaberite „Pokušaj ponovo“. Ponovno povezivanje zamenjuje Trakt vezu ovog profila na svim vašim uređajima sa aplikacijom Plozz. Ostali profili ostaju nepromenjeni."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Välj först ”Försök igen”. Om du återansluter ersätts den här profilens Trakt-anslutning på alla dina enheter med Plozz. Andra profiler påverkas inte."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ลองกด “ลองอีกครั้ง” ก่อน การเชื่อมต่อใหม่จะแทนที่การเชื่อมต่อ Trakt ของโปรไฟล์นี้บนอุปกรณ์ทุกเครื่องที่คุณใช้ Plozz โดยไม่ส่งผลต่อโปรไฟล์อื่น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Önce “Yeniden dene”yi seçin. Yeniden bağlanmak, Plozz kullandığınız tüm aygıtlarda bu profilin mevcut Trakt bağlantısını yenisiyle değiştirir. Diğer profiller etkilenmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Спершу натисніть «Повторити». Повторне підключення замінить підключення Trakt цього профілю на всіх ваших пристроях із Plozz. Це не вплине на інші профілі."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hãy chọn “Thử lại” trước. Việc kết nối lại sẽ thay thế kết nối Trakt của hồ sơ này trên mọi thiết bị dùng Plozz của bạn. Các hồ sơ khác không bị ảnh hưởng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "请先选择“重试”。重新连接会替换您使用 Plozz 的所有设备上此个人资料的 Trakt 连接，不会影响其他个人资料。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "請先選擇「重試」。重新連線會取代您使用 Plozz 的所有裝置上此個人檔案的 Trakt 連線，不會影響其他個人檔案。"
           }
         }
       }
@@ -717550,45 +719531,9 @@
     },
     "Waiting for %lld imported playlists to finish syncing." : {
       "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Waiting for %lld imported playlist to finish syncing."
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Waiting for %lld imported playlists to finish syncing."
-                }
-              }
-            }
-          }
-        },
         "ar" : {
           "variations" : {
             "plural" : {
-              "zero" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
-                }
-              },
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -717601,7 +719546,25 @@
                   "value" : "بانتظار اكتمال مزامنة %lld قائمة تشغيل مستوردة."
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
               "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
+              "zero" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
@@ -717631,16 +719594,16 @@
         "ca" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "S’espera que s’acabi de sincronitzar %lld llista de reproducció importada."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "S’espera que s’acabin de sincronitzar %lld llistes de reproducció importades."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "S’espera que s’acabi de sincronitzar %lld llista de reproducció importada."
                 }
               },
               "other" : {
@@ -717655,12 +719618,6 @@
         "cs" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -717668,6 +719625,12 @@
                 }
               },
               "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
+                }
+              },
+              "one" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
@@ -717736,19 +719699,37 @@
             }
           }
         },
-        "es" : {
+        "en" : {
           "variations" : {
             "plural" : {
               "one" : {
                 "stringUnit" : {
                   "state" : "needs_review",
-                  "value" : "Esperando a que termine de sincronizarse %lld lista de reproducción importada."
+                  "value" : "Waiting for %lld imported playlist to finish syncing."
                 }
               },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Waiting for %lld imported playlists to finish syncing."
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Esperando a que terminen de sincronizarse %lld listas de reproducción importadas."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Esperando a que termine de sincronizarse %lld lista de reproducción importada."
                 }
               },
               "other" : {
@@ -717799,16 +719780,16 @@
         "fr" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "En attente de la fin de la synchronisation de %lld liste de lecture importée."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "En attente de la fin de la synchronisation de %lld listes de lecture importées."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "En attente de la fin de la synchronisation de %lld liste de lecture importée."
                 }
               },
               "other" : {
@@ -717829,13 +719810,13 @@
                   "value" : "בהמתנה לסיום הסנכרון של רשימת ההשמעה שיובאה (%lld)."
                 }
               },
-              "two" : {
+              "other" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "בהמתנה לסיום הסנכרון של %lld רשימות השמעה שיובאו."
                 }
               },
-              "other" : {
+              "two" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "בהמתנה לסיום הסנכרון של %lld רשימות השמעה שיובאו."
@@ -717865,16 +719846,16 @@
         "hr" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čeka se dovršetak sinkronizacije %lld uvezenog popisa za reprodukciju."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čeka se dovršetak sinkronizacije %lld uvezena popisa za reprodukciju."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se dovršetak sinkronizacije %lld uvezenog popisa za reprodukciju."
                 }
               },
               "other" : {
@@ -717919,16 +719900,16 @@
         "it" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "In attesa del completamento della sincronizzazione di %lld playlist importata."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "In attesa del completamento della sincronizzazione di %lld playlist importate."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "In attesa del completamento della sincronizzazione di %lld playlist importata."
                 }
               },
               "other" : {
@@ -718015,12 +719996,6 @@
         "pl" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanej listy odtwarzania."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718031,6 +720006,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanych list odtwarzania."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanej listy odtwarzania."
                 }
               },
               "other" : {
@@ -718045,16 +720026,16 @@
         "pt-BR" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Aguardando a conclusão da sincronização de %lld lista de reprodução importada."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Aguardando a conclusão da sincronização de %lld listas de reprodução importadas."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Aguardando a conclusão da sincronização de %lld lista de reprodução importada."
                 }
               },
               "other" : {
@@ -718069,16 +720050,16 @@
         "ro" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Se așteaptă finalizarea sincronizării pentru %lld listă de redare importată."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Se așteaptă finalizarea sincronizării pentru %lld liste de redare importate."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Se așteaptă finalizarea sincronizării pentru %lld listă de redare importată."
                 }
               },
               "other" : {
@@ -718093,12 +720074,6 @@
         "ru" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Ожидание завершения синхронизации %lld импортированного плейлиста."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718109,6 +720084,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Ожидание завершения синхронизации %lld импортированных плейлистов."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Ожидание завершения синхронизации %lld импортированного плейлиста."
                 }
               },
               "other" : {
@@ -718123,12 +720104,6 @@
         "sk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718136,6 +720111,12 @@
                 }
               },
               "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
+                }
+              },
+              "one" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
@@ -718153,25 +720134,25 @@
         "sl" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženega seznama predvajanja."
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženega seznama predvajanja."
+                }
+              },
               "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
+                }
+              },
+              "two" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
@@ -718183,16 +720164,16 @@
         "sr-Latn" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čeka se da se %lld uvezena lista za reprodukciju sinhronizuje do kraja."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čeka se da se %lld uvezene liste za reprodukciju sinhronizuju do kraja."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se da se %lld uvezena lista za reprodukciju sinhronizuje do kraja."
                 }
               },
               "other" : {
@@ -718255,12 +720236,6 @@
         "uk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Очікуємо завершення синхронізації %lld імпортованого списку відтворення."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718271,6 +720246,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Очікуємо завершення синхронізації %lld імпортованих списків відтворення."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Очікуємо завершення синхронізації %lld імпортованого списку відтворення."
                 }
               },
               "other" : {
@@ -825959,6 +827940,1602 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Trakt 拒絕了此 App 的 API 憑證。此應用程式可能已被移除，或其 API 存取權可能已不再有效。"
+          }
+        }
+      }
+    },
+    "trakt.sync.accountChanged" : {
+      "comment" : "Prevents sharing a previous iCloud account's Trakt grant into a different account.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The iCloud account changed. The previous account’s Trakt connection was not shared."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تغيّر حساب iCloud. لم تتم مشاركة اتصال Trakt الخاص بالحساب السابق."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Акаунтът в iCloud е променен. Връзката с Trakt от предишния акаунт не е споделена."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "El compte d’iCloud ha canviat. No s’ha compartit la connexió amb Trakt del compte anterior."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Účet služby iCloud se změnil. Připojení ke službě Trakt z předchozího účtu nebylo sdíleno."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-kontoen er ændret. Den tidligere kontos Trakt-forbindelse blev ikke delt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Das iCloud-Konto hat sich geändert. Die Trakt-Verbindung des vorherigen Kontos wurde nicht geteilt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ο λογαριασμός iCloud άλλαξε. Η σύνδεση Trakt του προηγούμενου λογαριασμού δεν κοινοποιήθηκε."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La cuenta de iCloud ha cambiado. No se ha compartido la conexión de Trakt de la cuenta anterior."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "حساب iCloud تغییر کرد. اتصال Trakt حساب قبلی به اشتراک گذاشته نشد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-tili vaihtui. Edellisen tilin Trakt-yhteyttä ei jaettu."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le compte iCloud a changé. La connexion Trakt du compte précédent n’a pas été partagée."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "חשבון iCloud השתנה. חיבור Trakt של החשבון הקודם לא שותף."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud खाता बदल गया है। पिछले खाते का Trakt कनेक्शन साझा नहीं किया गया।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Promijenio se račun za iCloud. Veza prethodnog računa s uslugom Trakt nije podijeljena."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Megváltozott az iCloud-fiók. Az előző fiók Trakt-kapcsolatát nem osztottuk meg."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Akun iCloud telah berubah. Koneksi Trakt dari akun sebelumnya tidak dibagikan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’account iCloud è cambiato. La connessione Trakt dell’account precedente non è stata condivisa."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloudアカウントが変更されました。以前のアカウントのTrakt接続は共有されませんでした。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 계정이 변경되었습니다. 이전 계정의 Trakt 연결은 공유되지 않았습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Akaun iCloud telah bertukar. Sambungan Trakt akaun sebelumnya tidak dikongsi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-kontoen er endret. Trakt-tilkoblingen fra den forrige kontoen ble ikke delt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Het iCloud-account is gewijzigd. De Trakt-verbinding van het vorige account is niet gedeeld."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Konto iCloud zostało zmienione. Połączenie z Trakt powiązane z poprzednim kontem iCloud nie zostało udostępnione."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A conta do iCloud mudou. A conexão com o Trakt da conta anterior não foi compartilhada."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Contul iCloud s-a schimbat. Conexiunea Trakt a contului anterior nu a fost partajată."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Учётная запись iCloud изменилась. Подключение Trakt из предыдущей учётной записи не было передано."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Účet iCloud sa zmenil. Pripojenie predchádzajúceho účtu k službe Trakt nebolo zdieľané."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Račun iCloud se je spremenil. Povezava prejšnjega računa s storitvijo Trakt ni bila dana v skupno rabo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud nalog je promenjen. Trakt veza prethodnog naloga nije podeljena."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud-kontot har ändrats. Det tidigare kontots Trakt-anslutning delades inte."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "มีการเปลี่ยนบัญชี iCloud จึงไม่ได้แชร์การเชื่อมต่อ Trakt ของบัญชีก่อนหน้า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud hesabı değişti. Önceki hesabın Trakt bağlantısı paylaşılmadı."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Обліковий запис iCloud змінився. Підключення Trakt попереднього облікового запису не передано до нового."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tài khoản iCloud đã thay đổi. Kết nối Trakt của tài khoản trước đó không được chia sẻ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 账户已更改。之前账户的 Trakt 连接未共享到新账户。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 帳號已變更。先前帳號的 Trakt 連線並未共享至新帳號。"
+          }
+        }
+      }
+    },
+    "trakt.sync.changed" : {
+      "comment" : "A newer shared Trakt authorization superseded this device's pending change.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This Trakt connection was changed on another device. Try again."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تم تغيير اتصال Trakt هذا على جهاز آخر. حاول مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Тази връзка с Trakt е променена на друго устройство. Опитайте отново."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aquesta connexió amb Trakt s’ha canviat en un altre dispositiu. Torna-ho a provar."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toto připojení ke službě Trakt bylo změněno na jiném zařízení. Zkuste to znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne Trakt-forbindelse er ændret på en anden enhed. Prøv igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diese Trakt-Verbindung wurde auf einem anderen Gerät geändert. Versuche es noch einmal."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αυτή η σύνδεση Trakt άλλαξε σε άλλη συσκευή. Δοκιμάστε ξανά."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta conexión de Trakt se ha cambiado en otro dispositivo. Inténtalo de nuevo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "این اتصال Trakt در دستگاه دیگری تغییر کرده است. دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tätä Trakt-yhteyttä muutettiin toisella laitteella. Yritä uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cette connexion Trakt a été modifiée sur un autre appareil. Réessayez."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "החיבור הזה ל-Trakt השתנה במכשיר אחר. נסה שוב."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "यह Trakt कनेक्शन किसी दूसरे डिवाइस पर बदल दिया गया है। फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ova veza s uslugom Trakt promijenjena je na drugom uređaju. Pokušajte ponovno."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ezt a Trakt-kapcsolatot egy másik eszközön módosították. Próbálja újra."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koneksi Trakt ini telah diubah di perangkat lain. Coba lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Questa connessione Trakt è stata modificata su un altro dispositivo. Riprova."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このTrakt接続は別のデバイスで変更されました。もう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "다른 기기에서 이 Trakt 연결이 변경되었습니다. 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sambungan Trakt ini telah diubah pada peranti lain. Cuba lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne Trakt-tilkoblingen ble endret på en annen enhet. Prøv igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deze Trakt-verbinding is op een ander apparaat gewijzigd. Probeer het opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "To połączenie z Trakt zostało zmienione na innym urządzeniu. Spróbuj ponownie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta conexão com o Trakt foi alterada em outro dispositivo. Tente novamente."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Această conexiune Trakt a fost modificată pe alt dispozitiv. Încearcă din nou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Это подключение Trakt было изменено на другом устройстве. Повторите попытку."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toto pripojenie k službe Trakt bolo zmenené na inom zariadení. Skúste to znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ta povezava s storitvijo Trakt je bila spremenjena v drugi napravi. Poskusite znova."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ova Trakt veza je promenjena na drugom uređaju. Pokušajte ponovo."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den här Trakt-anslutningen har ändrats på en annan enhet. Försök igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "มีการเปลี่ยนแปลงการเชื่อมต่อ Trakt นี้บนอุปกรณ์อื่น โปรดลองอีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu Trakt bağlantısı başka bir aygıtta değiştirildi. Tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Це підключення Trakt змінено на іншому пристрої. Спробуйте ще раз."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kết nối Trakt này đã được thay đổi trên thiết bị khác. Hãy thử lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此 Trakt 连接已在其他设备上更改。请重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此 Trakt 連線已在其他裝置上變更。請再試一次。"
+          }
+        }
+      }
+    },
+    "trakt.sync.retry" : {
+      "comment" : "A refresh was safely deferred or throttled. Retry the existing shared connection, not a new authorization.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Trakt could not renew this connection yet. Wait a moment, then retry. You do not need to sign in again."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لم يتمكّن Trakt من تجديد هذا الاتصال بعد. انتظر قليلًا، ثم أعد المحاولة. لا حاجة إلى تسجيل الدخول مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt все още не може да поднови тази връзка. Изчакайте малко и опитайте отново. Не е нужно да влизате отново в акаунта си."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt encara no ha pogut renovar aquesta connexió. Espera un moment i torna-ho a provar. No cal que tornis a iniciar sessió."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt zatím nemohl obnovit toto připojení. Chvíli počkejte a zkuste to znovu. Nemusíte se znovu přihlašovat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt har endnu ikke kunnet forny denne forbindelse. Vent et øjeblik, og prøv igen. Du behøver ikke logge ind igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt konnte diese Verbindung noch nicht erneuern. Warte einen Moment und versuche es dann erneut. Du musst dich nicht erneut anmelden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Trakt δεν μπόρεσε ακόμη να ανανεώσει αυτή τη σύνδεση. Περιμένετε λίγο και δοκιμάστε ξανά. Δεν χρειάζεται να συνδεθείτε ξανά στον λογαριασμό σας."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt aún no ha podido renovar esta conexión. Espera un momento y vuelve a intentarlo. No hace falta que vuelvas a iniciar sesión."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt هنوز نتوانسته این اتصال را تمدید کند. کمی صبر کنید و دوباره تلاش کنید. نیازی به ورود دوباره به حساب نیست."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt ei ole vielä voinut uusia tätä yhteyttä. Odota hetki ja yritä uudelleen. Sinun ei tarvitse kirjautua uudelleen sisään."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt n’a pas encore pu renouveler cette connexion. Patientez un instant, puis réessayez. Vous n’avez pas besoin de vous connecter à nouveau à votre compte."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt עדיין לא הצליח לחדש חיבור זה. המתן רגע ונסה שוב. אין צורך להיכנס שוב לחשבון."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt अभी इस कनेक्शन को नवीनीकृत नहीं कर सका। थोड़ा इंतज़ार करें, फिर से कोशिश करें। दोबारा साइन इन करने की ज़रूरत नहीं है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt još nije uspio obnoviti ovu vezu. Pričekajte trenutak pa pokušajte ponovno. Ne morate se ponovno prijavljivati."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Trakt még nem tudta megújítani ezt a kapcsolatot. Várjon egy kicsit, majd próbálja újra. Nem kell újra bejelentkeznie."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt belum dapat memperbarui koneksi ini. Tunggu sebentar, lalu coba lagi. Anda tidak perlu masuk lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt non è ancora riuscito a rinnovare questa connessione. Attendi un momento, poi riprova. Non devi accedere di nuovo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このTrakt接続はまだ更新できていません。しばらく待ってから再試行してください。再ログインは不要です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt에서 아직 이 연결을 갱신하지 못했습니다. 잠시 기다린 후 다시 시도하세요. 다시 로그인할 필요는 없습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt belum dapat memperbaharui sambungan ini. Tunggu sebentar, kemudian cuba lagi. Anda tidak perlu log masuk semula."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt har ikke kunnet fornye denne tilkoblingen ennå. Vent litt, og prøv igjen. Du trenger ikke å logge inn på nytt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt kon deze verbinding nog niet vernieuwen. Wacht even en probeer het opnieuw. Je hoeft niet opnieuw in te loggen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt nie zdołał jeszcze odnowić tego połączenia. Poczekaj chwilę i spróbuj ponownie. Nie musisz logować się ponownie."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Trakt ainda não conseguiu renovar esta conexão. Aguarde um momento e tente novamente. Você não precisa iniciar sessão novamente."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt nu a putut reînnoi încă această conexiune. Așteaptă puțin, apoi reîncearcă. Nu trebuie să te autentifici din nou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt пока не удалось обновить это подключение. Немного подождите и повторите попытку. Входить в учётную запись заново не нужно."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Službe Trakt sa zatiaľ nepodarilo obnoviť toto pripojenie. Chvíľu počkajte a skúste to znova. Nemusíte sa znova prihlasovať."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Storitvi Trakt te povezave še ni uspelo obnoviti. Malo počakajte in poskusite znova. Ni se vam treba znova prijaviti."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt još nije uspeo da obnovi ovu vezu. Sačekajte malo, pa pokušajte ponovo. Ne morate ponovo da se prijavite."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt har inte kunnat förnya anslutningen ännu. Vänta en stund och försök igen. Du behöver inte logga in igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt ยังไม่สามารถต่ออายุการเชื่อมต่อนี้ได้ โปรดรอสักครู่แล้วลองอีกครั้ง ไม่จำเป็นต้องลงชื่อเข้าใช้อีก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt bu bağlantıyı henüz yenileyemedi. Biraz bekleyip yeniden deneyin. Tekrar giriş yapmanız gerekmiyor."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt поки що не може поновити це підключення. Зачекайте трохи й повторіть спробу. Входити знову не потрібно."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt chưa thể gia hạn kết nối này. Hãy đợi một lát rồi thử lại. Bạn không cần đăng nhập lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt 暂时无法延长此连接的有效期。请稍等片刻后重试，无需重新登录。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt 暫時無法延長此連線的有效期限。請稍候再試，無須重新登入。"
+          }
+        }
+      }
+    },
+    "trakt.sync.unavailable" : {
+      "comment" : "Shared Trakt authorization is retained while iCloud is unavailable.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "iCloud is unavailable. Your Trakt connection is saved; try again when iCloud is available."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "خدمة iCloud غير متاحة. اتصالك بـ Trakt محفوظ؛ حاول مرة أخرى عندما تتوفر خدمة iCloud."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud не е наличен. Връзката ви с Trakt е запазена. Опитайте отново, когато iCloud е достъпен."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’iCloud no està disponible. La teva connexió amb Trakt està desada; torna-ho a provar quan l’iCloud estigui disponible."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Služba iCloud není dostupná. Vaše připojení ke službě Trakt je uložené. Zkuste to znovu, až bude iCloud dostupný."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud er ikke tilgængelig. Din Trakt-forbindelse er gemt. Prøv igen, når iCloud er tilgængelig."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud ist nicht verfügbar. Deine Trakt-Verbindung bleibt gespeichert. Versuche es erneut, sobald iCloud verfügbar ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το iCloud δεν είναι διαθέσιμο. Η σύνδεσή σας με το Trakt παραμένει αποθηκευμένη. Δοκιμάστε ξανά όταν το iCloud γίνει διαθέσιμο."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud no está disponible. Tu conexión de Trakt sigue guardada; vuelve a intentarlo cuando iCloud esté disponible."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud در دسترس نیست. اتصال شما به Trakt ذخیره شده است؛ وقتی iCloud دوباره در دسترس قرار گرفت، دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud ei ole käytettävissä. Trakt-yhteytesi on tallessa. Yritä uudelleen, kun iCloud on käytettävissä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud est indisponible. Votre connexion Trakt reste enregistrée ; réessayez quand iCloud sera disponible."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud אינו זמין. החיבור שלך ל-Trakt עדיין שמור; נסה שוב כש-iCloud יהיה זמין."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud उपलब्ध नहीं है। आपका Trakt कनेक्शन सहेजा हुआ है। iCloud उपलब्ध होने पर फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud nije dostupan. Vaša veza s uslugom Trakt ostaje spremljena. Pokušajte ponovno kad iCloud bude dostupan."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az iCloud nem érhető el. Trakt-kapcsolata továbbra is mentve van. Próbálja újra, amikor az iCloud elérhető."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud tidak tersedia. Koneksi Trakt Anda tetap tersimpan. Coba lagi saat iCloud tersedia."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud non è disponibile. La connessione Trakt resta salvata; riprova quando iCloud sarà disponibile."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloudを利用できません。Trakt接続は保存されています。iCloudが利用可能になったら、もう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud를 사용할 수 없습니다. Trakt 연결은 저장되어 있습니다. iCloud를 사용할 수 있게 되면 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud tidak tersedia. Sambungan Trakt anda masih disimpan; cuba lagi apabila iCloud tersedia."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud er utilgjengelig. Trakt-tilkoblingen din er lagret. Prøv igjen når iCloud er tilgjengelig."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud is niet beschikbaar. Je Trakt-verbinding is opgeslagen. Probeer het opnieuw wanneer iCloud beschikbaar is."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud jest niedostępny. Twoje połączenie z Trakt pozostaje zapisane. Spróbuj ponownie, gdy iCloud będzie dostępny."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O iCloud está indisponível. Sua conexão com o Trakt continua salva. Tente novamente quando o iCloud estiver disponível."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud nu este disponibil. Conexiunea ta Trakt rămâne salvată; încearcă din nou când iCloud devine disponibil."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud недоступен. Ваше подключение Trakt сохранено; повторите попытку, когда iCloud станет доступен."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Služba iCloud nie je dostupná. Vaše pripojenie k službe Trakt zostáva uložené; skúste to znova, keď bude iCloud dostupný."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud ni na voljo. Vaša povezava s storitvijo Trakt ostaja shranjena; poskusite znova, ko bo iCloud na voljo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud nije dostupan. Vaša Trakt veza ostaje sačuvana; pokušajte ponovo kada iCloud bude dostupan."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud är inte tillgängligt. Din Trakt-anslutning är sparad. Försök igen när iCloud är tillgängligt."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud ไม่พร้อมใช้งาน ระบบยังเก็บการเชื่อมต่อ Trakt ของคุณไว้ โปรดลองอีกครั้งเมื่อ iCloud พร้อมใช้งาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud kullanılamıyor. Trakt bağlantınız kayıtlı tutuluyor; iCloud kullanılabilir olduğunda tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud недоступний. Ваше підключення Trakt збережено; спробуйте ще раз, коли iCloud стане доступним."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud hiện không khả dụng. Kết nối Trakt của bạn vẫn được lưu; hãy thử lại khi iCloud khả dụng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 当前不可用。您的 Trakt 连接已保留，请在 iCloud 可用后重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "iCloud 目前無法使用。您的 Trakt 連線已保留，請在 iCloud 恢復可用後再試一次。"
+          }
+        }
+      }
+    },
+    "trakt.sync.unverified" : {
+      "comment" : "The saved shared Trakt grant could not be verified safely.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The shared Trakt connection could not be verified. Try syncing again."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذّر التحقق من اتصال Trakt المشترك. حاول المزامنة مرة أخرى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Споделената връзка с Trakt не можа да бъде проверена. Опитайте да синхронизирате отново."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No s’ha pogut verificar la connexió compartida amb Trakt. Torna a provar de sincronitzar."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sdílené připojení ke službě Trakt se nepodařilo ověřit. Zkuste znovu synchronizovat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den delte Trakt-forbindelse kunne ikke bekræftes. Prøv at synkronisere igen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die gemeinsam genutzte Trakt-Verbindung konnte nicht überprüft werden. Versuche, erneut zu synchronisieren."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Δεν ήταν δυνατή η επαλήθευση της σύνδεσης Trakt που μοιράζονται οι συσκευές αυτού του προφίλ. Δοκιμάστε να συγχρονίσετε ξανά."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "No se ha podido verificar la conexión compartida de Trakt. Intenta sincronizar de nuevo."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "امکان تأیید اتصال Trakt که بین دستگاه‌های این نمایه مشترک است وجود نداشت. همگام‌سازی را دوباره امتحان کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Jaettua Trakt-yhteyttä ei voitu varmistaa. Yritä synkronoida uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La connexion Trakt partagée n’a pas pu être vérifiée. Réessayez de synchroniser."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן היה לאמת את החיבור המשותף ל-Trakt. נסה לסנכרן שוב."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "साझा Trakt कनेक्शन की पुष्टि नहीं हो सकी। फिर से सिंक करने की कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Provjera dijeljene veze s uslugom Trakt nije uspjela. Pokušajte ponovno sinkronizirati."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A megosztott Trakt-kapcsolatot nem sikerült ellenőrizni. Próbálja újra a szinkronizálást."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koneksi Trakt yang dibagikan tidak dapat diverifikasi. Coba sinkronkan lagi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Impossibile verificare la connessione Trakt condivisa. Riprova a sincronizzare."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "共有されたTrakt接続を確認できませんでした。同期をもう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "공유된 Trakt 연결을 확인하지 못했습니다. 동기화를 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sambungan Trakt yang dikongsi tidak dapat disahkan. Cuba segerakkan semula."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kunne ikke bekrefte den delte Trakt-tilkoblingen. Prøv å synkronisere igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De gedeelde Trakt-verbinding kon niet worden geverifieerd. Probeer opnieuw te synchroniseren."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nie udało się zweryfikować współdzielonego połączenia z Trakt. Spróbuj ponownie uruchomić synchronizację."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Não foi possível verificar a conexão compartilhada com o Trakt. Tente sincronizar novamente."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Conexiunea Trakt partajată nu a putut fi verificată. Încearcă să sincronizezi din nou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не удалось проверить подключение Trakt, общее для устройств этого профиля. Повторите синхронизацию."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zdieľané pripojenie k službe Trakt sa nepodarilo overiť. Skúste synchronizovať znova."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Povezave s storitvijo Trakt v skupni rabi ni bilo mogoče preveriti. Poskusite znova sinhronizirati."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Provera deljene Trakt veze nije uspela. Pokušajte ponovo da pokrenete sinhronizaciju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Det gick inte att verifiera den delade Trakt-anslutningen. Försök synkronisera igen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่สามารถยืนยันการเชื่อมต่อ Trakt ที่แชร์ไว้ได้ โปรดลองซิงก์อีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Paylaşılan Trakt bağlantısı doğrulanamadı. Eşzamanlamayı yeniden deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Не вдалося перевірити спільне підключення Trakt. Спробуйте виконати синхронізацію ще раз."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Không thể xác minh kết nối Trakt được chia sẻ. Hãy thử đồng bộ lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "无法验证共享的 Trakt 连接。请尝试重新同步。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "無法驗證共享的 Trakt 連線。請嘗試再次同步。"
+          }
+        }
+      }
+    },
+    "trakt.sync.updating" : {
+      "comment" : "Trakt shared refresh is owned by another device; retry rather than signing in again.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Another device is updating this Trakt connection. Try again shortly."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يُحدِّث جهاز آخر اتصال Trakt هذا. حاول مرة أخرى بعد قليل."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Друго устройство актуализира тази връзка с Trakt. Опитайте отново след малко."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Un altre dispositiu està actualitzant aquesta connexió amb Trakt. Torna-ho a provar d’aquí a un moment."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Jiné zařízení aktualizuje toto připojení ke službě Trakt. Zkuste to za chvíli znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "En anden enhed opdaterer denne Trakt-forbindelse. Prøv igen om lidt."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ein anderes Gerät aktualisiert diese Trakt-Verbindung. Versuche es in Kürze erneut."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Μια άλλη συσκευή ενημερώνει αυτή τη σύνδεση Trakt. Δοκιμάστε ξανά σε λίγο."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otro dispositivo está actualizando esta conexión de Trakt. Vuelve a intentarlo dentro de un momento."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "دستگاه دیگری در حال به‌روزرسانی این اتصال Trakt است. کمی بعد دوباره تلاش کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toinen laite päivittää tätä Trakt-yhteyttä. Yritä hetken kuluttua uudelleen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Un autre appareil met à jour cette connexion Trakt. Réessayez dans un instant."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "מכשיר אחר מעדכן את החיבור הזה ל-Trakt. נסה שוב בעוד רגע."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "कोई दूसरा डिवाइस इस Trakt कनेक्शन को अपडेट कर रहा है। थोड़ी देर बाद फिर से कोशिश करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Drugi uređaj ažurira ovu vezu s uslugom Trakt. Pokušajte ponovno za nekoliko trenutaka."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Egy másik eszköz frissíti ezt a Trakt-kapcsolatot. Próbálja újra egy kis idő múlva."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Perangkat lain sedang memperbarui koneksi Trakt ini. Coba lagi setelah beberapa saat."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Un altro dispositivo sta aggiornando questa connessione Trakt. Riprova tra poco."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "別のデバイスがこのTrakt接続を更新中です。しばらくしてからもう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "다른 기기에서 이 Trakt 연결을 업데이트하고 있습니다. 잠시 후 다시 시도하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Peranti lain sedang mengemas kini sambungan Trakt ini. Cuba lagi sebentar lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "En annen enhet oppdaterer denne Trakt-tilkoblingen. Prøv igjen om litt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Een ander apparaat werkt deze Trakt-verbinding bij. Probeer het over een ogenblik opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Inne urządzenie aktualizuje to połączenie z Trakt. Spróbuj ponownie za chwilę."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Outro dispositivo está atualizando esta conexão com o Trakt. Tente novamente em instantes."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Un alt dispozitiv actualizează această conexiune Trakt. Încearcă din nou în câteva momente."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Другое устройство обновляет это подключение Trakt. Повторите попытку чуть позже."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Iné zariadenie aktualizuje toto pripojenie k službe Trakt. Skúste to znova o chvíľu."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Druga naprava posodablja to povezavo s storitvijo Trakt. Poskusite znova čez nekaj trenutkov."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Drugi uređaj ažurira ovu Trakt vezu. Pokušajte ponovo za koji trenutak."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "En annan enhet uppdaterar den här Trakt-anslutningen. Försök igen om en stund."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อุปกรณ์อื่นกำลังอัปเดตการเชื่อมต่อ Trakt นี้ โปรดลองอีกครั้งในอีกสักครู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Başka bir aygıt bu Trakt bağlantısını güncelliyor. Kısa bir süre sonra tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Інший пристрій оновлює це підключення Trakt. Спробуйте ще раз трохи згодом."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Một thiết bị khác đang cập nhật kết nối Trakt này. Hãy thử lại sau giây lát."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "另一台设备正在更新此 Trakt 连接。请稍后重试。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "另一部裝置正在更新此 Trakt 連線。請稍後再試。"
+          }
+        }
+      }
+    },
+    "trakt.sync.waitingForOwner" : {
+      "comment" : "A single-use refresh may have completed on another device. Never replay it; retry recovery or explicitly reconnect the shared profile.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The device renewing Trakt has not shared its result yet. Open Plozz on that device and retry. If it cannot recover, reconnect this profile once to restore all devices."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لم يشارك الجهاز الذي يجدّد اتصال Trakt نتيجته بعد. افتح Plozz على ذلك الجهاز وأعد المحاولة. إذا لم يتمكّن من استعادة الاتصال، فأعد الاتصال بـ Trakt لهذا الملف الشخصي مرة واحدة لاستعادة الاتصال على جميع الأجهزة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Устройството, което подновява връзката с Trakt, още не е споделило резултата. Отворете Plozz на това устройство и опитайте отново. Ако връзката не може да се възстанови, свържете отново този профил с Trakt само веднъж, за да възстановите връзката на всички устройства."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "El dispositiu que està renovant la connexió amb Trakt encara no ha compartit el resultat. Obre Plozz en aquell dispositiu i torna-ho a provar. Si no es pot recuperar la connexió, torna a connectar aquest perfil amb Trakt una sola vegada per restablir-la a tots els dispositius."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zařízení, které obnovuje připojení ke službě Trakt, zatím nesdílelo výsledek. Otevřete na něm Plozz a zkuste to znovu. Pokud se připojení nepodaří obnovit, znovu připojte tento profil ke službě Trakt pouze jednou, abyste obnovili připojení na všech zařízeních."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enheden, der fornyer Trakt-forbindelsen, har endnu ikke delt resultatet. Åbn Plozz på den enhed, og prøv igen. Hvis forbindelsen ikke kan gendannes, skal du genoprette denne profils forbindelse til Trakt én gang for at gendanne forbindelsen på alle enheder."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Das Gerät, das die Trakt-Verbindung erneuert, hat sein Ergebnis noch nicht geteilt. Öffne Plozz auf diesem Gerät und versuche es erneut. Falls sich die Verbindung nicht wiederherstellen lässt, verbinde dieses Profil einmal erneut mit Trakt, um die Verbindung auf allen Geräten wiederherzustellen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η συσκευή που ανανεώνει τη σύνδεση Trakt δεν έχει κοινοποιήσει ακόμη το αποτέλεσμα. Ανοίξτε το Plozz σε εκείνη τη συσκευή και δοκιμάστε ξανά. Αν δεν είναι δυνατή η αποκατάσταση της σύνδεσης, επανασυνδέστε το Trakt για αυτό το προφίλ μία φορά για να αποκατασταθεί η σύνδεση σε όλες τις συσκευές."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "El dispositivo que está renovando la conexión de Trakt aún no ha compartido el resultado. Abre Plozz en ese dispositivo y vuelve a intentarlo. Si no se puede recuperar la conexión, vuelve a conectar Trakt para este perfil una sola vez para restablecer la conexión en todos los dispositivos."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "دستگاهی که اتصال Trakt را تمدید می‌کند هنوز نتیجه را به اشتراک نگذاشته است. Plozz را در آن دستگاه باز کنید و دوباره تلاش کنید. اگر بازیابی اتصال ممکن نیست، این نمایه را فقط یک بار دوباره به Trakt متصل کنید تا اتصال در همهٔ دستگاه‌ها بازیابی شود."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt-yhteyttä uusiva laite ei ole vielä jakanut tulosta. Avaa Plozz kyseisellä laitteella ja yritä uudelleen. Jos yhteyttä ei saada palautettua, yhdistä tämä profiili Traktiin kerran uudelleen, jotta yhteys palautuu kaikilla laitteilla."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’appareil qui renouvelle la connexion Trakt n’a pas encore partagé le résultat. Ouvrez Plozz sur cet appareil et réessayez. Si la connexion ne peut pas être rétablie, reconnectez Trakt pour ce profil une seule fois pour rétablir la connexion sur tous les appareils."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "המכשיר שמחדש את החיבור ל-Trakt עדיין לא שיתף את התוצאה. פתח את Plozz באותו מכשיר ונסה שוב. אם לא ניתן לשחזר את החיבור, חבר מחדש את Trakt לפרופיל זה פעם אחת כדי לשחזר את החיבור בכל המכשירים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt कनेक्शन का नवीनीकरण करने वाले डिवाइस ने अभी तक नतीजा साझा नहीं किया है। उस डिवाइस पर Plozz खोलें और फिर से कोशिश करें। अगर कनेक्शन बहाल न हो सके, तो सभी डिवाइस पर कनेक्शन बहाल करने के लिए इस प्रोफ़ाइल को Trakt से एक बार फिर कनेक्ट करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uređaj koji obnavlja vezu s uslugom Trakt još nije podijelio rezultat. Otvorite Plozz na tom uređaju i pokušajte ponovno. Ako se veza ne može obnoviti, ponovno povežite ovaj profil s uslugom Trakt samo jednom kako biste obnovili vezu na svim uređajima."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Trakt-kapcsolatot megújító eszköz még nem osztotta meg az eredményt. Nyissa meg rajta a Plozz alkalmazást, majd próbálja újra. Ha a kapcsolat nem állítható helyre, egyszer csatlakoztassa újra ezt a profilt a Trakt szolgáltatáshoz, hogy minden eszközön helyreálljon a kapcsolat."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Perangkat yang memperbarui koneksi Trakt belum membagikan hasilnya. Buka Plozz di perangkat tersebut, lalu coba lagi. Jika koneksi tidak dapat dipulihkan, sambungkan ulang profil ini ke Trakt satu kali untuk memulihkan koneksi di semua perangkat."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Il dispositivo che sta rinnovando la connessione Trakt non ha ancora condiviso il risultato. Apri Plozz su quel dispositivo e riprova. Se non è possibile ripristinare la connessione, riconnetti questo profilo a Trakt una sola volta per ripristinarla su tutti i dispositivi."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt接続を更新しているデバイスが、まだ結果を共有していません。そのデバイスでPlozzを開き、再試行してください。接続を復旧できない場合は、このプロフィールでTraktに一度再接続すると、すべてのデバイスの接続を復旧できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt 연결을 갱신 중인 기기에서 아직 결과를 공유하지 않았습니다. 해당 기기에서 Plozz를 열고 다시 시도하세요. 연결이 복구되지 않으면 이 프로필을 Trakt에 한 번만 다시 연결해 모든 기기의 연결을 복구하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Peranti yang memperbaharui sambungan Trakt belum berkongsi hasilnya. Buka Plozz pada peranti itu dan cuba lagi. Jika sambungan tidak dapat dipulihkan, sambungkan semula profil ini ke Trakt sekali sahaja bagi memulihkan sambungan pada semua peranti."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enheten som fornyer Trakt-tilkoblingen, har ikke delt resultatet ennå. Åpne Plozz på den enheten, og prøv igjen. Hvis tilkoblingen ikke kan gjenopprettes, kobler du denne profilen til Trakt på nytt én gang for å gjenopprette tilkoblingen på alle enheter."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Het apparaat dat de Trakt-verbinding vernieuwt, heeft het resultaat nog niet gedeeld. Open Plozz op dat apparaat en probeer het opnieuw. Als de verbinding niet kan worden hersteld, verbind dit profiel dan één keer opnieuw met Trakt om de verbinding op alle apparaten te herstellen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Urządzenie odnawiające połączenie z Trakt nie udostępniło jeszcze wyniku. Otwórz Plozz na tym urządzeniu i spróbuj ponownie. Jeśli połączenia nie da się odzyskać, połącz ten profil z Trakt ponownie tylko raz, aby przywrócić połączenie na wszystkich urządzeniach."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O dispositivo que está renovando a conexão com o Trakt ainda não compartilhou o resultado. Abra o Plozz nesse dispositivo e tente novamente. Se não for possível recuperar a conexão, reconecte este perfil ao Trakt uma única vez para restaurar a conexão em todos os dispositivos."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dispozitivul care reînnoiește conexiunea Trakt nu a partajat încă rezultatul. Deschide Plozz pe acel dispozitiv și reîncearcă. Dacă nu poate restabili conexiunea, reconectează acest profil o singură dată pentru a restabili conexiunea pe toate dispozitivele."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Устройство, обновляющее подключение Trakt, ещё не передало результат. Откройте Plozz на нём и повторите попытку. Если восстановить подключение не удаётся, один раз повторно подключите Trakt для этого профиля, чтобы восстановить подключение на всех устройствах."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zariadenie obnovujúce pripojenie k službe Trakt zatiaľ nezdieľalo výsledok. Otvorte na ňom Plozz a skúste to znova. Ak sa pripojenie nepodarí obnoviť, znova pripojte tento profil k službe Trakt len raz, čím obnovíte pripojenie na všetkých zariadeniach."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Naprava, ki obnavlja povezavo s storitvijo Trakt, še ni delila rezultata. V tej napravi odprite Plozz in poskusite znova. Če povezave ni mogoče obnoviti, ta profil enkrat znova povežite s storitvijo Trakt, da obnovite povezavo v vseh napravah."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uređaj koji obnavlja Trakt vezu još nije podelio rezultat. Otvorite Plozz na tom uređaju i pokušajte ponovo. Ako veza ne može da se obnovi, ponovo povežite ovaj profil samo jednom da biste obnovili vezu na svim uređajima."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Enheten som förnyar Trakt-anslutningen har inte delat resultatet ännu. Öppna Plozz på den enheten och försök igen. Om anslutningen inte kan återställas återanslut den här profilen en gång för att återställa anslutningen på alla enheter."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "อุปกรณ์ที่กำลังต่ออายุการเชื่อมต่อ Trakt ยังไม่ได้แชร์ผลลัพธ์ ให้เปิด Plozz บนอุปกรณ์นั้นแล้วลองอีกครั้ง หากกู้คืนไม่ได้ ให้เชื่อมต่อ Trakt ใหม่สำหรับโปรไฟล์นี้เพียงครั้งเดียวเพื่อกู้คืนการเชื่อมต่อบนอุปกรณ์ทุกเครื่อง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trakt bağlantısını yenileyen aygıt henüz sonucu paylaşmadı. O aygıtta Plozz’u açıp yeniden deneyin. Bağlantı kurtarılamazsa tüm aygıtlarda geri yüklemek için bu profili Trakt’a bir kez yeniden bağlayın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Пристрій, який поновлює підключення Trakt, ще не надіслав результат. Відкрийте Plozz на тому пристрої та повторіть спробу. Якщо відновити підключення не вдасться, повторно підключіть Trakt для цього профілю один раз, щоб відновити його на всіх пристроях."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Thiết bị đang gia hạn kết nối Trakt chưa chia sẻ kết quả. Hãy mở Plozz trên thiết bị đó rồi thử lại. Nếu không thể khôi phục kết nối, hãy kết nối lại Trakt cho hồ sơ này một lần để khôi phục kết nối trên tất cả thiết bị."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在延长 Trakt 连接有效期的设备尚未共享结果。请在该设备上打开 Plozz 后重试。如果仍无法恢复，请为此个人资料重新连接 Trakt 一次，以恢复所有设备上的连接。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "正在延長 Trakt 連線有效期限的裝置尚未共享結果。請在該裝置上開啟 Plozz 後重試。如果仍無法恢復，請為此個人檔案重新連線至 Trakt 一次，以恢復所有裝置上的連線。"
           }
         }
       }
