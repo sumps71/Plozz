@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     " Reduced qualities are transcoded by your media server." : {
       "localizations" : {
         "ar" : {
@@ -99705,6 +99708,9 @@
         }
       }
     },
+    "Add a playlist or sign in." : {
+
+    },
     "Add a profile, or change the one you have." : {
       "comment" : "Subtitle of the profile picker while editing, when the household has only one profile so there is nothing to switch between.",
       "localizations" : {
@@ -101467,6 +101473,7 @@
       }
     },
     "Add channels with an M3U or M3U8 playlist URL." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -101906,6 +101913,9 @@
         }
       }
     },
+    "Add guide" : {
+
+    },
     "Add guide only" : {
       "localizations" : {
         "ar" : {
@@ -102125,6 +102135,9 @@
           }
         }
       }
+    },
+    "Add header" : {
+
     },
     "Add media to your server or connect another source." : {
       "localizations" : {
@@ -102347,6 +102360,7 @@
       }
     },
     "Add playlist" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -103667,6 +103681,15 @@
         }
       }
     },
+    "Adding live channels: %lld" : {
+
+    },
+    "Adding movies: %lld" : {
+
+    },
+    "Adding series: %lld" : {
+
+    },
     "Adding subtitle…" : {
       "comment" : "Progress status shown in the iOS player subtitle search panel while a subtitle file is being added.",
       "localizations" : {
@@ -103887,6 +103910,9 @@
           }
         }
       }
+    },
+    "Additional guide URL" : {
+
     },
     "Address" : {
       "comment" : "Label for a server or share address, used when adding a network share and when showing a saved account's server URL in settings.",
@@ -104988,6 +105014,9 @@
           }
         }
       }
+    },
+    "Advanced options" : {
+
     },
     "Adventure" : {
       "comment" : "Category header in the profile avatar emoji picker for the adventure-themed emoji group.",
@@ -111597,6 +111626,9 @@
           }
         }
       }
+    },
+    "An individual IPTV catalogue entry exceeds the supported size." : {
+
     },
     "Animals" : {
       "comment" : "Category header in the profile avatar symbol picker for animal-themed icons.",
@@ -120421,7 +120453,6 @@
     },
     "Authentication" : {
       "comment" : "Section header in the iOS add-share forms for entering sign-in details.",
-      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -151582,6 +151613,7 @@
       }
     },
     "Channel preferences are kept." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -154223,6 +154255,9 @@
           }
         }
       }
+    },
+    "Check the address, guide URL, and authentication fields. Header names must be unique." : {
+
     },
     "Check the other device shows the same number before continuing." : {
       "localizations" : {
@@ -160386,6 +160421,9 @@
         }
       }
     },
+    "Checking your connection" : {
+
+    },
     "Checking your connection before opening Live TV." : {
       "localizations" : {
         "ar" : {
@@ -164570,7 +164608,11 @@
         }
       }
     },
+    "Choose a source to start watching." : {
+
+    },
     "Choose a source to start watching. You can add more later." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -166556,6 +166598,9 @@
           }
         }
       }
+    },
+    "Choose playlist file" : {
+
     },
     "Choose seasons and review their request status." : {
       "localizations" : {
@@ -181852,6 +181897,9 @@
         }
       }
     },
+    "Connect as IPTV account" : {
+
+    },
     "Connect one Overseerr or Jellyseerr server for the household. Each Plozz profile can make requests as a different user." : {
       "localizations" : {
         "ar" : {
@@ -182071,6 +182119,9 @@
           }
         }
       }
+    },
+    "Connect provider" : {
+
     },
     "Connect to Silo" : {
       "localizations" : {
@@ -182511,6 +182562,9 @@
           }
         }
       }
+    },
+    "Connect your IPTV provider" : {
+
     },
     "Connected" : {
       "comment" : "Status shown in Settings when the Seerr integration is configured and reachable.",
@@ -184718,6 +184772,9 @@
           }
         }
       }
+    },
+    "Connection type" : {
+
     },
     "Connections are stored separately for each Plozz profile. Playback progress is sent to every connected tracker." : {
       "localizations" : {
@@ -189129,6 +189186,9 @@
           }
         }
       }
+    },
+    "Couldn't connect to this IPTV provider. Check the address and your connection, then try again." : {
+
     },
     "Couldn't connect. Check the server address." : {
       "localizations" : {
@@ -243469,6 +243529,9 @@
         }
       }
     },
+    "Edit connection" : {
+
+    },
     "Edit custom channel" : {
       "localizations" : {
         "ar" : {
@@ -243910,6 +243973,7 @@
       }
     },
     "Edit playlist and guides" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -248539,6 +248603,9 @@
           }
         }
       }
+    },
+    "Enter a complete HTTP or HTTPS provider address." : {
+
     },
     "Enter a port for this WebDAV server." : {
       "localizations" : {
@@ -253605,6 +253672,9 @@
           }
         }
       }
+    },
+    "Enter your provider's connection details again to reconnect this account." : {
+
     },
     "Enter your server’s address — an IP or name like 192.168.1.10 or mynas.local, with a port if it uses one (192.168.68.71:8384). Plozz detects whether it’s SMB or WebDAV automatically." : {
       "localizations" : {
@@ -267251,6 +267321,9 @@
           }
         }
       }
+    },
+    "Find guides in playlist" : {
+
     },
     "Find movies, TV shows, and episodes across your servers." : {
       "localizations" : {
@@ -282784,6 +282857,9 @@
         }
       }
     },
+    "Guide URL (optional)" : {
+
+    },
     "Guide coverage" : {
       "localizations" : {
         "ar" : {
@@ -285280,6 +285356,9 @@
         }
       }
     },
+    "Guide options" : {
+
+    },
     "Guide refresh" : {
       "localizations" : {
         "ar" : {
@@ -285719,6 +285798,9 @@
           }
         }
       }
+    },
+    "Guide request headers" : {
+
     },
     "Guide selection could not be applied" : {
       "localizations" : {
@@ -288581,6 +288663,9 @@
         }
       }
     },
+    "HTTP is unencrypted. Use HTTPS when available." : {
+
+    },
     "HTTP sends reusable credentials without encryption. Prefer HTTPS." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -288802,6 +288887,9 @@
         }
       }
     },
+    "Header name" : {
+
+    },
     "Header ratings" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -289022,6 +289110,9 @@
           }
         }
       }
+    },
+    "Header value" : {
+
     },
     "Healthy" : {
       "comment" : "Buffer-health label in playback diagnostics when enough media is buffered ahead for normal playback.",
@@ -298068,6 +298159,9 @@
         }
       }
     },
+    "IPTV" : {
+
+    },
     "IPTV playlist" : {
       "localizations" : {
         "ar" : {
@@ -298289,6 +298383,7 @@
       }
     },
     "IPTV playlist (M3U or M3U8 URL)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -298507,6 +298602,9 @@
           }
         }
       }
+    },
+    "IPTV provider" : {
+
     },
     "IPTV source" : {
       "localizations" : {
@@ -302485,6 +302583,12 @@
         }
       }
     },
+    "Import this playlist file on an iPhone or iPad." : {
+
+    },
+    "Import this playlist file on this device to use its channels and library." : {
+
+    },
     "Import your account from %@?" : {
       "localizations" : {
         "ar" : {
@@ -304904,6 +305008,9 @@
           }
         }
       }
+    },
+    "Imported files stay on this device. Import a replacement to update the catalogue." : {
+
     },
     "Imported playlist" : {
       "localizations" : {
@@ -307765,6 +307872,9 @@
           }
         }
       }
+    },
+    "Included in URL" : {
+
     },
     "Indigo" : {
       "comment" : "Accessibility name for one profile-avatar color swatch in the profile editor.",
@@ -318782,6 +318892,9 @@
         }
       }
     },
+    "Large libraries may take a few minutes. You can cancel at any time." : {
+
+    },
     "Last Watched" : {
       "localizations" : {
         "ar" : {
@@ -328040,6 +328153,7 @@
       }
     },
     "List preferred guides first. Relative addresses require the provider's HTTP or HTTPS base URL." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -346176,6 +346290,9 @@
         }
       }
     },
+    "M3U playlists and Xtream accounts." : {
+
+    },
     "MORE" : {
       "comment" : "Small trailing indicator over truncated overview text on tvOS detail pages, showing that more text is available.",
       "localizations" : {
@@ -353896,6 +354013,7 @@
       }
     },
     "Media server (Plex, Jellyfin, Emby)" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -407563,6 +407681,9 @@
         }
       }
     },
+    "Only add headers requested by your provider. Credentials are never forwarded to a different server." : {
+
+    },
     "Only approve if this matches your server. Approving pins this exact certificate; a change requires re-approval." : {
       "localizations" : {
         "ar" : {
@@ -440206,6 +440327,9 @@
         }
       }
     },
+    "Playlist URL" : {
+
+    },
     "Playlist addresses stay on each device. Enter the address here to use this source." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -440646,6 +440770,12 @@
           }
         }
       }
+    },
+    "Playlist and stream headers" : {
+
+    },
+    "Playlist file" : {
+
     },
     "Playlist file (M3U)" : {
       "localizations" : {
@@ -463138,6 +463268,9 @@
         }
       }
     },
+    "Program guides" : {
+
+    },
     "Program progress" : {
       "localizations" : {
         "ar" : {
@@ -471298,6 +471431,9 @@
           }
         }
       }
+    },
+    "Reading playlist: %lld entries" : {
+
     },
     "Reading stream details…" : {
       "localizations" : {
@@ -489685,6 +489821,9 @@
           }
         }
       }
+    },
+    "Remove header" : {
+
     },
     "Remove it from all your devices, or just this %@?" : {
       "comment" : "Confirmation message when removing a server or sign-in that can also be removed everywhere through iCloud sync. %@ is the current device name.",
@@ -625171,6 +625310,15 @@
         }
       }
     },
+    "The IPTV catalogue could not be saved. Check the available device storage." : {
+
+    },
+    "The IPTV provider rejected these credentials." : {
+
+    },
+    "The IPTV provider returned an incomplete or invalid catalogue." : {
+
+    },
     "The Live TV guide is too large to import safely." : {
       "localizations" : {
         "ar" : {
@@ -638390,6 +638538,9 @@
         }
       }
     },
+    "The playlist file couldn't be opened" : {
+
+    },
     "The request failed." : {
       "localizations" : {
         "ar" : {
@@ -648738,6 +648889,9 @@
         }
       }
     },
+    "These headers apply only to the server in the first guide URL. Leave them empty when the guide uses your playlist credentials." : {
+
+    },
     "These saved connections couldn't load their libraries." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -651604,6 +651758,12 @@
           }
         }
       }
+    },
+    "This IPTV source contains no supported channels, movies, or series." : {
+
+    },
+    "This IPTV subscription is expired or disabled. Contact your provider." : {
+
     },
     "This Multiview favorite has an unsupported configuration." : {
       "localizations" : {
@@ -668406,6 +668566,9 @@
           }
         }
       }
+    },
+    "This provider did not return a supported IPTV catalogue." : {
+
     },
     "This removes %@'s sign-in to %@ on this Apple TV." : {
       "comment" : "tvOS sign-out confirmation message for a non-Plex account on a server. %1$@ is the user name, %2$@ is the server name.",
@@ -692537,6 +692700,9 @@
         }
       }
     },
+    "Turn your library into TV channels." : {
+
+    },
     "Turns off" : {
       "comment" : "Label for the manual Circadian Mode off time in tvOS and iOS settings.",
       "localizations" : {
@@ -707615,6 +707781,9 @@
         }
       }
     },
+    "Use account setup for large playlists, authentication, movies, and series. Your existing source and preferences are kept; disable this source after connecting to avoid duplicate channels." : {
+
+    },
     "Use another device" : {
       "localizations" : {
         "ar" : {
@@ -711580,6 +711749,9 @@
           }
         }
       }
+    },
+    "Username and password" : {
+
     },
     "Uses all libraries this profile is allowed to access. No public channels are added. IPTV playlists do not need a media server. Custom channels below are optional and keep their own schedules." : {
       "extractionState" : "stale",
@@ -717550,45 +717722,9 @@
     },
     "Waiting for %lld imported playlists to finish syncing." : {
       "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Waiting for %lld imported playlist to finish syncing."
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Waiting for %lld imported playlists to finish syncing."
-                }
-              }
-            }
-          }
-        },
         "ar" : {
           "variations" : {
             "plural" : {
-              "zero" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
-                }
-              },
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -717601,7 +717737,25 @@
                   "value" : "بانتظار اكتمال مزامنة %lld قائمة تشغيل مستوردة."
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
               "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
+                }
+              },
+              "zero" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "بانتظار اكتمال مزامنة %lld من قوائم التشغيل المستوردة."
@@ -717631,16 +717785,16 @@
         "ca" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "S’espera que s’acabi de sincronitzar %lld llista de reproducció importada."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "S’espera que s’acabin de sincronitzar %lld llistes de reproducció importades."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "S’espera que s’acabi de sincronitzar %lld llista de reproducció importada."
                 }
               },
               "other" : {
@@ -717655,12 +717809,6 @@
         "cs" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -717668,6 +717816,12 @@
                 }
               },
               "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
+                }
+              },
+              "one" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čeká se na dokončení synchronizace %lld importovaného playlistu."
@@ -717736,19 +717890,37 @@
             }
           }
         },
-        "es" : {
+        "en" : {
           "variations" : {
             "plural" : {
               "one" : {
                 "stringUnit" : {
                   "state" : "needs_review",
-                  "value" : "Esperando a que termine de sincronizarse %lld lista de reproducción importada."
+                  "value" : "Waiting for %lld imported playlist to finish syncing."
                 }
               },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Waiting for %lld imported playlists to finish syncing."
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Esperando a que terminen de sincronizarse %lld listas de reproducción importadas."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Esperando a que termine de sincronizarse %lld lista de reproducción importada."
                 }
               },
               "other" : {
@@ -717799,16 +717971,16 @@
         "fr" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "En attente de la fin de la synchronisation de %lld liste de lecture importée."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "En attente de la fin de la synchronisation de %lld listes de lecture importées."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "En attente de la fin de la synchronisation de %lld liste de lecture importée."
                 }
               },
               "other" : {
@@ -717829,13 +718001,13 @@
                   "value" : "בהמתנה לסיום הסנכרון של רשימת ההשמעה שיובאה (%lld)."
                 }
               },
-              "two" : {
+              "other" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "בהמתנה לסיום הסנכרון של %lld רשימות השמעה שיובאו."
                 }
               },
-              "other" : {
+              "two" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "בהמתנה לסיום הסנכרון של %lld רשימות השמעה שיובאו."
@@ -717865,16 +718037,16 @@
         "hr" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čeka se dovršetak sinkronizacije %lld uvezenog popisa za reprodukciju."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čeka se dovršetak sinkronizacije %lld uvezena popisa za reprodukciju."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se dovršetak sinkronizacije %lld uvezenog popisa za reprodukciju."
                 }
               },
               "other" : {
@@ -717919,16 +718091,16 @@
         "it" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "In attesa del completamento della sincronizzazione di %lld playlist importata."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "In attesa del completamento della sincronizzazione di %lld playlist importate."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "In attesa del completamento della sincronizzazione di %lld playlist importata."
                 }
               },
               "other" : {
@@ -718015,12 +718187,6 @@
         "pl" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanej listy odtwarzania."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718031,6 +718197,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanych list odtwarzania."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Oczekiwanie na zakończenie synchronizacji %lld zaimportowanej listy odtwarzania."
                 }
               },
               "other" : {
@@ -718045,16 +718217,16 @@
         "pt-BR" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Aguardando a conclusão da sincronização de %lld lista de reprodução importada."
-                }
-              },
               "many" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Aguardando a conclusão da sincronização de %lld listas de reprodução importadas."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Aguardando a conclusão da sincronização de %lld lista de reprodução importada."
                 }
               },
               "other" : {
@@ -718069,16 +718241,16 @@
         "ro" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Se așteaptă finalizarea sincronizării pentru %lld listă de redare importată."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Se așteaptă finalizarea sincronizării pentru %lld liste de redare importate."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Se așteaptă finalizarea sincronizării pentru %lld listă de redare importată."
                 }
               },
               "other" : {
@@ -718093,12 +718265,6 @@
         "ru" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Ожидание завершения синхронизации %lld импортированного плейлиста."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718109,6 +718275,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Ожидание завершения синхронизации %lld импортированных плейлистов."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Ожидание завершения синхронизации %lld импортированного плейлиста."
                 }
               },
               "other" : {
@@ -718123,12 +718295,6 @@
         "sk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718136,6 +718302,12 @@
                 }
               },
               "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
+                }
+              },
+              "one" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čaká sa na dokončenie synchronizácie %lld importovaného zoznamu na prehrávanie."
@@ -718153,25 +718325,25 @@
         "sl" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženega seznama predvajanja."
-                }
-              },
-              "two" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
                 }
               },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženega seznama predvajanja."
+                }
+              },
               "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
+                }
+              },
+              "two" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čakanje na dokončanje sinhronizacije %lld uvoženih seznamov predvajanja."
@@ -718183,16 +718355,16 @@
         "sr-Latn" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Čeka se da se %lld uvezena lista za reprodukciju sinhronizuje do kraja."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Čeka se da se %lld uvezene liste za reprodukciju sinhronizuju do kraja."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Čeka se da se %lld uvezena lista za reprodukciju sinhronizuje do kraja."
                 }
               },
               "other" : {
@@ -718255,12 +718427,6 @@
         "uk" : {
           "variations" : {
             "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Очікуємо завершення синхронізації %lld імпортованого списку відтворення."
-                }
-              },
               "few" : {
                 "stringUnit" : {
                   "state" : "needs_review",
@@ -718271,6 +718437,12 @@
                 "stringUnit" : {
                   "state" : "needs_review",
                   "value" : "Очікуємо завершення синхронізації %lld імпортованих списків відтворення."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Очікуємо завершення синхронізації %lld імпортованого списку відтворення."
                 }
               },
               "other" : {
@@ -734354,6 +734526,9 @@
         }
       }
     },
+    "Xtream account" : {
+
+    },
     "Year" : {
       "comment" : "Label in the Details facts section on item detail pages. Shows the title's production or release year.",
       "localizations" : {
@@ -738319,6 +738494,9 @@
         }
       }
     },
+    "Your IPTV account couldn't be saved. Please try again." : {
+
+    },
     "Your Own TMDB Key" : {
       "localizations" : {
         "ar" : {
@@ -739862,6 +740040,7 @@
       }
     },
     "Your authorized library becomes themed channels with automatic guides." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -743165,6 +743344,9 @@
         }
       }
     },
+    "Your link may already include a login." : {
+
+    },
     "Your other device is set up" : {
       "localizations" : {
         "ar" : {
@@ -743604,6 +743786,9 @@
           }
         }
       }
+    },
+    "Your provider supplies channels, movies, and series. Watch history stays separate for each Plozz profile on this device." : {
+
     },
     "Your saved Live TV catalog couldn't be updated. The previous catalog has been kept." : {
       "localizations" : {
@@ -745805,6 +745990,9 @@
           }
         }
       }
+    },
+    "Your sources" : {
+
     },
     "Your sources are paused" : {
       "localizations" : {
@@ -771193,7 +771381,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "Watch Live TV from Jellyfin or Emby. Plex supports guide browsing only."
+            "value" : "Jellyfin or Emby. Plex guide only."
           }
         },
         "es" : {
