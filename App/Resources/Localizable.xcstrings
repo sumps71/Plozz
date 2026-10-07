@@ -118208,6 +118208,226 @@
         }
       }
     },
+    "Artwork by view" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الصور حسب العرض"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения по изглед"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imatges per vista"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky podle zobrazení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Billeder efter visning"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder nach Ansicht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εικόνες ανά προβολή"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imágenes por vista"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تصاویر بر اساس نما"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kuvitus näkymittäin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Images par vue"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונות לפי תצוגה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "व्यू के अनुसार चित्र"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike po prikazu"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Képek nézetenként"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gambar per tampilan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immagini per vista"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "表示別のアートワーク"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "화면별 아트워크"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imej mengikut paparan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder per visning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afbeeldingen per weergave"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Grafika według widoku"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagens por tela"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagini în funcție de vizualizare"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения по разделам"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky podľa zobrazenia"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike po prikazu"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike po prikazu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder per vy"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพประกอบแยกตามมุมมอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Görünüme göre görseller"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Зображення за розділами"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hình ảnh theo từng mục"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "按界面设置图片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "依畫面設定圖片"
+          }
+        }
+      }
+    },
     "Artwork cache" : {
       "comment" : "Metric label in metadata diagnostics showing the size of the cached artwork images.",
       "localizations" : {
@@ -118646,6 +118866,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "封面圖片上限"
+          }
+        }
+      }
+    },
+    "Artwork preferences are in Appearance > Cards and belong to each profile." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "توجد تفضيلات الصور في المظهر > البطاقات، وهي خاصة بكل ملف شخصي."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Предпочитанията за изображения са в раздела „Изглед > Карти“ и са отделни за всеки профил."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les preferències d'imatges són a Aparença > Targetes i són pròpies de cada perfil."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Předvolby obrázků najdete v části Vzhled > Karty a jsou samostatné pro každý profil."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Billedindstillinger findes under Udseende > Kort og er særskilte for hver profil."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Bildeinstellungen befinden sich unter Darstellung > Karten und gelten jeweils für ein Profil."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι προτιμήσεις εικόνων βρίσκονται στην ενότητα «Εμφάνιση > Κάρτες» και είναι ξεχωριστές για κάθε προφίλ."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Las preferencias de imágenes están en Apariencia > Tarjetas y son propias de cada perfil."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ترجیحات تصاویر در ظاهر > کارت‌ها قرار دارند و برای هر نمایه جداگانه‌اند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kuvitusasetukset ovat kohdassa Ulkoasu > Kortit, ja ne ovat profiilikohtaisia."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les préférences d’images se trouvent dans Apparence > Cartes et sont propres à chaque profil."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העדפות התמונות נמצאות תחת ״מראה > כרטיסים״ והן נפרדות לכל פרופיל."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "चित्रों की प्राथमिकताएँ दिखावट > कार्ड में हैं और हर प्रोफ़ाइल के लिए अलग हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Postavke slika nalaze se u odjeljku „Izgled > Kartice” i zasebne su za svaki profil."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A képekkel kapcsolatos beállítások a Megjelenés > Kártyák alatt találhatók, és profilonként külön érvényesek."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferensi gambar ada di Tampilan > Kartu dan berlaku untuk masing-masing profil."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le preferenze delle immagini sono in Aspetto > Schede e sono specifiche per ogni profilo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "アートワークの設定は「外観 > カード」にあり、プロフィールごとに保存されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "아트워크 환경설정은 모양새 > 카드에 있으며 프로필마다 별도로 적용됩니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Keutamaan imej berada dalam Rupa Bentuk > Kad dan berasingan bagi setiap profil."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bildeinnstillinger finnes under Utseende > Kort og gjelder separat for hver profil."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afbeeldingsvoorkeuren staan onder Weergave > Kaarten en gelden per profiel."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferencje grafiki znajdują się w sekcji „Wygląd > Karty” i są osobne dla każdego profilu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "As preferências de imagens ficam em Aparência > Cartões e são específicas de cada perfil."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferințele pentru imagini se află în Aspect > Carduri și sunt separate pentru fiecare profil."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Настройки изображений находятся в разделе Внешний вид > Карточки и задаются отдельно для каждого профиля."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Predvoľby obrázkov nájdete v časti Vzhľad > Karty a sú samostatné pre každý profil."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nastavitve slik so v razdelku »Videz > Kartice« in so ločene za vsak profil."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podešavanja slika nalaze se u odeljku „Izgled > Kartice” i posebna su za svaki profil."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bildinställningar finns under Utseende > Kort och gäller separat för varje profil."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "การตั้งค่าภาพประกอบอยู่ใน รูปลักษณ์ > การ์ด และแยกกันสำหรับแต่ละโปรไฟล์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Görsel tercihleri Görünüm > Kartlar bölümündedir ve her profil için ayrıdır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Налаштування зображень розташовані в розділі Зовнішній вигляд > Картки й задаються окремо для кожного профілю."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tùy chọn hình ảnh nằm trong Giao diện > Thẻ và được lưu riêng cho từng hồ sơ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "图片偏好位于“外观 > 卡片”，每个个人资料单独设置。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "圖片偏好位於「外觀 > 卡片」，每個個人檔案分別設定。"
           }
         }
       }
@@ -164347,6 +164787,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "所選設定適用於所有媒體庫。合輯和播放清單中的作品會使用「瀏覽」的設定。"
+          }
+        }
+      }
+    },
+    "Choices apply to this profile across all libraries. Continue Watching prefers textless artwork unless you choose Library first." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تنطبق هذه الخيارات على هذا الملف الشخصي في جميع المكتبات. تفضّل متابعة المشاهدة الصور الخالية من النصوص ما لم تختر «المكتبة أولاً»."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изборът важи за този профил във всички медиатеки. „Продължете да гледате“ предпочита изображения без текст, освен ако не изберете „Първо медиатеката“."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les opcions s'apliquen a aquest perfil en totes les biblioteques. La secció «Continua mirant» prefereix imatges sense text, tret que triïs «Primer la biblioteca»."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Volby platí pro tento profil ve všech knihovnách. Sekce Pokračovat ve sledování upřednostňuje obrázky bez textu, pokud nezvolíte „Nejprve knihovna“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valgene gælder for denne profil på tværs af alle biblioteker. Se videre foretrækker billeder uden tekst, medmindre du vælger »Bibliotek først«."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Auswahl gilt für dieses Profil in allen Medienbibliotheken. Weiterschauen bevorzugt Bilder ohne Text, sofern du nicht „Bibliothek zuerst“ auswählst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι επιλογές ισχύουν για αυτό το προφίλ σε όλες τις βιβλιοθήκες. Η ενότητα «Συνέχεια παρακολούθησης» προτιμά εικόνες χωρίς κείμενο, εκτός αν επιλέξετε «Πρώτα η βιβλιοθήκη»."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Las opciones se aplican a este perfil en todas las bibliotecas. La sección «Seguir viendo» prefiere imágenes sin texto, salvo que elijas «Primero la biblioteca»."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "این انتخاب‌ها برای این نمایه در همهٔ کتابخانه‌ها اعمال می‌شوند. بخش ادامهٔ تماشا تصاویر بدون نوشته را ترجیح می‌دهد، مگر اینکه «اول کتابخانه» را انتخاب کنید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valinnat koskevat tätä profiilia kaikissa kirjastoissa. Jatka katsomista suosii tekstittömiä kuvia, ellet valitse vaihtoehtoa ”Kirjasto ensin”."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les choix s’appliquent à ce profil dans toutes les bibliothèques. Reprendre la lecture privilégie les images sans texte, sauf si vous choisissez « Bibliothèque d’abord »."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הבחירות חלות על פרופיל זה בכל הספריות. המשך צפייה מעדיף תמונות ללא טקסט, אלא אם בוחרים ב״הספרייה תחילה״."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ये विकल्प सभी लाइब्रेरी में इस प्रोफ़ाइल पर लागू होते हैं। “देखना जारी रखें” अनुभाग में बिना टेक्स्ट वाले चित्रों को प्राथमिकता दी जाती है, जब तक आप “पहले लाइब्रेरी” नहीं चुनते।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odabiri vrijede za ovaj profil u svim knjižnicama. Odjeljak „Nastavi gledati” daje prednost slikama bez teksta, osim ako odaberete „Prvo knjižnica”."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A választott beállítások erre a profilra érvényesek minden könyvtárban. A Megtekintés folytatása a szöveg nélküli képeket részesíti előnyben, kivéve, ha az „Először a könyvtár” lehetőséget választod."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilihan berlaku untuk profil ini di semua pustaka. Lanjutkan Menonton mengutamakan gambar tanpa teks kecuali Anda memilih “Pustaka lebih dahulu”."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le scelte si applicano a questo profilo in tutte le librerie. Continua a guardare preferisce immagini senza testo, a meno che tu non scelga «Prima la libreria»."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "設定は、このプロフィールのすべてのライブラリに適用されます。「ライブラリを優先」を選択しない限り、「続きを観る」では文字のないアートワークを優先します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "선택한 설정은 이 프로필의 모든 미디어 보관함에 적용됩니다. '보관함 우선'을 선택하지 않으면 '시청 중인 콘텐츠'에서는 글자가 없는 아트워크를 우선합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilihan terpakai pada profil ini merentas semua pustaka. Teruskan Menonton mengutamakan imej tanpa teks melainkan anda memilih “Pustaka dahulu”."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valgene gjelder for denne profilen i alle biblioteker. Se videre foretrekker bilder uten tekst med mindre du velger «Bibliotek først»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De keuzes gelden voor dit profiel in alle bibliotheken. Verder kijken geeft de voorkeur aan afbeeldingen zonder tekst, tenzij je ‘Bibliotheek eerst’ kiest."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybory dotyczą tego profilu we wszystkich bibliotekach. Sekcja „Oglądaj dalej” preferuje grafikę bez tekstu, chyba że wybierzesz „Najpierw biblioteka”."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "As escolhas se aplicam a este perfil em todas as bibliotecas. Continuar assistindo prefere imagens sem texto, a menos que você escolha “Biblioteca primeiro”."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opțiunile se aplică acestui profil în toate bibliotecile. Secțiunea „Continuă vizionarea” preferă imagini fără text, dacă nu alegi „Mai întâi biblioteca”."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выбор действует для этого профиля во всех медиатеках. Раздел «Продолжить просмотр» предпочитает изображения без текста, если не выбран вариант «Сначала медиатека»."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voľby platia pre tento profil vo všetkých knižniciach. Sekcia Pokračovať v sledovaní uprednostňuje obrázky bez textu, pokiaľ nezvolíte „Najprv knižnica“."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izbire veljajo za ta profil v vseh knjižnicah. Razdelek »Nadaljuj z gledanjem« daje prednost slikam brez besedila, razen če izberete »Najprej knjižnica«."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izbori važe za ovaj profil u svim bibliotekama. Odeljak „Nastavi gledanje” daje prednost slikama bez teksta, osim ako izaberete „Prvo biblioteka”."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valen gäller för den här profilen i alla bibliotek. Fortsätt titta föredrar bilder utan text om du inte väljer ”Bibliotek först”."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ตัวเลือกเหล่านี้ใช้กับโปรไฟล์นี้ในทุกไลบรารี ส่วน “ดูต่อ” จะเลือกภาพประกอบที่ไม่มีข้อความก่อน เว้นแต่คุณจะเลือก “ไลบรารีก่อน”"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seçimler, tüm kitaplıklarda bu profil için geçerlidir. “Önce kitaplık” seçeneğini seçmediğiniz sürece “İzlemeye devam et” bölümü yazısız görselleri tercih eder."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Вибір діє для цього профілю в усіх медіатеках. Розділ «Продовжити перегляд» надає перевагу зображенням без тексту, якщо не вибрано «Спочатку медіатека»."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Các lựa chọn áp dụng cho hồ sơ này trên mọi thư viện. Xem tiếp ưu tiên hình ảnh không có chữ trừ khi bạn chọn “Thư viện trước”."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "这些选择适用于此个人资料的所有媒体库。除非选择“媒体库优先”，否则“继续观看”会优先使用无文字图片。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "這些選擇適用於此個人檔案的所有媒體庫。除非選擇「媒體庫優先」，否則「繼續觀看」會優先使用無文字圖片。"
           }
         }
       }
@@ -332660,6 +333320,226 @@
         }
       }
     },
+    "Library first" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "المكتبة أولاً"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Първо медиатеката"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Primer la biblioteca"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nejprve knihovna"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotek først"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliothek zuerst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Πρώτα η βιβλιοθήκη"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Primero la biblioteca"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اول کتابخانه"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kirjasto ensin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliothèque d’abord"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "הספרייה תחילה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "पहले लाइब्रेरी"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prvo knjižnica"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Először a könyvtár"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pustaka lebih dahulu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prima la libreria"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ライブラリを優先"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "보관함 우선"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pustaka dahulu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotek først"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotheek eerst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najpierw biblioteka"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Biblioteca primeiro"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mai întâi biblioteca"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Сначала медиатека"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najprv knižnica"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najprej knjižnica"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prvo biblioteka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotek först"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไลบรารีก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Önce kitaplık"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Спочатку медіатека"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Thư viện trước"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "媒体库优先"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "媒體庫優先"
+          }
+        }
+      }
+    },
     "Library items" : {
       "localizations" : {
         "ar" : {
@@ -364116,7 +364996,228 @@
         }
       }
     },
+    "Metadata providers and caches are shared by every profile on this device. Artwork preferences are in Appearance > Cards and belong to each profile." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تتشارك جميع الملفات الشخصية على هذا الجهاز موفّري البيانات الوصفية وذاكرات التخزين المؤقت. توجد تفضيلات الصور في المظهر > البطاقات، وهي خاصة بكل ملف شخصي."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Доставчиците на метаданни и кешовете са общи за всички профили на това устройство. Предпочитанията за изображения са в раздела „Изглед > Карти“ и са отделни за всеки профил."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tots els perfils d'aquest dispositiu comparteixen els proveïdors de metadades i les memòries cau. Les preferències d'imatges són a Aparença > Targetes i són pròpies de cada perfil."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Všechny profily na tomto zařízení sdílejí poskytovatele metadat a mezipaměti. Předvolby obrázků najdete v části Vzhled > Karty a jsou samostatné pro každý profil."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataudbydere og cachelagre deles af alle profiler på denne enhed. Billedindstillinger findes under Udseende > Kort og er særskilte for hver profil."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadatenanbieter und Caches werden von allen Profilen auf diesem Gerät gemeinsam genutzt. Die Bildeinstellungen befinden sich unter Darstellung > Karten und gelten jeweils für ein Profil."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι πάροχοι μεταδεδομένων και οι κρυφές μνήμες είναι κοινοί για όλα τα προφίλ σε αυτή τη συσκευή. Οι προτιμήσεις εικόνων βρίσκονται στην ενότητα «Εμφάνιση > Κάρτες» και είναι ξεχωριστές για κάθε προφίλ."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Todos los perfiles de este dispositivo comparten los proveedores de metadatos y las cachés. Las preferencias de imágenes están en Apariencia > Tarjetas y son propias de cada perfil."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ارائه‌دهندگان فراداده و حافظه‌های نهان میان همهٔ نمایه‌های این دستگاه مشترک‌اند. ترجیحات تصاویر در ظاهر > کارت‌ها قرار دارند و برای هر نمایه جداگانه‌اند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metatietopalvelut ja välimuistit ovat yhteisiä tämän laitteen kaikille profiileille. Kuvitusasetukset ovat kohdassa Ulkoasu > Kortit, ja ne ovat profiilikohtaisia."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les fournisseurs de métadonnées et les caches sont partagés par tous les profils de cet appareil. Les préférences d’images se trouvent dans Apparence > Cartes et sont propres à chaque profil."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ספקי המטא־נתונים והמטמונים משותפים לכל הפרופילים במכשיר זה. העדפות התמונות נמצאות תחת ״מראה > כרטיסים״ והן נפרדות לכל פרופיל."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस डिवाइस की सभी प्रोफ़ाइलें मेटाडेटा प्रदाता और कैश साझा करती हैं। चित्रों की प्राथमिकताएँ दिखावट > कार्ड में हैं और हर प्रोफ़ाइल के लिए अलग हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Svi profili na ovom uređaju dijele pružatelje metapodataka i predmemorije. Postavke slika nalaze se u odjeljku „Izgled > Kartice” i zasebne su za svaki profil."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az eszköz összes profilja közösen használja a metaadat-szolgáltatókat és a gyorsítótárakat. A képekkel kapcsolatos beállítások a Megjelenés > Kártyák alatt találhatók, és profilonként külön érvényesek."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyedia metadata dan cache digunakan bersama oleh semua profil di perangkat ini. Preferensi gambar ada di Tampilan > Kartu dan berlaku untuk masing-masing profil."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "I fornitori di metadati e le cache sono condivisi da tutti i profili su questo dispositivo. Le preferenze delle immagini sono in Aspetto > Schede e sono specifiche per ogni profilo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "メタデータプロバイダーとキャッシュは、このデバイスのすべてのプロフィールで共有されます。アートワークの設定は「外観 > カード」にあり、プロフィールごとに保存されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 기기의 모든 프로필은 메타데이터 제공업체와 캐시를 공유합니다. 아트워크 환경설정은 모양새 > 카드에 있으며 프로필마다 별도로 적용됩니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyedia metadata dan cache dikongsi oleh semua profil pada peranti ini. Keutamaan imej berada dalam Rupa Bentuk > Kad dan berasingan bagi setiap profil."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataleverandører og hurtigbuffere deles av alle profiler på denne enheten. Bildeinnstillinger finnes under Utseende > Kort og gjelder separat for hver profil."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataproviders en caches worden gedeeld door alle profielen op dit apparaat. Afbeeldingsvoorkeuren staan onder Weergave > Kaarten en gelden per profiel."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wszystkie profile na tym urządzeniu współdzielą dostawców metadanych i pamięci podręczne. Preferencje grafiki znajdują się w sekcji „Wygląd > Karty” i są osobne dla każdego profilu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Os provedores de metadados e os caches são compartilhados por todos os perfis deste dispositivo. As preferências de imagens ficam em Aparência > Cartões e são específicas de cada perfil."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toate profilurile de pe acest dispozitiv folosesc în comun furnizorii de metadate și cache-urile. Preferințele pentru imagini se află în Aspect > Carduri și sunt separate pentru fiecare profil."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Поставщики метаданных и кеши общие для всех профилей на этом устройстве. Настройки изображений находятся в разделе Внешний вид > Карточки и задаются отдельно для каждого профиля."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Všetky profily na tomto zariadení zdieľajú poskytovateľov metadát a vyrovnávacie pamäte. Predvoľby obrázkov nájdete v časti Vzhľad > Karty a sú samostatné pre každý profil."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponudniki metapodatkov in predpomnilniki so skupni vsem profilom v tej napravi. Nastavitve slik so v razdelku »Videz > Kartice« in so ločene za vsak profil."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Svi profili na ovom uređaju dele dobavljače metapodataka i keševe. Podešavanja slika nalaze se u odeljku „Izgled > Kartice” i posebna su za svaki profil."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataleverantörer och cacheminnen delas av alla profiler på den här enheten. Bildinställningar finns under Utseende > Kort och gäller separat för varje profil."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ทุกโปรไฟล์ในอุปกรณ์นี้ใช้ผู้ให้บริการข้อมูลเมตาและแคชร่วมกัน การตั้งค่าภาพประกอบอยู่ใน รูปลักษณ์ > การ์ด และแยกกันสำหรับแต่ละโปรไฟล์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Meta veri sağlayıcıları ve önbellekler bu cihazdaki tüm profiller tarafından paylaşılır. Görsel tercihleri Görünüm > Kartlar bölümündedir ve her profil için ayrıdır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Постачальники метаданих і кеші спільні для всіх профілів на цьому пристрої. Налаштування зображень розташовані в розділі Зовнішній вигляд > Картки й задаються окремо для кожного профілю."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mọi hồ sơ trên thiết bị này dùng chung nhà cung cấp siêu dữ liệu và bộ nhớ đệm. Tùy chọn hình ảnh nằm trong Giao diện > Thẻ và được lưu riêng cho từng hồ sơ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此设备上的所有个人资料共用元数据提供方和缓存。图片偏好位于“外观 > 卡片”，每个个人资料单独设置。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此裝置上的所有個人檔案共用中繼資料提供者與快取。圖片偏好位於「外觀 > 卡片」，每個個人檔案分別設定。"
+          }
+        }
+      }
+    },
     "Metadata providers, artwork, and caches are shared by every profile on this device." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -415048,6 +416149,226 @@
         }
       }
     },
+    "Online first" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الإنترنت أولاً"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Първо онлайн"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Primer en línia"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nejprve online"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Online først"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Online zuerst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Πρώτα το διαδίκτυο"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Primero en línea"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اول اینترنت"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Verkko ensin"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "En ligne d’abord"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "האינטרנט תחילה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "पहले ऑनलाइन"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prvo internet"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Először online"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Online lebih dahulu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prima online"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "オンラインを優先"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "온라인 우선"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dalam talian dahulu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Nett først"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Online eerst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najpierw internet"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "On-line primeiro"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mai întâi online"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Сначала интернет"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najprv online"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Najprej splet"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prvo internet"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Online först"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ออนไลน์ก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Önce çevrimiçi"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Спочатку інтернет"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Trực tuyến trước"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "在线优先"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "線上優先"
+          }
+        }
+      }
+    },
     "Only Forced" : {
       "comment" : "Subtitle search preference option for forced (foreign-passage-only) subtitles.",
       "localizations" : {
@@ -459814,6 +461135,7 @@
       }
     },
     "Prefer artwork from your library" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -460029,6 +461351,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "優先使用媒體庫圖像"
+          }
+        }
+      }
+    },
+    "Prefer library artwork" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تفضيل صور المكتبة"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Предпочитане на изображения от медиатеката"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir les imatges de la biblioteca"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Upřednostnit obrázky z knihovny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Foretræk billeder fra biblioteket"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotheksbilder bevorzugen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προτίμηση εικόνων βιβλιοθήκης"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir imágenes de la biblioteca"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ترجیح تصاویر کتابخانه"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Suosi kirjaston kuvitusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Privilégier les images de la bibliothèque"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העדפת תמונות מהספרייה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "लाइब्रेरी के चित्रों को प्राथमिकता दें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikama iz knjižnice"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Könyvtári képek előnyben"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan gambar pustaka"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferisci immagini della libreria"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ライブラリのアートワークを優先"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "보관함 아트워크 우선"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan imej pustaka"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Foretrekk bibliotekbilder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotheekafbeeldingen verkiezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferuj grafikę z biblioteki"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir imagens da biblioteca"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferă imaginile din bibliotecă"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Предпочитать изображения из медиатеки"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uprednostniť obrázky z knižnice"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikam iz knjižnice"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikama iz biblioteke"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Föredra biblioteksbilder"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกภาพประกอบจากไลบรารีก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kitaplık görsellerini tercih et"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Надавати перевагу зображенням із медіатеки"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ưu tiên hình ảnh từ thư viện"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "优先使用媒体库图片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "優先使用媒體庫圖片"
           }
         }
       }
@@ -460250,6 +461792,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "優先使用本機圖像"
+          }
+        }
+      }
+    },
+    "Prefer online artwork" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تفضيل صور الإنترنت"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Предпочитане на онлайн изображения"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir les imatges en línia"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Upřednostnit obrázky z internetu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Foretræk onlinebilleder"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Onlinebilder bevorzugen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προτίμηση εικόνων διαδικτύου"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir imágenes en línea"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ترجیح تصاویر اینترنتی"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Suosi verkkokuvitusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Privilégier les images en ligne"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העדפת תמונות מהאינטרנט"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ऑनलाइन चित्रों को प्राथमिकता दें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikama s interneta"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Online képek előnyben"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan gambar online"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferisci immagini online"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "オンラインのアートワークを優先"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "온라인 아트워크 우선"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan imej dalam talian"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Foretrekk nettbilder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Onlineafbeeldingen verkiezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferuj grafikę z internetu"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir imagens on-line"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferă imaginile online"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Предпочитать изображения из интернета"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uprednostniť obrázky z internetu"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost spletnim slikam"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikama sa interneta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Föredra onlinebilder"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกภาพประกอบออนไลน์ก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Çevrimiçi görselleri tercih et"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Надавати перевагу зображенням з інтернету"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ưu tiên hình ảnh trực tuyến"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "优先使用在线图片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "優先使用線上圖片"
           }
         }
       }
@@ -484509,6 +486271,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "建議年齡：%@+"
+          }
+        }
+      }
+    },
+    "Recommended favors clean backdrops behind titles and your library's music covers. Library first trusts your artwork as supplied. Missing artwork can fall back to the other source." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يفضّل الخيار «موصى به» خلفيات خالية من النصوص خلف العناوين وأغلفة الموسيقى من مكتبتك. يستخدم خيار «المكتبة أولاً» صورك كما هي. عند غياب الصور، يمكن الرجوع إلى المصدر الآخر."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Опцията „Препоръчани“ дава предимство на фонове без текст зад заглавията и музикални обложки от медиатеката ви. „Първо медиатеката“ използва вашите изображения във вида, в който са предоставени. При липса на изображение може да се използва другият източник."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L'opció «Recomanats» prioritza fons sense text darrere dels títols i les caràtules de música de la biblioteca. «Primer la biblioteca» utilitza les teves imatges tal com les has proporcionat. Si falten imatges, es pot recórrer a l'altra font."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Volba „Doporučené“ upřednostňuje pozadí bez textu za názvy a obaly alb z vaší knihovny. Volba „Nejprve knihovna“ používá vaše obrázky tak, jak jsou dodány. Chybějící obrázky lze doplnit z druhého zdroje."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "»Anbefalet« foretrækker baggrunde uden tekst bag titler og musikomslag fra dit bibliotek. »Bibliotek først« bruger dine billeder, som de er. Manglende billeder kan hentes fra den anden kilde."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "„Empfohlen“ bevorzugt Hintergründe ohne Text hinter Titeln und Musikcover aus deiner Medienbibliothek. „Bibliothek zuerst“ verwendet deine Bilder so, wie du sie bereitstellst. Fehlende Bilder können aus der anderen Quelle ergänzt werden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Η επιλογή «Προτεινόμενα» προτιμά φόντα χωρίς κείμενο πίσω από τους τίτλους και εξώφυλλα μουσικής από τη βιβλιοθήκη σας. Η επιλογή «Πρώτα η βιβλιοθήκη» χρησιμοποιεί τις εικόνες σας όπως παρέχονται. Αν λείπουν εικόνες, μπορεί να χρησιμοποιηθεί η άλλη πηγή."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "La opción «Recomendados» prioriza fondos sin texto detrás de los títulos y las carátulas de música de tu biblioteca. «Primero la biblioteca» usa tus imágenes tal como las proporcionas. Si faltan imágenes, se puede recurrir a la otra fuente."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "گزینهٔ «پیشنهادها» پس‌زمینه‌های بدون نوشته در پشت عنوان‌ها و جلدهای موسیقی کتابخانهٔ شما را در اولویت قرار می‌دهد. «اول کتابخانه» از تصاویر شما همان‌طور که ارائه شده‌اند استفاده می‌کند. اگر تصویری موجود نباشد، می‌توان از منبع دیگر استفاده کرد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "”Suositellut”-vaihtoehto suosii tekstittömiä taustoja nimien takana ja kirjastosi musiikin kansikuvia. ”Kirjasto ensin” käyttää kuviasi sellaisina kuin ne ovat. Puuttuvia kuvia voidaan hakea toisesta lähteestä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L’option « Recommandations » privilégie les arrière-plans sans texte derrière les titres et les pochettes musicales de votre bibliothèque. « Bibliothèque d’abord » utilise vos images telles qu’elles sont fournies. Les images manquantes peuvent provenir de l’autre source."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "האפשרות ״מומלצים״ מעדיפה רקעים ללא טקסט מאחורי הכותרות ועטיפות מוזיקה מהספרייה שלך. ״הספרייה תחילה״ משתמשת בתמונות שלך כפי שסופקו. כשחסרות תמונות, ניתן להשתמש במקור האחר."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“सुझाव” विकल्प शीर्षकों के पीछे बिना टेक्स्ट वाली पृष्ठभूमि और आपकी लाइब्रेरी के संगीत कवर को प्राथमिकता देता है। “पहले लाइब्रेरी” आपके दिए गए चित्रों का वैसे ही उपयोग करता है। चित्र उपलब्ध न होने पर दूसरे स्रोत का उपयोग किया जा सकता है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "„Preporučeno” daje prednost pozadinama bez teksta iza naslova i glazbenim omotima iz vaše knjižnice. „Prvo knjižnica” koristi vaše slike onakve kakve jesu. Ako slike nedostaju, može se koristiti drugi izvor."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az „Ajánlott” a címek mögötti szöveg nélküli háttereket és a könyvtáradban lévő zenei borítókat részesíti előnyben. Az „Először a könyvtár” változtatás nélkül használja az általad megadott képeket. A hiányzó képek a másik forrásból pótolhatók."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“Rekomendasi” mengutamakan latar tanpa teks di belakang judul dan sampul musik dari pustaka Anda. “Pustaka lebih dahulu” menggunakan gambar Anda sebagaimana disediakan. Gambar yang tidak tersedia dapat diambil dari sumber lainnya."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "L'opzione «Consigliati» privilegia sfondi senza testo dietro i titoli e le copertine musicali della tua libreria. «Prima la libreria» usa le tue immagini così come le fornisci. Le immagini mancanti possono essere recuperate dall'altra fonte."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "「おすすめ」は、タイトルの背景に文字のない画像を優先し、音楽にはライブラリのカバー画像を優先します。「ライブラリを優先」は、提供されたアートワークをそのまま使用します。アートワークがない場合は、もう一方のソースから取得できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "'추천'은 제목 뒤에 글자가 없는 배경을 우선 사용하고 음악에는 미디어 보관함의 커버를 우선합니다. '보관함 우선'은 제공된 아트워크를 그대로 사용합니다. 아트워크가 없으면 다른 소스에서 가져올 수 있습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“Disyorkan” mengutamakan latar belakang tanpa teks di belakang tajuk serta kulit album daripada pustaka anda. “Pustaka dahulu” menggunakan imej anda seperti yang dibekalkan. Jika imej tiada, sumber lain boleh digunakan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "«Anbefalt» foretrekker bakgrunner uten tekst bak titler og musikkcovere fra biblioteket ditt. «Bibliotek først» bruker bildene dine slik de er. Manglende bilder kan hentes fra den andre kilden."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "‘Aanbevolen’ geeft de voorkeur aan achtergronden zonder tekst achter titels en muziekhoezen uit je bibliotheek. ‘Bibliotheek eerst’ gebruikt je afbeeldingen zoals ze zijn aangeleverd. Ontbrekende afbeeldingen kunnen uit de andere bron komen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opcja „Polecane” preferuje tła bez tekstu za tytułami i okładki muzyczne z Twojej biblioteki. „Najpierw biblioteka” używa Twojej grafiki w dostarczonej postaci. Brakującą grafikę można pobrać z drugiego źródła."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A opção “Recomendados” prioriza fundos sem texto atrás dos títulos e capas de música da sua biblioteca. “Biblioteca primeiro” usa suas imagens como foram fornecidas. Imagens ausentes podem ser obtidas da outra fonte."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Opțiunea „Recomandate” preferă fundaluri fără text în spatele titlurilor și coperțile albumelor din biblioteca ta. „Mai întâi biblioteca” folosește imaginile tale așa cum sunt furnizate. Imaginile lipsă pot fi preluate din cealaltă sursă."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Вариант «Рекомендуемое» предпочитает фон без текста за названиями и музыкальные обложки из вашей медиатеки. Вариант «Сначала медиатека» использует ваши изображения в том виде, в котором они предоставлены. Недостающие изображения можно получить из другого источника."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voľba „Odporúčané“ uprednostňuje pozadia bez textu za názvami a obaly albumov z vašej knižnice. Voľba „Najprv knižnica“ používa vaše obrázky tak, ako sú dodané. Chýbajúce obrázky možno doplniť z druhého zdroja."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "»Priporočeno« daje prednost ozadjem brez besedila za naslovi in ovitkom albumov iz vaše knjižnice. »Najprej knjižnica« uporablja vaše slike takšne, kot so. Manjkajoče slike se lahko pridobijo iz drugega vira."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "„Preporučeno” daje prednost pozadinama bez teksta iza naslova i muzičkim omotima iz vaše biblioteke. „Prvo biblioteka” koristi vaše slike onako kako su dostavljene. Ako slike nedostaju, može se koristiti drugi izvor."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "”Rekommenderat” föredrar bakgrunder utan text bakom titlar och musikomslag från ditt bibliotek. ”Bibliotek först” använder dina bilder som de är. Saknade bilder kan hämtas från den andra källan."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“แนะนำ” จะเลือกพื้นหลังที่ไม่มีข้อความไว้หลังชื่อเรื่องและปกเพลงจากไลบรารีของคุณก่อน “ไลบรารีก่อน” จะใช้ภาพประกอบของคุณตามที่มี หากไม่มีภาพประกอบ สามารถใช้ภาพจากอีกแหล่งได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“Önerilenler”, başlıkların arkasında yazısız arka planları ve kitaplığınızdaki müzik kapaklarını tercih eder. “Önce kitaplık”, görsellerinizi sağlandıkları hâliyle kullanır. Eksik görseller diğer kaynaktan alınabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Варіант «Рекомендоване» надає перевагу тлу без тексту за назвами та музичним обкладинкам із вашої медіатеки. «Спочатку медіатека» використовує ваші зображення в наданому вигляді. Відсутні зображення можна отримати з іншого джерела."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“Đề xuất” ưu tiên nền không có chữ phía sau tiêu đề và bìa nhạc từ thư viện của bạn. “Thư viện trước” sử dụng nguyên trạng hình ảnh bạn cung cấp. Nếu thiếu hình ảnh, có thể lấy từ nguồn còn lại."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "“推荐”会优先在标题后使用无文字背景，并优先使用媒体库中的音乐封面。“媒体库优先”会按原样使用你提供的图片。图片缺失时，可以使用另一来源。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "「推薦」會優先在標題後使用無文字背景，並優先使用媒體庫中的音樂封面。「媒體庫優先」會原樣使用你提供的圖片。缺少圖片時，可以使用另一個來源。"
           }
         }
       }
@@ -695607,6 +697589,226 @@
         }
       }
     },
+    "Top Shelf" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Top Shelf"
+          }
+        }
+      }
+    },
     "Top left" : {
       "localizations" : {
         "ar" : {
@@ -721928,6 +724130,7 @@
       }
     },
     "Use artwork from your media server or files before online providers." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
