@@ -638828,6 +638828,7 @@
       }
     },
     "The Live TV playlist isn't a supported M3U file." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -677656,6 +677657,226 @@
         }
       }
     },
+    "This isn't a valid M3U playlist. Use a playlist file or a direct playlist download link, not a web page." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "هذه ليست قائمة تشغيل M3U صالحة. استخدم ملف قائمة تشغيل أو رابط تنزيل مباشر لقائمة التشغيل، وليس صفحة ويب."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Това не е валиден M3U плейлист. Използвайте файл с плейлист или директна връзка за изтегляне на плейлист, а не уеб страница."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aquesta no és una llista de reproducció M3U vàlida. Utilitza un fitxer de llista de reproducció o un enllaç de baixada directa de la llista, no una pàgina web."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toto není platný playlist M3U. Použijte soubor s playlistem nebo přímý odkaz ke stažení playlistu, nikoli webovou stránku."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dette er ikke en gyldig M3U-afspilningsliste. Brug en afspilningslistefil eller et direkte link til at downloade afspilningslisten, ikke en webside."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dies ist keine gültige M3U-Wiedergabeliste. Verwende eine Wiedergabelistendatei oder einen direkten Download-Link zur Wiedergabeliste, keine Webseite."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αυτή δεν είναι έγκυρη λίστα αναπαραγωγής M3U. Χρησιμοποιήστε ένα αρχείο λίστας αναπαραγωγής ή έναν σύνδεσμο απευθείας λήψης της λίστας, όχι μια ιστοσελίδα."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta no es una lista de reproducción M3U válida. Usa un archivo de lista de reproducción o un enlace de descarga directa de la lista, no una página web."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "این یک فهرست پخش معتبر M3U نیست. از فایل فهرست پخش یا پیوند دانلود مستقیم آن استفاده کنید، نه یک صفحهٔ وب."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tämä ei ole kelvollinen M3U-soittolista. Käytä soittolistatiedostoa tai soittolistan suoraa latauslinkkiä, älä verkkosivua."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ceci n’est pas une liste de lecture M3U valide. Utilisez un fichier de liste de lecture ou un lien de téléchargement direct de la liste, et non une page web."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "זו אינה רשימת השמעה תקינה בפורמט M3U. השתמשו בקובץ של רשימת השמעה או בקישור להורדה ישירה של הרשימה, ולא בדף אינטרנט."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "यह मान्य M3U प्लेलिस्ट नहीं है। वेब पेज के बजाय प्लेलिस्ट फ़ाइल या प्लेलिस्ट डाउनलोड करने का सीधा लिंक इस्तेमाल करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovo nije valjan M3U popis za reprodukciju. Upotrijebite datoteku popisa ili izravnu poveznicu za preuzimanje popisa, a ne web-stranicu."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ez nem érvényes M3U-lejátszási lista. Lejátszásilista-fájlt vagy a lista közvetlen letöltési hivatkozását használja, ne weboldalt."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ini bukan daftar putar M3U yang valid. Gunakan file daftar putar atau tautan unduhan langsung daftar putar, bukan halaman web."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Questa non è una playlist M3U valida. Usa un file playlist o un link per scaricare direttamente la playlist, non una pagina web."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "これは有効なM3Uプレイリストではありません。ウェブページではなく、プレイリストファイルまたはプレイリストを直接ダウンロードできるリンクを使用してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "올바른 M3U 재생목록이 아닙니다. 웹페이지가 아닌 재생목록 파일이나 재생목록을 직접 다운로드하는 링크를 사용하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ini bukan senarai main M3U yang sah. Gunakan fail senarai main atau pautan muat turun terus senarai main, bukan halaman web."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dette er ikke en gyldig M3U-spilleliste. Bruk en spillelistefil eller en direkte nedlastingslenke til spillelisten, ikke en nettside."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dit is geen geldige M3U-afspeellijst. Gebruik een afspeellijstbestand of een directe downloadlink voor de afspeellijst, geen webpagina."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "To nie jest prawidłowa lista odtwarzania M3U. Użyj pliku listy odtwarzania lub bezpośredniego linku do jej pobrania, a nie strony internetowej."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta não é uma lista de reprodução M3U válida. Use um arquivo de lista de reprodução ou um link direto para baixar a lista, não uma página da web."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aceasta nu este o listă de redare M3U validă. Folosiți un fișier cu lista de redare sau un link direct de descărcare a listei, nu o pagină web."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Это некорректный плейлист M3U. Используйте файл плейлиста или прямую ссылку на его скачивание, а не веб-страницу."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toto nie je platný playlist M3U. Použite súbor s playlistom alebo priamy odkaz na stiahnutie playlistu, nie webovú stránku."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "To ni veljaven seznam predvajanja M3U. Uporabite datoteko s seznamom predvajanja ali neposredno povezavo za prenos seznama, ne spletne strani."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovo nije ispravna M3U lista za reprodukciju. Koristite datoteku liste ili direktnu vezu za preuzimanje liste, a ne veb-stranicu."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Det här är inte en giltig M3U-spellista. Använd en spellistefil eller en direktlänk för att ladda ner spellistan, inte en webbsida."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "นี่ไม่ใช่เพลย์ลิสต์ M3U ที่ถูกต้อง ใช้ไฟล์เพลย์ลิสต์หรือลิงก์ดาวน์โหลดเพลย์ลิสต์โดยตรง ไม่ใช่หน้าเว็บ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu, geçerli bir M3U oynatma listesi değil. Web sayfası yerine bir oynatma listesi dosyası veya doğrudan oynatma listesi indirme bağlantısı kullanın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Це некоректний список відтворення M3U. Використовуйте файл списку відтворення або пряме посилання для його завантаження, а не вебсторінку."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Đây không phải là danh sách phát M3U hợp lệ. Hãy dùng tệp danh sách phát hoặc liên kết tải trực tiếp danh sách phát, không phải trang web."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "这不是有效的 M3U 播放列表。请使用播放列表文件或播放列表的直接下载链接，而不是网页。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "這不是有效的 M3U 播放清單。請使用播放清單檔案或播放清單的直接下載連結，而不是網頁。"
+          }
+        }
+      }
+    },
     "This keeps your selected version but removes the streaming quality limit. It may use substantially more data, especially on cellular." : {
       "localizations" : {
         "ar" : {
@@ -679634,6 +679855,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "此播放器無法播放這個頻道來源。"
+          }
+        }
+      }
+    },
+    "This playlist contains no channels or videos. Ask your provider for an updated playlist." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "لا تحتوي قائمة التشغيل هذه على أي قنوات أو مقاطع فيديو. اطلب من مزوّد الخدمة قائمة تشغيل محدّثة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Този плейлист не съдържа канали или видеоклипове. Поискайте актуализиран плейлист от доставчика си."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aquesta llista de reproducció no conté canals ni vídeos. Demana una llista actualitzada al teu proveïdor."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tento playlist neobsahuje žádné kanály ani videa. Požádejte svého poskytovatele o aktualizovaný playlist."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne afspilningsliste indeholder ingen kanaler eller videoer. Bed din udbyder om en opdateret afspilningsliste."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Diese Wiedergabeliste enthält keine Sender oder Videos. Bitte deinen Anbieter um eine aktualisierte Wiedergabeliste."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Αυτή η λίστα αναπαραγωγής δεν περιέχει κανάλια ή βίντεο. Ζητήστε από τον πάροχό σας μια ενημερωμένη λίστα αναπαραγωγής."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta lista de reproducción no contiene canales ni vídeos. Pide a tu proveedor una lista actualizada."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "این فهرست پخش هیچ کانال یا ویدیویی ندارد. از ارائه‌دهندهٔ خود یک فهرست پخش به‌روز بخواهید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tämä soittolista ei sisällä kanavia tai videoita. Pyydä palveluntarjoajaltasi päivitetty soittolista."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Cette liste de lecture ne contient aucune chaîne ni vidéo. Demandez une liste à jour à votre fournisseur."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רשימת ההשמעה הזו אינה מכילה ערוצים או סרטונים. בקשו מהספק שלכם רשימת השמעה מעודכנת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "इस प्लेलिस्ट में कोई चैनल या वीडियो नहीं है। अपने प्रदाता से अपडेट की गई प्लेलिस्ट माँगें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ovaj popis za reprodukciju ne sadrži kanale ni videozapise. Zatražite ažurirani popis od svojeg pružatelja usluge."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ez a lejátszási lista nem tartalmaz csatornákat vagy videókat. Kérjen frissített lejátszási listát a szolgáltatójától."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Daftar putar ini tidak berisi saluran atau video. Minta daftar putar terbaru dari penyedia Anda."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Questa playlist non contiene canali o video. Chiedi al tuo fornitore una playlist aggiornata."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "このプレイリストにはチャンネルや動画が含まれていません。プロバイダに更新されたプレイリストを依頼してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "이 재생목록에는 채널이나 동영상이 없습니다. 제공업체에 업데이트된 재생목록을 요청하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Senarai main ini tidak mengandungi saluran atau video. Minta senarai main yang dikemas kini daripada penyedia anda."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Denne spillelisten inneholder ingen kanaler eller videoer. Be leverandøren din om en oppdatert spilleliste."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deze afspeellijst bevat geen zenders of video's. Vraag je aanbieder om een bijgewerkte afspeellijst."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ta lista odtwarzania nie zawiera kanałów ani filmów. Poproś swojego dostawcę o zaktualizowaną listę odtwarzania."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Esta lista de reprodução não contém canais nem vídeos. Peça uma lista atualizada ao seu provedor."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Această listă de redare nu conține canale sau videoclipuri. Cereți furnizorului o listă de redare actualizată."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "В этом плейлисте нет каналов или видео. Запросите обновлённый плейлист у своего провайдера."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tento playlist neobsahuje žiadne kanály ani videá. Požiadajte svojho poskytovateľa o aktualizovaný playlist."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ta seznam predvajanja ne vsebuje kanalov ali videoposnetkov. Ponudnika prosite za posodobljen seznam predvajanja."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ova lista za reprodukciju ne sadrži kanale ni video-snimke. Zatražite ažuriranu listu od svog pružaoca usluge."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Den här spellistan innehåller inga kanaler eller videor. Be din leverantör om en uppdaterad spellista."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เพลย์ลิสต์นี้ไม่มีช่องหรือวิดีโอ ขอเพลย์ลิสต์ที่อัปเดตแล้วจากผู้ให้บริการของคุณ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bu oynatma listesinde kanal veya video yok. Sağlayıcınızdan güncel bir oynatma listesi isteyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Цей список відтворення не містить каналів або відео. Попросіть свого провайдера надати оновлений список відтворення."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Danh sách phát này không có kênh hoặc video nào. Hãy yêu cầu nhà cung cấp gửi danh sách phát đã cập nhật."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此播放列表不包含任何频道或视频。请向服务提供商索取更新后的播放列表。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "此播放清單不包含任何頻道或影片。請向服務供應商索取更新後的播放清單。"
           }
         }
       }
