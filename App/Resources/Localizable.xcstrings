@@ -302906,6 +302906,9 @@
         }
       }
     },
+    "Hide labels everywhere" : {
+
+    },
     "Hide or Reorder Navigation" : {
       "localizations" : {
         "ar" : {
@@ -330678,9 +330681,6 @@
           }
         }
       }
-    },
-    "Labels except in Showcase." : {
-
     },
     "Language" : {
       "comment" : "Label for the app-language setting in Appearance on tvOS and iOS.",
@@ -462908,6 +462908,9 @@
         }
       }
     },
+    "Plozz chooses where labels help." : {
+
+    },
     "Plozz could not reach the channel's streaming server. Check your internet connection or try again later." : {
       "localizations" : {
         "ar" : {
@@ -590019,6 +590022,9 @@
         }
       }
     },
+    "Show labels everywhere" : {
+
+    },
     "Show ratings" : {
       "localizations" : {
         "ar" : {
@@ -592663,9 +592669,6 @@
           }
         }
       }
-    },
-    "Showcase" : {
-
     },
     "Showing up to 100 matching stations. Confirm the station and regional feed before choosing." : {
       "localizations" : {
@@ -732969,10 +732972,10 @@
     "Use default: Labels" : {
 
     },
-    "Use default: Labels except in Showcase" : {
+    "Use default: No labels" : {
 
     },
-    "Use default: No labels" : {
+    "Use default: Recommended" : {
 
     },
     "Use default: library preferred" : {
@@ -741807,6 +741810,9 @@
           }
         }
       }
+    },
+    "View customizations override this choice." : {
+
     },
     "View on %@" : {
       "localizations" : {
