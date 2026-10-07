@@ -113581,10 +113581,444 @@
       }
     },
     "Always use local artwork from your libraries, only using metadata providers when none is provided locally" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استخدم دائمًا الصور التي توفرها مكتبات الوسائط لديك، ولا تستخدم خدمات البيانات الوصفية إلا إذا لم تتوفر صور في تلك المكتبات"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Винаги използвай изображенията, предоставени от медийните ти библиотеки, а доставчици на метаданни — само ако там няма изображения"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fes servir sempre les imatges que proporcionen les teves biblioteques multimèdia i recorre als proveïdors de metadades només quan no hi hagi imatges disponibles en aquestes biblioteques"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vždy používat obrázky poskytované tvými knihovnami médií. Poskytovatele metadat použít pouze tehdy, když v knihovnách žádné obrázky nejsou"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brug altid billeder leveret af dine mediebiblioteker. Brug kun metadatatjenester, hvis der ikke er billeder tilgængelige i bibliotekerne"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immer die von deinen Mediatheken bereitgestellten Bilder verwenden. Metadatenanbieter nur nutzen, wenn dort keine Bilder verfügbar sind"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Να χρησιμοποιούνται πάντα οι εικόνες που παρέχουν οι βιβλιοθήκες πολυμέσων σας και οι πάροχοι μεταδεδομένων μόνο όταν δεν υπάρχουν διαθέσιμες εικόνες στις βιβλιοθήκες"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar siempre las imágenes proporcionadas por tus bibliotecas multimedia y recurrir a proveedores de metadatos solo cuando no haya imágenes en ellas"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "همیشه از تصاویر موجود در کتابخانه‌های رسانه‌ای خود استفاده کنید و فقط وقتی تصویری در آن‌ها موجود نیست، از ارائه‌دهندگان فراداده استفاده کنید"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Käytä aina mediakirjastojesi kuvitusta ja metatietopalveluja vain, jos kirjastoissa ei ole kuvitusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toujours utiliser les illustrations fournies par vos médiathèques et ne faire appel aux fournisseurs de métadonnées que si aucune n’y est disponible"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "להשתמש תמיד בתמונות שמספקות ספריות המדיה שלך, ולהיעזר בספקי מטא־נתונים רק כשאין בהן תמונות"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "हमेशा अपनी मीडिया लाइब्रेरी से मिलने वाला आर्टवर्क इस्तेमाल करें। मेटाडेटा प्रदाताओं का उपयोग केवल तब करें जब लाइब्रेरी में कोई आर्टवर्क उपलब्ध न हो"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uvijek koristi slike iz svojih medijskih zbirki. Pružatelje metapodataka koristi samo ako u zbirkama nema slika"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mindig a médiatárakból származó képeket használja. Metaadat-szolgáltatókat csak akkor használ, ha a médiatárakban nincs elérhető kép"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selalu gunakan gambar yang disediakan pustaka media Anda. Gunakan penyedia metadata hanya jika tidak ada gambar di pustaka"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usa sempre le immagini fornite dalle tue librerie multimediali, ricorrendo ai fornitori di metadati solo quando non sono disponibili immagini nelle librerie"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "常にメディアライブラリで提供されるアートワークを使用し、ライブラリにアートワークがない場合にのみメタデータプロバイダーを使用します"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "항상 미디어 라이브러리에서 제공하는 아트워크를 사용하며, 제공된 아트워크가 없을 때만 메타데이터 제공 서비스를 사용합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sentiasa gunakan imej yang disediakan dalam pustaka media anda, dan gunakan penyedia metadata hanya apabila imej tersebut tiada."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bruk alltid bildene fra mediebibliotekene dine. Bruk metadataleverandører bare når disse bildene mangler."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gebruik altijd afbeeldingen uit je mediabibliotheken. Gebruik metadataproviders alleen als er geen afbeeldingen in je bibliotheken beschikbaar zijn."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zawsze używaj grafik z bibliotek multimediów. Korzystaj z dostawców metadanych tylko wtedy, gdy w bibliotekach brakuje grafik."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sempre use as imagens fornecidas pelas suas bibliotecas de mídia. Use provedores de metadados somente quando não houver imagens nas bibliotecas."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Folosește întotdeauna imaginile locale din bibliotecile tale media și apelează la furnizorii de metadate doar când nu sunt furnizate imagini locale"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Всегда использовать локальные изображения из ваших медиатек, обращаясь к поставщикам метаданных только при отсутствии локальных изображений"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vždy používať lokálne obrázky z vašich knižníc médií a poskytovateľov metadát využívať len vtedy, keď nie sú k dispozícii žiadne lokálne obrázky"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vedno uporabi lokalne slike iz svojih medijskih knjižnic, ponudnike metapodatkov pa le, če lokalne slike niso na voljo"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uvek koristi lokalne slike iz svojih medijskih biblioteka, a pružaoce metapodataka samo kada lokalne slike nisu dostupne"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Använd alltid lokala bilder från dina mediebibliotek och använd metadataleverantörer endast när inga lokala bilder tillhandahålls"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ใช้ภาพที่มากับคลังสื่อของคุณเสมอ และใช้ภาพจากผู้ให้บริการเมทาดาทาเฉพาะเมื่อคลังสื่อไม่มีภาพให้เท่านั้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Her zaman medya arşivlerinizde sunulan görselleri kullanır; yalnızca arşivde görsel yoksa meta veri sağlayıcılarına başvurur"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Завжди використовувати зображення з ваших медіатек і звертатися до постачальників метаданих лише тоді, коли медіатеки не надають зображень"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Luôn dùng hình ảnh do thư viện đa phương tiện của bạn cung cấp; chỉ dùng hình ảnh từ nhà cung cấp siêu dữ liệu khi thư viện không có hình ảnh"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "始终使用媒体库提供的图片，仅在媒体库未提供图片时才使用元数据服务的图片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "一律使用媒體庫提供的圖片，僅在媒體庫未提供圖片時才使用中繼資料服務的圖片"
+          }
+        }
+      }
     },
     "Always use metadata-provider artwork, unless unavailable—then use library artwork. Generally worse performance." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استخدم دائمًا صور خدمات البيانات الوصفية، وإذا لم تتوفر فاستخدم صور مكتبة الوسائط. الأداء أسوأ عمومًا."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Винаги използвай изображения от доставчици на метаданни. Ако не са налични, използвай изображения от медийната библиотека. Като цяло по-лоша производителност."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fes servir sempre les imatges dels proveïdors de metadades; si no estan disponibles, fes servir les de la biblioteca multimèdia. Rendiment generalment pitjor."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vždy používat obrázky od poskytovatelů metadat. Pokud nejsou dostupné, použít obrázky z knihovny médií. Obecně horší výkon."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brug altid billeder fra metadatatjenester. Hvis de ikke er tilgængelige, så brug billeder fra mediebiblioteket. Generelt dårligere ydeevne."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immer Bilder von Metadatenanbietern verwenden. Sind diese nicht verfügbar, Bilder aus der Mediathek nutzen. In der Regel schlechtere Leistung."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Να χρησιμοποιούνται πάντα εικόνες από παρόχους μεταδεδομένων. Αν δεν είναι διαθέσιμες, να χρησιμοποιούνται εικόνες από τη βιβλιοθήκη πολυμέσων. Γενικά χειρότερες επιδόσεις."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar siempre imágenes de proveedores de metadatos. Si no están disponibles, usar las de la biblioteca multimedia. Peor rendimiento en general."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "همیشه از تصاویر ارائه‌دهندگان فراداده استفاده کنید؛ اگر در دسترس نبودند، از تصاویر کتابخانهٔ رسانه‌ای استفاده کنید. عملکرد عموماً ضعیف‌تر است."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Käytä aina metatietopalvelujen kuvitusta. Jos sitä ei ole saatavilla, käytä mediakirjaston kuvitusta. Yleensä heikompi suorituskyky."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Toujours utiliser les illustrations des fournisseurs de métadonnées. Si elles ne sont pas disponibles, utiliser celles de la médiathèque. Performances généralement moins bonnes."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "להשתמש תמיד בתמונות מספקי מטא־נתונים. אם הן אינן זמינות, להשתמש בתמונות מספריית המדיה. הביצועים בדרך כלל פחות טובים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "हमेशा मेटाडेटा प्रदाताओं का आर्टवर्क इस्तेमाल करें। अगर वह उपलब्ध न हो, तो मीडिया लाइब्रेरी का आर्टवर्क इस्तेमाल करें। आम तौर पर प्रदर्शन बदतर होता है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uvijek koristi slike pružatelja metapodataka, osim ako nisu dostupne — tada koristi slike iz medijske zbirke. Općenito lošije performanse."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mindig a metaadat-szolgáltatók képeit használja. Ha ezek nem érhetők el, a médiatár képeit használja. Általában rosszabb teljesítmény."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Selalu gunakan gambar dari penyedia metadata. Jika tidak tersedia, gunakan gambar dari pustaka media. Kinerja umumnya lebih buruk."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usa sempre le immagini dei fornitori di metadati; se non sono disponibili, usa quelle della libreria multimediale. Prestazioni generalmente peggiori."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "常にメタデータプロバイダーのアートワークを使用し、利用できない場合はメディアライブラリのアートワークを使用します。通常、パフォーマンスが低下します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "항상 메타데이터 제공 서비스의 아트워크를 사용하며, 사용할 수 없을 때는 미디어 라이브러리의 아트워크를 사용합니다. 일반적으로 성능이 떨어집니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sentiasa gunakan imej daripada penyedia metadata. Jika imej tersebut tidak tersedia, gunakan imej pustaka media. Prestasi umumnya lebih rendah."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bruk alltid bilder fra metadataleverandører. Hvis de ikke er tilgjengelige, bruk bilder fra mediebiblioteket. Generelt dårligere ytelse."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gebruik altijd afbeeldingen van metadataproviders. Zijn die niet beschikbaar, gebruik dan afbeeldingen uit de mediabibliotheek. Doorgaans slechtere prestaties."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zawsze używaj grafik od dostawców metadanych. Jeśli są niedostępne, używaj grafik z biblioteki multimediów. Zwykle gorsza wydajność."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sempre use imagens de provedores de metadados. Se não estiverem disponíveis, use as imagens da biblioteca de mídia. Desempenho geralmente pior."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Folosește întotdeauna imaginile de la furnizorii de metadate, iar dacă nu sunt disponibile, folosește imaginile din biblioteca media. În general, performanță mai slabă."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Всегда использовать изображения от поставщиков метаданных, а если они недоступны — изображения из медиатеки. Как правило, производительность хуже."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vždy používať obrázky od poskytovateľov metadát. Ak nie sú dostupné, použiť obrázky z knižnice médií. Spravidla horší výkon."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vedno uporabi slike ponudnikov metapodatkov. Če niso na voljo, uporabi slike iz medijske knjižnice. Na splošno slabša zmogljivost."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uvek koristi slike pružalaca metapodataka. Ako nisu dostupne, koristi slike iz medijske biblioteke. Generalno lošije performanse."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Använd alltid bilder från metadataleverantörer. Om de inte är tillgängliga, använd bilder från mediebiblioteket. Generellt sämre prestanda."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ใช้ภาพจากผู้ให้บริการเมทาดาทาเสมอ หากภาพนั้นไม่พร้อมใช้งาน ให้ใช้ภาพจากคลังสื่อแทน โดยทั่วไปประสิทธิภาพจะต่ำกว่า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Her zaman meta veri sağlayıcılarının görsellerini kullanır; bunlar mevcut değilse medya arşivindeki görselleri kullanır. Genellikle daha düşük performans sunar."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Завжди використовувати зображення від постачальників метаданих. Якщо такі зображення недоступні, використовувати зображення з медіатеки. Зазвичай продуктивність гірша."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Luôn dùng hình ảnh từ nhà cung cấp siêu dữ liệu; nếu không có, dùng hình ảnh từ thư viện đa phương tiện. Hiệu năng nhìn chung kém hơn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "始终使用元数据服务的图片；无法获取时，则使用媒体库图片。性能通常较差。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "一律使用中繼資料服務的圖片；無法取得時，則使用媒體庫的圖片。通常效能較差。"
+          }
+        }
+      }
     },
     "Amber" : {
       "comment" : "Color name used as the accessibility label for a profile avatar color swatch.",
@@ -218670,6 +219104,7 @@
       }
     },
     "Default everywhere" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -218890,6 +219325,7 @@
       }
     },
     "Default · Labels" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -219110,6 +219546,7 @@
       }
     },
     "Default · No labels" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -330241,6 +330678,9 @@
           }
         }
       }
+    },
+    "Labels except in Showcase." : {
+
     },
     "Language" : {
       "comment" : "Label for the app-language setting in Appearance on tvOS and iOS.",
@@ -462249,7 +462689,224 @@
       }
     },
     "Plozz chooses artwork to suit each part of the app." : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يختار Plozz الصور المناسبة لكل جزء من التطبيق."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz избира подходящи изображения за всяка част от приложението."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz tria les imatges adequades per a cada part de l'aplicació."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz vybírá obrázky vhodné pro každou část aplikace."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz vælger billeder, der passer til hver del af appen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz wählt für jeden Bereich der App passende Bilder aus."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Plozz επιλέγει εικόνες κατάλληλες για κάθε μέρος της εφαρμογής."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz elige las imágenes adecuadas para cada parte de la aplicación."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz برای هر بخش برنامه، تصاویر متناسب با آن را انتخاب می‌کند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz valitsee kuvituksen sovelluksen kuhunkin osaan sopivaksi."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz choisit des illustrations adaptées à chaque partie de l’application."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz בוחרת תמונות שמתאימות לכל חלק באפליקציה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz ऐप के हर हिस्से के लिए उपयुक्त आर्टवर्क चुनता है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz odabire slike prikladne za svaki dio aplikacije."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Plozz az alkalmazás minden részéhez illő képeket választ."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz memilih gambar yang sesuai untuk setiap bagian aplikasi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz sceglie le immagini più adatte a ogni parte dell'app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozzがアプリの各部分に適したアートワークを選びます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz가 앱의 각 영역에 어울리는 아트워크를 선택합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz memilih imej yang sesuai untuk setiap bahagian aplikasi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz velger bilder som passer til hver del av appen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz kiest passende afbeeldingen voor elk onderdeel van de app."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz dobiera grafiki pasujące do każdej części aplikacji."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Plozz escolhe imagens adequadas a cada área do app."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz alege imagini potrivite pentru fiecare parte a aplicației."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz подбирает изображения, подходящие для каждой части приложения."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz vyberá obrázky vhodné pre každú časť aplikácie."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz izbere slike, primerne za vsak del aplikacije."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz bira slike koje odgovaraju svakom delu aplikacije."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz väljer bilder som passar varje del av appen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz เลือกภาพให้เหมาะกับแต่ละส่วนของแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz, uygulamanın her bölümüne uygun görselleri seçer."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz добирає відповідні зображення для кожної частини застосунку."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz chọn hình ảnh phù hợp với từng phần của ứng dụng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz 会为应用的各个区域选择合适的图片。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz 會為應用程式的各個區域選擇合適的圖片。"
+          }
+        }
+      }
     },
     "Plozz could not reach the channel's streaming server. Check your internet connection or try again later." : {
       "localizations" : {
@@ -524398,6 +525055,7 @@
       }
     },
     "Reset all to default" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -592005,6 +592663,9 @@
           }
         }
       }
+    },
+    "Showcase" : {
+
     },
     "Showing up to 100 matching stations. Confirm the station and regional feed before choosing." : {
       "localizations" : {
@@ -732304,6 +732965,15 @@
           }
         }
       }
+    },
+    "Use default: Labels" : {
+
+    },
+    "Use default: Labels except in Showcase" : {
+
+    },
+    "Use default: No labels" : {
+
     },
     "Use default: library preferred" : {
       "localizations" : {
