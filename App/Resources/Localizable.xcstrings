@@ -113580,6 +113580,12 @@
         }
       }
     },
+    "Always use local artwork from your libraries, only using metadata providers when none is provided locally" : {
+
+    },
+    "Always use metadata-provider artwork, unless unavailable—then use library artwork. Generally worse performance." : {
+
+    },
     "Amber" : {
       "comment" : "Color name used as the accessibility label for a profile avatar color swatch.",
       "localizations" : {
@@ -119752,6 +119758,7 @@
       }
     },
     "Artwork preferences are in Appearance > Artwork and belong to each profile." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -311077,6 +311084,7 @@
       }
     },
     "Images from metadata providers such as TMDB and TheTVDB." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -336406,6 +336414,7 @@
       }
     },
     "Library artwork, with textless Continue Watching images and varied Details backgrounds when available." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -368966,6 +368975,7 @@
       }
     },
     "Metadata providers and caches are shared by every profile on this device. Artwork preferences are in Appearance > Artwork and belong to each profile." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -462237,6 +462247,9 @@
           }
         }
       }
+    },
+    "Plozz chooses artwork to suit each part of the app." : {
+
     },
     "Plozz could not reach the channel's streaming server. Check your internet connection or try again later." : {
       "localizations" : {
@@ -770929,6 +770942,7 @@
       }
     },
     "Your selected library images. Metadata providers fill in missing artwork." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
