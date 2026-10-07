@@ -310412,7 +310412,228 @@
         }
       }
     },
+    "Images Plozz finds separately through metadata providers, such as TMDB or TheTVDB. They may be the same images your library uses. In Metadata Providers, Recommended lets Plozz choose providers. Custom uses your saved order and turns off providers you disable." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "صور يعثر عليها Plozz بشكل مستقل عبر موفري البيانات الوصفية، مثل TMDB أو TheTVDB. قد تكون هي نفسها الصور التي تستخدمها مكتبتك. في «موفرو البيانات الوصفية»، يتيح خيار «مقترح» لتطبيق Plozz اختيار الموفرين. أما خيار «مخصص» فيستخدم ترتيبك المحفوظ ويوقف الموفرين الذين تعطّلهم."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения, които Plozz намира отделно чрез доставчици на метаданни, като TMDB или TheTVDB. Възможно е това да са същите изображения, които използва медиатеката ви. В „Доставчици на метаданни“ опцията „Препоръчано“ позволява на Plozz да избира доставчиците. „Персонализирано“ използва запазения от вас ред и изключва доставчиците, които сте деактивирали."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imatges que Plozz troba de manera independent a través de proveïdors de metadades, com ara TMDB o TheTVDB. Poden ser les mateixes imatges que utilitza la teva biblioteca. A «Proveïdors de metadades», l'opció «Recomanat» permet que Plozz triï els proveïdors. «Personalitzat» utilitza l'ordre que has desat i desactiva els proveïdors que inhabilites."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky, které Plozz vyhledává nezávisle prostřednictvím poskytovatelů metadat, například TMDB nebo TheTVDB. Mohou to být stejné obrázky, jaké používá vaše knihovna. V části „Poskytovatelé metadat“ volba „Doporučené“ umožňuje aplikaci Plozz vybrat poskytovatele. Volba „Vlastní“ používá vaše uložené pořadí a vypíná poskytovatele, které zakážete."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Billeder, som Plozz finder uafhængigt via metadata-udbydere som TMDB eller TheTVDB. Det kan være de samme billeder, som dit bibliotek bruger. Under »Metadata-udbydere« lader »Anbefalet« Plozz vælge udbydere. »Tilpasset« bruger din gemte rækkefølge og slår de udbydere fra, du deaktiverer."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder, die Plozz unabhängig über Metadatenanbieter wie TMDB oder TheTVDB findet. Es können dieselben Bilder sein, die deine Medienbibliothek verwendet. Unter „Metadatenanbieter“ wählt Plozz mit der Option „Empfohlen“ die Anbieter aus. Mit „Benutzerdefiniert“ wird deine gespeicherte Reihenfolge verwendet, und von dir deaktivierte Anbieter bleiben ausgeschaltet."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εικόνες που βρίσκει ανεξάρτητα το Plozz μέσω παρόχων μεταδεδομένων, όπως το TMDB ή το TheTVDB. Μπορεί να είναι ίδιες με τις εικόνες που χρησιμοποιεί η βιβλιοθήκη σας. Στην ενότητα «Πάροχοι μεταδεδομένων», η επιλογή «Προτεινόμενη» επιτρέπει στο Plozz να επιλέγει παρόχους. Η επιλογή «Προσαρμοσμένη» χρησιμοποιεί την αποθηκευμένη σειρά σας και απενεργοποιεί τους παρόχους που έχετε επιλέξει να μη χρησιμοποιούνται."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imágenes que Plozz encuentra por su cuenta a través de proveedores de metadatos, como TMDB o TheTVDB. Pueden ser las mismas que usa tu biblioteca multimedia. En «Proveedores de metadatos», «Recomendado» permite que Plozz elija los proveedores. «Personalizado» usa el orden que has guardado y excluye los proveedores que hayas desactivado."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تصاویری که Plozz به‌طور مستقل از طریق ارائه‌دهندگان فراداده، مانند TMDB یا TheTVDB، پیدا می‌کند. ممکن است این تصاویر با تصاویر کتابخانهٔ شما یکسان باشند. در «ارائه‌دهندگان فراداده»، گزینهٔ «پیشنهادی» انتخاب ارائه‌دهندگان را به Plozz می‌سپارد. گزینهٔ «سفارشی» از ترتیب ذخیره‌شدهٔ شما استفاده می‌کند و ارائه‌دهندگانی را که غیرفعال کرده‌اید کنار می‌گذارد."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kuvat, jotka Plozz löytää erikseen metatietolähteistä, kuten TMDB:stä tai TheTVDB:stä. Ne voivat olla samoja kuvia, joita kirjastosi käyttää. Metatietolähteet-kohdassa Suositeltu-valinta antaa Plozzin valita lähteet. Mukautettu-valinta käyttää tallentamaasi järjestystä eikä käytä lähteitä, jotka olet poistanut käytöstä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Images que Plozz trouve indépendamment via des fournisseurs de métadonnées, comme TMDB ou TheTVDB. Elles peuvent être identiques à celles de votre bibliothèque. Dans « Fournisseurs de métadonnées », l’option « Recommandé » laisse Plozz choisir les fournisseurs. L’option « Personnalisé » utilise l’ordre que vous avez enregistré et désactive les fournisseurs que vous choisissez de ne pas utiliser."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונות ש־Plozz מוצאת בנפרד באמצעות ספקי מטא-נתונים, כגון TMDB או TheTVDB. ייתכן שאלו אותן תמונות המשמשות את הספרייה שלך. תחת ״ספקי מטא-נתונים״, האפשרות ״מומלץ״ מאפשרת ל־Plozz לבחור את הספקים. האפשרות ״מותאם אישית״ משתמשת בסדר ששמרת ומשביתה את הספקים שבחרת להשבית."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "वे चित्र जिन्हें Plozz TMDB या TheTVDB जैसे मेटाडेटा प्रोवाइडरों के ज़रिए अलग से खोजता है। ये वही चित्र भी हो सकते हैं जिन्हें आपकी लाइब्रेरी इस्तेमाल करती है। ‘मेटाडेटा प्रोवाइडर’ में ‘सुझाया गया’ चुनने पर Plozz प्रोवाइडर चुनता है। ‘कस्टम’ विकल्प आपके सहेजे गए क्रम का इस्तेमाल करता है और जिन प्रोवाइडरों को आप बंद करते हैं, उन्हें बंद रखता है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike koje Plozz zasebno pronalazi putem pružatelja metapodataka kao što su TMDB ili TheTVDB. To mogu biti iste slike koje koristi vaša knjižnica. U odjeljku Pružatelji metapodataka opcija Preporučeno omogućuje aplikaciji Plozz odabir pružatelja. Opcija Prilagođeno koristi vaš spremljeni redoslijed i isključuje pružatelje koje onemogućite."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Képek, amelyeket a Plozz külön keres meg olyan metaadat-szolgáltatóknál, mint a TMDB vagy a TheTVDB. Ezek megegyezhetnek a könyvtárban használt képekkel. A Metaadat-szolgáltatók részben az Ajánlott beállítással a Plozz választja ki a szolgáltatókat. Az Egyéni beállítás a mentett sorrendet használja, és kikapcsolja a letiltott szolgáltatókat."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gambar yang ditemukan Plozz secara terpisah melalui penyedia metadata, seperti TMDB atau TheTVDB. Gambar ini mungkin sama dengan yang digunakan pustaka Anda. Di Penyedia metadata, opsi Direkomendasikan memungkinkan Plozz memilih penyedia. Opsi Kustom menggunakan urutan yang Anda simpan dan tidak menggunakan penyedia yang Anda nonaktifkan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immagini che Plozz trova separatamente tramite provider di metadati, come TMDB o TheTVDB. Possono essere le stesse immagini usate dalla tua libreria. Nella sezione «Provider di metadati», l'opzione «Consigliato» lascia a Plozz la scelta dei provider. L'opzione «Personalizzato» usa l'ordine che hai salvato ed esclude i provider che disattivi."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TMDBやTheTVDBなどのメタデータプロバイダを通じて、Plozzが独自に検索する画像です。ライブラリで使われている画像と同じ場合もあります。「メタデータプロバイダ」で「おすすめ」を選ぶと、Plozzがプロバイダを選択します。「カスタム」では保存した順序を使い、無効にしたプロバイダは使用しません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz가 TMDB나 TheTVDB 같은 메타데이터 제공업체를 통해 별도로 찾은 이미지입니다. 미디어 보관함에서 사용하는 이미지와 같을 수 있습니다. ‘메타데이터 제공업체’에서 ‘추천’을 선택하면 Plozz가 제공업체를 선택합니다. ‘사용자 지정’은 저장된 순서를 사용하며, 사용자가 비활성화한 제공업체는 사용하지 않습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imej yang ditemui oleh Plozz secara berasingan melalui penyedia metadata, seperti TMDB atau TheTVDB. Imej ini mungkin sama dengan yang digunakan oleh pustaka anda. Dalam “Penyedia Metadata”, “Disyorkan” membolehkan Plozz memilih penyedia. “Tersuai” menggunakan susunan yang anda simpan dan tidak menggunakan penyedia yang anda matikan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder som Plozz finner separat via metadataleverandører, som TMDB eller TheTVDB. Det kan være de samme bildene som biblioteket ditt bruker. Under «Metadataleverandører» lar «Anbefalt» Plozz velge leverandører. «Tilpasset» bruker den lagrede rekkefølgen din og slår av leverandørene du deaktiverer."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afbeeldingen die Plozz afzonderlijk vindt via metadataproviders, zoals TMDB of TheTVDB. Dit kunnen dezelfde afbeeldingen zijn als die in je bibliotheek. Bij ‘Metadataproviders’ laat ‘Aanbevolen’ Plozz de providers kiezen. ‘Aangepast’ gebruikt je opgeslagen volgorde en slaat providers over die je hebt uitgeschakeld."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrazy, które Plozz znajduje niezależnie za pośrednictwem dostawców metadanych, takich jak TMDB lub TheTVDB. Mogą być takie same jak obrazy w Twojej bibliotece. W sekcji „Dostawcy metadanych” opcja „Zalecana” pozwala Plozz wybierać dostawców. Opcja „Własna” korzysta z zapisanej kolejności i pomija wyłączonych przez Ciebie dostawców."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagens que o Plozz encontra separadamente por meio de provedores de metadados, como TMDB ou TheTVDB. Elas podem ser as mesmas imagens usadas na sua biblioteca. Em “Provedores de metadados”, a opção “Recomendada” permite que o Plozz escolha os provedores. A opção “Personalizada” usa a ordem salva e mantém desativados os provedores que você desativou."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagini pe care Plozz le găsește separat prin furnizori de metadate, precum TMDB sau TheTVDB. Pot fi aceleași imagini pe care le folosește biblioteca ta. În „Furnizori de metadate”, opțiunea „Recomandată” îi permite aplicației Plozz să aleagă furnizorii. Opțiunea „Personalizată” folosește ordinea salvată și exclude furnizorii pe care îi dezactivezi."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения, которые Plozz находит отдельно через источники метаданных, например TMDB или TheTVDB. Они могут совпадать с изображениями в вашей медиатеке. В разделе «Источники метаданных» вариант «Рекомендуемый» позволяет Plozz выбирать источники. Вариант «Пользовательский» использует сохранённый вами порядок и исключает отключённые вами источники."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky, ktoré Plozz vyhľadáva samostatne prostredníctvom poskytovateľov metadát, napríklad TMDB alebo TheTVDB. Môžu to byť rovnaké obrázky, aké používa vaša knižnica. V časti „Poskytovatelia metadát“ umožňuje voľba „Odporúčané“ aplikácii Plozz vybrať poskytovateľov. Voľba „Vlastné“ používa vaše uložené poradie a nepoužíva poskytovateľov, ktorých vypnete."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike, ki jih Plozz poišče ločeno prek ponudnikov metapodatkov, kot sta TMDB in TheTVDB. Lahko so enake slikam, ki jih uporablja vaša knjižnica. V razdelku »Ponudniki metapodatkov« možnost »Priporočeno« prepusti izbiro ponudnikov aplikaciji Plozz. Možnost »Po meri« uporablja shranjeni vrstni red in izključi ponudnike, ki jih onemogočite."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike koje Plozz zasebno pronalazi putem izvora metapodataka, kao što su TMDB ili TheTVDB. To mogu biti iste slike koje koristi vaša biblioteka. U odeljku „Izvori metapodataka“ opcija „Preporučeno“ prepušta izbor izvora aplikaciji Plozz. Opcija „Prilagođeno“ koristi vaš sačuvani redosled i ne koristi izvore koje isključite."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder som Plozz hittar separat via metadatakällor, till exempel TMDB eller TheTVDB. Det kan vara samma bilder som ditt bibliotek använder. Under ”Metadatakällor” låter ”Rekommenderad” Plozz välja källor. ”Anpassad” använder din sparade ordning och utesluter de källor du stänger av."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "รูปภาพที่ Plozz ค้นหาแยกต่างหากผ่านผู้ให้บริการข้อมูลเมตา เช่น TMDB หรือ TheTVDB อาจเป็นภาพเดียวกับที่ไลบรารีของคุณใช้ ใน “ผู้ให้บริการข้อมูลเมตา” ตัวเลือก “แนะนำ” จะให้ Plozz เลือกผู้ให้บริการ ส่วน “กำหนดเอง” จะใช้ลำดับที่คุณบันทึกไว้และปิดผู้ให้บริการที่คุณปิดใช้งาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz'un TMDB veya TheTVDB gibi meta veri sağlayıcıları üzerinden bağımsız olarak bulduğu görsellerdir. Kitaplığınızın kullandığı görsellerle aynı olabilirler. “Meta veri sağlayıcıları” bölümünde “Önerilen” seçeneği, sağlayıcıları Plozz'un seçmesini sağlar. “Özel sıralama” seçeneği, kaydettiğiniz sıralamayı kullanır ve devre dışı bıraktığınız sağlayıcıları kapatır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Зображення, які Plozz знаходить окремо через постачальників метаданих, як-от TMDB або TheTVDB. Вони можуть збігатися із зображеннями у вашій медіатеці. У розділі «Постачальники метаданих» вибір «Рекомендовано» дозволяє Plozz вибирати постачальників. Якщо вибрано «Власний порядок», Plozz використовує збережений вами порядок і вимикає постачальників, яких ви вимкнули."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hình ảnh Plozz tìm riêng qua các nhà cung cấp siêu dữ liệu như TMDB hoặc TheTVDB. Đây có thể là những hình ảnh mà thư viện của bạn cũng sử dụng. Trong “Các nhà cung cấp siêu dữ liệu”, “Khuyến nghị” cho phép Plozz chọn nhà cung cấp. “Tùy chỉnh” sử dụng thứ tự bạn đã lưu và tắt các nhà cung cấp bạn đã vô hiệu hóa."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz 通过 TMDB、TheTVDB 等元数据提供商独立查找的图片，可能与媒体库使用的图片相同。在“元数据提供商”中，“推荐”让 Plozz 选择提供商；“自定义”则使用你保存的顺序，并关闭你已停用的提供商。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz 透過 TMDB、TheTVDB 等中繼資料來源另外尋找的圖片，可能與媒體庫使用的圖片相同。在「中繼資料來源」中，「推薦」讓 Plozz 選擇來源；「自訂」則使用你儲存的順序，並關閉你已停用的來源。"
+          }
+        }
+      }
+    },
     "Images Plozz finds separately through online services, such as TMDB or TheTVDB. They may be the same images your library uses. In Online services, Recommended lets Plozz choose services. Custom uses your saved order and turns off services you disable." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -310628,6 +310849,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Plozz 透過 TMDB、TheTVDB 等線上服務另外尋找的圖片，可能與媒體庫使用的圖片相同。在「線上服務」中，「推薦」讓 Plozz 選擇服務；「自訂」則使用你儲存的順序，並關閉你已停用的服務。"
+          }
+        }
+      }
+    },
+    "Images from metadata providers such as TMDB and TheTVDB." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "صور من موفري البيانات الوصفية مثل TMDB وTheTVDB."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения от доставчици на метаданни като TMDB и TheTVDB."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imatges de proveïdors de metadades com ara TMDB i TheTVDB."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky od poskytovatelů metadat, jako jsou TMDB a TheTVDB."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Billeder fra metadata-udbydere som TMDB og TheTVDB."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder von Metadatenanbietern wie TMDB und TheTVDB."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εικόνες από παρόχους μεταδεδομένων, όπως το TMDB και το TheTVDB."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imágenes de proveedores de metadatos como TMDB y TheTVDB."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تصاویری از ارائه‌دهندگان فراداده مانند TMDB و TheTVDB."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kuvia metatietolähteistä, kuten TMDB:stä ja TheTVDB:stä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Images provenant de fournisseurs de métadonnées comme TMDB et TheTVDB."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונות מספקי מטא-נתונים כגון TMDB ו־TheTVDB."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TMDB और TheTVDB जैसे मेटाडेटा प्रोवाइडरों से मिलने वाले चित्र।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike pružatelja metapodataka kao što su TMDB i TheTVDB."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Képek olyan metaadat-szolgáltatóktól, mint a TMDB és a TheTVDB."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gambar dari penyedia metadata seperti TMDB dan TheTVDB."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immagini da provider di metadati come TMDB e TheTVDB."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TMDBやTheTVDBなどのメタデータプロバイダから取得する画像です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TMDB와 TheTVDB 같은 메타데이터 제공업체의 이미지입니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imej daripada penyedia metadata seperti TMDB dan TheTVDB."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder fra metadataleverandører som TMDB og TheTVDB."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afbeeldingen van metadataproviders zoals TMDB en TheTVDB."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrazy od dostawców metadanych, takich jak TMDB i TheTVDB."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagens de provedores de metadados como TMDB e TheTVDB."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagini de la furnizori de metadate precum TMDB și TheTVDB."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения из источников метаданных, таких как TMDB и TheTVDB."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky od poskytovateľov metadát, ako sú TMDB a TheTVDB."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike ponudnikov metapodatkov, kot sta TMDB in TheTVDB."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike iz izvora metapodataka kao što su TMDB i TheTVDB."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder från metadatakällor som TMDB och TheTVDB."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "รูปภาพจากผู้ให้บริการข้อมูลเมตา เช่น TMDB และ TheTVDB"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "TMDB ve TheTVDB gibi meta veri sağlayıcılarından gelen görseller."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Зображення від постачальників метаданих, як-от TMDB і TheTVDB."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hình ảnh từ các nhà cung cấp siêu dữ liệu như TMDB và TheTVDB."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "来自 TMDB、TheTVDB 等元数据提供商的图片。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "來自 TMDB、TheTVDB 等中繼資料來源的圖片。"
           }
         }
       }
@@ -367419,6 +367860,7 @@
     },
     "Metadata" : {
       "comment" : "Title for the Metadata settings destination and page in tvOS and iOS/iPadOS Settings.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -367855,6 +368297,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "中繼資料來源"
+          }
+        }
+      }
+    },
+    "Metadata Providers (TMDB, TheTVDB…)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "موفرو البيانات الوصفية (TMDB، TheTVDB…)"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Доставчици на метаданни (TMDB, TheTVDB…)"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Proveïdors de metadades (TMDB, TheTVDB…)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Poskytovatelé metadat (TMDB, TheTVDB…)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadata-udbydere (TMDB, TheTVDB…)"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadatenanbieter (TMDB, TheTVDB…)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Πάροχοι μεταδεδομένων (TMDB, TheTVDB…)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Proveedores de metadatos (TMDB, TheTVDB…)"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ارائه‌دهندگان فراداده (TMDB, TheTVDB…)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metatietolähteet (TMDB, TheTVDB…)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fournisseurs de métadonnées (TMDB, TheTVDB…)"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ספקי מטא-נתונים (TMDB, TheTVDB…)"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "मेटाडेटा प्रोवाइडर (TMDB, TheTVDB…)"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pružatelji metapodataka (TMDB, TheTVDB…)"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metaadat-szolgáltatók (TMDB, TheTVDB…)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyedia metadata (TMDB, TheTVDB…)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Provider di metadati (TMDB, TheTVDB…)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "メタデータプロバイダ (TMDB, TheTVDB…)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "메타데이터 제공업체 (TMDB, TheTVDB…)"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyedia Metadata (TMDB, TheTVDB…)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataleverandører (TMDB, TheTVDB…)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataproviders (TMDB, TheTVDB…)"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dostawcy metadanych (TMDB, TheTVDB…)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Provedores de metadados (TMDB, TheTVDB…)"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Furnizori de metadate (TMDB, TheTVDB…)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Источники метаданных (TMDB, TheTVDB…)"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Poskytovatelia metadát (TMDB, TheTVDB…)"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponudniki metapodatkov (TMDB, TheTVDB…)"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izvori metapodataka (TMDB, TheTVDB…)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadatakällor (TMDB, TheTVDB…)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ผู้ให้บริการข้อมูลเมตา (TMDB, TheTVDB…)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Meta veri sağlayıcıları (TMDB, TheTVDB…)"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Постачальники метаданих (TMDB, TheTVDB…)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Các nhà cung cấp siêu dữ liệu (TMDB, TheTVDB…)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "元数据提供商 (TMDB, TheTVDB…)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "中繼資料來源 (TMDB, TheTVDB…)"
           }
         }
       }
@@ -374911,7 +375573,228 @@
         }
       }
     },
+    "Movies and shows prefer images from metadata providers. Music prefers artwork from your library." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تُفضَّل صور موفري البيانات الوصفية للأفلام والمسلسلات، وتُفضَّل صور مكتبتك للموسيقى."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "За филми и сериали се предпочитат изображения от доставчици на метаданни. За музика се предпочитат изображения от медиатеката ви."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Per a les pel·lícules i les sèries, es prioritzen les imatges de proveïdors de metadades. Per a la música, es prioritzen les imatges de la teva biblioteca."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "U filmů a seriálů mají přednost obrázky od poskytovatelů metadat. U hudby mají přednost obrázky z vaší knihovny."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Til film og serier foretrækkes billeder fra metadata-udbydere. Til musik foretrækkes billeder fra dit bibliotek."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Für Filme und Serien werden Bilder von Metadatenanbietern bevorzugt. Für Musik wird Bildmaterial aus deiner Medienbibliothek bevorzugt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Για ταινίες και σειρές προτιμώνται εικόνες από παρόχους μεταδεδομένων. Για τη μουσική προτιμώνται εικόνες από τη βιβλιοθήκη σας."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Para las películas y series se prefieren las imágenes de proveedores de metadatos. Para la música se prefieren las imágenes de tu biblioteca multimedia."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برای فیلم‌ها و سریال‌ها، تصاویر دریافتی از ارائه‌دهندگان فراداده ترجیح داده می‌شوند. برای موسیقی، تصاویر کتابخانهٔ شما ترجیح داده می‌شوند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Elokuvissa ja sarjoissa suositaan metatietolähteiden kuvia. Musiikissa suositaan kirjastosi kuvitusta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pour les films et les séries, les images des fournisseurs de métadonnées sont privilégiées. Pour la musique, les illustrations de votre bibliothèque sont privilégiées."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בסרטים ובסדרות ניתנת עדיפות לתמונות מספקי מטא-נתונים. במוזיקה ניתנת עדיפות לתמונות מהספרייה שלך."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "फ़िल्मों और शो के लिए मेटाडेटा प्रोवाइडरों के चित्रों को प्राथमिकता दी जाती है। संगीत के लिए आपकी लाइब्रेरी के चित्रों को प्राथमिकता दी जाती है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za filmove i serije prednost imaju slike pružatelja metapodataka. Za glazbu prednost imaju slike iz vaše knjižnice."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmeknél és sorozatoknál a metaadat-szolgáltatók képei élveznek előnyt. Zenénél a könyvtár képei élveznek előnyt."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Untuk film dan acara, gambar dari penyedia metadata diutamakan. Untuk musik, gambar dari pustaka Anda diutamakan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Per film e serie si dà priorità alle immagini dei provider di metadati. Per la musica si dà priorità alle immagini della tua libreria."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "映画や番組ではメタデータプロバイダの画像を優先します。音楽ではライブラリのアートワークを優先します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "영화와 TV 프로그램에는 메타데이터 제공업체의 이미지를 우선 사용합니다. 음악에는 미디어 보관함의 아트워크를 우선 사용합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Untuk filem dan siri TV, imej daripada penyedia metadata diutamakan. Untuk muzik, imej daripada pustaka anda diutamakan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "For filmer og serier foretrekkes bilder fra metadataleverandører. For musikk foretrekkes bilder fra biblioteket ditt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Voor films en series krijgen afbeeldingen van metadataproviders voorrang. Voor muziek krijgen afbeeldingen uit je bibliotheek voorrang."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "W przypadku filmów i seriali preferowane są obrazy od dostawców metadanych. W przypadku muzyki preferowana jest grafika z Twojej biblioteki."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Para filmes e séries, a preferência é por imagens de provedores de metadados. Para música, a preferência é por imagens da sua biblioteca."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pentru filme și seriale sunt preferate imaginile de la furnizorii de metadate. Pentru muzică sunt preferate imaginile din biblioteca ta."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Для фильмов и сериалов предпочтительны изображения из источников метаданных. Для музыки — изображения из вашей медиатеки."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pri filmoch a seriáloch sa uprednostňujú obrázky od poskytovateľov metadát. Pri hudbe sa uprednostňujú obrázky z vašej knižnice."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pri filmih in serijah imajo prednost slike ponudnikov metapodatkov. Pri glasbi imajo prednost slike iz vaše knjižnice."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Za filmove i serije prednost imaju slike iz izvora metapodataka. Za muziku prednost imaju slike iz vaše biblioteke."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "För filmer och serier prioriteras bilder från metadatakällor. För musik prioriteras bilder från ditt bibliotek."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพยนตร์และรายการจะเลือกภาพจากผู้ให้บริการข้อมูลเมตาก่อน ส่วนเพลงจะเลือกภาพประกอบจากไลบรารีของคุณก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmler ve diziler için meta veri sağlayıcılarından gelen görseller tercih edilir. Müzik için kitaplığınızdaki görseller tercih edilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Для фільмів і серіалів перевага надається зображенням від постачальників метаданих. Для музики — зображенням із вашої медіатеки."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Phim và chương trình ưu tiên hình ảnh từ các nhà cung cấp siêu dữ liệu. Âm nhạc ưu tiên hình ảnh từ thư viện của bạn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "电影和剧集优先使用元数据提供商的图片。音乐优先使用媒体库中的图片。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "電影與影集優先使用中繼資料來源的圖片。音樂優先使用媒體庫中的圖片。"
+          }
+        }
+      }
+    },
     "Movies and shows prefer images from online providers. Music prefers artwork from your library." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -420115,6 +420998,7 @@
       }
     },
     "Online services" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -467527,6 +468411,7 @@
       }
     },
     "Prefers images Plozz finds through online services." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
