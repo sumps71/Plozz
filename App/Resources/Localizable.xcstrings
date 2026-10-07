@@ -92414,6 +92414,7 @@
       }
     },
     "About artwork sources" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -132327,6 +132328,7 @@
       }
     },
     "Backdrops, logos, and related titles." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -132542,6 +132544,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "背景圖片、標誌與相關作品。"
+          }
+        }
+      }
+    },
+    "Backdrops, logos, and related titles. Recommended can use a different background from Home." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الخلفيات والشعارات والعناوين ذات الصلة. يمكن لخيار «موصى به» استخدام خلفية مختلفة عن «الرئيسية»."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Фонове, лога и свързани заглавия. „Препоръчани“ може да използва фон, различен от този в „Начало“."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fons, logotips i títols relacionats. «Recomanats» pot utilitzar un fons diferent del d’«Inici»."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pozadí, loga a související tituly. Volba „Doporučené“ může použít jiné pozadí než na obrazovce „Domů“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Baggrunde, logoer og relaterede titler. Anbefalet kan bruge en anden baggrund end den på Hjem."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hintergründe, Logos und verwandte Titel. „Empfohlen“ kann einen anderen Hintergrund verwenden als die Seite „Start“."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Φόντα, λογότυπα και σχετικοί τίτλοι. Η επιλογή «Προτεινόμενα» μπορεί να χρησιμοποιεί διαφορετικό φόντο από την «Αρχική»."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fondos, logotipos y títulos relacionados. «Recomendados» puede usar un fondo distinto al de «Inicio»."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "پس‌زمینه‌ها، لوگوها و عناوین مرتبط. «پیشنهادها» می‌تواند از پس‌زمینه‌ای متفاوت با «خانه» استفاده کند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Taustakuvat, logot ja aiheeseen liittyvät nimikkeet. Suositellut-asetus voi käyttää eri taustakuvaa kuin Koti."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Arrière-plans, logos et titres associés. L’option « Recommandations » peut utiliser un arrière-plan différent de celui de la page « Accueil »."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "רקעים, סמלי לוגו וכותרים קשורים. האפשרות ״מומלצים״ יכולה להשתמש ברקע שונה מזה שב״בית״."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "पृष्ठभूमियाँ, लोगो और संबंधित शीर्षक। “सुझाव” में होम से अलग पृष्ठभूमि इस्तेमाल की जा सकती है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pozadine, logotipi i povezani naslovi. Opcija Preporučeno može koristiti drukčiju pozadinu nego Početna."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Háttérképek, logók és kapcsolódó címek. Az Ajánlott beállítás a Kezdőlaptól eltérő hátteret használhat."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Latar, logo, dan judul terkait. Rekomendasi dapat menggunakan latar yang berbeda dari Beranda."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sfondi, loghi e titoli correlati. L’opzione «Consigliati» può usare uno sfondo diverso da quello della Home."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "背景、ロゴ、関連作品。「おすすめ」ではホームとは異なる背景を使うことがあります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "배경, 로고, 관련 작품. 추천 설정에서는 홈과 다른 배경을 사용할 수 있습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Latar belakang, logo dan tajuk berkaitan. Pilihan Disyorkan boleh menggunakan latar belakang yang berbeza daripada yang digunakan di Laman Utama."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bakgrunner, logoer og relaterte titler. Anbefalt kan bruke en annen bakgrunn enn på Hjem."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Achtergronden, logo's en gerelateerde titels. Met Aanbevolen kan de achtergrond verschillen van die op Start."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tła, logotypy i powiązane tytuły. Opcja Polecane może używać innego tła niż na ekranie Strona główna."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Planos de fundo, logotipos e títulos relacionados. A opção Recomendados pode usar um plano de fundo diferente do usado no Início."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Fundaluri, sigle și titluri conexe. Setarea „Recomandate” poate folosi un fundal diferit de cel din „Acasă”."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Фоны, логотипы и похожие произведения. Режим «Рекомендуемое» может использовать фон, отличный от фона на странице «Главная»."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pozadia, logá a súvisiace tituly. Nastavenie „Odporúčané“ môže použiť iné pozadie než na stránke „Domov“."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ozadja, logotipi in povezani naslovi. Nastavitev »Priporočeno« lahko uporabi drugačno ozadje kot na strani »Domov«."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pozadine, logotipi i povezani naslovi. Podešavanje „Preporučeno“ može da koristi drugačiju pozadinu nego na stranici „Početna“."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bakgrunder, logotyper och relaterade titlar. Med Rekommenderat kan bakgrunden skilja sig från den på sidan Hem."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพพื้นหลัง โลโก้ และรายการที่เกี่ยวข้อง โหมดแนะนำอาจใช้พื้นหลังต่างจากหน้าแรก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Arka planlar, logolar ve ilgili yapımlar. Önerilenler, Ana Sayfa'dan farklı bir arka plan kullanabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Фонові зображення, логотипи та пов’язані матеріали. У режимі «Рекомендоване» фон може відрізнятися від фону на сторінці «Головна»."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ảnh nền, logo và nội dung liên quan. Chế độ Đề xuất có thể dùng ảnh nền khác với Trang chủ."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "背景图、徽标和相关作品。“推荐”可使用与“首页”不同的背景。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "背景圖片、標誌和相關作品。「推薦」可使用與「首頁」不同的背景。"
           }
         }
       }
@@ -310413,6 +310635,7 @@
       }
     },
     "Images Plozz finds separately through metadata providers, such as TMDB or TheTVDB. They may be the same images your library uses. In Metadata Providers, Recommended lets Plozz choose providers. Custom uses your saved order and turns off providers you disable." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -311074,6 +311297,7 @@
       }
     },
     "Images supplied by Plex, Jellyfin, or Emby, and image files saved beside media on network shares. This includes the artwork you selected in your server." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -336177,6 +336401,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "媒體庫存取遭拒。請檢查登入狀態。"
+          }
+        }
+      }
+    },
+    "Library artwork, with textless Continue Watching images and varied Details backgrounds when available." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "صور المكتبة، مع صور بلا نص لقسم «متابعة المشاهدة» وخلفيات متنوعة لصفحة «التفاصيل» عند توفرها."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения от медиатеката с изображения без текст за „Продължете да гледате“ и разнообразни фонове за „Детайли“, когато са налични."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imatges de la biblioteca, amb imatges sense text a «Continua mirant» i fons variats a «Detalls» quan n’hi hagi de disponibles."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky z knihovny s obrázky bez textu v části „Pokračovat ve sledování“ a různými pozadími na stránce „Podrobnosti“, pokud jsou k dispozici."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Billeder fra biblioteket med tekstfri billeder i Se videre og varierede baggrunde i Detaljer, når de er tilgængelige."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder aus der Medienbibliothek mit textfreien Bildern für „Weiterschauen“ und unterschiedlichen Hintergründen für „Details“, sofern verfügbar."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Εικόνες βιβλιοθήκης, με εικόνες χωρίς κείμενο στη «Συνέχεια παρακολούθησης» και ποικιλία φόντων στις «Λεπτομέρειες», όταν διατίθενται."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imágenes de la biblioteca multimedia, con imágenes sin texto en «Seguir viendo» y fondos variados en «Detalles» cuando estén disponibles."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تصاویر کتابخانه، با تصاویر بدون متن در «ادامهٔ تماشا» و پس‌زمینه‌های متنوع در «جزئیات»، در صورت وجود."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kirjaston kuvitus sekä tekstittömät kuvat Jatka katsomista -osiossa ja vaihtelevat taustakuvat Tiedot-sivulla, kun niitä on saatavilla."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Illustrations de la bibliothèque, avec des images sans texte dans « Reprendre la lecture » et des arrière-plans variés dans « Détails », si disponibles."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "תמונות מהספרייה, עם תמונות ללא טקסט ב״המשך צפייה״ ורקעים מגוונים ב״פרטים״, כשיש כאלה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "लाइब्रेरी के चित्र; उपलब्ध होने पर “देखना जारी रखें” में बिना टेक्स्ट वाले चित्र और “विवरण” में अलग-अलग पृष्ठभूमियाँ।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike iz knjižnice, uz slike bez teksta u odjeljku Nastavi gledati i raznolike pozadine u odjeljku Pojedinosti kada su dostupne."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Könyvtári képek; ha elérhetők, szöveg nélküli képek a Megtekintés folytatása részben és változatos hátterek a Részletek oldalon."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gambar pustaka, dengan gambar tanpa teks di Lanjutkan Menonton dan latar bervariasi di Detail jika tersedia."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immagini della libreria, con immagini senza testo in «Continua a guardare» e sfondi diversi in «Dettagli», quando disponibili."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ライブラリのアートワークを使用。利用可能な場合は「続きを観る」に文字なしの画像、「詳細」には異なる背景を表示します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "미디어 보관함의 아트워크를 사용하며, 가능한 경우 시청 중인 콘텐츠에는 글자 없는 이미지를, 상세 정보에는 다양한 배경을 표시합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imej pustaka, dengan imej tanpa teks untuk Teruskan Menonton dan latar belakang yang pelbagai pada halaman Butiran apabila tersedia."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotekbilder, med tekstfrie bilder i Se videre og varierte bakgrunner i Detaljer når de er tilgjengelige."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotheekafbeeldingen, met tekstloze afbeeldingen voor Verder kijken en gevarieerde achtergronden op de pagina Details indien beschikbaar."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Grafika z biblioteki, z obrazami bez tekstu w sekcji Oglądaj dalej i zróżnicowanymi tłami na stronie Szczegóły, jeśli są dostępne."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagens da biblioteca, com imagens sem texto em Continuar assistindo e planos de fundo variados em Detalhes, quando disponíveis."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imagini din bibliotecă, cu imagini fără text la „Continuă vizionarea” și fundaluri variate la „Detalii”, când sunt disponibile."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изображения из медиатеки. При наличии — изображения без текста в разделе «Продолжить просмотр» и разные фоны на странице «Подробности»."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obrázky z knižnice s obrázkami bez textu v časti „Pokračovať v sledovaní“ a rôznymi pozadiami na stránke „Podrobnosti“, ak sú k dispozícii."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike iz knjižnice, s slikami brez besedila v razdelku »Nadaljuj z gledanjem« in raznolikimi ozadji na strani »Podrobnosti«, kadar so na voljo."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike iz biblioteke, sa slikama bez teksta u odeljku „Nastavi gledanje“ i raznovrsnim pozadinama na stranici „Detalji“, kada su dostupne."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder från biblioteket, med textfria bilder i Fortsätt titta och varierade bakgrunder på sidan Detaljer när de finns tillgängliga."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพประกอบจากไลบรารี พร้อมภาพไร้ข้อความสำหรับดูต่อและพื้นหลังที่หลากหลายสำหรับหน้ารายละเอียดเมื่อมีให้ใช้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kitaplık görselleri; mevcutsa İzlemeye devam et için yazısız görseller ve Ayrıntılar için farklı arka planlar."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Зображення з медіатеки; за наявності — зображення без тексту для «Продовжити перегляд» і різні фони для сторінки «Деталі»."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ảnh từ thư viện, với ảnh không chữ cho Xem tiếp và ảnh nền đa dạng cho Thông tin chi tiết khi có sẵn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用媒体库图片，并在可用时为“继续观看”使用无文字图片，为“详情”使用不同的背景。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用媒體庫圖片，並在可用時為「繼續觀看」使用無文字圖片，為「詳細資料」使用不同的背景。"
           }
         }
       }
@@ -368962,6 +369406,226 @@
         }
       }
     },
+    "Metadata providers favor images without text. Library artwork keeps your chosen images." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "يفضّل موفرو البيانات الوصفية الصور الخالية من النصوص. يحافظ خيار صور المكتبة على الصور التي اخترتها."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Доставчиците на метаданни предпочитат изображения без текст. При избор на медиатеката се запазват избраните от вас изображения."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Els proveïdors de metadades prioritzen les imatges sense text. Amb les imatges de la biblioteca es conserva la teva selecció."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Poskytovatelé metadat upřednostňují obrázky bez textu. Při použití obrázků z knihovny se zachová váš výběr."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadata-udbydere foretrækker billeder uden tekst. Med billeder fra biblioteket beholdes dine valgte billeder."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadatenanbieter bevorzugen Bilder ohne Text. Bei Bildern aus der Medienbibliothek bleibt deine Auswahl erhalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι πάροχοι μεταδεδομένων προτιμούν εικόνες χωρίς κείμενο. Η χρήση εικόνων βιβλιοθήκης διατηρεί τις εικόνες που επιλέξατε."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Los proveedores de metadatos priorizan las imágenes sin texto. El uso de imágenes de la biblioteca multimedia conserva las que has elegido."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ارائه‌دهندگان فراداده تصاویر بدون متن را ترجیح می‌دهند. با استفاده از تصاویر کتابخانه، تصاویر انتخابی شما حفظ می‌شوند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metatietolähteet suosivat tekstittömiä kuvia. Kirjaston kuvitus säilyttää valitsemasi kuvat."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les fournisseurs de métadonnées privilégient les images sans texte. Les illustrations de la bibliothèque respectent vos choix d’images."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ספקי מטא-נתונים מעדיפים תמונות ללא טקסט. השימוש בתמונות מהספרייה שומר על התמונות שבחרת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "मेटाडेटा प्रोवाइडर बिना टेक्स्ट वाले चित्रों को प्राथमिकता देते हैं। लाइब्रेरी के चित्र इस्तेमाल करने पर आपके चुने हुए चित्र बने रहते हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pružatelji metapodataka daju prednost slikama bez teksta. Uz slike iz knjižnice zadržavaju se slike koje ste odabrali."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A metaadat-szolgáltatók a szöveg nélküli képeket részesítik előnyben. A könyvtárból a kiválasztott képeid jelennek meg."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyedia metadata mengutamakan gambar tanpa teks. Dengan gambar pustaka, gambar pilihan Anda tetap digunakan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "I provider di metadati privilegiano le immagini senza testo. Con le immagini della libreria mantieni quelle che hai scelto."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "メタデータプロバイダは文字なしの画像を優先します。ライブラリのアートワークでは、選択した画像が維持されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "메타데이터 제공업체는 글자 없는 이미지를 우선합니다. 미디어 보관함의 아트워크를 사용하면 직접 선택한 이미지가 유지됩니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Penyedia metadata mengutamakan imej tanpa teks. Dengan imej pustaka, imej pilihan anda dikekalkan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataleverandører foretrekker bilder uten tekst. Med bibliotekbilder beholdes bildene du har valgt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadataproviders geven voorrang aan afbeeldingen zonder tekst. Met bibliotheekafbeeldingen blijven je gekozen afbeeldingen behouden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dostawcy metadanych preferują obrazy bez tekstu. Korzystając z grafiki z biblioteki, zachowujesz wybrane przez siebie obrazy."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Os provedores de metadados priorizam imagens sem texto. As imagens da biblioteca preservam suas escolhas."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Furnizorii de metadate preferă imaginile fără text. Opțiunea pentru bibliotecă păstrează imaginile alese de tine."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Источники метаданных предпочитают изображения без текста. Вариант с медиатекой сохраняет выбранные вами изображения."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Poskytovatelia metadát uprednostňujú obrázky bez textu. Voľba knižnice zachová vami vybrané obrázky."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ponudniki metapodatkov dajejo prednost slikam brez besedila. Izbira knjižnice ohrani slike, ki ste jih izbrali."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izvori metapodataka daju prednost slikama bez teksta. Opcija biblioteke zadržava slike koje ste izabrali."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metadatakällor föredrar bilder utan text. Biblioteksalternativet behåller dina valda bilder."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ผู้ให้บริการข้อมูลเมตาเน้นภาพไร้ข้อความ ส่วนภาพประกอบจากไลบรารีจะคงภาพที่คุณเลือกไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Meta veri sağlayıcıları yazısız görsellere öncelik verir. Kitaplık seçeneği, seçtiğiniz görselleri korur."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Постачальники метаданих надають перевагу зображенням без тексту. Медіатека використовує вибрані вами зображення."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Các nhà cung cấp siêu dữ liệu ưu tiên ảnh không chữ. Thư viện giữ nguyên ảnh bạn đã chọn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "元数据提供商优先选用无文字图片。媒体库图片则以您选定的图片为准。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "中繼資料來源優先選用無文字圖片。媒體庫圖片則以您選定的圖片為準。"
+          }
+        }
+      }
+    },
     "Metadata providers, artwork, and caches are shared by every profile on this device." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -375574,6 +376238,7 @@
       }
     },
     "Movies and shows prefer images from metadata providers. Music prefers artwork from your library." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -420337,6 +421002,7 @@
       }
     },
     "Online artwork" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -420557,6 +421223,7 @@
       }
     },
     "Online artwork favors images without text. Library artwork keeps your chosen images." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -466203,6 +466870,226 @@
         }
       }
     },
+    "Prefer artwork from metadata providers" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تفضيل الصور من موفري البيانات الوصفية"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Предпочитане на изображения от доставчици на метаданни"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir les imatges dels proveïdors de metadades"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Upřednostnit obrázky od poskytovatelů metadat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Foretræk billeder fra metadata-udbydere"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bilder von Metadatenanbietern bevorzugen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Προτίμηση εικόνων από παρόχους μεταδεδομένων"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir imágenes de proveedores de metadatos"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ترجیح تصاویر ارائه‌دهندگان فراداده"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Suosi metatietolähteiden kuvitusta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Privilégier les illustrations des fournisseurs de métadonnées"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "העדפת תמונות מספקי מטא-נתונים"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "मेटाडेटा प्रोवाइडर के चित्रों को प्राथमिकता दें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikama pružatelja metapodataka"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Metaadat-szolgáltatók képei előnyben"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan gambar dari penyedia metadata"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferisci le immagini dei provider di metadati"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "メタデータプロバイダのアートワークを優先"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "메타데이터 제공업체의 아트워크 우선"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utamakan imej daripada penyedia metadata"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Foretrekk bilder fra metadataleverandører"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Afbeeldingen van metadataproviders voorrang geven"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferuj grafikę od dostawców metadanych"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferir imagens de provedores de metadados"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Preferă imaginile de la furnizorii de metadate"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Предпочитать изображения из источников метаданных"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uprednostniť obrázky od poskytovateľov metadát"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikam ponudnikov metapodatkov"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Prednost slikama iz izvora metapodataka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Föredra bilder från metadatakällor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกภาพประกอบจากผู้ให้บริการข้อมูลเมตาก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Meta veri sağlayıcılarının görsellerini tercih et"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Надавати перевагу зображенням від постачальників метаданих"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ưu tiên hình ảnh từ các nhà cung cấp siêu dữ liệu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "优先使用元数据提供商的图片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "優先使用中繼資料來源的圖片"
+          }
+        }
+      }
+    },
     "Prefer artwork from your library" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -467087,6 +467974,7 @@
       }
     },
     "Prefer online artwork" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -468632,6 +469520,7 @@
       }
     },
     "Prefers the images supplied by your libraries." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -669444,6 +670333,7 @@
       }
     },
     "These choices apply to this profile. Missing images can fall back to another source. Changing the main preference keeps view customizations. Choose Use default for one view, or Remove view customizations for all." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -731622,7 +732512,228 @@
         }
       }
     },
+    "Use default: metadata providers preferred" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استخدام الإعداد الافتراضي: تفضيل موفري البيانات الوصفية"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Използване на настройката по подразбиране: доставчиците на метаданни са с предимство"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utilitzar el valor per defecte: prioritat als proveïdors de metadades"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Použít výchozí nastavení: přednost mají poskytovatelé metadat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brug standardindstilling: metadata-udbydere foretrækkes"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Standard verwenden: Metadatenanbieter bevorzugt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Χρήση προεπιλογής: προτίμηση παρόχων μεταδεδομένων"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar valor predeterminado: prioridad a los proveedores de metadatos"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استفاده از پیش‌فرض: ترجیح ارائه‌دهندگان فراداده"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Käytä oletusta: metatietolähteet etusijalla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utiliser le réglage par défaut : priorité aux fournisseurs de métadonnées"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שימוש בברירת המחדל: העדפת ספקי מטא-נתונים"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "डिफ़ॉल्ट इस्तेमाल करें: मेटाडेटा प्रोवाइडर को प्राथमिकता"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koristi zadano: prednost pružateljima metapodataka"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alapértelmezés használata: metaadat-szolgáltatók előnyben"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan bawaan: utamakan gambar penyedia metadata"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usa impostazione predefinita: priorità ai provider di metadati"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "デフォルトを使用：メタデータプロバイダを優先"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "기본값 사용: 메타데이터 제공업체 우선"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan lalai: penyedia metadata diutamakan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bruk standard: metadataleverandører foretrekkes"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Standaard gebruiken: voorkeur voor metadataproviders"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Użyj ustawienia domyślnego: preferowana grafika od dostawców metadanych"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar padrão: preferência por imagens de provedores de metadados"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Folosește setarea implicită: preferă furnizorii de metadate"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Использовать по умолчанию: предпочтительны источники метаданных"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Použiť predvolené: uprednostniť poskytovateľov metadát"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Uporabi privzeto: prednost ponudnikom metapodatkov"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koristi podrazumevano: prednost izvorima metapodataka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Använd standardval: metadatakällor prioriteras"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ใช้ค่าเริ่มต้น: เลือกภาพจากผู้ให้บริการข้อมูลเมตาก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Varsayılanı kullan: meta veri sağlayıcıları öncelikli"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Використовувати типові налаштування: перевага постачальникам метаданих"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dùng mặc định: ưu tiên các nhà cung cấp siêu dữ liệu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用默认设置：优先使用元数据提供商"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用預設值：優先使用中繼資料來源"
+          }
+        }
+      }
+    },
     "Use default: online preferred" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -766734,6 +767845,7 @@
       }
     },
     "Your library's artwork" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -768055,6 +769167,7 @@
       }
     },
     "Your preferences" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -769811,6 +770924,226 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "無法套用已儲存的設定。播放已停止，且你的來源未被取代。"
+          }
+        }
+      }
+    },
+    "Your selected library images. Metadata providers fill in missing artwork." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "صور المكتبة التي اخترتها. يستكمل موفرو البيانات الوصفية الصور الناقصة."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Избраните от вас изображения в медиатеката. Доставчиците на метаданни осигуряват липсващите изображения."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les imatges de la biblioteca que has triat. Els proveïdors de metadades aporten les imatges que falten."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vámi vybrané obrázky z knihovny. Poskytovatelé metadat doplní chybějící obrázky."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dine valgte billeder fra biblioteket. Metadata-udbydere leverer de manglende billeder."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deine ausgewählten Bilder aus der Medienbibliothek. Metadatenanbieter ergänzen fehlende Bilder."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι επιλεγμένες εικόνες της βιβλιοθήκης σας. Οι πάροχοι μεταδεδομένων συμπληρώνουν τις εικόνες που λείπουν."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Las imágenes que has elegido en tu biblioteca multimedia. Los proveedores de metadatos aportan las imágenes que faltan."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تصاویر انتخابی شما در کتابخانه. اگر تصویری موجود نباشد، ارائه‌دهندگان فراداده آن را تأمین می‌کنند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kirjastosta valitsemasi kuvat. Metatietolähteet täydentävät puuttuvan kuvituksen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les images que vous avez choisies dans votre bibliothèque. Les fournisseurs de métadonnées fournissent les illustrations manquantes."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "התמונות שבחרת בספרייה. ספקי מטא-נתונים משלימים תמונות חסרות."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "लाइब्रेरी में आपके चुने हुए चित्र। चित्र न होने पर मेटाडेटा प्रोवाइडर उन्हें उपलब्ध कराते हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vaše odabrane slike iz knjižnice. Pružatelji metapodataka dodaju slike koje nedostaju."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A könyvtáradban kiválasztott képek. A hiányzó képeket a metaadat-szolgáltatók pótolják."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gambar pustaka pilihan Anda. Penyedia metadata melengkapi gambar yang belum tersedia."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le immagini che hai scelto nella libreria. I provider di metadati forniscono quelle mancanti."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ライブラリで選択した画像を使用。足りないアートワークはメタデータプロバイダが補います。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "미디어 보관함에서 직접 선택한 이미지. 누락된 아트워크는 메타데이터 제공업체가 보완합니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imej pustaka pilihan anda. Penyedia metadata menyediakan imej yang tiada."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bibliotekbildene du har valgt. Metadataleverandører supplerer der bilder mangler."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Je gekozen bibliotheekafbeeldingen. Metadataproviders vullen ontbrekende afbeeldingen aan."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybrane przez Ciebie obrazy z biblioteki. Dostawcy metadanych uzupełniają brakującą grafikę."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "As imagens que você escolheu na biblioteca. Os provedores de metadados fornecem as imagens que faltam."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Imaginile alese de tine din bibliotecă. Furnizorii de metadate furnizează imaginile lipsă."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выбранные вами изображения из медиатеки. Источники метаданных предоставляют недостающие изображения."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vami vybrané obrázky z knižnice. Poskytovatelia metadát doplnia chýbajúce obrázky."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izbrane slike iz vaše knjižnice. Ponudniki metapodatkov zagotovijo manjkajoče slike."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slike koje ste izabrali iz biblioteke. Izvori metapodataka obezbeđuju slike koje nedostaju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dina valda bilder från biblioteket. Metadatakällor kompletterar där bilder saknas."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ภาพจากไลบรารีที่คุณเลือก โดยผู้ให้บริการข้อมูลเมตาจะเติมภาพประกอบที่ขาดไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kitaplıktan seçtiğiniz görseller. Eksik görselleri meta veri sağlayıcıları tamamlar."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Вибрані вами зображення з медіатеки. Постачальники метаданих додають відсутні зображення."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ảnh bạn đã chọn từ thư viện. Các nhà cung cấp siêu dữ liệu bổ sung ảnh còn thiếu."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用您选定的媒体库图片。缺失的图片由元数据提供商补充。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "使用您選定的媒體庫圖片。缺少的圖片由中繼資料來源補充。"
           }
         }
       }
