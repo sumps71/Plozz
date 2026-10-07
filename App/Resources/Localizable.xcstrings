@@ -132994,6 +132994,7 @@
       }
     },
     "Because you liked %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -133214,6 +133215,7 @@
       }
     },
     "Because you watched %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -368304,6 +368306,227 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "更多你喜愛的導演執導的作品"
+          }
+        }
+      }
+    },
+    "More like %@" : {
+      "comment" : "Concise heading for movies similar to another movie. The placeholder is the server-provided movie title; do not translate the title.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أفلام مثل %@"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Подобни на %@"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Més com %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy jako %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mere som %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ähnlich wie %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Παρόμοια με %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Más como %@"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "مشابه %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Samankaltaisia kuin %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Similaires à %@"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "עוד כמו %@"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ जैसी फ़िल्में"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slično kao %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ehhez hasonló: %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mirip %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Simili a %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "「%@」に似た作品"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ 같은 작품"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Seperti %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mer som %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Meer zoals %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filmy takie jak %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mais como %@"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Filme similare cu %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Похожие на фильм «%@»"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podobné ako %@"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Podobno kot %@"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Slično kao %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mer som %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เรื่องที่คล้ายกับ %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ benzeri filmler"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Схожі на фільм «%@»"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tương tự %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "类似《%@》的影片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "類似《%@》的電影"
           }
         }
       }
@@ -842941,6 +843164,234 @@
         }
       }
     },
+    "trakt.sync.cloudFailure" : {
+      "comment" : "CloudKit rejected a Trakt synchronization operation. The integer is a nonsecret CloudKit error code, not a Trakt sign-in error.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذّر على Plozz مزامنة اتصال Trakt هذا مع iCloud (الخطأ %lld). حاول مرة أخرى. إذا استمرت المشكلة، فأبلغ Plozz بالخطأ."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz не успя да синхронизира с iCloud тази връзка с Trakt (грешка %lld). Опитайте отново. Ако проблемът продължи, съобщете за грешката на Plozz."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz no ha pogut sincronitzar aquesta connexió de Trakt amb iCloud (error %lld). Torna-ho a provar. Si el problema persisteix, comunica l'error a Plozz."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz nemohl synchronizovat toto připojení ke službě Trakt s iCloudem (chyba %lld). Zkuste to znovu. Pokud problém přetrvává, nahlaste chybu týmu Plozz."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz kunne ikke synkronisere denne Trakt-forbindelse med iCloud (fejl %lld). Prøv igen. Hvis problemet fortsætter, skal du rapportere fejlen til Plozz."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz konnte diese Trakt-Verbindung nicht mit iCloud synchronisieren (Fehler %lld). Versuche es erneut. Wenn das Problem weiterhin besteht, melde den Fehler an Plozz."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Το Plozz δεν μπόρεσε να συγχρονίσει αυτή τη σύνδεση Trakt με το iCloud (σφάλμα %lld). Δοκιμάστε ξανά. Αν το πρόβλημα συνεχιστεί, αναφέρετε το σφάλμα στο Plozz."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Plozz couldn't sync this Trakt connection with iCloud (error %lld). Try again. If this continues, report the error to Plozz."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz no ha podido sincronizar esta conexión de Trakt con iCloud (error %lld). Inténtalo de nuevo. Si el problema persiste, informa del error a Plozz."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz نتوانست این اتصال Trakt را با iCloud همگام‌سازی کند (خطای %lld). دوباره تلاش کنید. اگر مشکل ادامه داشت، خطا را به Plozz گزارش دهید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz ei voinut synkronoida tätä Trakt-yhteyttä iCloudin kanssa (virhe %lld). Yritä uudelleen. Jos ongelma jatkuu, ilmoita virheestä Plozzille."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz n'a pas pu synchroniser cette connexion Trakt avec iCloud (erreur %lld). Réessayez. Si le problème persiste, signalez l'erreur à Plozz."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz לא הצליח לסנכרן את חיבור Trakt הזה עם iCloud (שגיאה %lld). יש לנסות שוב. אם הבעיה נמשכת, יש לדווח על השגיאה ל-Plozz."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz इस Trakt कनेक्शन को iCloud के साथ सिंक नहीं कर सका (त्रुटि %lld)। फिर से कोशिश करें। अगर समस्या बनी रहती है, तो Plozz को त्रुटि की जानकारी दें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz nije mogao sinkronizirati ovu vezu s Traktom s iCloudom (pogreška %lld). Pokušajte ponovno. Ako se problem nastavi, prijavite pogrešku timu Plozz."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "A Plozz nem tudta szinkronizálni ezt a Trakt-kapcsolatot az iClouddal (hibakód: %lld). Próbáld újra. Ha a probléma továbbra is fennáll, jelentsd a hibát a Plozznak."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz tidak dapat menyinkronkan koneksi Trakt ini dengan iCloud (kesalahan %lld). Coba lagi. Jika masalah berlanjut, laporkan kesalahan tersebut ke Plozz."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz non è riuscito a sincronizzare questa connessione Trakt con iCloud (errore %lld). Riprova. Se il problema persiste, segnala l'errore a Plozz."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "PlozzはこのTrakt接続をiCloudと同期できませんでした（エラー%lld）。もう一度お試しください。問題が続く場合は、Plozzにエラーを報告してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz가 이 Trakt 연결을 iCloud와 동기화하지 못했습니다(오류 %lld). 다시 시도하세요. 문제가 계속되면 Plozz에 오류를 알려 주세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz tidak dapat menyegerakkan sambungan Trakt ini dengan iCloud (ralat %lld). Cuba lagi. Jika masalah berterusan, laporkan ralat ini kepada Plozz."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz kunne ikke synkronisere denne Trakt-tilkoblingen med iCloud (feil %lld). Prøv igjen. Hvis problemet vedvarer, rapporter feilen til Plozz."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz kon deze Trakt-verbinding niet synchroniseren met iCloud (fout %lld). Probeer het opnieuw. Als het probleem aanhoudt, meld de fout dan bij Plozz."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz nie mógł zsynchronizować tego połączenia z serwisem Trakt z iCloud (błąd %lld). Spróbuj ponownie. Jeśli problem będzie się powtarzał, zgłoś błąd zespołowi Plozz."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O Plozz não conseguiu sincronizar esta conexão do Trakt com o iCloud (erro %lld). Tente novamente. Se o problema persistir, informe o erro ao Plozz."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz nu a putut sincroniza această conexiune Trakt cu iCloud (eroare %lld). Încearcă din nou. Dacă problema persistă, raportează eroarea echipei Plozz."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz не удалось синхронизировать это подключение к Trakt с iCloud (ошибка %lld). Повторите попытку. Если проблема сохраняется, сообщите об ошибке команде Plozz."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz nemohol synchronizovať toto pripojenie k službe Trakt s iCloudom (chyba %lld). Skúste to znova. Ak problém pretrváva, nahláste chybu tímu Plozz."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz ni mogel sinhronizirati te povezave s Traktom z iCloudom (napaka %lld). Poskusite znova. Če se težava nadaljuje, prijavite napako ekipi Plozz."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz nije mogao da sinhronizuje ovu vezu sa Traktom sa iCloud-om (greška %lld). Pokušajte ponovo. Ako se problem nastavi, prijavite grešku timu Plozz."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz kunde inte synkronisera den här Trakt-anslutningen med iCloud (fel %lld). Försök igen. Om problemet kvarstår, rapportera felet till Plozz."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz ไม่สามารถซิงค์การเชื่อมต่อ Trakt นี้กับ iCloud ได้ (ข้อผิดพลาด %lld) โปรดลองอีกครั้ง หากยังเกิดปัญหาอยู่ ให้รายงานข้อผิดพลาดไปยัง Plozz"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz bu Trakt bağlantısını iCloud ile eşzamanlayamadı (hata %lld). Tekrar deneyin. Sorun devam ederse hatayı Plozz'a bildirin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz не вдалося синхронізувати це підключення до Trakt з iCloud (помилка %lld). Спробуйте ще раз. Якщо проблема не зникає, повідомте про помилку команді Plozz."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz không thể đồng bộ kết nối Trakt này với iCloud (lỗi %lld). Hãy thử lại. Nếu sự cố vẫn tiếp diễn, hãy báo lỗi cho Plozz."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz 无法将此 Trakt 连接与 iCloud 同步（错误 %lld）。请重试。如果问题仍然存在，请向 Plozz 报告此错误。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz 無法將此 Trakt 連線與 iCloud 同步（錯誤 %lld）。請再試一次。如果問題持續發生，請向 Plozz 回報此錯誤。"
+          }
+        }
+      }
+    },
     "trakt.sync.retry" : {
       "comment" : "A refresh was safely deferred or throttled. Retry the existing shared connection, not a new authorization.",
       "extractionState" : "extracted_with_value",
@@ -843170,229 +843621,229 @@
       }
     },
     "trakt.sync.unavailable" : {
-      "comment" : "Shared Trakt authorization is retained while iCloud is unavailable.",
+      "comment" : "Shared Trakt authorization could not be checked. May appear before sign-in, so do not claim a connection is saved.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "خدمة iCloud غير متاحة. اتصالك بـ Trakt محفوظ؛ حاول مرة أخرى عندما تتوفر خدمة iCloud."
+            "value" : "تعذّر على Plozz الوصول إلى iCloud لاتصال Trakt هذا. حاول مرة أخرى بعد قليل."
           }
         },
         "bg" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud не е наличен. Връзката ви с Trakt е запазена. Опитайте отново, когато iCloud е достъпен."
+            "value" : "Plozz не успя да получи достъп до iCloud за тази връзка с Trakt. Опитайте отново след малко."
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "L’iCloud no està disponible. La teva connexió amb Trakt està desada; torna-ho a provar quan l’iCloud estigui disponible."
+            "value" : "Plozz no ha pogut accedir a iCloud per a aquesta connexió de Trakt. Torna-ho a provar d'aquí a una estona."
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Služba iCloud není dostupná. Vaše připojení ke službě Trakt je uložené. Zkuste to znovu, až bude iCloud dostupný."
+            "value" : "Plozz nemohl pro toto připojení ke službě Trakt získat přístup k iCloudu. Zkuste to za chvíli znovu."
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud er ikke tilgængelig. Din Trakt-forbindelse er gemt. Prøv igen, når iCloud er tilgængelig."
+            "value" : "Plozz kunne ikke få adgang til iCloud for denne Trakt-forbindelse. Prøv igen om lidt."
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud ist nicht verfügbar. Deine Trakt-Verbindung bleibt gespeichert. Versuche es erneut, sobald iCloud verfügbar ist."
+            "value" : "Plozz konnte für diese Trakt-Verbindung nicht auf iCloud zugreifen. Versuche es in Kürze erneut."
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Το iCloud δεν είναι διαθέσιμο. Η σύνδεσή σας με το Trakt παραμένει αποθηκευμένη. Δοκιμάστε ξανά όταν το iCloud γίνει διαθέσιμο."
+            "value" : "Το Plozz δεν μπόρεσε να αποκτήσει πρόσβαση στο iCloud για αυτή τη σύνδεση Trakt. Δοκιμάστε ξανά σε λίγο."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "iCloud is unavailable. Your Trakt connection is saved; try again when iCloud is available."
+            "value" : "Plozz couldn't access iCloud for this Trakt connection. Try again shortly."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud no está disponible. Tu conexión de Trakt sigue guardada; vuelve a intentarlo cuando iCloud esté disponible."
+            "value" : "Plozz no ha podido acceder a iCloud para esta conexión de Trakt. Inténtalo de nuevo en unos momentos."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud در دسترس نیست. اتصال شما به Trakt ذخیره شده است؛ وقتی iCloud دوباره در دسترس قرار گرفت، دوباره تلاش کنید."
+            "value" : "Plozz نتوانست برای این اتصال Trakt به iCloud دسترسی پیدا کند. کمی بعد دوباره تلاش کنید."
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud ei ole käytettävissä. Trakt-yhteytesi on tallessa. Yritä uudelleen, kun iCloud on käytettävissä."
+            "value" : "Plozz ei voinut käyttää iCloudia tätä Trakt-yhteyttä varten. Yritä hetken kuluttua uudelleen."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud est indisponible. Votre connexion Trakt reste enregistrée ; réessayez quand iCloud sera disponible."
+            "value" : "Plozz n'a pas pu accéder à iCloud pour cette connexion Trakt. Réessayez dans un instant."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud אינו זמין. החיבור שלך ל-Trakt עדיין שמור; נסה שוב כש-iCloud יהיה זמין."
+            "value" : "Plozz לא הצליח לגשת ל-iCloud עבור חיבור Trakt הזה. יש לנסות שוב בעוד רגע."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud उपलब्ध नहीं है। आपका Trakt कनेक्शन सहेजा हुआ है। iCloud उपलब्ध होने पर फिर से कोशिश करें।"
+            "value" : "Plozz इस Trakt कनेक्शन के लिए iCloud तक नहीं पहुँच सका। थोड़ी देर बाद फिर से कोशिश करें।"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud nije dostupan. Vaša veza s uslugom Trakt ostaje spremljena. Pokušajte ponovno kad iCloud bude dostupan."
+            "value" : "Plozz nije mogao pristupiti iCloudu za ovu vezu s Traktom. Pokušajte ponovno za nekoliko trenutaka."
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Az iCloud nem érhető el. Trakt-kapcsolata továbbra is mentve van. Próbálja újra, amikor az iCloud elérhető."
+            "value" : "A Plozz nem tudta elérni az iCloudot ehhez a Trakt-kapcsolathoz. Próbáld újra egy kis idő múlva."
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud tidak tersedia. Koneksi Trakt Anda tetap tersimpan. Coba lagi saat iCloud tersedia."
+            "value" : "Plozz tidak dapat mengakses iCloud untuk koneksi Trakt ini. Coba lagi dalam beberapa saat."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud non è disponibile. La connessione Trakt resta salvata; riprova quando iCloud sarà disponibile."
+            "value" : "Plozz non è riuscito ad accedere a iCloud per questa connessione Trakt. Riprova tra poco."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloudを利用できません。Trakt接続は保存されています。iCloudが利用可能になったら、もう一度お試しください。"
+            "value" : "PlozzはこのTrakt接続でiCloudにアクセスできませんでした。しばらくしてからもう一度お試しください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud를 사용할 수 없습니다. Trakt 연결은 저장되어 있습니다. iCloud를 사용할 수 있게 되면 다시 시도하세요."
+            "value" : "Plozz가 이 Trakt 연결을 위해 iCloud에 접근하지 못했습니다. 잠시 후 다시 시도하세요."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud tidak tersedia. Sambungan Trakt anda masih disimpan; cuba lagi apabila iCloud tersedia."
+            "value" : "Plozz tidak dapat mengakses iCloud untuk sambungan Trakt ini. Cuba lagi sebentar nanti."
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud er utilgjengelig. Trakt-tilkoblingen din er lagret. Prøv igjen når iCloud er tilgjengelig."
+            "value" : "Plozz fikk ikke tilgang til iCloud for denne Trakt-tilkoblingen. Prøv igjen om litt."
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud is niet beschikbaar. Je Trakt-verbinding is opgeslagen. Probeer het opnieuw wanneer iCloud beschikbaar is."
+            "value" : "Plozz kon geen toegang krijgen tot iCloud voor deze Trakt-verbinding. Probeer het zo meteen opnieuw."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud jest niedostępny. Twoje połączenie z Trakt pozostaje zapisane. Spróbuj ponownie, gdy iCloud będzie dostępny."
+            "value" : "Plozz nie mógł uzyskać dostępu do iCloud na potrzeby tego połączenia z serwisem Trakt. Spróbuj ponownie za chwilę."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "O iCloud está indisponível. Sua conexão com o Trakt continua salva. Tente novamente quando o iCloud estiver disponível."
+            "value" : "O Plozz não conseguiu acessar o iCloud para esta conexão do Trakt. Tente novamente em instantes."
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud nu este disponibil. Conexiunea ta Trakt rămâne salvată; încearcă din nou când iCloud devine disponibil."
+            "value" : "Plozz nu a putut accesa iCloud pentru această conexiune Trakt. Încearcă din nou peste puțin timp."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud недоступен. Ваше подключение Trakt сохранено; повторите попытку, когда iCloud станет доступен."
+            "value" : "Plozz не удалось получить доступ к iCloud для этого подключения к Trakt. Повторите попытку чуть позже."
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Služba iCloud nie je dostupná. Vaše pripojenie k službe Trakt zostáva uložené; skúste to znova, keď bude iCloud dostupný."
+            "value" : "Plozz nemohol získať prístup k iCloudu pre toto pripojenie k službe Trakt. Skúste to o chvíľu znova."
           }
         },
         "sl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud ni na voljo. Vaša povezava s storitvijo Trakt ostaja shranjena; poskusite znova, ko bo iCloud na voljo."
+            "value" : "Plozz ni mogel dostopati do iClouda za to povezavo s Traktom. Poskusite znova čez nekaj trenutkov."
           }
         },
         "sr-Latn" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud nije dostupan. Vaša Trakt veza ostaje sačuvana; pokušajte ponovo kada iCloud bude dostupan."
+            "value" : "Plozz nije mogao da pristupi iCloud-u za ovu vezu sa Traktom. Pokušajte ponovo za nekoliko trenutaka."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud är inte tillgängligt. Din Trakt-anslutning är sparad. Försök igen när iCloud är tillgängligt."
+            "value" : "Plozz kunde inte komma åt iCloud för den här Trakt-anslutningen. Försök igen om en stund."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud ไม่พร้อมใช้งาน ระบบยังเก็บการเชื่อมต่อ Trakt ของคุณไว้ โปรดลองอีกครั้งเมื่อ iCloud พร้อมใช้งาน"
+            "value" : "Plozz ไม่สามารถเข้าถึง iCloud สำหรับการเชื่อมต่อ Trakt นี้ได้ โปรดลองอีกครั้งในอีกสักครู่"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud kullanılamıyor. Trakt bağlantınız kayıtlı tutuluyor; iCloud kullanılabilir olduğunda tekrar deneyin."
+            "value" : "Plozz bu Trakt bağlantısı için iCloud'a erişemedi. Kısa bir süre sonra tekrar deneyin."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud недоступний. Ваше підключення Trakt збережено; спробуйте ще раз, коли iCloud стане доступним."
+            "value" : "Plozz не вдалося отримати доступ до iCloud для цього підключення до Trakt. Спробуйте ще раз трохи згодом."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud hiện không khả dụng. Kết nối Trakt của bạn vẫn được lưu; hãy thử lại khi iCloud khả dụng."
+            "value" : "Plozz không thể truy cập iCloud cho kết nối Trakt này. Hãy thử lại sau giây lát."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud 当前不可用。您的 Trakt 连接已保留，请在 iCloud 可用后重试。"
+            "value" : "Plozz 无法访问 iCloud 以处理此 Trakt 连接。请稍后重试。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "iCloud 目前無法使用。您的 Trakt 連線已保留，請在 iCloud 恢復可用後再試一次。"
+            "value" : "Plozz 無法存取 iCloud 以處理此 Trakt 連線。請稍後再試。"
           }
         }
       }
