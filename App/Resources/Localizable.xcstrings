@@ -116004,6 +116004,9 @@
         }
       }
     },
+    "App default" : {
+
+    },
     "App-local " : {
       "comment" : "Prefix, including the trailing space, in the playback diagnostics stream-transport row before the host name when the stream is served locally by the app.",
       "localizations" : {
@@ -434019,6 +434022,9 @@
         }
       }
     },
+    "Other views" : {
+
+    },
     "Outline" : {
       "comment" : "Subtitle appearance option used for the outline toggle, the outline preset name, and the summary label when only outline styling is enabled.",
       "localizations" : {
@@ -462907,9 +462913,6 @@
           }
         }
       }
-    },
-    "Plozz chooses where labels help." : {
-
     },
     "Plozz could not reach the channel's streaming server. Check your internet connection or try again later." : {
       "localizations" : {
@@ -732969,15 +732972,6 @@
         }
       }
     },
-    "Use default: Labels" : {
-
-    },
-    "Use default: No labels" : {
-
-    },
-    "Use default: Recommended" : {
-
-    },
     "Use default: library preferred" : {
       "localizations" : {
         "ar" : {
@@ -741810,9 +741804,6 @@
           }
         }
       }
-    },
-    "View customizations override this choice." : {
-
     },
     "View on %@" : {
       "localizations" : {
