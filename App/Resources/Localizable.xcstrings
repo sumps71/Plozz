@@ -171411,6 +171411,227 @@
         }
       }
     },
+    "Choose whether speed-limited downloads pause or continue at full speed while Plozz is in the background." : {
+      "comment" : "Download speed settings footer explaining the two background choices: pause, or temporarily remove the speed limit.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اختر ما إذا كانت التنزيلات ذات السرعة المحدودة تتوقف مؤقتًا أو تستمر بأقصى سرعة أثناء وجود Plozz في الخلفية."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Изберете дали изтеглянията с ограничена скорост да се поставят на пауза, или да продължават с пълна скорост, когато Plozz е във фонов режим."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tria si les descàrregues amb límit de velocitat s'han de posar en pausa o continuar a tota velocitat quan el Plozz sigui en segon pla."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte, zda se stahování s omezenou rychlostí pozastaví, nebo bude pokračovat plnou rychlostí, když je Plozz na pozadí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vælg, om downloads med en hastighedsgrænse skal sættes på pause eller fortsætte med fuld hastighed, når Plozz er i baggrunden."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wähle, ob Downloads mit Geschwindigkeitsbegrenzung pausieren oder mit voller Geschwindigkeit fortgesetzt werden, während Plozz im Hintergrund ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Επιλέξτε αν οι λήψεις με όριο ταχύτητας θα διακόπτονται προσωρινά ή θα συνεχίζονται με πλήρη ταχύτητα όταν το Plozz βρίσκεται στο παρασκήνιο."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Elige si las descargas con límite de velocidad se pausan o continúan a máxima velocidad cuando Plozz está en segundo plano."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "انتخاب کنید وقتی Plozz در پس‌زمینه است، دانلودهای دارای محدودیت سرعت موقتاً متوقف شوند یا با حداکثر سرعت ادامه پیدا کنند."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Valitse, keskeytetäänkö nopeusrajoitetut lataukset vai jatketaanko niitä täydellä nopeudella, kun Plozz on taustalla."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Choisissez si les téléchargements dont la vitesse est limitée doivent être mis en pause ou continuer à pleine vitesse lorsque Plozz est en arrière-plan."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בחרו אם הורדות עם הגבלת מהירות יושהו או יימשכו במהירות מלאה כאשר Plozz פועל ברקע."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "चुनें कि Plozz के बैकग्राउंड में होने पर गति की सीमा वाले डाउनलोड अस्थायी रूप से रुकें या पूरी गति से जारी रहें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Odaberite hoće li se preuzimanja s ograničenom brzinom pauzirati ili nastaviti punom brzinom dok je Plozz u pozadini."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Válassza ki, hogy a sebességkorlátozott letöltések szüneteljenek, vagy teljes sebességgel folytatódjanak, amikor a Plozz a háttérben van."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih apakah unduhan dengan batas kecepatan dijeda atau dilanjutkan dengan kecepatan penuh saat Plozz berada di latar belakang."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Scegli se mettere in pausa i download con limite di velocità o continuarli alla massima velocità quando Plozz è in background."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozzがバックグラウンドにあるとき、速度制限のあるダウンロードを一時停止するか、速度制限なしで続けるかを選択します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz가 백그라운드에 있을 때 속도가 제한된 다운로드를 일시 정지할지, 최대 속도로 계속할지 선택하세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Pilih sama ada muat turun dengan had kelajuan dijeda atau diteruskan pada kelajuan penuh semasa Plozz berada di latar belakang."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Velg om nedlastinger med hastighetsbegrensning skal settes på pause eller fortsette med full hastighet når Plozz er i bakgrunnen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kies of downloads met een snelheidslimiet worden gepauzeerd of op volle snelheid doorgaan wanneer Plozz op de achtergrond actief is."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Wybierz, czy pobieranie z ograniczeniem prędkości ma być wstrzymywane, czy kontynuowane z pełną prędkością, gdy Plozz działa w tle."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Escolha se os downloads com limite de velocidade devem ser pausados ou continuar na velocidade máxima enquanto o Plozz estiver em segundo plano."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Alege dacă descărcările cu limită de viteză se pun în pauză sau continuă la viteză maximă când Plozz rulează în fundal."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Выберите, приостанавливать ли загрузки с ограничением скорости или продолжать их на полной скорости, когда Plozz работает в фоновом режиме."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vyberte, či sa sťahovanie s obmedzenou rýchlosťou pozastaví alebo bude pokračovať plnou rýchlosťou, keď je Plozz na pozadí."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izberite, ali naj se prenosi z omejeno hitrostjo začasno ustavijo ali nadaljujejo s polno hitrostjo, ko je Plozz v ozadju."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Izaberite da li će se preuzimanja sa ograničenom brzinom pauzirati ili nastaviti punom brzinom dok je Plozz u pozadini."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Välj om hämtningar med hastighetsbegränsning ska pausas eller fortsätta med full hastighet när Plozz är i bakgrunden."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "เลือกว่าจะหยุดดาวน์โหลดที่จำกัดความเร็วไว้ชั่วคราว หรือดาวน์โหลดต่อด้วยความเร็วเต็มที่ขณะที่ Plozz อยู่ในเบื้องหลัง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Plozz arka plandayken hız sınırı olan indirmelerin duraklatılmasını mı yoksa tam hızda devam etmesini mi istediğinizi seçin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Виберіть, чи призупиняти завантаження з обмеженням швидкості, чи продовжувати їх на повній швидкості, коли Plozz працює у фоновому режимі."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chọn tạm dừng các bản tải xuống có giới hạn tốc độ hoặc tiếp tục tải ở tốc độ tối đa khi Plozz chạy trong nền."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "选择 Plozz 在后台运行时，限速下载是暂停还是以全速继续。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "選擇 Plozz 在背景執行時，限速下載要暫停還是以全速繼續。"
+          }
+        }
+      }
+    },
     "Choose which libraries and library-specific rows appear on Home." : {
       "localizations" : {
         "ar" : {
@@ -337515,6 +337736,227 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "收聽此頻道"
+          }
+        }
+      }
+    },
+    "Live Activities show download progress when background processing is available. Cancel in the Live Activity to pause its downloads. You can resume them in Plozz." : {
+      "comment" : "iOS/iPadOS 26+ download-settings footer. Live Activities is Apple's system feature. Cancelling its task pauses, rather than deletes, the downloads.",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعرض الأنشطة المباشرة تقدم التنزيل عندما تتوفر المعالجة في الخلفية. اختر «إلغاء» داخل النشاط المباشر لإيقاف التنزيلات المرتبطة به مؤقتًا. يمكنك استئنافها في Plozz."
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Дейностите на живо показват напредъка на изтеглянията, когато е налична обработка във фонов режим. Изберете „Отказ“ в дейността на живо, за да поставите свързаните с нея изтегляния на пауза. Можете да ги възобновите в Plozz."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les activitats en directe mostren el progrés de les descàrregues quan el processament en segon pla està disponible. Cancel·la des de l'activitat en directe per posar les seves descàrregues en pausa. Les pots reprendre al Plozz."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Živé aktivity zobrazují průběh stahování, když je dostupné zpracování na pozadí. Zrušením v živé aktivitě pozastavíte její stahování. Pokračovat můžete v Plozz."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Liveaktiviteter viser status for downloads, når behandling i baggrunden er tilgængelig. Annuller i liveaktiviteten for at sætte dens downloads på pause. Du kan genoptage dem i Plozz."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Live-Aktivitäten zeigen den Downloadfortschritt, wenn Hintergrundverarbeitung verfügbar ist. Wähle in der Live-Aktivität „Abbrechen“, um die zugehörigen Downloads zu pausieren. Du kannst sie in Plozz fortsetzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Οι Ζωντανές δραστηριότητες δείχνουν την πρόοδο των λήψεων όταν είναι διαθέσιμη η επεξεργασία στο παρασκήνιο. Επιλέξτε «Ακύρωση» στη Ζωντανή δραστηριότητα για να διακόψετε προσωρινά τις λήψεις που σχετίζονται με αυτή. Μπορείτε να τις συνεχίσετε στο Plozz."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Las actividades en directo muestran el progreso de las descargas cuando el procesamiento en segundo plano está disponible. Cancela desde la actividad en directo para pausar sus descargas. Puedes reanudarlas en Plozz."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "وقتی پردازش در پس‌زمینه در دسترس باشد، فعالیت‌های زنده پیشرفت دانلود را نشان می‌دهند. با لغو از داخل فعالیت زنده، دانلودهای آن موقتاً متوقف می‌شوند. می‌توانید آن‌ها را در Plozz از سر بگیرید."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Live-aktiviteetit näyttävät latausten edistymisen, kun taustakäsittely on käytettävissä. Valitse Live-aktiviteetissa ”Peruuta”, jos haluat keskeyttää siihen liittyvät lataukset. Voit jatkaa niitä Plozzissa."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Les activités en direct affichent la progression des téléchargements lorsque le traitement en arrière-plan est disponible. Annulez depuis l’activité en direct pour mettre ses téléchargements en pause. Vous pouvez les reprendre dans Plozz."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "פעילויות בזמן אמת מציגות את התקדמות ההורדות כשעיבוד ברקע זמין. ביטול מתוך הפעילות בזמן אמת משהה את ההורדות שלה. אפשר להמשיך אותן ב-Plozz."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "बैकग्राउंड प्रोसेसिंग उपलब्ध होने पर लाइव ऐक्टिविटी में डाउनलोड की प्रगति दिखाई देती है। लाइव ऐक्टिविटी में “रद्द करें” चुनने से उससे जुड़े डाउनलोड अस्थायी रूप से रुक जाते हैं। आप उन्हें Plozz में जारी रख सकते हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktivnosti uživo prikazuju napredak preuzimanja kad je dostupna obrada u pozadini. Otkažite unutar aktivnosti uživo kako biste pauzirali njezina preuzimanja. Možete ih nastaviti u aplikaciji Plozz."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Az Élő tevékenységek megjelenítik a letöltések állapotát, ha elérhető a háttérben történő feldolgozás. Az Élő tevékenységben történő megszakítással szüneteltetheti a hozzá tartozó letöltéseket. A Plozzban folytathatja őket."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktivitas Langsung menampilkan kemajuan unduhan saat pemrosesan latar belakang tersedia. Batalkan dari Aktivitas Langsung untuk menjeda unduhannya. Anda dapat melanjutkannya di Plozz."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le attività in tempo reale mostrano l’avanzamento dei download quando l’elaborazione in background è disponibile. Annulla dall’attività in tempo reale per mettere in pausa i relativi download. Puoi riprenderli in Plozz."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "バックグラウンド処理が利用可能な場合、ライブアクティビティにダウンロードの進行状況が表示されます。ライブアクティビティでキャンセルすると、対象のダウンロードが一時停止します。Plozzで再開できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "백그라운드 처리가 가능한 경우 실시간 현황에 다운로드 진행 상황이 표시됩니다. 실시간 현황에서 취소하면 해당 다운로드가 일시 정지됩니다. Plozz에서 다운로드를 재개할 수 있습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktiviti Langsung menunjukkan kemajuan muat turun apabila pemprosesan latar belakang tersedia. Batalkan dalam Aktiviti Langsung untuk menjeda muat turunnya. Anda boleh menyambungnya semula dalam Plozz."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Direkteaktiviteter viser fremdriften for nedlastinger når bakgrunnsbehandling er tilgjengelig. Velg «Avbryt» i direkteaktiviteten for å sette de tilknyttede nedlastingene på pause. Du kan gjenoppta dem i Plozz."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Live activiteiten tonen de downloadvoortgang wanneer verwerking op de achtergrond beschikbaar is. Annuleer vanuit de live activiteit om de bijbehorende downloads te pauzeren. Je kunt ze hervatten in Plozz."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktywności na żywo pokazują postęp pobierania, gdy przetwarzanie w tle jest dostępne. Anuluj z poziomu aktywności na żywo, aby wstrzymać powiązane pobieranie. Możesz je wznowić w Plozz."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "As Atividades ao Vivo mostram o progresso dos downloads quando o processamento em segundo plano está disponível. Cancele pela Atividade ao Vivo para pausar os downloads dela. Você pode retomá-los no Plozz."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Activitățile live afișează progresul descărcărilor când procesarea în fundal este disponibilă. Anulează din activitatea live pentru a pune în pauză descărcările asociate. Le poți relua în Plozz."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "«Эфир активности» показывает ход загрузок, когда доступна фоновая обработка. Отмените задачу в «Эфире активности», чтобы приостановить её загрузки. Их можно возобновить в Plozz."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktivity naživo zobrazujú priebeh sťahovania, keď je dostupné spracovanie na pozadí. Zrušením v aktivite naživo pozastavíte jej sťahovanie. Pokračovať môžete v Plozz."
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dejavnosti v živo prikazujejo napredek prenosov, ko je na voljo obdelava v ozadju. V dejavnosti v živo izberite »Prekliči«, da začasno ustavite prenose, povezane z njo. Nadaljujete jih lahko v aplikaciji Plozz."
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Aktivnosti uživo prikazuju napredak preuzimanja kada je dostupna obrada u pozadini. U aktivnosti uživo izaberite „Otkaži“ da biste pauzirali preuzimanja povezana sa njom. Možete da ih nastavite u aplikaciji Plozz."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Liveaktiviteter visar hämtningarnas förlopp när bakgrundsbearbetning är tillgänglig. Avbryt i liveaktiviteten för att pausa dess hämtningar. Du kan återuppta dem i Plozz."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "กิจกรรมสดจะแสดงความคืบหน้าการดาวน์โหลดเมื่อสามารถประมวลผลในเบื้องหลังได้ ยกเลิกจากกิจกรรมสดเพื่อหยุดการดาวน์โหลดที่เกี่ยวข้องไว้ชั่วคราว คุณสามารถดาวน์โหลดต่อได้ใน Plozz"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Arka planda işleme kullanılabilir olduğunda Canlı Etkinlikler indirme ilerlemesini gösterir. İlgili indirmeleri duraklatmak için Canlı Etkinlik üzerinden iptal edin. İndirmeleri Plozz'da sürdürebilirsiniz."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Дії наживо показують перебіг завантажень, коли доступне фонове опрацювання. Скасуйте завдання в дії наживо, щоб призупинити пов’язані завантаження. Їх можна відновити в Plozz."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hoạt động trực tiếp hiển thị tiến trình tải xuống khi tính năng xử lý trong nền khả dụng. Hủy từ Hoạt động trực tiếp để tạm dừng các bản tải xuống liên quan. Bạn có thể tiếp tục tải trong Plozz."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "后台处理可用时，实时活动会显示下载进度。在实时活动中取消即可暂停相关下载。你可以在 Plozz 中继续下载。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "背景處理可用時，即時動態會顯示下載進度。在即時動態中取消即可暫停相關下載。你可以在 Plozz 中繼續下載。"
           }
         }
       }
@@ -786075,6 +786517,7 @@
       }
     },
     "iOS cannot enforce a speed limit on background transfers. Choose whether capped downloads pause or continue uncapped while Plozz is in the background." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
