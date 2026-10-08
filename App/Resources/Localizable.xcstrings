@@ -116455,6 +116455,7 @@
       }
     },
     "Apple TV Home Screen." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -117555,6 +117556,7 @@
       }
     },
     "Applies when you queue new downloads. Existing downloads keep their artwork." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -119978,7 +119980,7 @@
         }
       }
     },
-    "Artwork in search results." : {
+    "Artwork in the rows of each library's Recommended tab." : {
 
     },
     "Artwork limit" : {
@@ -120643,6 +120645,9 @@
           }
         }
       }
+    },
+    "Artwork saved with new downloads; existing downloads keep their images." : {
+
     },
     "Ask Before Downloading" : {
       "localizations" : {
@@ -133220,6 +133225,9 @@
           }
         }
       }
+    },
+    "Backdrops, title logos, and supporting cards on movie and show detail pages." : {
+
     },
     "Background" : {
       "comment" : "Label for background-related appearance settings, used in subtitle-style controls and detail-page hero background settings.",
@@ -180762,9 +180770,6 @@
         }
       }
     },
-    "Collection cards in each library's Collections tab. Titles inside use Browse." : {
-
-    },
     "Collections" : {
       "localizations" : {
         "ar" : {
@@ -193548,10 +193553,10 @@
         }
       }
     },
-    "Continue Watching rows" : {
+    "Continue Watching on Home and in libraries; metadata providers favor images without text." : {
 
     },
-    "Continue Watching rows on Home and in libraries. Providers favor images without text." : {
+    "Continue Watching rows" : {
 
     },
     "Continue at Full Speed" : {
@@ -262886,7 +262891,7 @@
         }
       }
     },
-    "Episode thumbnails in the show detail-page browser. Player thumbnails use Video player artwork." : {
+    "Episode thumbnails in a show's detail page, rather than the video player." : {
 
     },
     "Episode thumbnails." : {
@@ -305143,9 +305148,6 @@
         }
       }
     },
-    "Home rows, including Watchlist and Recently Added. Continue Watching has its own choice." : {
-
-    },
     "Home users" : {
       "comment" : "Section title in Plex user settings listing additional Plex Home users available for the selected account.",
       "localizations" : {
@@ -305367,7 +305369,7 @@
         }
       }
     },
-    "Home's Showcase background, carousel images, and title logos. Rows have separate choices." : {
+    "Home's rows below the hero, including Watchlist and Recently Added." : {
 
     },
     "Home, Search, profile switching and Settings always stay available." : {
@@ -330498,6 +330500,9 @@
       }
     },
     "Labels are hidden in Showcase and on series artwork." : {
+
+    },
+    "Labels are separate from any text already in the artwork." : {
 
     },
     "Labels by view" : {
@@ -369456,6 +369461,9 @@
         }
       }
     },
+    "Metadata providers" : {
+
+    },
     "Metadata providers and caches are shared by every profile on this device. Artwork preferences are in Appearance > Artwork and belong to each profile." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -375848,9 +375856,6 @@
           }
         }
       }
-    },
-    "Movie and show detail-page backdrops, logos, and supporting cards. Episode browsers have their own choice." : {
-
     },
     "Movies" : {
       "localizations" : {
@@ -457456,9 +457461,6 @@
         }
       }
     },
-    "Playlist cards in each library's Playlists tab. Titles inside use Browse." : {
-
-    },
     "Playlist file" : {
       "localizations" : {
         "ar" : {
@@ -466271,6 +466273,12 @@
           }
         }
       }
+    },
+    "Posters and thumbnails for titles found in Search." : {
+
+    },
+    "Posters on the Watchlist page, rather than Home's Watchlist row." : {
+
     },
     "Prefer Forced" : {
       "comment" : "Subtitle search preference option for forced (foreign-passage-only) subtitles.",
@@ -538997,9 +539005,6 @@
           }
         }
       }
-    },
-    "Rows in each library's Recommended tab. Continue Watching has its own choice." : {
-
     },
     "Rows on Home" : {
       "localizations" : {
@@ -653246,6 +653251,9 @@
         }
       }
     },
+    "The collection covers, rather than the titles inside them." : {
+
+    },
     "The connection to the playback stream was lost or couldn’t be established. Check your connection and the server’s availability." : {
       "localizations" : {
         "ar" : {
@@ -655453,6 +655461,12 @@
           }
         }
       }
+    },
+    "The large background, carousel images, and title logo at the top of Home." : {
+
+    },
+    "The large preview above Plozz on the Apple TV Home Screen." : {
+
     },
     "The latest app log lines from this Apple TV" : {
       "localizations" : {
@@ -660519,6 +660533,9 @@
         }
       }
     },
+    "The playlist covers, rather than the titles inside them." : {
+
+    },
     "The playlist file couldn't be opened" : {
       "localizations" : {
         "ar" : {
@@ -663159,9 +663176,6 @@
           }
         }
       }
-    },
-    "The separate Watchlist page. Home's Watchlist row uses Other Home rows." : {
-
     },
     "The server account stays connected." : {
       "localizations" : {
