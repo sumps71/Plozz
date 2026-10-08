@@ -101276,6 +101276,7 @@
     },
     "Add a profile, or change the one you have." : {
       "comment" : "Subtitle of the profile picker while editing, when the household has only one profile so there is nothing to switch between.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -167471,6 +167472,7 @@
     },
     "Choose a profile to change it." : {
       "comment" : "Subtitle of the profile picker while in edit mode: tapping a profile opens its settings instead of switching to it.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -167691,6 +167693,7 @@
       }
     },
     "Choose a profile to continue." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
