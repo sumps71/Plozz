@@ -133226,9 +133226,6 @@
         }
       }
     },
-    "Backdrops, title logos, and supporting cards on movie and show detail pages." : {
-
-    },
     "Background" : {
       "comment" : "Label for background-related appearance settings, used in subtitle-style controls and detail-page hero background settings.",
       "localizations" : {
@@ -375857,6 +375854,9 @@
         }
       }
     },
+    "Movie and show backgrounds, logos, and related-title posters." : {
+
+    },
     "Movies" : {
       "localizations" : {
         "ar" : {
@@ -397024,6 +397024,9 @@
           }
         }
       }
+    },
+    "No hero is currently shown with your Home layout." : {
+
     },
     "No hidden channels" : {
       "localizations" : {
