@@ -407624,6 +407624,7 @@
       }
     },
     "No labels" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -796005,12 +796006,6 @@
       "comment" : "Per-view label value: labels are shown except in Showcase and on series artwork.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Mixed"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -796051,6 +796046,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Μικτό"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Mixed"
           }
         },
         "es" : {
@@ -796233,12 +796234,6 @@
       "comment" : "Per-view setting: hide card labels.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Off"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -796279,6 +796274,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Ανενεργό"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Off"
           }
         },
         "es" : {
@@ -796461,12 +796462,6 @@
       "comment" : "Per-view setting: show card labels.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "On"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -796507,6 +796502,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Ενεργό"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "On"
           }
         },
         "es" : {
