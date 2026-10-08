@@ -340660,9 +340660,6 @@
         }
       }
     },
-    "Library artwork, with a different background from Home when available." : {
-
-    },
     "Library artwork, with textless Continue Watching images and varied Details backgrounds when available." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -374332,6 +374329,9 @@
         }
       }
     },
+    "Metadata-provider backgrounds and logos, with library artwork for related-title posters." : {
+
+    },
     "Method" : {
       "comment" : "Label for the authentication method picker in network-share add screens, where the user chooses how to sign in, such as username and password, token, or anonymous when available.",
       "localizations" : {
@@ -375213,6 +375213,9 @@
           }
         }
       }
+    },
+    "Mixed" : {
+
     },
     "Mixed (Automatic)" : {
       "localizations" : {
@@ -822519,12 +822522,6 @@
       "comment" : "Playback diagnostics label for the hardware model and operating system. Not the audio-language option that follows device settings.",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Device"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -822565,6 +822562,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Συσκευή"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Device"
           }
         },
         "es" : {
