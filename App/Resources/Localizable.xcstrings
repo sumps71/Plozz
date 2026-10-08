@@ -8011,6 +8011,9 @@
     "%@, customized" : {
 
     },
+    "%@, following main setting" : {
+
+    },
     "%@, offline" : {
       "comment" : "Accessibility label for an unavailable source row in the playback source picker. %@ is the source name.",
       "localizations" : {
@@ -330689,6 +330692,9 @@
         }
       }
     },
+    "Labels except Showcase and series artwork" : {
+
+    },
     "Language" : {
       "comment" : "Label for the app-language setting in Appearance on tvOS and iOS.",
       "localizations" : {
@@ -337083,6 +337089,9 @@
           }
         }
       }
+    },
+    "Library artwork; alternate backgrounds" : {
+
     },
     "Library cards" : {
       "comment" : "Section header in iOS/iPadOS Settings, Appearance, above the card style, display size, and watch-indicator controls.",
@@ -360292,6 +360301,9 @@
           }
         }
       }
+    },
+    "Main setting" : {
+
     },
     "Make main" : {
       "localizations" : {
@@ -508005,9 +508017,6 @@
         }
       }
     },
-    "Remove customization" : {
-
-    },
     "Remove favorite" : {
       "localizations" : {
         "ar" : {
@@ -570393,6 +570402,9 @@
           }
         }
       }
+    },
+    "Select to cycle through choices." : {
+
     },
     "Selected" : {
       "comment" : "Accessibility value announced for the currently selected option in custom segmented or chip pickers.",
