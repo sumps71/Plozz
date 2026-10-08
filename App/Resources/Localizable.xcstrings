@@ -129716,6 +129716,7 @@
     },
     "Available offline • %@" : {
       "comment" : "Status text for a completed download row in iOS Downloads. %@ is the formatted downloaded size.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
