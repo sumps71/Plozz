@@ -8008,12 +8008,6 @@
         }
       }
     },
-    "%@, customized" : {
-
-    },
-    "%@, following main setting" : {
-
-    },
     "%@, offline" : {
       "comment" : "Accessibility label for an unavailable source row in the playback source picker. %@ is the source name.",
       "localizations" : {
@@ -51585,6 +51579,7 @@
       }
     },
     "%lld customized" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "variations" : {
@@ -94625,6 +94620,9 @@
         }
       }
     },
+    "Across the app" : {
+
+    },
     "Active" : {
       "localizations" : {
         "ar" : {
@@ -119980,6 +119978,9 @@
         }
       }
     },
+    "Artwork in search results." : {
+
+    },
     "Artwork limit" : {
       "comment" : "Label in the iOS metadata diagnostics cache settings for the artwork cache size limit.",
       "localizations" : {
@@ -133000,6 +133001,7 @@
       }
     },
     "Backdrops, logos, and related titles. Recommended can use a different background from Home." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -133661,6 +133663,7 @@
       }
     },
     "Backgrounds, logos, and Home rows." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -180759,6 +180762,9 @@
         }
       }
     },
+    "Collection cards in each library's Collections tab. Titles inside use Browse." : {
+
+    },
     "Collections" : {
       "localizations" : {
         "ar" : {
@@ -193541,6 +193547,12 @@
           }
         }
       }
+    },
+    "Continue Watching rows" : {
+
+    },
+    "Continue Watching rows on Home and in libraries. Providers favor images without text." : {
+
     },
     "Continue at Full Speed" : {
       "localizations" : {
@@ -262651,6 +262663,9 @@
         }
       }
     },
+    "Episode browser" : {
+
+    },
     "Episode numbering differs. Showing library episodes without a coverage count." : {
       "localizations" : {
         "ar" : {
@@ -262871,7 +262886,11 @@
         }
       }
     },
+    "Episode thumbnails in the show detail-page browser. Player thumbnails use Video player artwork." : {
+
+    },
     "Episode thumbnails." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -305124,6 +305143,9 @@
         }
       }
     },
+    "Home rows, including Watchlist and Recently Added. Continue Watching has its own choice." : {
+
+    },
     "Home users" : {
       "comment" : "Section title in Plex user settings listing additional Plex Home users available for the selected account.",
       "localizations" : {
@@ -305344,6 +305366,9 @@
           }
         }
       }
+    },
+    "Home's Showcase background, carousel images, and title logos. Rows have separate choices." : {
+
     },
     "Home, Search, profile switching and Settings always stay available." : {
       "extractionState" : "stale",
@@ -330472,6 +330497,9 @@
         }
       }
     },
+    "Labels are hidden in Showcase and on series artwork." : {
+
+    },
     "Labels by view" : {
       "localizations" : {
         "ar" : {
@@ -330691,9 +330719,6 @@
           }
         }
       }
-    },
-    "Labels except Showcase and series artwork" : {
-
     },
     "Language" : {
       "comment" : "Label for the app-language setting in Appearance on tvOS and iOS.",
@@ -335326,6 +335351,7 @@
       }
     },
     "Libraries, collections, and playlists." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -336866,7 +336892,7 @@
         }
       }
     },
-    "Library artwork" : {
+    "Library artwork, with a different background from Home when available." : {
 
     },
     "Library artwork, with textless Continue Watching images and varied Details backgrounds when available." : {
@@ -337089,9 +337115,6 @@
           }
         }
       }
-    },
-    "Library artwork; alternate backgrounds" : {
-
     },
     "Library cards" : {
       "comment" : "Section header in iOS/iPadOS Settings, Appearance, above the card style, display size, and watch-indicator controls.",
@@ -360302,9 +360325,6 @@
         }
       }
     },
-    "Main setting" : {
-
-    },
     "Make main" : {
       "localizations" : {
         "ar" : {
@@ -369436,9 +369456,6 @@
         }
       }
     },
-    "Metadata providers" : {
-
-    },
     "Metadata providers and caches are shared by every profile on this device. Artwork preferences are in Appearance > Artwork and belong to each profile." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -369882,6 +369899,7 @@
       }
     },
     "Metadata providers favor images without text. Library artwork keeps your chosen images." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -375830,6 +375848,9 @@
           }
         }
       }
+    },
+    "Movie and show detail-page backdrops, logos, and supporting cards. Episode browsers have their own choice." : {
+
     },
     "Movies" : {
       "localizations" : {
@@ -433823,6 +433844,9 @@
         }
       }
     },
+    "Other Home rows" : {
+
+    },
     "Other options" : {
       "comment" : "Section header in the iOS add-server flow above alternate sign-in methods such as username/password or Quick Connect.",
       "localizations" : {
@@ -455009,6 +455033,7 @@
       }
     },
     "Player menus and Now Playing." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -457430,6 +457455,9 @@
           }
         }
       }
+    },
+    "Playlist cards in each library's Playlists tab. Titles inside use Browse." : {
+
     },
     "Playlist file" : {
       "localizations" : {
@@ -493814,6 +493842,12 @@
         }
       }
     },
+    "Recommended hero" : {
+
+    },
+    "Recommended rows" : {
+
+    },
     "Reconnect Trakt" : {
       "localizations" : {
         "ar" : {
@@ -510660,6 +510694,7 @@
       }
     },
     "Remove view customizations" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -538963,6 +538998,9 @@
         }
       }
     },
+    "Rows in each library's Recommended tab. Continue Watching has its own choice." : {
+
+    },
     "Rows on Home" : {
       "localizations" : {
         "ar" : {
@@ -563044,6 +563082,9 @@
         }
       }
     },
+    "Search results" : {
+
+    },
     "Search unavailable" : {
       "comment" : "Error-state title on the iOS Search screen when a library search request failed.",
       "localizations" : {
@@ -570403,7 +570444,7 @@
         }
       }
     },
-    "Select to cycle through choices." : {
+    "Select to change." : {
 
     },
     "Selected" : {
@@ -592697,6 +592738,9 @@
           }
         }
       }
+    },
+    "Showcase / hero" : {
+
     },
     "Showing up to 100 matching stations. Confirm the station and regional feed before choosing." : {
       "localizations" : {
@@ -645046,6 +645090,9 @@
         }
       }
     },
+    "The Browse tab in every library, plus titles inside collections and playlists." : {
+
+    },
     "The Common Sense age appears separately from review scores. Full ratings remain in title information. Spoiler settings still apply." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -649231,6 +649278,9 @@
           }
         }
       }
+    },
+    "The Showcase background and title logo in each library's Recommended tab." : {
+
     },
     "The Silo pairing request was denied." : {
       "localizations" : {
@@ -663109,6 +663159,9 @@
           }
         }
       }
+    },
+    "The separate Watchlist page. Home's Watchlist row uses Other Home rows." : {
+
     },
     "The server account stays connected." : {
       "localizations" : {
@@ -704692,6 +704745,9 @@
         }
       }
     },
+    "Title detail pages" : {
+
+    },
     "Titles" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -741833,6 +741889,12 @@
         }
       }
     },
+    "Video player Info, episode and playlist menus, Up Next, and system Now Playing." : {
+
+    },
+    "Video player artwork" : {
+
+    },
     "View on %@" : {
       "localizations" : {
         "ar" : {
@@ -750249,6 +750311,9 @@
           }
         }
       }
+    },
+    "Watchlist page" : {
+
     },
     "Watchlist picks" : {
       "localizations" : {
@@ -777436,6 +777501,42 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "系統"
+          }
+        }
+      }
+    },
+    "cardLabels.mixed" : {
+      "comment" : "Per-view label value: labels are shown except in Showcase and on series artwork.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Mixed"
+          }
+        }
+      }
+    },
+    "cardLabels.off" : {
+      "comment" : "Per-view setting: hide card labels.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Off"
+          }
+        }
+      }
+    },
+    "cardLabels.on" : {
+      "comment" : "Per-view setting: show card labels.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "On"
           }
         }
       }
