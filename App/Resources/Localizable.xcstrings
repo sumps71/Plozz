@@ -101718,6 +101718,7 @@
     },
     "Add a profile, or change the one you have." : {
       "comment" : "Subtitle of the profile picker while editing, when the household has only one profile so there is nothing to switch between.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -132583,6 +132584,7 @@
     },
     "Available offline • %@" : {
       "comment" : "Status text for a completed download row in iOS Downloads. %@ is the formatted downloaded size.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -171221,6 +171223,7 @@
     },
     "Choose a profile to change it." : {
       "comment" : "Subtitle of the profile picker while in edit mode: tapping a profile opens its settings instead of switching to it.",
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -171441,6 +171444,7 @@
       }
     },
     "Choose a profile to continue." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -187183,12 +187187,6 @@
     "Completed: %@ of %@" : {
       "comment" : "Compact download Live Activity completion count. First placeholder is the localized number fully finished; second is the total. Keep an explicit completion label, including when zero have finished. This is not the current download's position.",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Completed: %1$@ of %2$@"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -187229,6 +187227,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Ολοκληρώθηκαν: %1$@ από %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Completed: %1$@ of %2$@"
           }
         },
         "es" : {
@@ -248362,12 +248366,6 @@
     "Downloading %@ of %@" : {
       "comment" : "Compact Live Activity subtitle for sequential downloads. First placeholder is the one-based current download number, second is the queue total. This is the item in progress, not a completed count. Both numbers are already localized.",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Downloading %1$@ of %2$@"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -248408,6 +248406,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Λήψη %1$@ από %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Downloading %1$@ of %2$@"
           }
         },
         "es" : {
@@ -285606,12 +285610,6 @@
     "Finishing %@ of %@" : {
       "comment" : "Compact Live Activity subtitle for sequential downloads. First placeholder is the one-based current download number, second is the queue total. Bytes have arrived, but validation/finalization is not complete. Both numbers are already localized.",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Finishing %1$@ of %2$@"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -285652,6 +285650,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Οριστικοποίηση %1$@ από %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Finishing %1$@ of %2$@"
           }
         },
         "es" : {
@@ -453939,6 +453943,7 @@
       }
     },
     "Pause %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -482823,12 +482828,6 @@
     "Preparing %@ of %@" : {
       "comment" : "Compact Live Activity subtitle for sequential downloads. First placeholder is the one-based current download number, second is the queue total. This item is being prepared, not yet transferred. Both numbers are already localized.",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Preparing %1$@ of %2$@"
-          }
-        },
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
@@ -482869,6 +482868,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Προετοιμασία %1$@ από %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Preparing %1$@ of %2$@"
           }
         },
         "es" : {
@@ -543418,6 +543423,7 @@
       }
     },
     "Resume %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
