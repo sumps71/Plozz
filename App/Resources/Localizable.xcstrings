@@ -8008,6 +8008,9 @@
         }
       }
     },
+    "%@, customized" : {
+
+    },
     "%@, offline" : {
       "comment" : "Accessibility label for an unavailable source row in the playback source picker. %@ is the source name.",
       "localizations" : {
@@ -111596,6 +111599,7 @@
       }
     },
     "All views will follow your main artwork preference." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -336856,6 +336860,9 @@
         }
       }
     },
+    "Library artwork" : {
+
+    },
     "Library artwork, with textless Continue Watching images and varied Details backgrounds when available." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -369416,6 +369423,9 @@
           }
         }
       }
+    },
+    "Metadata providers" : {
+
     },
     "Metadata providers and caches are shared by every profile on this device. Artwork preferences are in Appearance > Artwork and belong to each profile." : {
       "extractionState" : "stale",
@@ -507994,6 +508004,9 @@
           }
         }
       }
+    },
+    "Remove customization" : {
+
     },
     "Remove favorite" : {
       "localizations" : {
@@ -732973,6 +732986,7 @@
       }
     },
     "Use default: library preferred" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -733193,6 +733207,7 @@
       }
     },
     "Use default: metadata providers preferred" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -737823,6 +737838,7 @@
       }
     },
     "Using defaults" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
