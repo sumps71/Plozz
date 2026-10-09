@@ -161537,6 +161537,7 @@
       }
     },
     "Check the address, guide URL, and authentication fields. Header names must be unique." : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -161975,6 +161976,9 @@
           }
         }
       }
+    },
+    "Check the playlist address, guide URLs, and authentication details." : {
+
     },
     "Check the same number shows on the device you're setting up, then confirm." : {
       "localizations" : {
@@ -262273,6 +262277,9 @@
           }
         }
       }
+    },
+    "Enter a name and value for each custom header, or remove the empty row." : {
+
     },
     "Enter a port for this WebDAV server." : {
       "localizations" : {
@@ -782985,6 +782992,12 @@
           }
         }
       }
+    },
+    "Your IPTV provider couldn't send the playlist. Try again later or contact your provider." : {
+
+    },
+    "Your IPTV provider has blocked access to this playlist. Check that your trial or subscription is still active, or contact your provider." : {
+
     },
     "Your Own TMDB Key" : {
       "localizations" : {
