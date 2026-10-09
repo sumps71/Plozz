@@ -167922,6 +167922,7 @@
 
     },
     "Checking your connection" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -284518,6 +284519,7 @@
 
     },
     "Finding your libraries…" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -661897,6 +661899,9 @@
           }
         }
       }
+    },
+    "The IPTV catalogue could not be saved. Please try again." : {
+
     },
     "The IPTV provider rejected these credentials." : {
       "localizations" : {
