@@ -167918,6 +167918,9 @@
         }
       }
     },
+    "Checking your connected sources for available libraries." : {
+
+    },
     "Checking your connection" : {
       "localizations" : {
         "ar" : {
@@ -174532,6 +174535,9 @@
           }
         }
       }
+    },
+    "Choose later" : {
+
     },
     "Choose navigation for this profile" : {
       "localizations" : {
@@ -194461,6 +194467,9 @@
           }
         }
       }
+    },
+    "Connecting to your provider" : {
+
     },
     "Connecting…" : {
       "comment" : "Progress text shown while Plozz is connecting to Seerr or testing a network share during setup.",
@@ -284505,6 +284514,9 @@
         }
       }
     },
+    "Finding your libraries" : {
+
+    },
     "Finding your libraries…" : {
       "localizations" : {
         "ar" : {
@@ -286053,6 +286065,9 @@
           }
         }
       }
+    },
+    "Finishing this import before you choose your libraries." : {
+
     },
     "First %lld episodes %@" : {
       "comment" : "The opening batch of a staggered season premiere on the series hero. %lld is how many episodes land on the first day, %@ the formatted date.",
@@ -333616,6 +333631,9 @@
         }
       }
     },
+    "Keep Plozz open while your channels and titles are organized." : {
+
+    },
     "Keep Separate" : {
       "comment" : "Button declining to reuse this PIN for Plex, so the Plex prompt keeps asking separately.",
       "localizations" : {
@@ -346401,6 +346419,9 @@
         }
       }
     },
+    "Library records saved" : {
+
+    },
     "Light blue" : {
       "comment" : "Accessibility label for a profile color swatch in the profile editor when choosing a profile tile or avatar background color.",
       "localizations" : {
@@ -355211,6 +355232,9 @@
           }
         }
       }
+    },
+    "Live channels read" : {
+
     },
     "Load Season Status" : {
       "localizations" : {
@@ -387116,6 +387140,9 @@
           }
         }
       }
+    },
+    "Movies read" : {
+
     },
     "Movies, shows, and episodes" : {
       "localizations" : {
@@ -468497,6 +468524,9 @@
         }
       }
     },
+    "Playlist entries read" : {
+
+    },
     "Playlist file" : {
       "localizations" : {
         "ar" : {
@@ -485254,6 +485284,9 @@
         }
       }
     },
+    "Preparing your library" : {
+
+    },
     "Presets" : {
       "comment" : "Section header in the iOS playback-speed sheet above common speed preset buttons.",
       "localizations" : {
@@ -501360,6 +501393,9 @@
         }
       }
     },
+    "Reading TV shows" : {
+
+    },
     "Reading items" : {
       "localizations" : {
         "ar" : {
@@ -502022,6 +502058,12 @@
         }
       }
     },
+    "Reading live channels" : {
+
+    },
+    "Reading movies" : {
+
+    },
     "Reading playlist: %@" : {
       "localizations" : {
         "ar" : {
@@ -502461,6 +502503,9 @@
           }
         }
       }
+    },
+    "Reading your playlist" : {
+
     },
     "Ready" : {
       "localizations" : {
@@ -562733,6 +562778,9 @@
           }
         }
       }
+    },
+    "Saving your library" : {
+
     },
     "Scales card size, columns and spacing across the app." : {
       "localizations" : {
@@ -653252,6 +653300,9 @@
           }
         }
       }
+    },
+    "TV shows read" : {
+
     },
     "Tags" : {
       "comment" : "Information label on a title detail page for the item's tags.",
@@ -764104,6 +764155,9 @@
           }
         }
       }
+    },
+    "Waiting for your provider to respond." : {
+
     },
     "Waiting to apply settings for %lld channels." : {
       "localizations" : {
