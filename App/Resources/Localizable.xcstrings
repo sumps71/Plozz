@@ -122872,6 +122872,9 @@
         }
       }
     },
+    "As you browse, the highlighted channel starts playing behind the guide." : {
+
+    },
     "Ask Before Downloading" : {
       "localizations" : {
         "ar" : {
@@ -155605,6 +155608,9 @@
           }
         }
       }
+    },
+    "Change this any time in Settings > Live TV > Auto preview." : {
+
     },
     "Channel" : {
       "localizations" : {
@@ -334084,6 +334090,9 @@
           }
         }
       }
+    },
+    "Keep previews off" : {
+
     },
     "Keep previous days" : {
       "localizations" : {
@@ -733679,6 +733688,12 @@
           }
         }
       }
+    },
+    "Turn on live previews?" : {
+
+    },
+    "Turn on previews" : {
+
     },
     "Turn servers and libraries on or off, and pick who you watch as." : {
       "localizations" : {
