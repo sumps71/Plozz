@@ -39,6 +39,22 @@ enum HomeHeroBrowseFade {
     }
 }
 
+/// Places screen-relative hero layers when the backdrop's slot does not start at
+/// the screen edge (the Showcase stage insets it and disables safe areas).
+enum HomeHeroScreenPlacement {
+    /// Moves centred art from the middle of its slot to the middle of the screen.
+    static func centringOffset(isCentred: Bool, slot: CGRect, screenWidth: CGFloat) -> CGFloat {
+        guard isCentred, slot.width > 0 else { return 0 }
+        return screenWidth / 2 - slot.midX
+    }
+
+    /// Moves a full-screen layer anchored at the slot's leading edge back to the
+    /// screen's leading edge.
+    static func screenEdgeOffset(slot: CGRect) -> CGFloat {
+        slot.width > 0 ? -slot.minX : 0
+    }
+}
+
 /// Shared Home **hero** backdrop, designed around the Apple TV app's "parallax
 /// wipe" page transition.
 ///
@@ -233,6 +249,12 @@ public struct HomeHeroBackdrop: View {
     @Environment(\.heroFadeAmount) private var heroFadeAmount
     @Environment(\.heroArtworkBehindPage) private var artworkBehindPage
     @Environment(\.themePalette) private var palette
+    /// Where this backdrop's slot sits horizontally on screen (its vertical
+    /// position is deliberately not tracked). Hosts such as the Showcase
+    /// stage inset the slot from the screen edge and switch off safe areas, so
+    /// screen-relative layers (centred art, artwork behind page) are placed
+    /// against this rather than the slot.
+    @State private var screenFrame: CGRect = .zero
     @Environment(\.plozzPinnedSidebarActive) private var pinnedSidebarActive
     private var isLight: Bool { colorScheme == .light }
 
@@ -259,18 +281,31 @@ public struct HomeHeroBackdrop: View {
     public var body: some View {
         dissolvedSurface
             .frame(maxWidth: .infinity, alignment: artworkAlignment)
+            .offset(x: HomeHeroScreenPlacement.centringOffset(
+                isCentred: scrimStyle == .browse && centersArtwork,
+                slot: screenFrame, screenWidth: Self.screenSize.width
+            ))
             // Keep the translation inside the safe-area breakout.
             .modifier(HomeVerticalMotion(y: -recedeLift - topOverscan))
             .animation(reduceMotion ? nil : .smooth(duration: 0.96), value: recedeLift)
             .animation(reduceMotion ? nil : .smooth(duration: 0.96), value: receded)
             // Behind the art and, by overflowing downward, the rows: stays put as
             // the hero recedes because a background follows layout, not motion.
-            .background(alignment: .top) { ambientArtwork }
+            .background(alignment: .topLeading) {
+                ambientArtwork.offset(x: HomeHeroScreenPlacement.screenEdgeOffset(slot: screenFrame))
+            }
             .ignoresSafeArea(
                 edges: ignoresHorizontalSafeArea
                     ? [.top, .horizontal]
                     : .top
             )
+            // Measured on the outermost layer, which nothing here shifts: measuring
+            // inside the centring offset would feed that offset back into itself.
+            // Horizontal extent only, so vertical scrolling never re-renders it.
+            .onGeometryChange(for: CGRect.self) { proxy in
+                let frame = proxy.frame(in: .global)
+                return CGRect(x: frame.minX, y: 0, width: frame.width, height: 1)
+            } action: { screenFrame = $0 }
     }
 
     /// The art melts into the page through `dissolveMask`. Hero fade below 100%
