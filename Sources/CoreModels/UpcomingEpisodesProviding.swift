@@ -60,10 +60,25 @@ public enum UpcomingEpisodesPolicy {
     /// `releaseDate` is stored (that day at 00:00 UTC), so the two compare as days.
     static func calendarDayAtUTCMidnight(of date: Date, in calendar: Calendar) -> Date? {
         let parts = calendar.dateComponents([.year, .month, .day], from: date)
+        return utcCalendar.date(from: DateComponents(year: parts.year, month: parts.month, day: parts.day))
+    }
+
+    /// Episodes airing fewer than this many days from today show a countdown
+    /// ("Tomorrow", "In 3 days", "Next week"); later ones show their air date.
+    public static let countdownDayLimit = 14
+
+    /// Whole calendar days from the viewer's local today until `airDate` (a bare
+    /// day stored at UTC midnight): 1 for tomorrow, 0 for today, negative if past.
+    public static func daysUntilAir(_ airDate: Date, now: Date, calendar: Calendar = .current) -> Int? {
+        guard let today = calendarDayAtUTCMidnight(of: now, in: calendar) else { return nil }
+        return utcCalendar.dateComponents([.day], from: today, to: airDate).day
+    }
+
+    private static let utcCalendar: Calendar = {
         var utc = Calendar(identifier: .gregorian)
         utc.timeZone = TimeZone(identifier: "UTC") ?? utc.timeZone
-        return utc.date(from: DateComponents(year: parts.year, month: parts.month, day: parts.day))
-    }
+        return utc
+    }()
 
     static func isOrderedBefore(_ lhs: MediaItem, _ rhs: MediaItem) -> Bool {
         let lhsDate = lhs.releaseDate ?? .distantFuture
@@ -108,22 +123,54 @@ public enum UpcomingEpisodesPolicy {
 }
 
 public extension MediaItem {
-    /// The secondary caption an Upcoming Episodes card shows under the show name,
-    /// e.g. `S2, E5 · Nov 20, 2026 · The Reckoning`.
+    /// When an upcoming episode airs, as an Upcoming Episodes card shows it:
+    /// "Tomorrow", "In 2 days" … "In 6 days", "Next week" (7–13 days), and the
+    /// air date from ``UpcomingEpisodesPolicy/countdownDayLimit`` days on.
     ///
-    /// The release date comes before the episode title so the fact the row exists
-    /// for survives single-line truncation. The date is rendered in UTC (see
-    /// ``releaseDateLabel``). `hidesTitle` drops the episode title for spoiler
-    /// protection; numbering and date are never spoilers.
-    func upcomingEpisodeCaption(hidesTitle: Bool) -> String? {  // l10n:content — numbering, date-format output and server title
+    /// The countdown is the system's relative-date wording, so it is localized
+    /// without catalog strings (German "Übermorgen", Japanese "来週"). Days are
+    /// counted from the viewer's local today, as ``UpcomingEpisodesPolicy`` does.
+    func upcomingEpisodeAirLabel(  // l10n:content — system relative-date or date-format output
+        now: Date, calendar: Calendar = .current, locale: Locale = .current
+    ) -> String? {
+        guard let releaseDate else { return nil }
+        let components: DateComponents
+        switch UpcomingEpisodesPolicy.daysUntilAir(releaseDate, now: now, calendar: calendar) {
+        case let days? where (1...6).contains(days):
+            components = DateComponents(day: days)
+        case let days? where (7..<UpcomingEpisodesPolicy.countdownDayLimit).contains(days):
+            components = DateComponents(weekOfMonth: 1)
+        default:
+            return releaseDateLabel
+        }
+        let formatter = RelativeDateTimeFormatter()
+        formatter.locale = locale
+        formatter.calendar = calendar
+        formatter.dateTimeStyle = .named
+        formatter.unitsStyle = .full
+        formatter.formattingContext = .beginningOfSentence
+        return formatter.localizedString(from: components)
+    }
+
+    /// The secondary caption an Upcoming Episodes card shows under the show name,
+    /// e.g. `S2, E5 · In 3 days · The Reckoning` or, two weeks or more out,
+    /// `S2, E5 · Dec 20, 2026 · The Reckoning`.
+    ///
+    /// When it airs (see ``upcomingEpisodeAirLabel(now:calendar:locale:)``) comes
+    /// before the episode title so the fact the row exists for survives
+    /// single-line truncation. `hidesTitle` drops the episode title for spoiler
+    /// protection; numbering and air timing are never spoilers.
+    func upcomingEpisodeCaption(  // l10n:content — numbering, date-format output and server title
+        hidesTitle: Bool, now: Date, calendar: Calendar = .current, locale: Locale = .current
+    ) -> String? {
         var parts: [String] = []
         if let numbering = seasonEpisodeLabel {
             parts.append(numbering)
         } else if let episodeNumber {
             parts.append("E\(episodeNumber)")  // l10n:content — hand-built numbering, matches seasonEpisodeLabel
         }
-        if let date = releaseDateLabel {
-            parts.append(date)
+        if let airs = upcomingEpisodeAirLabel(now: now, calendar: calendar, locale: locale) {
+            parts.append(airs)
         }
         let trimmedTitle = title.trimmingCharacters(in: .whitespacesAndNewlines)
         if !hidesTitle, !trimmedTitle.isEmpty, trimmedTitle != parentTitle {
