@@ -158,7 +158,10 @@ public struct PosterCardView: View {
     }
 
     private var hidesPlaybackStatus: Bool {
-        hideThumbnail || presentationArtworkPolicy.area == .continueWatching
+        PosterCardPresentation.hidesPlaybackStatus(
+            hidesThumbnail: hideThumbnail, artworkArea: presentationArtworkPolicy.area,
+            showsUpcomingEpisodeCaption: showsUpcomingEpisodeCaption
+        )
     }
 
     /// A poster-shaped episode card is masked by *narrowing its sources*, not by
@@ -836,7 +839,7 @@ public struct PosterCardView: View {
     /// chip already carries the time on the artwork (no need to repeat it here).
     private var subtitleText: String? {  // l10n:content — provider subtitle and preformatted runtime
         if showsUpcomingEpisodeCaption, item.kind == .episode {
-            return item.upcomingEpisodeCaption(hidesTitle: spoilerSettings.shouldHideText(for: item))
+            return item.upcomingEpisodeCaption(hidesTitle: spoilerSettings.shouldHideText(for: item), now: Date())
         }
         return item.posterCaptionSubtitle(showsRuntime: !showsResumeChip)
     }
@@ -1477,6 +1480,16 @@ struct ContinueWatchingSeriesLogo: View {
 /// SwiftUI. Folders retain the shared poster footprint/focus mechanics but never
 /// look like playable, unwatched media.
 enum PosterCardPresentation {
+    /// Whether a card drops its status badges (watched/unwatched, episode count,
+    /// not-in-library mark). Continue Watching carries progress instead, and
+    /// Upcoming Episodes cards carry none: an unaired episode is always unwatched
+    /// and often flagged "not in library", which says nothing the caption doesn't.
+    static func hidesPlaybackStatus(
+        hidesThumbnail: Bool, artworkArea: ArtworkArea, showsUpcomingEpisodeCaption: Bool
+    ) -> Bool {
+        hidesThumbnail || artworkArea == .continueWatching || showsUpcomingEpisodeCaption
+    }
+
     static func preservesContainerArtwork(for kind: MediaItemKind) -> Bool {
         kind == .collection || kind == .playlist || kind == .folder
     }

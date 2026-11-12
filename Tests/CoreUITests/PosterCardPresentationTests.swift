@@ -116,6 +116,27 @@ final class MediaFolderCardLayoutTests: XCTestCase {
 #endif
 
 final class PosterCardPresentationTests: XCTestCase {
+    func testUpcomingEpisodeCardsHideStatusBadges() {
+        XCTAssertTrue(PosterCardPresentation.hidesPlaybackStatus(
+            hidesThumbnail: false, artworkArea: .homeRows, showsUpcomingEpisodeCaption: true
+        ))
+        XCTAssertFalse(PosterCardPresentation.hidesPlaybackStatus(
+            hidesThumbnail: false, artworkArea: .homeRows, showsUpcomingEpisodeCaption: false
+        ), "Other Home rows keep their badges")
+        XCTAssertTrue(PosterCardPresentation.hidesPlaybackStatus(
+            hidesThumbnail: false, artworkArea: .continueWatching, showsUpcomingEpisodeCaption: false
+        ))
+        // An unaired episode would otherwise show a mark; hiding status removes it.
+        let unaired = MediaPlaybackIndicatorState(MediaItem(
+            id: "unaired", title: "Unaired", kind: .episode, locallyValidatedPlayableSource: false
+        ))
+        for indicator in WatchStatusIndicator.allCases {
+            XCTAssertNil(MediaPlaybackIndicatorPresentation.status(
+                for: unaired, hidesStatus: true, indicator: indicator, showsEpisodeCount: true, seerConnected: true
+            ))
+        }
+    }
+
     func testHiddenSuppressesOnlyWatchMarks() {
         for kind in [MediaItemKind.movie, .episode, .video, .series, .season] {
             for played in [false, true] {

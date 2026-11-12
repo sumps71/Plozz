@@ -103,23 +103,73 @@ final class UpcomingEpisodesPolicyTests: XCTestCase {
         )
     }
 
-    func testCaptionShowsNumberingDateAndTitle() throws {
+    func testCaptionShowsNumberingAirTimingAndTitle() {
         let item = MediaItem(
             id: "e", title: "The Reckoning", kind: .episode, parentTitle: "Show A",
             seasonNumber: 2, episodeNumber: 5, releaseDate: day("2026-11-20"), seriesID: "a"
         )
-        let date = try XCTUnwrap(item.releaseDateLabel)
-        XCTAssertEqual(item.upcomingEpisodeCaption(hidesTitle: false), "S2, E5 · \(date) · The Reckoning")
-        XCTAssertEqual(item.upcomingEpisodeCaption(hidesTitle: true), "S2, E5 · \(date)")
+        let english = Locale(identifier: "en_US")
+        XCTAssertEqual(
+            item.upcomingEpisodeCaption(hidesTitle: false, now: now, calendar: calendar("UTC"), locale: english),
+            "S2, E5 · Next week · The Reckoning"
+        )
+        XCTAssertEqual(
+            item.upcomingEpisodeCaption(hidesTitle: true, now: now, calendar: calendar("UTC"), locale: english),
+            "S2, E5 · Next week"
+        )
+    }
+
+    // MARK: - When it airs
+
+    func testAirLabelCountsDownForTwoWeeksThenShowsTheDate() throws {
+        // `now` is 2026-11-12 in UTC.
+        let english = Locale(identifier: "en_US")
+        func label(_ date: String) -> String? {
+            episode("e", date).upcomingEpisodeAirLabel(now: now, calendar: calendar("UTC"), locale: english)
+        }
+        XCTAssertEqual(label("2026-11-13"), "Tomorrow")
+        XCTAssertEqual(label("2026-11-14"), "In 2 days")
+        XCTAssertEqual(label("2026-11-18"), "In 6 days")
+        XCTAssertEqual(label("2026-11-19"), "Next week", "7 days out")
+        XCTAssertEqual(label("2026-11-25"), "Next week", "13 days out")
+        for far in ["2026-11-26", "2027-03-01"] {
+            XCTAssertEqual(label(far), try XCTUnwrap(MediaItem.releaseDateLabel(for: day(far))), "\(far) shows the date")
+        }
+        // Today or earlier never shows a countdown (curated rows exclude these).
+        XCTAssertEqual(label("2026-11-12"), MediaItem.releaseDateLabel(for: day("2026-11-12")))
+        XCTAssertNil(episode("e", nil).upcomingEpisodeAirLabel(now: now))
+    }
+
+    func testAirCountdownUsesTheViewersLocalDay() {
+        // Already the 13th in Auckland, so the 14th is tomorrow there but two days
+        // away in Los Angeles, where it is still the 12th.
+        let english = Locale(identifier: "en_US")
+        let item = episode("e", "2026-11-14")
+        XCTAssertEqual(
+            item.upcomingEpisodeAirLabel(now: now, calendar: calendar("Pacific/Auckland"), locale: english), "Tomorrow"
+        )
+        XCTAssertEqual(
+            item.upcomingEpisodeAirLabel(now: now, calendar: calendar("America/Los_Angeles"), locale: english),
+            "In 2 days"
+        )
+        XCTAssertEqual(UpcomingEpisodesPolicy.daysUntilAir(day("2026-11-14"), now: now, calendar: calendar("UTC")), 2)
+    }
+
+    func testAirCountdownIsLocalized() {
+        let german = Locale(identifier: "de_DE")
+        let item = episode("e", "2026-11-19")
+        XCTAssertEqual(
+            item.upcomingEpisodeAirLabel(now: now, calendar: calendar("UTC"), locale: german), "Nächste Woche"
+        )
     }
 
     func testCaptionOmitsMissingPartsAndRepeatedShowName() {
         let item = MediaItem(
             id: "e", title: "Show A", kind: .episode, parentTitle: "Show A", episodeNumber: 3
         )
-        XCTAssertEqual(item.upcomingEpisodeCaption(hidesTitle: false), "E3")
+        XCTAssertEqual(item.upcomingEpisodeCaption(hidesTitle: false, now: now), "E3")
         let bare = MediaItem(id: "b", title: " ", kind: .episode)
-        XCTAssertNil(bare.upcomingEpisodeCaption(hidesTitle: false))
+        XCTAssertNil(bare.upcomingEpisodeCaption(hidesTitle: false, now: now))
     }
 
     // MARK: - Opt-in row visibility
