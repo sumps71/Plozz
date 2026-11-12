@@ -204,6 +204,9 @@ public struct HomeHeroBackdrop: View {
 
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.heroFadeAmount) private var heroFadeAmount
+    @Environment(\.heroArtworkBehindPage) private var artworkBehindPage
+    @Environment(\.themePalette) private var palette
     @Environment(\.plozzPinnedSidebarActive) private var pinnedSidebarActive
     private var isLight: Bool { colorScheme == .light }
 
@@ -234,6 +237,9 @@ public struct HomeHeroBackdrop: View {
             .modifier(HomeVerticalMotion(y: -recedeLift - topOverscan))
             .animation(reduceMotion ? nil : .smooth(duration: 0.96), value: recedeLift)
             .animation(reduceMotion ? nil : .smooth(duration: 0.96), value: receded)
+            // Behind the art and, by overflowing downward, the rows: stays put as
+            // the hero recedes because a background follows layout, not motion.
+            .background(alignment: .top) { ambientArtwork }
             .ignoresSafeArea(
                 edges: ignoresHorizontalSafeArea
                     ? [.top, .horizontal]
@@ -241,8 +247,57 @@ public struct HomeHeroBackdrop: View {
             )
     }
 
+    /// The art melts into the page through `dissolveMask`. Hero fade below 100%
+    /// puts a floor under that mask, so the faded areas keep part of the picture
+    /// instead of reaching the page colour.
+    @ViewBuilder
     private var dissolvedSurface: some View {
-        backdropSurface.mask(dissolveMask)
+        if heroFadeAmount < 1 {
+            backdropSurface.mask {
+                ZStack {
+                    Color.white.opacity(1 - heroFadeAmount)
+                    dissolveMask
+                }
+            }
+        } else {
+            backdropSurface.mask(dissolveMask)
+        }
+    }
+
+    /// The current slide's artwork, heavily blurred and covering the whole screen
+    /// behind the hero and rows, under the theme colour at the opposite strength.
+    /// Off (nothing drawn) at the default 0. Uses the small landscape-card decode:
+    /// a blurred copy needs no detail.
+    @ViewBuilder
+    private var ambientArtwork: some View {
+        if artworkBehindPage > 0, !references.isEmpty {
+            ZStack {
+                FallbackAsyncImage(
+                    references: references, variant: .landscapeCard, asyncFallbackURL: asyncFallbackURL
+                ) { image in
+                    image.resizable().aspectRatio(contentMode: .fill)
+                } placeholder: {
+                    Color.clear
+                }
+                .blur(radius: 60, opaque: true)
+                .opacity(artworkBehindPage)
+                .id(slideID)
+                .transition(.opacity)
+            }
+            .frame(width: Self.screenSize.width, height: Self.screenSize.height)
+            .clipped()
+            .animation(reduceMotion ? nil : .easeInOut(duration: 0.6), value: slideID)
+            .allowsHitTesting(false)
+            .accessibilityHidden(true)
+        }
+    }
+
+    private static var screenSize: CGSize {
+        #if canImport(UIKit)
+        UIScreen.main.bounds.size
+        #else
+        CGSize(width: 1920, height: 1080)
+        #endif
     }
 
     private var backdropSurface: some View {

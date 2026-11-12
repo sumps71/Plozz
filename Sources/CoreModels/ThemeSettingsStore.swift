@@ -10,12 +10,20 @@ public protocol ThemeSettingsStoring: Sendable {
     func save(_ theme: AppTheme)
     func loadGradientEnabled() -> Bool
     func saveGradientEnabled(_ enabled: Bool)
+    func loadOpacity() -> ThemeOpacitySettings
+    func saveOpacity(_ settings: ThemeOpacitySettings)
+}
+
+public extension ThemeSettingsStoring {
+    func loadOpacity() -> ThemeOpacitySettings { .default }
+    func saveOpacity(_ settings: ThemeOpacitySettings) {}
 }
 
 public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable {
     private let defaults: UserDefaults
     private let key: String
     private let gradientKey: String
+    private let opacityKey: String
 
     /// - Parameter namespace: per-profile scope. `nil` (the default/primary
     ///   profile) uses the legacy un-suffixed key; other profiles pass their
@@ -24,6 +32,23 @@ public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable
         self.defaults = defaults
         self.key = SettingsKey.scoped("com.plozz.appTheme", namespace: namespace)
         self.gradientKey = SettingsKey.scoped(Self.gradientStorageKey, namespace: namespace)
+        self.opacityKey = SettingsKey.scoped(Self.opacityStorageKey, namespace: namespace)
+    }
+
+    public static let opacityStorageKey = "com.plozz.themeOpacity"
+
+    public func loadOpacity() -> ThemeOpacitySettings {
+        guard let data = defaults.data(forKey: opacityKey),
+              let settings = try? JSONDecoder().decode(ThemeOpacitySettings.self, from: data) else {
+            return .default
+        }
+        return settings
+    }
+
+    public func saveOpacity(_ settings: ThemeOpacitySettings) {
+        if let data = try? JSONEncoder().encode(settings) {
+            defaults.set(data, forKey: opacityKey)
+        }
     }
 
     public static let gradientStorageKey = "com.plozz.gradientBackgrounds"
@@ -62,6 +87,11 @@ public final class ThemeSettingsModel {
     public var gradientEnabled: Bool {
         didSet { store.saveGradientEnabled(gradientEnabled) }
     }
+    /// Background strength, artwork-behind-page and hero fade (see
+    /// ``ThemeOpacitySettings``).
+    public var opacity: ThemeOpacitySettings {
+        didSet { store.saveOpacity(opacity) }
+    }
 
     private let store: ThemeSettingsStoring
 
@@ -69,5 +99,6 @@ public final class ThemeSettingsModel {
         self.store = store
         self.theme = store.load()
         self.gradientEnabled = store.loadGradientEnabled()
+        self.opacity = store.loadOpacity()
     }
 }

@@ -131,6 +131,14 @@ final class SettingsSearchTests: XCTestCase {
         XCTAssertEqual(remembered?.destinationPage(on: .television), .subtitles)
     }
 
+    func testThemeOpacityControlsAreSearchableOnTVOnly() {
+        let television = SettingsSearchCatalog.entries(on: .television)
+        for id in ["theme-background-strength", "theme-artwork-behind-page", "theme-hero-fade"] {
+            XCTAssertEqual(television.first { $0.id == id }?.page, .theme, id)
+            XCTAssertFalse(SettingsSearchCatalog.entries(on: .phone).contains { $0.id == id }, id)
+        }
+    }
+
     func testRowStyleSearchIsSeparateFromHeroAndOnlyAvailableOnTV() {
         let targets = [
             "home-layout", "showcase-logo-size", "showcase-text-size", "showcase-ratings",

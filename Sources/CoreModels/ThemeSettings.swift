@@ -77,6 +77,101 @@ public enum AppTheme: String, CaseIterable, Identifiable, Codable, Sendable {
     public static let pickerOrder: [AppTheme] = [.pureBlack, .dark, .light, .system]
 }
 
+/// Per-profile strength adjustments for the theme's page background and the
+/// Home hero artwork. Every value defaults to today's look.
+///
+/// - Background strength: how strongly the page is tinted with the theme colour,
+///   kept separately for Black, Dark and Light. Lower values blend the colour
+///   toward a neutral grey (Black becomes charcoal, Light a greyer white).
+/// - Artwork behind page: how much of the current hero artwork shows, blurred,
+///   through the page behind the hero and rows. 0 (the default) is off.
+/// - Hero fade: how far the hero artwork fades into the page. Lower values keep
+///   more of the picture visible where it would normally melt away.
+public struct ThemeOpacitySettings: Codable, Equatable, Sendable {
+    /// The three page colours a theme can resolve to. System follows the device.
+    public enum Mode: String, Codable, CaseIterable, Sendable {
+        case black, dark, light
+
+        public static func resolved(_ theme: AppTheme, systemIsDark: Bool) -> Mode {
+            switch theme {
+            case .pureBlack: return .black
+            case .dark: return .dark
+            case .light: return .light
+            case .system: return systemIsDark ? .dark : .light
+            }
+        }
+    }
+
+    public var blackBackgroundStrength: Int
+    public var darkBackgroundStrength: Int
+    public var lightBackgroundStrength: Int
+    public var artworkBehindPage: Int
+    public var heroFade: Int
+
+    /// Background strength stops at 50%, where text drawn in the theme's own
+    /// colours still reads against the softened page.
+    public static let backgroundStrengthOptions: [Int] = Array(stride(from: 50, through: 100, by: 10))
+    public static let percentOptions: [Int] = Array(stride(from: 0, through: 100, by: 10))
+
+    public static let `default` = ThemeOpacitySettings()
+
+    public init(
+        blackBackgroundStrength: Int = 100,
+        darkBackgroundStrength: Int = 100,
+        lightBackgroundStrength: Int = 100,
+        artworkBehindPage: Int = 0,
+        heroFade: Int = 100
+    ) {
+        self.blackBackgroundStrength = Self.snap(blackBackgroundStrength, minimum: 50)
+        self.darkBackgroundStrength = Self.snap(darkBackgroundStrength, minimum: 50)
+        self.lightBackgroundStrength = Self.snap(lightBackgroundStrength, minimum: 50)
+        self.artworkBehindPage = Self.snap(artworkBehindPage, minimum: 0)
+        self.heroFade = Self.snap(heroFade, minimum: 0)
+    }
+
+    public func backgroundStrength(for mode: Mode) -> Int {
+        switch mode {
+        case .black: blackBackgroundStrength
+        case .dark: darkBackgroundStrength
+        case .light: lightBackgroundStrength
+        }
+    }
+
+    public mutating func setBackgroundStrength(_ value: Int, for mode: Mode) {
+        let value = Self.snap(value, minimum: 50)
+        switch mode {
+        case .black: blackBackgroundStrength = value
+        case .dark: darkBackgroundStrength = value
+        case .light: lightBackgroundStrength = value
+        }
+    }
+
+    /// Snaps onto 10% steps within `minimum…100`.
+    static func snap(_ value: Int, minimum: Int) -> Int {
+        Int((Double(min(max(value, minimum), 100)) / 10).rounded()) * 10
+    }
+
+    private enum CodingKeys: String, CodingKey {
+        case blackBackgroundStrength, darkBackgroundStrength, lightBackgroundStrength
+        case artworkBehindPage, heroFade
+    }
+
+    /// Lenient: a missing or unreadable field falls back to its default.
+    public init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        func value(_ key: CodingKeys, _ fallback: Int) -> Int {
+            (try? c.decodeIfPresent(Int.self, forKey: key)) ?? fallback
+        }
+        self.init(
+            blackBackgroundStrength: value(.blackBackgroundStrength, 100),
+            darkBackgroundStrength: value(.darkBackgroundStrength, 100),
+            lightBackgroundStrength: value(.lightBackgroundStrength, 100),
+            artworkBehindPage: value(.artworkBehindPage, 0),
+            heroFade: value(.heroFade, 100)
+        )
+    }
+}
+
 /// How the full-screen music player paints its background and text. Independent
 /// of `AppTheme`: the player can follow the app theme or be pinned to one of its
 /// own looks, because its immersive, artwork-tinted background reads differently
