@@ -47,8 +47,13 @@ enum FocusHeroLayout {
     static var screenWidth: CGFloat { HomeHeroLayout.screenWidth }
     /// What shows of the next row under the pinned one: its title and the top
     /// edge of its cards. Keep real artwork visible below the heading and its
-    /// spacing so the native focus engine can reach it with Down.
-    static let nextRowPeek: CGFloat = 96
+    /// spacing so the native focus engine can reach it with Down. Trimmed from 96
+    /// to show more of the backdrop: a row's cards start about 49 pt below its
+    /// top (32 pt bold title, Showcase title tightening, rail top padding), so
+    /// about 31 pt of the next row's cards still show beneath its title. Going
+    /// further (e.g. 72 with 10 pt spacing) makes the largest logo and text
+    /// sizes settle by ~2 pt after a row change.
+    static let nextRowPeek: CGFloat = 80
     /// Keeps the hero column usable if a row ever measures unexpectedly tall.
     static let lowestSlotTop: CGFloat = 360
     /// A backdrop's own shape. The art is sized to it rather than cropped to the
@@ -59,8 +64,8 @@ enum FocusHeroLayout {
     static let maskHorizontalOverhang: CGFloat = 160
     /// The gap between rows. Tighter than the classic Home's: rows here are
     /// read one at a time, and every point saved lets the rows sit lower and
-    /// leaves the art more room.
-    static let rowSpacing: CGFloat = 16
+    /// leaves the art more room. Trimmed from 16 to show more of the backdrop.
+    static let rowSpacing: CGFloat = 12
     static let rowBottomTightening: CGFloat = 12
     static let activeTitleLift: CGFloat = 20
     /// How much of the screen's width the art takes.

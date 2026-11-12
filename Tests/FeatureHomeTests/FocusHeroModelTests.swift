@@ -37,14 +37,23 @@ final class FocusHeroModelTests: XCTestCase {
         let motion = FocusHeroRowMotion()
         motion.columnContent = content
         motion.height = 608
+        // The room above a pinned row follows the layout's row spacing and peek.
+        func room(rowHeight: CGFloat) -> CGFloat {
+            FocusHeroLayout.availableDetailsHeight(
+                columnOffset: FocusHeroLayout.columnOffset(rowHeight: rowHeight), minimumTop: 56
+            )
+        }
+        let tallScale = min(1, room(rowHeight: 608) / 500)
+        let shortScale = min(1, room(rowHeight: 420) / 500)
+        XCTAssertLessThan(tallScale, shortScale, "A taller row leaves less room, so the column shrinks more")
         motion.configureColumnFit(.init(minimumTop: 56, leading: 80, rowHeight: 608))
         motion.recordColumnContentHeight(500)
-        XCTAssertEqual(content.transform.a, 264 / 500, accuracy: 0.001)
+        XCTAssertEqual(content.transform.a, tallScale, accuracy: 0.001)
         motion.height = 420
         motion.configureColumnFit(.init(minimumTop: 56, leading: 80, rowHeight: 420))
-        XCTAssertEqual(content.transform.a, 452 / 500, accuracy: 0.001)
-        XCTAssertEqual(content.transform.tx, (80 - content.bounds.midX) * (1 - 452 / 500), accuracy: 0.001)
-        XCTAssertEqual(content.transform.ty, (320 - content.bounds.midY) * (1 - 452 / 500), accuracy: 0.001)
+        XCTAssertEqual(content.transform.a, shortScale, accuracy: 0.001)
+        XCTAssertEqual(content.transform.tx, (80 - content.bounds.midX) * (1 - shortScale), accuracy: 0.001)
+        XCTAssertEqual(content.transform.ty, (320 - content.bounds.midY) * (1 - shortScale), accuracy: 0.001)
         XCTAssertNil(content.layer.animationKeys())
     }
 
