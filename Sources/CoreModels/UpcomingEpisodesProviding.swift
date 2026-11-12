@@ -153,15 +153,13 @@ public extension MediaItem {
     }
 
     /// The secondary caption an Upcoming Episodes card shows under the show name,
-    /// e.g. `S2, E5 · In 3 days · The Reckoning` or, two weeks or more out,
-    /// `S2, E5 · Dec 20, 2026 · The Reckoning`.
+    /// e.g. `S2, E5 · In 3 days` or, two weeks or more out, `S2, E5 · Dec 20, 2026`
+    /// (see ``upcomingEpisodeAirLabel(now:calendar:locale:)``).
     ///
-    /// When it airs (see ``upcomingEpisodeAirLabel(now:calendar:locale:)``) comes
-    /// before the episode title so the fact the row exists for survives
-    /// single-line truncation. `hidesTitle` drops the episode title for spoiler
-    /// protection; numbering and air timing are never spoilers.
-    func upcomingEpisodeCaption(  // l10n:content — numbering, date-format output and server title
-        hidesTitle: Bool, now: Date, calendar: Calendar = .current, locale: Locale = .current
+    /// The episode name is never shown: the row is about which show returns and
+    /// when, and an unaired episode's name is often a placeholder or a spoiler.
+    func upcomingEpisodeCaption(  // l10n:content — numbering and date-format output
+        now: Date, calendar: Calendar = .current, locale: Locale = .current
     ) -> String? {
         var parts: [String] = []
         if let numbering = seasonEpisodeLabel {
@@ -171,10 +169,6 @@ public extension MediaItem {
         }
         if let airs = upcomingEpisodeAirLabel(now: now, calendar: calendar, locale: locale) {
             parts.append(airs)
-        }
-        let trimmedTitle = title.trimmingCharacters(in: .whitespacesAndNewlines)
-        if !hidesTitle, !trimmedTitle.isEmpty, trimmedTitle != parentTitle {
-            parts.append(trimmedTitle)
         }
         return parts.isEmpty ? nil : parts.joined(separator: " · ")
     }
