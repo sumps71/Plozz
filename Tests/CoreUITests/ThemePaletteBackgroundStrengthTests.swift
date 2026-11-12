@@ -24,7 +24,13 @@ final class ThemePaletteBackgroundStrengthTests: XCTestCase {
                           "Light becomes a greyer white")
         XCTAssertEqual(black.primaryText, ThemePalette.pureBlack.primaryText)
         XCTAssertEqual(black.isLight, ThemePalette.pureBlack.isLight)
-        XCTAssertLessThan(brightness(black.backgroundBase), 0.5, "Even softened, Black stays a dark page")
+        XCTAssertLessThan(brightness(black.backgroundBase), 0.5, "At 60%, Black stays a dark page")
+    }
+
+    func testZeroStrengthMakesEveryPageMidGrey() {
+        for palette in [ThemePalette.pureBlack, .dark, .light] {
+            XCTAssertEqual(brightness(palette.adjustingBackground(strength: 0).backgroundBase), 0.5, accuracy: 0.02)
+        }
     }
 }
 #endif

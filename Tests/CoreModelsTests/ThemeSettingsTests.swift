@@ -94,10 +94,11 @@ final class ThemeSettingsStoreTests: XCTestCase {
         XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.pureBlack, systemIsDark: false), .black)
         XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.system, systemIsDark: true), .dark)
         XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.system, systemIsDark: false), .light)
-        XCTAssertEqual(ThemeOpacitySettings.backgroundStrengthOptions, [50, 60, 70, 80, 90, 100])
-        let json = #"{"blackBackgroundStrength":10,"artworkBehindPage":-5,"heroFade":134}"#
+        XCTAssertEqual(ThemeOpacitySettings.backgroundStrengthOptions, [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+        let json = #"{"blackBackgroundStrength":-30,"darkBackgroundStrength":0,"artworkBehindPage":-5,"heroFade":134}"#
         let decoded = try JSONDecoder().decode(ThemeOpacitySettings.self, from: Data(json.utf8))
-        XCTAssertEqual(decoded.blackBackgroundStrength, 50, "Never softer than 50%")
+        XCTAssertEqual(decoded.blackBackgroundStrength, 0, "Clamped at 0%")
+        XCTAssertEqual(decoded.darkBackgroundStrength, 0, "0% is allowed")
         XCTAssertEqual(decoded.artworkBehindPage, 0)
         XCTAssertEqual(decoded.heroFade, 100)
         XCTAssertEqual(decoded.lightBackgroundStrength, 100, "Missing fields keep their defaults")

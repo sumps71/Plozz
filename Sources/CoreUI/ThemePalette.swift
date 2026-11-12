@@ -232,8 +232,8 @@ public struct ThemePalette: Equatable, Sendable {
     ///
     /// `strength` 1 returns the palette unchanged; lower values blend the page
     /// colours (gradient stops and the Settings page) toward mid-grey, so Black
-    /// becomes charcoal and Light a greyer white. Text and surface tokens are
-    /// untouched, which is why the setting stops at 50%.
+    /// becomes charcoal and Light a greyer white; at 0 every theme's page is
+    /// mid-grey. Text and surface tokens are untouched.
     public func adjustingBackground(strength: Double) -> ThemePalette {
         let blend = 1 - min(max(strength, 0), 1)
         guard blend > 0 else { return self }
