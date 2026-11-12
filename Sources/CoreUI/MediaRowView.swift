@@ -249,6 +249,10 @@ public struct MediaRowView: View {
     /// debounce and no once-per-entry gate. For layout that has to follow focus
     /// immediately, such as a Home that pins the focused row.
     private let onCardFocused: ((MediaItem) -> Void)?
+    #if os(tvOS)
+    @FocusState private var leadingItemFocused: Bool
+    @State private var leadingBrowseFocused = false
+    #endif
     private let onItemExposed: ((MediaItem) -> Void)?
     private let isExposureActive: Bool
     /// Optional localized cue drawn on selected card kinds (e.g. a Related row
@@ -597,6 +601,11 @@ public struct MediaRowView: View {
                     ScrollViewReader { proxy in
                         ScrollView(.horizontal, showsIndicators: false) {
                         LazyHStack(spacing: layoutMetrics.cardSpacing) {
+                            #if os(tvOS)
+                            if showsLeadingBrowseCard, let onBrowse {
+                                browseCard(action: onBrowse, isLeading: true)
+                            }
+                            #endif
                             ForEach(Self.presentationElements(
                                 items: items,
                                 loadingPlaceholderCount: max(
@@ -606,7 +615,16 @@ public struct MediaRowView: View {
                             )) { element in
                                 switch element {
                                 case .item(let item):
+                                    #if os(tvOS)
+                                    if showsLeadingBrowseCard, item.stablePresentationID == leadingItemID {
+                                        tappableCard(for: item)
+                                            .focused($leadingItemFocused)
+                                    } else {
+                                        tappableCard(for: item)
+                                    }
+                                    #else
                                     tappableCard(for: item)
+                                    #endif
                                 case .loadingPlaceholder(let index):
                                     if index == 0, reservesLoadingFocus, items.isEmpty {
                                         loadingFocusEntry
@@ -628,17 +646,7 @@ public struct MediaRowView: View {
                             }
                             #if os(tvOS)
                             if let onBrowse, loadingPlaceholderCount == 0 {
-                                MediaRowBrowseCard(
-                                    width: cardSlotWidth,
-                                    style: presentation == .poster ? .poster : .landscape,
-                                    showsSeriesArtwork: showsSeriesArtwork,
-                                    onFocus: {
-                                        activity.pendingReport?.cancel()
-                                        activity.pendingReport = nil
-                                        onFocusEntered?()
-                                        onFocusChange?(nil)
-                                    }, action: onBrowse
-                                )
+                                browseCard(action: onBrowse, isLeading: false)
                             }
                             #endif
                         }
@@ -1029,6 +1037,42 @@ public struct MediaRowView: View {
             card
         }
     }
+
+    #if os(tvOS)
+    /// A "See all" card also leads the row, mirroring the trailing one — see
+    /// ``MediaRowLeadingBrowse``.
+    private var showsLeadingBrowseCard: Bool {
+        presentation != .episodeColumn && MediaRowLeadingBrowse.showsCard(
+            hasBrowseAction: onBrowse != nil, itemCount: items.count,
+            loadingPlaceholderCount: loadingPlaceholderCount
+        )
+    }
+
+    private var leadingItemID: String? { Self.uniqued(items).first?.stablePresentationID }
+
+    private func browseCard(action: @escaping () -> Void, isLeading: Bool) -> some View {
+        MediaRowBrowseCard(
+            width: cardSlotWidth,
+            style: presentation == .poster ? .poster : .landscape,
+            showsSeriesArtwork: showsSeriesArtwork,
+            isLeading: isLeading,
+            onFocus: {
+                if isLeading { leadingBrowseFocused = true }
+                activity.pendingReport?.cancel()
+                activity.pendingReport = nil
+                onFocusEntered?()
+                onFocusChange?(nil)
+            },
+            onFocusLost: { if isLeading { leadingBrowseFocused = false } },
+            action: action
+        )
+        // Reached only by pressing left from the first item, never by moving
+        // up or down into the row.
+        .disabled(isLeading && !MediaRowLeadingBrowse.acceptsFocus(
+            firstItemFocused: leadingItemFocused, cardFocused: leadingBrowseFocused
+        ))
+    }
+    #endif
 
     /// Where the first card's slot starts, so its visible edge lines up with the
     /// row's title.

@@ -2,13 +2,33 @@
 import CoreModels
 import SwiftUI
 
+/// When a rail shows a "See all" card before its first item as well as after its
+/// last, and when that leading card may take focus.
+///
+/// The leading card is reached only by pressing left from the first item: it
+/// accepts focus while the first item (or the card itself) has it, so moving up
+/// or down into a row always lands on a title rather than on "See all".
+public enum MediaRowLeadingBrowse {
+    /// Shown wherever the trailing card is (a browse action and no loading
+    /// placeholders), and only beside real items, so an empty row never shows two.
+    public static func showsCard(hasBrowseAction: Bool, itemCount: Int, loadingPlaceholderCount: Int) -> Bool {
+        hasBrowseAction && itemCount > 0 && loadingPlaceholderCount == 0
+    }
+
+    public static func acceptsFocus(firstItemFocused: Bool, cardFocused: Bool) -> Bool {
+        firstItemFocused || cardFocused
+    }
+}
+
 /// A rail action, not a media item: no playback, watch-state, or context menu.
 public struct MediaRowBrowseCard: View {
     private let width: CGFloat
     private let style: PosterCardView.Style
     private let showsSeriesArtwork: Bool
     private let featuredSize: CGSize?
+    private let isLeading: Bool
     private let onFocus: () -> Void
+    private let onFocusLost: () -> Void
     private let action: () -> Void
     @PlozzCardFocus private var focused: Bool
     @Environment(\.plozzMetrics) private var metrics
@@ -23,13 +43,16 @@ public struct MediaRowBrowseCard: View {
 
     public init(
         width: CGFloat, style: PosterCardView.Style = .poster, showsSeriesArtwork: Bool = false,
-        featuredSize: CGSize? = nil, onFocus: @escaping () -> Void = {}, action: @escaping () -> Void
+        featuredSize: CGSize? = nil, isLeading: Bool = false, onFocus: @escaping () -> Void = {},
+        onFocusLost: @escaping () -> Void = {}, action: @escaping () -> Void
     ) {
+        self.isLeading = isLeading
         self.width = width
         self.style = style
         self.showsSeriesArtwork = showsSeriesArtwork
         self.featuredSize = featuredSize
         self.onFocus = onFocus
+        self.onFocusLost = onFocusLost
         self.action = action
     }
 
@@ -56,8 +79,8 @@ public struct MediaRowBrowseCard: View {
         control
             .frame(width: width)
             .accessibilityLabel(Text("See all"))
-            .accessibilityIdentifier("home-row-see-all")
-            .onChange(of: focused) { _, value in if value { onFocus() } }
+            .accessibilityIdentifier(isLeading ? "home-row-see-all-leading" : "home-row-see-all")
+            .onChange(of: focused) { _, value in if value { onFocus() } else { onFocusLost() } }
     }
 
     @ViewBuilder
