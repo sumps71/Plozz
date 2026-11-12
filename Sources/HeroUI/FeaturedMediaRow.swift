@@ -256,7 +256,7 @@ public struct FeaturedMediaRow: View {
                 #if os(tvOS)
                 if let onBrowse, showsLeadingBrowseCard {
                     MediaRowBrowseCard(
-                        width: size.width, featuredSize: size, isLeading: true,
+                        width: size.width, featuredSize: size, isLeading: true, previewItems: items,
                         onFocus: { focusedID = nil; leadingBrowseFocused = true; coordinator.stop() },
                         onFocusLost: { leadingBrowseFocused = false },
                         action: { coordinator.stop(); onBrowse() }
@@ -294,7 +294,7 @@ public struct FeaturedMediaRow: View {
                 #if os(tvOS)
                 if let onBrowse {
                     MediaRowBrowseCard(
-                        width: size.width, featuredSize: size,
+                        width: size.width, featuredSize: size, previewItems: items,
                         onFocus: { focusedID = nil; coordinator.stop() },
                         action: { coordinator.stop(); onBrowse() }
                     )

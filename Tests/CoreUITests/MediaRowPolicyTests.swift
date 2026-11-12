@@ -26,6 +26,22 @@ final class MediaRowPolicyTests: XCTestCase {
         XCTAssertEqual(MediaRowLeadingBrowse.hiddenOffset(cardWidth: 0, spacing: -10), 0, "Never scrolls before the start")
     }
 
+    func testSeeAllPreviewFansTheFirstTitlesAroundTheFrontPoster() {
+        XCTAssertEqual(MediaRowBrowsePreview.layout(index: 0, count: 3, spread: false), .init(offset: 0, rotation: 0),
+                       "The first title sits in front, upright")
+        let left = MediaRowBrowsePreview.layout(index: 1, count: 3, spread: false)
+        let right = MediaRowBrowsePreview.layout(index: 2, count: 3, spread: false)
+        XCTAssertLessThan(left.offset, 0)
+        XCTAssertGreaterThan(right.offset, 0)
+        XCTAssertEqual(left.offset, -right.offset, "Symmetric fan")
+        let spread = MediaRowBrowsePreview.layout(index: 2, count: 3, spread: true)
+        XCTAssertGreaterThan(spread.offset, right.offset, "Focus spreads the fan")
+        XCTAssertGreaterThan(spread.rotation, right.rotation)
+        // The fan is sized to fit its widest, focused spread.
+        XCTAssertGreaterThanOrEqual(MediaRowBrowsePreview.fanWidthFactor(count: 3), 1 + 2 * spread.offset)
+        XCTAssertEqual(MediaRowBrowsePreview.fanWidthFactor(count: 1), 1)
+    }
+
     func testLeadingSeeAllIsReachedOnlyFromTheFirstItem() {
         XCTAssertFalse(
             MediaRowLeadingBrowse.acceptsFocus(firstItemFocused: false, cardFocused: false),

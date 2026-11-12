@@ -1090,6 +1090,8 @@ public struct MediaRowView: View {
             style: presentation == .poster ? .poster : .landscape,
             showsSeriesArtwork: showsSeriesArtwork,
             isLeading: isLeading,
+            previewItems: Array(Self.uniqued(items).prefix(MediaRowBrowsePreview.maximumCount)),
+            previewArtworkPolicy: artworkPolicy,
             onFocus: {
                 if isLeading { leadingBrowseFocused = true }
                 activity.pendingReport?.cancel()
