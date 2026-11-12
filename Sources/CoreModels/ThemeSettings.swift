@@ -108,9 +108,10 @@ public struct ThemeOpacitySettings: Codable, Equatable, Sendable {
     public var artworkBehindPage: Int
     public var heroFade: Int
 
-    /// Background strength stops at 50%, where text drawn in the theme's own
-    /// colours still reads against the softened page.
-    public static let backgroundStrengthOptions: [Int] = Array(stride(from: 50, through: 100, by: 10))
+    /// Background strength runs 0–100% in 10% steps. At 0% every mode's page is
+    /// the same mid-grey and text keeps the theme's own colours, so contrast is
+    /// lowest there (white text on grey for Black and Dark).
+    public static let backgroundStrengthOptions: [Int] = Array(stride(from: 0, through: 100, by: 10))
     public static let percentOptions: [Int] = Array(stride(from: 0, through: 100, by: 10))
 
     public static let `default` = ThemeOpacitySettings()
@@ -122,9 +123,9 @@ public struct ThemeOpacitySettings: Codable, Equatable, Sendable {
         artworkBehindPage: Int = 0,
         heroFade: Int = 100
     ) {
-        self.blackBackgroundStrength = Self.snap(blackBackgroundStrength, minimum: 50)
-        self.darkBackgroundStrength = Self.snap(darkBackgroundStrength, minimum: 50)
-        self.lightBackgroundStrength = Self.snap(lightBackgroundStrength, minimum: 50)
+        self.blackBackgroundStrength = Self.snap(blackBackgroundStrength, minimum: 0)
+        self.darkBackgroundStrength = Self.snap(darkBackgroundStrength, minimum: 0)
+        self.lightBackgroundStrength = Self.snap(lightBackgroundStrength, minimum: 0)
         self.artworkBehindPage = Self.snap(artworkBehindPage, minimum: 0)
         self.heroFade = Self.snap(heroFade, minimum: 0)
     }
@@ -138,7 +139,7 @@ public struct ThemeOpacitySettings: Codable, Equatable, Sendable {
     }
 
     public mutating func setBackgroundStrength(_ value: Int, for mode: Mode) {
-        let value = Self.snap(value, minimum: 50)
+        let value = Self.snap(value, minimum: 0)
         switch mode {
         case .black: blackBackgroundStrength = value
         case .dark: darkBackgroundStrength = value
