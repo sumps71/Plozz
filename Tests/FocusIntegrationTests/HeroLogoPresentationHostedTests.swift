@@ -533,11 +533,16 @@ final class HeroLogoPresentationHostedTests: XCTestCase {
         let lastLine = try XCTUnwrap(frames["The story"])
         XCTAssertNotNil(frames["An unexpected"])
         XCTAssertNotNil(frames["A carefully"])
+        // These bounds were tuned with the rows ending at 968 pt; they move with
+        // the rows when the row spacing or next-row peek changes.
+        let rowShift = FocusHeroLayout.rowsBottom(rowSpacing: FocusHeroLayout.rowSpacing) - 968
         XCTAssertGreaterThanOrEqual(badge.minY, 232)
-        XCTAssertLessThan(badge.minY, 252, "The scheduled title should use the space immediately below navigation.")
+        XCTAssertLessThan(badge.minY, 252 + rowShift,
+                          "The scheduled title should use the space immediately below navigation.")
         XCTAssertLessThan(badge.maxY, logo.minY)
-        XCTAssertLessThan(lastLine.maxY, 588)
-        XCTAssertGreaterThan(lastLine.maxY, 574, "Use the available height instead of leaving a second bottom gap.")
+        XCTAssertLessThan(lastLine.maxY, 588 + rowShift)
+        XCTAssertGreaterThan(lastLine.maxY, 574 + rowShift,
+                             "Use the available height instead of leaving a second bottom gap.")
         XCTAssertEqual(logo.width / logo.height, 4.1, accuracy: 0.05)
         let attachment = XCTAttachment(image: image)
         attachment.name = "large-recommended-scheduled-three-lines"
@@ -1157,7 +1162,9 @@ final class HeroLogoPresentationHostedTests: XCTestCase {
                 let row = try XCTUnwrap(colorBounds(in: fixture.window, channel: 2))
                 XCTAssertGreaterThanOrEqual(logo.minY, 0)
                 XCTAssertLessThan(logo.maxY + 100, row.minY, "Keep room for metadata above the pinned row.")
-                XCTAssertEqual(logo.width / logo.height, 6, accuracy: 0.1)
+                // Pixel bounds round the height to whole pixels; at the smallest
+                // size (~37 px tall) one pixel moves the ratio by ~0.17.
+                XCTAssertEqual(logo.width / logo.height, 6, accuracy: max(0.1, 6 / logo.height + 0.01))
                 if let previousLogo {
                     XCTAssertGreaterThan(logo.width, previousLogo.width, "Increasing Logo size must not shrink its artwork.")
                 }
