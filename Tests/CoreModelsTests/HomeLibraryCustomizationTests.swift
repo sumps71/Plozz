@@ -269,8 +269,10 @@ final class HomeLibraryVisibilityTests: XCTestCase {
     func testProviderDefaultsUsePerLibraryLatestAndSharedWatchRows() {
         var v = HomeLibraryVisibility.default
         for row in HomeGlobalRow.allCases {
-            XCTAssertEqual(v.isGlobalRowEnabled(row), row != .recentlyAdded)
+            // Opt-in rows (Upcoming Episodes) stay off until explicitly shown.
+            XCTAssertEqual(v.isGlobalRowEnabled(row), row != .recentlyAdded && !row.isOptIn, "\(row)")
         }
+        XCTAssertFalse(v.isGlobalRowEnabled(.upcomingEpisodes))
         v.setGlobalRowEnabled(false, for: .watchlist)
         XCTAssertFalse(v.isGlobalRowEnabled(.watchlist))
         XCTAssertTrue(v.isGlobalRowEnabled(.continueWatching), "other rows unaffected")
