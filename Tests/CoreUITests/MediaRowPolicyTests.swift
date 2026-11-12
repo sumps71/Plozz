@@ -19,6 +19,13 @@ final class MediaRowPolicyTests: XCTestCase {
         )
     }
 
+    func testLeadingSeeAllRestsOneSlotOutOfSight() {
+        // Scrolling by the card's slot plus the gap puts the first item exactly
+        // where it would sit with no leading card.
+        XCTAssertEqual(MediaRowLeadingBrowse.hiddenOffset(cardWidth: 300, spacing: 40), 340)
+        XCTAssertEqual(MediaRowLeadingBrowse.hiddenOffset(cardWidth: 0, spacing: -10), 0, "Never scrolls before the start")
+    }
+
     func testLeadingSeeAllIsReachedOnlyFromTheFirstItem() {
         XCTAssertFalse(
             MediaRowLeadingBrowse.acceptsFocus(firstItemFocused: false, cardFocused: false),

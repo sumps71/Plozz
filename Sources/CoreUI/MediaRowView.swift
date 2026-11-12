@@ -252,6 +252,7 @@ public struct MediaRowView: View {
     #if os(tvOS)
     @FocusState private var leadingItemFocused: Bool
     @State private var leadingBrowseFocused = false
+    @State private var railPosition = ScrollPosition(edge: .leading)
     #endif
     private let onItemExposed: ((MediaItem) -> Void)?
     private let isExposureActive: Bool
@@ -663,6 +664,23 @@ public struct MediaRowView: View {
                         .padding(.vertical, layoutMetrics.railShadowClearance)
                     }
                     .scrollClipDisabled()
+                    #if os(tvOS)
+                    .scrollPosition($railPosition)
+                    .onAppear { hideLeadingBrowseCard(animated: false) }
+                    .onChange(of: showsLeadingBrowseCard) { _, shows in
+                        if shows { hideLeadingBrowseCard(animated: false) }
+                    }
+                    .onChange(of: leadingBrowseHiddenOffset) { _, _ in
+                        // The poster slot width settles after the first layout.
+                        if !railPosition.isPositionedByUser { hideLeadingBrowseCard(animated: false) }
+                    }
+                    .onChange(of: leadingItemFocused) { _, focused in
+                        if focused { hideLeadingBrowseCard(animated: true) }
+                    }
+                    .onChange(of: leadingBrowseFocused) { _, focused in
+                        if !focused { hideLeadingBrowseCard(animated: true) }
+                    }
+                    #endif
                     .loadingMoreOnScroll(
                         onLoadMore,
                         trailingPlaceholderWidth: CGFloat(loadingPlaceholderCount)
@@ -1049,6 +1067,22 @@ public struct MediaRowView: View {
     }
 
     private var leadingItemID: String? { Self.uniqued(items).first?.stablePresentationID }
+
+    private var leadingBrowseHiddenOffset: CGFloat {
+        MediaRowLeadingBrowse.hiddenOffset(cardWidth: cardSlotWidth, spacing: layoutMetrics.cardSpacing)
+    }
+
+    /// Scrolls the leading "See all" card back out of sight, leaving the first
+    /// item under the row title. Skipped while the card itself has focus.
+    private func hideLeadingBrowseCard(animated: Bool) {
+        guard showsLeadingBrowseCard, !leadingBrowseFocused else { return }
+        let offset = leadingBrowseHiddenOffset
+        if animated {
+            withAnimation(.smooth(duration: 0.3)) { railPosition.scrollTo(x: offset) }
+        } else {
+            railPosition.scrollTo(x: offset)
+        }
+    }
 
     private func browseCard(action: @escaping () -> Void, isLeading: Bool) -> some View {
         MediaRowBrowseCard(
