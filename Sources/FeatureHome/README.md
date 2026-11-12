@@ -235,8 +235,10 @@ the launch snapshot, because a snapshot would show episodes that have since aire
 Cards use the Continue Watching card (`HomeRowKind.usesContinueWatchingCard`): the
 same size, the landscape or portrait layout chosen for Continue Watching, and the
 show's art with its logo centred, whatever the Continue Watching artwork setting.
-Their caption still follows the ordinary Home caption rule, so the countdown is not
-hidden beneath the logo. With
+Captions follow the Continue Watching rule: on these logo cards the caption below
+is hidden by default, and the `S2, E5 · <when it airs>` line is drawn on the
+artwork instead (`UpcomingEpisodeArtworkCaption`, where Continue Watching draws its
+resume chip). With
 `plozzCardShowsUpcomingEpisodeCaption`, `PosterCardView` shows the show name over
 `S2, E5 · <when it airs>` on TV and mobile, never the episode name. When it airs is a
 countdown under two weeks out — "Tomorrow", "In 2 days" … "In 6 days", then "Next
