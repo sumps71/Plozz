@@ -1,6 +1,31 @@
 import Foundation
 import Observation
 
+/// Where the Showcase hero places its background picture.
+public enum HeroArtworkPosition: String, Codable, CaseIterable, Sendable {
+    /// Two-thirds wide, pinned to the right, fading into the page on its left.
+    case right
+    /// Centred, fading into the page equally on both sides.
+    case centered
+
+    public var displayName: LocalizedStringResource {
+        switch self {
+        case .right:
+            return LocalizedStringResource(
+                "heroArtworkPosition.right",
+                defaultValue: "Right",
+                comment: "Showcase hero background picture placement option in Settings > Home > Row style."
+            )
+        case .centered:
+            return LocalizedStringResource(
+                "heroArtworkPosition.centered",
+                defaultValue: "Centered",
+                comment: "Showcase hero background picture placement option in Settings > Home > Row style. The picture sits in the middle and fades on both sides."
+            )
+        }
+    }
+}
+
 /// Per-profile configuration for the Home **hero** carousel (pure data model).
 ///
 /// Everything about the hero is data, not hardcoded: whether it shows, which
@@ -107,6 +132,9 @@ public struct HeroSettings: Codable, Equatable, Sendable {
     public var showcaseLogoSize: HeroLogoSize
     public var textSize: HeroTextSize
     public var showcaseTextSize: HeroTextSize
+    /// Where the Showcase hero places its background picture. Defaults to the
+    /// original right-hand placement.
+    public var showcaseArtworkPosition: HeroArtworkPosition
 
     /// Legacy migration input. CardCaptionSettings now owns visual card labels.
     public var showsCardCaptions: Bool
@@ -155,6 +183,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         showcaseLogoSize: HeroLogoSize = .default,
         textSize: HeroTextSize = .default,
         showcaseTextSize: HeroTextSize = .default,
+        showcaseArtworkPosition: HeroArtworkPosition = .right,
         showsCardCaptions: Bool = false,
         showsDiscoverRow: Bool = false,
         collections: [HeroCollectionSelection] = [],
@@ -183,6 +212,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         self.showcaseLogoSize = showcaseLogoSize
         self.textSize = textSize
         self.showcaseTextSize = showcaseTextSize
+        self.showcaseArtworkPosition = showcaseArtworkPosition
         self.showsCardCaptions = showsCardCaptions
         self.showsDiscoverRow = showsDiscoverRow
     }
@@ -197,6 +227,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         case style, showsCardCaptions, showsDiscoverRow
         case logoSize, showcaseLogoSize
         case textSize, showcaseTextSize
+        case showcaseArtworkPosition
         case offeredSourcesVersion
         case collections, collection
     }
@@ -240,6 +271,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
             showcaseLogoSize: value(HeroLogoSize.self, .showcaseLogoSize, d.showcaseLogoSize),
             textSize: value(HeroTextSize.self, .textSize, d.textSize),
             showcaseTextSize: value(HeroTextSize.self, .showcaseTextSize, d.showcaseTextSize),
+            showcaseArtworkPosition: value(HeroArtworkPosition.self, .showcaseArtworkPosition, d.showcaseArtworkPosition),
             showsCardCaptions: value(Bool.self, .showsCardCaptions, d.showsCardCaptions),
             showsDiscoverRow: value(Bool.self, .showsDiscoverRow, d.showsDiscoverRow),
             collections: c.contains(.collections)
@@ -311,6 +343,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         try c.encode(showcaseLogoSize, forKey: .showcaseLogoSize)
         try c.encode(textSize, forKey: .textSize)
         try c.encode(showcaseTextSize, forKey: .showcaseTextSize)
+        try c.encode(showcaseArtworkPosition, forKey: .showcaseArtworkPosition)
         try c.encode(showsCardCaptions, forKey: .showsCardCaptions)
         try c.encode(showsDiscoverRow, forKey: .showsDiscoverRow)
         try c.encode(Self.currentOfferedSourcesVersion, forKey: .offeredSourcesVersion)

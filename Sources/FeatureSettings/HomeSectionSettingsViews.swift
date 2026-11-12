@@ -681,6 +681,14 @@ struct HomeRowStyleSettingsView: View {
                             size: $hero.settings.showcaseLogoSize,
                             textSize: $hero.settings.showcaseTextSize, surface: .showcase
                         )
+                        SettingsStepper(
+                            options: HeroArtworkPosition.allCases,
+                            selection: $hero.settings.showcaseArtworkPosition,
+                            compact: true, label: "Artwork position",
+                            title: { $0.displayName }
+                        )
+                        .accessibilityIdentifier("showcase-artwork-position")
+                        .settingsSearchAnchor("showcase-artwork-position")
                     }
                     HeroRatingControls(isShowcase: true)
                     if hero.settings.style == .followsFocus {

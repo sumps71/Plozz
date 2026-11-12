@@ -141,7 +141,7 @@ final class SettingsSearchTests: XCTestCase {
 
     func testRowStyleSearchIsSeparateFromHeroAndOnlyAvailableOnTV() {
         let targets = [
-            "home-layout", "showcase-logo-size", "showcase-text-size", "showcase-ratings",
+            "home-layout", "showcase-logo-size", "showcase-text-size", "showcase-artwork-position", "showcase-ratings",
             "showcase-age", "showcase-rating-count", "showcase-discovery-row"
         ]
         let television = SettingsSearchCatalog.entries(on: .television)
