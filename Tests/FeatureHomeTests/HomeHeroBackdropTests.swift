@@ -10,6 +10,23 @@ import CoreUI
 
 @MainActor
 final class HomeHeroBackdropTests: XCTestCase {
+    func testScreenRelativeLayersIgnoreAnInsetSlot() {
+        // The Showcase stage hosts the backdrop from the content edge to the
+        // screen's right edge, e.g. 160...1920.
+        let inset = CGRect(x: 160, y: 0, width: 1760, height: 1080)
+        XCTAssertEqual(HomeHeroScreenPlacement.screenEdgeOffset(slot: inset), -160,
+                       "Artwork behind page starts at the screen's left edge")
+        XCTAssertEqual(
+            HomeHeroScreenPlacement.centringOffset(isCentred: true, slot: inset, screenWidth: 1920), -80,
+            "Centred art sits in the middle of the screen, not of the slot"
+        )
+        XCTAssertEqual(HomeHeroScreenPlacement.centringOffset(isCentred: false, slot: inset, screenWidth: 1920), 0)
+        let fullScreen = CGRect(x: 0, y: 0, width: 1920, height: 1080)
+        XCTAssertEqual(HomeHeroScreenPlacement.screenEdgeOffset(slot: fullScreen), 0, "Unchanged when not inset")
+        XCTAssertEqual(HomeHeroScreenPlacement.centringOffset(isCentred: true, slot: fullScreen, screenWidth: 1920), 0)
+        XCTAssertEqual(HomeHeroScreenPlacement.screenEdgeOffset(slot: .zero), 0, "Before the first measurement")
+    }
+
     func testCentredShowcaseArtworkFadesBothSidesIdentically() {
         let rightOnly = HomeHeroBrowseFade.stops(bothSides: false)
         XCTAssertEqual(rightOnly.first?.location, 0)
