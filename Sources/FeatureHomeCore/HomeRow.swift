@@ -10,6 +10,7 @@ public enum HomeRowKind: String, Hashable, Sendable, CaseIterable {
     case continueWatching
     case watchlist
     case recentlyAdded
+    case upcomingEpisodes
     case libraries
 
     /// The row's display heading.
@@ -32,6 +33,12 @@ public enum HomeRowKind: String, Hashable, Sendable, CaseIterable {
                 "homeRowKind.recentlyAdded",
                 defaultValue: "Recently Added",
                 comment: "Home screen row of the newest items on the server."
+            )
+        case .upcomingEpisodes:
+            return LocalizedStringResource(
+                "homeRowKind.upcomingEpisodes",
+                defaultValue: "Upcoming Episodes",
+                comment: "Home screen row of episodes that have not aired yet, from shows the user has started watching."
             )
         case .libraries:
             return LocalizedStringResource(
@@ -105,9 +112,11 @@ public struct HomeRow: Identifiable, Equatable, Sendable {
     public var id: HomeRowKind { kind }
     public var title: LocalizedStringResource { kind.title }
 
-    /// Continue Watching shows wide landscape stills (resume artwork); every other
-    /// media row shows portrait posters.
-    public var style: HomeRowStyle { kind == .continueWatching ? .landscape : .poster }
+    /// Continue Watching and Upcoming Episodes show wide landscape episode stills;
+    /// every other media row shows portrait posters.
+    public var style: HomeRowStyle {
+        kind == .continueWatching || kind == .upcomingEpisodes ? .landscape : .poster
+    }
 
     public func playsOnSelect(continueWatchingAction: ContinueWatchingAction) -> Bool {
         kind == .continueWatching && continueWatchingAction == .play
@@ -219,6 +228,15 @@ public extension HomeRow {
             } == true
             if !latest.isEmpty || hasCandidates || isPending(.recentlyAdded) {
                 rows.append(makeRow(.recentlyAdded, items: latest))
+            }
+        }
+        // Not library-filtered, like Continue Watching: these episodes follow the
+        // user's own viewing history, and the server already scopes them to the
+        // libraries and ratings this server user may see.
+        if isGlobalRowEnabled(.upcomingEpisodes) {
+            let upcoming = content.upcomingEpisodes
+            if !upcoming.isEmpty || isPending(.upcomingEpisodes) {
+                rows.append(makeRow(.upcomingEpisodes, items: upcoming))
             }
         }
 

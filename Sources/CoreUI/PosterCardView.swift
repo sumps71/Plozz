@@ -835,8 +835,13 @@ public struct PosterCardView: View {
     /// The runtime/"… left" is dropped when the resume chip is shown, since the
     /// chip already carries the time on the artwork (no need to repeat it here).
     private var subtitleText: String? {  // l10n:content — provider subtitle and preformatted runtime
-        item.posterCaptionSubtitle(showsRuntime: !showsResumeChip)
+        if showsUpcomingEpisodeCaption, item.kind == .episode {
+            return item.upcomingEpisodeCaption(hidesTitle: spoilerSettings.shouldHideText(for: item))
+        }
+        return item.posterCaptionSubtitle(showsRuntime: !showsResumeChip)
     }
+
+    @Environment(\.plozzCardShowsUpcomingEpisodeCaption) private var showsUpcomingEpisodeCaption
 
     // MARK: Resume chip
 

@@ -69,7 +69,8 @@ public struct HomeRowChoice: Identifiable, Equatable, Sendable {
     public static var shared: [Self] {
         HomeGlobalRow.allCases.map {
             Self(id: .global($0), title: $0.rawValue, localizedTitle: $0.title,
-                 isProviderDefault: $0 != .recentlyAdded)
+                 isProviderDefault: $0 != .recentlyAdded && !$0.isOptIn,
+                 isLegacyDefault: !$0.isOptIn)
         } + [
             Self(id: .libraries, title: "Libraries", localizedTitle: "Libraries",
                  isProviderDefault: true),
@@ -178,6 +179,8 @@ public struct HomeRowCustomization: Codable, Equatable, Sendable {
     public func isVisible(_ id: HomeRowID, providerDefault: Bool) -> Bool {
         if hidden.contains(id) { return false }
         if shown.contains(id) { return true }
+        // No preset (including Combined and Match server) turns an opt-in row on.
+        if case let .global(row) = id, row.isOptIn { return false }
         switch defaults {
         case .matchServer:
             guard let resolvedDefaults else { return providerDefault }

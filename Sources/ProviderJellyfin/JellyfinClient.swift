@@ -514,6 +514,98 @@ public struct JellyfinClient: Sendable {
         }
     }
 
+    /// `GET /Shows/Upcoming` drained page by page — every episode the server
+    /// dates from yesterday (UTC) onward, in `PremiereDate, SortName` order.
+    ///
+    /// Verified against Jellyfin's `TvShowsController.GetUpcomingEpisodes`:
+    /// - The floor is `DateTime.UtcNow.Date.AddDays(-1)`, so recently aired
+    ///   episodes come back too; callers must apply their own "future" rule.
+    /// - `TotalRecordCount` is the size of the returned page, not the total, so
+    ///   it cannot end pagination. Paging stops on a short or empty page.
+    /// - There is no played or series filter; the user's library access,
+    ///   parental rating and tag restrictions are applied server-side.
+    ///
+    /// The episodes themselves exist only when a metadata plugin (e.g. TheTVDB's
+    /// missing-episode provider) has created virtual entries for them.
+    ///
+    /// A repeated item (the list shifted between pages) is skipped. A full page
+    /// that adds nothing new — a server ignoring `StartIndex` — fails closed, as
+    /// does exceeding ``upcomingEpisodesMaximumPages``, rather than presenting a
+    /// silently truncated "all upcoming episodes" row.
+    func upcomingEpisodes(userID: String) async throws -> [BaseItemDto] {
+        let pageSize = Self.upcomingEpisodesPageSize
+        var collected: [BaseItemDto] = []
+        var seenIDs: Set<String> = []
+        var startIndex = 0
+        for _ in 0..<Self.upcomingEpisodesMaximumPages {
+            try Task.checkCancellation()
+            let page = try await upcomingEpisodesPage(
+                userID: userID, startIndex: startIndex, limit: pageSize
+            ).Items
+            guard page.count <= pageSize else { throw AppError.invalidResponse }
+            var added = 0
+            for item in page where !item.Id.isEmpty && seenIDs.insert(item.Id).inserted {
+                collected.append(item)
+                added += 1
+            }
+            if page.count < pageSize { return collected }
+            guard added > 0 else { throw AppError.invalidResponse }
+            startIndex += page.count
+        }
+        throw AppError.invalidResponse
+    }
+
+    static let upcomingEpisodesPageSize = 100
+    /// 10,000 episodes: far beyond any real schedule, small enough that a
+    /// misbehaving server cannot keep Home paging indefinitely.
+    static let upcomingEpisodesMaximumPages = 100
+
+    private func upcomingEpisodesPage(
+        userID: String, startIndex: Int, limit: Int
+    ) async throws -> ItemsResponse {
+        let endpoint = Endpoint(
+            path: "/Shows/Upcoming",
+            queryItems: [
+                URLQueryItem(name: "UserId", value: userID),
+                URLQueryItem(name: "StartIndex", value: String(startIndex)),
+                URLQueryItem(name: "Limit", value: String(limit)),
+                URLQueryItem(name: "Fields", value: "Overview,PrimaryImageAspectRatio,ProviderIds"),
+                URLQueryItem(name: "EnableUserData", value: "true")
+            ],
+            headers: authHeaders
+        )
+        return try await http.decode(ItemsResponse.self, from: endpoint, baseURL: baseURL)
+    }
+
+    /// Whether the user has fully played at least one episode of `seriesID`.
+    ///
+    /// Series-level `UserData` is not used: Jellyfin reports container progress
+    /// through `UnplayedItemCount` (whose basis varies by server version and
+    /// virtual-episode settings) and leaves `PlayedPercentage` unset. Asking for
+    /// one played episode under the series is exact on every version. The
+    /// returned row's own `Played` flag is checked too, so a server that ignored
+    /// the filter cannot turn an unwatched show into a watched one.
+    func seriesHasPlayedEpisode(userID: String, seriesID: String) async throws -> Bool {
+        let endpoint = Endpoint(
+            path: "/Users/\(userID)/Items",
+            queryItems: [
+                URLQueryItem(name: "ParentId", value: seriesID),
+                URLQueryItem(name: "IncludeItemTypes", value: "Episode"),
+                URLQueryItem(name: "Recursive", value: "true"),
+                URLQueryItem(name: "Filters", value: "IsPlayed"),
+                URLQueryItem(name: "Limit", value: "1"),
+                URLQueryItem(name: "EnableImages", value: "false"),
+                URLQueryItem(name: "EnableUserData", value: "true"),
+                URLQueryItem(name: "EnableTotalRecordCount", value: "false")
+            ],
+            headers: authHeaders
+        )
+        let items = try await http.decode(ItemsResponse.self, from: endpoint, baseURL: baseURL).Items
+        return items.contains {
+            $0.Type == "Episode" && $0.SeriesId == seriesID && $0.UserData?.Played == true
+        }
+    }
+
     /// Lightweight metadata for exact series IDs, in bounded batches. Home needs
     /// only external IDs; Continue Watching also needs UserData to stamp next-up
     /// recency. Neither lookup needs artwork or playback metadata.

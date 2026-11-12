@@ -18,6 +18,10 @@ private struct PlozzCardCaptionShowcaseKey: EnvironmentKey {
     static let defaultValue = false
 }
 
+private struct PlozzCardShowsUpcomingEpisodeCaptionKey: EnvironmentKey {
+    static let defaultValue = false
+}
+
 public extension EnvironmentValues {
     var plozzCardCaptionSettings: CardCaptionSettings {
         get { self[PlozzCardCaptionSettingsKey.self] }
@@ -31,6 +35,14 @@ public extension EnvironmentValues {
             self[PlozzCardCaptionsHiddenKey.self] = nil
             self[PlozzCardCaptionShowcaseKey.self] = false
         }
+    }
+
+    /// Cards in the Home "Upcoming Episodes" row replace their secondary line with
+    /// numbering, release date and (spoiler-filtered) episode title — see
+    /// `MediaItem.upcomingEpisodeCaption(hidesTitle:)`. Off everywhere else.
+    var plozzCardShowsUpcomingEpisodeCaption: Bool {
+        get { self[PlozzCardShowsUpcomingEpisodeCaptionKey.self] }
+        set { self[PlozzCardShowsUpcomingEpisodeCaptionKey.self] = newValue }
     }
 
     var plozzCardCaptionIsShowcase: Bool {

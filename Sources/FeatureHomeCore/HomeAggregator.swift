@@ -22,6 +22,10 @@ public struct HomeAggregator: Sendable {
         /// account (Jellyfin Favorites today). Empty when nothing is saved or no
         /// active account supports a watchlist — the UI then hides the row.
         public var watchlist: [MediaItem]
+        /// Future episodes merged across every ``UpcomingEpisodesProviding``
+        /// account, ordered by ``UpcomingEpisodesPolicy``. Empty when the row is
+        /// off, nothing is upcoming, or no active account supports it.
+        public var upcomingEpisodes: [MediaItem]
         /// Every discovered library (unfiltered); callers apply Home-visibility.
         public var libraries: [AggregatedLibrary]
 
@@ -29,12 +33,14 @@ public struct HomeAggregator: Sendable {
             continueWatching: [MediaItem] = [],
             latest: [MediaItem] = [],
             watchlist: [MediaItem] = [],
+            upcomingEpisodes: [MediaItem] = [],
             libraries: [AggregatedLibrary] = [],
             recentlyAddedCandidates: [MediaItem]? = nil
         ) {
             self.continueWatching = continueWatching
             self.latest = latest
             self.watchlist = watchlist
+            self.upcomingEpisodes = upcomingEpisodes
             self.libraries = libraries
             self.recentlyAddedCandidates = recentlyAddedCandidates
         }
@@ -76,7 +82,8 @@ public struct HomeAggregator: Sendable {
         )
         return Content(
             continueWatching: result.continueWatching, latest: result.latest,
-            watchlist: result.watchlist, libraries: result.libraries,
+            watchlist: result.watchlist, upcomingEpisodes: result.upcomingEpisodes,
+            libraries: result.libraries,
             recentlyAddedCandidates: result.recentlyAddedCandidates
         )
     }
@@ -197,6 +204,8 @@ public struct HomeAggregator: Sendable {
         public var recentlyAddedCandidates: [MediaItem]?
         /// Global, cross-server merged Watchlist.
         public var watchlist: [MediaItem]
+        /// Global, cross-server Upcoming Episodes (see ``Content/upcomingEpisodes``).
+        public var upcomingEpisodes: [MediaItem]
         /// Full (Home-eligible, music-excluded) library inventory — feeds the
         /// Libraries tiles so the user can browse into any library's grid.
         public var libraries: [AggregatedLibrary]
@@ -210,6 +219,7 @@ public struct HomeAggregator: Sendable {
             continueWatching: [MediaItem] = [],
             latest: [MediaItem] = [],
             watchlist: [MediaItem] = [],
+            upcomingEpisodes: [MediaItem] = [],
             libraries: [AggregatedLibrary] = [],
             librarySections: [HomeLibrarySectionGroup] = [],
             serverRows: [HomeServerRow] = [],
@@ -219,6 +229,7 @@ public struct HomeAggregator: Sendable {
             self.continueWatching = continueWatching
             self.latest = latest
             self.watchlist = watchlist
+            self.upcomingEpisodes = upcomingEpisodes
             self.libraries = libraries
             self.librarySections = librarySections
             self.serverRows = serverRows
@@ -227,7 +238,7 @@ public struct HomeAggregator: Sendable {
         }
 
         public var isEmpty: Bool {
-            continueWatching.isEmpty && latest.isEmpty && watchlist.isEmpty
+            continueWatching.isEmpty && latest.isEmpty && watchlist.isEmpty && upcomingEpisodes.isEmpty
                 && libraries.isEmpty && librarySections.isEmpty && serverRows.isEmpty && collectionRows.isEmpty
         }
     }
@@ -274,6 +285,7 @@ public struct HomeAggregator: Sendable {
         var latest: [MediaItem] = []
         var recentlyAddedCandidates: [MediaItem]?
         var watchlist: [MediaItem] = []
+        var upcomingEpisodes: [MediaItem] = []
         var libraries: [AggregatedLibrary] = []
         var completed: Set<HomeRowKind> = []
         var failures: [HomeRowKind: AppError] = [:]
@@ -358,15 +370,26 @@ public struct HomeAggregator: Sendable {
     }
 
     private enum Feed: CaseIterable, Sendable {
-        case continueWatching, latest, watchlist
+        case continueWatching, latest, watchlist, upcomingEpisodes
 
         var row: HomeRowKind {
             switch self {
             case .continueWatching: .continueWatching
             case .latest: .recentlyAdded
             case .watchlist: .watchlist
+            case .upcomingEpisodes: .upcomingEpisodes
             }
         }
+    }
+
+    /// Upcoming Episodes is opt-in and Jellyfin-only, so it is requested only from
+    /// accounts whose provider supports it, and only while the row is shown.
+    /// Accounts that skip it count as complete so the row never waits on them.
+    private static func requestsUpcomingEpisodes(
+        _ resolved: ResolvedAccount, visibility: HomeLibraryVisibility
+    ) -> Bool {
+        visibility.isGlobalRowEnabled(.upcomingEpisodes)
+            && resolved.provider is any UpcomingEpisodesProviding
     }
 
     private enum RequestLane: Hashable, Sendable {
@@ -478,11 +501,17 @@ public struct HomeAggregator: Sendable {
                 var requests = accounts.indices.map(Request.libraries)
                 for index in accounts.indices {
                     for feed in Feed.allCases where feed != .latest || !scopedDiscoveryAccounts.contains(index) {
+                        if feed == .upcomingEpisodes,
+                           !requestsUpcomingEpisodes(accounts[index], visibility: visibility) { continue }
                         requests.append(.feed(index, feed, libraryIDs: nil))
                     }
                 }
                 var running: [RequestLane: Int] = [:]
                 var perAccount = accounts.map { _ in AccountContent() }
+                for index in accounts.indices
+                where !requestsUpcomingEpisodes(accounts[index], visibility: visibility) {
+                    perAccount[index].completed.insert(.upcomingEpisodes)
+                }
                 var perLibrary: [String: LibraryContent] = [:]
                 let definitions = HomeServerRow.plannedDefinitions(accounts: accounts, visibility: visibility)
                 var serverRows: [HomeRowID: HomeServerRow] = [:]
@@ -592,6 +621,7 @@ public struct HomeAggregator: Sendable {
                                 perAccount[index].latest = payload.items
                                 perAccount[index].recentlyAddedCandidates = payload.recentlyAddedCandidates
                             case .watchlist: perAccount[index].watchlist = payload.items
+                            case .upcomingEpisodes: perAccount[index].upcomingEpisodes = payload.items
                             }
                         case let .failure(error):
                             perAccount[index].failures[feed.row] = error
@@ -635,7 +665,7 @@ public struct HomeAggregator: Sendable {
                     content.libraries = perAccount.flatMap(\.libraries).filter { !$0.library.isMusic }
                     for row in HomeRowKind.allCases where !publishedRows.contains(row) {
                         guard perAccount.allSatisfy({ $0.completed.contains(row) }),
-                            row == .watchlist || librariesComplete
+                            row == .watchlist || row == .upcomingEpisodes || librariesComplete
                         else { continue }
                         publishedRows.insert(row)
                         failures[row] = perAccount.compactMap { $0.failures[row] }.first
@@ -650,6 +680,7 @@ public struct HomeAggregator: Sendable {
                             case .recentlyAdded:
                                 return account.latest.filter { $0.libraryID.map { !music.contains($0) } ?? true }
                             case .watchlist: return account.watchlist
+                            case .upcomingEpisodes: return account.upcomingEpisodes
                             case .libraries: return []
                             }
                         }
@@ -688,6 +719,18 @@ public struct HomeAggregator: Sendable {
                             content.watchlist = mergedRow(
                                 from: groups, limit: watchlistLimit,
                                 serverInfo: { serverInfo[$0] }, identitySources: identitySources
+                            )
+                        case .upcomingEpisodes:
+                            // No limit: the row lists every known future episode.
+                            // The merge collapses one episode on two servers into a
+                            // single card; the policy then restores air-date order,
+                            // which round-robin interleaving does not preserve.
+                            content.upcomingEpisodes = UpcomingEpisodesPolicy.curated(
+                                mergedRow(
+                                    from: groups, limit: .max,
+                                    serverInfo: { serverInfo[$0] }, identitySources: identitySources
+                                ),
+                                now: Date()
                             )
                         case .libraries: break
                         }
@@ -801,6 +844,9 @@ public struct HomeAggregator: Sendable {
                             ? try await provider.recentlyAddedWatchState(latest) : latest
                     case .watchlist:
                         items = try await (provider as? any WatchlistProviding)?.watchlist() ?? []
+                    case .upcomingEpisodes:
+                        items = try await (provider as? any UpcomingEpisodesProviding)?
+                            .upcomingEpisodes(now: Date()) ?? []
                     }
                     try Task.checkCancellation()
                     let identities = feed == .watchlist

@@ -205,7 +205,7 @@ struct HomeSkeletonRowView: View {
     private func cardStyle(for kind: HomeRowKind) -> SkeletonCardView.Style {
         switch kind {
         case .continueWatching: return continueWatchingLayout == .portrait ? .poster : .landscape
-        case .libraries: return .landscape
+        case .libraries, .upcomingEpisodes: return .landscape
         case .watchlist, .recentlyAdded: return .poster
         }
     }

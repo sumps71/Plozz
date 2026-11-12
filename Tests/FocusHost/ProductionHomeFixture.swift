@@ -1264,14 +1264,14 @@ private final class ProductionHomeState {
         let libraryRows = ProcessInfo.processInfo.arguments.contains("--progressive-library-rows")
         if libraryRows { visibility.useRowDefaults(.legacy) }
         visibility.setMergeLibrariesOnHome(!libraryRows)
-        for row in HomeGlobalRow.allCases {
+        for row in HomeGlobalRow.allCases where !row.isOptIn {
             visibility.setGlobalRowEnabled(!libraryRows || row == .continueWatching, for: row)
         }
         if ProcessInfo.processInfo.arguments.contains("--home-browse-fixture") {
             visibility.useRowDefaults(.combined)
             let selected: HomeGlobalRow = ProcessInfo.processInfo.arguments.contains("--home-browse-watchlist")
                 ? .watchlist : .recentlyAdded
-            for row in HomeGlobalRow.allCases {
+            for row in HomeGlobalRow.allCases where !row.isOptIn {
                 visibility.setGlobalRowEnabled(row == selected, for: row)
             }
         }

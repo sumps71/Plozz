@@ -3073,6 +3073,59 @@ extension JellyfinProvider: WatchlistProviding {
     }
 }
 
+// MARK: - Upcoming Episodes
+
+extension JellyfinProvider: UpcomingEpisodesProviding {
+    /// Future episodes of series this server user has played at least one
+    /// episode of, from `/Shows/Upcoming` (see
+    /// ``JellyfinClient/upcomingEpisodes(userID:)`` for the verified server
+    /// behaviour this relies on).
+    ///
+    /// Jellyfin only. Emby shares this conformer but its `/Shows/Upcoming` has not
+    /// been verified, so an Emby account returns nothing and sends no request.
+    ///
+    /// Every request is made as this provider's own `session.userID`, so another
+    /// server user's history (or another Plozz profile's account) never decides
+    /// what appears. A failed played-state lookup fails the whole row instead of
+    /// quietly dropping or admitting series.
+    public func upcomingEpisodes(now: Date) async throws -> [MediaItem] {
+        guard kind == .jellyfin else { return [] }
+        let userID = session.userID
+        let dtos = try await client.upcomingEpisodes(userID: userID)
+        // Filter to future, dated, unique episodes first, so played-state is only
+        // checked for series that will actually appear.
+        let candidates = UpcomingEpisodesPolicy.curated(
+            dtos.filter { $0.Type == "Episode" }.map(map(item:)),
+            now: now
+        )
+        let seriesIDs = Array(Set(candidates.compactMap(\.seriesID).filter { !$0.isEmpty })).sorted()
+        let watched = try await seriesWithPlayedEpisode(seriesIDs, userID: userID)
+        return candidates.filter { $0.seriesID.map(watched.contains) ?? false }
+    }
+
+    /// Bounded concurrency (four at a time, like Continue Watching's per-series
+    /// recency lookups) so a long schedule can't flood the server.
+    private func seriesWithPlayedEpisode(_ seriesIDs: [String], userID: String) async throws -> Set<String> {
+        var watched: Set<String> = []
+        let client = client
+        for start in stride(from: 0, to: seriesIDs.count, by: 4) {
+            try Task.checkCancellation()
+            let batch = seriesIDs[start..<min(start + 4, seriesIDs.count)]
+            try await withThrowingTaskGroup(of: (String, Bool).self) { group in
+                for seriesID in batch {
+                    group.addTask {
+                        (seriesID, try await client.seriesHasPlayedEpisode(userID: userID, seriesID: seriesID))
+                    }
+                }
+                for try await (seriesID, hasPlayed) in group where hasPlayed {
+                    watched.insert(seriesID)
+                }
+            }
+        }
+        return watched
+    }
+}
+
 // MARK: - Metadata refresh
 
 extension JellyfinProvider: MetadataRefreshing {
