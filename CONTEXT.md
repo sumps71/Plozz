@@ -15,6 +15,11 @@ A horizontal group of cards, such as Continue Watching, Recently Added, or a
 collection. Home's movable content is presented as rows; Hero and Showcase belong
 to the page layout.
 
+**Upcoming Episodes**:
+An opt-in Home row of not-yet-aired episodes from series the profile's server
+user has played at least one episode of, earliest air date first. Supplied by
+Jellyfin only.
+
 **Collection**:
 A named group of titles supplied by a media source. A Home section can use a
 collection without changing the collection itself.

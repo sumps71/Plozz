@@ -209,6 +209,22 @@ series-resume callers receive the failure instead. Support details identify
 Resume and Next Up separately; bounded recent activity records only scope,
 endpoint counts and the number of successful feeds, without media or account IDs.
 
+Upcoming Episodes (`UpcomingEpisodesProviding`, Jellyfin only) reads
+`/Shows/Upcoming` as the session's own `UserId`. Behaviour verified against
+`TvShowsController.GetUpcomingEpisodes`: it returns episodes dated from
+yesterday (UTC) onward in `PremiereDate, SortName` order, applies the user's
+library access, parental rating and tag restrictions, and reports the **page**
+size as `TotalRecordCount`. Plozz therefore pages until a short or empty page
+(skipping an item repeated across pages, failing closed on a page that adds
+nothing or after 100 pages), drops undated and not-yet-future episodes, and
+asks `/Users/{id}/Items?ParentId={series}&Filters=IsPlayed&Limit=1` once per
+remaining series to require a played episode (the returned row's `Played` must
+be true). Any failure fails the row rather than quietly admitting or hiding
+series. Future episodes exist only when a metadata plugin (for example
+TheTVDB's missing-episode provider) has created virtual entries; without one
+the row is empty. Emby shares this conformer but its endpoint is unverified,
+so it returns nothing and sends no request.
+
 Series-specific resume lookups allow resumable `/Shows/NextUp` candidates.
 Compatible bridges can return an empty series-scoped `/Items/Resume` even when
 their account-wide feed contains the saved episode. The existing two scoped

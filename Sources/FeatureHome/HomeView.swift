@@ -1451,6 +1451,16 @@ public struct HomeView: View {
                 onSelect: onSelectItem
             )
             .browsingRow(row.items.isEmpty ? nil : onBrowse)
+        case .upcomingEpisodes:
+            // Selecting opens the episode's ordinary detail page; unaired
+            // episodes have no playable source, so the row never plays directly.
+            MediaRowView(
+                title: row.displayName, items: row.items, style: posterStyle(row.style),
+                spoilerSettings: spoilerSettings, loadingPlaceholderCount: row.loadingPlaceholderCount,
+                reservesLoadingFocus: reservesLoadingFocus,
+                onSelect: onSelectItem
+            )
+            .environment(\.plozzCardShowsUpcomingEpisodeCaption, true)
         case .libraries:
             if row.loadingPlaceholderCount > 0 {
                 HomeSkeletonRowView(row: HomeRowLayout(kind: .libraries, count: row.loadingPlaceholderCount))
@@ -1800,6 +1810,20 @@ public struct HomeView: View {
                         onSelect: onSelectItem
                     )
                     .browsingRow(row.items.isEmpty ? nil : onBrowse)
+                case .upcomingEpisodes:
+                    MediaRowView(
+                        title: row.displayName,
+                        items: row.items,
+                        style: posterStyle(row.style),
+                        spoilerSettings: spoilerSettings,
+                        onFocusEntered: reporter.entered,
+                        onFocusChange: onFocusChange,
+                        onCardFocused: reporter.cardFocused,
+                        loadingPlaceholderCount: row.loadingPlaceholderCount,
+                        reservesLoadingFocus: reservesLoadingFocus,
+                        onSelect: onSelectItem
+                    )
+                    .environment(\.plozzCardShowsUpcomingEpisodeCaption, true)
                 case .libraries:
                     if row.loadingPlaceholderCount > 0 {
                         HomeSkeletonRowView(row: HomeRowLayout(kind: .libraries, count: row.loadingPlaceholderCount))

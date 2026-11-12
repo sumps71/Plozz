@@ -214,7 +214,12 @@ public struct HomeLibraryVisibility: Codable, Equatable, Sendable {
 
     /// Whether a global Home row is shown (default on).
     public func isGlobalRowEnabled(_ row: HomeGlobalRow) -> Bool {
-        rowCustomization?.isVisible(
+        // Opt-in rows are shown only by an explicit choice in the row arranger,
+        // which always records it on `rowCustomization`.
+        if row.isOptIn {
+            return rowCustomization?.isVisible(.global(row), providerDefault: false) ?? false
+        }
+        return rowCustomization?.isVisible(
             .global(row), providerDefault: rowCustomization?.defaults == .legacy
                 ? !disabledGlobalHomeRows.contains(row.rawValue) : row != .recentlyAdded
         )
@@ -504,6 +509,13 @@ public enum HomeGlobalRow: String, CaseIterable, Codable, Sendable {
     case continueWatching
     case watchlist
     case recentlyAdded
+    /// Future episodes of series the server user has started. Jellyfin only.
+    case upcomingEpisodes
+
+    /// Rows that stay off until the profile explicitly turns them on, in every
+    /// row preset. Added after the original rows so existing Home layouts are
+    /// unchanged by an update.
+    public var isOptIn: Bool { self == .upcomingEpisodes }
 
     /// The row's display heading (matches ``HomeRowKind`` titles).
     public var title: LocalizedStringResource {
@@ -525,6 +537,12 @@ public enum HomeGlobalRow: String, CaseIterable, Codable, Sendable {
                 "homeRow.recentlyAdded",
                 defaultValue: "Recently Added",
                 comment: "Home screen row name, e.g. in Settings > Customize Home."
+            )
+        case .upcomingEpisodes:
+            return LocalizedStringResource(
+                "homeRow.upcomingEpisodes",
+                defaultValue: "Upcoming Episodes",
+                comment: "Home screen row name, e.g. in Settings > Customize Home. Lists episodes that have not aired yet."
             )
         }
     }

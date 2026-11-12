@@ -2908,6 +2908,7 @@ struct PlozziOSHomeRowView: View {
                         viewModel.noteHomeNavigationInteraction
                 )
                 .environment(\.plozzArtworkArea, row.kind == .continueWatching ? .continueWatching : .homeRows)
+                .environment(\.plozzCardShowsUpcomingEpisodeCaption, row.kind == .upcomingEpisodes)
             }
         }
     }

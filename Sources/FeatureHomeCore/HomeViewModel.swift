@@ -170,6 +170,9 @@ public final class HomeViewModel {
         public var recentlyAddedCandidates: [MediaItem]?
         /// The unified Watchlist row, merged across `WatchlistProviding` accounts.
         public var watchlist: [MediaItem]
+        /// Future episodes of started series, merged across
+        /// `UpcomingEpisodesProviding` accounts in air-date order.
+        public var upcomingEpisodes: [MediaItem] = []
         /// Every discovered library (unfiltered), tagged with its owning account.
         public var libraries: [AggregatedLibrary]
         /// Whether Home is in merged mode. `true` (default) uses the classic
@@ -193,8 +196,10 @@ public final class HomeViewModel {
             librarySections: [HomeLibrarySectionGroup] = [],
             serverRows: [HomeServerRow] = [],
             collectionRows: [HomeCollectionRow] = [],
-            recentlyAddedCandidates: [MediaItem]? = nil
+            recentlyAddedCandidates: [MediaItem]? = nil,
+            upcomingEpisodes: [MediaItem] = []
         ) {
+            self.upcomingEpisodes = upcomingEpisodes
             self.continueWatching = continueWatching.filter(ContinueWatchingPolicy.admits)
             self.latest = latest
             self.watchlist = watchlist
@@ -212,12 +217,14 @@ public final class HomeViewModel {
         // agnostic section model for little gain, and the silent refresh repopulates
         // them within the first appearance. The instant paint still shows the global
         // rows, the Libraries tiles, and the correct merged/unmerged layout.
+        // `upcomingEpisodes` is not persisted either: a snapshot would show episodes
+        // that have since aired, so the row loads fresh each launch.
         private enum CodingKeys: String, CodingKey {
             case continueWatching, latest, watchlist, libraries, mergeLibraries, recentlyAddedCandidates
         }
 
         public var isEmpty: Bool {
-            continueWatching.isEmpty && latest.isEmpty && watchlist.isEmpty
+            continueWatching.isEmpty && latest.isEmpty && watchlist.isEmpty && upcomingEpisodes.isEmpty
                 && libraries.isEmpty && librarySections.isEmpty && serverRows.isEmpty && collectionRows.isEmpty
                 && sectionIssues.isEmpty
         }
@@ -257,7 +264,8 @@ public final class HomeViewModel {
                 },
                 recentlyAddedCandidates: recentlyAddedCandidates.map {
                     Array($0.prefix(HomeRecentlyAddedPolicy.candidateLimit))
-                }
+                },
+                upcomingEpisodes: upcomingEpisodes
             )
         }
 
@@ -302,7 +310,8 @@ public final class HomeViewModel {
                     row.items = row.items.map { $0.sanitizingArtworkCredentials() }
                     return row
                 },
-                recentlyAddedCandidates: recentlyAddedCandidates?.map { $0.sanitizingArtworkCredentials() }
+                recentlyAddedCandidates: recentlyAddedCandidates?.map { $0.sanitizingArtworkCredentials() },
+                upcomingEpisodes: upcomingEpisodes.map { $0.sanitizingArtworkCredentials() }
             )
         }
     }
@@ -636,7 +645,7 @@ public final class HomeViewModel {
                 self.state = .loaded(cached)
                 self.isShowingCachedSnapshot = true
                 if !accounts.isEmpty {
-                    self.loadingRows = [.continueWatching, .recentlyAdded, .watchlist]
+                    self.loadingRows = [.continueWatching, .recentlyAdded, .watchlist, .upcomingEpisodes]
                 }
             }
         }
@@ -995,7 +1004,8 @@ public final class HomeViewModel {
                 latest: merged.latest,
                 watchlist: durableWatchlist,
                 libraries: merged.libraries,
-                recentlyAddedCandidates: merged.recentlyAddedCandidates
+                recentlyAddedCandidates: merged.recentlyAddedCandidates,
+                upcomingEpisodes: merged.upcomingEpisodes
             )
         } else {
             // Unmerged: global Continue Watching + Watchlist stay at the top, the
@@ -1052,7 +1062,8 @@ public final class HomeViewModel {
                 librarySections: unmerged.librarySections,
                 serverRows: unmerged.serverRows,
                 collectionRows: unmerged.collectionRows,
-                recentlyAddedCandidates: unmerged.recentlyAddedCandidates
+                recentlyAddedCandidates: unmerged.recentlyAddedCandidates,
+                upcomingEpisodes: unmerged.upcomingEpisodes
             )
         }
         // A SILENT background refresh that came back empty must not blank out good
@@ -1260,6 +1271,7 @@ public final class HomeViewModel {
             content.recentlyAddedCandidates = progress.content.recentlyAddedCandidates
         }
         if newlyReady.contains(.libraries) { content.libraries = progress.content.libraries }
+        if newlyReady.contains(.upcomingEpisodes) { content.upcomingEpisodes = progress.content.upcomingEpisodes }
         if newlyReady.contains(.watchlist) {
             let resolved = Self.resolvedWatchlist(
                 candidates: content.continueWatching + content.latest + progress.content.watchlist,
@@ -1341,6 +1353,7 @@ public final class HomeViewModel {
                         && (!visibility.hideWatchedRecentlyAdded || !HomeRecentlyAddedPolicy.isWatched($0))
                 }
             case .watchlist: return !content.watchlist.isEmpty
+            case .upcomingEpisodes: return !content.upcomingEpisodes.isEmpty
             case .libraries: return content.libraries.contains(where: visibility.isVisibleOnHome)
             }
         }

@@ -214,6 +214,30 @@ asynchronous work. Watchlist reuses Home's full retained data in its existing ta
 the preview does not reinterpret its account-wide membership. Browse controls
 are destination-local and do not change the Home row's settings or order.
 
+## Upcoming Episodes
+
+**Upcoming Episodes** is an opt-in global Home row (`HomeGlobalRow.upcomingEpisodes`,
+`HomeRowKind.upcomingEpisodes`). It stays off in every row preset — Match server,
+Combined and the previous layout included — until the profile turns it on in the
+row arranger, and the arranger offers it only when a Jellyfin library is present.
+While it is off no account is asked for it.
+
+`HomeAggregator` requests it only from accounts whose provider conforms to
+`UpcomingEpisodesProviding` (Jellyfin today), so each profile sees only its own
+accounts and each account answers as its own server user. Results merge across
+servers, then `UpcomingEpisodesPolicy` keeps dated episodes whose calendar day is
+after the viewer's local today, removes duplicates, and orders by air date, show,
+season and episode. There is no item limit and no See All page: the row holds
+every known future episode. A failing account keeps the others' cards and reports
+the row failure through the usual Home row failure path. The row is not part of
+the launch snapshot, because a snapshot would show episodes that have since aired.
+
+Cards are landscape episode stills, falling back to the series backdrop. With
+`plozzCardShowsUpcomingEpisodeCaption`, `PosterCardView` shows the show name over
+`S2, E5 · <release date> · <episode title>` on TV and mobile. The title follows the
+profile's spoiler settings. Selecting a card opens the episode's ordinary detail
+page; unaired (virtual) episodes have no playable source.
+
 ## Recently Added watched filtering
 
 Screens & Navigation > Home > Filtering offers **Recently Added** under

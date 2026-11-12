@@ -10,7 +10,13 @@ public struct HomeSectionCatalog: Equatable, Sendable {
         serverRows: [HomeServerRowDefinition] = [],
         recommendations: [String: [LibrarySection]] = [:]
     ) {
-        let shared = HomeRowChoice.shared
+        // Upcoming Episodes is backed only by Jellyfin's `/Shows/Upcoming`; offering
+        // it to a household with no Jellyfin library would add a row that can
+        // never fill.
+        let hasJellyfin = libraries.contains { $0.providerKind == .jellyfin }
+        let shared = HomeRowChoice.shared.filter {
+            $0.id != .global(.upcomingEpisodes) || hasJellyfin
+        }
         let native = serverRows.filter {
             if case .server = $0.id { return true }
             return false
