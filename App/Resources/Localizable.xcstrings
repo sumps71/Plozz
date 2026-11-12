@@ -160589,6 +160589,9 @@
         }
       }
     },
+    "Artwork position" : {
+
+    },
     "Artwork preferences are in Appearance > Artwork and belong to each profile." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -1087657,6 +1087660,30 @@
         }
       }
     },
+    "heroArtworkPosition.centered" : {
+      "comment" : "Showcase hero background picture placement option in Settings > Home > Row style. The picture sits in the middle and fades on both sides.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Centered"
+          }
+        }
+      }
+    },
+    "heroArtworkPosition.right" : {
+      "comment" : "Showcase hero background picture placement option in Settings > Home > Row style.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Right"
+          }
+        }
+      }
+    },
     "heroBackground.detail.off" : {
       "comment" : "One-line explanation shown under the hero-background picker.",
       "extractionState" : "extracted_with_value",
@@ -1160347,6 +1160374,9 @@
           }
         }
       }
+    },
+    "showcase hero background picture centre center middle right fade sides" : {
+
     },
     "showcase row family guidance children recommended age" : {
       "localizations" : {

@@ -18,6 +18,27 @@ private enum HomeBackdropCompositing {
     #endif
 }
 
+/// The horizontal fade that melts the browse hero's picture into the page.
+///
+/// Right-hand placement fades only the left edge (fully visible from 42% of
+/// the picture's width). Centred placement mirrors the same fade onto the right
+/// edge, so both sides melt identically.
+enum HomeHeroBrowseFade {
+    static let leadingStops: [Gradient.Stop] = [
+        .init(color: .clear, location: 0),
+        .init(color: .white.opacity(0.18), location: 0.12),
+        .init(color: .white.opacity(0.6), location: 0.25),
+        .init(color: .white.opacity(0.92), location: 0.36),
+        .init(color: .white, location: 0.42),
+    ]
+
+    static func stops(bothSides: Bool) -> [Gradient.Stop] {
+        guard bothSides else { return leadingStops + [.init(color: .white, location: 1)] }
+        let trailing = leadingStops.reversed().map { Gradient.Stop(color: $0.color, location: 1 - $0.location) }
+        return leadingStops + trailing
+    }
+}
+
 /// Shared Home **hero** backdrop, designed around the Apple TV app's "parallax
 /// wipe" page transition.
 ///
@@ -115,6 +136,9 @@ public struct HomeHeroBackdrop: View {
     /// shared video underneath. The incoming detail hero supplies the one visible
     /// scrim, preventing the two dark overlays from stacking during handoff.
     var scrimOpacity: Double = 1
+    /// Browse style only: centre the picture and fade it into the page equally
+    /// on both sides, instead of pinning it right with a left-only fade.
+    var centersArtwork: Bool = false
     var transition: Transition = .wipe
     var scrimStyle: ScrimStyle = .carousel
 
@@ -134,11 +158,13 @@ public struct HomeHeroBackdrop: View {
         ignoresHorizontalSafeArea: Bool = true,
         alignsArtworkToLeadingEdge: Bool = false,
         scrimOpacity: Double = 1,
+        centersArtwork: Bool = false,
         sharedResolutionIdentity: String? = nil,
         transition: Transition = .wipe,
         scrimStyle: ScrimStyle = .carousel,
         artworkPlacement: ArtworkPlacement? = nil
     ) {
+        self.centersArtwork = centersArtwork
         self.references = references
         self.artworkPlacement = artworkPlacement
         self.asyncFallbackURL = asyncFallbackURL
@@ -226,7 +252,7 @@ public struct HomeHeroBackdrop: View {
     /// spilling off-screen to the right. Leading-aligned, the artwork starts at the
     /// panel edge — which is what full-bleed means here.
     private var artworkAlignment: Alignment {
-        if scrimStyle == .browse { return .trailing }
+        if scrimStyle == .browse { return centersArtwork ? .center : .trailing }
         return alignsArtworkToLeadingEdge ? .leading : .center
     }
 
@@ -424,14 +450,7 @@ public struct HomeHeroBackdrop: View {
             // Broad eased feathers keep the picture's edge from reading as a
             // separate rectangle behind the focused rows.
             LinearGradient(
-                stops: [
-                    .init(color: .clear, location: 0),
-                    .init(color: .white.opacity(0.18), location: 0.12),
-                    .init(color: .white.opacity(0.6), location: 0.25),
-                    .init(color: .white.opacity(0.92), location: 0.36),
-                    .init(color: .white, location: 0.42),
-                    .init(color: .white, location: 1),
-                ],
+                stops: HomeHeroBrowseFade.stops(bothSides: centersArtwork),
                 startPoint: .leading,
                 endPoint: .trailing
             )

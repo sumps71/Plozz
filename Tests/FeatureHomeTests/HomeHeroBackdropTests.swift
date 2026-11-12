@@ -10,6 +10,22 @@ import CoreUI
 
 @MainActor
 final class HomeHeroBackdropTests: XCTestCase {
+    func testCentredShowcaseArtworkFadesBothSidesIdentically() {
+        let rightOnly = HomeHeroBrowseFade.stops(bothSides: false)
+        XCTAssertEqual(rightOnly.first?.location, 0)
+        XCTAssertEqual(rightOnly.last?.location, 1)
+        XCTAssertEqual(rightOnly.last?.color, .white, "Right placement stays opaque to its right edge")
+
+        let both = HomeHeroBrowseFade.stops(bothSides: true)
+        XCTAssertEqual(both.map(\.location), both.map(\.location).sorted(), "Stops stay in order")
+        XCTAssertEqual(both.first?.color, .clear)
+        XCTAssertEqual(both.last?.color, .clear, "The right edge melts away too")
+        for (left, right) in zip(both, both.reversed()) {
+            XCTAssertEqual(left.location, 1 - right.location, accuracy: 0.0001, "Mirror image")
+            XCTAssertEqual(left.color, right.color)
+        }
+    }
+
     func testCachedOnlineBackdropMissDoesNotHideServerLandscape() async throws {
         let server = try XCTUnwrap(URL(string: "https://library.example.test/Images/Backdrop"))
         let poster = try XCTUnwrap(URL(string: "https://metadata.example.test/poster.jpg"))

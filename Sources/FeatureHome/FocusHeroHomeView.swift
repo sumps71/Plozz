@@ -475,7 +475,8 @@ struct FocusHeroHomeView<RowContent: View>: View {
             FocusHeroBackdropLayer(
                 model: model,
                 navigationStyle: navigationStyle,
-                isFrontmost: active
+                isFrontmost: active,
+                centersArtwork: settings.showcaseArtworkPosition == .centered
             )
             .environment(\.plozzArtworkArea, artworkPolicy.heroPolicy.area)
             FocusHeroColumn(
@@ -1416,6 +1417,8 @@ private struct FocusHeroBackdropLayer: View {
     let model: FocusHeroModel
     let navigationStyle: NavigationStyle
     let isFrontmost: Bool
+    /// The profile's Artwork position (``HeroSettings/showcaseArtworkPosition``).
+    var centersArtwork: Bool = false
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.plozzArtworkPolicy) private var artworkPolicy
     @Environment(\.heroShowcaseMotion) private var showcaseMotion
@@ -1440,6 +1443,7 @@ private struct FocusHeroBackdropLayer: View {
                 topOverscan: topOverscan,
                 scrimTone: colorScheme == .dark ? .black : .white,
                 scrimOpacity: isFrontmost ? 1 : 0,
+                centersArtwork: centersArtwork,
                 transition: .crossfade,
                 scrimStyle: .browse
             )
