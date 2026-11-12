@@ -45,6 +45,9 @@ public struct FeaturedMediaRow: View {
     @Environment(\.themePalette) private var palette
     private var onBrowse: (() -> Void)?
     @State private var leadingBrowseFocused = false
+    #if os(tvOS)
+    @State private var railPosition = ScrollPosition(edge: .leading)
+    #endif
     private var usesRowBrowsing = false
     private var isLoading = false
 
@@ -211,6 +214,28 @@ public struct FeaturedMediaRow: View {
         .onDisappear { coordinator.withdraw(rowID: rowID) }
     }
 
+    #if os(tvOS)
+    private var showsLeadingBrowseCard: Bool {
+        MediaRowLeadingBrowse.showsCard(
+            hasBrowseAction: onBrowse != nil, itemCount: items.count, loadingPlaceholderCount: 0
+        )
+    }
+
+    private var leadingBrowseHiddenOffset: CGFloat {
+        MediaRowLeadingBrowse.hiddenOffset(cardWidth: size.width, spacing: cardSpacing)
+    }
+
+    private func hideLeadingBrowseCard(animated: Bool) {
+        guard showsLeadingBrowseCard, !leadingBrowseFocused else { return }
+        let offset = leadingBrowseHiddenOffset
+        if animated {
+            withAnimation(.smooth(duration: 0.3)) { railPosition.scrollTo(x: offset) }
+        } else {
+            railPosition.scrollTo(x: offset)
+        }
+    }
+    #endif
+
     @ViewBuilder
     private var rail: some View {
         #if os(tvOS)
@@ -229,9 +254,7 @@ public struct FeaturedMediaRow: View {
         ScrollView(.horizontal) {
             LazyHStack(spacing: cardSpacing) {
                 #if os(tvOS)
-                if let onBrowse, MediaRowLeadingBrowse.showsCard(
-                    hasBrowseAction: true, itemCount: items.count, loadingPlaceholderCount: 0
-                ) {
+                if let onBrowse, showsLeadingBrowseCard {
                     MediaRowBrowseCard(
                         width: size.width, featuredSize: size, isLeading: true,
                         onFocus: { focusedID = nil; leadingBrowseFocused = true; coordinator.stop() },
@@ -298,6 +321,21 @@ public struct FeaturedMediaRow: View {
         .scrollIndicators(.hidden)
         .scrollClipDisabled()
         #if os(tvOS)
+        // The leading See all card rests just out of sight; see MediaRowLeadingBrowse.
+        .scrollPosition($railPosition)
+        .onAppear { hideLeadingBrowseCard(animated: false) }
+        .onChange(of: showsLeadingBrowseCard) { _, shows in
+            if shows { hideLeadingBrowseCard(animated: false) }
+        }
+        .onChange(of: leadingBrowseHiddenOffset) { _, _ in
+            if !railPosition.isPositionedByUser { hideLeadingBrowseCard(animated: false) }
+        }
+        .onChange(of: focusedID) { _, id in
+            if id != nil, id == items.first?.stablePresentationID { hideLeadingBrowseCard(animated: true) }
+        }
+        .onChange(of: leadingBrowseFocused) { _, focused in
+            if !focused { hideLeadingBrowseCard(animated: true) }
+        }
         .padding(.vertical, metrics.railClearanceOffset(for: 24))
         #endif
         #if os(iOS)

@@ -8,7 +8,18 @@ import SwiftUI
 /// The leading card is reached only by pressing left from the first item: it
 /// accepts focus while the first item (or the card itself) has it, so moving up
 /// or down into a row always lands on a title rather than on "See all".
+///
+/// It also stays out of sight until then: the rail rests scrolled one card to
+/// the right (``hiddenOffset(cardWidth:spacing:)``), which puts the first item
+/// back under the row title, and returns there whenever the card loses focus —
+/// so leaving the row, or moving right again, hides it.
 public enum MediaRowLeadingBrowse {
+    /// The rail's resting horizontal offset: exactly the leading card's slot and
+    /// the gap after it, so the first item sits where it would with no card.
+    public static func hiddenOffset(cardWidth: CGFloat, spacing: CGFloat) -> CGFloat {
+        max(0, cardWidth + spacing)
+    }
+
     /// Shown wherever the trailing card is (a browse action and no loading
     /// placeholders), and only beside real items, so an empty row never shows two.
     public static func showsCard(hasBrowseAction: Bool, itemCount: Int, loadingPlaceholderCount: Int) -> Bool {
