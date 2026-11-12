@@ -116,6 +116,22 @@ final class MediaFolderCardLayoutTests: XCTestCase {
 #endif
 
 final class PosterCardPresentationTests: XCTestCase {
+    func testUpcomingEpisodeCardsKeepTheirCaptionOverTheShowLogo() {
+        // Logo cards hide captions by default; the countdown must stay visible.
+        XCTAssertFalse(PosterCardPresentation.captionsHidden(
+            showsUpcomingEpisodeCaption: true, isContinueWatching: true, showsSeriesArtwork: true,
+            ordinary: false, continueWatching: true, continueWatchingWithArtworkTitle: true
+        ))
+        XCTAssertTrue(PosterCardPresentation.captionsHidden(
+            showsUpcomingEpisodeCaption: true, isContinueWatching: true, showsSeriesArtwork: true,
+            ordinary: true, continueWatching: false, continueWatchingWithArtworkTitle: false
+        ), "Hiding Home captions still applies")
+        XCTAssertTrue(PosterCardPresentation.captionsHidden(
+            showsUpcomingEpisodeCaption: false, isContinueWatching: true, showsSeriesArtwork: true,
+            ordinary: false, continueWatching: false, continueWatchingWithArtworkTitle: true
+        ), "Continue Watching is unchanged")
+    }
+
     func testUpcomingEpisodeCardsHideStatusBadges() {
         XCTAssertTrue(PosterCardPresentation.hidesPlaybackStatus(
             hidesThumbnail: false, artworkArea: .homeRows, showsUpcomingEpisodeCaption: true

@@ -204,8 +204,8 @@ struct HomeSkeletonRowView: View {
     /// Matches the selected Continue Watching layout and each other row's fixed shape.
     private func cardStyle(for kind: HomeRowKind) -> SkeletonCardView.Style {
         switch kind {
-        case .continueWatching: return continueWatchingLayout == .portrait ? .poster : .landscape
-        case .libraries, .upcomingEpisodes: return .landscape
+        case .continueWatching, .upcomingEpisodes: return continueWatchingLayout == .portrait ? .poster : .landscape
+        case .libraries: return .landscape
         case .watchlist, .recentlyAdded: return .poster
         }
     }
@@ -233,7 +233,7 @@ struct HomeSkeletonRowView: View {
     /// Whether this row's real cards will carry show art with a logo over it —
     /// which is a different card *shape*, not just different contents.
     private func usesSeriesArtwork(_ kind: HomeRowKind) -> Bool {
-        kind == .continueWatching && continueWatchingShowsSeriesArtwork
+        kind.showsSeriesArtwork(continueWatchingUsesSeriesArtwork: continueWatchingShowsSeriesArtwork)
     }
 
     /// How many placeholder cards to render for a row. We show the count the row
