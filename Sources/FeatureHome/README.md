@@ -138,9 +138,12 @@ library scan is added to ordinary paging.
 
 ## Browsing Home rows
 
-Media rows have a title-chevron action on iPhone/iPad and a trailing **See all**
-card on Apple TV. The TV action is a separate native control, not a synthetic
-media item, and follows the rail's poster, landscape, or featured geometry.
+Media rows have a title-chevron action on iPhone/iPad and **See all** cards on
+Apple TV, one after the last item and one before the first. The TV action is a
+separate native control, not a synthetic media item, and follows the rail's
+poster, landscape, or featured geometry. The leading card is reached only by
+pressing left from the first item (`MediaRowLeadingBrowse`): it refuses focus
+otherwise, so moving up or down into a row always lands on a title.
 All TV Home layouts retain the complete `HomePresentationRow` source when
 opening the shared browser. Libraries and Live TV keep their existing navigation.
 Expanded grids of collection covers retain the resolved Auto, Posters, or

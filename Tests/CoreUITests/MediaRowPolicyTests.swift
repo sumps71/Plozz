@@ -5,6 +5,32 @@ import CoreModels
 @testable import CoreUI
 
 final class MediaRowPolicyTests: XCTestCase {
+    #if os(tvOS)
+    func testLeadingSeeAllAppearsWhereverTheTrailingOneDoesBesideRealItems() {
+        XCTAssertTrue(MediaRowLeadingBrowse.showsCard(hasBrowseAction: true, itemCount: 3, loadingPlaceholderCount: 0))
+        XCTAssertFalse(MediaRowLeadingBrowse.showsCard(hasBrowseAction: false, itemCount: 3, loadingPlaceholderCount: 0))
+        XCTAssertFalse(
+            MediaRowLeadingBrowse.showsCard(hasBrowseAction: true, itemCount: 0, loadingPlaceholderCount: 0),
+            "An empty row must not show two See all cards"
+        )
+        XCTAssertFalse(
+            MediaRowLeadingBrowse.showsCard(hasBrowseAction: true, itemCount: 3, loadingPlaceholderCount: 4),
+            "Hidden while loading, like the trailing card"
+        )
+    }
+
+    func testLeadingSeeAllIsReachedOnlyFromTheFirstItem() {
+        XCTAssertFalse(
+            MediaRowLeadingBrowse.acceptsFocus(firstItemFocused: false, cardFocused: false),
+            "Moving up or down into the row must land on a title, not See all"
+        )
+        XCTAssertTrue(MediaRowLeadingBrowse.acceptsFocus(firstItemFocused: true, cardFocused: false),
+                      "Pressing left from the first item reaches it")
+        XCTAssertTrue(MediaRowLeadingBrowse.acceptsFocus(firstItemFocused: false, cardFocused: true),
+                      "It keeps focus once it has it")
+    }
+    #endif
+
     func testQueuedPreviewDoesNotRepeatURLComparison() {
         var prefetchedIDs = Set<String>()
         var comparisons = 0

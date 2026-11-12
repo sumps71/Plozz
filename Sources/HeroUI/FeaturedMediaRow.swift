@@ -44,6 +44,7 @@ public struct FeaturedMediaRow: View {
     @Environment(\.plozzRowTitleTightening) private var titleTightening
     @Environment(\.themePalette) private var palette
     private var onBrowse: (() -> Void)?
+    @State private var leadingBrowseFocused = false
     private var usesRowBrowsing = false
     private var isLoading = false
 
@@ -227,6 +228,23 @@ public struct FeaturedMediaRow: View {
     private var scroll: some View {
         ScrollView(.horizontal) {
             LazyHStack(spacing: cardSpacing) {
+                #if os(tvOS)
+                if let onBrowse, MediaRowLeadingBrowse.showsCard(
+                    hasBrowseAction: true, itemCount: items.count, loadingPlaceholderCount: 0
+                ) {
+                    MediaRowBrowseCard(
+                        width: size.width, featuredSize: size, isLeading: true,
+                        onFocus: { focusedID = nil; leadingBrowseFocused = true; coordinator.stop() },
+                        onFocusLost: { leadingBrowseFocused = false },
+                        action: { coordinator.stop(); onBrowse() }
+                    )
+                    // Reached only by pressing left from the first item.
+                    .disabled(!MediaRowLeadingBrowse.acceptsFocus(
+                        firstItemFocused: focusedID != nil && focusedID == items.first?.stablePresentationID,
+                        cardFocused: leadingBrowseFocused
+                    ))
+                }
+                #endif
                 ForEach(items, id: \.stablePresentationID) { item in
                     FeaturedMediaCard(
                         item: item, size: size, spoilers: spoilers,

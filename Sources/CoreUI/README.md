@@ -1,8 +1,9 @@
 # CoreUI
 
 Home row browsing uses `BrowseRowHeading` for a single accessible title/chevron
-touch target and `MediaRowBrowseCard` for a native TV rail action. Opt a rail in
-with `browsingRow`; existing collection-detail `onSeeAll` headers elsewhere keep
+touch target and `MediaRowBrowseCard` for a native TV rail action, drawn both
+after the last item and before the first (focusable only from the first item; see
+`MediaRowLeadingBrowse`). Opt a rail in with `browsingRow`; existing collection-detail `onSeeAll` headers elsewhere keep
 their behavior. Passing `nil` opts into Home browsing without showing an action
 or falling back to the old header action. Browse actions carry no media identity
 or context-menu actions.
