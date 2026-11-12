@@ -2882,9 +2882,8 @@ struct PlozziOSHomeRowView: View {
                         ? appModel.settings.cardStyle.captions.showsLabels(in: .homeLibraries)
                         : appModel.settings.cardStyle.captions.showsLabels(
                             in: .home,
-                            // Upcoming cards keep their caption (the countdown) over a logo.
-                            hasArtworkTitle: row.kind == .continueWatching && showsSeriesArtwork,
-                            isContinueWatching: row.kind == .continueWatching
+                            hasArtworkTitle: row.kind.usesContinueWatchingCard && showsSeriesArtwork,
+                            isContinueWatching: row.kind.usesContinueWatchingCard
                         ),
                     showsSeriesArtwork: showsSeriesArtwork,
                     isLibraryRow: row.kind == .libraries

@@ -194,7 +194,7 @@ struct HomeSkeletonRowView: View {
     }
 
     private func showsCaption(for kind: HomeRowKind) -> Bool {
-        if kind == .continueWatching {
+        if kind.usesContinueWatchingCard {
             return !(usesSeriesArtwork(kind) ? continueWatchingArtworkCaptionsHidden : continueWatchingCaptionsHidden)
         }
         return kind == .libraries

@@ -387,7 +387,8 @@ public struct PosterCardView: View {
                     artworkBackground: NativePosterArtworkBackground(
                         dimming: usesLogoArtwork && !suppressesSeriesLogo ? nativeArtworkDimming : 0,
                         scrim: showsResumeChip ? resumeChipOverlay.artworkScrim
-                            : nativePlaybackIndicators.withoutStatus.artworkScrim
+                            : upcomingArtworkCaption?.artworkScrim
+                            ?? nativePlaybackIndicators.withoutStatus.artworkScrim
                     ),
                     focus: $isFocused,
                     source: detailTransitionSource,
@@ -433,6 +434,7 @@ public struct PosterCardView: View {
             }
             nativePlaybackIndicators.withoutStatus.withoutScrim
             if showsResumeChip { resumeChipOverlay.withoutScrim }
+            upcomingArtworkCaption?.withoutScrim
             pendingRemovalOverlay
         }
         .overlay(alignment: .topLeading) { statusCue(inset: borderlessBadgeInset) }
@@ -475,6 +477,7 @@ public struct PosterCardView: View {
                 }
             }
             .overlay { if showsIndicators { resumeChip } }
+            .overlay { upcomingArtworkCaption }
             .overlay { pendingRemovalOverlay }
             .plozzCardArtworkClip(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
             .plozzMediaEdge(
@@ -663,6 +666,7 @@ public struct PosterCardView: View {
                 )
             }
             .overlay { resumeChip }
+            .overlay { upcomingArtworkCaption }
             .overlay { pendingRemovalOverlay }
             .plozzCardArtworkClip(RoundedRectangle(cornerRadius: borderlessCornerRadius, style: .continuous))
             .plozzMediaEdge(
@@ -847,6 +851,21 @@ public struct PosterCardView: View {
 
     @Environment(\.plozzCardShowsUpcomingEpisodeCaption) private var showsUpcomingEpisodeCaption
 
+    /// The Upcoming Episodes caption drawn on the artwork, where Continue Watching
+    /// draws its resume chip; `nil` when the caption shows below the card instead.
+    private var upcomingArtworkCaption: UpcomingEpisodeArtworkCaption? {
+        guard PosterCardPresentation.drawsUpcomingCaptionOnArtwork(
+            showsUpcomingEpisodeCaption: showsUpcomingEpisodeCaption, captionsHidden: captionsHidden
+        ), item.kind == .episode, let text = subtitleText else { return nil }
+        return UpcomingEpisodeArtworkCaption(
+            text: text, compactHorizontalLayout: showsSeriesArtwork && style == .poster
+        )
+        .fittingPlaybackText(
+            size: artworkOnlyConfiguration?.playbackTextSize,
+            inset: artworkOnlyConfiguration?.playbackInset
+        )
+    }
+
     // MARK: Resume chip
 
     /// The full resume chip — ▶ + progress bar + time remaining — reserved for
@@ -863,14 +882,10 @@ public struct PosterCardView: View {
     @Environment(\.plozzContinueWatchingCaptionsHiddenWithArtworkTitle) private var continueWatchingArtworkCaptionsHidden
 
     private var captionsHidden: Bool {
-        PosterCardPresentation.captionsHidden(
-            showsUpcomingEpisodeCaption: showsUpcomingEpisodeCaption,
-            isContinueWatching: presentationArtworkPolicy.area == .continueWatching,
-            showsSeriesArtwork: showsSeriesArtwork,
-            ordinary: ordinaryCaptionsHidden,
-            continueWatching: continueWatchingCaptionsHidden,
-            continueWatchingWithArtworkTitle: continueWatchingArtworkCaptionsHidden
-        )
+        if presentationArtworkPolicy.area == .continueWatching {
+            return showsSeriesArtwork ? continueWatchingArtworkCaptionsHidden : continueWatchingCaptionsHidden
+        }
+        return ordinaryCaptionsHidden
     }
 
     private var showsCaption: Bool { !captionsHidden }
@@ -1485,19 +1500,12 @@ struct ContinueWatchingSeriesLogo: View {
 /// SwiftUI. Folders retain the shared poster footprint/focus mechanics but never
 /// look like playable, unwatched media.
 enum PosterCardPresentation {
-    /// Which caption setting a card follows. Upcoming Episodes borrows the
-    /// Continue Watching card, logo included, but its caption carries the
-    /// countdown, so it follows the ordinary Home rule rather than hiding beneath
-    /// an artwork title.
-    static func captionsHidden(
-        showsUpcomingEpisodeCaption: Bool, isContinueWatching: Bool, showsSeriesArtwork: Bool,
-        ordinary: Bool, continueWatching: Bool, continueWatchingWithArtworkTitle: Bool
-    ) -> Bool {
-        if showsUpcomingEpisodeCaption { return ordinary }
-        if isContinueWatching {
-            return showsSeriesArtwork ? continueWatchingWithArtworkTitle : continueWatching
-        }
-        return ordinary
+    /// Where an Upcoming Episodes card puts its caption ("S2, E5 · In 3 days").
+    /// Like a Continue Watching card's episode label, it moves onto the artwork
+    /// whenever the caption below is hidden — by default on a logo card — so the
+    /// card never loses it.
+    static func drawsUpcomingCaptionOnArtwork(showsUpcomingEpisodeCaption: Bool, captionsHidden: Bool) -> Bool {
+        showsUpcomingEpisodeCaption && captionsHidden
     }
 
     /// Whether a card drops its status badges (watched/unwatched, episode count,
