@@ -38,10 +38,10 @@ public extension EnvironmentValues {
     }
 
     /// Cards in the Home "Upcoming Episodes" row replace their secondary line with
-    /// numbering, when it airs ("In 3 days", or the date two weeks or more out)
-    /// and the (spoiler-filtered) episode title — see
-    /// `MediaItem.upcomingEpisodeCaption(hidesTitle:now:)` — and drop their status
-    /// badges (watched/unwatched, episode count, not-in-library). Off everywhere else.
+    /// numbering and when it airs ("In 3 days", or the date two weeks or more out),
+    /// never the episode name — see `MediaItem.upcomingEpisodeCaption(now:)` — and
+    /// drop their status badges (watched/unwatched, episode count, not-in-library).
+    /// Off everywhere else.
     var plozzCardShowsUpcomingEpisodeCaption: Bool {
         get { self[PlozzCardShowsUpcomingEpisodeCaptionKey.self] }
         set { self[PlozzCardShowsUpcomingEpisodeCaptionKey.self] = newValue }

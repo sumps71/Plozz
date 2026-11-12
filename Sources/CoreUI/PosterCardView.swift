@@ -840,7 +840,7 @@ public struct PosterCardView: View {
     /// chip already carries the time on the artwork (no need to repeat it here).
     private var subtitleText: String? {  // l10n:content — provider subtitle and preformatted runtime
         if showsUpcomingEpisodeCaption, item.kind == .episode {
-            return item.upcomingEpisodeCaption(hidesTitle: spoilerSettings.shouldHideText(for: item), now: Date())
+            return item.upcomingEpisodeCaption(now: Date())
         }
         return item.posterCaptionSubtitle(showsRuntime: !showsResumeChip)
     }

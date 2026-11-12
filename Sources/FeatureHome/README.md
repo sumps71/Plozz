@@ -238,12 +238,11 @@ show's art with its logo centred, whatever the Continue Watching artwork setting
 Their caption still follows the ordinary Home caption rule, so the countdown is not
 hidden beneath the logo. With
 `plozzCardShowsUpcomingEpisodeCaption`, `PosterCardView` shows the show name over
-`S2, E5 · <when it airs> · <episode title>` on TV and mobile. When it airs is a
+`S2, E5 · <when it airs>` on TV and mobile, never the episode name. When it airs is a
 countdown under two weeks out — "Tomorrow", "In 2 days" … "In 6 days", then "Next
 week" for 7–13 days — and the air date from 14 days on. The countdown uses the
 system's relative-date wording (`RelativeDateTimeFormatter`), so it is localized
-without catalog strings, and is evaluated when the card renders. The title follows the
-profile's spoiler settings. These cards show no status badges (watched/unwatched, episode count,
+without catalog strings, and is evaluated when the card renders. These cards show no status badges (watched/unwatched, episode count,
 not-in-library mark). Selecting a card opens the episode's ordinary detail
 page; unaired (virtual) episodes have no playable source.
 

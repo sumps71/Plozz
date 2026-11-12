@@ -103,20 +103,15 @@ final class UpcomingEpisodesPolicyTests: XCTestCase {
         )
     }
 
-    func testCaptionShowsNumberingAirTimingAndTitle() {
+    func testCaptionShowsNumberingAndAirTimingButNeverTheEpisodeName() {
         let item = MediaItem(
             id: "e", title: "The Reckoning", kind: .episode, parentTitle: "Show A",
             seasonNumber: 2, episodeNumber: 5, releaseDate: day("2026-11-20"), seriesID: "a"
         )
         let english = Locale(identifier: "en_US")
-        XCTAssertEqual(
-            item.upcomingEpisodeCaption(hidesTitle: false, now: now, calendar: calendar("UTC"), locale: english),
-            "S2, E5 · Next week · The Reckoning"
-        )
-        XCTAssertEqual(
-            item.upcomingEpisodeCaption(hidesTitle: true, now: now, calendar: calendar("UTC"), locale: english),
-            "S2, E5 · Next week"
-        )
+        let caption = item.upcomingEpisodeCaption(now: now, calendar: calendar("UTC"), locale: english)
+        XCTAssertEqual(caption, "S2, E5 · Next week")
+        XCTAssertFalse(caption?.contains("Reckoning") ?? true)
     }
 
     // MARK: - When it airs
@@ -163,13 +158,13 @@ final class UpcomingEpisodesPolicyTests: XCTestCase {
         )
     }
 
-    func testCaptionOmitsMissingPartsAndRepeatedShowName() {
+    func testCaptionOmitsMissingParts() {
         let item = MediaItem(
-            id: "e", title: "Show A", kind: .episode, parentTitle: "Show A", episodeNumber: 3
+            id: "e", title: "Pilot", kind: .episode, parentTitle: "Show A", episodeNumber: 3
         )
-        XCTAssertEqual(item.upcomingEpisodeCaption(hidesTitle: false, now: now), "E3")
-        let bare = MediaItem(id: "b", title: " ", kind: .episode)
-        XCTAssertNil(bare.upcomingEpisodeCaption(hidesTitle: false, now: now))
+        XCTAssertEqual(item.upcomingEpisodeCaption(now: now), "E3")
+        let bare = MediaItem(id: "b", title: "Pilot", kind: .episode)
+        XCTAssertNil(bare.upcomingEpisodeCaption(now: now))
     }
 
     // MARK: - Opt-in row visibility
