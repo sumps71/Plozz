@@ -92,6 +92,23 @@ public enum HomeRowStyle: Sendable, Equatable {
 /// One resolved Home row: its kind (identity + title + style) paired with the
 /// content to render. `items` is populated for media rows; `libraries` for the
 /// Libraries row. Exactly one of the two is non-empty for any built row.
+public extension HomeRowKind {
+    /// Rows drawn with the Continue Watching card: the same size, and the
+    /// landscape or portrait layout chosen for Continue Watching.
+    var usesContinueWatchingCard: Bool { self == .continueWatching || self == .upcomingEpisodes }
+
+    /// Whether the row's cards show the show's art with its logo centred.
+    /// Continue Watching follows its own setting; Upcoming Episodes always does,
+    /// because an unaired episode rarely has a still of its own.
+    func showsSeriesArtwork(continueWatchingUsesSeriesArtwork: Bool) -> Bool {
+        switch self {
+        case .continueWatching: continueWatchingUsesSeriesArtwork
+        case .upcomingEpisodes: true
+        case .watchlist, .recentlyAdded, .libraries: false
+        }
+    }
+}
+
 public struct HomeRow: Identifiable, Equatable, Sendable {
     public let kind: HomeRowKind
     public var items: [MediaItem]
@@ -113,7 +130,9 @@ public struct HomeRow: Identifiable, Equatable, Sendable {
     public var title: LocalizedStringResource { kind.title }
 
     /// Continue Watching and Upcoming Episodes show wide landscape episode stills;
-    /// every other media row shows portrait posters.
+    /// every other media row shows portrait posters. Both rows actually draw the
+    /// Continue Watching card (see ``HomeRowKind/usesContinueWatchingCard``),
+    /// whose layout setting can turn them portrait.
     public var style: HomeRowStyle {
         kind == .continueWatching || kind == .upcomingEpisodes ? .landscape : .poster
     }

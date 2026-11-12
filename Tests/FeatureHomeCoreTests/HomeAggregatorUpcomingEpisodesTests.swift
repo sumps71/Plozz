@@ -11,6 +11,22 @@ final class HomeAggregatorUpcomingEpisodesTests: XCTestCase {
         rowCustomization: HomeRowCustomization(shown: [.global(.upcomingEpisodes)])
     )
 
+    func testUpcomingEpisodesUsesTheContinueWatchingCardWithShowLogos() {
+        XCTAssertTrue(HomeRowKind.upcomingEpisodes.usesContinueWatchingCard)
+        XCTAssertTrue(HomeRowKind.continueWatching.usesContinueWatchingCard)
+        for kind: HomeRowKind in [.watchlist, .recentlyAdded, .libraries] {
+            XCTAssertFalse(kind.usesContinueWatchingCard, "\(kind)")
+            XCTAssertFalse(kind.showsSeriesArtwork(continueWatchingUsesSeriesArtwork: true), "\(kind)")
+        }
+        // Upcoming always shows the show logo; Continue Watching follows its setting.
+        for setting in [false, true] {
+            XCTAssertTrue(HomeRowKind.upcomingEpisodes.showsSeriesArtwork(continueWatchingUsesSeriesArtwork: setting))
+            XCTAssertEqual(
+                HomeRowKind.continueWatching.showsSeriesArtwork(continueWatchingUsesSeriesArtwork: setting), setting
+            )
+        }
+    }
+
     func testMergesAccountsInAirDateOrderAndTagsEachSource() async {
         let a = UpcomingStub(episodes: [episode("a1", daysAhead: 3), episode("a2", daysAhead: 10)])
         let b = UpcomingStub(episodes: [episode("b1", daysAhead: 5)])

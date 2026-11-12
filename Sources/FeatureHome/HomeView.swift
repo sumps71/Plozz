@@ -1454,9 +1454,14 @@ public struct HomeView: View {
         case .upcomingEpisodes:
             // Selecting opens the episode's ordinary detail page; unaired
             // episodes have no playable source, so the row never plays directly.
+            // The Continue Watching card: same size and layout, show art + logo.
             MediaRowView(
-                title: row.displayName, items: row.items, style: posterStyle(row.style),
-                spoilerSettings: spoilerSettings, loadingPlaceholderCount: row.loadingPlaceholderCount,
+                title: row.displayName, items: row.items, style: visibility.continueWatchingLayout.cardStyle,
+                spoilerSettings: spoilerSettings,
+                showsSeriesArtwork: row.kind.showsSeriesArtwork(
+                    continueWatchingUsesSeriesArtwork: visibility.continueWatchingUsesSeriesArtwork
+                ),
+                loadingPlaceholderCount: row.loadingPlaceholderCount,
                 reservesLoadingFocus: reservesLoadingFocus,
                 onSelect: onSelectItem
             )
@@ -1814,8 +1819,11 @@ public struct HomeView: View {
                     MediaRowView(
                         title: row.displayName,
                         items: row.items,
-                        style: posterStyle(row.style),
+                        style: visibility.continueWatchingLayout.cardStyle,
                         spoilerSettings: spoilerSettings,
+                        showsSeriesArtwork: row.kind.showsSeriesArtwork(
+                            continueWatchingUsesSeriesArtwork: visibility.continueWatchingUsesSeriesArtwork
+                        ),
                         onFocusEntered: reporter.entered,
                         onFocusChange: onFocusChange,
                         onCardFocused: reporter.cardFocused,

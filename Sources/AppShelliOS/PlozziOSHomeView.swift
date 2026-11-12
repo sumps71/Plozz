@@ -2845,10 +2845,16 @@ struct PlozziOSHomeRowView: View {
     let onBrowse: (() -> Void)?
 
     private var cardStyle: PosterCardView.Style {
-        if row.kind == .continueWatching {
+        if row.kind.usesContinueWatchingCard {
             return appModel.settings.homeVisibility.continueWatchingLayout.cardStyle
         }
         return row.kind == .libraries || row.style == .landscape ? .landscape : .poster
+    }
+
+    private var showsSeriesArtwork: Bool {
+        row.kind.showsSeriesArtwork(
+            continueWatchingUsesSeriesArtwork: appModel.settings.homeVisibility.continueWatchingUsesSeriesArtwork
+        )
     }
 
     var body: some View {
@@ -2876,12 +2882,11 @@ struct PlozziOSHomeRowView: View {
                         ? appModel.settings.cardStyle.captions.showsLabels(in: .homeLibraries)
                         : appModel.settings.cardStyle.captions.showsLabels(
                             in: .home,
-                            hasArtworkTitle: row.kind == .continueWatching
-                                && appModel.settings.homeVisibility.continueWatchingUsesSeriesArtwork,
+                            // Upcoming cards keep their caption (the countdown) over a logo.
+                            hasArtworkTitle: row.kind == .continueWatching && showsSeriesArtwork,
                             isContinueWatching: row.kind == .continueWatching
                         ),
-                    showsSeriesArtwork: row.kind == .continueWatching
-                        && appModel.settings.homeVisibility.continueWatchingUsesSeriesArtwork,
+                    showsSeriesArtwork: showsSeriesArtwork,
                     isLibraryRow: row.kind == .libraries
                 )
             } else {
@@ -2894,15 +2899,15 @@ struct PlozziOSHomeRowView: View {
                         continueWatchingAction: appModel.settings.homeVisibility.continueWatchingAction
                     ) ? .play : .openDetail,
                     showsResumeChip: row.kind == .continueWatching,
-                    prefetchesArtwork: row.kind == .continueWatching,
+                    prefetchesArtwork: row.kind.usesContinueWatchingCard,
                     pendingRemovalIDs: pendingWatchlistRemovalIDs,
                     loadingPlaceholderCount: row.kind == .watchlist
                         ? watchlistLoadingPlaceholderCount
                         : 0,
                     // Continue Watching identifies cards by show art + logo unless
-                    // the user has turned that off in Customize Home.
-                    showsSeriesArtwork: row.kind == .continueWatching
-                        && appModel.settings.homeVisibility.continueWatchingUsesSeriesArtwork,
+                    // the user has turned that off in Customize Home; Upcoming
+                    // Episodes always does.
+                    showsSeriesArtwork: showsSeriesArtwork,
                     onBrowse: row.items.isEmpty ? nil : onBrowse,
                     onNavigationInteraction:
                         viewModel.noteHomeNavigationInteraction

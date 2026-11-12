@@ -232,7 +232,11 @@ every known future episode. A failing account keeps the others' cards and report
 the row failure through the usual Home row failure path. The row is not part of
 the launch snapshot, because a snapshot would show episodes that have since aired.
 
-Cards are landscape episode stills, falling back to the series backdrop. With
+Cards use the Continue Watching card (`HomeRowKind.usesContinueWatchingCard`): the
+same size, the landscape or portrait layout chosen for Continue Watching, and the
+show's art with its logo centred, whatever the Continue Watching artwork setting.
+Their caption still follows the ordinary Home caption rule, so the countdown is not
+hidden beneath the logo. With
 `plozzCardShowsUpcomingEpisodeCaption`, `PosterCardView` shows the show name over
 `S2, E5 · <when it airs> · <episode title>` on TV and mobile. When it airs is a
 countdown under two weeks out — "Tomorrow", "In 2 days" … "In 6 days", then "Next

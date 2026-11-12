@@ -199,7 +199,8 @@ public struct PosterCardView: View {
     }
 
     private var cardAccessibilityValue: String? {
-        let subtitle = usesProgressOnly ? item.posterCaptionSubtitle(showsRuntime: true)
+        let subtitle = showsUpcomingEpisodeCaption ? subtitleText
+            : usesProgressOnly ? item.posterCaptionSubtitle(showsRuntime: true)
             : (showsSeriesArtwork ? nil : subtitleText)
         guard var count = MediaPlaybackIndicatorState(item).episodeCountAccessibilityLabel(
             enabled: showsUnwatchedEpisodeCount, hidesStatus: hidesPlaybackStatus
@@ -862,10 +863,14 @@ public struct PosterCardView: View {
     @Environment(\.plozzContinueWatchingCaptionsHiddenWithArtworkTitle) private var continueWatchingArtworkCaptionsHidden
 
     private var captionsHidden: Bool {
-        if presentationArtworkPolicy.area == .continueWatching {
-            return showsSeriesArtwork ? continueWatchingArtworkCaptionsHidden : continueWatchingCaptionsHidden
-        }
-        return ordinaryCaptionsHidden
+        PosterCardPresentation.captionsHidden(
+            showsUpcomingEpisodeCaption: showsUpcomingEpisodeCaption,
+            isContinueWatching: presentationArtworkPolicy.area == .continueWatching,
+            showsSeriesArtwork: showsSeriesArtwork,
+            ordinary: ordinaryCaptionsHidden,
+            continueWatching: continueWatchingCaptionsHidden,
+            continueWatchingWithArtworkTitle: continueWatchingArtworkCaptionsHidden
+        )
     }
 
     private var showsCaption: Bool { !captionsHidden }
@@ -1480,6 +1485,21 @@ struct ContinueWatchingSeriesLogo: View {
 /// SwiftUI. Folders retain the shared poster footprint/focus mechanics but never
 /// look like playable, unwatched media.
 enum PosterCardPresentation {
+    /// Which caption setting a card follows. Upcoming Episodes borrows the
+    /// Continue Watching card, logo included, but its caption carries the
+    /// countdown, so it follows the ordinary Home rule rather than hiding beneath
+    /// an artwork title.
+    static func captionsHidden(
+        showsUpcomingEpisodeCaption: Bool, isContinueWatching: Bool, showsSeriesArtwork: Bool,
+        ordinary: Bool, continueWatching: Bool, continueWatchingWithArtworkTitle: Bool
+    ) -> Bool {
+        if showsUpcomingEpisodeCaption { return ordinary }
+        if isContinueWatching {
+            return showsSeriesArtwork ? continueWatchingWithArtworkTitle : continueWatching
+        }
+        return ordinary
+    }
+
     /// Whether a card drops its status badges (watched/unwatched, episode count,
     /// not-in-library mark). Continue Watching carries progress instead, and
     /// Upcoming Episodes cards carry none: an unaired episode is always unwatched
