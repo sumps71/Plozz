@@ -31,6 +31,33 @@ public enum MediaRowLeadingBrowse {
     }
 }
 
+/// How the See all card fans its preview posters.
+enum MediaRowBrowsePreview {
+    static let maximumCount = 3
+
+    struct Layout: Equatable {
+        /// Horizontal offset as a multiple of the poster width.
+        let offset: CGFloat
+        let rotation: Double
+    }
+
+    /// The first title sits in front and centred; the next two lean out to the
+    /// left and right, and lean further when the card is focused.
+    /// The fan's width in poster widths at its widest (focused) spread, with a
+    /// little room for the outer posters' tilt.
+    static func fanWidthFactor(count: Int) -> CGFloat {
+        count > 1 ? 1 + 2 * 0.62 + 0.2 : 1
+    }
+
+    static func layout(index: Int, count: Int, spread: Bool) -> Layout {
+        guard count > 1, index > 0 else { return Layout(offset: 0, rotation: 0) }
+        let side: CGFloat = index == 1 ? -1 : 1
+        let offset = (spread ? 0.62 : 0.5) * side
+        let rotation = (spread ? 11.0 : 8.0) * Double(side)
+        return Layout(offset: offset, rotation: rotation)
+    }
+}
+
 /// A rail action, not a media item: no playback, watch-state, or context menu.
 public struct MediaRowBrowseCard: View {
     private let width: CGFloat
@@ -38,12 +65,15 @@ public struct MediaRowBrowseCard: View {
     private let showsSeriesArtwork: Bool
     private let featuredSize: CGSize?
     private let isLeading: Bool
+    private let previewItems: [MediaItem]
+    private let previewArtworkPolicy: CardArtworkPolicy
     private let onFocus: () -> Void
     private let onFocusLost: () -> Void
     private let action: () -> Void
     @PlozzCardFocus private var focused: Bool
     @Environment(\.plozzMetrics) private var metrics
     @Environment(\.themePalette) private var palette
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.plozzCardStyle) private var cardStyle
     @Environment(\.plozzCardFocusStyle) private var focusStyle
     @Environment(\.plozzCardCaptionsHidden) private var captionsHidden
@@ -54,10 +84,14 @@ public struct MediaRowBrowseCard: View {
 
     public init(
         width: CGFloat, style: PosterCardView.Style = .poster, showsSeriesArtwork: Bool = false,
-        featuredSize: CGSize? = nil, isLeading: Bool = false, onFocus: @escaping () -> Void = {},
+        featuredSize: CGSize? = nil, isLeading: Bool = false,
+        previewItems: [MediaItem] = [], previewArtworkPolicy: CardArtworkPolicy = .standard,
+        onFocus: @escaping () -> Void = {},
         onFocusLost: @escaping () -> Void = {}, action: @escaping () -> Void
     ) {
         self.isLeading = isLeading
+        self.previewItems = Array(previewItems.prefix(MediaRowBrowsePreview.maximumCount))
+        self.previewArtworkPolicy = previewArtworkPolicy
         self.width = width
         self.style = style
         self.showsSeriesArtwork = showsSeriesArtwork
@@ -169,12 +203,91 @@ public struct MediaRowBrowseCard: View {
             .overlay { label }
     }
 
+    /// The card's face: a fanned stack of the row's first posters with an arrow
+    /// badge, or the badge alone when the row has no artwork to preview. Tall
+    /// cards stack the badge under the fan; wide cards put it beside the fan so
+    /// neither covers the other.
     private var label: some View {
-        VStack(spacing: 12) {
-            Image(systemName: "chevron.forward").font(.title)
-            if !showsCaption { Text("See all").font(.headline) }
+        GeometryReader { geometry in
+            let size = geometry.size
+            let isWide = size.width > size.height * 1.1
+            Group {
+                if previewItems.isEmpty {
+                    badge.frame(width: size.width, height: size.height)
+                } else if isWide {
+                    HStack(spacing: 0) {
+                        posterFan(height: size.height * 0.72, maxWidth: size.width * 0.48)
+                            .frame(width: size.width * 0.58, height: size.height)
+                        badge.frame(width: size.width * 0.42, height: size.height)
+                    }
+                } else {
+                    ZStack(alignment: .bottom) {
+                        posterFan(height: size.height * 0.5, maxWidth: size.width * 0.92)
+                            .frame(width: size.width, height: size.height)
+                            .offset(y: -size.height * 0.1)
+                        // Lets the badge and its text read over any artwork.
+                        LinearGradient(
+                            colors: [.clear, .black.opacity(0.55)],
+                            startPoint: UnitPoint(x: 0.5, y: 0.5), endPoint: .bottom
+                        )
+                        .allowsHitTesting(false)
+                        badge.padding(.bottom, size.height * 0.07)
+                    }
+                }
+            }
+            .frame(width: size.width, height: size.height)
         }
-        .foregroundStyle(palette.primaryText)
+        .accessibilityHidden(true)
+    }
+
+    private var badge: some View {
+        VStack(spacing: 10 * metrics.scale) {
+            Image(systemName: "arrow.right")
+                .font(.system(size: 26 * metrics.scale, weight: .bold))
+                .foregroundStyle(.black.opacity(0.85))
+                .frame(width: 64 * metrics.scale, height: 64 * metrics.scale)
+                .background(Circle().fill(.white.opacity(focused ? 1 : 0.9)))
+                .shadow(color: .black.opacity(0.35), radius: 12, y: 6)
+                .scaleEffect(focused ? 1.08 : 1)
+            if !showsCaption {
+                Text("See all")
+                    .font(.headline)
+                    .foregroundStyle(previewItems.isEmpty ? palette.primaryText : .white)
+                    .shadow(color: .black.opacity(previewItems.isEmpty ? 0 : 0.4), radius: 6, y: 2)
+            }
+        }
+        .animation(reduceMotion ? nil : .smooth(duration: 0.25), value: focused)
+    }
+
+    /// Up to three posters fanned around the centre, the first title in front,
+    /// sized so the whole fan fits `maxWidth`. Posters only: an episode resolves
+    /// to its show's poster, never its own frame, so the preview can't spoil
+    /// anything.
+    private func posterFan(height: CGFloat, maxWidth: CGFloat) -> some View {
+        let spread = focused && !reduceMotion
+        let widthFactor = MediaRowBrowsePreview.fanWidthFactor(count: previewItems.count)
+        let posterWidth = min(height * 2 / 3, maxWidth / widthFactor)
+        let posterHeight = posterWidth * 3 / 2
+        return ZStack {
+            ForEach(Array(previewItems.enumerated()).reversed(), id: \.element.stablePresentationID) { index, item in
+                let layout = MediaRowBrowsePreview.layout(index: index, count: previewItems.count, spread: spread)
+                FallbackAsyncImage(
+                    references: previewArtworkPolicy.references(for: item, style: .poster),
+                    variant: .posterCard
+                ) { image in
+                    image.resizable().aspectRatio(contentMode: .fill)
+                } placeholder: {
+                    palette.fill.brightness(0.08)
+                }
+                .frame(width: posterWidth, height: posterHeight)
+                .clipShape(RoundedRectangle(cornerRadius: 8 * metrics.scale, style: .continuous))
+                .shadow(color: .black.opacity(0.45), radius: 10, y: 6)
+                .rotationEffect(.degrees(layout.rotation))
+                .offset(x: layout.offset * posterWidth, y: abs(layout.offset) * posterHeight * 0.08)
+                .brightness(index == 0 ? 0 : -0.12)
+            }
+        }
+        .animation(reduceMotion ? nil : .smooth(duration: 0.3), value: spread)
     }
 
     private var caption: some View {
