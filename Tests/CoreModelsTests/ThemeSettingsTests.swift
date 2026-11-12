@@ -66,6 +66,43 @@ final class ThemeSettingsStoreTests: XCTestCase {
         XCTAssertTrue(other.loadGradientEnabled())
     }
 
+    func testOpacityDefaultsToTodaysLookAndPersistsPerProfile() {
+        let defaults = makeDefaults()
+        let primary = ThemeSettingsStore(defaults: defaults)
+        let other = ThemeSettingsStore(defaults: defaults, namespace: "other")
+        XCTAssertEqual(primary.loadOpacity(), .default)
+        XCTAssertEqual(ThemeOpacitySettings.default.backgroundStrength(for: .black), 100)
+        XCTAssertEqual(ThemeOpacitySettings.default.artworkBehindPage, 0, "Artwork behind page is off by default")
+        XCTAssertEqual(ThemeOpacitySettings.default.heroFade, 100)
+
+        var settings = ThemeOpacitySettings.default
+        settings.setBackgroundStrength(60, for: .black)
+        settings.setBackgroundStrength(80, for: .light)
+        settings.artworkBehindPage = 40
+        settings.heroFade = 30
+        primary.saveOpacity(settings)
+        XCTAssertEqual(primary.loadOpacity(), settings)
+        XCTAssertEqual(other.loadOpacity(), .default, "Profiles keep their own values")
+        XCTAssertEqual(primary.loadOpacity().backgroundStrength(for: .dark), 100, "Each mode keeps its own strength")
+
+        let snapshot = ProfileSettingsTransfer.capture(namespace: nil, defaults: defaults)
+        ProfileSettingsTransfer.apply(snapshot, namespace: "other", defaults: defaults)
+        XCTAssertEqual(other.loadOpacity(), settings, "Travels with the profile-settings transfer")
+    }
+
+    func testOpacityResolvesSystemToTheDevicePageColourAndClampsValues() throws {
+        XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.pureBlack, systemIsDark: false), .black)
+        XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.system, systemIsDark: true), .dark)
+        XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.system, systemIsDark: false), .light)
+        XCTAssertEqual(ThemeOpacitySettings.backgroundStrengthOptions, [50, 60, 70, 80, 90, 100])
+        let json = #"{"blackBackgroundStrength":10,"artworkBehindPage":-5,"heroFade":134}"#
+        let decoded = try JSONDecoder().decode(ThemeOpacitySettings.self, from: Data(json.utf8))
+        XCTAssertEqual(decoded.blackBackgroundStrength, 50, "Never softer than 50%")
+        XCTAssertEqual(decoded.artworkBehindPage, 0)
+        XCTAssertEqual(decoded.heroFade, 100)
+        XCTAssertEqual(decoded.lightBackgroundStrength, 100, "Missing fields keep their defaults")
+    }
+
     @MainActor
     func testModelPersistsOnChange() {
         let defaults = makeDefaults()

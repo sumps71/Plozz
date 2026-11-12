@@ -159484,6 +159484,9 @@
         }
       }
     },
+    "Artwork behind page" : {
+
+    },
     "Artwork by view" : {
       "localizations" : {
         "ar" : {
@@ -180214,6 +180217,12 @@
           }
         }
       }
+    },
+    "Background strength" : {
+
+    },
+    "Background strength is saved separately for Black, Dark and Light." : {
+
     },
     "Backgrounds, logos, and Home rows." : {
       "extractionState" : "stale",
@@ -411011,6 +411020,9 @@
           }
         }
       }
+    },
+    "Hero fade" : {
+
     },
     "Hero item" : {
       "comment" : "Accessibility label for the iOS Home hero paging indicator. Its accessibility value announces the current item position.",
@@ -1097131,6 +1097143,18 @@
         }
       }
     },
+    "homeRow.upcomingEpisodes" : {
+      "comment" : "Home screen row name, e.g. in Settings > Customize Home. Lists episodes that have not aired yet.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Upcoming Episodes"
+          }
+        }
+      }
+    },
     "homeRow.watchlist" : {
       "comment" : "Home screen row name, e.g. in Settings > Customize Home.",
       "localizations" : {
@@ -1098038,6 +1098062,18 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "最近新增"
+          }
+        }
+      }
+    },
+    "homeRowKind.upcomingEpisodes" : {
+      "comment" : "Home screen row of episodes that have not aired yet, from shows the user has started watching.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Upcoming Episodes"
           }
         }
       }
@@ -1177901,6 +1177937,15 @@
           }
         }
       }
+    },
+    "theme black dark light opacity page colour color softer charcoal grey gray" : {
+
+    },
+    "theme opacity hero artwork vignette dissolve edge darkened left" : {
+
+    },
+    "theme opacity transparent hero artwork blur see through background" : {
+
     },
     "theme.appearance.dark" : {
       "comment" : "Appearance/theme option shown in the Settings theme picker.",

@@ -228,6 +228,30 @@ public struct ThemePalette: Equatable, Sendable {
         self.isLight = isLight
     }
 
+    /// This palette with its page background softened toward a neutral grey.
+    ///
+    /// `strength` 1 returns the palette unchanged; lower values blend the page
+    /// colours (gradient stops and the Settings page) toward mid-grey, so Black
+    /// becomes charcoal and Light a greyer white. Text and surface tokens are
+    /// untouched, which is why the setting stops at 50%.
+    public func adjustingBackground(strength: Double) -> ThemePalette {
+        let blend = 1 - min(max(strength, 0), 1)
+        guard blend > 0 else { return self }
+        let neutral = Color(white: 0.5)
+        return ThemePalette(
+            backgroundBase: backgroundBase.mix(with: neutral, by: blend),
+            backgroundSecondary: backgroundSecondary.mix(with: neutral, by: blend),
+            settingsBackground: settingsBackground.mix(with: neutral, by: blend),
+            cardSurface: cardSurface, cardBorder: cardBorder,
+            primaryText: primaryText, secondaryText: secondaryText, tertiaryText: tertiaryText,
+            accent: accent, errorText: errorText, topGlow: topGlow,
+            focusedCardGlassTint: focusedCardGlassTint, liftSurface: liftSurface,
+            cardOpaqueSurface: cardOpaqueSurface, cardOpaqueBorder: cardOpaqueBorder,
+            raised: raised, overlay: overlay, separator: separator,
+            fill: fill, fillSubtle: fillSubtle, isLight: isLight
+        )
+    }
+
     /// Resolves the appearance for an elevation rung. Call sites use the
     /// ``SwiftUI/View/plozzSurface(_:cornerRadius:)`` modifier rather than reading
     /// this directly.
@@ -515,6 +539,15 @@ public struct AppBackground: View {
 }
 
 // MARK: - Environment plumbing
+
+public extension EnvironmentValues {
+    /// How far the Home hero artwork fades into the page (0…1, 1 = standard).
+    /// From ``ThemeOpacitySettings/heroFade``.
+    @Entry var heroFadeAmount: Double = 1
+    /// How much of the current hero artwork shows, blurred, through the page
+    /// (0 = off). From ``ThemeOpacitySettings/artworkBehindPage``.
+    @Entry var heroArtworkBehindPage: Double = 0
+}
 
 private struct ThemePaletteKey: EnvironmentKey {
     static let defaultValue: ThemePalette = .dark

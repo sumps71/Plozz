@@ -213,6 +213,9 @@ struct AppearanceDetailView: View {
             .settingsSearchAnchor("theme")
         Toggle("Gradient Backgrounds", isOn: $theme.gradientEnabled)
             .settingsSearchAnchor("gradient-backgrounds")
+        #if os(tvOS)
+        ThemeOpacityControls(theme: theme)
+        #endif
     }
 
     private var metadataProviderLink: some View {
@@ -265,6 +268,56 @@ struct AppearanceDetailView: View {
         )
     }
 }
+
+#if os(tvOS)
+/// Background strength (for the theme's current page colour), artwork behind the
+/// page and hero fade. See ``ThemeOpacitySettings``.
+private struct ThemeOpacityControls: View {
+    @Bindable var theme: ThemeSettingsModel
+    @Environment(\.colorScheme) private var colorScheme
+
+    /// The page colour the selected theme shows right now; System follows the
+    /// device, so its strength is the one saved for Dark or Light.
+    private var mode: ThemeOpacitySettings.Mode {
+        .resolved(theme.theme, systemIsDark: colorScheme == .dark)
+    }
+
+    var body: some View {
+        SettingsStepper(
+            options: ThemeOpacitySettings.backgroundStrengthOptions,
+            selection: Binding(
+                get: { theme.opacity.backgroundStrength(for: mode) },
+                set: { theme.opacity.setBackgroundStrength($0, for: mode) }
+            ),
+            compact: true, label: "Background strength",
+            verbatimTitle: Self.percent
+        )
+        .accessibilityIdentifier("theme-background-strength")
+        .settingsSearchAnchor("theme-background-strength")
+        SettingsStepper(
+            options: ThemeOpacitySettings.percentOptions,
+            selection: $theme.opacity.artworkBehindPage,
+            compact: true, label: "Artwork behind page",
+            verbatimTitle: Self.percent
+        )
+        .accessibilityIdentifier("theme-artwork-behind-page")
+        .settingsSearchAnchor("theme-artwork-behind-page")
+        SettingsStepper(
+            options: ThemeOpacitySettings.percentOptions,
+            selection: $theme.opacity.heroFade,
+            compact: true, label: "Hero fade",
+            verbatimTitle: Self.percent
+        )
+        .accessibilityIdentifier("theme-hero-fade")
+        .settingsSearchAnchor("theme-hero-fade")
+        Text("Background strength is saved separately for Black, Dark and Light.").settingsHelperText()
+    }
+
+    private static func percent(_ value: Int) -> String {
+        (Double(value) / 100).formatted(.percent.precision(.fractionLength(0)))
+    }
+}
+#endif
 
 struct AllScreensDetailView: View {
     @Environment(ContentRatingSettingsModel.self) private var contentRatings

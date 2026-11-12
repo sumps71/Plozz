@@ -164,7 +164,10 @@ public struct RootView: View {
     /// propagates back up to pollute this read. Re-resolves when the chosen theme
     /// or the device appearance changes.
     private var resolvedPalette: ThemePalette {
-        ThemePalette.palette(for: appState.profileSettings.themeModel.theme, systemColorScheme: systemColorScheme)
+        let themeModel = appState.profileSettings.themeModel
+        let mode = ThemeOpacitySettings.Mode.resolved(themeModel.theme, systemIsDark: systemColorScheme == .dark)
+        return ThemePalette.palette(for: themeModel.theme, systemColorScheme: systemColorScheme)
+            .adjustingBackground(strength: Double(themeModel.opacity.backgroundStrength(for: mode)) / 100)
     }
 
     /// Reconcile the crash reporter with the current opt-in consent. Safe to call
@@ -843,6 +846,8 @@ public struct RootView: View {
             appState.addAccount(provider: .iptv, playlist: request.playlist, iptvAccount: request.account)
         }
         .environment(\.gradientBackgroundsEnabled, appState.profileSettings.themeModel.gradientEnabled)
+        .environment(\.heroFadeAmount, Double(appState.profileSettings.themeModel.opacity.heroFade) / 100)
+        .environment(\.heroArtworkBehindPage, Double(appState.profileSettings.themeModel.opacity.artworkBehindPage) / 100)
         .environment(appState.profileSettings.contentRatingModel)
         .environment(\.plozzShowsContentRatings, appState.profileSettings.contentRatingModel.showsRatings)
         .environment(\.familyGuidanceProvider, appState.familyGuidance)
@@ -975,6 +980,8 @@ public struct RootView: View {
                 )
                 .environment(\.themePalette, resolvedPalette)
                 .environment(\.gradientBackgroundsEnabled, appState.profileSettings.themeModel.gradientEnabled)
+                .environment(\.heroFadeAmount, Double(appState.profileSettings.themeModel.opacity.heroFade) / 100)
+                .environment(\.heroArtworkBehindPage, Double(appState.profileSettings.themeModel.opacity.artworkBehindPage) / 100)
                 .environment(\.colorScheme, resolvedPalette.isLight ? .light : .dark)
                 .environment(\.plozzReduceTransparency,
                     appState.profileSettings.transparencyModel.preference.reducesTransparency(
@@ -1108,6 +1115,8 @@ public struct RootView: View {
         ForegroundProfileGateView(appState: appState, onUnlock: onUnlock)
         .environment(\.themePalette, resolvedPalette)
         .environment(\.gradientBackgroundsEnabled, appState.profileSettings.themeModel.gradientEnabled)
+        .environment(\.heroFadeAmount, Double(appState.profileSettings.themeModel.opacity.heroFade) / 100)
+        .environment(\.heroArtworkBehindPage, Double(appState.profileSettings.themeModel.opacity.artworkBehindPage) / 100)
         .environment(\.colorScheme, resolvedPalette.isLight ? .light : .dark)
         .environment(\.plozzReduceTransparency,
             appState.profileSettings.transparencyModel.preference.reducesTransparency(
