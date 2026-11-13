@@ -312435,6 +312435,9 @@
         }
       }
     },
+    "Directed by %@" : {
+
+    },
     "Director" : {
       "comment" : "Credit label on movie detail hero metadata for the director name or names.",
       "localizations" : {
@@ -769106,6 +769109,9 @@
         }
       }
     },
+    "See all layout" : {
+
+    },
     "Seeded shuffle" : {
       "localizations" : {
         "ar" : {
@@ -1048252,6 +1048258,9 @@
         }
       }
     },
+    "With %@" : {
+
+    },
     "With guide listings" : {
       "localizations" : {
         "ar" : {
@@ -1071414,6 +1071423,30 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "blu-ray bdmv 選單 播放 影片 預設"
+          }
+        }
+      }
+    },
+    "browseLayout.grid" : {
+      "comment" : "See all screen layout option in Settings > Appearance: the full poster grid.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Grid"
+          }
+        }
+      }
+    },
+    "browseLayout.gridWithDetails" : {
+      "comment" : "See all screen layout option in Settings > Appearance: a poster grid beside a panel describing the focused title.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Grid with details"
           }
         }
       }
@@ -1150571,6 +1150604,9 @@
           }
         }
       }
+    },
+    "see all browse grid details panel synopsis information layout" : {
+
     },
     "selected card highlight zoom lift outline remote" : {
       "localizations" : {

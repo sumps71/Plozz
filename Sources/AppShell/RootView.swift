@@ -895,6 +895,7 @@ public struct RootView: View {
         .environment(\.gradientBackgroundsEnabled, appState.profileSettings.themeModel.gradientEnabled)
         .environment(\.heroFadeAmount, Double(appState.profileSettings.themeModel.opacity.heroFade) / 100)
         .environment(\.heroArtworkBehindPage, Double(appState.profileSettings.themeModel.opacity.artworkBehindPage) / 100)
+        .environment(\.browseShowsDetails, appState.profileSettings.themeModel.browseLayout == .gridWithDetails)
         .environment(appState.profileSettings.contentRatingModel)
         .environment(\.plozzShowsContentRatings, appState.profileSettings.contentRatingModel.showsRatings)
         .environment(\.familyGuidanceProvider, appState.familyGuidance)
@@ -1022,6 +1023,7 @@ public struct RootView: View {
                 .environment(\.gradientBackgroundsEnabled, appState.profileSettings.themeModel.gradientEnabled)
                 .environment(\.heroFadeAmount, Double(appState.profileSettings.themeModel.opacity.heroFade) / 100)
                 .environment(\.heroArtworkBehindPage, Double(appState.profileSettings.themeModel.opacity.artworkBehindPage) / 100)
+                .environment(\.browseShowsDetails, appState.profileSettings.themeModel.browseLayout == .gridWithDetails)
                 .environment(\.colorScheme, resolvedPalette.isLight ? .light : .dark)
                 .environment(\.plozzReduceTransparency,
                     appState.profileSettings.transparencyModel.preference.reducesTransparency(
@@ -1160,6 +1162,7 @@ public struct RootView: View {
         .environment(\.gradientBackgroundsEnabled, appState.profileSettings.themeModel.gradientEnabled)
         .environment(\.heroFadeAmount, Double(appState.profileSettings.themeModel.opacity.heroFade) / 100)
         .environment(\.heroArtworkBehindPage, Double(appState.profileSettings.themeModel.opacity.artworkBehindPage) / 100)
+        .environment(\.browseShowsDetails, appState.profileSettings.themeModel.browseLayout == .gridWithDetails)
         .environment(\.colorScheme, resolvedPalette.isLight ? .light : .dark)
         .environment(\.plozzReduceTransparency,
             appState.profileSettings.transparencyModel.preference.reducesTransparency(

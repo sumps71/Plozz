@@ -90,6 +90,23 @@ final class ThemeSettingsStoreTests: XCTestCase {
         XCTAssertEqual(other.loadOpacity(), settings, "Travels with the profile-settings transfer")
     }
 
+    @MainActor
+    func testBrowseLayoutDefaultsToTheGridAndPersistsPerProfile() {
+        let defaults = makeDefaults()
+        let primary = ThemeSettingsStore(defaults: defaults)
+        let other = ThemeSettingsStore(defaults: defaults, namespace: "other")
+        XCTAssertEqual(primary.loadBrowseLayout(), .grid, "Unchanged See all screen by default")
+        let model = ThemeSettingsModel(store: primary)
+        model.browseLayout = .gridWithDetails
+        XCTAssertEqual(ThemeSettingsModel(store: primary).browseLayout, .gridWithDetails)
+        XCTAssertEqual(other.loadBrowseLayout(), .grid, "Profiles keep their own layout")
+        let snapshot = ProfileSettingsTransfer.capture(namespace: nil, defaults: defaults)
+        ProfileSettingsTransfer.apply(snapshot, namespace: "other", defaults: defaults)
+        XCTAssertEqual(other.loadBrowseLayout(), .gridWithDetails, "Travels with the profile-settings transfer")
+        defaults.set("diagonal", forKey: ThemeSettingsStore.browseLayoutStorageKey)
+        XCTAssertEqual(primary.loadBrowseLayout(), .grid, "An unknown value falls back to the grid")
+    }
+
     func testOpacityResolvesSystemToTheDevicePageColourAndClampsValues() throws {
         XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.pureBlack, systemIsDark: false), .black)
         XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.system, systemIsDark: true), .dark)

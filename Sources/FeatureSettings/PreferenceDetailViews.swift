@@ -311,6 +311,14 @@ private struct ThemeOpacityControls: View {
         .accessibilityIdentifier("theme-hero-fade")
         .settingsSearchAnchor("theme-hero-fade")
         Text("Background strength is saved separately for Black, Dark and Light.").settingsHelperText()
+        SettingsStepper(
+            options: BrowseLayout.allCases,
+            selection: $theme.browseLayout,
+            compact: true, label: "See all layout",
+            title: { $0.displayName }
+        )
+        .accessibilityIdentifier("theme-see-all-layout")
+        .settingsSearchAnchor("theme-see-all-layout")
     }
 
     private static func percent(_ value: Int) -> String {

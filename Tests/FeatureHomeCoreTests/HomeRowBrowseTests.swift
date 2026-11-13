@@ -4,6 +4,31 @@ import XCTest
 
 @MainActor
 final class HomeRowBrowseTests: XCTestCase {
+    func testDetailsPanelFillsMissingFieldsAndKeepsTheGridItemsIdentity() {
+        var listed = MediaItem(id: "m1", title: "Ironwood", kind: .movie)
+        listed.sourceAccountID = "account-a"
+        listed.overview = "Listed synopsis"
+        var full = MediaItem(id: "m1", title: "Server Title", kind: .movie)
+        full.sourceAccountID = "account-b"
+        full.overview = "Full synopsis"
+        full.genres = ["Drama"]
+        full.productionYear = 2026
+        full.runtime = 7680
+        full.officialRating = "15"
+        full.people = [MediaPerson(id: "d", name: "Ana Whitlow", kind: "Director")]
+        let merged = listed.mergingBrowseDetails(from: full)
+        XCTAssertEqual(merged.title, "Ironwood", "The grid's own title stays")
+        XCTAssertEqual(merged.sourceAccountID, "account-a", "The grid's source stays")
+        XCTAssertEqual(merged.overview, "Listed synopsis", "Existing fields are not overwritten")
+        XCTAssertEqual(merged.genres, ["Drama"])
+        XCTAssertEqual(merged.productionYear, 2026)
+        XCTAssertEqual(merged.runtime, 7680)
+        XCTAssertEqual(merged.officialRating, "15")
+        XCTAssertEqual(merged.people.map(\.name), ["Ana Whitlow"])
+        listed.overview = nil
+        XCTAssertEqual(listed.mergingBrowseDetails(from: full).overview, "Full synopsis", "A missing synopsis is filled")
+    }
+
     func testContinueWatchingBrowserCuratesWithoutChangingProviderOffsets() async throws {
         var all = (0..<125).map {
             MediaItem(id: "\($0)", title: "Video", kind: .movie, runtime: 600, resumePosition: 2)
