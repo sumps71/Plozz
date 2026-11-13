@@ -198,6 +198,10 @@ anchor, missing destination anchor, stale exclusion or changed boundary fails.
 Review a failure rather than accepting the current inventory as a new baseline.
 When extracting connection-setup subviews, keep their files traversable and
 update only the reviewed control keys and counts, not broad component exemptions.
+When a containing input row or stack owns the search anchor, record the exact
+inner control with `covered_by` pointing to that indexed destination; do not
+give every child of an anchored container implicit coverage. Repository-backed
+regressions keep refactored editors discoverable and reject removed row anchors.
 Runtime navigation, provider access, lazy reveal and native focus still require
 behavioral tests; static coverage is not proof that a screen works.
 
@@ -754,15 +758,69 @@ watch history and planning-list behavior are documented in
   the action from the editable rows. Edit/Done switches to native movement controls
   with no Hidden drop zone. Hero and Row style remain separate Home settings.
   Mobile uses the shared page inset without extra gutters.
-  Add row separates **From a collection** from **Available rows** not already
+  Add row separates **Custom row** from **Available rows** not already
   shown. Empty results omit the empty heading; discovery failures show source
-  errors and Retry instead of claiming no rows are available. Creation starts with
-  a library collection; the editor identifies that source as Content and its
-  presentation as Layout (see [Home terminology](../../CONTEXT.md)). Choose a source collection first,
-  then edit its name and Posters, Landscape or Featured presentation. A live
-  real-title preview leads the editor, with compact native **Layout** and **Logo**
-  menu rows underneath rather than controls inside the preview.
-  The preview uses the existing artwork preferences and spoiler protection.
+  errors and Retry instead of claiming no rows are available. A custom row's
+  **Content** picker can combine collections, video playlists, video libraries,
+  recommendation feeds, Watchlist, Continue Watching, and Recently Added.
+  Selection order determines the interleave; duplicate titles retain their
+  existing cross-source identity and playback references. Unavailable saved
+  sources remain visible and removable. An existing row cannot lose its last
+  source; a new empty draft cannot be saved.
+  The picker uses standard grouped Settings choice rows. A separate compact
+  Selected summary includes nested sources and their library/server context,
+  with explicit remove buttons instead of duplicate checkmarks. Collection and
+  playlist drill-ins do not repeat that summary. Done returns one level without
+  saving a new row: mobile retains the editor's toolbar save, TV existing rows
+  autosave, and TV new rows still require Add to Home.
+  Leaving a changed new row on TV, using either the header Back button or the
+  remote, asks whether to Add to Home, Discard, or Keep Editing. Add to Home
+  remains unavailable without valid content, and a failed save keeps the editor
+  open with its error. Untouched or fully reverted drafts leave without prompting;
+  navigating into Content does not count as leaving the editor.
+  Container selections project the original sources binding through a writable
+  key path, so checkmarks update immediately in retained TV destinations without
+  a separate selection cache.
+  The editor separates Content from Layout (see [Home terminology](../../CONTEXT.md)).
+  Content, a single-line **Name** input, **Sort**, **Filter**, and **Layout** share one Settings group;
+  the name label stacks above its input at accessibility text sizes.
+  Mobile Sort, Filter, Layout and Logo menus match the other editor rows' 44-point minimum
+  content height before group insets, without changing unrelated Settings menus.
+  Choose Posters, Landscape or Featured presentation, with **Logo** below Layout
+  for landscape rows. Once content is selected, a live real-title preview appears
+  below the controls without another enclosing card, with eight additional points
+  separating it from the controls. Empty drafts omit the preview.
+  The preview uses Home's actual heading, rail spacing, viewport-fitted card
+  widths, captions, artwork preferences and spoiler protection through
+  CoreUI's `HomeRowPreviewView`. Featured sizing and focus also share Home's
+  presentation owner. On TV, the preview aligns with the settings group and
+  sizes cards against the containing page stack's full content viewport, not
+  the narrower editor column. The horizontal scroll viewport extends to both
+  screen edges; its initial content margin keeps the first card aligned with
+  the settings group while scrolled cards remain visible outside that column.
+  Sizing preserves Home's navigation gutter and poster trailing-safe-area
+  behavior without carrying the navigation gutter or fade into the preview.
+  Mobile removes the surrounding gutter only for the rail, avoiding a second inset.
+  Preview cards cannot navigate,
+  play, or mutate titles; TV focus and scrolling remain usable.
+  Sort defaults to Source order, preserving playlist sequence. The saved sort,
+  direction and media/watch-status filters also apply to Home and the initial
+  opened grid. Query changes cancel stale preview work and reuse complete
+  membership within the same scoped editor session. Large sources take longer
+  with an explicit query because ordering/filtering must cover the whole source,
+  not just the first preview page. Errors remain visible with Retry.
+  Settings presentation must forward the active Home snapshot provider for
+  Continue Watching and Watchlist previews, including the mobile Settings sheet.
+  Pausing Home refresh behind mobile Settings does not revoke read access to
+  the authorized, current-profile snapshot; profile/account changes, revoked
+  authorization and mismatched visibility still reject reads.
+  Small recommendation pages reuse the traversal's pinned items. Prefix-based
+  continuation requests include enough items to validate every pinned anchor,
+  even when an individual source's share of a combined page is smaller.
+  A failing source retains the other sources' preview titles and an explicit
+  retry. Diagnostic submissions record failed preview feed kinds, provider,
+  paging bounds, snapshot availability and safe HTTP route/status evidence in
+  the bounded library journal, never source titles, identifiers or URLs.
   Landscape exposes **Logo: On / Off** for movie/show cards on all platforms,
   defaulting to Off. Older Automatic values migrate to Off; saved On/Off choices
   remain intact. On uses the shared background/logo treatment and is never
