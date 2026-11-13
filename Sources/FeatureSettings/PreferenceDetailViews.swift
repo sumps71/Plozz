@@ -334,8 +334,10 @@ private struct ThemeOpacityControls: View {
         }
     }
 
-    private static func seconds(_ value: Int) -> String {
-        Duration.seconds(value).formatted(.units(allowed: [.seconds], width: .abbreviated))
+    private static func seconds(_ value: Double) -> String {
+        Measurement(value: value, unit: UnitDuration.seconds).formatted(
+            .measurement(width: .abbreviated, numberFormatStyle: .number.precision(.fractionLength(0...1)))
+        )
     }
 
     private static func percent(_ value: Int) -> String {

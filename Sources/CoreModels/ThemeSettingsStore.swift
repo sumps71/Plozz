@@ -14,8 +14,8 @@ public protocol ThemeSettingsStoring: Sendable {
     func saveOpacity(_ settings: ThemeOpacitySettings)
     func loadBrowseLayout() -> BrowseLayout
     func saveBrowseLayout(_ layout: BrowseLayout)
-    func loadBrowsePopupDelay() -> Int
-    func saveBrowsePopupDelay(_ seconds: Int)
+    func loadBrowsePopupDelay() -> Double
+    func saveBrowsePopupDelay(_ seconds: Double)
 }
 
 public extension ThemeSettingsStoring {
@@ -23,8 +23,8 @@ public extension ThemeSettingsStoring {
     func saveOpacity(_ settings: ThemeOpacitySettings) {}
     func loadBrowseLayout() -> BrowseLayout { .default }
     func saveBrowseLayout(_ layout: BrowseLayout) {}
-    func loadBrowsePopupDelay() -> Int { BrowsePopupDelay.default }
-    func saveBrowsePopupDelay(_ seconds: Int) {}
+    func loadBrowsePopupDelay() -> Double { BrowsePopupDelay.default }
+    func saveBrowsePopupDelay(_ seconds: Double) {}
 }
 
 public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable {
@@ -49,14 +49,15 @@ public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable
 
     public static let browsePopupDelayStorageKey = "com.plozz.browsePopupDelay"
 
-    public func loadBrowsePopupDelay() -> Int {
-        guard let stored = defaults.object(forKey: browsePopupDelayKey) as? Int else {
+    public func loadBrowsePopupDelay() -> Double {
+        // Whole seconds saved before half steps read the same way.
+        guard let stored = (defaults.object(forKey: browsePopupDelayKey) as? NSNumber)?.doubleValue else {
             return BrowsePopupDelay.default
         }
         return BrowsePopupDelay.snapped(stored)
     }
 
-    public func saveBrowsePopupDelay(_ seconds: Int) {
+    public func saveBrowsePopupDelay(_ seconds: Double) {
         defaults.set(BrowsePopupDelay.snapped(seconds), forKey: browsePopupDelayKey)
     }
 
@@ -133,12 +134,12 @@ public final class ThemeSettingsModel {
     }
     /// Seconds focus rests on a title before the See all pop-up appears (see
     /// ``BrowsePopupDelay``).
-    public var browsePopupDelay: Int {
+    public var browsePopupDelay: Double {
         didSet { store.saveBrowsePopupDelay(browsePopupDelay) }
     }
 
     /// The pop-up delay when the See all layout uses the pop-up, else `nil`.
-    public var browseDetailPopupDelay: Int? {
+    public var browseDetailPopupDelay: Double? {
         browseLayout == .gridWithPopup ? browsePopupDelay : nil
     }
 

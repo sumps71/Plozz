@@ -113,23 +113,27 @@ final class ThemeSettingsStoreTests: XCTestCase {
         let primary = ThemeSettingsStore(defaults: defaults)
         let other = ThemeSettingsStore(defaults: defaults, namespace: "other")
         XCTAssertEqual(primary.loadBrowsePopupDelay(), 2)
-        XCTAssertEqual(BrowsePopupDelay.options, [1, 2, 3, 4, 5])
+        XCTAssertEqual(BrowsePopupDelay.options, [0.5, 1, 1.5, 2, 2.5, 3])
         let model = ThemeSettingsModel(store: primary)
         XCTAssertNil(model.browseDetailPopupDelay, "The plain grid shows no pop-up")
-        model.browsePopupDelay = 4
+        model.browsePopupDelay = 1.5
         model.browseLayout = .gridWithDetails
         XCTAssertNil(model.browseDetailPopupDelay, "The details panel replaces the pop-up")
         model.browseLayout = .gridWithPopup
-        XCTAssertEqual(model.browseDetailPopupDelay, 4)
-        XCTAssertEqual(ThemeSettingsModel(store: primary).browsePopupDelay, 4)
+        XCTAssertEqual(model.browseDetailPopupDelay, 1.5)
+        XCTAssertEqual(ThemeSettingsModel(store: primary).browsePopupDelay, 1.5)
         XCTAssertEqual(other.loadBrowsePopupDelay(), 2, "Profiles keep their own delay")
         let snapshot = ProfileSettingsTransfer.capture(namespace: nil, defaults: defaults)
         ProfileSettingsTransfer.apply(snapshot, namespace: "other", defaults: defaults)
-        XCTAssertEqual(other.loadBrowsePopupDelay(), 4, "Travels with the profile-settings transfer")
+        XCTAssertEqual(other.loadBrowsePopupDelay(), 1.5, "Travels with the profile-settings transfer")
         defaults.set(60, forKey: ThemeSettingsStore.browsePopupDelayStorageKey)
-        XCTAssertEqual(primary.loadBrowsePopupDelay(), 5, "Out-of-range values snap to the nearest option")
+        XCTAssertEqual(primary.loadBrowsePopupDelay(), 3, "Out-of-range values snap to the nearest option")
         defaults.set(0, forKey: ThemeSettingsStore.browsePopupDelayStorageKey)
-        XCTAssertEqual(primary.loadBrowsePopupDelay(), 1)
+        XCTAssertEqual(primary.loadBrowsePopupDelay(), 0.5)
+        defaults.set(1.3, forKey: ThemeSettingsStore.browsePopupDelayStorageKey)
+        XCTAssertEqual(primary.loadBrowsePopupDelay(), 1.5, "Between steps snaps to the nearest half second")
+        defaults.set(2, forKey: ThemeSettingsStore.browsePopupDelayStorageKey)
+        XCTAssertEqual(primary.loadBrowsePopupDelay(), 2, "A whole-second value saved earlier still reads")
     }
 
     func testOpacityResolvesSystemToTheDevicePageColourAndClampsValues() throws {

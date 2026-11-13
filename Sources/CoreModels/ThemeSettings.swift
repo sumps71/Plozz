@@ -117,15 +117,16 @@ public enum BrowseLayout: String, CaseIterable, Codable, Sendable {
 }
 
 /// How long focus rests on a title before the See all pop-up describes it, for
-/// ``BrowseLayout/gridWithPopup``. Whole seconds.
+/// ``BrowseLayout/gridWithPopup``: 0.5 to 3 seconds in half-second steps.
 public enum BrowsePopupDelay {
-    public static let options = Array(1...5)
-    public static let `default` = 2
+    public static let options: [Double] = Array(stride(from: 0.5, through: 3.0, by: 0.5))
+    public static let `default`: Double = 2
 
     /// The nearest offered value, so a stored or synced value outside the range
-    /// still behaves.
-    public static func snapped(_ seconds: Int) -> Int {
-        min(options.last ?? seconds, max(options.first ?? seconds, seconds))
+    /// or between steps still behaves.
+    public static func snapped(_ seconds: Double) -> Double {
+        guard seconds.isFinite else { return `default` }
+        return options.min { abs($0 - seconds) < abs($1 - seconds) } ?? `default`
     }
 }
 
