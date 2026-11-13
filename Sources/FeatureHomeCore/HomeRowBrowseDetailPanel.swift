@@ -8,7 +8,10 @@ import SwiftUI
 /// details, ratings, synopsis and credits. Information only — it never takes
 /// focus, so the grid behaves exactly as it does without it.
 struct HomeRowBrowseDetailPanel: View {
-    static let width: CGFloat = 620
+    static let width: CGFloat = 580
+    /// Clear space between the grid and the panel, so a focused card in the
+    /// grid's last column can grow and lift without running under the panel.
+    static let gridGap: CGFloat = 40
 
     let item: MediaItem?
     let spoilerSettings: SpoilerSettings

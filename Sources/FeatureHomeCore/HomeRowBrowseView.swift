@@ -53,7 +53,7 @@ public struct HomeRowBrowseView<Card: View>: View {
     public var body: some View {
         #if os(tvOS)
         if showsDetails {
-            HStack(spacing: 0) {
+            HStack(spacing: HomeRowBrowseDetailPanel.gridGap) {
                 grid
                 // The slot keeps the grid's width fixed; the panel is drawn from
                 // the slot's leading edge out to the screen's trailing edge, past
