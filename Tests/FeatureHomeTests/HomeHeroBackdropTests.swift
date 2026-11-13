@@ -25,6 +25,10 @@ final class HomeHeroBackdropTests: XCTestCase {
         XCTAssertEqual(HomeHeroScreenPlacement.screenEdgeOffset(slot: fullScreen), 0, "Unchanged when not inset")
         XCTAssertEqual(HomeHeroScreenPlacement.centringOffset(isCentred: true, slot: fullScreen, screenWidth: 1920), 0)
         XCTAssertEqual(HomeHeroScreenPlacement.screenEdgeOffset(slot: .zero), 0, "Before the first measurement")
+        // A measurement taken while centred art is shifted reports the shifted
+        // frame; removing that shift recovers the slot, so it converges at once.
+        let shifted = inset.offsetBy(dx: -80, dy: 0)
+        XCTAssertEqual(HomeHeroScreenPlacement.slot(measured: shifted, appliedOffset: -80), inset)
     }
 
     func testCentredShowcaseArtworkFadesBothSidesIdentically() {

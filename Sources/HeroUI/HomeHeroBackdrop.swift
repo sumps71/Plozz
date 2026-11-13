@@ -48,6 +48,11 @@ enum HomeHeroScreenPlacement {
         return screenWidth / 2 - slot.midX
     }
 
+    /// The slot's own frame, from a measurement taken inside the centring offset.
+    static func slot(measured: CGRect, appliedOffset: CGFloat) -> CGRect {
+        measured.offsetBy(dx: -appliedOffset, dy: 0)
+    }
+
     /// Moves a full-screen layer anchored at the slot's leading edge back to the
     /// screen's leading edge.
     static func screenEdgeOffset(slot: CGRect) -> CGFloat {
@@ -281,10 +286,20 @@ public struct HomeHeroBackdrop: View {
     public var body: some View {
         dissolvedSurface
             .frame(maxWidth: .infinity, alignment: artworkAlignment)
-            .offset(x: HomeHeroScreenPlacement.centringOffset(
-                isCentred: scrimStyle == .browse && centersArtwork,
-                slot: screenFrame, screenWidth: Self.screenSize.width
-            ))
+            // Measured on the slot itself: outer layers can sit inside the safe
+            // area while this one breaks out to the screen edges. Its screen
+            // position includes the centring offset applied below, so that offset
+            // is removed again rather than fed back into itself. Horizontal only,
+            // so vertical scrolling never re-renders it.
+            .onGeometryChange(for: CGRect.self) { proxy in
+                let frame = proxy.frame(in: .global)
+                return CGRect(x: frame.minX, y: 0, width: frame.width, height: 1)
+            } action: { measured in
+                screenFrame = HomeHeroScreenPlacement.slot(
+                    measured: measured, appliedOffset: centringOffset
+                )
+            }
+            .offset(x: centringOffset)
             // Keep the translation inside the safe-area breakout.
             .modifier(HomeVerticalMotion(y: -recedeLift - topOverscan))
             .animation(reduceMotion ? nil : .smooth(duration: 0.96), value: recedeLift)
@@ -299,13 +314,13 @@ public struct HomeHeroBackdrop: View {
                     ? [.top, .horizontal]
                     : .top
             )
-            // Measured on the outermost layer, which nothing here shifts: measuring
-            // inside the centring offset would feed that offset back into itself.
-            // Horizontal extent only, so vertical scrolling never re-renders it.
-            .onGeometryChange(for: CGRect.self) { proxy in
-                let frame = proxy.frame(in: .global)
-                return CGRect(x: frame.minX, y: 0, width: frame.width, height: 1)
-            } action: { screenFrame = $0 }
+    }
+
+    private var centringOffset: CGFloat {
+        HomeHeroScreenPlacement.centringOffset(
+            isCentred: scrimStyle == .browse && centersArtwork,
+            slot: screenFrame, screenWidth: Self.screenSize.width
+        )
     }
 
     /// The art melts into the page through `dissolveMask`. Hero fade below 100%
