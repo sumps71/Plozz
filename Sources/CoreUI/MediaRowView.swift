@@ -253,6 +253,11 @@ public struct MediaRowView: View {
     #if os(tvOS)
     @FocusState private var leadingItemFocused: Bool
     @State private var leadingBrowseFocused = false
+    /// Set when a See all card opens the row's browser, until focus comes back to
+    /// the row. Leaving for the browser isn't leaving the row: it keeps its scroll
+    /// position and the chosen card stays focusable, so Back lands on that card
+    /// rather than on the row above.
+    @State private var browseReturnPending = false
     @State private var railPosition = ScrollPosition(edge: .leading)
     #endif
     private let onItemExposed: ((MediaItem) -> Void)?
@@ -667,7 +672,9 @@ public struct MediaRowView: View {
                     .scrollClipDisabled()
                     #if os(tvOS)
                     .scrollPosition($railPosition)
-                    .onAppear { hideLeadingBrowseCard(animated: false) }
+                    .onAppear {
+                        if !browseReturnPending { hideLeadingBrowseCard(animated: false) }
+                    }
                     .onChange(of: showsLeadingBrowseCard) { _, shows in
                         if shows { hideLeadingBrowseCard(animated: false) }
                     }
@@ -1097,14 +1104,18 @@ public struct MediaRowView: View {
             previewItems: Array(Self.uniqued(items).prefix(MediaRowBrowsePreview.maximumCount)),
             previewArtworkPolicy: artworkPolicy,
             onFocus: {
+                browseReturnPending = false
                 if isLeading { leadingBrowseFocused = true }
                 activity.pendingReport?.cancel()
                 activity.pendingReport = nil
                 onFocusEntered?()
                 onFocusChange?(nil)
             },
-            onFocusLost: { if isLeading { leadingBrowseFocused = false } },
-            action: action
+            onFocusLost: { if isLeading, !browseReturnPending { leadingBrowseFocused = false } },
+            action: {
+                browseReturnPending = true
+                action()
+            }
         )
         // Reached only by pressing left from the first item, never by moving
         // up or down into the row.
@@ -1503,6 +1514,13 @@ public struct MediaRowView: View {
         // strand the focus indicator. The gate now re-arms only on `focusResetToken`
         // (focus actually left the row, up to the season bar).
         guard let newValue else { return }
+        #if os(tvOS)
+        if browseReturnPending {
+            // Back from the browser landed on a title instead of the card.
+            browseReturnPending = false
+            leadingBrowseFocused = false
+        }
+        #endif
         activity.hasBrowsedSinceTargetChange = true
         if let onCardFocused, let item = itemByID[newValue] { onCardFocused(item) }
         if !activity.focusEngaged { onFocusEntered?() }

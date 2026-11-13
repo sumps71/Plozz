@@ -36,6 +36,8 @@ public struct FeaturedMediaRow: View {
     @State private var priority: Int?
     @State private var isSettled = true
     @State private var leadingBrowseFocused = false
+    /// See ``FeaturedLeadingBrowseState/awaitingBrowseReturn``.
+    @State private var browseReturnPending = false
     @Environment(\.scenePhase) private var scenePhase
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     private var onBrowse: (() -> Void)?
@@ -165,7 +167,8 @@ public struct FeaturedMediaRow: View {
                 hasBrowseAction: true, itemCount: items.count, loadingPlaceholderCount: isLoading ? 1 : 0
             ),
             firstItemFocused: focusedID != nil && focusedID == items.first?.stablePresentationID,
-            cardFocused: leadingBrowseFocused
+            cardFocused: leadingBrowseFocused,
+            awaitingBrowseReturn: browseReturnPending
         )
         #else
         FeaturedLeadingBrowseState()
@@ -177,9 +180,12 @@ public struct FeaturedMediaRow: View {
         if let onBrowse, leadingBrowseState.shows {
             MediaRowBrowseCard(
                 width: size.width, featuredSize: size, isLeading: true, previewItems: items,
-                onFocus: { focusedID = nil; leadingBrowseFocused = true; coordinator.stop() },
-                onFocusLost: { leadingBrowseFocused = false },
-                action: { coordinator.stop(); onBrowse() }
+                onFocus: {
+                    focusedID = nil; leadingBrowseFocused = true; browseReturnPending = false
+                    coordinator.stop()
+                },
+                onFocusLost: { if !browseReturnPending { leadingBrowseFocused = false } },
+                action: { browseReturnPending = true; coordinator.stop(); onBrowse() }
             )
             // Reached only by pressing left from the first item.
             .disabled(!MediaRowLeadingBrowse.acceptsFocus(
@@ -198,6 +204,10 @@ public struct FeaturedMediaRow: View {
                 onFocus: { focused in
                     if focused {
                         focusedID = item.stablePresentationID
+                        if browseReturnPending {
+                            browseReturnPending = false
+                            leadingBrowseFocused = false
+                        }
                         onFocus?(item)
                     } else if focusedID == item.stablePresentationID {
                         focusedID = nil
@@ -214,8 +224,8 @@ public struct FeaturedMediaRow: View {
         if let onBrowse {
             MediaRowBrowseCard(
                 width: size.width, featuredSize: size, previewItems: items,
-                onFocus: { focusedID = nil; coordinator.stop() },
-                action: { coordinator.stop(); onBrowse() }
+                onFocus: { focusedID = nil; browseReturnPending = false; coordinator.stop() },
+                action: { browseReturnPending = true; coordinator.stop(); onBrowse() }
             )
         }
         #endif
