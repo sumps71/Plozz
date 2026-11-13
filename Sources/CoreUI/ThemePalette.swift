@@ -553,7 +553,7 @@ public extension EnvironmentValues {
     /// Seconds focus rests on a "See all" title before its details pop up
     /// beside it, or `nil` when the pop-up is off. From
     /// ``ThemeSettingsModel/browseLayout`` and ``ThemeSettingsModel/browsePopupDelay``.
-    @Entry var browseDetailPopupDelay: Int? = nil
+    @Entry var browseDetailPopupDelay: Double? = nil
 }
 
 private struct ThemePaletteKey: EnvironmentKey {
