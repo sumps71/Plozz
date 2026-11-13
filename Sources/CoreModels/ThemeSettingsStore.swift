@@ -12,11 +12,15 @@ public protocol ThemeSettingsStoring: Sendable {
     func saveGradientEnabled(_ enabled: Bool)
     func loadOpacity() -> ThemeOpacitySettings
     func saveOpacity(_ settings: ThemeOpacitySettings)
+    func loadBrowseLayout() -> BrowseLayout
+    func saveBrowseLayout(_ layout: BrowseLayout)
 }
 
 public extension ThemeSettingsStoring {
     func loadOpacity() -> ThemeOpacitySettings { .default }
     func saveOpacity(_ settings: ThemeOpacitySettings) {}
+    func loadBrowseLayout() -> BrowseLayout { .default }
+    func saveBrowseLayout(_ layout: BrowseLayout) {}
 }
 
 public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable {
@@ -24,6 +28,7 @@ public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable
     private let key: String
     private let gradientKey: String
     private let opacityKey: String
+    private let browseLayoutKey: String
 
     /// - Parameter namespace: per-profile scope. `nil` (the default/primary
     ///   profile) uses the legacy un-suffixed key; other profiles pass their
@@ -33,6 +38,17 @@ public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable
         self.key = SettingsKey.scoped("com.plozz.appTheme", namespace: namespace)
         self.gradientKey = SettingsKey.scoped(Self.gradientStorageKey, namespace: namespace)
         self.opacityKey = SettingsKey.scoped(Self.opacityStorageKey, namespace: namespace)
+        self.browseLayoutKey = SettingsKey.scoped(Self.browseLayoutStorageKey, namespace: namespace)
+    }
+
+    public static let browseLayoutStorageKey = "com.plozz.browseLayout"
+
+    public func loadBrowseLayout() -> BrowseLayout {
+        defaults.string(forKey: browseLayoutKey).flatMap(BrowseLayout.init(rawValue:)) ?? .default
+    }
+
+    public func saveBrowseLayout(_ layout: BrowseLayout) {
+        defaults.set(layout.rawValue, forKey: browseLayoutKey)
     }
 
     public static let opacityStorageKey = "com.plozz.themeOpacity"
@@ -92,6 +108,10 @@ public final class ThemeSettingsModel {
     public var opacity: ThemeOpacitySettings {
         didSet { store.saveOpacity(opacity) }
     }
+    /// How the Home "See all" screen lays out its titles (see ``BrowseLayout``).
+    public var browseLayout: BrowseLayout {
+        didSet { store.saveBrowseLayout(browseLayout) }
+    }
 
     private let store: ThemeSettingsStoring
 
@@ -100,5 +120,6 @@ public final class ThemeSettingsModel {
         self.theme = store.load()
         self.gradientEnabled = store.loadGradientEnabled()
         self.opacity = store.loadOpacity()
+        self.browseLayout = store.loadBrowseLayout()
     }
 }

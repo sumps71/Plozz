@@ -77,6 +77,35 @@ public enum AppTheme: String, CaseIterable, Identifiable, Codable, Sendable {
     public static let pickerOrder: [AppTheme] = [.pureBlack, .dark, .light, .system]
 }
 
+/// How the Home "See all" screen lays out its titles (Apple TV).
+public enum BrowseLayout: String, CaseIterable, Codable, Sendable {
+    /// The full poster grid.
+    case grid
+    /// A slightly narrower grid beside an information panel for the focused
+    /// title: artwork, details, ratings, synopsis and credits. Information only;
+    /// the panel never takes focus.
+    case gridWithDetails
+
+    public static let `default`: BrowseLayout = .grid
+
+    public var displayName: LocalizedStringResource {
+        switch self {
+        case .grid:
+            return LocalizedStringResource(
+                "browseLayout.grid",
+                defaultValue: "Grid",
+                comment: "See all screen layout option in Settings > Appearance: the full poster grid."
+            )
+        case .gridWithDetails:
+            return LocalizedStringResource(
+                "browseLayout.gridWithDetails",
+                defaultValue: "Grid with details",
+                comment: "See all screen layout option in Settings > Appearance: a poster grid beside a panel describing the focused title."
+            )
+        }
+    }
+}
+
 /// Per-profile strength adjustments for the theme's page background and the
 /// Home hero artwork. Every value defaults to today's look.
 ///

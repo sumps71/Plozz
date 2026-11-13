@@ -22,6 +22,15 @@ library scan is added to ordinary paging.
 
 ## Browsing Home rows
 
+On Apple TV, Settings > Appearance > See all layout offers **Grid with details**
+(`BrowseLayout`, per profile, default Grid). `HomeRowBrowseView` then drops one
+grid column and shows `HomeRowBrowseDetailPanel` for the focused title: backdrop
+(the show's for episodes), name, year/genres/runtime/rating, ratings, synopsis
+and credits. The panel never takes focus. Once focus settles, the shell's
+`loadDetails` fetches the full record from the item's own server (never a bare
+id across servers); spoiler settings hide episode titles and synopses. Library
+pages (`LibraryBrowseView`) keep their grid.
+
 Media rows have a title-chevron action on iPhone/iPad and **See all** cards on
 Apple TV, one after the last item and one before the first. The TV action is a
 separate native control, not a synthetic media item, and follows the rail's

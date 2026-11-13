@@ -547,6 +547,9 @@ public extension EnvironmentValues {
     /// How much of the current hero artwork shows, blurred, through the page
     /// (0 = off). From ``ThemeOpacitySettings/artworkBehindPage``.
     @Entry var heroArtworkBehindPage: Double = 0
+    /// Whether the Home "See all" screen shows the focused title's details
+    /// beside a narrower grid. From ``ThemeSettingsModel/browseLayout``.
+    @Entry var browseShowsDetails: Bool = false
 }
 
 private struct ThemePaletteKey: EnvironmentKey {

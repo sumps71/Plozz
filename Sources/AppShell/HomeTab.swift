@@ -555,7 +555,15 @@ struct HomeTab: View {
                             model: browser,
                             columns: browser.style == .landscape
                                 ? Array(metrics.posterColumns.prefix(max(1, metrics.posterColumns.count / 2)))
-                                : metrics.posterColumns
+                                : metrics.posterColumns,
+                            spoilerSettings: spoilerSettings,
+                            loadDetails: { [accounts] item in
+                                // Only the item's own server: bare ids can name
+                                // different titles on two servers.
+                                guard let accountID = item.sourceAccountID,
+                                      let provider = resolveOptionalProvider(accountID, in: accounts) else { return nil }
+                                return try? await provider.item(id: item.id)
+                            }
                         ) { item in
                             PosterCardView(
                                 item: item, style: browser.style == .landscape ? .landscape : .poster,
