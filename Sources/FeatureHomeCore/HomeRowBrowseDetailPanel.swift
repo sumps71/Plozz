@@ -13,6 +13,13 @@ struct HomeRowBrowseDetailPanel: View {
     /// grid's last column can grow and lift without running under the panel.
     static let gridGap: CGFloat = 40
 
+    /// How many of the grid's `columns` remain beside the panel. Poster walls
+    /// lose two so the cards grow; a landscape grid is already narrow and loses
+    /// one, never going below a single column.
+    static func columnCount(beside columns: Int) -> Int {
+        max(1, columns - (columns > 4 ? 2 : 1))
+    }
+
     let item: MediaItem?
     let spoilerSettings: SpoilerSettings
     /// The drawn width, which can exceed ``width`` to reach the screen's edge
