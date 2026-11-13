@@ -14,6 +14,8 @@ public protocol ThemeSettingsStoring: Sendable {
     func saveOpacity(_ settings: ThemeOpacitySettings)
     func loadBrowseLayout() -> BrowseLayout
     func saveBrowseLayout(_ layout: BrowseLayout)
+    func loadBrowsePopupDelay() -> Int
+    func saveBrowsePopupDelay(_ seconds: Int)
 }
 
 public extension ThemeSettingsStoring {
@@ -21,6 +23,8 @@ public extension ThemeSettingsStoring {
     func saveOpacity(_ settings: ThemeOpacitySettings) {}
     func loadBrowseLayout() -> BrowseLayout { .default }
     func saveBrowseLayout(_ layout: BrowseLayout) {}
+    func loadBrowsePopupDelay() -> Int { BrowsePopupDelay.default }
+    func saveBrowsePopupDelay(_ seconds: Int) {}
 }
 
 public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable {
@@ -29,6 +33,7 @@ public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable
     private let gradientKey: String
     private let opacityKey: String
     private let browseLayoutKey: String
+    private let browsePopupDelayKey: String
 
     /// - Parameter namespace: per-profile scope. `nil` (the default/primary
     ///   profile) uses the legacy un-suffixed key; other profiles pass their
@@ -39,6 +44,20 @@ public final class ThemeSettingsStore: ThemeSettingsStoring, @unchecked Sendable
         self.gradientKey = SettingsKey.scoped(Self.gradientStorageKey, namespace: namespace)
         self.opacityKey = SettingsKey.scoped(Self.opacityStorageKey, namespace: namespace)
         self.browseLayoutKey = SettingsKey.scoped(Self.browseLayoutStorageKey, namespace: namespace)
+        self.browsePopupDelayKey = SettingsKey.scoped(Self.browsePopupDelayStorageKey, namespace: namespace)
+    }
+
+    public static let browsePopupDelayStorageKey = "com.plozz.browsePopupDelay"
+
+    public func loadBrowsePopupDelay() -> Int {
+        guard let stored = defaults.object(forKey: browsePopupDelayKey) as? Int else {
+            return BrowsePopupDelay.default
+        }
+        return BrowsePopupDelay.snapped(stored)
+    }
+
+    public func saveBrowsePopupDelay(_ seconds: Int) {
+        defaults.set(BrowsePopupDelay.snapped(seconds), forKey: browsePopupDelayKey)
     }
 
     public static let browseLayoutStorageKey = "com.plozz.browseLayout"
@@ -112,6 +131,16 @@ public final class ThemeSettingsModel {
     public var browseLayout: BrowseLayout {
         didSet { store.saveBrowseLayout(browseLayout) }
     }
+    /// Seconds focus rests on a title before the See all pop-up appears (see
+    /// ``BrowsePopupDelay``).
+    public var browsePopupDelay: Int {
+        didSet { store.saveBrowsePopupDelay(browsePopupDelay) }
+    }
+
+    /// The pop-up delay when the See all layout uses the pop-up, else `nil`.
+    public var browseDetailPopupDelay: Int? {
+        browseLayout == .gridWithPopup ? browsePopupDelay : nil
+    }
 
     private let store: ThemeSettingsStoring
 
@@ -121,5 +150,6 @@ public final class ThemeSettingsModel {
         self.gradientEnabled = store.loadGradientEnabled()
         self.opacity = store.loadOpacity()
         self.browseLayout = store.loadBrowseLayout()
+        self.browsePopupDelay = store.loadBrowsePopupDelay()
     }
 }

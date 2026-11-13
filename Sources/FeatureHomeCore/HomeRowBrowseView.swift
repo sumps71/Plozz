@@ -25,6 +25,10 @@ public struct HomeRowBrowseView<Card: View>: View {
     @State private var detailItemID: String?
     @State private var detailedItems: [String: MediaItem] = [:]
     @State private var panelTrailingGap: CGFloat = 0
+    @Environment(\.browseDetailPopupDelay) private var popupDelay
+    /// The title the pop-up describes, once focus has rested on it.
+    @State private var popupItemID: String?
+    @State private var popupHeight: CGFloat = 0
 
     private static var screenWidth: CGFloat { UIScreen.main.bounds.width }
     #endif
@@ -77,6 +81,25 @@ public struct HomeRowBrowseView<Card: View>: View {
                 if let id { detailItemID = id }
             }
             .task(id: detailItemID) { await loadDetailsForFocusedItem() }
+        } else if let popupDelay {
+            grid
+                .overlayPreferenceValue(BrowseCardBoundsKey.self) { bounds in
+                    GeometryReader { proxy in
+                        detailPopup(cardBounds: bounds, in: proxy)
+                    }
+                }
+                .onChange(of: focusedItemID) { _, id in
+                    // Moving on hides the pop-up at once; it comes back for the
+                    // next title only once focus rests there.
+                    popupItemID = nil
+                    if let id { detailItemID = id }
+                }
+                .task(id: focusedItemID) {
+                    guard let id = focusedItemID else { return }
+                    do { try await Task.sleep(for: .seconds(popupDelay)) } catch { return }
+                    withAnimation(.easeOut(duration: 0.2)) { popupItemID = id }
+                }
+                .task(id: detailItemID) { await loadDetailsForFocusedItem() }
         } else {
             grid
         }
@@ -86,6 +109,29 @@ public struct HomeRowBrowseView<Card: View>: View {
     }
 
     #if os(tvOS)
+    /// Whether cards report focus: only when something describes the focused
+    /// title, so the plain grid never re-renders on focus changes.
+    private var tracksFocus: Bool { showsDetails || popupDelay != nil }
+
+    @ViewBuilder
+    private func detailPopup(cardBounds: [String: Anchor<CGRect>], in proxy: GeometryProxy) -> some View {
+        if let id = popupItemID, id == focusedItemID, let anchor = cardBounds[id] {
+            let size = CGSize(width: HomeRowBrowseDetailPanel.popupWidth, height: popupHeight)
+            let origin = HomeRowBrowseDetailPopupPlacement.origin(
+                card: proxy[anchor], popup: size, bounds: CGRect(origin: .zero, size: proxy.size)
+            )
+            HomeRowBrowseDetailPanel(
+                item: detailItem, spoilerSettings: spoilerSettings,
+                drawnWidth: HomeRowBrowseDetailPanel.popupWidth, style: .popup
+            )
+            .fixedSize(horizontal: false, vertical: true)
+            .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { popupHeight = $0 }
+            .offset(x: origin.x, y: origin.y)
+            .transition(.opacity.combined(with: .scale(scale: 0.96, anchor: .top)))
+            .accessibilityIdentifier("home-row-browser-detail-popup")
+        }
+    }
+
     /// The focused title, at its fullest known record.
     private var detailItem: MediaItem? {
         let id = detailItemID ?? model.items.first?.stablePresentationID
@@ -137,7 +183,8 @@ public struct HomeRowBrowseView<Card: View>: View {
                             card(item)
                                 #if os(tvOS)
                                 .modifier(BrowseDetailFocusTracking(
-                                    isEnabled: showsDetails, focus: $focusedItemID, id: item.stablePresentationID
+                                    isEnabled: tracksFocus, reportsBounds: popupDelay != nil,
+                                    focus: $focusedItemID, id: item.stablePresentationID
                                 ))
                                 .disabled(!hasResolvedEntryFocus && item.stablePresentationID != model.items.first?.stablePresentationID)
                                 .prefersDefaultFocus(
@@ -289,19 +336,33 @@ extension MediaItem {
 }
 
 #if os(tvOS)
-/// Reports the focused card to the details panel, and only while it is shown,
-/// so the plain grid never re-renders on focus changes.
+/// Reports the focused card to the details panel or pop-up, and only while one
+/// is shown, so the plain grid never re-renders on focus changes. For the
+/// pop-up it also reports where each card is, to place the pop-up beside it.
 private struct BrowseDetailFocusTracking: ViewModifier {
     let isEnabled: Bool
+    let reportsBounds: Bool
     let focus: FocusState<String?>.Binding
     let id: String
 
     func body(content: Content) -> some View {
-        if isEnabled {
+        if isEnabled, reportsBounds {
+            content
+                .focused(focus, equals: id)
+                .anchorPreference(key: BrowseCardBoundsKey.self, value: .bounds) { [id: $0] }
+        } else if isEnabled {
             content.focused(focus, equals: id)
         } else {
             content
         }
+    }
+}
+
+/// Each realised See all card's bounds, by presentation id.
+private struct BrowseCardBoundsKey: PreferenceKey {
+    static let defaultValue: [String: Anchor<CGRect>] = [:]
+    static func reduce(value: inout [String: Anchor<CGRect>], nextValue: () -> [String: Anchor<CGRect>]) {
+        value.merge(nextValue()) { _, new in new }
     }
 }
 #endif

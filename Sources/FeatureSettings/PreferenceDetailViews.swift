@@ -318,7 +318,24 @@ private struct ThemeOpacityControls: View {
             title: { $0.displayName }
         )
         .accessibilityIdentifier("theme-see-all-layout")
-        .settingsSearchAnchor("theme-see-all-layout")
+        .settingsSearchAnchor(
+            "theme-see-all-layout",
+            fallbackFor: theme.browseLayout == .gridWithPopup ? [] : ["theme-see-all-popup-delay"]
+        )
+        if theme.browseLayout == .gridWithPopup {
+            SettingsStepper(
+                options: BrowsePopupDelay.options,
+                selection: $theme.browsePopupDelay,
+                compact: true, label: "Pop-up delay",
+                verbatimTitle: Self.seconds
+            )
+            .accessibilityIdentifier("theme-see-all-popup-delay")
+            .settingsSearchAnchor("theme-see-all-popup-delay")
+        }
+    }
+
+    private static func seconds(_ value: Int) -> String {
+        Duration.seconds(value).formatted(.units(allowed: [.seconds], width: .abbreviated))
     }
 
     private static func percent(_ value: Int) -> String {

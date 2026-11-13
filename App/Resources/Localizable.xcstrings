@@ -632649,6 +632649,9 @@
         }
       }
     },
+    "Pop-up delay" : {
+
+    },
     "Popular Movies" : {
       "localizations" : {
         "ar" : {
@@ -1071451,6 +1071454,18 @@
         }
       }
     },
+    "browseLayout.gridWithPopup" : {
+      "comment" : "See all screen layout option in Settings > Appearance: a poster grid where details pop up beside a title after focus rests on it.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Grid with pop-up details"
+          }
+        }
+      }
+    },
     "buffering streaming cache ahead slow network stuttering loading memory" : {
       "localizations" : {
         "ar" : {
@@ -1150605,7 +1150620,10 @@
         }
       }
     },
-    "see all browse grid details panel synopsis information layout" : {
+    "see all browse grid details panel popup pop-up synopsis information layout" : {
+
+    },
+    "see all popup pop-up details delay seconds wait focus hover" : {
 
     },
     "selected card highlight zoom lift outline remote" : {

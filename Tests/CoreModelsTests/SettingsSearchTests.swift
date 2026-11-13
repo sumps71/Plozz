@@ -133,7 +133,8 @@ final class SettingsSearchTests: XCTestCase {
 
     func testThemeOpacityControlsAreSearchableOnTVOnly() {
         let television = SettingsSearchCatalog.entries(on: .television)
-        for id in ["theme-background-strength", "theme-artwork-behind-page", "theme-hero-fade", "theme-see-all-layout"] {
+        for id in ["theme-background-strength", "theme-artwork-behind-page", "theme-hero-fade", "theme-see-all-layout",
+                   "theme-see-all-popup-delay"] {
             XCTAssertEqual(television.first { $0.id == id }?.page, .theme, id)
             XCTAssertFalse(SettingsSearchCatalog.entries(on: .phone).contains { $0.id == id }, id)
         }

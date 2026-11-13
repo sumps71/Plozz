@@ -107,6 +107,31 @@ final class ThemeSettingsStoreTests: XCTestCase {
         XCTAssertEqual(primary.loadBrowseLayout(), .grid, "An unknown value falls back to the grid")
     }
 
+    @MainActor
+    func testPopupDelayIsOnlyActiveForThePopupLayoutAndPersistsPerProfile() {
+        let defaults = makeDefaults()
+        let primary = ThemeSettingsStore(defaults: defaults)
+        let other = ThemeSettingsStore(defaults: defaults, namespace: "other")
+        XCTAssertEqual(primary.loadBrowsePopupDelay(), 2)
+        XCTAssertEqual(BrowsePopupDelay.options, [1, 2, 3, 4, 5])
+        let model = ThemeSettingsModel(store: primary)
+        XCTAssertNil(model.browseDetailPopupDelay, "The plain grid shows no pop-up")
+        model.browsePopupDelay = 4
+        model.browseLayout = .gridWithDetails
+        XCTAssertNil(model.browseDetailPopupDelay, "The details panel replaces the pop-up")
+        model.browseLayout = .gridWithPopup
+        XCTAssertEqual(model.browseDetailPopupDelay, 4)
+        XCTAssertEqual(ThemeSettingsModel(store: primary).browsePopupDelay, 4)
+        XCTAssertEqual(other.loadBrowsePopupDelay(), 2, "Profiles keep their own delay")
+        let snapshot = ProfileSettingsTransfer.capture(namespace: nil, defaults: defaults)
+        ProfileSettingsTransfer.apply(snapshot, namespace: "other", defaults: defaults)
+        XCTAssertEqual(other.loadBrowsePopupDelay(), 4, "Travels with the profile-settings transfer")
+        defaults.set(60, forKey: ThemeSettingsStore.browsePopupDelayStorageKey)
+        XCTAssertEqual(primary.loadBrowsePopupDelay(), 5, "Out-of-range values snap to the nearest option")
+        defaults.set(0, forKey: ThemeSettingsStore.browsePopupDelayStorageKey)
+        XCTAssertEqual(primary.loadBrowsePopupDelay(), 1)
+    }
+
     func testOpacityResolvesSystemToTheDevicePageColourAndClampsValues() throws {
         XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.pureBlack, systemIsDark: false), .black)
         XCTAssertEqual(ThemeOpacitySettings.Mode.resolved(.system, systemIsDark: true), .dark)
