@@ -3,13 +3,55 @@ import UIKit
 import CoreUI
 import CoreModels
 import FeaturePlayback
+@testable import AppShell
+import AppRuntime
+import CoreSecureStore
+import FeatureAuth
 @testable import FeatureSettings
+
+private struct LiveJellyfinOnboardingFixture: View {
+    @State private var app: AppState
+
+    init() {
+        let suite = "LiveJellyfinOnboardingFixture"
+        let defaults = UserDefaults(suiteName: suite)!
+        defaults.removePersistentDomain(forName: suite)
+        _app = State(initialValue: AppState(
+            accountStore: AccountStore(secureStore: InMemorySecureStore()),
+            profilesModel: ProfilesModel(store: ProfileStore(defaults: defaults))
+        ))
+    }
+
+    var body: some View {
+        RootView(appState: app)
+    }
+}
 
 @main
 struct FocusHostApp: App {
+    init() {
+        if ProcessInfo.processInfo.arguments.contains("--live-root-fixture") {
+            URLProtocol.registerClass(SourceSmokeNetworkBlocker.self)
+        }
+    }
+
     var body: some Scene {
         WindowGroup {
-            if ProcessInfo.processInfo.arguments.contains("--disc-review-fixture") {
+            if ProcessInfo.processInfo.arguments.contains("--live-jellyfin-onboarding") {
+                LiveJellyfinOnboardingFixture()
+            } else if ProcessInfo.processInfo.arguments.contains("--live-webdav-watchlist-fixture") {
+                LiveWebDAVWatchlistFixture()
+            } else if ProcessInfo.processInfo.arguments.contains("--detail-selection-fixture") {
+                DetailSelectionFixture()
+            } else if ProcessInfo.processInfo.arguments.contains("--live-content-refresh-fixture") {
+                LiveContentRefreshFixture()
+            } else if ProcessInfo.processInfo.arguments.contains("--content-refresh-return-fixture") {
+                ContentRefreshReturnFixture()
+            } else if ProcessInfo.processInfo.arguments.contains("--live-root-fixture") {
+                LiveTVRootFixture()
+            } else if ProcessInfo.processInfo.arguments.contains("--multiview-fixture") {
+                MultiviewFixture()
+            } else if ProcessInfo.processInfo.arguments.contains("--disc-review-fixture") {
                 DiscReviewFixture()
             } else if ProcessInfo.processInfo.arguments.contains("--detail-information-fixture") {
                 DetailInformationFixture()
@@ -102,7 +144,13 @@ struct FocusHostApp: App {
             } else if ProcessInfo.processInfo.arguments.contains("--library-channel-actions") {
                 LibraryChannelActionsFixture()
             } else if ProcessInfo.processInfo.arguments.contains("--navigation-fixture") {
-                NavigationRailFixture { Color.clear }
+                NavigationRailFixture {
+                    if ProcessInfo.processInfo.arguments.contains("--navigation-guide") {
+                        LiveTVCategorySearchFixture()
+                    } else {
+                        Color.clear
+                    }
+                }
             } else if ProcessInfo.processInfo.arguments.contains("--live-jellyfin-home") {
                 LiveJellyfinHomeFixture()
             } else if ProcessInfo.processInfo.arguments.contains("--production-home-fixture") {
@@ -236,85 +284,111 @@ private struct ExternalPlayerSettingsFixture: View {
 
 private struct CollectionRowEditorFixture: View {
     @State private var visibility = HomeLibraryVisibilityModel(
-        store: HomeLibraryVisibilityStore(namespace: "collection-row-editor-fixture")
+        store: HomeLibraryVisibilityStore(namespace:
+            ProcessInfo.processInfo.arguments.contains("--collection-row-isolated")
+                ? "collection-row-editor-\(UUID())" : "collection-row-editor-fixture"
+        )
     )
     @State private var navigation = SettingsPageNavigation<String>()
     @State private var account: ResolvedAccount?
+    @State private var newSection = CollectionSection(sources: [])
     private var isNew: Bool { !ProcessInfo.processInfo.arguments.contains("--collection-row-existing") }
+    private var testsExit: Bool { ProcessInfo.processInfo.arguments.contains("--collection-row-exit") }
 
     var body: some View {
         SettingsPageStack(navigation: navigation, pageWidth: SettingsFormMetrics.pageWidth, onRootBack: {}) {
-            if let account {
-                CollectionSectionSettingsView(
-                    section: visibility.visibility.collectionSections.first ?? CollectionSection(
-                        source: .init(
-                            accountID: account.account.id, collectionID: "weekend", title: "Weekend picks",
-                            serverUserID: account.provider.session.userID
-                        ),
-                        cardStyle: .landscape,
-                        titleLogo: ProcessInfo.processInfo.arguments.contains("--collection-row-logo-on") ? .on : .default
-                    ),
-                    isNew: isNew, inventory: HomeSectionCatalogModel(), visibility: visibility,
-                    libraries: [], accounts: [account]
-                )
+            if testsExit {
+                VStack {
+                    Text(verbatim: "Saved rows: \(visibility.visibility.collectionSections.count)")
+                    Button("Create row") { navigation.push("editor") }
+                        .disabled(account == nil)
+                        .accessibilityIdentifier("fixture-open-row")
+                }
             } else {
-                ProgressView()
+                editor
             }
-        } destination: { _ in EmptyView() }
+        } destination: { _ in editor }
         .environment(CardStyleSettingsModel())
         .environment(\.settingsInWorkspace, true)
         .environment(\.themePalette, .dark)
         .environment(\.colorScheme, .dark)
         .background { SettingsPageBackground() }
-        .task {
-            guard account == nil else { return }
-            let backgroundURL = URL(string: "https://collection-fixture.invalid/\(UUID())-background.png")!
-            let logoURL = URL(string: "https://collection-fixture.invalid/\(UUID())-logo.png")!
-            let background = UIGraphicsImageRenderer(size: CGSize(width: 640, height: 360)).image {
-                UIColor(red: 0.12, green: 0.24, blue: 0.36, alpha: 1).setFill()
-                $0.fill(CGRect(x: 0, y: 0, width: 640, height: 360))
-            }
-            let logo = UIGraphicsImageRenderer(size: CGSize(width: 300, height: 90)).image { _ in
-                ("LOGO" as NSString).draw(at: CGPoint(x: 8, y: 2), withAttributes: [
-                    .font: UIFont.boldSystemFont(ofSize: 72), .foregroundColor: UIColor.white
-                ])
-            }
-            guard let cache = ArtworkSession.shared.configuration.urlCache else {
-                preconditionFailure("Collection fixture requires an artwork cache")
-            }
-            for (url, image) in [(backgroundURL, background), (logoURL, logo)] {
-                guard let data = image.pngData() else { preconditionFailure("Fixture PNG encoding failed") }
-                let response = HTTPURLResponse(
-                    url: url, statusCode: 200, httpVersion: nil,
-                    headerFields: ["Content-Type": "image/png", "Cache-Control": "max-age=3600"]
-                )!
-                cache.storeCachedResponse(
-                    CachedURLResponse(response: response, data: data), for: URLRequest(url: url)
-                )
-            }
-            let loaded = CollectionRowEditorProvider(background: backgroundURL, logo: logoURL)
-            let resolved = ResolvedAccount(
-                account: Account(id: "collection-editor-fixture", from: loaded.session), provider: loaded
+        .task { await loadAccount() }
+    }
+
+    @ViewBuilder
+    private var editor: some View {
+        if let account {
+            CollectionSectionSettingsView(
+                section: testsExit && isNew ? newSection
+                    : visibility.visibility.collectionSections.first ?? CollectionSection(
+                    source: .init(
+                        accountID: account.account.id, collectionID: "weekend", title: "Weekend picks",
+                        serverUserID: account.provider.session.userID
+                    ),
+                    cardStyle: .landscape,
+                    titleLogo: ProcessInfo.processInfo.arguments.contains("--collection-row-logo-on") ? .on : .default
+                ),
+                isNew: isNew, inventory: HomeSectionCatalogModel(), visibility: visibility,
+                libraries: [AggregatedLibrary(
+                    accountID: account.account.id, accountName: "Viewer", serverName: "Sample library",
+                    providerKind: .jellyfin, library: MediaLibrary(id: "movies", title: "Movies", kind: .movie)
+                )], accounts: [account]
             )
-            if !isNew && visibility.visibility.collectionSections.isEmpty {
-                do {
-                    try visibility.saveCollectionSection(CollectionSection(source: .init(
-                        accountID: resolved.account.id, collectionID: "weekend", title: "Weekend picks",
-                        serverUserID: loaded.session.userID
-                    ), cardStyle: .landscape, titleLogo: .on), catalog: HomeSectionCatalog(libraries: []))
-                } catch {
-                    preconditionFailure("Could not seed existing collection fixture")
-                }
-            }
-            account = resolved
+        } else {
+            ProgressView()
         }
+    }
+
+    private func loadAccount() async {
+        guard account == nil else { return }
+        let backgroundURL = URL(string: "https://collection-fixture.invalid/\(UUID())-background.png")!
+        let logoURL = URL(string: "https://collection-fixture.invalid/\(UUID())-logo.png")!
+        let background = UIGraphicsImageRenderer(size: CGSize(width: 640, height: 360)).image {
+            UIColor(red: 0.12, green: 0.24, blue: 0.36, alpha: 1).setFill()
+            $0.fill(CGRect(x: 0, y: 0, width: 640, height: 360))
+        }
+        let logo = UIGraphicsImageRenderer(size: CGSize(width: 300, height: 90)).image { _ in
+            ("LOGO" as NSString).draw(at: CGPoint(x: 8, y: 2), withAttributes: [
+                .font: UIFont.boldSystemFont(ofSize: 72), .foregroundColor: UIColor.white
+            ])
+        }
+        guard let cache = ArtworkSession.shared.configuration.urlCache else {
+            preconditionFailure("Collection fixture requires an artwork cache")
+        }
+        for (url, image) in [(backgroundURL, background), (logoURL, logo)] {
+            guard let data = image.pngData() else { preconditionFailure("Fixture PNG encoding failed") }
+            let response = HTTPURLResponse(
+                url: url, statusCode: 200, httpVersion: nil,
+                headerFields: ["Content-Type": "image/png", "Cache-Control": "max-age=3600"]
+            )!
+            cache.storeCachedResponse(
+                CachedURLResponse(response: response, data: data), for: URLRequest(url: url)
+            )
+        }
+        let loaded = CollectionRowEditorProvider(background: backgroundURL, logo: logoURL)
+        let resolved = ResolvedAccount(
+            account: Account(id: "collection-editor-fixture", from: loaded.session), provider: loaded
+        )
+        if !isNew && visibility.visibility.collectionSections.isEmpty {
+            do {
+                try visibility.saveCollectionSection(CollectionSection(source: .init(
+                    accountID: resolved.account.id, collectionID: "weekend", title: "Weekend picks",
+                    serverUserID: loaded.session.userID
+                ), cardStyle: .landscape, titleLogo: .on), catalog: HomeSectionCatalog(libraries: []))
+            } catch {
+                preconditionFailure("Could not seed existing collection fixture")
+            }
+        }
+        account = resolved
     }
 }
 
-private struct CollectionRowEditorProvider: MediaProvider {
+private struct CollectionRowEditorProvider: MediaProvider, CapabilityReporting {
     let background: URL
     let logo: URL
     let kind: ProviderKind = .jellyfin
+    let capabilities: ProviderCapability = [.video, .libraryCollections, .videoPlaylists]
     let session = UserSession(
         server: MediaServer(
             id: "fixture", name: "Sample library", baseURL: URL(string: "https://fixture.invalid")!,
@@ -323,7 +397,21 @@ private struct CollectionRowEditorProvider: MediaProvider {
         userID: "viewer", userName: "Viewer", deviceID: "fixture", accessToken: "fixture"
     )
 
-    func libraries() async throws -> [MediaLibrary] { [] }
+    func libraries() async throws -> [MediaLibrary] {
+        [MediaLibrary(id: "movies", title: "Movies", kind: .movie)]
+    }
+    func collections(in libraryID: String, page: PageRequest) async throws -> MediaPage {
+        MediaPage(
+            items: page.startIndex == 0 ? [MediaItem(id: "classics", title: "Movie classics", kind: .collection)] : [],
+            startIndex: page.startIndex, totalCount: 1
+        )
+    }
+    func videoPlaylists(in libraryID: String, page: PageRequest) async throws -> MediaPage {
+        MediaPage(
+            items: page.startIndex == 0 ? [MediaItem(id: "marathon", title: "Movie marathon", kind: .playlist)] : [],
+            startIndex: page.startIndex, totalCount: 1
+        )
+    }
     func continueWatching(limit: Int) async throws -> [MediaItem] { [] }
     func latest(limit: Int) async throws -> [MediaItem] { [] }
     func items(in containerID: String, kind: MediaItemKind, page: PageRequest) async throws -> MediaPage {
