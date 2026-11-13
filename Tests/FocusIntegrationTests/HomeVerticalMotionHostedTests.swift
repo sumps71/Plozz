@@ -541,7 +541,7 @@ final class HomeVerticalMotionHostedTests: XCTestCase {
         XCTAssertFalse(host.focusEvents.contains { $0.contains("Discover") },
                        "Startup must enter Continue Watching directly, not bounce through Discover.")
         XCTAssertEqual(fixture.activeRowID, "continue")
-        let discover = try XCTUnwrap(focusItems(in: window).first {
+        let discover = try XCTUnwrap(focusItems(in: window, belowScreen: window.bounds.height).first {
             ($0 as? NSObject)?.accessibilityLabel == "Discover 0"
         })
         host.target = discover
@@ -640,13 +640,17 @@ final class HomeVerticalMotionHostedTests: XCTestCase {
         return view.subviews.lazy.compactMap { self.firstSource(id, in: $0) }.first
     }
 
-    private func focusItems(in window: UIWindow) -> [any UIFocusItem] {
+    /// `belowScreen` also searches that far below the window: with no next-row
+    /// peek, lower rows are laid out off-screen yet stay reachable with Down.
+    private func focusItems(in window: UIWindow, belowScreen: CGFloat = 0) -> [any UIFocusItem] {
         var containers: [any UIFocusItemContainer] = [window]
         var seen = Set<ObjectIdentifier>()
         var result: [any UIFocusItem] = []
         while let container = containers.popLast() {
             guard seen.insert(ObjectIdentifier(container)).inserted else { continue }
-            let frame = container.coordinateSpace.convert(window.bounds, from: window)
+            var bounds = window.bounds
+            bounds.size.height += belowScreen
+            let frame = container.coordinateSpace.convert(bounds, from: window)
             for item in container.focusItems(in: frame) {
                 if let children = item.focusItemContainer { containers.append(children) }
                 if let view = item as? UIView { containers.append(view) }

@@ -985,7 +985,9 @@ final class ShowcaseNavigationTests: XCTestCase {
         previewScreenshot.name = "showcase-preview-spacing-\(focusStyle)"
         previewScreenshot.lifetime = .keepAlways
         add(previewScreenshot)
-        XCTAssertGreaterThan(app.frame.maxY - next.frame.minY, 20, "Down needs real visible card area.")
+        // The next row may now sit entirely below the screen (no next-row peek, so
+        // the backdrop gets the room). What matters is that Down still reaches it,
+        // which the focused-poster label below checks.
         XCUIRemote.shared.press(.down)
         waitForStableCard(in: app)
         let poster = focusedCard(in: app)
