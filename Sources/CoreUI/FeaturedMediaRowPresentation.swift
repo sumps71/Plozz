@@ -8,11 +8,18 @@ public struct FeaturedLeadingBrowseState: Equatable, Sendable {
     public var shows: Bool
     public var firstItemFocused: Bool
     public var cardFocused: Bool
+    /// A See all card opened the row's browser and focus hasn't come back yet:
+    /// the rail keeps its position so Back returns to that card.
+    public var awaitingBrowseReturn: Bool
 
-    public init(shows: Bool = false, firstItemFocused: Bool = false, cardFocused: Bool = false) {
+    public init(
+        shows: Bool = false, firstItemFocused: Bool = false, cardFocused: Bool = false,
+        awaitingBrowseReturn: Bool = false
+    ) {
         self.shows = shows
         self.firstItemFocused = firstItemFocused
         self.cardFocused = cardFocused
+        self.awaitingBrowseReturn = awaitingBrowseReturn
     }
 }
 
@@ -175,7 +182,9 @@ public struct FeaturedMediaRowPresentation<Cards: View>: View {
         .modifier(HomeRowPreviewScrollViewport())
         // A leading See all card rests just out of sight; see MediaRowLeadingBrowse.
         .scrollPosition($railPosition)
-        .onAppear { hideLeadingBrowseCard(animated: false) }
+        .onAppear {
+            if !leadingBrowse.awaitingBrowseReturn { hideLeadingBrowseCard(animated: false) }
+        }
         .onChange(of: leadingBrowse.shows) { _, shows in
             if shows { hideLeadingBrowseCard(animated: false) }
         }
