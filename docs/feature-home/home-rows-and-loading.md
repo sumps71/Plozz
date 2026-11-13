@@ -136,8 +136,9 @@ seasons stay visible with unfinished episodes; unknown completion is not inferre
 from progress percentages. A selected alternate copy with unfinished episodes
 keeps a merged show visible.
 
-Enabled loads request a bounded 100-candidate window instead of the normal 20,
-then filter before taking 20 cards. This is not a full-library scan or a promise
+Enabled loads request a bounded 100-candidate window instead of the normal
+preview size (`HomeViewModel.rowPreviewLimit`: 20, or 21 on Apple TV), then
+filter before taking that many cards. This is not a full-library scan or a promise
 to fill every row: a server's shorter native feed, or an entirely watched window,
 can still leave a short/empty row. Raw candidates are retained for live mutations,
 toggle reversal, and credential-sanitized launch snapshots; hero/Top Shelf retain
@@ -186,6 +187,16 @@ server addresses, credentials, media IDs/titles or response bodies.
 
 ## Row customization
 
+- **Cards per row** — Settings > Home > Row style on Apple TV
+  (`HeroSettings.homeRowCardCount`: 11, 16 or 21, default 21, per profile) caps the
+  titles each Home row shows, not counting its See all cards. The TV shell's
+  `HomeViewModel` loads `HomeRowCardCount.largestPreviewLimit` (21) titles per
+  preview so every choice can fill; iPhone and iPad keep the standard 20.
+  `HomePresentationRow.resolve(cardLimit:)` trims a longer row and marks it as
+  having more, so See all stays available. Continue Watching and Upcoming
+  Episodes — built in, a server's Continue Watching row, or a custom row built
+  only from those feeds (`HomeRowCardCount.appliesLimit`) — keep every title.
+  iPhone and iPad rows are unchanged.
 - **Home row customization** — Settings > Screens & Navigation > Customize Home > Rows
   uses the same arrangement editor on TV, iPhone and iPad. Tap a row to configure
   it, Edit to reorder or remove it, or Add row to choose a collection or another existing feed.

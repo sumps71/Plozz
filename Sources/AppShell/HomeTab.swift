@@ -283,6 +283,7 @@ struct HomeTab: View {
                 pendingWatchMutations: pendingWatchMutations,
                 recentlyAppliedRecency: appliedWatchRecency,
                 mediaItemActionHandler: mediaItemActionHandler,
+                rowPreviewLimit: HomeRowCardCount.largestPreviewLimit,
                 contentPublisher: { continueWatching, latest in
                     let policy = ArtworkPresentationPolicy(
                         area: .topShelf,

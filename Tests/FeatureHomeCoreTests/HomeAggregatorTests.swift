@@ -27,6 +27,27 @@ final class HomeAggregatorTests: XCTestCase {
         }
     }
 
+    func testAppleTVPreviewLimitLoadsTwentyOneTitlesPerRow() async throws {
+        let definition = HomeServerRowDefinition(
+            accountID: "account", serverName: "Server", providerKind: .jellyfin,
+            section: .init(id: "shelf", kind: .recommendations)
+        )
+        let visibility = HomeLibraryVisibility(rowCustomization: .init(
+            defaults: .custom, order: [.global(.recentlyAdded), definition.id],
+            shown: [.global(.recentlyAdded), definition.id], serverRows: [definition]
+        ))
+        let candidates = (0..<100).map { item("item-\($0)") }
+        let provider = AggregatorStub(latest: candidates, serverResults: ["shelf": .success(candidates)])
+        let account = resolved("account", user: "User", server: "Server", kind: .jellyfin, provider: provider)
+        let content = await HomeAggregator().unmergedContent(
+            from: [account], latestLimit: 21, perLibraryLimit: 21, visibility: visibility
+        )
+        XCTAssertEqual(content.latest.count, 21)
+        let shelf = try XCTUnwrap(content.serverRows.first)
+        XCTAssertEqual(shelf.items.count, 21)
+        XCTAssertTrue(shelf.hasMore)
+    }
+
     func testServerBatchDiagnosticsPreserveEmbeddedFailuresAndCancellation() async throws {
         let definitions = ["good", "bad"].map {
             HomeServerRowDefinition(

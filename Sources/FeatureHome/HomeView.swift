@@ -186,6 +186,14 @@ public struct HomeView: View {
     /// Per-profile hero configuration. `nil` (or an inactive config) leaves Home
     /// rendering its classic rows unchanged.
     private var heroSettings: HeroSettingsModel?
+    /// Titles per Home row, from Settings > Home > Row style (Apple TV only).
+    private var rowCardLimit: Int? {
+        #if os(tvOS)
+        heroSettings?.settings.homeRowCardCount
+        #else
+        nil
+        #endif
+    }
 
     /// The carousel's settings, or `nil` when Home isn't showing the carousel.
     /// That includes a hero that follows focus: its titles are the rows, so none
@@ -459,11 +467,12 @@ public struct HomeView: View {
                     viewModel.watchlistLoadingPlaceholderCount > 0,
                 loadingRows: viewModel.loadingRows,
                 failures: viewModel.rowFailures,
-                skeletonLayout: viewModel.skeletonLayout
+                skeletonLayout: viewModel.skeletonLayout,
+                watchlistLimit: viewModel.rowPreviewLimit
             )
             let presentationRows = viewModel.presentationRows(
                 rows: rows, content: content, visibility: visibility.visibility, liveTV: liveTV,
-                presentation: libraryPresentation?.settings ?? .default
+                presentation: libraryPresentation?.settings ?? .default, cardLimit: rowCardLimit
             )
             let heroContent = HomeHeroLaunchPolicy.content(
                 content,
@@ -981,11 +990,12 @@ public struct HomeView: View {
                 isLibraryVisible: visibility.isVisible,
                 isLibraryTileVisible: visibility.isVisibleOnHome,
                 isGlobalRowEnabled: visibility.isGlobalRowEnabled,
-                loadingRows: viewModel.loadingRows, failures: viewModel.rowFailures
+                loadingRows: viewModel.loadingRows, failures: viewModel.rowFailures,
+                watchlistLimit: viewModel.rowPreviewLimit
             )
             if viewModel.presentationRows(
                 rows: rows, content: content, visibility: visibility.visibility, liveTV: liveTV,
-                presentation: libraryPresentation?.settings ?? .default
+                presentation: libraryPresentation?.settings ?? .default, cardLimit: rowCardLimit
             ).isEmpty, visibility.visibility.rowSections(choices: choices).enabled.isEmpty {
                 return .noHomeRows
             }
@@ -1563,7 +1573,8 @@ public struct HomeView: View {
         var result: [(row: FocusHeroRow, source: FocusHomeRowSource)] = []
         for presentation in viewModel.presentationRows(
             rows: rows, content: content, visibility: visibility.visibility, liveTV: liveTV,
-            presentation: libraryPresentation?.settings ?? .default, showsEmptySectionMessages: false
+            presentation: libraryPresentation?.settings ?? .default, showsEmptySectionMessages: false,
+            cardLimit: rowCardLimit
         ) {
             switch presentation.source {
             case let .home(row): result.append(entry(row, presentation: presentation))

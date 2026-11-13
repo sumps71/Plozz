@@ -717,4 +717,19 @@ final class HeroSettingsTests: XCTestCase {
         model.settings.showsRatings = false
         XCTAssertFalse(store.load().showsRatings)
     }
+
+    func testHomeRowCardCountOffersElevenSixteenOrTwentyOne() throws {
+        XCTAssertEqual(HeroSettings.homeRowCardCountOptions, [11, 16, 21])
+        XCTAssertEqual(HeroSettings.default.homeRowCardCount, 21, "Closest to the 20 titles rows showed before")
+        var settings = HeroSettings.default
+        settings.homeRowCardCount = 16
+        let decoded = try JSONDecoder().decode(HeroSettings.self, from: JSONEncoder().encode(settings))
+        XCTAssertEqual(decoded.homeRowCardCount, 16)
+        let legacy = try JSONDecoder().decode(HeroSettings.self, from: Data("{}".utf8))
+        XCTAssertEqual(legacy.homeRowCardCount, 21, "Saved settings from before get the default")
+        let odd = try JSONDecoder().decode(HeroSettings.self, from: Data(#"{"homeRowCardCount":13}"#.utf8))
+        XCTAssertEqual(odd.homeRowCardCount, 11, "Values between options snap to the nearest")
+        settings.homeRowCardCount = 40
+        XCTAssertEqual(settings.homeRowCardCount, 21)
+    }
 }

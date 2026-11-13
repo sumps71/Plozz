@@ -650,6 +650,8 @@ public enum SettingsSearchCatalog {
               keywords: "hero random library sources choose include exclude"),
         .init("hero-choose-collections", page: .heroContent, title: "Choose collections",
               keywords: "hero collections playlists selected titles"),
+        .init("home-row-card-count", page: .homeRowStyle, title: "Cards per row",
+              keywords: "home row number count titles posters cards items limit how many", platform: .television),
         .init("showcase-logo-size", page: .homeRowStyle, title: "Logo size",
               keywords: "showcase spotlight title logo bigger smaller", platform: .television),
         .init("showcase-text-size", page: .homeRowStyle, title: "Text size",
