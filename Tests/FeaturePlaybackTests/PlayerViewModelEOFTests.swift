@@ -803,63 +803,6 @@ final class PlayerViewModelEOFTests: XCTestCase {
         await viewModel.stop()
     }
 
-    func testUnairedNextEpisodeShowsNoUpNextCardAndDoesNotAutoAdvance() async {
-        let first = MediaItem(id: "first", title: "First", kind: .episode)
-        let unaired = MediaItem(
-            id: "unaired", title: "Unaired", kind: .episode,
-            releaseDate: Date().addingTimeInterval(14 * 24 * 3600)
-        )
-        let request = PlaybackRequest(
-            item: first, streamURL: URL(string: "https://example.test/first.m3u8")!
-        )
-        let provider = RecordingPlaybackProvider(request: request)
-        let engine = SpyVideoEngine()
-        let resolved = expectation(description: "Neighbors resolved")
-        let viewModel = PlayerViewModel(
-            provider: provider, itemID: first.id, episodeItem: first,
-            playbackSettings: .init(autoPlayNextEpisode: true, showUpNextCard: true),
-            engineFactory: EngineFactory(makeNative: { _ in engine }),
-            neighborResolver: {
-                resolved.fulfill()
-                return (nil, unaired)
-            }
-        )
-        await viewModel.load()
-        await fulfillment(of: [resolved], timeout: 2)
-        for _ in 0..<20 { await Task.yield() }
-        XCTAssertNil(viewModel.nextEpisode)
-        XCTAssertNil(viewModel.controls.upNextCard.info)
-        XCTAssertFalse(viewModel.controls.infoCard.hasNextEpisode)
-        engine.onEnded?()
-        XCTAssertTrue(viewModel.shouldDismiss)
-        XCTAssertNil(viewModel.pendingNextEpisode)
-        await viewModel.stop()
-    }
-
-    func testAiredNextEpisodeStillQueuesTheUpNextCard() async {
-        let first = MediaItem(id: "first", title: "First", kind: .episode)
-        let aired = MediaItem(
-            id: "aired", title: "Aired", kind: .episode,
-            releaseDate: Date().addingTimeInterval(-7 * 24 * 3600)
-        )
-        let request = PlaybackRequest(
-            item: first, streamURL: URL(string: "https://example.test/first.m3u8")!
-        )
-        let provider = RecordingPlaybackProvider(request: request)
-        let engine = SpyVideoEngine()
-        let viewModel = PlayerViewModel(
-            provider: provider, itemID: first.id, episodeItem: first,
-            playbackSettings: .init(autoPlayNextEpisode: false, showUpNextCard: true),
-            engineFactory: EngineFactory(makeNative: { _ in engine }),
-            neighborResolver: { (nil, aired) }
-        )
-        await viewModel.load()
-        for _ in 0..<100 where viewModel.nextEpisode == nil { await Task.yield() }
-        XCTAssertEqual(viewModel.nextEpisode?.id, aired.id)
-        XCTAssertNotNil(viewModel.controls.upNextCard.info)
-        await viewModel.stop()
-    }
-
     func testPlaylistAutoplayOffDoesNotFallThroughToEpisodeAutoplay() async {
         let first = MediaItem(id: "first", title: "First", kind: .episode, seriesID: "series", seasonID: "season")
         let next = MediaItem(id: "second", title: "Second", kind: .episode)

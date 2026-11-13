@@ -1154,11 +1154,7 @@ public final class PlayerViewModel {
         let (prev, next) = await neighborResolver()
         guard !didStop else { return }
         previousEpisode = prev?.opensExternalSource == true ? nil : prev
-        // An unaired or missing next episode has nothing to play, so it never
-        // drives the Up Next card or auto-advance.
-        nextEpisode = next.flatMap { next in
-            next.opensExternalSource || !EpisodeSequence.isPlayableNext(next) ? nil : next
-        }
+        nextEpisode = next?.opensExternalSource == true ? nil : next
         controls.infoCard.hasPreviousEpisode = previousEpisode != nil
         controls.infoCard.hasNextEpisode = nextEpisode != nil
         nowPlaying?.refresh()

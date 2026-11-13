@@ -24,25 +24,6 @@ public enum EpisodeSequence {
         return (previous, next)
     }
 
-    /// Whether `episode` can be offered as the next thing to play — by the Up Next
-    /// card or by auto-advance. It must have aired by the viewer's local today
-    /// (air dates are bare days stored at UTC midnight, compared the same way as
-    /// ``UpcomingEpisodesPolicy``), must not be a schedule-derived placeholder, and
-    /// must be a real library record rather than a server's virtual "missing"
-    /// entry, which has no file to play.
-    public static func isPlayableNext(
-        _ episode: MediaItem,
-        now: Date = Date(),
-        calendar: Calendar = .current
-    ) -> Bool {
-        guard !episode.isUpcomingUnaired, episode.locallyValidatedPlayableSource else { return false }
-        guard let airDate = episode.releaseDate else { return true }
-        guard let today = UpcomingEpisodesPolicy.calendarDayAtUTCMidnight(of: now, in: calendar) else {
-            return true
-        }
-        return airDate <= today
-    }
-
     /// `pool` sorted into broadcast order: by season, then episode, then a stable
     /// fallback on id so equal/unknown ordinals stay deterministic. Episodes
     /// missing ordinals sort after numbered ones rather than being dropped.
