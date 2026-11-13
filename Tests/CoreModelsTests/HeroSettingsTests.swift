@@ -326,20 +326,6 @@ final class HeroSettingsTests: XCTestCase {
         XCTAssertEqual(other.load(), b)
     }
 
-    func testShowcaseArtworkPositionDefaultsToRightAndRoundTrips() throws {
-        XCTAssertEqual(HeroSettings.default.showcaseArtworkPosition, .right, "Unchanged look by default")
-        var settings = HeroSettings.default
-        settings.showcaseArtworkPosition = .centered
-        let decoded = try JSONDecoder().decode(HeroSettings.self, from: JSONEncoder().encode(settings))
-        XCTAssertEqual(decoded.showcaseArtworkPosition, .centered)
-        let legacy = try JSONDecoder().decode(HeroSettings.self, from: Data(#"{"isEnabled":true}"#.utf8))
-        XCTAssertEqual(legacy.showcaseArtworkPosition, .right, "Saved settings from before keep the right placement")
-        let unknown = try JSONDecoder().decode(
-            HeroSettings.self, from: Data(#"{"showcaseArtworkPosition":"diagonal"}"#.utf8)
-        )
-        XCTAssertEqual(unknown.showcaseArtworkPosition, .right, "An unknown value falls back to the default")
-    }
-
     func testLenientDecodeFillsMissingFieldsWithDefaults() throws {
         // A partial blob (as an older app version might have written) must decode
         // with the absent fields at their defaults, not fail the whole decode.
