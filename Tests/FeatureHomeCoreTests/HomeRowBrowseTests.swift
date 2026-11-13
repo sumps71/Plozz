@@ -714,3 +714,19 @@ private actor SupersededPageSource {
         return await gate.wait()
     }
 }
+
+#if os(tvOS)
+final class HomeRowBrowseDetailColumnTests: XCTestCase {
+    func testPosterWallGivesUpTwoColumnsBesideTheDetailsPanel() {
+        XCTAssertEqual(HomeRowBrowseDetailPanel.columnCount(beside: 7), 5)
+        XCTAssertEqual(HomeRowBrowseDetailPanel.columnCount(beside: 6), 4)
+        XCTAssertEqual(HomeRowBrowseDetailPanel.columnCount(beside: 5), 3)
+    }
+
+    func testNarrowGridsGiveUpOneColumnAndKeepAtLeastOne() {
+        XCTAssertEqual(HomeRowBrowseDetailPanel.columnCount(beside: 3), 2)
+        XCTAssertEqual(HomeRowBrowseDetailPanel.columnCount(beside: 2), 1)
+        XCTAssertEqual(HomeRowBrowseDetailPanel.columnCount(beside: 1), 1)
+    }
+}
+#endif

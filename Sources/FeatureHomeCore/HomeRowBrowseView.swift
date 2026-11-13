@@ -103,10 +103,13 @@ public struct HomeRowBrowseView<Card: View>: View {
     }
     #endif
 
-    /// One column fewer when the details panel takes the right of the screen.
+    /// Fewer, larger cards when the details panel takes the right of the screen:
+    /// a wide poster wall gives up two columns, a narrow one just one.
     private var gridColumns: [GridItem] {
         #if os(tvOS)
-        if showsDetails, columns.count > 1 { return Array(columns.dropLast()) }
+        if showsDetails, columns.count > 1 {
+            return Array(columns.prefix(HomeRowBrowseDetailPanel.columnCount(beside: columns.count)))
+        }
         #endif
         return columns
     }
