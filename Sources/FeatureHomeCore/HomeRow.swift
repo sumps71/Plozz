@@ -203,7 +203,8 @@ public extension HomeRow {
         includesEmptyWatchlist: Bool = false,
         loadingRows: Set<HomeRowKind> = [],
         failures: [HomeRowKind: AppError] = [:],
-        skeletonLayout: [HomeRowLayout] = []
+        skeletonLayout: [HomeRowLayout] = [],
+        watchlistLimit: Int = watchlistPreviewLimit
     ) -> [HomeRow] {
         var rows: [HomeRow] = []
         func makeRow(
@@ -235,7 +236,7 @@ public extension HomeRow {
         // libraryID) so the guarantee survives even if provenance is added later.
         if isGlobalRowEnabled(.watchlist),
            !content.watchlist.isEmpty || includesEmptyWatchlist || isPending(.watchlist) {
-            let preview = HomeRowPreview(content.watchlist, limit: watchlistPreviewLimit)
+            let preview = HomeRowPreview(content.watchlist, limit: watchlistLimit)
             var row = makeRow(.watchlist, items: preview.items)
             row.hasMore = preview.hasMore
             rows.append(row)

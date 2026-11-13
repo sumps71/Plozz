@@ -319,15 +319,22 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
         }
     }
 
+    /// Titles loaded for each discovery row preview. Continue Watching keeps
+    /// its own policy. Apple TV loads enough for its largest Cards per row
+    /// option (``HomeRowCardCount/largestPreviewLimit``); other shells keep
+    /// ``HomeRowCardCount/standardPreviewLimit``.
+    public let rowPreviewLimit: Int
+
     public func presentationRows(
         rows: [HomeRow], content: Content, visibility: HomeLibraryVisibility,
         liveTV: HomeLiveTVSnapshot = .empty, presentation: LibraryPresentationSettings = .default,
-        showsEmptySectionMessages: Bool = true
+        showsEmptySectionMessages: Bool = true, cardLimit: Int? = nil
     ) -> [HomePresentationRow] {
         HomePresentationRow.resolve(
             rows: rows, content: content, visibility: visibility, liveTV: liveTV, presentation: presentation,
             showsEmptySectionMessages: showsEmptySectionMessages,
-            serverInfo: accounts.sourceServerInfo(), identitySources: identitySources
+            serverInfo: accounts.sourceServerInfo(), identitySources: identitySources,
+            previewLimit: rowPreviewLimit, cardLimit: cardLimit
         )
     }
 
@@ -559,8 +566,10 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
         recentlyAppliedRecency: @escaping @Sendable () async -> [String: AppliedResumeRecord] = { [:] },
         mediaItemActionHandler: (any MediaItemActionHandling)? = nil,
         policy: ContinueWatchingPolicy = .default,
+        rowPreviewLimit: Int = HomeRowCardCount.standardPreviewLimit,
         contentPublisher: @escaping HomeContentPublishing = { _, _ in }
     ) {
+        self.rowPreviewLimit = max(1, rowPreviewLimit)
         self.accounts = accounts
         self.profileNamespace = profileNamespace
         watchlistBrowse = WatchlistBrowseModel(
@@ -977,11 +986,12 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
         // pre-play order while the server catches up (r8-cw-outbox-patch).
         var content: Content
         let recommendationContext = recommendationContext
+        let previewLimit = rowPreviewLimit
         if !visibility.usesIndividualHomeRows {
             let aggregationTask = Task.detached(priority: .userInitiated) {
                 await HomeRecommendationScope.$current.withValue(recommendationContext) {
                     await aggregator.content(
-                        from: accounts, policy: policy, visibility: visibility,
+                        from: accounts, policy: policy, latestLimit: previewLimit, visibility: visibility,
                         identitySources: identitySources, onContinueWatching: receiveResume,
                         onProgress: receiveProgress
                     )
@@ -1042,7 +1052,8 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
             let unmergedTask = Task.detached(priority: .userInitiated) {
                 await HomeRecommendationScope.$current.withValue(recommendationContext) {
                     await aggregator.unmergedContent(
-                        from: accounts, policy: policy, visibility: visibility,
+                        from: accounts, policy: policy, latestLimit: previewLimit,
+                        perLibraryLimit: previewLimit, visibility: visibility,
                         identitySources: identitySources, onContinueWatching: receiveResume,
                         onProgress: receiveProgress
                     )
@@ -2470,6 +2481,7 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
               collectionRefreshTask == nil, !collectionRefreshQueue.isEmpty else { return }
         collectionRefreshWorkerGeneration &+= 1
         let workerGeneration = collectionRefreshWorkerGeneration
+        let previewLimit = rowPreviewLimit
         collectionRefreshTask = Task(priority: .utility) { [weak self] in
             defer {
                 if let self, self.collectionRefreshWorkerGeneration == workerGeneration {
@@ -2508,16 +2520,16 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
                             }
                             let snapshot = try await pager.loadAll()
                             result = .success(HomeRowPreview(
-                                snapshot.items, limit: HomeCollectionRefreshQueue.previewLimit, retainsCandidates: true
+                                snapshot.items, limit: previewLimit, retainsCandidates: true
                             ))
                         } else {
                             let page = try await CollectionPreviewLoader.load(
-                                selection: request.source, limit: HomeCollectionRefreshQueue.previewLimit + 1,
+                                selection: request.source, limit: previewLimit + 1,
                                 provider: work.provider, visibility: work.visibility
                             )
                             result = .success(HomeRowPreview(
                                 page.items.filter { $0.kind == .movie || $0.kind == .series },
-                                limit: HomeCollectionRefreshQueue.previewLimit
+                                limit: previewLimit
                             ))
                         }
                     } catch {

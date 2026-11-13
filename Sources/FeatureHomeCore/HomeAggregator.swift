@@ -566,7 +566,7 @@ public struct HomeAggregator: Sendable {
                             let response = await perform(
                                 request, accounts: accounts, policy: policy,
                                 continueWatchingLimit: continueWatchingLimit,
-                                latestLimit: latestLimit, perLibraryLimit: perLibraryLimit ?? 20,
+                                latestLimit: latestLimit, perLibraryLimit: perLibraryLimit ?? latestLimit,
                                 visibility: visibility,
                                 seriesIdentities: seriesIdentities,
                                 collectionSession: collectionSession, identitySources: identitySources,

@@ -202370,6 +202370,9 @@
         }
       }
     },
+    "Cards per row" : {
+
+    },
     "Cast" : {
       "comment" : "Section header above the cast list on title detail screens.",
       "localizations" : {
@@ -263049,6 +263052,9 @@
           }
         }
       }
+    },
+    "Continue Watching and Upcoming Episodes always show every title." : {
+
     },
     "Continue Watching is shared with Home." : {
       "localizations" : {
@@ -1099931,6 +1099937,9 @@
           }
         }
       }
+    },
+    "home row number count titles posters cards items limit how many" : {
+
     },
     "home rows shelves hubs sections reset standard customize" : {
       "localizations" : {

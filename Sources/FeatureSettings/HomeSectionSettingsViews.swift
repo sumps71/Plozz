@@ -688,6 +688,17 @@ struct HomeRowStyleSettingsView: View {
                     logoSize: hero.settings.showcaseLogoSize,
                     textSize: hero.settings.showcaseTextSize
                 )
+                SettingsControlGroup {
+                    SettingsStepper(
+                        options: HeroSettings.homeRowCardCountOptions,
+                        selection: $hero.settings.homeRowCardCount,
+                        compact: true, label: "Cards per row",
+                        verbatimTitle: { $0.formatted() }
+                    )
+                    .accessibilityIdentifier("home-row-card-count")
+                    .settingsSearchAnchor("home-row-card-count")
+                }
+                Text("Continue Watching and Upcoming Episodes always show every title.").settingsHelperText()
                 if hero.settings.immersiveRows {
                     SettingsControlGroup {
                         HeroLogoSizeControl(

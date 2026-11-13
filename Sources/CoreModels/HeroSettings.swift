@@ -135,6 +135,22 @@ public struct HeroSettings: Codable, Equatable, Sendable {
     /// Where the Showcase hero places its background picture. Defaults to the
     /// original right-hand placement.
     public var showcaseArtworkPosition: HeroArtworkPosition
+    /// How many titles each Home row shows on Apple TV, not counting its See all
+    /// cards (one of ``homeRowCardCountOptions``). Continue Watching and Upcoming
+    /// Episodes always show their whole row.
+    public var homeRowCardCount: Int {
+        didSet { homeRowCardCount = Self.snappedHomeRowCardCount(homeRowCardCount) }
+    }
+
+    public static let homeRowCardCountOptions = [11, 16, 21]
+    /// The closest option to the 20 titles rows showed before the setting.
+    public static let defaultHomeRowCardCount = 21
+
+    /// The nearest offered count, so a stored or synced value outside the
+    /// options still behaves.
+    public static func snappedHomeRowCardCount(_ count: Int) -> Int {
+        homeRowCardCountOptions.min { abs($0 - count) < abs($1 - count) } ?? defaultHomeRowCardCount
+    }
 
     /// Legacy migration input. CardCaptionSettings now owns visual card labels.
     public var showsCardCaptions: Bool
@@ -184,6 +200,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         textSize: HeroTextSize = .default,
         showcaseTextSize: HeroTextSize = .default,
         showcaseArtworkPosition: HeroArtworkPosition = .right,
+        homeRowCardCount: Int = HeroSettings.defaultHomeRowCardCount,
         showsCardCaptions: Bool = false,
         showsDiscoverRow: Bool = false,
         collections: [HeroCollectionSelection] = [],
@@ -213,6 +230,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         self.textSize = textSize
         self.showcaseTextSize = showcaseTextSize
         self.showcaseArtworkPosition = showcaseArtworkPosition
+        self.homeRowCardCount = Self.snappedHomeRowCardCount(homeRowCardCount)
         self.showsCardCaptions = showsCardCaptions
         self.showsDiscoverRow = showsDiscoverRow
     }
@@ -228,6 +246,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         case logoSize, showcaseLogoSize
         case textSize, showcaseTextSize
         case showcaseArtworkPosition
+        case homeRowCardCount
         case offeredSourcesVersion
         case collections, collection
     }
@@ -272,6 +291,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
             textSize: value(HeroTextSize.self, .textSize, d.textSize),
             showcaseTextSize: value(HeroTextSize.self, .showcaseTextSize, d.showcaseTextSize),
             showcaseArtworkPosition: value(HeroArtworkPosition.self, .showcaseArtworkPosition, d.showcaseArtworkPosition),
+            homeRowCardCount: value(Int.self, .homeRowCardCount, d.homeRowCardCount),
             showsCardCaptions: value(Bool.self, .showsCardCaptions, d.showsCardCaptions),
             showsDiscoverRow: value(Bool.self, .showsDiscoverRow, d.showsDiscoverRow),
             collections: c.contains(.collections)
@@ -344,6 +364,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         try c.encode(textSize, forKey: .textSize)
         try c.encode(showcaseTextSize, forKey: .showcaseTextSize)
         try c.encode(showcaseArtworkPosition, forKey: .showcaseArtworkPosition)
+        try c.encode(homeRowCardCount, forKey: .homeRowCardCount)
         try c.encode(showsCardCaptions, forKey: .showsCardCaptions)
         try c.encode(showsDiscoverRow, forKey: .showsDiscoverRow)
         try c.encode(Self.currentOfferedSourcesVersion, forKey: .offeredSourcesVersion)

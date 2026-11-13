@@ -58,7 +58,9 @@ public struct HomePresentationRow: Identifiable, Equatable, Sendable {
         presentation: LibraryPresentationSettings = .default,
         showsEmptySectionMessages: Bool = true,
         serverInfo: [String: SourceServerInfo] = [:],
-        identitySources: (MediaItem) -> [MediaSourceRef] = { _ in [] }
+        identitySources: (MediaItem) -> [MediaSourceRef] = { _ in [] },
+        previewLimit: Int = HomeRecentlyAddedPolicy.rowLimit,
+        cardLimit: Int? = nil
     ) -> [Self] {
         let shared = HomeRowChoice.shared
         func entry(_ row: HomeRow) -> Self? {
@@ -69,7 +71,7 @@ public struct HomePresentationRow: Identifiable, Equatable, Sendable {
                         && (!visibility.hideWatchedRecentlyAdded || !HomeRecentlyAddedPolicy.isWatched($0))
                 }
                 let preview = HomeRowPreview(
-                    candidates, limit: HomeRecentlyAddedPolicy.rowLimit
+                    candidates, limit: previewLimit
                 )
                 row.items = preview.items
                 row.hasMore = preview.hasMore
@@ -98,11 +100,11 @@ public struct HomePresentationRow: Identifiable, Equatable, Sendable {
                         if visibility.hideWatchedRecentlyAdded {
                             section.hasMore = HomeRowPreview(
                                 section.items.filter { !HomeRecentlyAddedPolicy.isWatched($0) },
-                                limit: HomeRecentlyAddedPolicy.rowLimit
+                                limit: previewLimit
                             ).hasMore
                         }
                         section.items = HomeRecentlyAddedPolicy.items(
-                            section.items, hideWatched: visibility.hideWatchedRecentlyAdded
+                            section.items, hideWatched: visibility.hideWatchedRecentlyAdded, limit: previewLimit
                         )
                         row = .init(
                             section: section, isLoading: row.isLoading, failure: row.failure,
@@ -143,11 +145,11 @@ public struct HomePresentationRow: Identifiable, Equatable, Sendable {
                     if visibility.hideWatchedRecentlyAdded {
                         row.hasMore = HomeRowPreview(
                             row.items.filter { !HomeRecentlyAddedPolicy.isWatched($0) },
-                            limit: HomeRecentlyAddedPolicy.rowLimit
+                            limit: previewLimit
                         ).hasMore
                     }
                     row.items = HomeRecentlyAddedPolicy.items(
-                        row.items, hideWatched: visibility.hideWatchedRecentlyAdded
+                        row.items, hideWatched: visibility.hideWatchedRecentlyAdded, limit: previewLimit
                     )
                 }
                 guard !row.items.isEmpty || row.isLoading || row.failure != nil else { continue }
@@ -224,9 +226,15 @@ public struct HomePresentationRow: Identifiable, Equatable, Sendable {
         return ordered.compactMap { byID[$0] }.map { entry in
             let name = visibility.homeRowName(for: entry.id)
             let choice = name.map { entry.choice.renamed(to: $0) } ?? entry.choice
+            let limit = cardLimit.flatMap { HomeRowCardCount.appliesLimit(to: entry.choice) ? $0 : nil }
             switch entry.source {
             case var .home(row):
                 row.customTitle = name
+                if let limit, row.kind != .continueWatching, row.kind != .upcomingEpisodes,
+                   row.kind != .libraries, row.items.count > limit {
+                    row.items = Array(row.items.prefix(limit))
+                    row.hasMore = true
+                }
                 return Self(choice: choice, source: .home(row))
             case .liveTV:
                 return Self(choice: choice, source: entry.source)
@@ -234,6 +242,10 @@ public struct HomePresentationRow: Identifiable, Equatable, Sendable {
                 var section = row.section.resolvingCollectionCovers(presentation.collectionCoverLayout(
                     at: LibraryPresentationSettings.collectionCoverAddress(for: entry.id)
                 ))
+                if let limit, section.items.count > limit {
+                    section.items = Array(section.items.prefix(limit))
+                    section.hasMore = true
+                }
                 if let name {
                     section = LibrarySection(
                         id: section.id, title: name, style: section.style, items: section.items,
@@ -253,5 +265,30 @@ public struct HomePresentationRow: Identifiable, Equatable, Sendable {
                 )))
             }
         }
+    }
+}
+
+/// How many titles a Home row shows on Apple TV (Settings > Home > Row style >
+/// Cards per row), not counting its See all cards. Continue Watching and
+/// Upcoming Episodes always show their whole row.
+public enum HomeRowCardCount {
+    /// Titles a Home row preview loads by default (iPhone and iPad).
+    public static let standardPreviewLimit = HomeRecentlyAddedPolicy.rowLimit
+    /// Titles Apple TV loads per preview, so every Cards per row option fills.
+    public static let largestPreviewLimit = HeroSettings.homeRowCardCountOptions.max()
+        ?? HeroSettings.defaultHomeRowCardCount
+
+    /// Whether the limit applies to a row: not to Continue Watching or Upcoming
+    /// Episodes, whether built in, a server's own Continue Watching row, or a
+    /// custom row built from either.
+    public static func appliesLimit(to choice: HomeRowChoice) -> Bool {
+        let unlimited: Set<HomeGlobalRow> = [.continueWatching, .upcomingEpisodes]
+        if case let .global(kind) = choice.id, unlimited.contains(kind) { return false }
+        if choice.serverRow?.section.kind == .continueWatching { return false }
+        if let sources = choice.collectionSection?.sources, !sources.isEmpty,
+           sources.allSatisfy({ $0.home.map(unlimited.contains) == true }) {
+            return false
+        }
+        return true
     }
 }
