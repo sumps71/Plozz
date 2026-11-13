@@ -45,15 +45,11 @@ struct FocusHeroRowReporter {
 enum FocusHeroLayout {
     static var screenHeight: CGFloat { HomeHeroLayout.screenHeight }
     static var screenWidth: CGFloat { HomeHeroLayout.screenWidth }
-    /// What shows of the next row under the pinned one: its title and the top
-    /// edge of its cards. Keep real artwork visible below the heading and its
-    /// spacing so the native focus engine can reach it with Down. Trimmed from 96
-    /// to show more of the backdrop: a row's cards start about 49 pt below its
-    /// top (32 pt bold title, Showcase title tightening, rail top padding), so
-    /// about 31 pt of the next row's cards still show beneath its title. Going
-    /// further (e.g. 72 with 10 pt spacing) makes the largest logo and text
-    /// sizes settle by ~2 pt after a row change.
-    static let nextRowPeek: CGFloat = 80
+    /// How much of the next row shows under the pinned one. 0: none, so the
+    /// backdrop gets the most room; the next row is laid out just below the
+    /// screen and stays reachable with Down (the rows scroll natively and are
+    /// all realized). Was 96, which showed its title and the top of its cards.
+    static let nextRowPeek: CGFloat = 0
     /// Keeps the hero column usable if a row ever measures unexpectedly tall.
     static let lowestSlotTop: CGFloat = 360
     /// A backdrop's own shape. The art is sized to it rather than cropped to the

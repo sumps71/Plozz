@@ -367,7 +367,10 @@ final class HeroLogoPresentationHostedTests: XCTestCase {
             let logo = try XCTUnwrap(redBounds(in: fixture.window))
             XCTAssertGreaterThanOrEqual(logo.minY, rowID == "first" ? 300 : 84)
             if rowID == "second" {
-                XCTAssertGreaterThan(logo.height, try XCTUnwrap(visibleLogo).height * 1.2)
+                // Hiding the header releases its space: the logo reaches its full
+                // box and never shrinks. (With low rows there can be room for the
+                // full logo even with the header showing.)
+                XCTAssertGreaterThanOrEqual(logo.height, try XCTUnwrap(visibleLogo).height - 1)
                 XCTAssertEqual(logo.height, HeroLogoSizing.box(for: .showcase, size: settings.showcaseLogoSize).height, accuracy: 1)
             } else if let visibleLogo {
                 XCTAssertEqual(logo, visibleLogo, "Returning to the first row restores navigation clearance.")
