@@ -85,6 +85,10 @@ public enum BrowseLayout: String, CaseIterable, Codable, Sendable {
     /// title: artwork, details, ratings, synopsis and credits. Information only;
     /// the panel never takes focus.
     case gridWithDetails
+    /// The full poster grid, with the same information shown in a pop-up beside
+    /// a title once focus has rested on it for ``BrowsePopupDelay`` seconds.
+    /// Moving focus hides it; it never takes focus.
+    case gridWithPopup
 
     public static let `default`: BrowseLayout = .grid
 
@@ -102,7 +106,26 @@ public enum BrowseLayout: String, CaseIterable, Codable, Sendable {
                 defaultValue: "Grid with details",
                 comment: "See all screen layout option in Settings > Appearance: a poster grid beside a panel describing the focused title."
             )
+        case .gridWithPopup:
+            return LocalizedStringResource(
+                "browseLayout.gridWithPopup",
+                defaultValue: "Grid with pop-up details",
+                comment: "See all screen layout option in Settings > Appearance: a poster grid where details pop up beside a title after focus rests on it."
+            )
         }
+    }
+}
+
+/// How long focus rests on a title before the See all pop-up describes it, for
+/// ``BrowseLayout/gridWithPopup``. Whole seconds.
+public enum BrowsePopupDelay {
+    public static let options = Array(1...5)
+    public static let `default` = 2
+
+    /// The nearest offered value, so a stored or synced value outside the range
+    /// still behaves.
+    public static func snapped(_ seconds: Int) -> Int {
+        min(options.last ?? seconds, max(options.first ?? seconds, seconds))
     }
 }
 

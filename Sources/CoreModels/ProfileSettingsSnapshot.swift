@@ -45,6 +45,7 @@ public enum ProfileSettingsTransfer {
         ThemeSettingsStore.gradientStorageKey,
         ThemeSettingsStore.opacityStorageKey,
         ThemeSettingsStore.browseLayoutStorageKey,
+        ThemeSettingsStore.browsePopupDelayStorageKey,
         ContentRatingSettingsStore.storageKey,
         "transparencyPreference",
         "com.plozz.cardStyle",

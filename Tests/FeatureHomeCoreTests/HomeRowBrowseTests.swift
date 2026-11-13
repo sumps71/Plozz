@@ -730,3 +730,45 @@ final class HomeRowBrowseDetailColumnTests: XCTestCase {
     }
 }
 #endif
+
+#if os(tvOS)
+final class HomeRowBrowseDetailPopupPlacementTests: XCTestCase {
+    private let screen = CGRect(x: 0, y: 0, width: 1760, height: 1000)
+    private let popup = CGSize(width: 640, height: 600)
+    private let gap = HomeRowBrowseDetailPopupPlacement.gap
+
+    func testOpensOnTheTrailingSideWhenItFits() {
+        let card = CGRect(x: 80, y: 200, width: 220, height: 330)
+        let origin = HomeRowBrowseDetailPopupPlacement.origin(card: card, popup: popup, bounds: screen)
+        XCTAssertEqual(origin, CGPoint(x: card.maxX + gap, y: 200))
+    }
+
+    func testOpensOnTheLeadingSideNearTheTrailingEdge() {
+        let card = CGRect(x: 1500, y: 200, width: 220, height: 330)
+        let origin = HomeRowBrowseDetailPopupPlacement.origin(card: card, popup: popup, bounds: screen)
+        XCTAssertEqual(origin.x, card.minX - gap - popup.width)
+    }
+
+    func testStaysOnScreenBelowAndAboveTheVisibleGrid() {
+        let low = CGRect(x: 80, y: 820, width: 220, height: 330)
+        XCTAssertEqual(
+            HomeRowBrowseDetailPopupPlacement.origin(card: low, popup: popup, bounds: screen).y,
+            screen.maxY - HomeRowBrowseDetailPopupPlacement.margin - popup.height
+        )
+        let high = CGRect(x: 80, y: -200, width: 220, height: 330)
+        XCTAssertEqual(
+            HomeRowBrowseDetailPopupPlacement.origin(card: high, popup: popup, bounds: screen).y,
+            HomeRowBrowseDetailPopupPlacement.margin
+        )
+    }
+
+    func testNeverCoversTheCardWhenEitherSideFits() {
+        for x in stride(from: CGFloat(80), through: 1500, by: 260) {
+            let card = CGRect(x: x, y: 200, width: 220, height: 330)
+            let origin = HomeRowBrowseDetailPopupPlacement.origin(card: card, popup: popup, bounds: screen)
+            let placed = CGRect(origin: origin, size: popup)
+            XCTAssertFalse(placed.intersects(card.insetBy(dx: -gap / 2, dy: 0)), "card at \(x)")
+        }
+    }
+}
+#endif

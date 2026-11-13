@@ -550,6 +550,10 @@ public extension EnvironmentValues {
     /// Whether the Home "See all" screen shows the focused title's details
     /// beside a narrower grid. From ``ThemeSettingsModel/browseLayout``.
     @Entry var browseShowsDetails: Bool = false
+    /// Seconds focus rests on a "See all" title before its details pop up
+    /// beside it, or `nil` when the pop-up is off. From
+    /// ``ThemeSettingsModel/browseLayout`` and ``ThemeSettingsModel/browsePopupDelay``.
+    @Entry var browseDetailPopupDelay: Int? = nil
 }
 
 private struct ThemePaletteKey: EnvironmentKey {

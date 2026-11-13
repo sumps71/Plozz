@@ -7,8 +7,20 @@ import SwiftUI
 /// See all layout is Grid with details: the focused title's backdrop, name,
 /// details, ratings, synopsis and credits. Information only — it never takes
 /// focus, so the grid behaves exactly as it does without it.
+///
+/// Grid with pop-up details shows the same information in ``Style/popup``: a
+/// floating card beside the title focus has rested on.
 struct HomeRowBrowseDetailPanel: View {
+    enum Style {
+        /// Full height at the screen's trailing edge.
+        case panel
+        /// A floating card sized to its content.
+        case popup
+    }
+
     static let width: CGFloat = 580
+    static let popupWidth: CGFloat = 640
+    static let popupCornerRadius: CGFloat = 28
     /// Clear space between the grid and the panel, so a focused card in the
     /// grid's last column can grow and lift without running under the panel.
     static let gridGap: CGFloat = 40
@@ -25,9 +37,33 @@ struct HomeRowBrowseDetailPanel: View {
     /// The drawn width, which can exceed ``width`` to reach the screen's edge
     /// past the safe area the panel's layout slot ends at.
     var drawnWidth: CGFloat = Self.width
+    var style: Style = .panel
     @Environment(\.themePalette) private var palette
 
     var body: some View {
+        switch style {
+        case .panel: panel
+        case .popup: popup
+        }
+    }
+
+    private var popup: some View {
+        Group {
+            if let item {
+                content(for: item)
+                    .padding(.bottom, 40)
+            }
+        }
+        .frame(width: drawnWidth, alignment: .topLeading)
+        .background(palette.backgroundSecondary)
+        .clipShape(RoundedRectangle(cornerRadius: Self.popupCornerRadius, style: .continuous))
+        .shadow(color: .black.opacity(0.45), radius: 36, y: 18)
+        .focusable(false)
+        .allowsHitTesting(false)
+        .accessibilityElement(children: .combine)
+    }
+
+    private var panel: some View {
         ZStack(alignment: .topLeading) {
             palette.backgroundSecondary
             if let item {
@@ -78,7 +114,7 @@ struct HomeRowBrowseDetailPanel: View {
                         .font(.system(size: 25))
                         .foregroundStyle(palette.secondaryText)
                         .lineSpacing(4)
-                        .lineLimit(9)
+                        .lineLimit(style == .popup ? 5 : 9)
                         .padding(.top, 6)
                 }
                 credits(for: item)
@@ -99,7 +135,7 @@ struct HomeRowBrowseDetailPanel: View {
         } placeholder: {
             palette.fill
         }
-        .frame(width: drawnWidth, height: drawnWidth * 9 / 16)
+        .frame(width: drawnWidth, height: drawnWidth * (style == .popup ? 1 / 2 : 9 / 16))
         .clipped()
         .overlay(alignment: .bottom) {
             LinearGradient(
@@ -154,6 +190,37 @@ struct HomeRowBrowseDetailPanel: View {
             .font(.system(size: 22))
             .foregroundStyle(palette.secondaryText.opacity(0.8))
         }
+    }
+}
+
+/// Where the See all details pop-up sits beside the card it describes.
+enum HomeRowBrowseDetailPopupPlacement {
+    /// Clear space between the card and the pop-up. Generous enough that the
+    /// focused card can grow and lift without running under it.
+    static let gap: CGFloat = 48
+    /// The pop-up keeps at least this far inside the visible grid.
+    static let margin: CGFloat = 24
+
+    /// The pop-up's top-leading corner, in the same space as `card` and
+    /// `bounds`. It goes on the trailing side when it fits there, else the
+    /// leading side, else whichever side has more room, and is kept inside
+    /// `bounds`. Vertically it lines up with the card's top, moved up as needed
+    /// to stay on screen.
+    static func origin(card: CGRect, popup: CGSize, bounds: CGRect) -> CGPoint {
+        let trailingRoom = bounds.maxX - card.maxX - gap - margin
+        let leadingRoom = card.minX - bounds.minX - gap - margin
+        let x: CGFloat
+        if trailingRoom >= popup.width || (leadingRoom < popup.width && trailingRoom >= leadingRoom) {
+            x = card.maxX + gap
+        } else {
+            x = card.minX - gap - popup.width
+        }
+        let minX = bounds.minX + margin, maxX = bounds.maxX - margin - popup.width
+        let minY = bounds.minY + margin, maxY = bounds.maxY - margin - popup.height
+        return CGPoint(
+            x: max(minX, min(x, maxX)),
+            y: max(minY, min(card.minY, maxY))
+        )
     }
 }
 #endif

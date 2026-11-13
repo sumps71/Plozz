@@ -23,10 +23,16 @@ library scan is added to ordinary paging.
 ## Browsing Home rows
 
 On Apple TV, Settings > Appearance > See all layout offers **Grid with details**
-(`BrowseLayout`, per profile, default Grid). `HomeRowBrowseView` then drops one
-grid column and shows `HomeRowBrowseDetailPanel` for the focused title: backdrop
-(the show's for episodes), name, year/genres/runtime/rating, ratings, synopsis
-and credits. The panel never takes focus. Once focus settles, the shell's
+and **Grid with pop-up details** (`BrowseLayout`, per profile, default Grid).
+With details, `HomeRowBrowseView` gives up grid columns (two on a poster wall,
+one on a landscape grid) and shows `HomeRowBrowseDetailPanel` for the focused
+title: backdrop (the show's for episodes), name, year/genres/runtime/rating,
+ratings, synopsis and credits. With pop-up details the grid keeps every column;
+once focus has rested on a title for the Pop-up delay (`BrowsePopupDelay`, 1–5
+seconds, default 2) the same content appears in the panel's `.popup` style beside
+the card — trailing side when it fits, else leading
+(`HomeRowBrowseDetailPopupPlacement`) — and moving focus hides it at once. Neither
+the panel nor the pop-up takes focus. Once focus settles, the shell's
 `loadDetails` fetches the full record from the item's own server (never a bare
 id across servers); spoiler settings hide episode titles and synopses. Library
 pages (`LibraryBrowseView`) keep their grid.
