@@ -852,6 +852,7 @@ public final class PlayerViewModel {
         self.controls.skipGesture.backwardInterval = playbackSettings.skipBackwardInterval
         self.controls.skipGesture.forwardInterval = playbackSettings.skipForwardInterval
         self.controls.skipGesture.seekWithoutPausing = playbackSettings.seekWithoutPausing
+        self.controls.skipGesture.exitConfirmationSeconds = playbackSettings.exitConfirmationSeconds
         self.controls.upNextCard.leadSeconds = TimeInterval(playbackSettings.upNextLeadSeconds)
         // Seed the overlay with the profile's persisted subtitle appearance so a
         // selected subtitle renders in the user's style from the first cue.
