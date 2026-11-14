@@ -2027,6 +2027,9 @@ struct MainTabView: View {
         .environment(navigationStyleModel)
         .environment(transparencyModel)
         .environment(heroSettingsModel)
+        #if os(tvOS)
+        .homeClockOverlay(heroSettingsModel.settings.homeClock)
+        #endif
         .environment(shareScanStatusModel)
         .onChange(of: showsMusicDestination, initial: true) { _, available in
             guard available, !hasChosenNavigationDestination, !settingsEntryRequested,
