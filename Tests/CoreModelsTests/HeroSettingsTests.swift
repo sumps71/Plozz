@@ -718,4 +718,14 @@ final class HeroSettingsTests: XCTestCase {
         settings.homeRowCardCount = 40
         XCTAssertEqual(settings.homeRowCardCount, 21)
     }
+
+    func testResetHomeRowOnFocusExitIsOffByDefaultAndRoundTrips() throws {
+        XCTAssertFalse(HeroSettings.default.resetsHomeRowOnFocusExit)
+        var settings = HeroSettings.default
+        settings.resetsHomeRowOnFocusExit = true
+        let decoded = try JSONDecoder().decode(HeroSettings.self, from: JSONEncoder().encode(settings))
+        XCTAssertTrue(decoded.resetsHomeRowOnFocusExit)
+        let legacy = try JSONDecoder().decode(HeroSettings.self, from: Data("{}".utf8))
+        XCTAssertFalse(legacy.resetsHomeRowOnFocusExit, "Saved settings from before keep rows where they were")
+    }
 }

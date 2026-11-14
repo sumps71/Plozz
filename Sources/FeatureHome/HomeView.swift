@@ -195,6 +195,16 @@ public struct HomeView: View {
         #endif
     }
 
+    /// Whether a row scrolls back to its first card when focus moves to another
+    /// row, from Settings > Home > Row style (Apple TV only).
+    private var resetsRowsOnFocusExit: Bool {
+        #if os(tvOS)
+        heroSettings?.settings.resetsHomeRowOnFocusExit ?? false
+        #else
+        false
+        #endif
+    }
+
     /// The carousel's settings, or `nil` when Home isn't showing the carousel.
     /// That includes a hero that follows focus: its titles are the rows, so none
     /// of the carousel's curation, caching or refresh has anything to do.
@@ -427,6 +437,7 @@ public struct HomeView: View {
             screen
                 .environment(\.mediaRowHeaderTrailingInset,
                              navigationStyle == .rail ? geometry.safeAreaInsets.trailing : 0)
+                .environment(\.resetsMediaRowOnFocusExit, resetsRowsOnFocusExit)
         }
     }
 

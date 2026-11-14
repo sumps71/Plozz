@@ -699,6 +699,12 @@ struct HomeRowStyleSettingsView: View {
                     .settingsSearchAnchor("home-row-card-count")
                 }
                 Text("Continue Watching and Upcoming Episodes always show every title.").settingsHelperText()
+                SettingsControlGroup {
+                    Toggle("Reset rows when leaving", isOn: $hero.settings.resetsHomeRowOnFocusExit)
+                        .accessibilityIdentifier("home-row-reset-on-exit")
+                        .settingsSearchAnchor("home-row-reset-on-exit")
+                }
+                Text("A row scrolls back to its first title when you move to another row.").settingsHelperText()
                 if hero.settings.immersiveRows {
                     SettingsControlGroup {
                         HeroLogoSizeControl(
