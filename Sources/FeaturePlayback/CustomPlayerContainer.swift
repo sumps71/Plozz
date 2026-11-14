@@ -49,6 +49,7 @@ struct PlayerActions {
     var playUpNext: () -> Void = {}
     /// Dismiss the Up Next card without advancing (Menu / swipe away).
     var dismissUpNext: () -> Void = {}
+    /// A user-initiated exit. The host may ask for confirmation first.
     var dismiss: () -> Void = {}
 }
 
