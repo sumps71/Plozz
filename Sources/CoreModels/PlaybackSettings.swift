@@ -109,6 +109,12 @@ public struct PlaybackSettings: Codable, Equatable, Sendable {
     /// accidental seeks impossible while playing.
     public var seekWithoutPausing: Bool
 
+    /// How long after the player controls disappear a Back press asks "Exit
+    /// player?" instead of leaving, so a press meant to dismiss the controls
+    /// can't accidentally end playback. `0` turns the confirmation off.
+    /// Always one of ``exitConfirmationSecondsOptions`` (0.5s steps, 0–3s).
+    public var exitConfirmationSeconds: Double
+
     /// Whether finishing an episode automatically starts the next one.
     ///
     /// ON by default — that is what the player has always done, and it is what
@@ -213,6 +219,7 @@ public struct PlaybackSettings: Codable, Equatable, Sendable {
         discPlayback: DiscPlaybackBehavior = .playVideo,
         syncWatchAcrossServers: Bool = true,
         seekWithoutPausing: Bool = true,
+        exitConfirmationSeconds: Double = 3,
         autoPlayNextEpisode: Bool = true,
         autoPlayNextPlaylistItem: Bool = true,
         showUpNextCard: Bool = true,
@@ -257,6 +264,7 @@ public struct PlaybackSettings: Codable, Equatable, Sendable {
         self.discPlayback = discPlayback
         self.syncWatchAcrossServers = syncWatchAcrossServers
         self.seekWithoutPausing = seekWithoutPausing
+        self.exitConfirmationSeconds = Self.boundedExitConfirmation(exitConfirmationSeconds)
         self.autoPlayNextEpisode = autoPlayNextEpisode
         self.autoPlayNextPlaylistItem = autoPlayNextPlaylistItem
         self.showUpNextCard = showUpNextCard
@@ -402,6 +410,17 @@ public struct PlaybackSettings: Codable, Equatable, Sendable {
 
     public static let skipAutomaticDelayOptions = Array(0...30)
 
+    /// Selectable values (seconds) for ``exitConfirmationSeconds``: 0 (off) to 3 in
+    /// half-second steps.
+    public static let exitConfirmationSecondsOptions: [Double] = [0, 0.5, 1, 1.5, 2, 2.5, 3]
+
+    /// Clamps to 0...3 and snaps to the nearest half second so a stray stored
+    /// value always lands on a selectable option.
+    private static func boundedExitConfirmation(_ value: Double) -> Double {
+        guard value.isFinite else { return 3 }
+        return (min(3, max(0, value)) * 2).rounded() / 2
+    }
+
     private static func boundedSkipDelay(_ value: Int) -> Int {
         min(30, max(0, value))
     }
@@ -438,6 +457,7 @@ public extension PlaybackSettings {
         case rememberVersionPerSeries
         case syncWatchAcrossServers
         case seekWithoutPausing
+        case exitConfirmationSeconds
         case autoPlayNextEpisode
         case autoPlayNextPlaylistItem
         case showUpNextCard
@@ -556,6 +576,10 @@ public extension PlaybackSettings {
         self.seekWithoutPausing =
             (try? container.decodeIfPresent(Bool.self, forKey: .seekWithoutPausing))
             .flatMap { $0 } ?? defaults.seekWithoutPausing
+        self.exitConfirmationSeconds = Self.boundedExitConfirmation(
+            (try? container.decodeIfPresent(Double.self, forKey: .exitConfirmationSeconds))
+                .flatMap { $0 } ?? defaults.exitConfirmationSeconds
+        )
         // Defaults ON for upgrading installs, which is the behaviour they already
         // had — this setting only ever takes something away.
         self.autoPlayNextEpisode =
@@ -652,6 +676,7 @@ public extension PlaybackSettings {
         try container.encode(rememberVersionPerSeries, forKey: .rememberVersionPerSeries)
         try container.encode(syncWatchAcrossServers, forKey: .syncWatchAcrossServers)
         try container.encode(seekWithoutPausing, forKey: .seekWithoutPausing)
+        try container.encode(exitConfirmationSeconds, forKey: .exitConfirmationSeconds)
         try container.encode(autoPlayNextEpisode, forKey: .autoPlayNextEpisode)
         try container.encode(autoPlayNextPlaylistItem, forKey: .autoPlayNextPlaylistItem)
         try container.encode(showUpNextCard, forKey: .showUpNextCard)

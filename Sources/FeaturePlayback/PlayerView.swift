@@ -50,6 +50,7 @@ public struct PlayerLoadingOverlay: View {
 /// fallback, and caption styling.
 public struct PlayerView: View {
     @State private var viewModel: PlayerViewModel
+    @State private var showsExitConfirmation = false
     @State private var diagnosticsSampler = PlaybackDiagnosticsSampler()
     @State private var discStatus = TransientStatusPresenter(displayDuration: .seconds(5))
     /// Suspends Liquid Glass while demanding video is on screen.
@@ -120,6 +121,12 @@ public struct PlayerView: View {
             playbackActive: viewModel.wantsForegroundDisplayAwake
         ))
         #endif
+        .alert("Exit player?", isPresented: $showsExitConfirmation) {
+            Button("Keep Watching", role: .cancel) {}
+            Button("Exit", role: .destructive) { dismissSmoothly() }
+        } message: {
+            Text("Playback will stop.")
+        }
         .onChange(of: viewModel.shouldDismiss) { _, shouldDismiss in
             // Playback finished; close the player so it never freezes on the final
             // frame. Use the HDR-aware path so finishing a Dolby Vision/HDR title
@@ -412,7 +419,7 @@ public struct PlayerView: View {
                 dismissSkip: { viewModel.dismissActiveSkipSegment() },
                 playUpNext: { viewModel.playNextEpisode() },
                 dismissUpNext: { viewModel.dismissUpNextCard() },
-                dismiss: { dismissSmoothly() }
+                dismiss: { requestExit() }
             ),
             scrubPreview: viewModel.scrubPreview,
             authenticatedHTTPResolver:
@@ -462,6 +469,21 @@ public struct PlayerView: View {
         #else
         false
         #endif
+    }
+
+    /// Handles any user-initiated exit command. Within the profile's
+    /// "confirm exit" window after the controls disappeared it asks first, since
+    /// the command is most likely left over from viewing the controls.
+    private func requestExit() {
+        let controls = viewModel.controls
+        let window = controls.skipGesture.exitConfirmationSeconds
+        if window > 0, !controls.controlsVisible, let hiddenAt = controls.controlsHiddenAt,
+           Date().timeIntervalSince(hiddenAt) < window {
+            controls.controlsHiddenAt = nil
+            showsExitConfirmation = true
+        } else {
+            dismissSmoothly()
+        }
     }
 
     private func dismissPlayer() {
