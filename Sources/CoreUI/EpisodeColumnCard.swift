@@ -126,6 +126,14 @@ public struct EpisodeColumnCard: View, Equatable {
                 .lineLimit(1)
                 .padding(.top, metrics.landscapeCaptionTopSpacing + metrics.focusCaptionPush)
 
+            if let date = item.releaseDateLabel {
+                Text(verbatim: date)
+                    .font(.system(size: PlozzTypography.episodeDescription.scaled(by: textScale).pointSize, weight: .medium))
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
+                    .padding(.top, 4)
+            }
+
             SpoilerSafeOverviewText(
                 overview: presentation.overviewTreatment == .blurred
                     ? EpisodeColumnPresentation.compactOverview(item.overview)
