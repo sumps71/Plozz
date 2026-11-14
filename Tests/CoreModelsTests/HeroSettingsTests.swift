@@ -728,4 +728,16 @@ final class HeroSettingsTests: XCTestCase {
         let legacy = try JSONDecoder().decode(HeroSettings.self, from: Data("{}".utf8))
         XCTAssertFalse(legacy.resetsHomeRowOnFocusExit, "Saved settings from before keep rows where they were")
     }
+
+    func testHomeClockIsOffByDefaultAndRoundTrips() throws {
+        XCTAssertEqual(HeroSettings.default.homeClock, .off)
+        var settings = HeroSettings.default
+        settings.homeClock = .dateAndTime
+        let decoded = try JSONDecoder().decode(HeroSettings.self, from: JSONEncoder().encode(settings))
+        XCTAssertEqual(decoded.homeClock, .dateAndTime)
+        let legacy = try JSONDecoder().decode(HeroSettings.self, from: Data("{}".utf8))
+        XCTAssertEqual(legacy.homeClock, .off)
+        XCTAssertTrue(HomeClockMode.time.showsTime && !HomeClockMode.time.showsDate)
+        XCTAssertTrue(HomeClockMode.date.showsDate && !HomeClockMode.date.showsTime)
+    }
 }

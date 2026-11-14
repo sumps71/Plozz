@@ -13,6 +13,14 @@ import Observation
 /// fallbacks) so that adding a new field in a later version reads back an older
 /// persisted blob as "that field at its default" instead of failing the whole
 /// decode and resetting every setting.
+/// What the Home clock shows in the screen's upper right corner.
+public enum HomeClockMode: String, CaseIterable, Codable, Sendable {
+    case off, time, date, dateAndTime
+
+    public var showsTime: Bool { self == .time || self == .dateAndTime }
+    public var showsDate: Bool { self == .date || self == .dateAndTime }
+}
+
 public struct HeroSettings: Codable, Equatable, Sendable {
     /// Runtime policy, never synced as a preference or lifted by a settings edit.
     public private(set) var allowsDiscovery = true
@@ -118,6 +126,9 @@ public struct HeroSettings: Codable, Equatable, Sendable {
     /// row, instead of leaving it wherever it was browsed to. Off by default.
     public var resetsHomeRowOnFocusExit: Bool
 
+    /// Pins the current time and/or date to Home's upper right corner. Off by default.
+    public var homeClock: HomeClockMode
+
     public static let homeRowCardCountOptions = [11, 16, 21]
     /// The closest option to the 20 titles rows showed before the setting.
     public static let defaultHomeRowCardCount = 21
@@ -177,6 +188,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         showcaseTextSize: HeroTextSize = .default,
         homeRowCardCount: Int = HeroSettings.defaultHomeRowCardCount,
         resetsHomeRowOnFocusExit: Bool = false,
+        homeClock: HomeClockMode = .off,
         showsCardCaptions: Bool = false,
         showsDiscoverRow: Bool = false,
         collections: [HeroCollectionSelection] = [],
@@ -207,6 +219,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         self.showcaseTextSize = showcaseTextSize
         self.homeRowCardCount = Self.snappedHomeRowCardCount(homeRowCardCount)
         self.resetsHomeRowOnFocusExit = resetsHomeRowOnFocusExit
+        self.homeClock = homeClock
         self.showsCardCaptions = showsCardCaptions
         self.showsDiscoverRow = showsDiscoverRow
     }
@@ -223,6 +236,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         case textSize, showcaseTextSize
         case homeRowCardCount
         case resetsHomeRowOnFocusExit
+        case homeClock
         case offeredSourcesVersion
         case collections, collection
     }
@@ -268,6 +282,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
             showcaseTextSize: value(HeroTextSize.self, .showcaseTextSize, d.showcaseTextSize),
             homeRowCardCount: value(Int.self, .homeRowCardCount, d.homeRowCardCount),
             resetsHomeRowOnFocusExit: value(Bool.self, .resetsHomeRowOnFocusExit, d.resetsHomeRowOnFocusExit),
+            homeClock: value(HomeClockMode.self, .homeClock, d.homeClock),
             showsCardCaptions: value(Bool.self, .showsCardCaptions, d.showsCardCaptions),
             showsDiscoverRow: value(Bool.self, .showsDiscoverRow, d.showsDiscoverRow),
             collections: c.contains(.collections)
@@ -341,6 +356,7 @@ public struct HeroSettings: Codable, Equatable, Sendable {
         try c.encode(showcaseTextSize, forKey: .showcaseTextSize)
         try c.encode(homeRowCardCount, forKey: .homeRowCardCount)
         try c.encode(resetsHomeRowOnFocusExit, forKey: .resetsHomeRowOnFocusExit)
+        try c.encode(homeClock, forKey: .homeClock)
         try c.encode(showsCardCaptions, forKey: .showsCardCaptions)
         try c.encode(showsDiscoverRow, forKey: .showsDiscoverRow)
         try c.encode(Self.currentOfferedSourcesVersion, forKey: .offeredSourcesVersion)

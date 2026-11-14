@@ -205,6 +205,16 @@ public struct HomeView: View {
         #endif
     }
 
+    /// What the clock in Home's upper right corner shows, from Settings > Home >
+    /// Row style (Apple TV only).
+    private var homeClockMode: HomeClockMode {
+        #if os(tvOS)
+        heroSettings?.settings.homeClock ?? .off
+        #else
+        .off
+        #endif
+    }
+
     /// The carousel's settings, or `nil` when Home isn't showing the carousel.
     /// That includes a hero that follows focus: its titles are the rows, so none
     /// of the carousel's curation, caching or refresh has anything to do.
@@ -949,6 +959,19 @@ public struct HomeView: View {
                 if refreshAsyncHistory {
                     heroRuntime.externalRefreshRevision &+= 1
                 }
+            }
+        }
+        .overlay(alignment: .topTrailing) {
+            if homeClockMode != .off {
+                // Measured from the screen edge, not inside the safe area, which
+                // on Apple TV would add roughly 60pt/90pt of its own. The view
+                // fills the screen first: a fixed-size view ignoring the safe
+                // area would stay where it was.
+                HomeClockView(mode: homeClockMode)
+                    .padding(.top, HomeClockView.topMargin)
+                    .padding(.trailing, HomeClockView.topMargin)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+                    .ignoresSafeArea()
             }
         }
         .overlay(alignment: .topTrailing) {

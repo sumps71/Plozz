@@ -656,6 +656,8 @@ public enum SettingsSearchCatalog {
               keywords: "home row number count titles posters cards items limit how many", platform: .television),
         .init("home-row-reset-on-exit", page: .homeRowStyle, title: "Reset rows when leaving",
               keywords: "home row scroll back start beginning first reset return position focus", platform: .television),
+        .init("home-clock", page: .homeRowStyle, title: "Clock",
+              keywords: "home time date clock corner display show current hour", platform: .television),
         .init("showcase-logo-size", page: .homeRowStyle, title: "Logo size",
               keywords: "showcase spotlight title logo bigger smaller", platform: .television),
         .init("showcase-text-size", page: .homeRowStyle, title: "Text size",

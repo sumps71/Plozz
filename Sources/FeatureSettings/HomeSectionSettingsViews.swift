@@ -705,6 +705,24 @@ struct HomeRowStyleSettingsView: View {
                         .settingsSearchAnchor("home-row-reset-on-exit")
                 }
                 Text("A row scrolls back to its first title when you move to another row.").settingsHelperText()
+                SettingsControlGroup {
+                    SettingsStepper(
+                        options: HomeClockMode.allCases,
+                        selection: $hero.settings.homeClock,
+                        compact: true, label: "Clock",
+                        title: {
+                            switch $0 {
+                            case .off: "Off"
+                            case .time: "Time"
+                            case .date: "Date"
+                            case .dateAndTime: "Date and time"
+                            }
+                        }
+                    )
+                    .accessibilityIdentifier("home-clock")
+                    .settingsSearchAnchor("home-clock")
+                }
+                Text("Shows the current time, date or both in the upper right corner of Home.").settingsHelperText()
                 if hero.settings.immersiveRows {
                     SettingsControlGroup {
                         HeroLogoSizeControl(
