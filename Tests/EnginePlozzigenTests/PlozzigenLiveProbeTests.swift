@@ -24,8 +24,11 @@ final class PlozzigenLiveProbeTests: XCTestCase {
         XCTAssertEqual(ranges, [.sdr])
         let transition = LiveChannelDisplayTransition()
         defer { transition.reset() }
+        // Known SDR still honors the frame-rate fade; isolate the dynamic-range decision.
+        var hdrOnly = PlaybackSettings.default
+        hdrOnly.fadeOnFrameRateChange = false
         _ = transition.beginPlayback(
-            isFullscreen: true, changesSource: false, range: facts.range, settings: .default
+            isFullscreen: true, changesSource: false, range: facts.range, settings: hdrOnly
         )
         XCTAssertFalse(transition.veil.isVeiled)
     }
