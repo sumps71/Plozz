@@ -1094,6 +1094,22 @@ struct PlaybackDetailView: View {
             ) {
                 Toggle("Seek without pausing", isOn: $playback.settings.seekWithoutPausing)
                     .settingsSearchAnchor("seek-without-pausing")
+            },
+            SettingsSplitRow(
+                id: "exit-confirmation",
+                title: "Confirm exit after controls hide",
+                description: "If you press Back this soon after the player controls disappear, you're asked before playback stops. Off exits immediately.",
+            ) {
+                SettingsStepper(
+                    options: PlaybackSettings.exitConfirmationSecondsOptions,
+                    selection: $playback.settings.exitConfirmationSeconds,
+                    label: "Confirm exit within",
+                    verbatimTitle: {
+                        $0 == 0
+                            ? String(localized: "Off")
+                            : Duration.seconds($0).formatted(.units(allowed: [.seconds], width: .narrow, fractionalPart: .show(length: 1)))
+                    }
+                ).settingsSearchAnchor("exit-confirmation")
             }
         ]
     }

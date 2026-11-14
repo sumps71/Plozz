@@ -312,6 +312,11 @@ public final class SkipGestureModel {
     /// position or pause playback.
     public var seekWithoutPausing: Bool = true
 
+    /// Seconds after the controls hide during which Back asks before exiting
+    /// (per-profile setting). 0 = off, which is also the default so surfaces that
+    /// don't host the confirmation (the borrowed trailer player) just exit.
+    public var exitConfirmationSeconds: Double = 0
+
     /// Whether the last skip was forward; drives which glyph the hint shows.
     public var hintForward: Bool = true
     /// True while the transient skip indicator is on screen.
@@ -504,6 +509,7 @@ public final class PlayerControlsModel {
     // MARK: Transport UI state (written by the input controller)
     public var controlsVisible: Bool = false {
         didSet {
+            if oldValue && !controlsVisible { controlsHiddenAt = Date() }
             #if os(tvOS)
             // Keep the outgoing labels intact until the controls have faded.
             if controlsVisible && !oldValue { timelineClock.isEnabled = false }
@@ -512,6 +518,9 @@ public final class PlayerControlsModel {
             #endif
         }
     }
+    /// When the transport last went away, so a Back press right after it hides can be
+    /// treated as a likely accident rather than a deliberate exit.
+    @ObservationIgnored public var controlsHiddenAt: Date?
     public let timelineClock = PlayerTimelineClock()
     /// Transient global bounds of visible bottom controls, excluding the scrim.
     public let subtitleLayout = SubtitleControlsLayout()
