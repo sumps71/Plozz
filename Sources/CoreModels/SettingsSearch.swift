@@ -448,6 +448,8 @@ public enum SettingsSearchCatalog {
               keywords: "opening ending credits recap automatically skip intro markers"),
         .init("seek-without-pausing", page: .playback, title: "Seek without pausing",
               keywords: "scrub swipe accidentally jump timeline pause seeking"),
+        .init("exit-confirmation", page: .playback, title: "Confirm exit after controls hide",
+              keywords: "back menu button accidentally exit leave close player confirmation prompt", platform: .television),
         .init("background-audio", page: .playback, title: "Background Audio",
               keywords: "keep sound playing locked screen other apps background playback", platform: .mobile),
         .init("player-orientation", page: .playback, title: "Player orientation",
