@@ -118901,6 +118901,9 @@
         }
       }
     },
+    "A row scrolls back to its first title when you move to another row." : {
+
+    },
     "A secure connection to the provider could not be established." : {
       "localizations" : {
         "ar" : {
@@ -160809,9 +160812,6 @@
           }
         }
       }
-    },
-    "Artwork position" : {
-
     },
     "Artwork preferences are in Appearance > Artwork and belong to each profile." : {
       "extractionState" : "stale",
@@ -242238,6 +242238,9 @@
         }
       }
     },
+    "Clock" : {
+
+    },
     "Close" : {
       "localizations" : {
         "ar" : {
@@ -250929,6 +250932,12 @@
           }
         }
       }
+    },
+    "Confirm exit after controls hide" : {
+
+    },
+    "Confirm exit within" : {
+
     },
     "Confirm on your other device." : {
       "localizations" : {
@@ -299422,6 +299431,12 @@
           }
         }
       }
+    },
+    "Date" : {
+
+    },
+    "Date and time" : {
+
     },
     "Declared stream bitrate" : {
       "localizations" : {
@@ -366434,6 +366449,9 @@
         }
       }
     },
+    "Exit" : {
+
+    },
     "Exit Full Screen" : {
       "localizations" : {
         "ar" : {
@@ -366653,6 +366671,9 @@
           }
         }
       }
+    },
+    "Exit player?" : {
+
     },
     "Expanded" : {
       "comment" : "Accessibility state of an expanded section of a form.",
@@ -427364,6 +427385,9 @@
         }
       }
     },
+    "If you press Back this soon after the player controls disappear, you're asked before playback stops. Off exits immediately." : {
+
+    },
     "Ignore" : {
       "comment" : "Button label for dismissing a pending synced-server prompt without setting that server up on this device, on tvOS and iOS.",
       "localizations" : {
@@ -445979,6 +446003,9 @@
           }
         }
       }
+    },
+    "Keep Watching" : {
+
     },
     "Keep both devices on the same Wi-Fi." : {
       "localizations" : {
@@ -616355,6 +616382,9 @@
         }
       }
     },
+    "Playback will stop." : {
+
+    },
     "Player" : {
       "localizations" : {
         "ar" : {
@@ -714527,6 +714557,9 @@
         }
       }
     },
+    "Reset rows when leaving" : {
+
+    },
     "Reset synced data?" : {
       "localizations" : {
         "ar" : {
@@ -807719,6 +807752,9 @@
           }
         }
       }
+    },
+    "Shows the current time, date or both in the upper right corner of Home." : {
+
     },
     "Shows the song playing in a movie or show in the player’s Info, using Shazam. Needs an internet connection." : {
       "localizations" : {
@@ -969972,6 +970008,9 @@
         }
       }
     },
+    "Time" : {
+
+    },
     "Time before the end" : {
       "localizations" : {
         "ar" : {
@@ -1072098,6 +1072137,9 @@
         }
       }
     },
+    "back menu button accidentally exit leave close player confirmation prompt" : {
+
+    },
     "background colors colours flat gradient" : {
       "localizations" : {
         "ar" : {
@@ -1096520,30 +1096562,6 @@
         }
       }
     },
-    "heroArtworkPosition.centered" : {
-      "comment" : "Showcase hero background picture placement option in Settings > Home > Row style. The picture sits in the middle and fades on both sides.",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Centered"
-          }
-        }
-      }
-    },
-    "heroArtworkPosition.right" : {
-      "comment" : "Showcase hero background picture placement option in Settings > Home > Row style.",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Right"
-          }
-        }
-      }
-    },
     "heroBackground.detail.off" : {
       "comment" : "One-line explanation shown under the hero-background picker.",
       "extractionState" : "extracted_with_value",
@@ -1101263,6 +1101281,9 @@
     "home row number count titles posters cards items limit how many" : {
 
     },
+    "home row scroll back start beginning first reset return position focus" : {
+
+    },
     "home rows shelves hubs sections reset standard customize" : {
       "localizations" : {
         "ar" : {
@@ -1101702,6 +1101723,9 @@
           }
         }
       }
+    },
+    "home time date clock corner display show current hour" : {
+
     },
     "home.custom-row.sort-summary" : {
       "comment" : "Compact summary of the selected sort field and direction. Both placeholders are already localized.",
@@ -1170147,9 +1170171,6 @@
           }
         }
       }
-    },
-    "showcase hero background picture centre center middle right fade sides" : {
-
     },
     "showcase row family guidance children recommended age" : {
       "localizations" : {
