@@ -1477,7 +1477,6 @@ struct FocusHeroColumn: View {
     let navigationStyle: NavigationStyle
     let rows: [FocusHeroRow]
     let minimumDetailsTop: CGFloat?
-    @State var schedules = HeroScheduleLines()
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.plozzNavigationContentInset) private var navigationContentInset
     @Environment(\.plozzAppTextScale) private var appTextScale
@@ -1503,14 +1502,6 @@ struct FocusHeroColumn: View {
                 guard let enrich, let item = model.subject?.item else { return }
                 await metadata.load(item, using: enrich)
             }
-            .task(id: schedules.fetchKey(for: model.subject?.item)) {
-                guard let item = model.subject?.item else { return }
-                await schedules.loadCached([item])
-                // Fetch only the title the viewer settles on.
-                try? await Task.sleep(for: .milliseconds(400))
-                guard !Task.isCancelled else { return }
-                await schedules.refreshFronted(item)
-            }
     }
 
     @ViewBuilder private var column: some View {
@@ -1525,8 +1516,6 @@ struct FocusHeroColumn: View {
     private var standardColumn: some View {
         let top = FocusHeroLayout.columnTop(for: navigationStyle)
         let reference = FocusHeroLayout.lowestSlotTop
-        let badgeHeadroom: CGFloat = model.details?.item.map(HeroScheduleLines.canShowLine(for:)) == true
-            ? 36 * textScale + 16 : 0
         // A block of fixed height just above the pinned row, its content pinned
         // to the block's top: the logo holds one place from title to title, and a
         // longer description only reaches further down.
@@ -1548,9 +1537,7 @@ struct FocusHeroColumn: View {
                 if model.detailsSwapWithRow { transaction.animation = nil }
             }
         .frame(width: FocusHeroLayout.columnWidth, alignment: .topLeading)
-        .padding(.top, badgeHeadroom)
         .modifier(FocusHeroContentFit(motion: model.motion))
-        .padding(.top, -badgeHeadroom)
         // Keep Home's proposal around the complete block; framing the footprint
         // before its overlay would move the details into its unused space.
         .frame(height: FocusHeroLayout.detailsFootprintHeight, alignment: .bottomLeading)
@@ -1572,19 +1559,10 @@ struct FocusHeroColumn: View {
                 let box = HeroLogoSizing.box(for: .showcase, size: settings.showcaseLogoSize)
                 Group {
                     if hasCustomSizing {
-                        VStack(alignment: .leading, spacing: 0) {
-                            if HeroScheduleLines.canShowLine(for: item) {
-                                HeroScheduleBadge(text: "Upcoming")
-                                    .lineLimit(1)
-                                    .hidden()
-                                    .accessibilityHidden(true)
-                                    .padding(.bottom, 16)
-                            }
-                            itemColumn(item, reservesLogoHeight: false)
-                        }
-                        .frame(width: FocusHeroLayout.columnWidth, alignment: .leading)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .modifier(FocusHeroContentFit(motion: model.motion))
+                        itemColumn(item, reservesLogoHeight: false)
+                            .frame(width: FocusHeroLayout.columnWidth, alignment: .leading)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .modifier(FocusHeroContentFit(motion: model.motion))
                         .frame(height: max(0, bottom - top), alignment: .bottomLeading)
                     } else {
                         defaultConstrainedColumn(item: item, box: box)
@@ -1605,15 +1583,8 @@ struct FocusHeroColumn: View {
 
     private func defaultConstrainedColumn(item: MediaItem, box: CGSize) -> some View {
         FocusHeroConstrainedDetailsLayout(logoHeight: box.height) {
-            if HeroScheduleLines.canShowLine(for: item) {
-                // Reserve the native badge height before its data arrives.
-                HeroScheduleBadge(text: "Upcoming")
-                    .lineLimit(1)
-                    .hidden()
-                    .accessibilityHidden(true)
-            } else {
-                Color.clear.frame(height: 0)
-            }
+            // The layout's first slot, formerly the schedule badge's.
+            Color.clear.frame(height: 0)
             GeometryReader { geometry in
                 let scale = min(1, geometry.size.height / box.height)
                 itemLogo(item, box: CGSize(width: box.width * scale, height: box.height * scale))
@@ -1690,18 +1661,6 @@ struct FocusHeroColumn: View {
                 .multilineTextAlignment(.leading)
         }
         .accessibilityIdentifier("showcase-title-logo")
-        .overlay(alignment: .topLeading) {
-            if let line = schedules.line(for: item) {
-                HeroScheduleBadge(text: line)
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.8)
-                    .accessibilityIdentifier("showcase-schedule")
-                    .frame(width: FocusHeroLayout.columnWidth, alignment: .leading)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .padding(.bottom, 16)
-                    .frame(height: 0, alignment: .bottomLeading)
-            }
-        }
         // Home keeps a stable logo baseline. Custom Recommended fits the
         // actual artwork height instead of charging for empty box space.
         .frame(height: reservesHeight ? box.height : nil, alignment: .bottomLeading)
@@ -1712,25 +1671,26 @@ struct FocusHeroColumn: View {
         let detailed = enrich == nil || metadata.hasDetails(for: item)
         VStack(alignment: .leading, spacing: 12) {
             if detailed {
-                HeroMetadataLine(item: item)
-                    .modifier(HeroTextLegibilityShadow(colorScheme: colorScheme))
-
                 let ratings = ratingsRow(for: item)
                 let showsRatings = ratings.map { !$0.ratings.isEmpty || $0.age != nil } ?? false
-                if descriptionLines > 0, let description = HeroContentPolicy.homeDescription(for: presentation) {
-                    // The ratings row takes the room of two description lines.
-                    Text(description.overviewPlainText)
-                        .accessibilityIdentifier("showcase-description")
-                        .font(.system(size: PlozzTypography.heroDescription.scaled(by: textScale).pointSize))
-                        .foregroundStyle(.primary)
-                        .lineSpacing(PlozzTypography.heroDescription.scaled(by: textScale).lineSpacing)
-                        .lineLimit(showsRatings ? 1 : descriptionLines)
-                        .frame(maxWidth: 820, alignment: .topLeading)
-                        .modifier(HeroTextLegibilityShadow(colorScheme: colorScheme))
+                // Ratings share the metadata line, so they don't take description lines.
+                HStack(alignment: .center, spacing: 24 * textScale) {
+                    HeroMetadataLine(item: item)
+                    if showsRatings, let ratings {
+                        RatingsBadgeRow(ratings: ratings.ratings, familyGuidanceAge: ratings.age)
+                            .fixedSize()
+                    }
                 }
-
-                if showsRatings, let ratings {
-                    RatingsBadgeRow(ratings: ratings.ratings, familyGuidanceAge: ratings.age)
+                .modifier(HeroTextLegibilityShadow(colorScheme: colorScheme))
+                if descriptionLines > 0, let description = HeroContentPolicy.homeDescription(for: presentation) {
+                    FocusHeroScrollingDescription(
+                        text: description.overviewPlainText,
+                        lines: descriptionLines,
+                        font: .system(size: PlozzTypography.heroDescription.scaled(by: textScale).pointSize),
+                        lineSpacing: PlozzTypography.heroDescription.scaled(by: textScale).lineSpacing
+                    )
+                    .frame(maxWidth: FocusHeroLayout.columnWidth, alignment: .topLeading)
+                    .modifier(HeroTextLegibilityShadow(colorScheme: colorScheme))
                 }
             }
         }
@@ -1764,6 +1724,68 @@ struct FocusHeroColumn: View {
     }
 }
 
+/// The synopsis at a fixed number of lines. When the text is longer it scrolls
+/// slowly up to its end, so every row keeps one text size and one height.
+private struct FocusHeroScrollingDescription: View {
+    let text: String
+    let lines: Int
+    let font: Font
+    let lineSpacing: CGFloat
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var viewportHeight: CGFloat = 0
+    @State private var fullHeight: CGFloat = 0
+    @State private var offset: CGFloat = 0
+
+    /// How far the text has to travel for its last line to show.
+    private var overflow: CGFloat { max(0, fullHeight - viewportHeight) }
+    private static let startDelay: Duration = .seconds(2)
+    private static let pointsPerSecond: CGFloat = 14
+
+    var body: some View {
+        // The clamped copy sets the size, so layout matches a plain line-limited text.
+        Text(text)
+            .font(font)
+            .lineSpacing(lineSpacing)
+            .lineLimit(lines)
+            .opacity(0)
+            .accessibilityHidden(true)
+            .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { viewportHeight = $0 }
+            .overlay(alignment: .topLeading) {
+                Text(text)
+                    .font(font)
+                    .foregroundStyle(.primary)
+                    .lineSpacing(lineSpacing)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { fullHeight = $0 }
+                    .offset(y: -offset)
+                    .accessibilityIdentifier("showcase-description")
+            }
+            .clipped()
+            .mask {
+                // Soften the cut where lines scroll in and out; plain text keeps full strength.
+                let fade = overflow > 1 ? min(0.2, 12 / max(viewportHeight, 1)) : 0
+                LinearGradient(
+                    stops: [
+                        .init(color: fade > 0 && offset > 0 ? .clear : .black, location: 0),
+                        .init(color: .black, location: fade),
+                        .init(color: .black, location: 1 - fade),
+                        .init(color: fade > 0 && offset < overflow ? .clear : .black, location: 1)
+                    ],
+                    startPoint: .top, endPoint: .bottom
+                )
+            }
+            .task(id: overflow) {
+                offset = 0
+                guard overflow > 1, !reduceMotion else { return }
+                try? await Task.sleep(for: Self.startDelay)
+                guard !Task.isCancelled else { return }
+                withAnimation(.linear(duration: Double(overflow / Self.pointsPerSecond))) {
+                    offset = overflow
+                }
+            }
+    }
+}
+
 struct FocusHeroContentFit: ViewModifier {
     let motion: FocusHeroRowMotion
 
@@ -1776,10 +1798,14 @@ struct FocusHeroContentFit: ViewModifier {
     }
 }
 
-/// Reserve badge headroom independently of loading, trim description lines first,
-/// then constrain the logo before it can overlap library navigation.
+/// Reserve badge headroom independently of loading. The details keep their
+/// description lines and the logo gives way: it moves up and shrinks, to no
+/// less than half its height, before description lines are trimmed. The logo
+/// is constrained so it cannot overlap library navigation.
 private struct FocusHeroConstrainedDetailsLayout: Layout {
     let logoHeight: CGFloat
+    /// The smallest the logo is made before the description is trimmed instead.
+    private var minimumLogoHeight: CGFloat { logoHeight * 0.5 }
 
     func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
         CGSize(width: proposal.width ?? FocusHeroLayout.columnWidth, height: proposal.height ?? 0)
@@ -1792,7 +1818,7 @@ private struct FocusHeroConstrainedDetailsLayout: Layout {
         let detailsGap: CGFloat = 18
         let details = subviews[2].sizeThatFits(.init(
             width: bounds.width,
-            height: max(0, bounds.height - badge.height - badgeGap - logoHeight - detailsGap)
+            height: max(0, bounds.height - badge.height - badgeGap - minimumLogoHeight - detailsGap)
         ))
         let height = min(logoHeight, max(0, bounds.height - badge.height - badgeGap - details.height - detailsGap))
         var y = bounds.maxY - badge.height - badgeGap - height - detailsGap - details.height

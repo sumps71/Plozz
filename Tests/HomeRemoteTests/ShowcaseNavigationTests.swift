@@ -594,31 +594,29 @@ final class ShowcaseNavigationTests: XCTestCase {
         }
     }
 
-    func testScheduleBadgeClearsTallLogoDuringHorizontalNavigation() throws {
+    func testSeriesAndMovieSynopsesShareTextSize() throws {
         let app = XCUIApplication(bundleIdentifier: "com.thatcube.Plozz.FocusHost")
         app.launchArguments = [
             "--production-home-fixture", "--pinned-home", "--immersive-home",
-            "--showcase-schedule-fixture",
+            "--mixed-kind-fixture", "--custom-showcase-text",
         ]
         app.launch()
         defer { app.terminate() }
         XCTAssertTrue(app.staticTexts["Production Home ready"].waitForExistence(timeout: 30))
         try enterMediaRow(in: app)
+        // The fixture alternates movies and series, so neighbours differ in kind.
+        var heights: [CGFloat] = []
         for _ in 0..<4 {
-            let badge = app.descendants(matching: .any)["showcase-schedule"].firstMatch
-            let logo = app.images["showcase-title-logo"].firstMatch
-            XCTAssertTrue(badge.waitForExistence(timeout: 5))
-            XCTAssertTrue(logo.waitForExistence(timeout: 5), "Measure decoded artwork, not the fallback title.")
-            XCTAssertLessThanOrEqual(logo.frame.height, 124.5)
-            XCTAssertGreaterThanOrEqual(logo.frame.minY - badge.frame.maxY, 15.5)
-            XCTAssertGreaterThanOrEqual(badge.frame.minY, app.frame.minY)
+            let synopsis = app.staticTexts["showcase-description"].firstMatch
+            XCTAssertTrue(synopsis.waitForExistence(timeout: 5))
+            heights.append(synopsis.frame.height)
             XCUIRemote.shared.press(.right)
-            Thread.sleep(forTimeInterval: 0.2)
+            Thread.sleep(forTimeInterval: 0.5)
         }
-        let screenshot = XCTAttachment(screenshot: app.screenshot())
-        screenshot.name = "showcase-schedule-above-tall-logo"
-        screenshot.lifetime = .keepAlways
-        add(screenshot)
+        let first = try XCTUnwrap(heights.first)
+        for height in heights {
+            XCTAssertEqual(height, first, accuracy: 1, "A series and a movie must scale the synopsis alike: \(heights)")
+        }
     }
 
     func testLargerPostersAndCompactHeadingsWithNativeFocus() throws {

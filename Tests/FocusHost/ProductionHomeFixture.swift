@@ -1331,6 +1331,9 @@ private final class ProductionHomeState {
             ? .heroShowcase
             : ProcessInfo.processInfo.arguments.contains("--immersive-home") ? .followsFocus : .carousel
         settings.showsDiscoverRow = ProcessInfo.processInfo.arguments.contains("--showcase-discover-fixture")
+        // Any non-default size turns on the hero's fit-to-row scaling.
+        settings.showcaseTextSize = ProcessInfo.processInfo.arguments.contains("--custom-showcase-text")
+            ? HeroTextSize(rawValue: 2) : .default
         heroSettings.settings = settings
         background.settings.homeTrailerEnabled = ProcessInfo.processInfo.arguments.contains("--hero-trailer-controls")
         if trailerURL != nil { background.settings.detailMode = .trailer }
@@ -1371,11 +1374,7 @@ private final class ProductionHomeState {
         settingsStore.save(settings)
         let poster = await artwork(name: "poster", size: CGSize(width: 240, height: 360), color: .systemIndigo)
         let backdrop = await artwork(name: "backdrop", size: CGSize(width: 960, height: 540), color: .systemBlue)
-        let scheduleFixture = ProcessInfo.processInfo.arguments.contains("--showcase-schedule-fixture")
-        let logo = await artwork(
-            name: "logo", size: scheduleFixture ? CGSize(width: 180, height: 320) : CGSize(width: 320, height: 100),
-            color: .white
-        )
+        let logo = await artwork(name: "logo", size: CGSize(width: 320, height: 100), color: .white)
         let trailerURL: URL?
         if ProcessInfo.processInfo.arguments.contains("--library-detail-sequence")
             || ProcessInfo.processInfo.arguments.contains("--hero-trailer-controls") {
@@ -1453,12 +1452,7 @@ private final class ProductionHomeState {
         let url = URL(string: "https://production-home.example.test/\(name).png")!
         let complex = ProcessInfo.processInfo.arguments.contains("--complex-home-artwork")
         let image = UIGraphicsImageRenderer(size: size).image { context in
-            if name == "logo", ProcessInfo.processInfo.arguments.contains("--showcase-schedule-fixture") {
-                UIColor.systemGreen.setFill()
-                context.fill(CGRect(x: 20, y: 10, width: 40, height: 300))
-                context.fill(CGRect(x: 50, y: 10, width: 110, height: 40))
-                context.fill(CGRect(x: 50, y: 140, width: 70, height: 40))
-            } else if complex, name == "logo" {
+            if complex, name == "logo" {
                 for index in 0..<8 {
                     UIColor(hue: CGFloat(index) / 8, saturation: 0.85, brightness: 0.95, alpha: 1).setFill()
                     UIBezierPath(roundedRect: CGRect(
@@ -1579,7 +1573,8 @@ private struct ProductionHomeProvider: MediaProvider, WatchlistProviding {
             .map { String($0.dropFirst("--home-artwork-cache-namespace=".count)) + "-" } ?? ""
         var item = MediaItem(
             id: "\(namespace)home-movie-\(index)", title: "Fixture movie \(index)",
-            kind: ProcessInfo.processInfo.arguments.contains("--showcase-schedule-fixture") ? .series : .movie,
+            kind: ProcessInfo.processInfo.arguments.contains("--mixed-kind-fixture") && !index.isMultiple(of: 2)
+                ? .series : .movie,
             posterURL: poster, backdropURL: backdrop
         )
         item.sourceAccountID = "home-fixture"
@@ -1639,21 +1634,6 @@ private struct ProductionHomeProvider: MediaProvider, WatchlistProviding {
         if ProcessInfo.processInfo.arguments.contains("--empty-home-resume") { return [] }
         try await holdForSlowLoad()
         let items = Array((0..<rowCount).prefix(limit).map(movie))
-        if ProcessInfo.processInfo.arguments.contains("--showcase-schedule-fixture") {
-            let now = Date()
-            for item in items {
-                await SeriesScheduleStore.shared.store(SeriesScheduleRecord(
-                    seriesKey: MetadataQuery(item).seriesScoped.enrichmentCacheKey,
-                    upcomingEpisode: UpcomingEpisode(
-                        seriesIdentity: .external(source: "fixture", value: item.id),
-                        airDate: now.addingTimeInterval(20 * 86_400),
-                        datePrecision: .dateOnly, source: .tvdb, refreshedAt: now
-                    ),
-                    cadence: AirCadence(weekdays: [6]),
-                    refreshedAt: now, refreshDueAt: now.addingTimeInterval(3_600)
-                ))
-            }
-        }
         return items
     }
     func latest(limit: Int) async throws -> [MediaItem] {
