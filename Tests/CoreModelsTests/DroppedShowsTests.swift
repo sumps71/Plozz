@@ -95,10 +95,38 @@ final class DroppedShowsTests: XCTestCase {
 
     // MARK: - Menu
 
-    private func actions(_ item: MediaItem, dropped: Bool?) -> [MediaItemAction] {
+    private func actions(
+        _ item: MediaItem, dropped: Bool?, context: MediaItemActionContext = .continueWatching
+    ) -> [MediaItemAction] {
         MediaItemActionCatalog.actions(
-            for: item, supportsWatchState: true, isShowDropped: dropped, context: .continueWatching
+            for: item, supportsWatchState: true, isShowDropped: dropped, context: context
         )
+    }
+
+    func testNextUpOffersDropShow() {
+        XCTAssertEqual(actions(episode("e1"), dropped: false, context: .nextUp).last, .dropShow)
+    }
+
+    /// Away from Continue Watching and Next Up the show isn't being suggested, so
+    /// there is nothing to drop it from; an episode keeps its ordinary removal.
+    func testOtherRowsDoNotOfferDropShow() {
+        var inProgress = episode("e1")
+        inProgress.resumePosition = 600
+        var season = MediaItem(id: "s1", title: "Season 1", kind: .season)
+        season.seriesID = "series"
+        let series = MediaItem(id: "series", title: "Show", kind: .series)
+        for item in [inProgress, season, series] {
+            XCTAssertFalse(actions(item, dropped: false, context: .none).contains(.dropShow), item.id)
+        }
+        XCTAssertEqual(actions(inProgress, dropped: false, context: .none).last, .removeFromContinueWatching)
+    }
+
+    /// A dropped show never reaches the rows it was dropped from, so it can be
+    /// taken back wherever it appears.
+    func testUndropIsOfferedOffTheRows() {
+        let series = MediaItem(id: "series", title: "Show", kind: .series)
+        XCTAssertTrue(actions(series, dropped: true, context: .none).contains(.undropShow))
+        XCTAssertEqual(actions(episode("e1"), dropped: true, context: .none).last, .undropShow)
     }
 
     /// On an episode, Drop Show takes the place of removing it.
