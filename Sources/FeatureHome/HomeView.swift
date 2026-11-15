@@ -243,6 +243,7 @@ public struct HomeView: View {
     private let onPollShares: () -> Void
     @State private var navigationActivity = HomeNavigationActivity()
     @State private var featuredTrailers = FeaturedTrailerCoordinator()
+    @State private var rowFocusTracker = MediaRowFocusTracker()
     private let heroTrailerResolver: HeroTrailerResolving
     private let heroIsFrontmost: Bool
     private let heroCurator: HeroCurator
@@ -437,7 +438,7 @@ public struct HomeView: View {
             screen
                 .environment(\.mediaRowHeaderTrailingInset,
                              navigationStyle == .rail ? geometry.safeAreaInsets.trailing : 0)
-                .environment(\.resetsMediaRowOnFocusExit, resetsRowsOnFocusExit)
+                .environment(\.mediaRowFocusTracker, resetsRowsOnFocusExit ? rowFocusTracker : nil)
         }
     }
 
