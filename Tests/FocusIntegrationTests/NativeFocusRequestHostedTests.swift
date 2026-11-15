@@ -114,6 +114,34 @@ final class NativeFocusRequestHostedTests: XCTestCase {
         XCTAssertEqual(calls, 1, "The old ordered-action scope must no longer execute.")
     }
 
+    func testNativeMenuScopeChangeNeverReportsPresentationDuringTheUpdate() async throws {
+        let coordinator = NativeMediaItemMenuCoordinator()
+        let button = UIButton(type: .custom)
+        let container = UIView()
+        container.addSubview(button)
+        let locale = Locale(identifier: "en_US")
+        var reported: [Bool] = []
+        func update(_ id: String) {
+            coordinator.update(.init(
+                item: MediaItem(id: id, title: id, kind: .episode), actions: [.markWatched],
+                perform: { _ in }, onPresentationChanged: { reported.append($0) }
+            ), locale: locale, button: button, interactionView: container)
+        }
+        update("first")
+        update("second")
+        XCTAssertEqual(reported, [], "A menu that was never shown must not be retracted.")
+
+        let interaction = try XCTUnwrap(coordinator.interaction)
+        coordinator.contextMenuInteraction(
+            interaction, willDisplayMenuFor: UIContextMenuConfiguration(), animator: nil
+        )
+        XCTAssertEqual(reported, [true])
+        update("third")
+        XCTAssertEqual(reported, [true], "Owner state must not be written inside updateUIView.")
+        for _ in 0..<10 where reported.count < 2 { await Task.yield() }
+        XCTAssertEqual(reported, [true, false])
+    }
+
     func testNativeEpisodeMenuUsesAWholeCardPreview() async throws {
         let fixture = try await makeFixture()
         defer { fixture.close() }

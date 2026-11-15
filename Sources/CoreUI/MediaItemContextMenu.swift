@@ -405,6 +405,9 @@ final class NativeMediaItemMenuCoordinator: NSObject, UIContextMenuInteractionDe
     private(set) var menu: UIMenu?
     private(set) var interaction: UIContextMenuInteraction?
     private var isPresented = false
+    /// The last state handed to the callbacks, so updates only retract a menu
+    /// the owner was actually told about.
+    private var reportedPresented = false
     private var presentationRevision = 0
     var onPresentationChanged: ((Bool) -> Void)?
 
@@ -418,6 +421,7 @@ final class NativeMediaItemMenuCoordinator: NSObject, UIContextMenuInteractionDe
         locale = nil
         menu = nil
         isPresented = false
+        reportedPresented = false
         let interaction = self.interaction
         self.interaction = nil
         interaction?.dismissMenu()
@@ -439,7 +443,9 @@ final class NativeMediaItemMenuCoordinator: NSObject, UIContextMenuInteractionDe
         let changed = scopeChanged || self.configuration?.actions != configuration?.actions || self.locale != locale
         if scopeChanged {
             presentationRevision += 1
-            notifyPresentationChanged(false)
+            if reportedPresented {
+                notifyPresentationChanged(false, duringViewUpdate: true)
+            }
         }
         if let interaction, self.button !== button || interaction.view !== interactionView {
             interaction.dismissMenu()
@@ -543,9 +549,22 @@ final class NativeMediaItemMenuCoordinator: NSObject, UIContextMenuInteractionDe
         }
     }
 
-    private func notifyPresentationChanged(_ presented: Bool) {
+    private func notifyPresentationChanged(_ presented: Bool, duringViewUpdate: Bool = false) {
+        reportedPresented = presented
         onPresentationChanged?(presented)
-        configuration?.onPresentationChanged?(presented)
+        guard let callback = configuration?.onPresentationChanged else { return }
+        guard duringViewUpdate else {
+            callback(presented)
+            return
+        }
+        // `update` runs inside `updateUIView`, and the owner's callback writes
+        // SwiftUI state; writing it mid-update is undefined behavior. Deliver it
+        // on the next main-actor turn unless the view was dismantled meanwhile.
+        let revision = presentationRevision
+        Task { @MainActor [weak self] in
+            guard let self, self.presentationRevision == revision else { return }
+            callback(presented)
+        }
     }
 
     private func cardPreview() -> UITargetedPreview? {
