@@ -2932,6 +2932,7 @@ struct PlozziOSHomeRowView: View {
                 )
                 .environment(\.plozzArtworkArea, row.kind == .continueWatching ? .continueWatching : .homeRows)
                 .environment(\.plozzCardShowsUpcomingEpisodeCaption, row.kind == .upcomingEpisodes)
+                .mediaItemActionContext(row.kind == .continueWatching ? .continueWatching : .none)
             }
         }
     }

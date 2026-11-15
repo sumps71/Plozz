@@ -1462,6 +1462,7 @@ public struct HomeView: View {
             )
             .browsingRow(row.items.isEmpty ? nil : onBrowse)
             .environment(\.plozzArtworkArea, .continueWatching)
+            .mediaItemActionContext(.continueWatching)
         case .watchlist:
             MediaRowView(
                 title: row.displayName,
@@ -1818,6 +1819,7 @@ public struct HomeView: View {
                     )
                     .browsingRow(row.items.isEmpty ? nil : onBrowse)
                     .environment(\.plozzArtworkArea, .continueWatching)
+                    .mediaItemActionContext(.continueWatching)
                 case .watchlist:
                     MediaRowView(
                         title: row.displayName,

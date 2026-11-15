@@ -338,7 +338,27 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
         )
     }
 
-    public private(set) var state: LoadState<Content> = .idle {
+    /// What Home shows.
+    ///
+    /// Every write passes through here, which is what keeps dropped shows off
+    /// Continue Watching, Next Up and Upcoming wherever the content came from —
+    /// a load, a cached snapshot, or an in-place update. Filtering on the way in
+    /// rather than in each view means the rows, the hero and Top Shelf can never
+    /// disagree about it.
+    public private(set) var state: LoadState<Content> {
+        get { storedState }
+        set {
+            guard case let .loaded(content) = newValue else {
+                storedState = newValue
+                return
+            }
+            let visible = content.excludingDroppedShows(droppedShows)
+            // Only the filter differed: what Home shows has not changed.
+            if visible != content, storedState.value == visible { return }
+            storedState = .loaded(visible)
+        }
+    }
+    private var storedState: LoadState<Content> = .idle {
         didSet { stateRevision &+= 1 }
     }
     @ObservationIgnored private var stateRevision: UInt64 = 0
@@ -493,6 +513,9 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
     /// View subscriptions disappear while detail/playback covers Home, but the
     /// retained model must still receive completion and server-confirmation events.
     @ObservationIgnored private nonisolated(unsafe) var watchMutationObserver: NSObjectProtocol?
+    @ObservationIgnored private nonisolated(unsafe) var droppedShowsObserver: NSObjectProtocol?
+    @ObservationIgnored private let droppedShows: DroppedShowsModel
+    @ObservationIgnored private var droppedShowCount: Int
     @ObservationIgnored private nonisolated(unsafe) var watchlistProviderObserver: NSObjectProtocol?
     @ObservationIgnored private nonisolated(unsafe) var collectionRefreshTask: Task<Void, Never>?
     @ObservationIgnored var collectionRefreshQueue = HomeCollectionRefreshQueue()
@@ -567,8 +590,12 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
         mediaItemActionHandler: (any MediaItemActionHandling)? = nil,
         policy: ContinueWatchingPolicy = .default,
         rowPreviewLimit: Int = HomeRowCardCount.standardPreviewLimit,
+        droppedShows: DroppedShowsModel? = nil,
         contentPublisher: @escaping HomeContentPublishing = { _, _ in }
     ) {
+        let droppedShows = droppedShows ?? .shared(namespace: profileNamespace)
+        self.droppedShows = droppedShows
+        self.droppedShowCount = droppedShows.shows.count
         self.rowPreviewLimit = max(1, rowPreviewLimit)
         self.accounts = accounts
         self.profileNamespace = profileNamespace
@@ -689,6 +716,11 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
                 }
             }
         }
+        droppedShowsObserver = NotificationCenter.default.addObserver(
+            forName: .droppedShowsDidChange, object: droppedShows, queue: .main
+        ) { [weak self] _ in
+            MainActor.assumeIsolated { self?.droppedShowsChanged() }
+        }
         watchlistProviderObserver = NotificationCenter.default.addObserver(
             forName: WatchlistProviderChange.notification, object: nil, queue: .main
         ) { [weak self] note in
@@ -703,6 +735,7 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
     deinit {
         recommendationContext.invalidate()
         if let watchMutationObserver { NotificationCenter.default.removeObserver(watchMutationObserver) }
+        if let droppedShowsObserver { NotificationCenter.default.removeObserver(droppedShowsObserver) }
         if let watchlistProviderObserver { NotificationCenter.default.removeObserver(watchlistProviderObserver) }
         collectionRefreshTask?.cancel()
         aggregationTask?.cancel()
@@ -2401,6 +2434,15 @@ public final class HomeViewModel: HomeContentSnapshotProviding {
     /// reads as a removal rather than as lag. See ``serverConfirmedTargets``.
     private func noteServerConfirmed(_ fetched: [MediaItem]) {
         for item in fetched { serverConfirmedTargets.formUnion(Self.scopeKeys(of: item)) }
+    }
+
+    /// A drop leaves the loaded rows at once, with no refetch and no focus reset.
+    /// Taking one back has to fetch: the show's cards were never kept.
+    private func droppedShowsChanged() {
+        let undropped = droppedShows.shows.count < droppedShowCount
+        droppedShowCount = droppedShows.shows.count
+        state = storedState
+        if undropped { schedulePlaybackReload() }
     }
 
     /// Fetches Next Up and confirmed episode counts, or reconciles a newly placed
