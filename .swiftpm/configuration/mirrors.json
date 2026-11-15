@@ -1,0 +1,9 @@
+{
+  "object" : [
+    {
+      "mirror" : "https://github.com/thatcube/SMBClient.git",
+      "original" : "https://github.com/kishikawakatsumi/SMBClient"
+    }
+  ],
+  "version" : 1
+}

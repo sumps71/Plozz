@@ -294,10 +294,13 @@ let package = Package(
         // GCM encryption and Session.isGuestSession (see the guest/credential
         // handling in ProviderShare/SMBDiscovery). This root-level reference
         // overrides the same-identity ("smbclient") reference AetherEngine pulls
-        // transitively, so BOTH browse and playback use the SMB3 fork. Proposed
-        // upstream as kishikawakatsumi/SMBClient#234; switch back to
+        // transitively, so BOTH browse and playback use the SMB3 fork. The
+        // committed .swiftpm/configuration/mirrors.json maps AetherEngine's
+        // upstream URL to this fork so SwiftPM does not report a conflicting
+        // identity; tools/generate-project.sh copies it into the Xcode workspace.
+        // Proposed upstream as kishikawakatsumi/SMBClient#234; switch back to
         //   .package(url: "https://github.com/kishikawakatsumi/SMBClient", from: "0.3.1"),
-        // once that lands.
+        // and delete the mirror once that lands.
         // This pin also consumes connection completion once across queued
         // network-state callbacks, including failure after a successful connect.
         .package(url: "https://github.com/thatcube/SMBClient.git", revision: "5d5bceb6fa0833c98b0eecc676609c9476bd9423"),

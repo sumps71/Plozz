@@ -121,6 +121,21 @@ if ! cmp -s "$canonical_package_lock" "$workspace_package_lock"; then
   echo "Synced ${canonical_package_lock} to ${workspace_package_lock}"
 fi
 
+# AetherEngine depends on upstream kishikawakatsumi/SMBClient while Plozz pins the
+# thatcube SMB3 fork under the same "smbclient" identity. The committed mirror
+# routes the transitive URL to the fork so SwiftPM sees one location instead of
+# a conflicting identity. Xcode reads mirrors from the workspace, not the package
+# root, so keep the workspace copy identical to the canonical one.
+canonical_package_mirrors=".swiftpm/configuration/mirrors.json"
+workspace_package_mirrors="${workspace_package_dir}/configuration/mirrors.json"
+mkdir -p "$(dirname "$workspace_package_mirrors")"
+if ! cmp -s "$canonical_package_mirrors" "$workspace_package_mirrors"; then
+  temporary_package_mirrors="${workspace_package_mirrors}.tmp.$$"
+  cp "$canonical_package_mirrors" "$temporary_package_mirrors"
+  mv -f "$temporary_package_mirrors" "$workspace_package_mirrors"
+  echo "Synced ${canonical_package_mirrors} to ${workspace_package_mirrors}"
+fi
+
 # If PLOZZ_SENTRY_DSN wasn't provided in the environment, read it from a
 # gitignored env file so one file feeds both local device builds and `fastlane`
 # (which also exports it). An explicit env override always wins.

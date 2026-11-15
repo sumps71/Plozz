@@ -16,7 +16,12 @@ trace-output/
 # Swift Package Manager
 .build/
 .build-dd/
-.swiftpm/
+.swiftpm/*
+# Committed SwiftPM mirrors (see Package.swift's SMBClient note); everything else
+# under .swiftpm stays local.
+!.swiftpm/configuration/
+.swiftpm/configuration/*
+!.swiftpm/configuration/mirrors.json
 
 # macOS
 .DS_Store
