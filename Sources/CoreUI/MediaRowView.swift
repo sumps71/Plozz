@@ -1084,7 +1084,7 @@ public struct MediaRowView: View {
         )
     }
 
-    private var leadingItemID: String? { Self.uniqued(items).first?.stablePresentationID }
+    private var leadingItemID: String? { items.first?.stablePresentationID }
 
     private var leadingBrowseHiddenOffset: CGFloat {
         MediaRowLeadingBrowse.hiddenOffset(cardWidth: cardSlotWidth, spacing: layoutMetrics.cardSpacing)
@@ -1133,7 +1133,7 @@ public struct MediaRowView: View {
             style: presentation == .poster ? .poster : .landscape,
             showsSeriesArtwork: showsSeriesArtwork,
             isLeading: isLeading,
-            previewItems: Array(Self.uniqued(items).prefix(MediaRowBrowsePreview.maximumCount)),
+            previewItems: Array(items.prefix(MediaRowBrowsePreview.maximumCount)),
             previewArtworkPolicy: artworkPolicy,
             onFocus: {
                 activity.browseCardHasFocus = true
